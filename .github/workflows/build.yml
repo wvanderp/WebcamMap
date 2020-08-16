@@ -22,10 +22,10 @@ jobs:
     - name: npm run build
       run: npm run build
       
-     - name: push changes to remote
-     run: |
-       git config --global user.name "wvanderp"
-       git config --global user.email "wouterv.dplas@gmail.com"
+    - name: push changes to remote
+      run: |
+        git config --global user.name "wvanderp"
+        git config --global user.email "wouterv.dplas@gmail.com"
 
     - name: git add
       run: git add build && git commit -m "Initial dist subtree commit"
