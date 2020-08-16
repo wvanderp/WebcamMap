@@ -28,7 +28,7 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
     - name: git add
-      run: git add build && git commit -m "Initial dist subtree commit"
+      run: git add build && git commit -m "Initial build subtree commit"
 
     - name: git push
-      run: git subtree push --prefix dist origin gh-pages
+      run: git subtree push --prefix build origin gh-pages
