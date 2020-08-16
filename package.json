@@ -55,6 +55,7 @@
     "app": "parcel src/index.html",
     "lint": "eslint --ext ts,tsx,json,js src/",
     "tsc": "tsc --noEmit",
-    "updateData": "ts-node updateData.ts"
+    "updateData": "ts-node updateData.ts",
+    "build": "parcel build --out-dir ./build src/index.html"
   }
 }

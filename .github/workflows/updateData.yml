@@ -19,8 +19,8 @@ jobs:
     - name: npm install
       run: npm install
       
-    - name: npm run build
-      run: npm run build
+    - name: npm run updateData
+      run: npm run updateData
 
     - name: git add
       run: git add build && git commit -m "Initial dist subtree commit"
