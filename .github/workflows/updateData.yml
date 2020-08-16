@@ -1,4 +1,4 @@
-name: CI
+name: Update
 
 on:
   push:
@@ -22,8 +22,13 @@ jobs:
     - name: npm run updateData
       run: npm run updateData
 
-    - name: git add
-      run: git add build && git commit -m "Initial dist subtree commit"
+    - name: push changes to remote
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-    - name: git push
-      run: git subtree push --prefix dist origin gh-pages
+        git add -A
+
+        git commit -m "updated the data"
+
+        git push
