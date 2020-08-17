@@ -19,9 +19,9 @@ jobs:
     - name: npm install
       run: npm install
       
-    - name: npm run build
-      run: npm run build
-      
+    - name: npm run buildGit
+      run: npm run buildGit
+
      - name: push changes to remote
      run: |
        git config --global user.name "wvanderp"

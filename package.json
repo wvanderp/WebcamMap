@@ -56,6 +56,7 @@
     "lint": "eslint --ext ts,tsx,json,js src/",
     "tsc": "tsc --noEmit",
     "updateData": "ts-node updateData.ts",
-    "build": "parcel build --out-dir ./build src/index.html"
+    "build": "parcel build --out-dir ./build src/index.html",
+    "buildGit": "parcel build --out-dir ./build --public-url ./WebcamMap/ src/index.html"
   }
 }
