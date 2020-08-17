@@ -22,6 +22,7 @@ ReactDOM.render(
     <Router>
         <Switch>
             <Route exact path="/" component={MapView}/>
+            <Route exact path="/WebcamMap/" component={MapView}/>
             <Route component={FourOFour}/>
         </Switch>
     </Router>,
