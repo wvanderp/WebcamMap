@@ -31,4 +31,7 @@ jobs:
       run: git add build && git commit -m "Initial build subtree commit"
 
     - name: git push
-      run: git subtree push --prefix build origin gh-pages
+      run: |
+        git subtree split --prefix build -b gh-pages
+        git push -f origin gh-pages:gh-pages
+        git branch -D gh-pages
