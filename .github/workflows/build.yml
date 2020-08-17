@@ -21,14 +21,14 @@ jobs:
       
     - name: npm run buildGit
       run: npm run buildGit
-
-     - name: push changes to remote
-     run: |
-       git config --global user.name "wvanderp"
-       git config --global user.email "wouterv.dplas@gmail.com"
+      
+    - name: push changes to remote
+      run: |
+        git config --global user.name "wvanderp"
+        git config --global user.email "wouterv.dplas@gmail.com"
 
     - name: git add
-      run: git add build && git commit -m "Initial dist subtree commit"
+      run: git add build && git commit -m "Initial build subtree commit"
 
     - name: git push
-      run: git subtree push --prefix dist origin gh-pages
+      run: git subtree push --prefix build origin gh-pages
