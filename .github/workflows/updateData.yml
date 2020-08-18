@@ -34,6 +34,6 @@ jobs:
 
         git add -A
 
-        git commit -m "updated the data"
+        git commit --exit-code -m "updated the data"
 
         git push
