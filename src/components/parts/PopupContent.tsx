@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import {PropsWithChildren} from 'react';
 // @ts-expect-error  svg files are not compatible with typescript
 import playIcon from '../../static/play.svg';
 // @ts-expect-error  svg files are not compatible with typescript
@@ -9,7 +9,11 @@ import {Webcam} from '../../types/webcam';
 
 const pattern = /^((http|https|ftp):\/\/)/;
 
-const PopupContent: React.FC<{ cam: Webcam }> = (props: { cam: Webcam }) => {
+interface PopupContentProps {
+    cam: Webcam
+}
+
+const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (props: PropsWithChildren<PopupContentProps>) => {
     const {cam} = props;
 
     const url = pattern.test(cam.url) ? cam.url : `http://${cam.url}`;
