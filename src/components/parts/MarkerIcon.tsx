@@ -6,11 +6,10 @@ import webcamIcon from '../../static/icon.svg';
 const iconHeight = 50;
 const iconWidth = 32;
 
-
 const MarkerIcon = icon({
     iconUrl: webcamIcon,
     iconSize: [iconWidth, iconHeight],
-    iconAnchor: [iconWidth / 2, iconHeight/2]
+    iconAnchor: [iconWidth / 2, iconHeight / 2]
 });
 
 export default MarkerIcon;
