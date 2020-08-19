@@ -1,4 +1,8 @@
 import * as React from 'react';
+import {connect} from 'react-redux';
+import {Dispatch} from 'redux';
+
+import {appState} from '../../reducers/RootReducer';
 import * as R from 'ramda';
 import {Map, Marker, Popup, TileLayer, Viewport} from 'react-leaflet';
 
@@ -8,11 +12,7 @@ import webcams from '../../../data/webcams.json';
 import Menu from '../parts/Menu';
 import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
-import {Dispatch} from 'react';
-import {UPDATE_LOCATION_ACTION_ACTIONS} from '../../types/actions/LocationActions';
-import {view} from 'ramda';
-import {connect} from 'react-redux';
-import {appState} from '../../reducers/RootReducer';
+import {Webcam} from '../../types/webcam';
 
 interface MapViewProps {
     dispatch: Dispatch
@@ -21,13 +21,14 @@ interface MapViewProps {
 class MapView extends React.Component<MapViewProps> {
     render(): JSX.Element {
         const markers = R.map((r) => {
+            const webcam = r as Webcam;
             if (r === null) {
                 return null;
             }
             return (
-                <Marker key={r.osmID} position={[r.lat, r.lon]} icon={MarkerIcon}>
+                <Marker key={r.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
                     <Popup>
-                        <PopupContent cam={r}/>
+                        <PopupContent webcam={webcam}/>
                     </Popup>
                 </Marker>
             );
