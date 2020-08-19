@@ -34,6 +34,11 @@ jobs:
 
         git add -A
 
-        git commit -m "updated the data"
-
-        git push
+        if [ -z "$(git status --porcelain)" ]; then 
+          echo "No changes"
+        else 
+          git commit -m "updated the data"
+          git push
+        fi
+      
+        
