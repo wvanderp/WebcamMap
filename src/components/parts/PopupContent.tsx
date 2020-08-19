@@ -9,21 +9,35 @@ import {Webcam} from '../../types/webcam';
 
 const pattern = /^((http|https|ftp):\/\/)/;
 
+const AddressBreadCrumb: React.FC<{ address: Webcam['address'] }> = (props: { address: Webcam['address'] }) => {
+    const {address} = props;
+    return (
+        <ul className={'breadCrumbs'}>
+            {address.country && <li className={'breadCrumb'}>{address.country}</li>}
+            {address.state && <li className={'breadCrumb'}>{address.state}</li>}
+            {address.county && <li className={'breadCrumb'}>{address.county}</li>}
+            {address.city && <li className={'breadCrumb'}>{address.city}</li>}
+        </ul>
+    );
+};
+
 interface PopupContentProps {
-    cam: Webcam
+    webcam: Webcam
 }
 
 const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (props: PropsWithChildren<PopupContentProps>) => {
-    const {cam} = props;
+    const {webcam} = props;
 
-    const url = pattern.test(cam.url) ? cam.url : `http://${cam.url}`;
+    const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
     return (
         <div id={'PopupContent'}>
-            <h1>{cam.operator ?? 'Unknown'}</h1>
+            <h1>{webcam.operator ?? 'Unknown'}</h1>
+            <br/>
+            <AddressBreadCrumb address={webcam.address}/>
             <br/>
             <a
-                href={`https://www.openstreetmap.org/${cam.osmType}/${cam.osmID}`}
+                href={`https://www.openstreetmap.org/${webcam.osmType}/${webcam.osmID}`}
                 target={'_blank'}
                 rel="noopener noreferrer"
             >

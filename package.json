@@ -45,6 +45,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
+    "iso-3166-1-alpha-2": "^1.0.0",
     "jquery": "^3.5.1",
     "leaflet": "^1.6.0",
     "ramda": "^0.27.1",
@@ -63,7 +64,7 @@
     "app": "parcel src/index.html",
     "lint": "eslint --ext ts,tsx,json,js src/",
     "tsc": "tsc --noEmit",
-    "updateData": "ts-node updateData.ts",
+    "updateData": "ts-node --files utils/updateData.ts",
     "build": "parcel build --out-dir ./build src/index.html",
     "buildGit": "parcel build --out-dir ./build --public-url ./ src/index.html"
   }
