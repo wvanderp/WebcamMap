@@ -5560,14 +5560,17 @@
   {
     "type": "node",
     "id": 3138374084,
-    "lat": 52.2517464,
-    "lon": 6.1546038,
+    "lat": 52.2517091,
+    "lon": 6.1547654,
     "tags": {
-      "contact:webcam": "http://streaming02.mapgear.eu/deventer_rvdr/camera1.stream_720p/playlist.m3u8",
+      "camera:mount": "tower",
+      "camera:type": "panning",
+      "contact:webcam": "http://webcam.mapgear.nl/deventer_stadhuiskwartier/",
       "man_made": "surveillance",
+      "operator": "gemeente deventer",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "website": "http://webcam.mapgear.nl/rvdr_deventer/"
+      "website": "http://webcam.mapgear.nl/deventer_stadhuiskwartier/"
     }
   },
   {
@@ -10931,7 +10934,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://explore.cityofadelaide.com.au/webcams/rundle-street-projector/",
       "man_made": "surveillance",
-      "operattor": "City of Adelaide",
+      "operator": "City of Adelaide",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
@@ -10947,7 +10950,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://explore.cityofadelaide.com.au/webcams/rundle-lantern/",
       "man_made": "surveillance",
-      "operattor": "City of Adelaide",
+      "operator": "City of Adelaide",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
@@ -10980,6 +10983,37 @@
       "contact:webcam": "https://explore.cityofadelaide.com.au/webcams/town-hall-north/",
       "man_made": "surveillance",
       "operator": "City of Adelaide",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7829797889,
+    "lat": -32.9883656,
+    "lon": 27.9489451,
+    "tags": {
+      "camera:direction": "98",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=vR48knouCwg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7829840362,
+    "lat": 26.4227741,
+    "lon": -82.0775064,
+    "tags": {
+      "camera:direction": "180",
+      "camera:mount": "building",
+      "camera:type": "panning",
+      "contact:webcam": "http://pswebcam.bbhlabs.com:19910/mjpg/video.mjpg",
+      "man_made": "surveillance",
+      "operator": "Pointe Santo Condos",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
