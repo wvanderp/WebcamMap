@@ -10727,11 +10727,16 @@
   {
     "type": "node",
     "id": 7814027620,
-    "lat": 51.961037,
-    "lon": 4.0151965,
+    "lat": 51.9623998,
+    "lon": 4.0206239,
     "tags": {
+      "camera:direction": "250",
+      "camera:mount": "roof",
+      "camera:type": "panning",
       "contact:webcam": "https://fotopaulmartens.netcam.nl/futureland.php",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -11025,6 +11030,20 @@
     "tags": {
       "camera:type": "panning",
       "contact:webcam": "https://fotopaulmartens.netcam.nl/breeddiep.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7840636660,
+    "lat": 52.2525893,
+    "lon": 4.7577878,
+    "tags": {
+      "camera:direction": "350",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.webcam-aalsmeer.nl/",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera"
