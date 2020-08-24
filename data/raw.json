@@ -7065,16 +7065,12 @@
     "lat": 53.6176274,
     "lon": 7.1517392,
     "tags": {
-      "addr:city": "Norden",
-      "addr:country": "DE",
-      "addr:postcode": "26506",
-      "addr:suburb": "Norddeich",
+      "description": "Webcam am Stand von Norddeich",
       "direction": "225-360",
       "man_made": "surveillance",
-      "name": "Livecam Strand",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "website": "https://www.norddeich.de/service/nordsee-urlaub-planen/webcam-aus-norddeich/"
+      "website": "https://www.norddeich.de/service/nordsee-urlaub-planen/webcams/webcam-aus-norddeich/"
     }
   },
   {
@@ -7092,7 +7088,7 @@
       "name": "Livecam Hafenstraße",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "website": "https://www.norddeich.de/service/nordsee-urlaub-planen/webcam-aus-norddeich/"
+      "website": "https://www.norddeich.de/service/nordsee-urlaub-planen/webcams/webcam-norddeich-hafen/"
     }
   },
   {
@@ -10718,11 +10714,14 @@
   {
     "type": "node",
     "id": 7814027619,
-    "lat": 51.9775534,
-    "lon": 4.0966934,
+    "lat": 51.9775505,
+    "lon": 4.0966234,
     "tags": {
+      "camera:type": "panning",
       "contact:webcam": "https://fotopaulmartens.netcam.nl/breeddiep2.php",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -11014,6 +11013,19 @@
       "contact:webcam": "http://pswebcam.bbhlabs.com:19910/mjpg/video.mjpg",
       "man_made": "surveillance",
       "operator": "Pointe Santo Condos",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7840147071,
+    "lat": 51.9775415,
+    "lon": 4.0966989,
+    "tags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://fotopaulmartens.netcam.nl/breeddiep.php",
+      "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
