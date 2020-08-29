@@ -34,7 +34,7 @@ class ListPage extends React.Component<ListPageProps> {
         const filteredWebcams = R.filter((r) => r.osmID === Number.parseInt(id, 10), webcams);
 
         if (filteredWebcams.length !== 1) {
-            window.location.href = '/webcamMap/404';
+            window.location.href = '/webcamMap/notfound';
         }
 
         const webcam = filteredWebcams[0] as unknown as Webcam;

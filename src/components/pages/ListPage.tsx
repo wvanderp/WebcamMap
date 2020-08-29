@@ -24,10 +24,10 @@ interface ListPageProps {
 class ListPage extends React.Component<ListPageProps> {
     render(): JSX.Element {
         const {name} = this.props.match.params;
-        const type = this.props.match.url.split('/')[2];
+        const type = this.props.match.url.split('/')[1];
 
         if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
-            window.location.href = '/webcamMap/404';
+            window.location.href = '/webcamMap/notfound';
         }
 
         const filteredWebcams = R.filter(
