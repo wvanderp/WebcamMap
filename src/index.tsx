@@ -35,7 +35,7 @@ ReactDOM.render(
                 <Route exact path="/county/:name" component={ListPage}/>
                 <Route exact path="/city/:name" component={ListPage}/>
 
-                <Route exact path="webcam/:id" component={WebcamPage}/>
+                <Route exact path="/webcam/:id" component={WebcamPage}/>
 
                 <Route exact path="/webcams/" component={WebcamsSitemapPage}/>
                 <Route exact path="/places/" component={PlaceSitemapPage}/>
