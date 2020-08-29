@@ -1,5 +1,8 @@
 import * as React from 'react';
 import {PropsWithChildren} from 'react';
+
+import {Link} from 'react-router-dom';
+
 // @ts-expect-error  svg files are not compatible with typescript
 import playIcon from '../../static/play.svg';
 // @ts-expect-error  svg files are not compatible with typescript
@@ -24,7 +27,7 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (props: Pro
         <div id={'PopupContent'}>
             {
                 props.hasHeaderLink
-                    ? <a href={`/webcammap/webcam/${webcam.osmID}`}><h1>{webcam.operator ?? 'Unknown'}</h1></a>
+                    ? <Link to={`/webcam/${webcam.osmID}`}><h1>{webcam.operator ?? 'Unknown'}</h1></Link>
                     : <h1>{webcam.operator ?? 'Unknown'}</h1>
             }
             <br/>

@@ -35,8 +35,6 @@ class ListPage extends React.Component<ListPageProps> {
             webcams
         ) as unknown as Webcam[];
 
-        console.log(filteredWebcams);
-
         const lats = R.pluck('lat', filteredWebcams) as Webcam['lat'][];
         const lons = R.pluck('lon', filteredWebcams) as Webcam['lon'][];
 

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import {Navbar} from 'reactstrap';
 import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 
 // @ts-expect-error svg files are not compatible with typescript
 import webcamIcon from '../../static/icon.svg';
@@ -8,6 +9,7 @@ import webcamIcon from '../../static/icon.svg';
 import attribution from '../../static/attribution.svg';
 
 import {appState} from '../../reducers/RootReducer';
+import ListPage from '../pages/WebcamPage';
 
 interface MenuProps {
     location: [number, number];
@@ -91,14 +93,14 @@ class Menu extends React.Component<MenuProps> {
                                 <h4 className="text-white">Sitemap</h4>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a href="/webcamMap/webcams" className="text-white">
+                                        <Link to="webcams" className="text-white">
                                             All Webcams
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="/webcamMap/places" className="text-white">
+                                        <Link to="places" className="text-white">
                                             All places
-                                        </a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -107,10 +109,10 @@ class Menu extends React.Component<MenuProps> {
                 </div>
                 <Navbar color={'dark'} dark>
                     <div className="container d-flex justify-content-between">
-                        <a href="/" className="navbar-brand d-flex align-items-center">
+                        <Link to="/" className="navbar-brand d-flex align-items-center">
                             <img src={webcamIcon} alt={'Webcam map'}/>
                             <h1>Webcam Map</h1>
-                        </a>
+                        </Link>
                         <button
                             className="navbar-toggler collapsed"
                             type="button"
