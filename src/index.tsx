@@ -25,7 +25,7 @@ import WebcamPage from './components/pages/WebcamPage';
 
 ReactDOM.render(
     <Provider store={createStore()}>
-        <Router basename={'webcammap'}>
+        <Router basename={'WebcamMap'}>
             <Menu />
             <Switch>
                 <Route exact path="/" component={MapView}/>
