@@ -66,6 +66,6 @@
     "tsc": "tsc --noEmit",
     "updateData": "ts-node --files utils/updateData.ts",
     "build": "parcel build --out-dir ./build src/index.html",
-    "buildGit": "parcel build --out-dir ./build  src/index.html  && cp build/index.html build/404.html"
+    "buildGit": "parcel build --out-dir ./build --public-url /WebcamMap src/index.html  && cp build/index.html build/404.html"
   }
 }
