@@ -6,23 +6,13 @@ import playIcon from '../../static/play.svg';
 import osmIcon from '../../static/osm.svg';
 
 import {Webcam} from '../../types/webcam';
+import AddressBreadCrumb from './AddressBreadCrumb';
 
 const pattern = /^((http|https|ftp):\/\/)/;
 
-const AddressBreadCrumb: React.FC<{ address: Webcam['address'] }> = (props: { address: Webcam['address'] }) => {
-    const {address} = props;
-    return (
-        <ul className={'breadCrumbs'}>
-            {address.country && <li className={'breadCrumb'}>{address.country}</li>}
-            {address.state && <li className={'breadCrumb'}>{address.state}</li>}
-            {address.county && <li className={'breadCrumb'}>{address.county}</li>}
-            {address.city && <li className={'breadCrumb'}>{address.city}</li>}
-        </ul>
-    );
-};
-
 interface PopupContentProps {
     webcam: Webcam
+    hasHeaderLink?: boolean
 }
 
 const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (props: PropsWithChildren<PopupContentProps>) => {
@@ -32,7 +22,11 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (props: Pro
 
     return (
         <div id={'PopupContent'}>
-            <h1>{webcam.operator ?? 'Unknown'}</h1>
+            {
+                props.hasHeaderLink
+                    ? <a href={`/webcammap/webcam/${webcam.osmID}`}><h1>{webcam.operator ?? 'Unknown'}</h1></a>
+                    : <h1>{webcam.operator ?? 'Unknown'}</h1>
+            }
             <br/>
             <AddressBreadCrumb address={webcam.address}/>
             <br/>

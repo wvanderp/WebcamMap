@@ -1,10 +1,10 @@
 import * as React from 'react';
 import {connect} from 'react-redux';
 import {Dispatch} from 'redux';
-
-import {appState} from '../../reducers/RootReducer';
 import * as R from 'ramda';
 import {Map, Marker, Popup, TileLayer, Viewport} from 'react-leaflet';
+
+import {appState} from '../../reducers/RootReducer';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -36,7 +36,6 @@ class MapView extends React.Component<MapViewProps> {
 
         return (
             <div>
-                <Menu/>
                 <Map
                     center={[0, 0]}
                     zoom={2}

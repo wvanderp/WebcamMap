@@ -120,6 +120,8 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
                 country: iso3311a2.getCountry(nominatim.address.country_code.toUpperCase())
             },
 
+            osmTags: r.tags,
+
             operator: r.tags.operator,
             url: r.tags['contact:webcam'] ?? r.tags.url ?? r.tags['url:webcam'] ?? r.tags.website
         } as Webcam);
