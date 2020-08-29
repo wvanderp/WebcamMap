@@ -87,6 +87,21 @@ class Menu extends React.Component<MenuProps> {
                                     </li>
                                 </ul>
                             </div>
+                            <div className="col-sm-4 py-4">
+                                <h4 className="text-white">Sitemap</h4>
+                                <ul className="list-unstyled">
+                                    <li>
+                                        <a href="/webcamMap/webcams" className="text-white">
+                                            All Webcams
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/webcamMap/places" className="text-white">
+                                            All places
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
