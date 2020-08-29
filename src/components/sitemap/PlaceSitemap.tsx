@@ -3,6 +3,8 @@ import * as React from 'react';
 import {connect} from 'react-redux';
 import {Col, Container, Row} from 'reactstrap';
 import {Dispatch} from 'redux';
+import {Link} from 'react-router-dom';
+
 import webcams from '../../../data/webcams.json';
 
 import {appState} from '../../reducers/RootReducer';
@@ -29,7 +31,7 @@ const ListComponents = (props: { tree: Record<string, unknown> | Webcam, level?:
                     <span key={key}>
                         {
                             key !== 'unknown'
-                                ? <li><a href={`${levelLookup[level]}/${key}`}>{key}</a></li>
+                                ? <li><Link to={`${levelLookup[level]}/${key}`}>{key}</Link></li>
                                 : <li>{key}</li>
                         }
                         <ul>

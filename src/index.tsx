@@ -5,7 +5,6 @@ import {Provider} from 'react-redux';
 import Menu from './components/parts/Menu';
 import PlaceSitemapPage from './components/sitemap/PlaceSitemap';
 import WebcamsSitemapPage from './components/sitemap/WebcamsSitemap';
-import WebcamsSitemap from './components/sitemap/WebcamsSitemap';
 
 import {createStore} from './reducers/RootReducer';
 
@@ -26,21 +25,20 @@ import WebcamPage from './components/pages/WebcamPage';
 
 ReactDOM.render(
     <Provider store={createStore()}>
-        <Menu />
-        <Router>
+        <Router basename={'webcammap'}>
+            <Menu />
             <Switch>
                 <Route exact path="/" component={MapView}/>
-                <Route exact path="/WebcamMap/" component={MapView}/>
 
-                <Route exact path="/WebcamMap/country/:name" component={ListPage}/>
-                <Route exact path="/WebcamMap/state/:name" component={ListPage}/>
-                <Route exact path="/WebcamMap/county/:name" component={ListPage}/>
-                <Route exact path="/WebcamMap/city/:name" component={ListPage}/>
+                <Route exact path="/country/:name" component={ListPage}/>
+                <Route exact path="/state/:name" component={ListPage}/>
+                <Route exact path="/county/:name" component={ListPage}/>
+                <Route exact path="/city/:name" component={ListPage}/>
 
-                <Route exact path="/WebcamMap/webcam/:id" component={WebcamPage}/>
+                <Route exact path="webcam/:id" component={WebcamPage}/>
 
-                <Route exact path="/WebcamMap/webcams/" component={WebcamsSitemapPage}/>
-                <Route exact path="/WebcamMap/places/" component={PlaceSitemapPage}/>
+                <Route exact path="/webcams/" component={WebcamsSitemapPage}/>
+                <Route exact path="/places/" component={PlaceSitemapPage}/>
 
                 <Route component={FourOFour}/>
             </Switch>
