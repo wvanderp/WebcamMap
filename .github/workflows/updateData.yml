@@ -32,6 +32,7 @@ jobs:
         git config --global user.name "wvanderp"
         git config --global user.email "wouterv.dplas@gmail.com"
 
+        git pull
         git add -A
 
         if [ -z "$(git status --porcelain)" ]; then 
