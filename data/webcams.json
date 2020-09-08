@@ -902,6 +902,28 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=155369"
   },
   {
+    "lat": 62.2426575,
+    "lon": 25.7475756,
+    "osmID": 1137548957,
+    "osmType": "node",
+    "address": {
+      "city": "Jyväskylä",
+      "county": "Keski-Suomi",
+      "country": "Finland"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://217.152.196.254:8080/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "http://217.152.196.254:8080/"
+  },
+  {
     "lat": 49.50689,
     "lon": -1.847207,
     "osmID": 1162700614,
@@ -15820,5 +15842,24 @@
       "surveillance:zone": "town"
     },
     "url": "https://www.menton.fr/webcam-photo.html"
+  },
+  {
+    "lat": 34.7975444,
+    "lon": 131.1312332,
+    "osmID": 7885744352,
+    "osmType": "node",
+    "address": {
+      "city": "萩市",
+      "country": "Japan"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "http://210.155.221.24/-wvhttp-01-/GetOneShot?image_size=640x480",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://210.155.221.24/-wvhttp-01-/GetOneShot?image_size=640x480"
   }
 ]
