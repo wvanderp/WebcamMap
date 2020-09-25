@@ -11,7 +11,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 
-This repo contains the webapp available at [wvanderp.github.io/WebcamMap](wvanderp.github.io/webcammap)
+This repo contains the webapp available at [http://wvanderp.github.io/WebcamMap](wvanderp.github.io/webcammap)
 
 ## Todoes
 - invalidate nominatim cache
