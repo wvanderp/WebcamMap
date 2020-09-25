@@ -11,7 +11,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 
-This repo contains the webapp available at [github-actions[bot].github.io/WebcamMap](github-actions[bot].github.io/webcammap)
+This repo contains the webapp available at [http://github-actions[bot].github.io/WebcamMap](github-actions[bot].github.io/webcammap)
 
 ## Todoes
 - invalidate nominatim cache
