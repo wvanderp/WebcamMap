@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const FourOFour = (): JSX.Element => (
+const FourOFour = (): React.ReactNode => (
     <div>
         <center>
             <h1>404 - Not Found Here...</h1>

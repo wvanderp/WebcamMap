@@ -9,13 +9,13 @@ import webcamIcon from '../../static/icon.svg';
 import attribution from '../../static/attribution.svg';
 
 import {appState} from '../../reducers/RootReducer';
-import ListPage from '../pages/WebcamPage';
 
 interface MenuProps {
     location: [number, number];
     zoom: number
 }
 
+// eslint-disable-next-line react/prefer-stateless-function
 class Menu extends React.Component<MenuProps> {
     render() {
         return (
@@ -48,7 +48,8 @@ class Menu extends React.Component<MenuProps> {
                                     {' '}
                                     or learn how to add them yourself at
                                     {' '}
-                                    <a href={'https://learnosm.org/'}>learn osm</a>.
+                                    <a href={'https://learnosm.org/'}>learn osm</a>
+                                    {'.'}
                                     <br/>
                                     <br/>
                                     Do you have feedback? You can contact me via github.
@@ -110,8 +111,8 @@ class Menu extends React.Component<MenuProps> {
                 <Navbar color={'dark'} dark>
                     <div className="container d-flex justify-content-between">
                         <Link to="/" className="navbar-brand d-flex align-items-center">
-                            <img src={webcamIcon} alt={'Webcam map'}/>
-                            <h1>Webcam Map</h1>
+                            <img src={webcamIcon} alt={'Carto Cams'}/>
+                            <h1>Carto Cams</h1>
                         </Link>
                         <button
                             className="navbar-toggler collapsed"

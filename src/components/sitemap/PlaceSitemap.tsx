@@ -10,12 +10,16 @@ import webcams from '../../../data/webcams.json';
 import {appState} from '../../reducers/RootReducer';
 import {Webcam} from '../../types/webcam';
 
-const ListComponents = (props: { tree: Record<string, unknown> | Webcam, level?: number }): JSX.Element => {
-    if ('osmID' in props.tree || props.level === 4) {
+interface ListComponentsProps{
+    tree: Record<string, unknown> | Webcam,
+    // eslint-disable-next-line react/require-default-props
+    level?: number
+}
+
+const ListComponents = ({tree, level = 0}: ListComponentsProps): React.ReactNode => {
+    if ('osmID' in tree || level === 4) {
         return null;
     }
-
-    const level = props.level ?? 0;
 
     const levelLookup = {
         0: 'country',
@@ -27,7 +31,7 @@ const ListComponents = (props: { tree: Record<string, unknown> | Webcam, level?:
     return (
         <span>
             {
-                R.values(R.mapObjIndexed((value, key) => (
+                Object.entries(tree).map(([key, value]) => (
                     <span key={key}>
                         {
                             key !== 'unknown'
@@ -38,48 +42,40 @@ const ListComponents = (props: { tree: Record<string, unknown> | Webcam, level?:
                             <ListComponents tree={value} level={level + 1}/>
                         </ul>
                     </span>
-                ), props.tree))
+                ))
             }
         </span>
     );
 };
 
-interface PlaceSitemapProps {
-    dispatch: Dispatch
-}
-
-class PlaceSitemapPage extends React.Component<PlaceSitemapProps> {
-    render(): JSX.Element {
-        const tree = R.reduce(
-            (accumulator, value) => R.assocPath(
-                [
-                    value.address.country ?? 'unknown',
-                    value.address.state ?? 'unknown',
-                    value.address.county ?? 'unknown',
-                    value.address.city ?? 'unknown'
-                ],
-                value,
-                accumulator
-            ),
-            {},
+export default function PlaceSitemapPage(): JSX.Element {
+    const tree = R.reduce(
+        (accumulator, value) => R.assocPath(
+            [
+                value.address.country ?? 'unknown',
+                value.address.state ?? 'unknown',
+                value.address.county ?? 'unknown',
+                value.address.city ?? 'unknown'
+            ],
+            value,
+            accumulator
+        ),
+        {},
             webcams as unknown as Webcam[]
-        );
+    );
 
-        return (
-            <Container fluid>
-                <Row>
-                    <Col md={6}>
-                        <h1>All Webcams</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <ListComponents tree={tree}/>
-                    </Col>
-                </Row>
-            </Container>
-        );
-    }
+    return (
+        <Container fluid>
+            <Row>
+                <Col md={6}>
+                    <h1>All Webcams</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <ListComponents tree={tree}/>
+                </Col>
+            </Row>
+        </Container>
+    );
 }
-
-export default connect((state: appState, props) => ({}))(PlaceSitemapPage);
