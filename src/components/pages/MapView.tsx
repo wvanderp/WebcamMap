@@ -19,7 +19,7 @@ interface MapViewProps {
 }
 
 class MapView extends React.Component<MapViewProps> {
-    render(): JSX.Element {
+    render(): React.ReactNode {
         const markers = R.map((r) => {
             const webcam = r as Webcam;
             if (r === null) {

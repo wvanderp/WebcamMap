@@ -40,15 +40,18 @@ export interface NominatimResponse {
     place_id: number;
 }
 
-function sleep(ms: number) {
+function sleep(ms: number): Promise<void> {
+    // eslint-disable-next-line compat/compat
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 const getNominatimCache = (): Record<string, NominatimResponse> => {
     try {
-        return JSON.parse(fs.readFileSync('./data/nominatimCache.json').toString());
-    } catch (error) {
-        console.log(error);
+        const file = fs.readFileSync('./data/nominatimCache.json').toString();
+        return JSON.parse(file);
+    } catch {
+        // eslint-disable-next-line no-console
+        console.log('nominatim cache not found. no worries we continue');
         return {};
     }
 };
@@ -79,6 +82,10 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 };
 
 (async (): Promise<void> => {
+    if (!fs.existsSync('./data/')) {
+        fs.mkdirSync('./data/');
+    }
+
     // eslint-disable-next-line no-console
     console.log('getting overpass');
     const data = (await axios.get(overpassUrl)).data as OsmResponse;
@@ -91,6 +98,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
     const webcams: (null | Webcam)[] = [];
 
+    // eslint-disable-next-line no-restricted-syntax
     for (const r of nodes) {
         if (r.tags === undefined) {
             continue;
@@ -142,6 +150,7 @@ function exitHandler(options: unknown, error: unknown) {
     // eslint-disable-next-line no-console
     console.log('errors?', options, error);
     if (error) throw (error);
+    // eslint-disable-next-line unicorn/no-process-exit
     process.exit();
 }
 

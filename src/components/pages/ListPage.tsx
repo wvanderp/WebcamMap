@@ -22,7 +22,7 @@ interface ListPageProps {
 }
 
 class ListPage extends React.Component<ListPageProps> {
-    render(): JSX.Element {
+    render(): React.ReactNode {
         const {name} = this.props.match.params;
         const type = this.props.match.url.split('/')[1];
 

@@ -2,8 +2,8 @@ export interface Webcam {
     lat: number;
     lon: number;
 
-    operator?: string;
-    url: string;
+    osmID: number;
+    osmType: 'node' | 'way' | 'relation';
 
     address: {
         city?: string;
@@ -12,8 +12,8 @@ export interface Webcam {
         country?: string;
     };
 
-    osmTags: Record<string, string>;
+    osmTags: Record<string, string | undefined>;
 
-    osmID: number;
-    osmType: 'node' | 'way' | 'relation';
+    operator?: string;
+    url: string;
 }

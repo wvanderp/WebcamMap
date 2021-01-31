@@ -25,7 +25,7 @@ import WebcamPage from './components/pages/WebcamPage';
 
 ReactDOM.render(
     <Provider store={createStore()}>
-        <Router basename={'WebcamMap'}>
+        <Router>
             <Menu />
             <Switch>
                 <Route exact path="/" component={MapView}/>
@@ -48,4 +48,4 @@ ReactDOM.render(
 );
 
 // eslint-disable-next-line no-console
-console.log('welcome to the Webcam Map');
+console.log('welcome to the Carto Cams');

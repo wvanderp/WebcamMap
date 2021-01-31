@@ -13,7 +13,6 @@ import {appState} from '../../reducers/RootReducer';
 import MarkerIcon from '../parts/MarkerIcon';
 
 import webcams from '../../../data/webcams.json';
-import Menu from '../parts/Menu';
 import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
@@ -28,7 +27,7 @@ interface ListPageProps {
 }
 
 class ListPage extends React.Component<ListPageProps> {
-    render(): JSX.Element {
+    render(): React.ReactNode {
         const {id} = this.props.match.params;
 
         const filteredWebcams = R.filter((r) => r.osmID === Number.parseInt(id, 10), webcams);

@@ -11,7 +11,9 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)
 
-This repo contains the webapp available at [https://github-actions[bot].github.io/WebcamMap/](https://github-actions[bot].github.io/WebcamMap/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/723c662b-f86b-4d02-be3f-540b94d79b22/deploy-status)](https://app.netlify.com/sites/cartocams/deploys)
+
+This repo contains the webapp available at [https://cartocams.com/](https://cartocams.com/)
 
 ## Todoes
 - invalidate nominatim cache
@@ -19,3 +21,4 @@ This repo contains the webapp available at [https://github-actions[bot].github.i
 - preview webcams
 - able to add webcams directly
 - make icons smaller on higher zoom levels
+- fix the view of city and country webcams
