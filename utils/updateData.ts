@@ -112,6 +112,16 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
             continue;
         }
 
+        const url = r.tags['contact:webcam']
+        ?? r.tags.url
+        ?? r.tags['url:webcam']
+        ?? r.tags.website
+        ?? r.tags['contact:website'];
+
+        if (url === undefined) {
+            continue;
+        }
+
         const nominatim = await queryNominatim(r.lat, r.lon);
 
         webcams.push({
