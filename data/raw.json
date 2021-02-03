@@ -820,9 +820,10 @@
   {
     "type": "node",
     "id": 1260548535,
-    "lat": 58.8946554,
-    "lon": 5.7115972,
+    "lat": 58.8946942,
+    "lon": 5.7115905,
     "tags": {
+      "camera:direction": "337",
       "description": "Camera to oversee traffic on motorway",
       "man_made": "surveillance",
       "name": "Forus, mot Stavanger",
@@ -832,6 +833,7 @@
       "source:ref": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=161086"
     }
   },
@@ -985,13 +987,13 @@
   {
     "type": "node",
     "id": 1354630613,
-    "lat": 59.0619208,
-    "lon": 10.9832893,
+    "lat": 59.061926,
+    "lon": 10.9833161,
     "tags": {
       "fixme": "position",
       "man_made": "surveillance",
       "surveillance": "webcam",
-      "url": "http://www.kjerringholmen.com/webkamera.htm"
+      "url": "https://www.kjerringholmen.com/webkamera/"
     }
   },
   {
@@ -2380,9 +2382,11 @@
   {
     "type": "node",
     "id": 1417674229,
-    "lat": 58.8946554,
-    "lon": 5.7115972,
+    "lat": 58.8946675,
+    "lon": 5.7116103,
     "tags": {
+      "camera:direction": "150",
+      "camera:mount": "pole",
       "description": "Camera to oversee traffic on motorway",
       "man_made": "surveillance",
       "name": "Forus, mot Sandnes",
@@ -2392,6 +2396,7 @@
       "source:ref": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=161301"
     }
   },
@@ -10695,16 +10700,6 @@
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
-    "id": 7814027622,
-    "lat": 51.9051506,
-    "lon": 4.2720514,
-    "tags": {
-      "contact:webcam": "https://webcam-maassluis.nl/pages/cameras/het-scheur.php",
-      "surveillance": "webcam"
     }
   },
   {

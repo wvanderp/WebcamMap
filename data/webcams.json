@@ -1210,8 +1210,8 @@
     "url": "https://www.spiekeroog.de/spiekeroog-erleben/impressionen/webcams/strand-2.html"
   },
   {
-    "lat": 58.8946554,
-    "lon": 5.7115972,
+    "lat": 58.8946942,
+    "lon": 5.7115905,
     "osmID": 1260548535,
     "osmType": "node",
     "address": {
@@ -1220,6 +1220,7 @@
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "337",
       "description": "Camera to oversee traffic on motorway",
       "man_made": "surveillance",
       "name": "Forus, mot Stavanger",
@@ -1229,6 +1230,7 @@
       "source:ref": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=161086"
     },
     "operator": "Statens vegvesen",
@@ -1447,8 +1449,8 @@
     "url": "http://www.norkring.no/upload/trywebkam.jpg"
   },
   {
-    "lat": 59.0619208,
-    "lon": 10.9832893,
+    "lat": 59.061926,
+    "lon": 10.9833161,
     "osmID": 1354630613,
     "osmType": "node",
     "address": {
@@ -1460,9 +1462,9 @@
       "fixme": "position",
       "man_made": "surveillance",
       "surveillance": "webcam",
-      "url": "http://www.kjerringholmen.com/webkamera.htm"
+      "url": "https://www.kjerringholmen.com/webkamera/"
     },
-    "url": "http://www.kjerringholmen.com/webkamera.htm"
+    "url": "https://www.kjerringholmen.com/webkamera/"
   },
   {
     "lat": 51.7101355,
@@ -3367,8 +3369,8 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=113101"
   },
   {
-    "lat": 58.8946554,
-    "lon": 5.7115972,
+    "lat": 58.8946675,
+    "lon": 5.7116103,
     "osmID": 1417674229,
     "osmType": "node",
     "address": {
@@ -3377,6 +3379,8 @@
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "150",
+      "camera:mount": "pole",
       "description": "Camera to oversee traffic on motorway",
       "man_made": "surveillance",
       "name": "Forus, mot Sandnes",
@@ -3386,6 +3390,7 @@
       "source:ref": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=161301"
     },
     "operator": "Statens vegvesen",
@@ -14294,22 +14299,6 @@
       "surveillance:type": "camera"
     },
     "url": "https://fotopaulmartens.netcam.nl/futureland.php"
-  },
-  {
-    "lat": 51.9051506,
-    "lon": 4.2720514,
-    "osmID": 7814027622,
-    "osmType": "node",
-    "address": {
-      "city": "Botlek Rotterdam",
-      "state": "Zuid-Holland",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "contact:webcam": "https://webcam-maassluis.nl/pages/cameras/het-scheur.php",
-      "surveillance": "webcam"
-    },
-    "url": "https://webcam-maassluis.nl/pages/cameras/het-scheur.php"
   },
   {
     "lat": 51.918697,
