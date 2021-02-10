@@ -30,13 +30,13 @@ class ListPage extends React.Component<ListPageProps> {
     render(): React.ReactNode {
         const {id} = this.props.match.params;
 
-        const filteredWebcams = R.filter((r) => r.osmID === Number.parseInt(id, 10), webcams);
+        const filteredWebcams: Webcam[] = webcams.filter((r) => r.osmID === Number.parseInt(id, 10));
 
         if (filteredWebcams.length !== 1) {
             window.location.href = '/webcamMap/notfound';
         }
 
-        const webcam = filteredWebcams[0] as unknown as Webcam;
+        const webcam = filteredWebcams[0];
 
         const marker = (
             <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>

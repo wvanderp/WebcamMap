@@ -11,7 +11,6 @@ import {appState} from '../../reducers/RootReducer';
 import MarkerIcon from '../parts/MarkerIcon';
 
 import webcams from '../../../data/webcams.json';
-import Menu from '../parts/Menu';
 import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
@@ -23,7 +22,7 @@ interface ListPageProps {
 
 class ListPage extends React.Component<ListPageProps> {
     render(): React.ReactNode {
-        const {name} = this.props.match.params;
+        const name = decodeURIComponent(this.props.match.params.name);
         const type = this.props.match.url.split('/')[1];
 
         if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
@@ -47,13 +46,12 @@ class ListPage extends React.Component<ListPageProps> {
         const lat = (maxLat + minLat) / 2;
         const lon = (maxLon + minLon) / 2;
 
-        const markers = R.map((r) => {
-            const webcam = r;
-            if (r === null) {
+        const markers = R.map((webcam) => {
+            if (webcam === null) {
                 return null;
             }
             return (
-                <Marker key={r.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
+                <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
                     <Popup>
                         <PopupContent webcam={webcam}/>
                     </Popup>
@@ -102,12 +100,12 @@ class ListPage extends React.Component<ListPageProps> {
                                 <tbody>
                                     {
                                         R.addIndex(R.map)(
-                                            (r, i) => (
-                                                <tr key={i}>
+                                            (r, index) => (
+                                                <tr key={index}>
                                                     {
                                                         R.addIndex(R.map)(
-                                                            (t, j) => (
-                                                                <td key={j}>{t}</td>
+                                                            (t, index) => (
+                                                                <td key={index}>{t}</td>
                                                             ),
                                                             r
                                                         )

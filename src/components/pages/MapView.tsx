@@ -9,7 +9,6 @@ import {appState} from '../../reducers/RootReducer';
 import MarkerIcon from '../parts/MarkerIcon';
 
 import webcams from '../../../data/webcams.json';
-import Menu from '../parts/Menu';
 import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
