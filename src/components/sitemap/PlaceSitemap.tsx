@@ -1,13 +1,10 @@
 import * as R from 'ramda';
 import * as React from 'react';
-import {connect} from 'react-redux';
 import {Col, Container, Row} from 'reactstrap';
-import {Dispatch} from 'redux';
 import {Link} from 'react-router-dom';
 
 import webcams from '../../../data/webcams.json';
 
-import {appState} from '../../reducers/RootReducer';
 import {Webcam} from '../../types/webcam';
 
 interface ListComponentsProps{
@@ -16,7 +13,7 @@ interface ListComponentsProps{
     level?: number
 }
 
-const ListComponents = ({tree, level = 0}: ListComponentsProps): React.ReactNode => {
+const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListComponentsProps) => {
     if ('osmID' in tree || level === 4) {
         return null;
     }

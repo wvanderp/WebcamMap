@@ -18,15 +18,15 @@ interface PopupContentProps {
     hasHeaderLink?: boolean
 }
 
-const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (props: PropsWithChildren<PopupContentProps>) => {
-    const {webcam} = props;
-
+const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
+    {webcam, hasHeaderLink}: PropsWithChildren<PopupContentProps>
+) => {
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
     return (
         <div id={'PopupContent'}>
             {
-                props.hasHeaderLink
+                hasHeaderLink
                     ? <Link to={`/webcam/${webcam.osmID}`}><h1>{webcam.operator ?? 'Unknown'}</h1></Link>
                     : <h1>{webcam.operator ?? 'Unknown'}</h1>
             }
