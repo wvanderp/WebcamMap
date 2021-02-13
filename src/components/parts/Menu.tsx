@@ -4,9 +4,9 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 
 // @ts-expect-error svg files are not compatible with typescript
-import webcamIcon from '../../static/icon.svg';
+import webcamIcon from 'url:../../static/icon.svg';
 // @ts-expect-error svg files are not compatible with typescript
-import attribution from '../../static/attribution.svg';
+import attribution from 'url:../../static/attribution.svg';
 
 import {appState} from '../../reducers/RootReducer';
 
