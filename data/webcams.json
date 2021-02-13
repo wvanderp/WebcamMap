@@ -813,27 +813,6 @@
     "url": "http://www.sri.ucl.ac.be/webcam/universite.html"
   },
   {
-    "lat": 50.6681887,
-    "lon": 4.6194721,
-    "osmID": 854970348,
-    "osmType": "node",
-    "address": {
-      "city": "Ottignies-Louvain-la-Neuve",
-      "county": "Nivelles",
-      "state": "Brabant wallon",
-      "country": "Belgium"
-    },
-    "osmTags": {
-      "FIXME": "Position estimated",
-      "contact:webcam": "http://www.sri.ucl.ac.be/webcam/sciences.html",
-      "man_made": "surveillance",
-      "operator": "UCL",
-      "surveillance": "webcam"
-    },
-    "operator": "UCL",
-    "url": "http://www.sri.ucl.ac.be/webcam/sciences.html"
-  },
-  {
     "lat": 49.7509759,
     "lon": 31.4689261,
     "osmID": 896455168,
@@ -11813,13 +11792,17 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "120",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=gA0aKgED3gE",
+      "contact:webcam": "https://www.youtube.com/watch?v=4nOn4fNEZhk",
       "man_made": "surveillance",
+      "operator": "Les Sables d'Olonne",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "tourism"
     },
-    "url": "https://www.youtube.com/watch?v=gA0aKgED3gE"
+    "operator": "Les Sables d'Olonne",
+    "url": "https://www.youtube.com/watch?v=4nOn4fNEZhk"
   },
   {
     "lat": 46.7255775,
@@ -11837,10 +11820,13 @@
       "camera:type": "panning",
       "contact:webcam": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu",
       "man_made": "surveillance",
+      "name": "Port de l'Ile d'Yeu",
+      "operator": "Conseil départemental de la Vendée",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
+    "operator": "Conseil départemental de la Vendée",
     "url": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu"
   },
   {
@@ -14963,6 +14949,7 @@
       "country": "United Kingdom"
     },
     "osmTags": {
+      "camera:direction": "170",
       "camera:mount": "wall",
       "camera:type": "panning",
       "contact:webcam": "https://www.threeshiresinn.co.uk/webcam",
@@ -15239,5 +15226,174 @@
     },
     "operator": "Le Semnoz",
     "url": "https://app.webcam-hd.com/semnoz/versant-annecy-telemixte"
+  },
+  {
+    "lat": 46.5016959,
+    "lon": -1.7881719,
+    "osmID": 8420047082,
+    "osmType": "node",
+    "address": {
+      "city": "Les Sables-d'Olonne",
+      "county": "Vendée",
+      "state": "Pays de la Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "316",
+      "camera:type": "panning",
+      "contact:webcam": "http://www.vendee.fr/Webcams/Vendee-Globe-2020-en-direct-des-pontons-vue-2",
+      "man_made": "surveillance",
+      "name": "Vendée Globe 2020 : en direct des pontons - vue 2",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://www.vendee.fr/Webcams/Vendee-Globe-2020-en-direct-des-pontons-vue-2"
+  },
+  {
+    "lat": 52.1237712,
+    "lon": -6.9295361,
+    "osmID": 8420065280,
+    "osmType": "node",
+    "address": {
+      "county": "County Wexford",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "http://89.106.143.18:121/",
+      "man_made": "surveillance",
+      "operator": "Hook Lighthouse",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Hook Lighthouse",
+    "url": "http://89.106.143.18:121/"
+  },
+  {
+    "lat": 52.1238073,
+    "lon": -6.9294426,
+    "osmID": 8420065281,
+    "osmType": "node",
+    "address": {
+      "county": "County Wexford",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "http://89.106.143.18:120",
+      "man_made": "surveillance",
+      "operator": "Hook Lighthouse",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Hook Lighthouse",
+    "url": "http://89.106.143.18:120"
+  },
+  {
+    "lat": 52.123722,
+    "lon": -6.929467,
+    "osmID": 8420065282,
+    "osmType": "node",
+    "address": {
+      "county": "County Wexford",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "http://89.106.143.18:122/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://89.106.143.18:122/"
+  },
+  {
+    "lat": 52.0857483,
+    "lon": 4.2679731,
+    "osmID": 8420070671,
+    "osmType": "node",
+    "address": {
+      "city": "Den Haag",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "http://84.85.9.149:6811/CGIProxy.fcgi?cmd=snapPicture2&usr=Houtrust1&pwd=guest",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://84.85.9.149:6811/CGIProxy.fcgi?cmd=snapPicture2&usr=Houtrust1&pwd=guest"
+  },
+  {
+    "lat": 53.4604,
+    "lon": 6.8225018,
+    "osmID": 8420107309,
+    "osmType": "node",
+    "address": {
+      "city": "Eemshaven",
+      "state": "Groningen",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://camera.growind.nl:9095/jpg/1/image.jpg",
+      "man_made": "surveillance",
+      "operator": "Growind",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Growind",
+    "url": "https://camera.growind.nl:9095/jpg/1/image.jpg"
+  },
+  {
+    "lat": 51.865848,
+    "lon": 4.353928,
+    "osmID": 8420124050,
+    "osmType": "node",
+    "address": {
+      "city": "Hoogvliet Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "http://bmmiddenbaannoordtorencam.axiscam.net:3302/local/viewer/middenbaannoordtorenhoogvlietcam800x500-4sec.htm",
+      "man_made": "surveillance",
+      "name": "Middenbaanbaan Noord Toren Hoogvliet WebCam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://bmmiddenbaannoordtorencam.axiscam.net:3302/local/viewer/middenbaannoordtorenhoogvlietcam800x500-4sec.htm"
+  },
+  {
+    "lat": 51.9119179,
+    "lon": 4.4295848,
+    "osmID": 8420127842,
+    "osmType": "node",
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "190",
+      "camera:type": "fixed",
+      "contact:webcam": "http://media.streampartner.nl/player.php?url=c5yvsyr1x3lt05294w95",
+      "man_made": "surveillance",
+      "name": "Life stream 24/7 LabHotel",
+      "operator": "LabHotel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "LabHotel",
+    "url": "http://media.streampartner.nl/player.php?url=c5yvsyr1x3lt05294w95"
   }
 ]

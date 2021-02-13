@@ -10,19 +10,28 @@
     "not dead"
   ],
   "devDependencies": {
-    "@types/node": "^14.14.25",
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.587",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.587",
+    "@parcel/packager-css": "^2.0.0-nightly.587",
+    "@parcel/packager-html": "^2.0.0-nightly.587",
+    "@parcel/transformer-css": "^2.0.0-nightly.587",
+    "@parcel/transformer-html": "^2.0.0-nightly.587",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.587",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.587",
+    "@parcel/transformer-sass": "^2.0.0-nightly.587",
+    "@types/node": "^14.14.27",
     "@types/ramda": "^0.27.38",
-    "@types/redux-actions": "^2.6.1",
-    "@types/react": "^17.0.1",
-    "@types/react-dom": "^17.0.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
     "@types/react-leaflet": "^2.5.2",
     "@types/react-redux": "^7.1.16",
     "@types/react-router-dom": "^5.1.7",
     "@types/reactstrap": "^8.7.2",
     "@types/redux": "^3.6.0",
+    "@types/redux-actions": "^2.6.1",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
-    "eslint": "^7.19.0",
+    "eslint": "^7.20.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-nibble": "^6.1.0",
@@ -35,12 +44,12 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-sonarjs": "^0.5.0",
     "eslint-plugin-unicorn": "^28.0.0",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "2.0.0-nightly.585",
+    "postcss": "^8.2.6",
     "redux-devtools-extension": "^2.13.8",
-    "typescript": "^4.1.4",
-    "wikibase-types": "^0.2.1",
     "sass": "^1.32.7",
-    "ts-node": "^9.1.1"
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -61,10 +70,10 @@
     "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
-    "app": "parcel src/index.html",
+    "app": "parcel serve src/index.html",
+    "build": "parcel build --no-source-maps --dist-dir ./build src/index.html",
     "lint": "eslint --ext ts,tsx,json,js src/",
     "tsc": "tsc --noEmit",
-    "updateData": "ts-node --files utils/updateData.ts",
-    "build": "parcel build --out-dir ./build src/index.html"
+    "updateData": "ts-node --files utils/updateData.ts"
   }
 }

@@ -4,9 +4,9 @@ import {PropsWithChildren} from 'react';
 import {Link} from 'react-router-dom';
 
 // @ts-expect-error  svg files are not compatible with typescript
-import playIcon from '../../static/play.svg';
+import playIcon from 'url:../../static/play.svg';
 // @ts-expect-error  svg files are not compatible with typescript
-import osmIcon from '../../static/osm.svg';
+import osmIcon from 'url:../../static/osm.svg';
 
 import {Webcam} from '../../types/webcam';
 import AddressBreadCrumb from './AddressBreadCrumb';

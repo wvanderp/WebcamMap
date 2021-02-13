@@ -18,8 +18,10 @@ import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
 
-import osmIcon from '../../static/osm.svg';
-import playIcon from '../../static/play.svg';
+// @ts-expect-error svg files are not compatible with typescript
+import osmIcon from 'url:../../static/osm.svg';
+// @ts-expect-error svg files are not compatible with typescript
+import playIcon from 'url:../../static/play.svg';
 
 interface ListPageProps {
     dispatch: Dispatch

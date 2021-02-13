@@ -559,19 +559,6 @@
   },
   {
     "type": "node",
-    "id": 854970348,
-    "lat": 50.6681887,
-    "lon": 4.6194721,
-    "tags": {
-      "FIXME": "Position estimated",
-      "contact:webcam": "http://www.sri.ucl.ac.be/webcam/sciences.html",
-      "man_made": "surveillance",
-      "operator": "UCL",
-      "surveillance": "webcam"
-    }
-  },
-  {
-    "type": "node",
     "id": 896455168,
     "lat": 49.7509759,
     "lon": 31.4689261,
@@ -8681,11 +8668,14 @@
     "lat": 46.4945677,
     "lon": -1.791624,
     "tags": {
+      "camera:direction": "120",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=gA0aKgED3gE",
+      "contact:webcam": "https://www.youtube.com/watch?v=4nOn4fNEZhk",
       "man_made": "surveillance",
+      "operator": "Les Sables d'Olonne",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "tourism"
     }
   },
   {
@@ -8698,6 +8688,8 @@
       "camera:type": "panning",
       "contact:webcam": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu",
       "man_made": "surveillance",
+      "name": "Port de l'Ile d'Yeu",
+      "operator": "Conseil départemental de la Vendée",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -11177,6 +11169,7 @@
     "lat": 54.4213354,
     "lon": -3.0548206,
     "tags": {
+      "camera:direction": "170",
       "camera:mount": "wall",
       "camera:type": "panning",
       "contact:webcam": "https://www.threeshiresinn.co.uk/webcam",
@@ -11377,6 +11370,125 @@
       "camera:type": "dome",
       "demolished:man_made": "surveillance",
       "operator": "Le Semnoz",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420047082,
+    "lat": 46.5016959,
+    "lon": -1.7881719,
+    "tags": {
+      "camera:direction": "316",
+      "camera:type": "panning",
+      "contact:webcam": "http://www.vendee.fr/Webcams/Vendee-Globe-2020-en-direct-des-pontons-vue-2",
+      "man_made": "surveillance",
+      "name": "Vendée Globe 2020 : en direct des pontons - vue 2",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420065280,
+    "lat": 52.1237712,
+    "lon": -6.9295361,
+    "tags": {
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "http://89.106.143.18:121/",
+      "man_made": "surveillance",
+      "operator": "Hook Lighthouse",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420065281,
+    "lat": 52.1238073,
+    "lon": -6.9294426,
+    "tags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "http://89.106.143.18:120",
+      "man_made": "surveillance",
+      "operator": "Hook Lighthouse",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420065282,
+    "lat": 52.123722,
+    "lon": -6.929467,
+    "tags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "http://89.106.143.18:122/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420070671,
+    "lat": 52.0857483,
+    "lon": 4.2679731,
+    "tags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "http://84.85.9.149:6811/CGIProxy.fcgi?cmd=snapPicture2&usr=Houtrust1&pwd=guest",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420107309,
+    "lat": 53.4604,
+    "lon": 6.8225018,
+    "tags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://camera.growind.nl:9095/jpg/1/image.jpg",
+      "man_made": "surveillance",
+      "operator": "Growind",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420124050,
+    "lat": 51.865848,
+    "lon": 4.353928,
+    "tags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "http://bmmiddenbaannoordtorencam.axiscam.net:3302/local/viewer/middenbaannoordtorenhoogvlietcam800x500-4sec.htm",
+      "man_made": "surveillance",
+      "name": "Middenbaanbaan Noord Toren Hoogvliet WebCam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8420127842,
+    "lat": 51.9119179,
+    "lon": 4.4295848,
+    "tags": {
+      "camera:direction": "190",
+      "camera:type": "fixed",
+      "contact:webcam": "http://media.streampartner.nl/player.php?url=c5yvsyr1x3lt05294w95",
+      "man_made": "surveillance",
+      "name": "Life stream 24/7 LabHotel",
+      "operator": "LabHotel",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
