@@ -72,6 +72,8 @@ class ListPage extends React.Component<ListPageProps> {
             )
         );
 
+        document.title = `${name} - CartoCams`;
+
         return (
             <div>
                 <Map
