@@ -10049,6 +10049,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.brussels.be/webcam-grand-place",
       "man_made": "surveillance",
+      "name": "Webcam Grand-Place",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area",
@@ -11596,12 +11597,14 @@
       "country": "Belgium"
     },
     "osmTags": {
+      "camera:direction": "210",
       "camera:mount": "root",
       "camera:type": "fixed",
       "contact:webcam": "http://www.bruxelles.be/webcam-place-de-brouckere",
       "layer": "2",
       "level": "5",
       "man_made": "surveillance",
+      "name": "Webcam Place de Brouckère",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -13786,8 +13789,8 @@
     "url": "http://latukamera.ouka.fi/ahvenoja/ahvenoja.jpg"
   },
   {
-    "lat": 50.8862186,
-    "lon": 4.7003168,
+    "lat": 50.8861802,
+    "lon": 4.7003569,
     "osmID": 7601160451,
     "osmType": "node",
     "address": {
@@ -13802,6 +13805,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://weer.sluispark.be/index.php?p=mnu_webcam&lang=nl#data-area",
       "man_made": "surveillance",
+      "name": "Leuven-Sluispark",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "park"
@@ -15402,5 +15406,69 @@
       "surveillance:type": "camera"
     },
     "url": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ"
+  },
+  {
+    "lat": 51.2403372,
+    "lon": 4.3978723,
+    "osmID": 8423092057,
+    "osmType": "node",
+    "address": {
+      "city": "Antwerpen",
+      "county": "Antwerpen",
+      "state": "Antwerpen",
+      "country": "Belgium"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "panning",
+      "contact:webcam": "http://webcam.hzs.be/",
+      "man_made": "surveillance",
+      "operator": "Hogere Zeevaartschool",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Hogere Zeevaartschool",
+    "url": "http://webcam.hzs.be/"
+  },
+  {
+    "lat": 7.829258,
+    "lon": 98.2936062,
+    "osmID": 8423095885,
+    "osmType": "node",
+    "address": {
+      "city": "บ้านกะตะ",
+      "state": "จังหวัดภูเก็ต",
+      "country": "Thailand"
+    },
+    "osmTags": {
+      "camera:direction": "85",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.marinaphuket.com/live"
+    },
+    "url": "https://www.marinaphuket.com/live"
+  },
+  {
+    "lat": 51.5020486,
+    "lon": 5.7637026,
+    "osmID": 8423136211,
+    "osmType": "node",
+    "address": {
+      "city": "Milheeze",
+      "state": "Noord-Brabant",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://molenstichtinggemert-bakel.nl/molens/live-beeld-molens",
+      "man_made": "surveillance",
+      "operator": "molen stichting gemert-bakel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "molen stichting gemert-bakel",
+    "url": "https://molenstichtinggemert-bakel.nl/molens/live-beeld-molens"
   }
 ]
