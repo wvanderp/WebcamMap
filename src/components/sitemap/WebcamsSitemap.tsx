@@ -1,13 +1,12 @@
 import * as React from 'react';
-import * as R from 'ramda';
-import {Col, Container, Row, Table} from 'reactstrap';
+import {Col, Container, Row} from 'reactstrap';
 
 import webcams from '../../../data/webcams.json';
 import {Webcam} from '../../types/webcam';
 import PopupContent from '../parts/PopupContent';
 
 export default function WebcamsSitemapPage(): React.ReactNode {
-    const webcamTiles = (webcams as Webcam[]).map((webcam) => (
+    const webcamTiles = webcams.map((webcam: Webcam) => (
         <Col key={webcam.osmID} lg={4} md={6} sm={12}>
             <PopupContent key={webcam.osmID} webcam={webcam} hasHeaderLink/>
         </Col>

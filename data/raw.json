@@ -5862,20 +5862,6 @@
   },
   {
     "type": "node",
-    "id": 3591982483,
-    "lat": 41.2949971,
-    "lon": 13.3158357,
-    "tags": {
-      "camera:direction": "198",
-      "camera:type": "fixed",
-      "contact:webcam": "http://tucanokite-fondi.it/webcam.html",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
     "id": 3669084289,
     "lat": 48.8133526,
     "lon": 9.1681433,
@@ -7099,7 +7085,9 @@
       "camera:type": "fixed",
       "contact:webcam": "http://meteof.altervista.org",
       "man_made": "surveillance",
+      "operator": "Meteo Fondi",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "website": "http://meteof.altervista.org"
     }
   },
@@ -7759,11 +7747,13 @@
     "lat": 48.6935531,
     "lon": 6.1823907,
     "tags": {
-      "camera:direction": "80-180",
+      "camera:direction": "90",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.nancy.fr/decouvrir/webcams-place-stanislas/webcam-place-stanislas-1561.html",
+      "contact:webcam": "https://pv.viewsurf.com/1744/Nancy-Place-Stanislas-MBA?i=Njc2MDp1bmRlZmluZWQ",
       "man_made": "surveillance",
+      "name": "Vue depuis le musée des Beaux-Arts",
+      "operator": "Ville de Nancy",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
@@ -7771,14 +7761,15 @@
   {
     "type": "node",
     "id": 5027065113,
-    "lat": 48.6932639,
-    "lon": 6.1839079,
+    "lat": 48.6932686,
+    "lon": 6.1839225,
     "tags": {
-      "camera:direction": "270-0",
+      "camera:direction": "330",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.nancy.fr/decouvrir/webcams-place-stanislas/webcam-place-stanislas-827.html",
+      "contact:webcam": "https://pv.viewsurf.com/1614/Nancy-Place-Stanislas-Hotel-de-ville?i=NjI3Njp1bmRlZmluZWQ",
       "man_made": "surveillance",
+      "name": "Vue depuis l'Hôtel de ville",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
@@ -9641,8 +9632,8 @@
   {
     "type": "node",
     "id": 6700831498,
-    "lat": 47.6146214,
-    "lon": -52.7032243,
+    "lat": 47.6144844,
+    "lon": -52.7031206,
     "tags": {
       "camera:mount": "pole",
       "camera:type": "fixed",
@@ -11489,6 +11480,21 @@
       "man_made": "surveillance",
       "name": "Life stream 24/7 LabHotel",
       "operator": "LabHotel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8422272019,
+    "lat": 48.6969336,
+    "lon": 6.1809021,
+    "tags": {
+      "camera:direction": "150",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ",
+      "man_made": "surveillance",
+      "name": "Vue depuis le Palais du Gouvernement",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }

@@ -94,12 +94,12 @@ class Menu extends React.Component<MenuProps> {
                                 <h4 className="text-white">Sitemap</h4>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link to="webcams" className="text-white">
+                                        <Link to="/webcams" className="text-white">
                                             All Webcams
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="places" className="text-white">
+                                        <Link to="/places" className="text-white">
                                             All places
                                         </Link>
                                     </li>

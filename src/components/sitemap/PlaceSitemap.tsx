@@ -1,7 +1,7 @@
-import * as R from 'ramda';
 import * as React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import {Link} from 'react-router-dom';
+import set from 'lodash.set';
 
 import webcams from '../../../data/webcams.json';
 
@@ -46,19 +46,19 @@ const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListCo
 };
 
 export default function PlaceSitemapPage(): JSX.Element {
-    const tree = R.reduce(
-        (accumulator, value) => R.assocPath(
+    // eslint-disable-next-line unicorn/no-array-reduce
+    const tree = webcams.reduce(
+        (accumulator, value: Webcam) => set(
+            accumulator,
             [
                 value.address.country ?? 'unknown',
                 value.address.state ?? 'unknown',
                 value.address.county ?? 'unknown',
                 value.address.city ?? 'unknown'
             ],
-            value,
-            accumulator
+            value
         ),
-        {},
-            webcams as unknown as Webcam[]
+        {}
     );
 
     return (

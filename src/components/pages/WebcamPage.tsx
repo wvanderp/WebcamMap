@@ -2,13 +2,15 @@ import * as React from 'react';
 import {connect} from 'react-redux';
 import {Dispatch} from 'redux';
 import {match} from 'react-router';
-import * as R from 'ramda';
 import {Map, Marker, Popup, TileLayer, Viewport} from 'react-leaflet';
 import {Col, Container, Row, Table} from 'reactstrap';
 
 import '../../style/WebcamPage.sass';
 
-import {appState} from '../../reducers/RootReducer';
+// @ts-expect-error svg files are not compatible with typescript
+import osmIcon from 'url:../../static/osm.svg';
+// @ts-expect-error svg files are not compatible with typescript
+import playIcon from 'url:../../static/play.svg';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -17,11 +19,6 @@ import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
-
-// @ts-expect-error svg files are not compatible with typescript
-import osmIcon from 'url:../../static/osm.svg';
-// @ts-expect-error svg files are not compatible with typescript
-import playIcon from 'url:../../static/play.svg';
 
 interface ListPageProps {
     dispatch: Dispatch
@@ -32,7 +29,7 @@ class ListPage extends React.Component<ListPageProps> {
     render(): React.ReactNode {
         const {id} = this.props.match.params;
 
-        const filteredWebcams: Webcam[] = webcams.filter((r) => r.osmID === Number.parseInt(id, 10));
+        const filteredWebcams: Webcam[] = webcams.filter((webcam: Webcam) => webcam.osmID === Number.parseInt(id, 10));
 
         if (filteredWebcams.length !== 1) {
             window.location.href = '/webcamMap/notfound';
@@ -51,11 +48,20 @@ class ListPage extends React.Component<ListPageProps> {
         const pattern = /^((http|https|ftp):\/\/)/;
         const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
+        const tableBody = Object.entries(webcam.osmTags).map(
+            (value, key) => (
+                <tr key={`${key}-${value}`}>
+                    <td>{key}</td>
+                    <td>{value}</td>
+                </tr>
+            )
+        );
+
         return (
             <div>
                 <Map
                     center={[webcam.lat, webcam.lon]}
-                    zoom={13}
+                    zoom={17}
                     id={'miniMap'}
                     onViewportChanged={
                         (viewport: Viewport): void => {
@@ -111,15 +117,7 @@ class ListPage extends React.Component<ListPageProps> {
                         <Col md={12}>
                             <Table>
                                 <tbody>
-                                    {R.values(R.mapObjIndexed(
-                                        (value, key) => (
-                                            <tr key={`${key}-${value}`}>
-                                                <td>{key}</td>
-                                                <td>{value}</td>
-                                            </tr>
-                                        ),
-                                        webcam.osmTags
-                                    ))}
+                                    {tableBody}
                                 </tbody>
                             </Table>
                         </Col>
@@ -130,4 +128,4 @@ class ListPage extends React.Component<ListPageProps> {
     }
 }
 
-export default connect((state: appState, props) => ({}))(ListPage);
+export default connect(() => ({}))(ListPage);

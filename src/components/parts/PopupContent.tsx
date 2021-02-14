@@ -23,12 +23,14 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
 ) => {
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
+    const cardTitle = webcam.osmTags.name ?? webcam.operator ?? 'Unknown';
+
     return (
         <div id={'PopupContent'}>
             {
                 hasHeaderLink
-                    ? <Link to={`/webcam/${webcam.osmID}`}><h1>{webcam.operator ?? 'Unknown'}</h1></Link>
-                    : <h1>{webcam.operator ?? 'Unknown'}</h1>
+                    ? <Link to={`/webcam/${webcam.osmID}`}><h1>{cardTitle}</h1></Link>
+                    : <h1>{cardTitle}</h1>
             }
             <br/>
             <AddressBreadCrumb address={webcam.address}/>
