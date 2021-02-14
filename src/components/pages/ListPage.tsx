@@ -2,11 +2,9 @@ import * as React from 'react';
 import {connect} from 'react-redux';
 import {Dispatch} from 'redux';
 import {match} from 'react-router';
-import * as R from 'ramda';
-import {Map, Marker, Popup, TileLayer, Viewport} from 'react-leaflet';
+import chunk from 'lodash.chunk';
+import {Map, Marker, Popup, TileLayer, Viewport, LatLngBoundsLiteral} from 'react-leaflet';
 import {Col, Container, Row, Table} from 'reactstrap';
-
-import {appState} from '../../reducers/RootReducer';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -29,24 +27,19 @@ class ListPage extends React.Component<ListPageProps> {
             window.location.href = '/webcamMap/notfound';
         }
 
-        const filteredWebcams = R.filter(
-            (r) => r.address[type as 'country' | 'state' | 'county' | 'city']?.toLowerCase() === name.toLowerCase(),
-            webcams
-        ) as unknown as Webcam[];
+        const filteredWebcams: Webcam[] = webcams.filter(
+            (r: Webcam) => r.address[type as 'country' | 'state' | 'county' | 'city']?.toLowerCase() === name.toLowerCase()
+        );
 
-        const lats = R.pluck('lat', filteredWebcams) as Webcam['lat'][];
-        const lons = R.pluck('lon', filteredWebcams) as Webcam['lon'][];
+        const lats: Webcam['lat'][] = filteredWebcams.map((webcam) => webcam.lat);
+        const lons: Webcam['lon'][] = filteredWebcams.map((webcam) => webcam.lon);
 
-        const minLat = Math.min(...lats);
-        const maxLat = Math.max(...lats);
-        const minLon = Math.min(...lons);
-        const maxLon = Math.max(...lons);
+        const bounds: LatLngBoundsLiteral = [
+            [Math.max(...lats), Math.min(...lons)],
+            [Math.min(...lats), Math.max(...lons)]
+        ];
 
-        const zoom = filteredWebcams.length === 1 ? 13 : Math.min(maxLat - minLat, maxLon - minLon) * 4;
-        const lat = (maxLat + minLat) / 2;
-        const lon = (maxLon + minLon) / 2;
-
-        const markers = R.map((webcam) => {
+        const markers = filteredWebcams.map((webcam) => {
             if (webcam === null) {
                 return null;
             }
@@ -57,17 +50,33 @@ class ListPage extends React.Component<ListPageProps> {
                     </Popup>
                 </Marker>
             );
-        }, filteredWebcams);
+        });
 
-        const webcamTiles = R.map((r) => (
+        const webcamTiles = filteredWebcams.map((r) => (
             <PopupContent key={r.osmID} webcam={r} hasHeaderLink/>
-        ), filteredWebcams);
+        ));
+
+        const tableBody = chunk(webcamTiles, 3).map(
+            (r, index) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <tr key={index}>
+                    {
+                        r.map(
+                            (t, index_) => (
+                                // eslint-disable-next-line react/no-array-index-key
+                                <td key={index_}>{t}</td>
+                            )
+                        )
+                    }
+                </tr>
+            )
+        );
 
         return (
             <div>
                 <Map
-                    center={[lat, lon]}
-                    zoom={zoom}
+                    bounds={bounds}
+                    boundsOptions={{padding: [5, 5]}}
                     id={'miniMap'}
                     onViewportChanged={
                         (viewport: Viewport): void => {
@@ -98,23 +107,7 @@ class ListPage extends React.Component<ListPageProps> {
                         <Col>
                             <Table>
                                 <tbody>
-                                    {
-                                        R.addIndex(R.map)(
-                                            (r, index) => (
-                                                <tr key={index}>
-                                                    {
-                                                        R.addIndex(R.map)(
-                                                            (t, index) => (
-                                                                <td key={index}>{t}</td>
-                                                            ),
-                                                            r
-                                                        )
-                                                    }
-                                                </tr>
-                                            ),
-                                            R.splitEvery(3, webcamTiles)
-                                        )
-                                    }
+                                    { tableBody }
                                 </tbody>
                             </Table>
                         </Col>
@@ -125,4 +118,4 @@ class ListPage extends React.Component<ListPageProps> {
     }
 }
 
-export default connect((state: appState, props) => ({}))(ListPage);
+export default connect(() => ({}))(ListPage);

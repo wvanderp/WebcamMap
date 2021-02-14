@@ -1,4 +1,3 @@
-import * as R from 'ramda';
 import {Dispatch} from 'redux';
 import {
     UPDATE_LOCATION,
@@ -14,9 +13,15 @@ const defaultState = {
 export default (state = defaultState, action?: UPDATE_LOCATION_ACTION_ACTIONS): typeof defaultState => {
     switch (action?.type) {
         case UPDATE_LOCATION:
-            return R.assoc('coordinates', action.payload, state);
+            return {
+                ...state,
+                coordinates: action.payload
+            };
         case UPDATE_ZOOM:
-            return R.assoc('zoom', action.payload, state);
+            return {
+                ...state,
+                zoom: action.payload
+            };
         default:
             break;
     }

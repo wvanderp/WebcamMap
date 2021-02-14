@@ -1,10 +1,7 @@
 import * as React from 'react';
 import {connect} from 'react-redux';
 import {Dispatch} from 'redux';
-import * as R from 'ramda';
 import {Map, Marker, Popup, TileLayer, Viewport} from 'react-leaflet';
-
-import {appState} from '../../reducers/RootReducer';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -19,19 +16,18 @@ interface MapViewProps {
 
 class MapView extends React.Component<MapViewProps> {
     render(): React.ReactNode {
-        const markers = R.map((r) => {
-            const webcam = r as Webcam;
-            if (r === null) {
+        const markers = webcams.map((webcam: Webcam) => {
+            if (webcam === null) {
                 return null;
             }
             return (
-                <Marker key={r.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
+                <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
                     <Popup>
                         <PopupContent webcam={webcam}/>
                     </Popup>
                 </Marker>
             );
-        }, webcams);
+        });
 
         return (
             <div>
@@ -63,4 +59,4 @@ class MapView extends React.Component<MapViewProps> {
     }
 }
 
-export default connect((state: appState, props) => ({}))(MapView);
+export default connect(() => ({}))(MapView);
