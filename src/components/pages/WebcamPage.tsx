@@ -57,6 +57,9 @@ class ListPage extends React.Component<ListPageProps> {
             )
         );
 
+        const cardTitle = webcam.osmTags.name ?? webcam.operator ?? 'Unknown';
+        document.title = `${cardTitle} - CartoCams`;
+
         return (
             <div>
                 <Map
@@ -85,7 +88,7 @@ class ListPage extends React.Component<ListPageProps> {
                 <Container fluid>
                     <Row>
                         <Col md={6}>
-                            <h1>{webcam.operator ?? 'Unknown'}</h1>
+                            <h1>{cardTitle}</h1>
                         </Col>
                         <Col md={6}>
                             <a
