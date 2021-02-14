@@ -7350,6 +7350,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.brussels.be/webcam-grand-place",
       "man_made": "surveillance",
+      "name": "Webcam Grand-Place",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area",
@@ -8496,12 +8497,14 @@
     "lat": 50.8520565,
     "lon": 4.3533064,
     "tags": {
+      "camera:direction": "210",
       "camera:mount": "root",
       "camera:type": "fixed",
       "contact:webcam": "http://www.bruxelles.be/webcam-place-de-brouckere",
       "layer": "2",
       "level": "5",
       "man_made": "surveillance",
+      "name": "Webcam Place de Brouckère",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -10284,14 +10287,15 @@
   {
     "type": "node",
     "id": 7601160451,
-    "lat": 50.8862186,
-    "lon": 4.7003168,
+    "lat": 50.8861802,
+    "lon": 4.7003569,
     "tags": {
       "camera:direction": "-15",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://weer.sluispark.be/index.php?p=mnu_webcam&lang=nl#data-area",
       "man_made": "surveillance",
+      "name": "Leuven-Sluispark",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "park"
@@ -11495,6 +11499,49 @@
       "contact:webcam": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ",
       "man_made": "surveillance",
       "name": "Vue depuis le Palais du Gouvernement",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8423092057,
+    "lat": 51.2403372,
+    "lon": 4.3978723,
+    "tags": {
+      "camera:direction": "200",
+      "camera:type": "panning",
+      "contact:webcam": "http://webcam.hzs.be/",
+      "man_made": "surveillance",
+      "operator": "Hogere Zeevaartschool",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8423095885,
+    "lat": 7.829258,
+    "lon": 98.2936062,
+    "tags": {
+      "camera:direction": "85",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.marinaphuket.com/live"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8423136211,
+    "lat": 51.5020486,
+    "lon": 5.7637026,
+    "tags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://molenstichtinggemert-bakel.nl/molens/live-beeld-molens",
+      "man_made": "surveillance",
+      "operator": "molen stichting gemert-bakel",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
