@@ -61,6 +61,7 @@ export default function PlaceSitemapPage(): JSX.Element {
         {}
     );
 
+    document.title = 'Places - CartoCams';
     return (
         <Container fluid>
             <Row>

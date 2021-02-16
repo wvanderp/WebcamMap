@@ -12,6 +12,8 @@ export default function WebcamsSitemapPage(): React.ReactNode {
         </Col>
     ));
 
+    document.title = 'Webcam - CartoCams';
+
     return (
         <Container fluid>
             <Row>
