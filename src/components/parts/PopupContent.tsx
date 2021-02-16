@@ -10,6 +10,7 @@ import osmIcon from 'url:../../static/osm.svg';
 
 import {Webcam} from '../../types/webcam';
 import AddressBreadCrumb from './AddressBreadCrumb';
+import generateName from '../../utils/generateName';
 
 const pattern = /^((http|https|ftp):\/\/)/;
 
@@ -23,7 +24,7 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
 ) => {
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
-    const cardTitle = webcam.osmTags.name ?? webcam.operator ?? 'Unknown';
+    const cardTitle = generateName(webcam);
 
     return (
         <div id={'PopupContent'}>

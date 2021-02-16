@@ -19,6 +19,7 @@ import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
+import generateName from '../../utils/generateName';
 
 interface ListPageProps {
     dispatch: Dispatch
@@ -49,7 +50,7 @@ class ListPage extends React.Component<ListPageProps> {
         const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
         const tableBody = Object.entries(webcam.osmTags).map(
-            (value, key) => (
+            ([key, value]) => (
                 <tr key={`${key}-${value}`}>
                     <td>{key}</td>
                     <td>{value}</td>
@@ -57,7 +58,7 @@ class ListPage extends React.Component<ListPageProps> {
             )
         );
 
-        const cardTitle = webcam.osmTags.name ?? webcam.operator ?? 'Unknown';
+        const cardTitle = generateName(webcam);
         document.title = `${cardTitle} - CartoCams`;
 
         return (
