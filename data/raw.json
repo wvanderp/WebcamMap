@@ -8665,11 +8665,12 @@
   {
     "type": "node",
     "id": 5794530678,
-    "lat": 46.7255775,
-    "lon": -2.3476068,
+    "lat": 46.7256239,
+    "lon": -2.3474823,
     "tags": {
+      "camera:direction": "350",
       "camera:mount": "pole",
-      "camera:type": "panning",
+      "camera:type": "fixed",
       "contact:webcam": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu",
       "man_made": "surveillance",
       "name": "Port de l'Ile d'Yeu",
@@ -11534,6 +11535,23 @@
       "operator": "molen stichting gemert-bakel",
       "surveillance": "webcam",
       "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8428392165,
+    "lat": 46.7255837,
+    "lon": -2.3475929,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/17600-france-pays-de-la-loire-lile-dyeu-le-port",
+      "man_made": "surveillance",
+      "name": "Port de l'Ile d'Yeu",
+      "operator": "Conseil départemental de la Vendée",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     }
   },
   {
