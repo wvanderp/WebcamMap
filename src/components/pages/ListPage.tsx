@@ -56,19 +56,19 @@ class ListPage extends React.Component<ListPageProps> {
             <PopupContent key={r.osmID} webcam={r} hasHeaderLink/>
         ));
 
-        const tableBody = chunk(webcamTiles, 3).map(
+        const tableBody = chunk(webcamTiles, 4).map(
             (r, index) => (
                 // eslint-disable-next-line react/no-array-index-key
-                <tr key={index}>
+                <Row key={index}>
                     {
                         r.map(
                             (t, index_) => (
                                 // eslint-disable-next-line react/no-array-index-key
-                                <td key={index_}>{t}</td>
+                                <Col lg={3} md={6} sm={12} key={index_}>{t}</Col>
                             )
                         )
                     }
-                </tr>
+                </Row>
             )
         );
 
@@ -107,11 +107,9 @@ class ListPage extends React.Component<ListPageProps> {
                     </Row>
                     <Row>
                         <Col>
-                            <Table>
-                                <tbody>
-                                    { tableBody }
-                                </tbody>
-                            </Table>
+                            <Container fluid>
+                                { tableBody }
+                            </Container>
                         </Col>
                     </Row>
                 </Container>
