@@ -11013,9 +11013,10 @@
   {
     "type": "node",
     "id": 7886097426,
-    "lat": -33.4370318,
-    "lon": -70.6354868,
+    "lat": -33.4370411,
+    "lon": -70.6355101,
     "tags": {
+      "camera:direction": "85",
       "camera:mount": "ceiling",
       "camera:type": "dome",
       "contact:webcam": "https://www.galeriacima.cl/",
@@ -11552,6 +11553,49 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8431885391,
+    "lat": -33.4261739,
+    "lon": -70.6339516,
+    "tags": {
+      "camera:direction": "220",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://balticlivecam.com/cameras/chile/santiago/view-san-cristobal-hill/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8431917530,
+    "lat": -24.6274496,
+    "lon": -70.404623,
+    "tags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.eso.org/public/outreach/webcams/#paranal",
+      "man_made": "surveillance",
+      "operator": "ESO",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8431940497,
+    "lat": -40.5740797,
+    "lon": -73.1361173,
+    "tags": {
+      "camera:direction": "40",
+      "camera:type": "fixed",
+      "contact:webcam": "http://216.155.78.8:19021/hls/live.stream.m3u8",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
