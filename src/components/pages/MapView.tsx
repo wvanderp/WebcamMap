@@ -29,6 +29,7 @@ class MapView extends React.Component<MapViewProps> {
             );
         });
 
+        document.title = 'CartoCams';
         return (
             <div>
                 <Map
