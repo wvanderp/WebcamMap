@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/no-array-reduce */
+/* eslint-disable no-console */
 import axios from 'axios';
 import fs from 'fs';
 import iso3311a2 from 'iso-3166-1-alpha-2';
@@ -38,19 +40,34 @@ export interface NominatimResponse {
     osm_id: number;
     osm_type: 'node' | 'way' | 'relation';
     place_id: number;
+    expires: number; // added by me
 }
+
+type NominatimCache = Record<string, NominatimResponse>
 
 function sleep(ms: number): Promise<void> {
     // eslint-disable-next-line compat/compat
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-const getNominatimCache = (): Record<string, NominatimResponse> => {
+function getRandomInt(min: number, max: number): number {
+    const roundedMin = Math.ceil(min);
+    const RoundedMax = Math.floor(max);
+    return Math.floor(Math.random() * (RoundedMax - roundedMin + 1)) + roundedMin;
+}
+
+const getNominatimCache = (): NominatimCache => {
     try {
         const file = fs.readFileSync('./data/nominatimCache.json').toString();
-        return JSON.parse(file);
+        const data: NominatimCache = JSON.parse(file);
+
+        console.log('filtering out old nominatim responses');
+        return Object.fromEntries(
+            Object.entries(data).filter(
+                (nominatim) => nominatim[1].expires && nominatim[1].expires > (Date.now() / 1000)
+            )
+        );
     } catch {
-        // eslint-disable-next-line no-console
         console.log('nominatim cache not found. no worries we continue');
         return {};
     }
@@ -65,20 +82,21 @@ const overpassUrl = 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
     if (Object.keys(nominatimCache).includes(`${lat},${lon}`)) {
-        // eslint-disable-next-line no-console
         console.log(`hit cache for ${lat},${lon}`);
         return nominatimCache[`${lat},${lon}`];
     }
     const url = getNominatimUrl(lat, lon);
-    // eslint-disable-next-line no-console
+
     console.log(`reaching to nominatim for ${lat},${lon}`);
     const {data} = await axios.get(url);
 
+    nominatimCache[`${lat},${lon}`] = {
+        ...data,
+        expires: Math.floor((Date.now() / 1000) + getRandomInt(259200, 604800))
+    };
+
     await sleep(1000);
-
-    nominatimCache[`${lat},${lon}`] = data;
-
-    return data;
+    return nominatimCache[`${lat},${lon}`];
 };
 
 (async (): Promise<void> => {
@@ -86,7 +104,6 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
         fs.mkdirSync('./data/');
     }
 
-    // eslint-disable-next-line no-console
     console.log('getting overpass');
     const data = (await axios.get(overpassUrl)).data as OsmResponse;
 
@@ -147,17 +164,22 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
     const filteredWebcams = webcams.filter((r) => r !== null);
 
-    // eslint-disable-next-line no-console
     console.log('writing files');
     fs.writeFileSync('./data/raw.json', JSON.stringify(nodes, null, 2));
     fs.writeFileSync('./data/webcams.json', JSON.stringify(filteredWebcams, null, 2));
 })();
 
 function exitHandler(options: unknown, error: unknown) {
-    // eslint-disable-next-line no-console
     console.log('writing cache file');
-    fs.writeFileSync('./data/nominatimCache.json', JSON.stringify(nominatimCache, null, 2));
-    // eslint-disable-next-line no-console
+    const nominatimCacheOrdered = Object.keys(nominatimCache).sort().reduce<NominatimCache>(
+        (object, key) => {
+            // eslint-disable-next-line no-param-reassign
+            object[key] = nominatimCache[key];
+            return object;
+        },
+        {}
+    );
+    fs.writeFileSync('./data/nominatimCache.json', JSON.stringify(nominatimCacheOrdered, null, 2));
     console.log('errors?', options, error);
     if (error) throw (error);
     // eslint-disable-next-line unicorn/no-process-exit

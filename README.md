@@ -15,10 +15,17 @@
 
 This repo contains the webapp available at [https://cartocams.com/](https://cartocams.com/)
 
-## Todoes
-- invalidate nominatim cache
-- create pages for places with webcams
-- preview webcams
-- able to add webcams directly
-- make icons smaller on higher zoom levels
-- fix the view of city and country webcams
+## Data sources
+We want to thank the openStreetMap community for the webcams and the address data. the data is available at [https://www.openstreetmap.org/](the openStreetMap) under a `ODbL` licence. 
+
+This project uses the `openStreetMap Logo` drawn by `Ken Vermette` witch is licensed under `CC by-sa3.0` and is available at [https://wiki.openstreetmap.org/wiki/File:Public-images-osm_logo.svg](the OpenStreetMap Wiki)
+
+And this project also uses `Icons8 flat integrated webcam` from the Icons8 library. these icons are available under the `MIT license` and available at [https://commons.wikimedia.org/wiki/File:Icons8_flat_integrated_webcam.svg](the wiki commons)
+
+
+## Todos
+- Preview webcams
+- Be able to add webcams directly
+- Make icons smaller on higher zoom levels
+- Make creative commons license visible on the sites
+- Look at all the package license
