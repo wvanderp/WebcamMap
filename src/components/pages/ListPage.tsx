@@ -4,7 +4,7 @@ import {Dispatch} from 'redux';
 import {match} from 'react-router';
 import chunk from 'lodash.chunk';
 import {Map, Marker, Popup, TileLayer, Viewport, LatLngBoundsLiteral} from 'react-leaflet';
-import {Col, Container, Row, Table} from 'reactstrap';
+import {Col, Container, Row} from 'reactstrap';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -12,6 +12,7 @@ import webcams from '../../../data/webcams.json';
 import PopupContent from '../parts/PopupContent';
 import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
+import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
 
 interface ListPageProps {
     dispatch: Dispatch
@@ -19,8 +20,14 @@ interface ListPageProps {
 }
 
 class ListPage extends React.Component<ListPageProps> {
+    componentDidMount() {
+        if (this.props.match.params.name.includes(' ')) {
+            window.location.href = encodeUrl(decodeUrl(this.props.match.params.name));
+        }
+    }
+
     render(): React.ReactNode {
-        const name = decodeURIComponent(this.props.match.params.name);
+        const name = decodeUrl(this.props.match.params.name);
         const type = this.props.match.url.split('/')[1];
 
         if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
