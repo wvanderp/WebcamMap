@@ -62,11 +62,17 @@ const getNominatimCache = (): NominatimCache => {
         const data: NominatimCache = JSON.parse(file);
 
         console.log('filtering out old nominatim responses');
-        return Object.fromEntries(
+        const filteredNominatim = Object.fromEntries(
             Object.entries(data).filter(
                 (nominatim) => nominatim[1].expires && nominatim[1].expires > (Date.now() / 1000)
             )
         );
+
+        console.log(`removed ${
+            Object.values(data).length - Object.values(filteredNominatim).length
+        } out of date responses`);
+
+        return filteredNominatim;
     } catch {
         console.log('nominatim cache not found. no worries we continue');
         return {};

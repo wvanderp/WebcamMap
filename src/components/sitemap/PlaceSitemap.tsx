@@ -6,6 +6,7 @@ import set from 'lodash.set';
 import webcams from '../../../data/webcams.json';
 
 import {Webcam} from '../../types/webcam';
+import { encodeUrl } from '../../utils/encodeUrl';
 
 interface ListComponentsProps{
     tree: Record<string, unknown> | Webcam,
@@ -32,7 +33,7 @@ const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListCo
                     <span key={key}>
                         {
                             key !== 'unknown'
-                                ? <li><Link to={`${levelLookup[level]}/${key}`}>{key}</Link></li>
+                                ? <li><Link to={`${levelLookup[level]}/${encodeUrl(key)}`}>{key}</Link></li>
                                 : <li>{key}</li>
                         }
                         <ul>
