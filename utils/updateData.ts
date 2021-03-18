@@ -84,7 +84,7 @@ const getNominatimUrl = (
     lat: number, lon: number
 ) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1`;
 
-const overpassUrl = 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%28node%5B%22surveillance%22%3D%22webcam%22%5D%3Bway%5B%22surveillance%22%3D%22webcam%22%5D%3Brelation%5B%22surveillance%22%3D%22webcam%22%5D%3B%29%3Bout%3B%3E%3Bout%20skel%20qt%3B%0A';
+const overpassUrl = 'https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%28nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3Bnwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%29%3Bout%3B%3E%3Bout%20skel%20qt%3B%0A';
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
     if (Object.keys(nominatimCache).includes(`${lat},${lon}`)) {
