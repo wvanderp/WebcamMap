@@ -59,7 +59,7 @@ class Menu extends React.Component<MenuProps> {
                                 <h4 className="text-white">Links</h4>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <a href="https://overpass-turbo.eu/s/X74" className="text-white">
+                                        <a href="https://overpass-turbo.eu/s/15aA" className="text-white">
                                             The Overpass Query used to create the data
                                         </a>
                                     </li>
@@ -132,7 +132,7 @@ class Menu extends React.Component<MenuProps> {
     }
 }
 
-export default connect((state: appState, props) => ({
+export default connect((state: appState) => ({
     location: state.location.coordinates,
     zoom: state.location.zoom
 }))(Menu);
