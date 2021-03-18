@@ -3144,8 +3144,8 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110409"
   },
   {
-    "lat": 59.349494,
-    "lon": 10.380774,
+    "lat": 59.3539447,
+    "lon": 10.3825146,
     "osmID": 1417674189,
     "osmType": "node",
     "address": {
@@ -6321,26 +6321,6 @@
     "url": "http://www.brettenwebcam.de/"
   },
   {
-    "lat": 48.2636628,
-    "lon": 16.3669845,
-    "osmID": 2218226792,
-    "osmType": "node",
-    "address": {
-      "city": "Wien",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.donau-fritzi.at/webcam.htm",
-      "man_made": "surveillance",
-      "name": "Donau Fritzi Webcam",
-      "operator": "Donau Fritzi e.U.",
-      "surveillance": "webcam",
-      "url:stream": "http://83.64.164.4/axis-cgi/mjpg/video.cgi?resolution=640x480&compression=20&date=1&dummy=1448365157995"
-    },
-    "operator": "Donau Fritzi e.U.",
-    "url": "http://www.donau-fritzi.at/webcam.htm"
-  },
-  {
     "lat": 51.9352316,
     "lon": 8.8794053,
     "osmID": 2227035254,
@@ -8433,6 +8413,24 @@
     "url": "https://www.oederan.de/online-service/webcam/"
   },
   {
+    "lat": 47.866742,
+    "lon": 13.2537193,
+    "osmID": 4173455040,
+    "osmType": "node",
+    "address": {
+      "city": "Thalgau",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "contact:webcam": "http://webcams-thalgau.at/webcams/wasenmooslift.jpg",
+      "man_made": "surveillance",
+      "name": "Wasenmooslift",
+      "surveillance": "webcam"
+    },
+    "url": "http://webcams-thalgau.at/webcams/wasenmooslift.jpg"
+  },
+  {
     "lat": 48.6359532,
     "lon": 10.2149729,
     "osmID": 4249037693,
@@ -9919,24 +9917,6 @@
       "surveillance:zone": "area"
     },
     "url": "http://data.stadt-nom.de/webcam/muensterplatz/webcam_muensterplatz.jpg"
-  },
-  {
-    "lat": 47.8667567,
-    "lon": 13.2537076,
-    "osmID": 4593254013,
-    "osmType": "node",
-    "address": {
-      "city": "Thalgau",
-      "state": "Salzburg",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "contact:webcam": "http://webcams-thalgau.at/webcams/wasenmooslift.jpg",
-      "man_made": "surveillance",
-      "name": "Wasenmooslift",
-      "surveillance": "webcam"
-    },
-    "url": "http://webcams-thalgau.at/webcams/wasenmooslift.jpg"
   },
   {
     "lat": 47.6214635,
@@ -12404,6 +12384,7 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "dome",
+      "contact:webcam": "https://garnisonkirche-potsdam.de/webcam/webcam-garnisonkirche-potsdam/",
       "man_made": "surveillance",
       "operator": "Fördergesellschaft für den Wiederaufbau der Garnisonkirche Potsdam e. V.",
       "operator:short": "FWG",
@@ -12411,10 +12392,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town",
-      "url": "https://garnisonkirche-potsdam.de/nc/webcam/webcam-garnisonkirche-potsdam/"
+      "url": "https://garnisonkirche-potsdam.de/webcam/webcam-garnisonkirche-potsdam/"
     },
     "operator": "Fördergesellschaft für den Wiederaufbau der Garnisonkirche Potsdam e. V.",
-    "url": "https://garnisonkirche-potsdam.de/nc/webcam/webcam-garnisonkirche-potsdam/"
+    "url": "https://garnisonkirche-potsdam.de/webcam/webcam-garnisonkirche-potsdam/"
   },
   {
     "lat": 50.7192462,
@@ -15391,7 +15372,7 @@
     "osmID": 8431885391,
     "osmType": "node",
     "address": {
-      "city": "Providencia",
+      "city": "Recoleta",
       "county": "Provincia de Santiago",
       "state": "Región Metropolitana de Santiago",
       "country": "Chile"
@@ -15960,5 +15941,28 @@
     },
     "operator": "webcam uden",
     "url": "https://www.webcamuden.nl/"
+  },
+  {
+    "lat": 52.1072902,
+    "lon": 4.272115,
+    "osmID": 8522433186,
+    "osmType": "node",
+    "address": {
+      "city": "Den Haag",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "310",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.scheveningenlive.nl/strand-webcam/",
+      "description": "Strand Webcam",
+      "man_made": "surveillance",
+      "operator": "scheveningen live",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "scheveningen live",
+    "url": "http://www.scheveningenlive.nl/strand-webcam/"
   }
 ]

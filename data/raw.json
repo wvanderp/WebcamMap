@@ -2222,8 +2222,8 @@
   {
     "type": "node",
     "id": 1417674189,
-    "lat": 59.349494,
-    "lon": 10.380774,
+    "lat": 59.3539447,
+    "lon": 10.3825146,
     "tags": {
       "fixme": "position",
       "man_made": "surveillance",
@@ -4503,20 +4503,6 @@
   },
   {
     "type": "node",
-    "id": 2218226792,
-    "lat": 48.2636628,
-    "lon": 16.3669845,
-    "tags": {
-      "contact:webcam": "http://www.donau-fritzi.at/webcam.htm",
-      "man_made": "surveillance",
-      "name": "Donau Fritzi Webcam",
-      "operator": "Donau Fritzi e.U.",
-      "surveillance": "webcam",
-      "url:stream": "http://83.64.164.4/axis-cgi/mjpg/video.cgi?resolution=640x480&compression=20&date=1&dummy=1448365157995"
-    }
-  },
-  {
-    "type": "node",
     "id": 2227035254,
     "lat": 51.9352316,
     "lon": 8.8794053,
@@ -6054,6 +6040,18 @@
   },
   {
     "type": "node",
+    "id": 4173455040,
+    "lat": 47.866742,
+    "lon": 13.2537193,
+    "tags": {
+      "contact:webcam": "http://webcams-thalgau.at/webcams/wasenmooslift.jpg",
+      "man_made": "surveillance",
+      "name": "Wasenmooslift",
+      "surveillance": "webcam"
+    }
+  },
+  {
+    "type": "node",
     "id": 4249037693,
     "lat": 48.6359532,
     "lon": 10.2149729,
@@ -7260,18 +7258,6 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "shop"
-    }
-  },
-  {
-    "type": "node",
-    "id": 4593254013,
-    "lat": 47.8667567,
-    "lon": 13.2537076,
-    "tags": {
-      "contact:webcam": "http://webcams-thalgau.at/webcams/wasenmooslift.jpg",
-      "man_made": "surveillance",
-      "name": "Wasenmooslift",
-      "surveillance": "webcam"
     }
   },
   {
@@ -9194,6 +9180,7 @@
     "tags": {
       "camera:mount": "pole",
       "camera:type": "dome",
+      "contact:webcam": "https://garnisonkirche-potsdam.de/webcam/webcam-garnisonkirche-potsdam/",
       "man_made": "surveillance",
       "operator": "Fördergesellschaft für den Wiederaufbau der Garnisonkirche Potsdam e. V.",
       "operator:short": "FWG",
@@ -9201,7 +9188,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town",
-      "url": "https://garnisonkirche-potsdam.de/nc/webcam/webcam-garnisonkirche-potsdam/"
+      "url": "https://garnisonkirche-potsdam.de/webcam/webcam-garnisonkirche-potsdam/"
     }
   },
   {
@@ -11891,6 +11878,22 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "square"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8522433186,
+    "lat": 52.1072902,
+    "lon": 4.272115,
+    "tags": {
+      "camera:direction": "310",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.scheveningenlive.nl/strand-webcam/",
+      "description": "Strand Webcam",
+      "man_made": "surveillance",
+      "operator": "scheveningen live",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
