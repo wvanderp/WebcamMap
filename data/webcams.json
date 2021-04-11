@@ -5716,10 +5716,17 @@
       "country": "Belgium"
     },
     "osmTags": {
+      "camera:angle": "77",
+      "camera:direction": "326",
+      "camera:type": "dome",
       "contact:webcam": "http://www.sri.ucl.ac.be/webcam/aula10s.html",
       "man_made": "surveillance",
       "operator": "UCL",
-      "surveillance": "webcam"
+      "ref:sous-surveillance.net": "21111",
+      "source": "sous-surveillance.net",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "survey:date": "2020-11-21 15:38:13+00:00"
     },
     "operator": "UCL",
     "url": "http://www.sri.ucl.ac.be/webcam/aula10s.html"
@@ -8499,7 +8506,7 @@
     "osmID": 3689072839,
     "osmType": "node",
     "address": {
-      "city": "Norderney",
+      "city": "Norderney - Nördernee",
       "county": "Landkreis Aurich",
       "state": "Niedersachsen",
       "country": "Germany"
@@ -8807,9 +8814,8 @@
       "country": "Germany"
     },
     "osmTags": {
-      "direction": "225",
+      "camera:direction": "225",
       "image": "http://cam.irpfel.org/cam1.jpg",
-      "image_2": "http://cam.irpfel.org/cam2.jpg",
       "man_made": "surveillance",
       "name": "Webcam: Vorfeld",
       "surveillance": "webcam",
@@ -8999,27 +9005,6 @@
     "url": "https://www.perisher.com.au/weather-cams/cams#Xv8"
   },
   {
-    "lat": 48.692904,
-    "lon": 10.1513311,
-    "osmID": 4270021658,
-    "osmType": "node",
-    "address": {
-      "city": "Heidenheim an der Brenz",
-      "county": "Landkreis Heidenheim",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "image": "http://www.naturfreundehaus-heidenheim.de/webcam/image_big.jpg",
-      "man_made": "surveillance",
-      "name": "Webcam",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://www.naturfreundehaus-heidenheim.de"
-    },
-    "url": "http://www.naturfreundehaus-heidenheim.de"
-  },
-  {
     "lat": 48.6734184,
     "lon": 10.1152968,
     "osmID": 4270027104,
@@ -9075,20 +9060,21 @@
       "country": "Germany"
     },
     "osmTags": {
-      "direction": "315",
+      "camera:direction": "330",
+      "contact:webcam": "https://www.ehingen.de/webcam",
+      "image": "https://webcam.ehingen.de/record/current.jpg",
       "man_made": "surveillance",
       "name": "Webcam Marktplatz",
       "operator": "Volkshochschule Ehingen",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://webcam.vhs-ehingen.de/cgi-bin/guestimage.html"
+      "surveillance:type": "camera"
     },
     "operator": "Volkshochschule Ehingen",
-    "url": "http://webcam.vhs-ehingen.de/cgi-bin/guestimage.html"
+    "url": "https://www.ehingen.de/webcam"
   },
   {
-    "lat": 48.576815,
-    "lon": 10.4926268,
+    "lat": 48.5776433,
+    "lon": 10.496013,
     "osmID": 4286338793,
     "osmType": "node",
     "address": {
@@ -9099,8 +9085,8 @@
     },
     "osmTags": {
       "addr:city": "Dillingen a.d.Donau",
-      "direction": "90",
-      "image": "http://www.dillingen-donau.de/webcam/camdlg.jpg",
+      "direction": "250",
+      "image": "https://www.dillingen-donau.de/webcam/camdlg.jpg",
       "man_made": "surveillance",
       "name": "Webcam Königstraße",
       "surveillance": "webcam",
@@ -10199,42 +10185,6 @@
       "website": "https://www.jungfrau.ch/webcams"
     },
     "url": "https://www.jungfrau.ch/webcams"
-  },
-  {
-    "lat": -31.5624936,
-    "lon": -60.7477436,
-    "osmID": 4518132434,
-    "osmType": "node",
-    "address": {
-      "city": "Santa Fe",
-      "state": "Santa Fe",
-      "country": "Argentina"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "http://www.berlin.de/webcams/index.php/fsz",
-      "url:webcam": "http://www.berlin.de/webcams/fsz/webcam.jpg"
-    },
-    "url": "http://www.berlin.de/webcams/index.php/fsz"
-  },
-  {
-    "lat": -31.5639735,
-    "lon": -60.7518277,
-    "osmID": 4542090147,
-    "osmType": "node",
-    "address": {
-      "city": "Santa Fe",
-      "state": "Santa Fe",
-      "country": "Argentina"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "http://www.berlin.de/webcams/index.php/fsz",
-      "url:webcam": "http://www.berlin.de/webcams/fsz/webcam.jpg"
-    },
-    "url": "http://www.berlin.de/webcams/index.php/fsz"
   },
   {
     "lat": 51.7050852,
@@ -11471,7 +11421,7 @@
     "osmID": 4606253086,
     "osmType": "node",
     "address": {
-      "city": "Niagara-on-the-Lake",
+      "city": "St. Catharines",
       "county": "Niagara Region",
       "state": "Ontario",
       "country": "Canada"
@@ -14593,7 +14543,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu",
       "man_made": "surveillance",
-      "name": "Port de l'Ile d'Yeu",
+      "name": "Port de l'Île d'Yeu",
       "operator": "Conseil départemental de la Vendée",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -14722,7 +14672,6 @@
     "osmType": "node",
     "address": {
       "city": "Goffs",
-      "county": "Halifax County",
       "state": "Nova Scotia",
       "country": "Canada"
     },
@@ -14975,7 +14924,7 @@
     "osmType": "node",
     "address": {
       "city": "Baiersbronn",
-      "county": "Ortenaukreis",
+      "county": "Landkreis Freudenstadt",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16078,7 +16027,6 @@
     "osmType": "node",
     "address": {
       "city": "East Preston",
-      "county": "Halifax County",
       "state": "Nova Scotia",
       "country": "Canada"
     },
@@ -16922,33 +16870,6 @@
     "url": "http://webcam.ville-pontarlier.fr/gounefay/all_image/galerie.php"
   },
   {
-    "lat": 52.1495524,
-    "lon": 8.0347295,
-    "osmID": 7297020463,
-    "osmType": "node",
-    "address": {
-      "city": "Bad Iburg",
-      "county": "Landkreis Osnabrück",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "182",
-      "camera:mount": "building",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.am-riesweg.de/webcam/rieswegcam.jpg",
-      "contact:webcam:type": "image",
-      "description": "Wettercam Am Riesweg in 49186 Bad Iburg/Ostenfelde, 24/365 online, alle 10 Sec. ein neues Bild.",
-      "interval": "00:00:10",
-      "man_made": "surveillance",
-      "name": "Wettercam 49186 Bad Iburg, Am Riesweg",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "weather"
-    },
-    "url": "https://www.am-riesweg.de/webcam/rieswegcam.jpg"
-  },
-  {
     "lat": 39.5560826,
     "lon": -104.871845,
     "osmID": 7491237515,
@@ -17563,6 +17484,7 @@
     "osmType": "node",
     "address": {
       "city": "Hammel",
+      "state": "Region Midtjylland",
       "country": "Denmark"
     },
     "osmTags": {
@@ -17653,7 +17575,7 @@
     "osmID": 7721039058,
     "osmType": "node",
     "address": {
-      "city": "Günzenhausen",
+      "city": "Eching",
       "county": "Landkreis Freising",
       "state": "Bayern",
       "country": "Germany"
@@ -19863,7 +19785,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/17600-france-pays-de-la-loire-lile-dyeu-le-port",
       "man_made": "surveillance",
-      "name": "Port de l'Ile d'Yeu",
+      "name": "Port de l'Île d'Yeu",
       "operator": "Conseil départemental de la Vendée",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -20859,5 +20781,380 @@
       "surveillance:type": "camera"
     },
     "url": "https://www.511ny.org/map/Cctv/4ni01425u--30"
+  },
+  {
+    "lat": 48.5613676,
+    "lon": 10.2934426,
+    "osmID": 8553035763,
+    "osmType": "node",
+    "address": {
+      "city": "Sontheim an der Brenz",
+      "county": "Landkreis Heidenheim",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.sontheim-brenz.de/schloss-brenz/storchenkamera",
+      "image": "http://webcam.ep-woerz.de/image01.jpg",
+      "man_made": "surveillance",
+      "name": "Storchenkamera",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://www.sontheim-brenz.de/schloss-brenz/storchenkamera"
+  },
+  {
+    "lat": 48.6359672,
+    "lon": 10.2150981,
+    "osmID": 8554945173,
+    "osmType": "node",
+    "address": {
+      "city": "Giengen an der Brenz",
+      "county": "Landkreis Heidenheim",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "170",
+      "image": "http://cam.irpfel.org/cam2.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam: Piste 17",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "http://irpfel.org/webcam/"
+    },
+    "url": "http://irpfel.org/webcam/"
+  },
+  {
+    "lat": 48.3395956,
+    "lon": 9.6045374,
+    "osmID": 8560843297,
+    "osmType": "node",
+    "address": {
+      "city": "Ehingen (Donau)",
+      "county": "Alb-Donau-Kreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ehingen.de/sonnencam",
+      "image": "https://sonnencam.ehingen.de/record/current.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam: Schneckenhäule",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ehingen.de/sonnencam"
+  },
+  {
+    "lat": 53.3888207,
+    "lon": -6.0677847,
+    "osmID": 8561241809,
+    "osmType": "node",
+    "address": {
+      "city": "Howth",
+      "county": "County Dublin",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "360",
+      "camera:type": "fixed",
+      "contact:webcam": "https://hyc.ie/webcam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://hyc.ie/webcam"
+  },
+  {
+    "lat": 53.2964283,
+    "lon": -6.1468368,
+    "osmID": 8561245596,
+    "osmType": "node",
+    "address": {
+      "city": "Dún Laoghaire",
+      "county": "County Dublin",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "50",
+      "camera:type": "fixed",
+      "contact:webcam": "https://slipcam.dmyc.ie/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://slipcam.dmyc.ie/"
+  },
+  {
+    "lat": -24.0748293,
+    "lon": 15.8873383,
+    "osmID": 8561252824,
+    "osmType": "node",
+    "address": {
+      "state": "Hardap Region",
+      "country": "Namibia"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://namibiaweather.info/Namib-Desert-Live-Cam.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "object"
+    },
+    "url": "https://namibiaweather.info/Namib-Desert-Live-Cam.php"
+  },
+  {
+    "lat": 52.2641875,
+    "lon": 10.5262579,
+    "osmID": 8567547652,
+    "osmType": "node",
+    "address": {
+      "city": "Braunschweig",
+      "state": "Niedersachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_schloss.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_schloss.php"
+  },
+  {
+    "lat": 52.2643559,
+    "lon": 10.524755,
+    "osmID": 8567885949,
+    "osmType": "node",
+    "address": {
+      "city": "Braunschweig",
+      "state": "Niedersachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-70",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_burgplatz.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_burgplatz.php"
+  },
+  {
+    "lat": 52.264359,
+    "lon": 10.524757,
+    "osmID": 8567885950,
+    "osmType": "node",
+    "address": {
+      "city": "Braunschweig",
+      "state": "Niedersachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-10",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_burgplatz.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_burgplatz.php"
+  },
+  {
+    "lat": 51.2374164,
+    "lon": -2.9447959,
+    "osmID": 8569694601,
+    "osmType": "node",
+    "address": {
+      "city": "Sedgemoor",
+      "county": "Somerset",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "230",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.motorwaycameras.co.uk/england/m5/southbound/traffic-camera/710",
+      "man_made": "surveillance",
+      "operator": "Highways England",
+      "operator:type": "government",
+      "operator:wikidata": "Q5760006",
+      "operator:wikipedia": "en:Highways England",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Highways England",
+    "url": "https://www.motorwaycameras.co.uk/england/m5/southbound/traffic-camera/710"
+  },
+  {
+    "lat": 49.0691823,
+    "lon": 10.3209067,
+    "osmID": 8585250050,
+    "osmType": "node",
+    "address": {
+      "city": "Dinkelsbühl",
+      "county": "Landkreis Ansbach",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "210",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.storch.bn-ansbach.de/",
+      "image": "http://storch.lingel-it-systems.de/stn-dkb-live.jpeg",
+      "man_made": "surveillance",
+      "name": "Webcam: Storchennest",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://www.storch.bn-ansbach.de/"
+  },
+  {
+    "lat": 49.06462,
+    "lon": 10.4005835,
+    "osmID": 8585251616,
+    "osmType": "node",
+    "address": {
+      "city": "Dinkelsbühl",
+      "county": "Landkreis Ansbach",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.aeroclub-dinkelsbuehl.de/Webcam.52.0.html",
+      "description": "Im Hintergrund ist der ca. 8 km entfernte Hesselberg zu sehen. Aktualisierung alle 10 min",
+      "image": "https://www.aeroclub-dinkelsbuehl.de/webcam/cam_1.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Aeroclub Dinkelsbühl",
+      "operator": "Aeroclub Dinkelsbühl e.V.",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Aeroclub Dinkelsbühl e.V.",
+    "url": "https://www.aeroclub-dinkelsbuehl.de/Webcam.52.0.html"
+  },
+  {
+    "lat": 47.5484675,
+    "lon": 10.5700243,
+    "osmID": 8603464047,
+    "osmType": "node",
+    "address": {
+      "city": "Pfronten",
+      "county": "Landkreis Ostallgäu",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.breitenbergbahn.de/_webcams/mobotix/bbbausgang.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.breitenbergbahn.de/_webcams/mobotix/bbbausgang.jpg"
+  },
+  {
+    "lat": 47.5456441,
+    "lon": 10.5589952,
+    "osmID": 8603464048,
+    "osmType": "node",
+    "address": {
+      "city": "Pfronten",
+      "county": "Landkreis Ostallgäu",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.breitenbergbahn.de/_webcams/mobotix/kesselmoos.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.breitenbergbahn.de/_webcams/mobotix/kesselmoos.jpg"
+  },
+  {
+    "lat": 47.545636,
+    "lon": 10.5589429,
+    "osmID": 8603464049,
+    "osmType": "node",
+    "address": {
+      "city": "Pfronten",
+      "county": "Landkreis Ostallgäu",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.breitenbergbahn.de/_webcams/mobotix/aggenstein.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.breitenbergbahn.de/_webcams/mobotix/aggenstein.jpg"
+  },
+  {
+    "lat": 47.5654476,
+    "lon": 10.561489,
+    "osmID": 8603464051,
+    "osmType": "node",
+    "address": {
+      "city": "Pfronten",
+      "county": "Landkreis Ostallgäu",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcams.tourismus-pfronten.de/skizentrum1.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://webcams.tourismus-pfronten.de/skizentrum1.jpg"
+  },
+  {
+    "lat": 50.7007807,
+    "lon": 10.70683,
+    "osmID": 8613220746,
+    "osmType": "node",
+    "address": {
+      "city": "Oberhof",
+      "county": "Landkreis Schmalkalden-Meiningen",
+      "state": "Thüringen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.bergfex.de/oberhof/webcams/c10117/",
+      "name": "Webcam Rennsteig - Loipe am Stein 16 - Sport Luck",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.bergfex.de/oberhof/webcams/c10117/"
   }
 ]

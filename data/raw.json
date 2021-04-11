@@ -4090,10 +4090,17 @@
     "lat": 50.6690551,
     "lon": 4.6111202,
     "tags": {
+      "camera:angle": "77",
+      "camera:direction": "326",
+      "camera:type": "dome",
       "contact:webcam": "http://www.sri.ucl.ac.be/webcam/aula10s.html",
       "man_made": "surveillance",
       "operator": "UCL",
-      "surveillance": "webcam"
+      "ref:sous-surveillance.net": "21111",
+      "source": "sous-surveillance.net",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "survey:date": "2020-11-21 15:38:13+00:00"
     }
   },
   {
@@ -6300,9 +6307,8 @@
     "lat": 48.6359532,
     "lon": 10.2149729,
     "tags": {
-      "direction": "225",
+      "camera:direction": "225",
       "image": "http://cam.irpfel.org/cam1.jpg",
-      "image_2": "http://cam.irpfel.org/cam2.jpg",
       "man_made": "surveillance",
       "name": "Webcam: Vorfeld",
       "surveillance": "webcam",
@@ -6432,20 +6438,6 @@
   },
   {
     "type": "node",
-    "id": 4270021658,
-    "lat": 48.692904,
-    "lon": 10.1513311,
-    "tags": {
-      "image": "http://www.naturfreundehaus-heidenheim.de/webcam/image_big.jpg",
-      "man_made": "surveillance",
-      "name": "Webcam",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://www.naturfreundehaus-heidenheim.de"
-    }
-  },
-  {
-    "type": "node",
     "id": 4270027104,
     "lat": 48.6734184,
     "lon": 10.1152968,
@@ -6480,24 +6472,25 @@
     "lat": 48.2825444,
     "lon": 9.7264444,
     "tags": {
-      "direction": "315",
+      "camera:direction": "330",
+      "contact:webcam": "https://www.ehingen.de/webcam",
+      "image": "https://webcam.ehingen.de/record/current.jpg",
       "man_made": "surveillance",
       "name": "Webcam Marktplatz",
       "operator": "Volkshochschule Ehingen",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://webcam.vhs-ehingen.de/cgi-bin/guestimage.html"
+      "surveillance:type": "camera"
     }
   },
   {
     "type": "node",
     "id": 4286338793,
-    "lat": 48.576815,
-    "lon": 10.4926268,
+    "lat": 48.5776433,
+    "lon": 10.496013,
     "tags": {
       "addr:city": "Dillingen a.d.Donau",
-      "direction": "90",
-      "image": "http://www.dillingen-donau.de/webcam/camdlg.jpg",
+      "direction": "250",
+      "image": "https://www.dillingen-donau.de/webcam/camdlg.jpg",
       "man_made": "surveillance",
       "name": "Webcam Königstraße",
       "surveillance": "webcam",
@@ -7369,18 +7362,6 @@
   },
   {
     "type": "node",
-    "id": 4518132434,
-    "lat": -31.5624936,
-    "lon": -60.7477436,
-    "tags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "http://www.berlin.de/webcams/index.php/fsz",
-      "url:webcam": "http://www.berlin.de/webcams/fsz/webcam.jpg"
-    }
-  },
-  {
-    "type": "node",
     "id": 4523982247,
     "lat": 45.0232309,
     "lon": 14.5720272,
@@ -7427,18 +7408,6 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
-    }
-  },
-  {
-    "type": "node",
-    "id": 4542090147,
-    "lat": -31.5639735,
-    "lon": -60.7518277,
-    "tags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "http://www.berlin.de/webcams/index.php/fsz",
-      "url:webcam": "http://www.berlin.de/webcams/fsz/webcam.jpg"
     }
   },
   {
@@ -10549,7 +10518,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu",
       "man_made": "surveillance",
-      "name": "Port de l'Ile d'Yeu",
+      "name": "Port de l'Île d'Yeu",
       "operator": "Conseil départemental de la Vendée",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -12343,26 +12312,6 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
-    }
-  },
-  {
-    "type": "node",
-    "id": 7297020463,
-    "lat": 52.1495524,
-    "lon": 8.0347295,
-    "tags": {
-      "camera:direction": "182",
-      "camera:mount": "building",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.am-riesweg.de/webcam/rieswegcam.jpg",
-      "contact:webcam:type": "image",
-      "description": "Wettercam Am Riesweg in 49186 Bad Iburg/Ostenfelde, 24/365 online, alle 10 Sec. ein neues Bild.",
-      "interval": "00:00:10",
-      "man_made": "surveillance",
-      "name": "Wettercam 49186 Bad Iburg, Am Riesweg",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "weather"
     }
   },
   {
@@ -14540,7 +14489,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/17600-france-pays-de-la-loire-lile-dyeu-le-port",
       "man_made": "surveillance",
-      "name": "Port de l'Ile d'Yeu",
+      "name": "Port de l'Île d'Yeu",
       "operator": "Conseil départemental de la Vendée",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -15239,6 +15188,312 @@
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8553035763,
+    "lat": 48.5613676,
+    "lon": 10.2934426,
+    "tags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.sontheim-brenz.de/schloss-brenz/storchenkamera",
+      "image": "http://webcam.ep-woerz.de/image01.jpg",
+      "man_made": "surveillance",
+      "name": "Storchenkamera",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8554945173,
+    "lat": 48.6359672,
+    "lon": 10.2150981,
+    "tags": {
+      "camera:direction": "170",
+      "image": "http://cam.irpfel.org/cam2.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam: Piste 17",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "http://irpfel.org/webcam/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8560843297,
+    "lat": 48.3395956,
+    "lon": 9.6045374,
+    "tags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ehingen.de/sonnencam",
+      "image": "https://sonnencam.ehingen.de/record/current.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam: Schneckenhäule",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8561241809,
+    "lat": 53.3888207,
+    "lon": -6.0677847,
+    "tags": {
+      "camera:direction": "360",
+      "camera:type": "fixed",
+      "contact:webcam": "https://hyc.ie/webcam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8561245596,
+    "lat": 53.2964283,
+    "lon": -6.1468368,
+    "tags": {
+      "camera:direction": "50",
+      "camera:type": "fixed",
+      "contact:webcam": "https://slipcam.dmyc.ie/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8561252824,
+    "lat": -24.0748293,
+    "lon": 15.8873383,
+    "tags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://namibiaweather.info/Namib-Desert-Live-Cam.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "object"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8567547652,
+    "lat": 52.2641875,
+    "lon": 10.5262579,
+    "tags": {
+      "camera:direction": "120",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_schloss.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8567885949,
+    "lat": 52.2643559,
+    "lon": 10.524755,
+    "tags": {
+      "camera:direction": "-70",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_burgplatz.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8567885950,
+    "lat": 52.264359,
+    "lon": 10.524757,
+    "tags": {
+      "camera:direction": "-10",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.braunschweig.de/leben/stadtportraet/braunschweiger_ansichten/webcam/webcam_burgplatz.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8569694601,
+    "lat": 51.2374164,
+    "lon": -2.9447959,
+    "tags": {
+      "camera:direction": "230",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.motorwaycameras.co.uk/england/m5/southbound/traffic-camera/710",
+      "man_made": "surveillance",
+      "operator": "Highways England",
+      "operator:type": "government",
+      "operator:wikidata": "Q5760006",
+      "operator:wikipedia": "en:Highways England",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8585250050,
+    "lat": 49.0691823,
+    "lon": 10.3209067,
+    "tags": {
+      "camera:direction": "210",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.storch.bn-ansbach.de/",
+      "image": "http://storch.lingel-it-systems.de/stn-dkb-live.jpeg",
+      "man_made": "surveillance",
+      "name": "Webcam: Storchennest",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8585251616,
+    "lat": 49.06462,
+    "lon": 10.4005835,
+    "tags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.aeroclub-dinkelsbuehl.de/Webcam.52.0.html",
+      "description": "Im Hintergrund ist der ca. 8 km entfernte Hesselberg zu sehen. Aktualisierung alle 10 min",
+      "image": "https://www.aeroclub-dinkelsbuehl.de/webcam/cam_1.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Aeroclub Dinkelsbühl",
+      "operator": "Aeroclub Dinkelsbühl e.V.",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8589603823,
+    "lat": 50.8341419,
+    "lon": 4.3451592,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:signed": "no",
+      "surveillance:type": "camera",
+      "surveillance:zone": "shop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8589639962,
+    "lat": 50.8383406,
+    "lon": 4.3481166,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "height": "2.3",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:signed": "no",
+      "surveillance:type": "camera",
+      "surveillance:zone": "shop"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8603464047,
+    "lat": 47.5484675,
+    "lon": 10.5700243,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.breitenbergbahn.de/_webcams/mobotix/bbbausgang.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8603464048,
+    "lat": 47.5456441,
+    "lon": 10.5589952,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.breitenbergbahn.de/_webcams/mobotix/kesselmoos.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8603464049,
+    "lat": 47.545636,
+    "lon": 10.5589429,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.breitenbergbahn.de/_webcams/mobotix/aggenstein.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8603464050,
+    "lat": 47.5486153,
+    "lon": 10.5516917,
+    "tags": {
+      "camera:mount": "mast",
+      "camera:type": "panning",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8603464051,
+    "lat": 47.5654476,
+    "lon": 10.561489,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcams.tourismus-pfronten.de/skizentrum1.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8613220746,
+    "lat": 50.7007807,
+    "lon": 10.70683,
+    "tags": {
+      "contact:webcam": "https://www.bergfex.de/oberhof/webcams/c10117/",
+      "name": "Webcam Rennsteig - Loipe am Stein 16 - Sport Luck",
+      "surveillance": "webcam"
     }
   },
   {
