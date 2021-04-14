@@ -8838,7 +8838,6 @@
     "osmTags": {
       "direction": "225",
       "image": "http://fsv-gerstetten.de/webcam/current.jpg",
-      "image_2": "http://fsv-gerstetten.de/webcam/currentHD.jpg",
       "man_made": "surveillance",
       "name": "Webcam",
       "surveillance": "webcam",
@@ -15350,25 +15349,6 @@
     "url": "https://www.nesselwang.de/webcam-nesselwang.html"
   },
   {
-    "lat": 48.3415202,
-    "lon": 9.940608,
-    "osmID": 6308255356,
-    "osmType": "node",
-    "address": {
-      "city": "Ulm",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "nesting_site",
-      "species:de": "Storch",
-      "support": "roof",
-      "surveillance": "webcam",
-      "url": "www.blickinsnest.de/"
-    },
-    "url": "www.blickinsnest.de/"
-  },
-  {
     "lat": 52.3954814,
     "lon": 13.0540645,
     "osmID": 6308344951,
@@ -16521,8 +16501,8 @@
     "url": "https://www.monschau.de/de/erleben/webcam/"
   },
   {
-    "lat": 48.6209508,
-    "lon": 10.244226,
+    "lat": 48.6209127,
+    "lon": 10.2442121,
     "osmID": 7043698601,
     "osmType": "node",
     "address": {
@@ -21156,5 +21136,126 @@
       "surveillance": "webcam"
     },
     "url": "https://www.bergfex.de/oberhof/webcams/c10117/"
+  },
+  {
+    "lat": 48.6245428,
+    "lon": 10.0670586,
+    "osmID": 8626957687,
+    "osmType": "node",
+    "address": {
+      "city": "Gerstetten",
+      "county": "Landkreis Heidenheim",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "direction": "165",
+      "image": "http://fsv-gerstetten.de/webcam/currentHD.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://fsv-gerstetten.de/aktuelles/webcam/"
+    },
+    "url": "https://fsv-gerstetten.de/aktuelles/webcam/"
+  },
+  {
+    "lat": 48.6822805,
+    "lon": 10.1316707,
+    "osmID": 8627004391,
+    "osmType": "node",
+    "address": {
+      "city": "Heidenheim an der Brenz",
+      "county": "Landkreis Heidenheim",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "225",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcam2.heidenheim.org/",
+      "image": "http://webcam2.heidenheim.org/webcam_TIMING.jpg",
+      "man_made": "surveillance",
+      "note": "Standort nur ungefähr",
+      "operator": "Alphacom Computer- & Sicherheitstechnik",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Alphacom Computer- & Sicherheitstechnik",
+    "url": "http://webcam2.heidenheim.org/"
+  },
+  {
+    "lat": 48.6822463,
+    "lon": 10.1322619,
+    "osmID": 8627004392,
+    "osmType": "node",
+    "address": {
+      "city": "Heidenheim an der Brenz",
+      "county": "Landkreis Heidenheim",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "165",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcam1.heidenheim.org/",
+      "image": "http://webcam1.heidenheim.org/webcam.jpg",
+      "man_made": "surveillance",
+      "note": "Standort nur ungefähr",
+      "operator": "Alphacom Computer- & Sicherheitstechnik",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Alphacom Computer- & Sicherheitstechnik",
+    "url": "http://webcam1.heidenheim.org/"
+  },
+  {
+    "lat": 48.3414975,
+    "lon": 9.9406181,
+    "osmID": 8627025132,
+    "osmType": "node",
+    "address": {
+      "city": "Ulm",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "340",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blickinsnest.de/",
+      "image": "https://www.blickinsnest.de/cam/storch_big.jpg",
+      "man_made": "surveillance",
+      "name": "Storchenwebcam Gögglingen",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "youtube": "https://www.youtube.com/watch?v=zed7wOjRGic"
+    },
+    "url": "https://www.blickinsnest.de/"
+  },
+  {
+    "lat": 48.4160672,
+    "lon": 9.7837493,
+    "osmID": 8627073362,
+    "osmType": "node",
+    "address": {
+      "city": "Blaubeuren",
+      "county": "Alb-Donau-Kreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
+      "description": "Blick auf den Blautopf",
+      "image": "http://bilder.blaubeuren.de/blaublick.jpg",
+      "man_made": "surveillance",
+      "name": "Blautopf-Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam"
   }
 ]
