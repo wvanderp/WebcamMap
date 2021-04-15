@@ -15500,8 +15500,8 @@
   {
     "type": "node",
     "id": 8627004391,
-    "lat": 48.6822805,
-    "lon": 10.1316707,
+    "lat": 48.6822894,
+    "lon": 10.1314954,
     "tags": {
       "camera:direction": "225",
       "camera:type": "fixed",
@@ -15518,10 +15518,10 @@
   {
     "type": "node",
     "id": 8627004392,
-    "lat": 48.6822463,
-    "lon": 10.1322619,
+    "lat": 48.6822819,
+    "lon": 10.1316235,
     "tags": {
-      "camera:direction": "165",
+      "camera:direction": "185",
       "camera:type": "fixed",
       "contact:webcam": "http://webcam1.heidenheim.org/",
       "image": "http://webcam1.heidenheim.org/webcam.jpg",
@@ -15563,6 +15563,24 @@
       "image": "http://bilder.blaubeuren.de/blaublick.jpg",
       "man_made": "surveillance",
       "name": "Blautopf-Webcam",
+      "operator": "Stadt Blaubeuren",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8628023647,
+    "lat": 48.4157978,
+    "lon": 9.7907857,
+    "tags": {
+      "camera:direction": "10",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
+      "image": "http://bilder.blaubeuren.de/current-m.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam",
+      "operator": "Stadt Blaubeuren",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
