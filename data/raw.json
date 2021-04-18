@@ -6324,7 +6324,6 @@
     "tags": {
       "direction": "225",
       "image": "http://fsv-gerstetten.de/webcam/current.jpg",
-      "image_2": "http://fsv-gerstetten.de/webcam/currentHD.jpg",
       "man_made": "surveillance",
       "name": "Webcam",
       "surveillance": "webcam",
@@ -11176,19 +11175,6 @@
   },
   {
     "type": "node",
-    "id": 6308255356,
-    "lat": 48.3415202,
-    "lon": 9.940608,
-    "tags": {
-      "man_made": "nesting_site",
-      "species:de": "Storch",
-      "support": "roof",
-      "surveillance": "webcam",
-      "url": "www.blickinsnest.de/"
-    }
-  },
-  {
-    "type": "node",
     "id": 6308344951,
     "lat": 52.3954814,
     "lon": 13.0540645,
@@ -11984,6 +11970,22 @@
   },
   {
     "type": "node",
+    "id": 7023344186,
+    "lat": 41.2248631,
+    "lon": 14.5362103,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "direction": "120",
+      "highway": "speed_camera",
+      "maxspeed": "80",
+      "surveillance": "webcam",
+      "surveillance:type": "guard",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 7040899501,
     "lat": 54.921468,
     "lon": 9.7605502,
@@ -12046,8 +12048,8 @@
   {
     "type": "node",
     "id": 7043698601,
-    "lat": 48.6209508,
-    "lon": 10.244226,
+    "lat": 48.6209127,
+    "lon": 10.2442121,
     "tags": {
       "camera:direction": "22",
       "camera:mount": "wall",
@@ -15494,6 +15496,124 @@
       "contact:webcam": "https://www.bergfex.de/oberhof/webcams/c10117/",
       "name": "Webcam Rennsteig - Loipe am Stein 16 - Sport Luck",
       "surveillance": "webcam"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8626957687,
+    "lat": 48.6245428,
+    "lon": 10.0670586,
+    "tags": {
+      "direction": "165",
+      "image": "http://fsv-gerstetten.de/webcam/currentHD.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://fsv-gerstetten.de/aktuelles/webcam/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8627004391,
+    "lat": 48.6822894,
+    "lon": 10.1314954,
+    "tags": {
+      "camera:direction": "225",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcam2.heidenheim.org/",
+      "image": "http://webcam2.heidenheim.org/webcam_TIMING.jpg",
+      "man_made": "surveillance",
+      "note": "Standort nur ungefähr",
+      "operator": "Alphacom Computer- & Sicherheitstechnik",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8627004392,
+    "lat": 48.6822819,
+    "lon": 10.1316235,
+    "tags": {
+      "camera:direction": "185",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcam1.heidenheim.org/",
+      "image": "http://webcam1.heidenheim.org/webcam.jpg",
+      "man_made": "surveillance",
+      "note": "Standort nur ungefähr",
+      "operator": "Alphacom Computer- & Sicherheitstechnik",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8627025132,
+    "lat": 48.3414975,
+    "lon": 9.9406181,
+    "tags": {
+      "camera:direction": "340",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blickinsnest.de/",
+      "image": "https://www.blickinsnest.de/cam/storch_big.jpg",
+      "man_made": "surveillance",
+      "name": "Storchenwebcam Gögglingen",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "youtube": "https://www.youtube.com/watch?v=zed7wOjRGic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8627073362,
+    "lat": 48.4160672,
+    "lon": 9.7837493,
+    "tags": {
+      "camera:direction": "350",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
+      "description": "Blick auf den Blautopf",
+      "image": "http://bilder.blaubeuren.de/blaublick.jpg",
+      "man_made": "surveillance",
+      "name": "Blautopf-Webcam",
+      "operator": "Stadt Blaubeuren",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8628023647,
+    "lat": 48.4157978,
+    "lon": 9.7907857,
+    "tags": {
+      "camera:direction": "10",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
+      "image": "http://bilder.blaubeuren.de/current-m.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam",
+      "operator": "Stadt Blaubeuren",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8636326391,
+    "lat": 55.4375527,
+    "lon": 35.905538,
+    "tags": {
+      "camera:direction": "219",
+      "camera:mount": "fence",
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
     }
   },
   {
