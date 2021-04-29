@@ -19658,12 +19658,15 @@
     },
     "osmTags": {
       "camera:direction": "150",
-      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "camera:type": "dome",
       "contact:webcam": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ",
+      "description": "Vue depuis le Palais du Gouvernement",
       "man_made": "surveillance",
-      "name": "Vue depuis le Palais du Gouvernement",
+      "source": "survey",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "url": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ"
   },
@@ -21721,5 +21724,78 @@
     },
     "operator": "Sporthotel Kogler",
     "url": "https://www.foto-webcam.eu/webcam/sporthotel-kogler/"
+  },
+  {
+    "lat": 47.2295916,
+    "lon": 12.9942162,
+    "osmID": 8675709692,
+    "osmType": "node",
+    "address": {
+      "city": "Rauris",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "130",
+      "camera:type": "fixed",
+      "contact:webcam": "http://cam1.rauris.net/view/view.shtml?id=5017&imagepath=/mjpg/video.mjpg",
+      "description": "Blick auf den Markplatz",
+      "image": "http://cam1.rauris.net/mjpg/video.mjpg",
+      "man_made": "surveillance",
+      "name": "Webcam Marktplatz Rauris",
+      "operator": "Marktgemeinde Raurus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Marktgemeinde Raurus",
+    "url": "http://cam1.rauris.net/view/view.shtml?id=5017&imagepath=/mjpg/video.mjpg"
+  },
+  {
+    "lat": 47.6775096,
+    "lon": 11.1987837,
+    "osmID": 8677570925,
+    "osmType": "node",
+    "address": {
+      "city": "Murnau am Staffelsee",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://oberammergau.panomax.com/murnau",
+      "image": "https://live-image.panomax.com/cams/1721/recent_reduced.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Kurpark Murnau",
+      "operator": "Das Blaue Land",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Das Blaue Land",
+    "url": "https://oberammergau.panomax.com/murnau"
+  },
+  {
+    "lat": 47.4812795,
+    "lon": 12.1960859,
+    "osmID": 8677626143,
+    "osmType": "node",
+    "address": {
+      "city": "Gemeinde Söll",
+      "state": "Tirol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nachtski.panomax.com/",
+      "image": "https://live-image.panomax.com/cams/13/recent_reduced.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam SkiWelt Söll",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://nachtski.panomax.com/"
   }
 ]

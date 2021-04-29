@@ -14418,12 +14418,15 @@
     "lon": 6.1809021,
     "tags": {
       "camera:direction": "150",
-      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "camera:type": "dome",
       "contact:webcam": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ",
+      "description": "Vue depuis le Palais du Gouvernement",
       "man_made": "surveillance",
-      "name": "Vue depuis le Palais du Gouvernement",
+      "source": "survey",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -15904,6 +15907,73 @@
       "man_made": "surveillance",
       "name": "Webcam Mittersill",
       "operator": "Sporthotel Kogler",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8675709692,
+    "lat": 47.2295916,
+    "lon": 12.9942162,
+    "tags": {
+      "camera:direction": "130",
+      "camera:type": "fixed",
+      "contact:webcam": "http://cam1.rauris.net/view/view.shtml?id=5017&imagepath=/mjpg/video.mjpg",
+      "description": "Blick auf den Markplatz",
+      "image": "http://cam1.rauris.net/mjpg/video.mjpg",
+      "man_made": "surveillance",
+      "name": "Webcam Marktplatz Rauris",
+      "operator": "Marktgemeinde Raurus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8677570925,
+    "lat": 47.6775096,
+    "lon": 11.1987837,
+    "tags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://oberammergau.panomax.com/murnau",
+      "image": "https://live-image.panomax.com/cams/1721/recent_reduced.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Kurpark Murnau",
+      "operator": "Das Blaue Land",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8677585289,
+    "lat": 48.4591982,
+    "lon": 11.1310478,
+    "tags": {
+      "camera:direction": "210",
+      "camera:type": "fixed",
+      "image": "http://webcam.aichach.de/webaic.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Stadtplatz Aichach",
+      "operator": "Stadt Aichach",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8677626143,
+    "lat": 47.4812795,
+    "lon": 12.1960859,
+    "tags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nachtski.panomax.com/",
+      "image": "https://live-image.panomax.com/cams/13/recent_reduced.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam SkiWelt Söll",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
