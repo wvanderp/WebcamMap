@@ -8815,6 +8815,7 @@
     },
     "osmTags": {
       "camera:direction": "225",
+      "description": "Vorfeld des Flugplatzes und Blick über Herbrechtingen",
       "image": "http://cam.irpfel.org/cam1.jpg",
       "man_made": "surveillance",
       "name": "Webcam: Vorfeld",
@@ -16501,31 +16502,6 @@
     "url": "https://www.monschau.de/de/erleben/webcam/"
   },
   {
-    "lat": 48.6209127,
-    "lon": 10.2442121,
-    "osmID": 7043698601,
-    "osmType": "node",
-    "address": {
-      "city": "Giengen an der Brenz",
-      "county": "Landkreis Heidenheim",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "22",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.giengen.de/de/Stadt-Buerger/Aktuelles/Webcam",
-      "description": "Webcam auf dem Giengener Rathaus mit Blick auf die Stadtkirche",
-      "image": "https://www.giengen.de/tools/webcam/Stadtkirche.jpg",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
-    "url": "https://www.giengen.de/de/Stadt-Buerger/Aktuelles/Webcam"
-  },
-  {
     "lat": 45.0252002,
     "lon": 14.5822343,
     "osmID": 7057272735,
@@ -16607,26 +16583,6 @@
       "surveillance:type": "camera"
     },
     "url": "https://berntourismus.roundshot.com/rosengarten/"
-  },
-  {
-    "lat": 47.4864136,
-    "lon": 12.9715509,
-    "osmID": 7166512422,
-    "osmType": "node",
-    "address": {
-      "city": "Schönau am Königssee",
-      "county": "Landkreis Berchtesgadener Land",
-      "state": "Bayern",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "https://www.foto-webcam.eu/webcam/funtenseetauern/",
-      "man_made": "mast",
-      "monitoring:weather": "yes",
-      "surveillance": "webcam",
-      "tower:type": "monitoring"
-    },
-    "url": "https://www.foto-webcam.eu/webcam/funtenseetauern/"
   },
   {
     "lat": 48.7413376,
@@ -17506,7 +17462,7 @@
     "osmID": 7658978518,
     "osmType": "node",
     "address": {
-      "city": "Přísečná",
+      "city": "Mirkovice",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -19677,12 +19633,15 @@
     },
     "osmTags": {
       "camera:direction": "150",
-      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "camera:type": "dome",
       "contact:webcam": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ",
+      "description": "Vue depuis le Palais du Gouvernement",
       "man_made": "surveillance",
-      "name": "Vue depuis le Palais du Gouvernement",
+      "source": "survey",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "url": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ"
   },
@@ -21284,5 +21243,534 @@
     },
     "operator": "Stadt Blaubeuren",
     "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam"
+  },
+  {
+    "lat": 36.2531761,
+    "lon": -81.4163295,
+    "osmID": 8648818040,
+    "osmType": "node",
+    "address": {
+      "county": "Wilkes County",
+      "state": "North Carolina",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://dso.appstate.edu/webcams/roadcam-looking-south-lowes-house",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://dso.appstate.edu/webcams/roadcam-looking-south-lowes-house"
+  },
+  {
+    "lat": 35.505227,
+    "lon": 138.6612167,
+    "osmID": 8649563980,
+    "osmType": "node",
+    "address": {
+      "city": "富士河口湖町",
+      "county": "南都留郡",
+      "country": "Japan"
+    },
+    "osmTags": {
+      "camera:direction": "150",
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "http://61.115.112.112/nphMotionJpeg?Resolution=320x240&Quality=Standard",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "http://61.115.112.112/nphMotionJpeg?Resolution=320x240&Quality=Standard"
+  },
+  {
+    "lat": 34.1665739,
+    "lon": 132.1787434,
+    "osmID": 8649594633,
+    "osmType": "node",
+    "address": {
+      "city": "岩国市",
+      "country": "Japan"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "http://202.87.238.166/live/index.html?Language=0&ViewMode=pull",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "http://202.87.238.166/live/index.html?Language=0&ViewMode=pull"
+  },
+  {
+    "lat": 47.5445597,
+    "lon": 12.9726363,
+    "osmID": 8662560764,
+    "osmType": "node",
+    "address": {
+      "city": "Schönau am Königssee",
+      "county": "Landkreis Berchtesgadener Land",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "20",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://fischervomkoenigssee.de/webcam-koenigssee/",
+      "description": "Blick auf St. Bartholomä und den Königssee",
+      "image": "https://fischervomkoenigssee.de/wp-content/uploads/webcam/current.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Fischerei St. Bartholomä",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://fischervomkoenigssee.de/webcam-koenigssee/"
+  },
+  {
+    "lat": 47.3347609,
+    "lon": 12.8223779,
+    "osmID": 8662766766,
+    "osmType": "node",
+    "address": {
+      "city": "Zell am See",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/zellamsee/",
+      "description": "position approx.",
+      "image": "https://www.foto-webcam.eu/webcam/zellamsee/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam: Blick auf Zell am See",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/zellamsee/"
+  },
+  {
+    "lat": 47.4865454,
+    "lon": 12.9716168,
+    "osmID": 8662770167,
+    "osmType": "node",
+    "address": {
+      "city": "Schönau am Königssee",
+      "county": "Landkreis Berchtesgadener Land",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/funtenseetauern/",
+      "image": "https://www.foto-webcam.eu/webcam/funtenseetauern/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Funtenseetauern",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/funtenseetauern/"
+  },
+  {
+    "lat": 49.9841346,
+    "lon": 11.6112525,
+    "osmID": 8667144218,
+    "osmType": "node",
+    "address": {
+      "city": "Ruh",
+      "county": "Landkreis Bayreuth",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "50",
+      "camera:mount": "mast",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bindlach.de/webcams",
+      "description": "Skateranlage Webcam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.bindlach.de/webcams"
+  },
+  {
+    "lat": 49.9841287,
+    "lon": 11.6112448,
+    "osmID": 8667144219,
+    "osmType": "node",
+    "address": {
+      "city": "Ruh",
+      "county": "Landkreis Bayreuth",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "170",
+      "camera:mount": "mast",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bindlach.de/webcams",
+      "description": "Funcourt Webcam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.bindlach.de/webcams"
+  },
+  {
+    "lat": 47.6696649,
+    "lon": 11.1946335,
+    "osmID": 8671302025,
+    "osmType": "node",
+    "address": {
+      "city": "Murnau am Staffelsee",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "170",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/murnau/",
+      "image": "https://www.foto-webcam.eu/webcam/murnau/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Murnau Alpenblick",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/murnau/"
+  },
+  {
+    "lat": 45.746779,
+    "lon": 10.7997867,
+    "osmID": 8671328293,
+    "osmType": "node",
+    "address": {
+      "city": "Cassone",
+      "county": "Verona",
+      "state": "Veneto",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/malcesine/",
+      "description": "view to Campione",
+      "image": "https://www.foto-webcam.eu/webcam/malcesine/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Malcesine",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/malcesine/"
+  },
+  {
+    "lat": 45.5430633,
+    "lon": 10.7254746,
+    "osmID": 8671330816,
+    "osmType": "node",
+    "address": {
+      "city": "Cisano",
+      "county": "Verona",
+      "state": "Veneto",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/bardolino/",
+      "image": "https://www.foto-webcam.eu/webcam/bardolino/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Color Hotel",
+      "operator": "Color Hotel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Color Hotel",
+    "url": "https://www.foto-webcam.eu/webcam/bardolino/"
+  },
+  {
+    "lat": 47.014794,
+    "lon": 12.0197608,
+    "osmID": 8671385130,
+    "osmType": "node",
+    "address": {
+      "city": "Ahrntal - Valle Aurina",
+      "county": "Bolzano - Bozen",
+      "state": "Trentino-Alto Adige/Südtirol",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:direction": "225",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/st-jakob/",
+      "image": "https://www.foto-webcam.eu/webcam/st-jakob/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam St. Jakob",
+      "operator": "Hotel Markus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Hotel Markus",
+    "url": "https://www.foto-webcam.eu/webcam/st-jakob/"
+  },
+  {
+    "lat": 49.0112883,
+    "lon": 12.7818637,
+    "osmID": 8671397089,
+    "osmType": "node",
+    "address": {
+      "city": "Klinglbach",
+      "county": "Landkreis Straubing-Bogen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/waldwipfelweg/",
+      "image": "https://www.foto-webcam.eu/webcam/waldwipfelweg/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Waldwipfelweg",
+      "operator": "Waldwipfelweg Sankt Englmar",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Waldwipfelweg Sankt Englmar",
+    "url": "https://www.foto-webcam.eu/webcam/waldwipfelweg/"
+  },
+  {
+    "lat": 48.9488632,
+    "lon": 12.8518821,
+    "osmID": 8671432612,
+    "osmType": "node",
+    "address": {
+      "city": "Niederhofen",
+      "county": "Landkreis Straubing-Bogen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/grandsberg/",
+      "image": "https://www.foto-webcam.eu/webcam/grandsberg/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Grandsberg",
+      "operator": "Berggasthof Menauer",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Berggasthof Menauer",
+    "url": "https://www.foto-webcam.eu/webcam/grandsberg/"
+  },
+  {
+    "lat": 47.3644728,
+    "lon": 12.819649,
+    "osmID": 8674336827,
+    "osmType": "node",
+    "address": {
+      "city": "Maishofen",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/schlosskammer/",
+      "description": "Blick Richtung Süden auf Zell am See",
+      "image": "https://www.foto-webcam.eu/webcam/schlosskammer/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Maishofen",
+      "operator": "Schloss Kammer",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Schloss Kammer",
+    "url": "https://www.foto-webcam.eu/webcam/schlosskammer/"
+  },
+  {
+    "lat": 47.3827914,
+    "lon": 12.7628443,
+    "osmID": 8674342325,
+    "osmType": "node",
+    "address": {
+      "city": "Maishofen",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "135",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/sausteige/",
+      "description": "Blick über Maishofen",
+      "image": "https://www.foto-webcam.eu/webcam/sausteige/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Sausteige",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/sausteige/"
+  },
+  {
+    "lat": 47.2951738,
+    "lon": 12.4308258,
+    "osmID": 8674358127,
+    "osmType": "node",
+    "address": {
+      "city": "Mittersill",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "230",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/passthurn/",
+      "description": "Blick über Mühlbach und in die Hohen Tauern",
+      "image": "https://www.foto-webcam.eu/webcam/passthurn/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Pass Thurn",
+      "operator": "Gasthof Hohe Brücke",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Gasthof Hohe Brücke",
+    "url": "https://www.foto-webcam.eu/webcam/passthurn/"
+  },
+  {
+    "lat": 47.2816095,
+    "lon": 12.5050989,
+    "osmID": 8674358158,
+    "osmType": "node",
+    "address": {
+      "city": "Stuhlfelden",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.golfclub-nationalpark-hohetauern.at/webcam-wetter/",
+      "image": "https://www.golfclub-nationalpark-hohetauern.at/webcam/680x480.jpg?v=current",
+      "man_made": "surveillance",
+      "name": "Webcam Golfclub Nationalpark Hohe Tauern",
+      "operator": "Golfclub Nationalpark Hohe Tauern",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Golfclub Nationalpark Hohe Tauern",
+    "url": "https://www.golfclub-nationalpark-hohetauern.at/webcam-wetter/"
+  },
+  {
+    "lat": 47.2768009,
+    "lon": 12.482771,
+    "osmID": 8674360273,
+    "osmType": "node",
+    "address": {
+      "city": "Mittersill",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "190",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/sporthotel-kogler/",
+      "image": "https://www.foto-webcam.eu/webcam/sporthotel-kogler/current/1200.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Mittersill",
+      "operator": "Sporthotel Kogler",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Sporthotel Kogler",
+    "url": "https://www.foto-webcam.eu/webcam/sporthotel-kogler/"
+  },
+  {
+    "lat": 47.2295916,
+    "lon": 12.9942162,
+    "osmID": 8675709692,
+    "osmType": "node",
+    "address": {
+      "city": "Rauris",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "130",
+      "camera:type": "fixed",
+      "contact:webcam": "http://cam1.rauris.net/view/view.shtml?id=5017&imagepath=/mjpg/video.mjpg",
+      "description": "Blick auf den Markplatz",
+      "image": "http://cam1.rauris.net/mjpg/video.mjpg",
+      "man_made": "surveillance",
+      "name": "Webcam Marktplatz Rauris",
+      "operator": "Marktgemeinde Raurus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Marktgemeinde Raurus",
+    "url": "http://cam1.rauris.net/view/view.shtml?id=5017&imagepath=/mjpg/video.mjpg"
+  },
+  {
+    "lat": 47.6775096,
+    "lon": 11.1987837,
+    "osmID": 8677570925,
+    "osmType": "node",
+    "address": {
+      "city": "Murnau am Staffelsee",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://oberammergau.panomax.com/murnau",
+      "image": "https://live-image.panomax.com/cams/1721/recent_reduced.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Kurpark Murnau",
+      "operator": "Das Blaue Land",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Das Blaue Land",
+    "url": "https://oberammergau.panomax.com/murnau"
+  },
+  {
+    "lat": 47.4812795,
+    "lon": 12.1960859,
+    "osmID": 8677626143,
+    "osmType": "node",
+    "address": {
+      "city": "Gemeinde Söll",
+      "state": "Tirol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nachtski.panomax.com/",
+      "image": "https://live-image.panomax.com/cams/13/recent_reduced.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam SkiWelt Söll",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://nachtski.panomax.com/"
   }
 ]
