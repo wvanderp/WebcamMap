@@ -41,7 +41,7 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
                 target={'_blank'}
                 rel="noopener noreferrer"
             >
-                <img id={'osmLogo'} src={osmIcon} alt={'OSM Entity'}/>
+                <img id={'osmLogo'} src={osmIcon} alt={'See the webcam on OSM'} title={'See the webcam on OSM'}/>
             </a>
             <a
                 href={url}
@@ -51,6 +51,7 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
                 <img
                     id={'osmLogo'}
                     src={playIcon}
+                    title={'Play The Stream'}
                     alt={'Play The Stream'}
                 />
             </a>
