@@ -46,7 +46,7 @@ const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListCo
     );
 };
 
-export default function PlaceSitemapPage(): JSX.Element {
+export default function PlaceSitemapPage(): React.ReactNode {
     // eslint-disable-next-line unicorn/no-array-reduce
     const tree = webcams.reduce(
         (accumulator, value: Webcam) => set(
