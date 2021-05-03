@@ -18201,8 +18201,13 @@
     },
     "osmTags": {
       "contact:webcam": "https://rwsverkeersinfo.nl/cameras/27/a16-dordrecht",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "operator": "RWS",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
+    "operator": "RWS",
     "url": "https://rwsverkeersinfo.nl/cameras/27/a16-dordrecht"
   },
   {
@@ -21772,5 +21777,27 @@
       "surveillance:type": "camera"
     },
     "url": "https://nachtski.panomax.com/"
+  },
+  {
+    "lat": -28.1483161,
+    "lon": 151.9453553,
+    "osmID": 8690453895,
+    "osmType": "node",
+    "address": {
+      "city": "Warwick",
+      "state": "Queensland",
+      "country": "Australia"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.warwickgliding.org/index.php/about-us/webcams",
+      "man_made": "surveillance",
+      "operator": "GLIDING WARWICK CLUB",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "GLIDING WARWICK CLUB",
+    "url": "https://www.warwickgliding.org/index.php/about-us/webcams"
   }
 ]
