@@ -8506,7 +8506,7 @@
     "osmID": 3689072839,
     "osmType": "node",
     "address": {
-      "city": "Norderney - Nördernee",
+      "city": "Norderney",
       "county": "Landkreis Aurich",
       "state": "Niedersachsen",
       "country": "Germany"
@@ -12883,7 +12883,7 @@
     "osmType": "node",
     "address": {
       "city": "Resia",
-      "state": "Friuli Venezia Giulia",
+      "state": "Friuli-Venezia Giulia",
       "country": "Italy"
     },
     "osmTags": {
@@ -14511,6 +14511,7 @@
     "osmType": "node",
     "address": {
       "city": "Les Sables-d'Olonne",
+      "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
     },
@@ -14534,6 +14535,7 @@
     "osmType": "node",
     "address": {
       "city": "L'Île-d'Yeu",
+      "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
     },
@@ -14559,6 +14561,7 @@
     "osmType": "node",
     "address": {
       "city": "Maillezais",
+      "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
     },
@@ -14580,6 +14583,7 @@
     "osmType": "node",
     "address": {
       "city": "Bazoges-en-Paillers",
+      "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
     },
@@ -14924,7 +14928,7 @@
     "osmType": "node",
     "address": {
       "city": "Baiersbronn",
-      "county": "Landkreis Freudenstadt",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16529,7 +16533,6 @@
     "osmID": 7057285659,
     "osmType": "node",
     "address": {
-      "city": "Punat",
       "county": "Primorsko-goranska županija",
       "country": "Croatia"
     },
@@ -16804,6 +16807,25 @@
       "website": "http://webcam.ville-pontarlier.fr/gounefay/all_image/galerie.php"
     },
     "url": "http://webcam.ville-pontarlier.fr/gounefay/all_image/galerie.php"
+  },
+  {
+    "lat": 51.5979331,
+    "lon": 6.681226,
+    "osmID": 7379792421,
+    "osmType": "node",
+    "address": {
+      "city": "Voerde (Niederrhein)",
+      "county": "Kreis Wesel",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "190",
+      "contact:webcam": "https://www.voerde.de/de/inhalt/webcam/",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.voerde.de/de/inhalt/webcam/"
   },
   {
     "lat": 39.5560826,
@@ -18201,8 +18223,13 @@
     },
     "osmTags": {
       "contact:webcam": "https://rwsverkeersinfo.nl/cameras/27/a16-dordrecht",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "operator": "RWS",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
+    "operator": "RWS",
     "url": "https://rwsverkeersinfo.nl/cameras/27/a16-dordrecht"
   },
   {
@@ -19459,6 +19486,7 @@
     "osmType": "node",
     "address": {
       "city": "Les Sables-d'Olonne",
+      "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
     },
@@ -19716,6 +19744,7 @@
     "osmType": "node",
     "address": {
       "city": "L'Île-d'Yeu",
+      "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
     },
@@ -21057,8 +21086,8 @@
     "url": "https://www.breitenbergbahn.de/_webcams/mobotix/aggenstein.jpg"
   },
   {
-    "lat": 47.5654476,
-    "lon": 10.561489,
+    "lat": 47.5654453,
+    "lon": 10.5615087,
     "osmID": 8603464051,
     "osmType": "node",
     "address": {
@@ -21772,5 +21801,49 @@
       "surveillance:type": "camera"
     },
     "url": "https://nachtski.panomax.com/"
+  },
+  {
+    "lat": -28.1483161,
+    "lon": 151.9453553,
+    "osmID": 8690453895,
+    "osmType": "node",
+    "address": {
+      "city": "Warwick",
+      "state": "Queensland",
+      "country": "Australia"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.warwickgliding.org/index.php/about-us/webcams",
+      "man_made": "surveillance",
+      "operator": "GLIDING WARWICK CLUB",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "GLIDING WARWICK CLUB",
+    "url": "https://www.warwickgliding.org/index.php/about-us/webcams"
+  },
+  {
+    "lat": 28.0154611,
+    "lon": -82.1216605,
+    "osmID": 8707243697,
+    "osmType": "node",
+    "address": {
+      "county": "Hillsborough County",
+      "state": "Florida",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=wLC-Zg33RYc",
+      "man_made": "surveillance",
+      "name": "Virtual Railfan Camera - Plant City, FL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.youtube.com/watch?v=wLC-Zg33RYc"
   }
 ]

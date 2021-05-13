@@ -3890,6 +3890,17 @@
   },
   {
     "type": "node",
+    "id": 1455751958,
+    "lat": 51.6446833,
+    "lon": 6.6777213,
+    "tags": {
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
     "id": 1510027506,
     "lat": 51.8674984,
     "lon": 13.9729453,
@@ -12288,6 +12299,18 @@
   },
   {
     "type": "node",
+    "id": 7379792421,
+    "lat": 51.5979331,
+    "lon": 6.681226,
+    "tags": {
+      "camera:direction": "190",
+      "contact:webcam": "https://www.voerde.de/de/inhalt/webcam/",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    }
+  },
+  {
+    "type": "node",
     "id": 7417380000,
     "lat": 44.4928863,
     "lon": 6.5571439,
@@ -13375,7 +13398,11 @@
     "lon": 4.6489871,
     "tags": {
       "contact:webcam": "https://rwsverkeersinfo.nl/cameras/27/a16-dordrecht",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "operator": "RWS",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -15448,8 +15475,8 @@
   {
     "type": "node",
     "id": 8603464051,
-    "lat": 47.5654476,
-    "lon": 10.561489,
+    "lat": 47.5654453,
+    "lon": 10.5615087,
     "tags": {
       "camera:mount": "wall",
       "camera:type": "fixed",
@@ -15961,6 +15988,37 @@
     }
   },
   {
+    "type": "node",
+    "id": 8690453895,
+    "lat": -28.1483161,
+    "lon": 151.9453553,
+    "tags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.warwickgliding.org/index.php/about-us/webcams",
+      "man_made": "surveillance",
+      "operator": "GLIDING WARWICK CLUB",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8707243697,
+    "lat": 28.0154611,
+    "lon": -82.1216605,
+    "tags": {
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=wLC-Zg33RYc",
+      "man_made": "surveillance",
+      "name": "Virtual Railfan Camera - Plant City, FL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
     "type": "way",
     "id": 4842050,
     "nodes": [
@@ -15985,111 +16043,6 @@
       "toll": "yes",
       "website": "https://www.rheinfaehre-linz-remagen.de/",
       "wikipedia": "de:Rheinfähre Linz–Kripp"
-    }
-  },
-  {
-    "type": "way",
-    "id": 92244796,
-    "nodes": [
-      586684794,
-      1070917057,
-      1070917107,
-      1070883855,
-      1071215393,
-      2512307341,
-      1071215340,
-      1071215215,
-      2512307340,
-      1071215253,
-      1071215361,
-      2512307339,
-      1071215231,
-      1071215363,
-      2512307338,
-      1071215357,
-      1071215249,
-      1070883935,
-      1070883859,
-      2512307337,
-      2512332849,
-      2512332847,
-      1070883936,
-      1070883908,
-      1070883906,
-      2514048087,
-      2514048083,
-      586684790,
-      2513511315,
-      2513511316,
-      583444430,
-      2513511314,
-      586684794
-    ],
-    "tags": {
-      "area": "yes",
-      "contact:webcam": "http://www2.warwick.ac.uk/about/campus/webcam/",
-      "highway": "pedestrian",
-      "name": "Piazza",
-      "surface": "paving_stones",
-      "surveillance": "webcam"
-    }
-  },
-  {
-    "type": "way",
-    "id": 112706532,
-    "nodes": [
-      1280522154,
-      1280522166,
-      1280522102,
-      3889303336,
-      3889303335,
-      3889303334,
-      1280522141,
-      3889303332,
-      1280522154
-    ],
-    "tags": {
-      "addr:city": "Braunlage",
-      "addr:housenumber": "19",
-      "addr:postcode": "37444",
-      "addr:street": "Glückauf-Weg",
-      "addr:suburb": "Sankt Andreasberg",
-      "building": "house",
-      "building:colour": "white",
-      "building:levels": "1",
-      "building:levels:underground": "1",
-      "building:material": "plaster",
-      "contact:email": "bernd.rath@online.de",
-      "contact:fax": "+49 5582 917025",
-      "contact:phone": "+49 5582 91700",
-      "contact:webcam": "http://www.ferienwohnungen-rath.de/webcam",
-      "roof:colour": "brown",
-      "roof:levels": "2",
-      "roof:material": "roof_tiles",
-      "roof:shape": "gabled",
-      "surveillance": "webcam",
-      "website": "http://www.ferienwohnungen-rath.de",
-      "wheelchair": "no"
-    }
-  },
-  {
-    "type": "way",
-    "id": 168301214,
-    "nodes": [
-      1795939216,
-      1795939187,
-      1795939184,
-      1795939171,
-      1795939111,
-      1795939228,
-      1795939216
-    ],
-    "tags": {
-      "building": "yes",
-      "man_made": "surveillance",
-      "shop": "general",
-      "surveillance": "webcam",
-      "website": "http://www.nenzingerhimmel.at/index.php/webcam"
     }
   },
   {
@@ -16217,234 +16170,6 @@
     "id": 1827798786,
     "lat": 28.1191697,
     "lon": -16.7257393
-  },
-  {
-    "type": "node",
-    "id": 583444430,
-    "lat": 52.3786661,
-    "lon": -1.5607449
-  },
-  {
-    "type": "node",
-    "id": 586684790,
-    "lat": 52.3786025,
-    "lon": -1.5608149
-  },
-  {
-    "type": "node",
-    "id": 586684794,
-    "lat": 52.3789451,
-    "lon": -1.5607398
-  },
-  {
-    "type": "node",
-    "id": 1070883855,
-    "lat": 52.3790235,
-    "lon": -1.5608362
-  },
-  {
-    "type": "node",
-    "id": 1070883859,
-    "lat": 52.3789859,
-    "lon": -1.5609949
-  },
-  {
-    "type": "node",
-    "id": 1070883906,
-    "lat": 52.3786367,
-    "lon": -1.5609589
-  },
-  {
-    "type": "node",
-    "id": 1070883908,
-    "lat": 52.3786611,
-    "lon": -1.5610886
-  },
-  {
-    "type": "node",
-    "id": 1070883935,
-    "lat": 52.379036,
-    "lon": -1.5609913
-  },
-  {
-    "type": "node",
-    "id": 1070883936,
-    "lat": 52.378951,
-    "lon": -1.5610606
-  },
-  {
-    "type": "node",
-    "id": 1070917057,
-    "lat": 52.3790199,
-    "lon": -1.5607346
-  },
-  {
-    "type": "node",
-    "id": 1070917107,
-    "lat": 52.3790216,
-    "lon": -1.5607867
-  },
-  {
-    "type": "node",
-    "id": 1071215215,
-    "lat": 52.37902,
-    "lon": -1.5608746
-  },
-  {
-    "type": "node",
-    "id": 1071215231,
-    "lat": 52.3789976,
-    "lon": -1.5609457
-  },
-  {
-    "type": "node",
-    "id": 1071215249,
-    "lat": 52.3790258,
-    "lon": -1.5609902
-  },
-  {
-    "type": "node",
-    "id": 1071215253,
-    "lat": 52.3790033,
-    "lon": -1.560896
-  },
-  {
-    "type": "node",
-    "id": 1071215340,
-    "lat": 52.3790305,
-    "lon": -1.5608707
-  },
-  {
-    "type": "node",
-    "id": 1071215357,
-    "lat": 52.3790161,
-    "lon": -1.5609844
-  },
-  {
-    "type": "node",
-    "id": 1071215361,
-    "lat": 52.3789984,
-    "lon": -1.5609116
-  },
-  {
-    "type": "node",
-    "id": 1071215363,
-    "lat": 52.3790014,
-    "lon": -1.5609613
-  },
-  {
-    "type": "node",
-    "id": 1071215393,
-    "lat": 52.3790512,
-    "lon": -1.560878
-  },
-  {
-    "type": "node",
-    "id": 2512307337,
-    "lat": 52.3789785,
-    "lon": -1.5610088
-  },
-  {
-    "type": "node",
-    "id": 2512307338,
-    "lat": 52.3790077,
-    "lon": -1.5609745
-  },
-  {
-    "type": "node",
-    "id": 2512307339,
-    "lat": 52.3789965,
-    "lon": -1.5609289
-  },
-  {
-    "type": "node",
-    "id": 2512307340,
-    "lat": 52.3790107,
-    "lon": -1.5608833
-  },
-  {
-    "type": "node",
-    "id": 2512307341,
-    "lat": 52.3790412,
-    "lon": -1.5608719
-  },
-  {
-    "type": "node",
-    "id": 2512332847,
-    "lat": 52.378962,
-    "lon": -1.5610399
-  },
-  {
-    "type": "node",
-    "id": 2512332849,
-    "lat": 52.3789731,
-    "lon": -1.5610191
-  },
-  {
-    "type": "node",
-    "id": 2513511314,
-    "lat": 52.3786685,
-    "lon": -1.5607725
-  },
-  {
-    "type": "node",
-    "id": 2513511315,
-    "lat": 52.3786333,
-    "lon": -1.5607463
-  },
-  {
-    "type": "node",
-    "id": 2513511316,
-    "lat": 52.3786505,
-    "lon": -1.5607449
-  },
-  {
-    "type": "node",
-    "id": 2514048083,
-    "lat": 52.3785744,
-    "lon": -1.5608659
-  },
-  {
-    "type": "node",
-    "id": 2514048087,
-    "lat": 52.3785785,
-    "lon": -1.5608735
-  },
-  {
-    "type": "node",
-    "id": 1795939111,
-    "lat": 47.0873329,
-    "lon": 9.6497101
-  },
-  {
-    "type": "node",
-    "id": 1795939171,
-    "lat": 47.0873431,
-    "lon": 9.6497115
-  },
-  {
-    "type": "node",
-    "id": 1795939184,
-    "lat": 47.0873388,
-    "lon": 9.6497772
-  },
-  {
-    "type": "node",
-    "id": 1795939187,
-    "lat": 47.0874288,
-    "lon": 9.6497897
-  },
-  {
-    "type": "node",
-    "id": 1795939216,
-    "lat": 47.0874373,
-    "lon": 9.6496597
-  },
-  {
-    "type": "node",
-    "id": 1795939228,
-    "lat": 47.0873371,
-    "lon": 9.6496457
   },
   {
     "type": "node",
@@ -16625,53 +16350,5 @@
     "id": 1310714824,
     "lat": 50.565494,
     "lon": 7.2771647
-  },
-  {
-    "type": "node",
-    "id": 1280522102,
-    "lat": 51.7105087,
-    "lon": 10.5226794
-  },
-  {
-    "type": "node",
-    "id": 1280522141,
-    "lat": 51.7104446,
-    "lon": 10.5225188
-  },
-  {
-    "type": "node",
-    "id": 1280522154,
-    "lat": 51.7103262,
-    "lon": 10.5226419
-  },
-  {
-    "type": "node",
-    "id": 1280522166,
-    "lat": 51.7103903,
-    "lon": 10.5228025
-  },
-  {
-    "type": "node",
-    "id": 3889303332,
-    "lat": 51.7104313,
-    "lon": 10.5225327
-  },
-  {
-    "type": "node",
-    "id": 3889303334,
-    "lat": 51.7104576,
-    "lon": 10.5225515
-  },
-  {
-    "type": "node",
-    "id": 3889303335,
-    "lat": 51.7104657,
-    "lon": 10.5225717
-  },
-  {
-    "type": "node",
-    "id": 3889303336,
-    "lat": 51.7104716,
-    "lon": 10.5225865
   }
 ]
