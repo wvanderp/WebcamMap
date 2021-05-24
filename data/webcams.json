@@ -8768,6 +8768,7 @@
     "osmType": "node",
     "address": {
       "city": "Thalgau",
+      "county": "Bezirk Salzburg-Umgebung",
       "state": "Salzburg",
       "country": "Austria"
     },
@@ -11999,7 +12000,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.brussels.be/webcam-grand-place",
       "man_made": "surveillance",
-      "name": "Webcam Grand-Place",
+      "name": "Webcam Grand-Place - Grote Markt",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area",
@@ -12513,8 +12514,8 @@
     "url": "http://www.downhamweb.co.uk/webcam/"
   },
   {
-    "lat": 49.9299572,
-    "lon": 1.0872247,
+    "lat": 49.9299382,
+    "lon": 1.0872227,
     "osmID": 4970884986,
     "osmType": "node",
     "address": {
@@ -12528,34 +12529,13 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.dieppe.fr/webcams/semaphore",
       "man_made": "surveillance",
-      "operator": "Dieppe",
+      "name": "Webcams de Dieppe - Sémaphore",
+      "operator": "Webcams de Dieppe",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "url:m3u8": "https://live.viewsurf.com/liveedge/dieppe02_1_1.stream/playlist.m3u8"
+      "surveillance:type": "camera"
     },
-    "operator": "Dieppe",
+    "operator": "Webcams de Dieppe",
     "url": "https://www.dieppe.fr/webcams/semaphore"
-  },
-  {
-    "lat": 49.9275878,
-    "lon": 1.0858625,
-    "osmID": 4973805995,
-    "osmType": "node",
-    "address": {
-      "city": "Dieppe",
-      "county": "Seine-Maritime",
-      "state": "Normandie",
-      "country": "France"
-    },
-    "osmTags": {
-      "camera:features": "webcam",
-      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/15884-france-haute-normandie-dieppe-live",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "url:m3u8": "https://live.viewsurf.com/liveedge/dieppe03_2_2/playlist.m3u8"
-    },
-    "url": "https://www.viewsurf.com/univers/plage/vue/15884-france-haute-normandie-dieppe-live"
   },
   {
     "lat": 38.4744803,
@@ -14340,7 +14320,7 @@
       "layer": "2",
       "level": "5",
       "man_made": "surveillance",
-      "name": "Webcam Place de Brouckère",
+      "name": "Webcam Place de Brouckère - Brouckèreplein",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -21888,6 +21868,28 @@
     "url": "https://thaureralm.at/webcam/"
   },
   {
+    "lat": 51.5133218,
+    "lon": 3.7294359,
+    "osmID": 8730951451,
+    "osmType": "node",
+    "address": {
+      "city": "Arnemuiden",
+      "state": "Zeeland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.vliegveldzeeland.nl/live/webcams/",
+      "man_made": "surveillance",
+      "operator": "Vliegveld Midden Zeeland",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Vliegveld Midden Zeeland",
+    "url": "https://www.vliegveldzeeland.nl/live/webcams/"
+  },
+  {
     "lat": 45.6503731,
     "lon": 13.7714364,
     "osmID": 8738530777,
@@ -21997,5 +21999,74 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.511virginia.org/"
+  },
+  {
+    "lat": 49.9249446,
+    "lon": 1.0701062,
+    "osmID": 8757843557,
+    "osmType": "node",
+    "address": {
+      "city": "Dieppe",
+      "county": "Seine-Maritime",
+      "state": "Normandie",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "23",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.dieppe.fr/webcams/chateau",
+      "man_made": "surveillance",
+      "name": "Webcams de Dieppe - Château",
+      "operator": "Webcams de Dieppe",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Webcams de Dieppe",
+    "url": "https://www.dieppe.fr/webcams/chateau"
+  },
+  {
+    "lat": 32.4889215,
+    "lon": 34.8892549,
+    "osmID": 8757907198,
+    "osmType": "node",
+    "address": {
+      "city": "מועצה אזורית חוף הכרמל",
+      "county": "נפת חדרה",
+      "state": "מחוז חיפה",
+      "country": "Israel"
+    },
+    "osmTags": {
+      "camera:direction": "239",
+      "camera:type": "fixed",
+      "contact:webcam": "https://wind.co.il/%D7%9E%D7%96%D7%92-%D7%90%D7%95%D7%99%D7%A8/%D7%A9%D7%99%D7%93%D7%95%D7%A8-%D7%97%D7%99/",
+      "man_made": "surveillance",
+      "operator": "Freegull Sea Sports",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Freegull Sea Sports",
+    "url": "https://wind.co.il/%D7%9E%D7%96%D7%92-%D7%90%D7%95%D7%99%D7%A8/%D7%A9%D7%99%D7%93%D7%95%D7%A8-%D7%97%D7%99/"
+  },
+  {
+    "lat": 50.8237334,
+    "lon": 4.5137925,
+    "osmID": 8757965308,
+    "osmType": "node",
+    "address": {
+      "city": "Tervuren",
+      "county": "Leuven",
+      "state": "Vlaams-Brabant",
+      "country": "Belgium"
+    },
+    "osmTags": {
+      "camera:direction": "31",
+      "contact:webcam": "http://195.201.121.38/live_beelden_uit_tervuren/cam01.jpg",
+      "man_made": "surveillance",
+      "operator": "Gemeente Tervuren",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Gemeente Tervuren",
+    "url": "http://195.201.121.38/live_beelden_uit_tervuren/cam01.jpg"
   }
 ]
