@@ -46,7 +46,7 @@ const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListCo
     );
 };
 
-export default function PlaceSitemapPage(): React.ReactNode {
+const PlaceSitemapPage: React.FC = () => {
     // eslint-disable-next-line unicorn/no-array-reduce
     const tree = webcams.reduce(
         (accumulator, value: Webcam) => set(
@@ -77,4 +77,6 @@ export default function PlaceSitemapPage(): React.ReactNode {
             </Row>
         </Container>
     );
-}
+};
+
+export default PlaceSitemapPage;

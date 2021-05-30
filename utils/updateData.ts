@@ -98,7 +98,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
     nominatimCache[`${lat},${lon}`] = {
         ...data,
-        expires: Math.floor((Date.now() / 1000) + getRandomInt(259200, 604800))
+        expires: Math.floor((Date.now() / 1000) + getRandomInt(259_200, 604_800))
     };
 
     await sleep(1000);
@@ -111,13 +111,20 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     }
 
     console.log('getting overpass');
-    const data = (await axios.get(overpassUrl)).data as OsmResponse;
 
+    const response = await axios.get(overpassUrl);
+
+    if (response.status >= 400) {
+        throw new Error(`got a ${response.status} from overpass`);
+    }
+
+    const data = response.data as OsmResponse;
     const nodes = data.elements;
 
     if (nodes === undefined) {
-        throw new Error('did not fined any webcams');
+        throw new Error('did not find any webcams');
     }
+    console.log(`found ${nodes.length} possible webcams`);
 
     const webcams: (null | Webcam)[] = [];
 
@@ -164,7 +171,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
             osmTags: r.tags,
 
             operator: r.tags.operator,
-            url: r.tags['contact:webcam'] ?? r.tags.url ?? r.tags['url:webcam'] ?? r.tags.website
+            url
         } as Webcam);
     }
 

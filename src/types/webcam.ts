@@ -3,7 +3,7 @@ export interface Webcam {
     lon: number;
 
     osmID: number;
-    osmType: 'node' | 'way' | 'relation';
+    osmType: string; // 'node' | 'way' | 'relation';
 
     address: {
         city?: string;
