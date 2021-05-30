@@ -34,7 +34,7 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
     const filteredWebcams: Webcam[] = webcams.filter((webcam: Webcam) => webcam.osmID === Number.parseInt(id, 10));
 
     if (filteredWebcams.length !== 1) {
-        window.location.href = '/webcamMap/notfound';
+        window.location.href = '/notfound';
     }
 
     const webcam = filteredWebcams[0];
