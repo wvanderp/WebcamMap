@@ -1,63 +1,65 @@
 import * as React from 'react';
-import {connect} from 'react-redux';
-import {Dispatch} from 'redux';
-import {Map, Marker, Popup, TileLayer, Viewport} from 'react-leaflet';
+import {useCallback, useEffect, useState } from 'react';
+import {Map as LeafletMap} from 'leaflet';
+import {MapContainer, Marker, Popup, TileLayer} from 'react-leaflet';
+import useGlobalState from '../../state';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
-import webcams from '../../../data/webcams.json';
-import PopupContent from '../parts/PopupContent';
-import {updateLocation, updateZoom} from '../../reducers/LocationReducer';
 import {Webcam} from '../../types/webcam';
+import webcams from '../../../data/webcams.json';
 
-interface MapViewProps {
-    dispatch: Dispatch
-}
+import PopupContent from '../parts/PopupContent';
 
-class MapView extends React.Component<MapViewProps> {
-    render(): React.ReactNode {
-        const markers = webcams.map((webcam: Webcam) => {
-            if (webcam === null) {
-                return null;
-            }
-            return (
-                <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
-                    <Popup>
-                        <PopupContent webcam={webcam}/>
-                    </Popup>
-                </Marker>
-            );
-        });
-
-        document.title = 'CartoCams';
+const MapView: React.FC = () => {
+    const markers = webcams.map((webcam: Webcam) => {
+        if (webcam === null) {
+            return null;
+        }
         return (
-            <div>
-                <Map
-                    center={[0, 0]}
-                    zoom={2}
-                    id={'map'}
-                    onViewportChanged={
-                        (viewport: Viewport): void => {
-                            if (viewport.center === undefined || viewport.center === null) {
-                                return;
-                            }
-                            if (viewport.zoom === undefined || viewport.zoom === null) {
-                                return;
-                            }
-                            updateLocation(viewport.center, this.props.dispatch);
-                            updateZoom(viewport.zoom, this.props.dispatch);
-                        }
-                    }
-                >
-                    <TileLayer
-                        attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    />
-                    {markers}
-                </Map>
-            </div>
+            <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
+                <Popup>
+                    <PopupContent webcam={webcam}/>
+                </Popup>
+            </Marker>
         );
-    }
-}
+    });
+    document.title = 'CartoCams';
 
-export default connect(() => ({}))(MapView);
+    const [map, setMap] = useState<LeafletMap | null>(null);
+    const [_, updateLocation] = useGlobalState('location');
+
+    const onMove = useCallback(() => {
+        updateLocation({
+            coordinates: [map?.getCenter().lat, map?.getCenter().lng],
+            zoom: map?.getZoom()
+        });
+    }, [map]);
+
+    useEffect(() => {
+        map?.on('move', onMove);
+        return () => {
+            map?.off('move', onMove);
+        };
+    },
+    [map, onMove]);
+
+    return (
+        <div>
+            <MapContainer
+                center={[0, 0]}
+                zoom={2}
+                id={'map'}
+                whenCreated={setMap}
+            >
+                <TileLayer
+                    attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {markers}
+            </MapContainer>
+        </div>
+    );
+};
+
+export default MapView;

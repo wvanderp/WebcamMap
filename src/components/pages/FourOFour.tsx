@@ -1,6 +1,7 @@
 import * as React from 'react';
+import {RouteComponentProps} from 'react-router';
 
-const FourOFour = (): React.ReactNode => (
+const FourOFour: React.FC = () => (
     <div>
         <center>
             <h1>404 - Not Found Here...</h1>

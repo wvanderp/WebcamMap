@@ -52,7 +52,8 @@
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:sonarjs/recommended",
-    "plugin:unicorn/recommended"
+    "plugin:unicorn/recommended",
+    "plugin:import/typescript"
   ],
   "overrides": [
     {
@@ -162,6 +163,7 @@
     "no-continue": "off",
     "camelcase": "off",
     "no-use-before-define": "off",
-    "@typescript-eslint/no-use-before-define": ["error"]
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "unicorn/prefer-node-protocol": "off"
   }
 }
