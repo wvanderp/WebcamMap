@@ -17,6 +17,11 @@ export interface OsmResponse {
         id: number;
         lat?: number | null;
         lon?: number | null;
+        timestamp: string;
+        version: number;
+        changeset: number;
+        user: string;
+        uid: number;
         tags?: Record<string, string>;
         nodes?: (number)[] | null;
     }[];
@@ -84,7 +89,7 @@ const getNominatimUrl = (
     lat: number, lon: number
 ) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1`;
 
-const overpassUrl = 'https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A60%5D%3B%28nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3Bnwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%29%3Bout%3B%3E%3Bout%20skel%20qt%3B%0A';
+const overpassUrl = 'https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A%28%0A%20%20nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3B%0A%20%20nwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%0A%29%3B%0Aout%20meta%3B%0A';
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
     if (Object.keys(nominatimCache).includes(`${lat},${lon}`)) {
@@ -112,13 +117,13 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
     console.log('getting overpass');
 
-    const response = await axios.get(overpassUrl);
+    const response = await axios.get<OsmResponse>(overpassUrl);
 
     if (response.status >= 400) {
         throw new Error(`got a ${response.status} from overpass`);
     }
 
-    const data = response.data as OsmResponse;
+    const {data} = response;
     const nodes = data.elements;
 
     if (nodes === undefined) {
@@ -160,6 +165,8 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
             osmID: r.id,
             osmType: r.type,
+
+            lastChanged: Date.parse(r.timestamp),
 
             address: {
                 city: nominatim.address.city ?? nominatim.address.town ?? nominatim.address.village,

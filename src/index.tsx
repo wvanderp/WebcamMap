@@ -16,8 +16,9 @@ import FourOFour from './components/pages/FourOFour';
 import MapView from './components/pages/MapView';
 import ListPage from './components/pages/ListPage';
 import WebcamPage from './components/pages/WebcamPage';
-import PlaceSitemapPage from './components/sitemap/PlaceSitemap';
-import WebcamsSitemapPage from './components/sitemap/WebcamsSitemap';
+import PlaceSitemapPage from './components/pages/PlaceSitemapPage';
+import WebcamsSitemapPage from './components/pages/WebcamsSitemapPage';
+import OldestPage from './components/pages/OldestPage';
 
 ReactDOM.render(
     <Router>
@@ -34,6 +35,7 @@ ReactDOM.render(
 
             <Route exact path="/webcams/" component={WebcamsSitemapPage}/>
             <Route exact path="/places/" component={PlaceSitemapPage}/>
+            <Route exact path="/oldest/" component={OldestPage}/>
 
             <Route component={FourOFour}/>
         </Switch>
