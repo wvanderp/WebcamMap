@@ -4,6 +4,7 @@ export interface Webcam {
 
     osmID: number;
     osmType: string; // 'node' | 'way' | 'relation';
+    lastChanged: number,
 
     address: {
         city?: string;

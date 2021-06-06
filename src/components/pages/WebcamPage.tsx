@@ -67,8 +67,8 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
 
     const onMove = useCallback(() => {
         updateLocation({
-            coordinates: [map?.getCenter().lat, map?.getCenter().lng],
-            zoom: map?.getZoom()
+            coordinates: [map?.getCenter().lat ?? 0, map?.getCenter().lng ?? 0],
+            zoom: map?.getZoom() ?? 2
         });
     }, [map]);
 
