@@ -4154,17 +4154,18 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100090"
   },
   {
-    "lat": 63.13848,
-    "lon": 10.254768,
+    "lat": 63.1383885,
+    "lon": 10.2548887,
     "osmID": 1417674420,
     "osmType": "node",
-    "lastChanged": 1314662566000,
+    "lastChanged": 1623008248000,
     "address": {
       "city": "Lundamo",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "27",
       "fixme": "position",
       "man_made": "surveillance",
       "name": "Horg",
@@ -4174,6 +4175,7 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=197147"
     },
     "operator": "Statens vegvesen",
@@ -4820,17 +4822,19 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100093"
   },
   {
-    "lat": 59.8192183,
-    "lon": 10.3364854,
+    "lat": 59.8192736,
+    "lon": 10.3364618,
     "osmID": 1417674713,
     "osmType": "node",
-    "lastChanged": 1314743469000,
+    "lastChanged": 1623008536000,
     "address": {
-      "city": "Tranby",
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "100",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
       "man_made": "surveillance",
       "name": "Lierskogen",
       "note:no": "Retning mot Drammen",
@@ -4840,6 +4844,8 @@
       "source:position": "survey",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
       "url": "http://webkamera.vegvesen.no/kamera?id=127786"
     },
     "operator": "Statens vegvesen",
