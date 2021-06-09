@@ -766,7 +766,7 @@
     "lon": -3.1133648,
     "osmID": 804172043,
     "osmType": "node",
-    "lastChanged": 1622990021000,
+    "lastChanged": 1623152972000,
     "address": {
       "city": "Port Haliguen",
       "county": "Morbihan",
@@ -780,31 +780,13 @@
       "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage",
       "man_made": "surveillance",
       "name": "Quiberon - La Grande Plage",
-      "opperator": "viewsurf",
+      "operator": "viewsurf",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
+    "operator": "viewsurf",
     "url": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage"
-  },
-  {
-    "lat": 50.9136617,
-    "lon": 6.3861476,
-    "osmID": 850119011,
-    "osmType": "node",
-    "lastChanged": 1285922859000,
-    "address": {
-      "city": "Jülich",
-      "county": "Kreis Düren",
-      "state": "Nordrhein-Westfalen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.stadtwerke-juelich.de/swj-t/html/webcam.html",
-      "man_made": "surveillance",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.stadtwerke-juelich.de/swj-t/html/webcam.html"
   },
   {
     "lat": 50.6701961,
@@ -2149,25 +2131,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=231975"
   },
   {
-    "lat": 60.581994,
-    "lon": 8.319538,
+    "lat": 60.5824655,
+    "lon": 8.3213377,
     "osmID": 1417673914,
     "osmType": "node",
-    "lastChanged": 1314662549000,
+    "lastChanged": 1623176151000,
     "address": {
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "210",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=111709",
       "man_made": "surveillance",
-      "name": "Kvisla",
+      "name": "Rv7 Kvisla (667 moh - retning Geilo)",
       "operator": "Statens vegvesen",
       "ref": "111709",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=111709"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=111709"
@@ -2748,27 +2734,31 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109105"
   },
   {
-    "lat": 61.926249,
-    "lon": 5.135039,
+    "lat": 61.9263356,
+    "lon": 5.135471,
     "osmID": 1417674056,
     "osmType": "node",
-    "lastChanged": 1314662554000,
+    "lastChanged": 1623184307000,
     "address": {
       "city": "Deknepollen",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "70",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=124322",
       "man_made": "surveillance",
-      "name": "Måløybrua aust",
+      "name": "Rv15 Måløybrua 1 (aust)",
       "note:no": "Retning aust",
       "operator": "Statens vegvesen",
       "ref": "124322",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=124322"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=124322"
@@ -3214,25 +3204,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=207738"
   },
   {
-    "lat": 61.049956,
-    "lon": 7.59242,
+    "lat": 61.0493993,
+    "lon": 7.5946429,
     "osmID": 1417674170,
     "osmType": "node",
-    "lastChanged": 1314662558000,
+    "lastChanged": 1623174993000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "290",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110708",
       "man_made": "surveillance",
-      "name": "Ljøsne",
+      "name": "E16 Ljøsne (61 moh)",
       "operator": "Statens vegvesen",
       "ref": "110708",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110708"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110708"
@@ -3688,14 +3682,16 @@
     "lon": 13.5820721,
     "osmID": 1417674279,
     "osmType": "node",
-    "lastChanged": 1548108795000,
+    "lastChanged": 1623175135000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
-      "direction": "330",
-      "fixme": "position",
+      "camera:direction": "330",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.vegvesen.no/public/webkamera/kamera?id=100082",
       "man_made": "surveillance",
       "name": "E6 Osen (Korgfjellet)",
       "operator": "Statens vegvesen",
@@ -3703,12 +3699,11 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "surveillance:zone": "traffic",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100082",
-      "url:ssl": "https://www.vegvesen.no/public/webkamera/kamera?id=100082"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100082"
+    "url": "https://www.vegvesen.no/public/webkamera/kamera?id=100082"
   },
   {
     "lat": 61.565555,
@@ -4678,25 +4673,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=112521"
   },
   {
-    "lat": 69.899004,
-    "lon": 21.603314,
+    "lat": 69.897896,
+    "lon": 21.6070906,
     "osmID": 1417674641,
     "osmType": "node",
-    "lastChanged": 1314662570000,
+    "lastChanged": 1623140779000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100084",
       "man_made": "surveillance",
-      "name": "Kvænangsfjellet",
+      "name": "E6 Kvænangsfjellet",
       "operator": "Statens vegvesen",
       "ref": "100084",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100084"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100084"
@@ -4852,25 +4851,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=127786"
   },
   {
-    "lat": 69.091402,
-    "lon": 18.297675,
+    "lat": 69.0916729,
+    "lon": 18.2972056,
     "osmID": 1417674716,
     "osmType": "node",
-    "lastChanged": 1314662572000,
+    "lastChanged": 1623140556000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=208417",
       "man_made": "surveillance",
-      "name": "Andsvatnet",
+      "name": "Fv86 Andsvatnet (167moh)",
       "operator": "Statens vegvesen",
       "ref": "208417",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=208417"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=208417"
@@ -5197,27 +5200,31 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110983"
   },
   {
-    "lat": 60.372564,
-    "lon": 5.160181,
+    "lat": 60.3720624,
+    "lon": 5.1557611,
     "osmID": 1417674867,
     "osmType": "node",
-    "lastChanged": 1314662575000,
+    "lastChanged": 1623175791000,
     "address": {
       "city": "Valen",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "220",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100091",
       "man_made": "surveillance",
-      "name": "Sotrabroen vest",
+      "name": "Rv555 Sotrabrua vest 1 (retning Sotra)",
       "note:no": "Retning mot Bergen",
       "operator": "Statens vegvesen",
       "ref": "100091",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100091"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100091"
@@ -11444,11 +11451,11 @@
     "url": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc105.jpg"
   },
   {
-    "lat": 43.1160961,
-    "lon": -79.2022549,
+    "lat": 43.1161452,
+    "lon": -79.2020266,
     "osmID": 4605922173,
     "osmType": "node",
-    "lastChanged": 1485109211000,
+    "lastChanged": 1623175538000,
     "address": {
       "city": "Thorold",
       "county": "Niagara Region",
@@ -11456,13 +11463,16 @@
       "country": "Canada"
     },
     "osmTags": {
+      "camera:direction": "95",
       "camera:mount": "pole",
+      "camera:type": "fixed",
       "contact:webcam": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc110.jpg",
       "man_made": "surveillance",
       "name": "Thorold Tunnel - Hwy 58 at Pine Street",
       "operator": "Ministry of Transportation of Ontario",
       "surveillance": "traffic",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Ministry of Transportation of Ontario",
     "url": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc110.jpg"
@@ -23312,7 +23322,7 @@
     "lon": -3.2144609,
     "osmID": 8809020760,
     "osmType": "node",
-    "lastChanged": 1622990484000,
+    "lastChanged": 1623152972000,
     "address": {
       "city": "Magouër",
       "county": "Morbihan",
@@ -23326,11 +23336,81 @@
       "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/16124-france-bretagne-plouhinec-la-barre-detel",
       "man_made": "surveillance",
       "name": "Plouhinec - La Barre d'Etel",
-      "opperator": "viewsurf",
+      "operator": "viewsurf",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
+    "operator": "viewsurf",
     "url": "https://www.viewsurf.com/univers/plage/vue/16124-france-bretagne-plouhinec-la-barre-detel"
+  },
+  {
+    "lat": 51.6783784,
+    "lon": 6.485777,
+    "osmID": 8815550089,
+    "osmType": "node",
+    "lastChanged": 1623182379000,
+    "address": {
+      "city": "Wesel",
+      "county": "Kreis Wesel",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-60",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bislich.de/content/storchencam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bislich.de/content/storchencam"
+  },
+  {
+    "lat": 39.5369322,
+    "lon": -119.7876452,
+    "osmID": 8816003342,
+    "osmType": "node",
+    "lastChanged": 1623200429000,
+    "address": {
+      "city": "Reno",
+      "county": "Washoe County",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nvroads.com/icx/pages/cameras.aspx",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://nvroads.com/icx/pages/cameras.aspx"
+  },
+  {
+    "lat": 39.5342855,
+    "lon": -119.7761476,
+    "osmID": 8816003343,
+    "osmType": "node",
+    "lastChanged": 1623200429000,
+    "address": {
+      "city": "Sparks",
+      "county": "Washoe County",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nvroads.com/icx/pages/cameras.aspx",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://nvroads.com/icx/pages/cameras.aspx"
   }
 ]
