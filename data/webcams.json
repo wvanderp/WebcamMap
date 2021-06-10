@@ -6988,20 +6988,24 @@
     "url": "http://webcam.schwaney.de/current.jpg"
   },
   {
-    "lat": 63.5465996,
-    "lon": 23.6888257,
+    "lat": 63.546461,
+    "lon": 23.6888793,
     "osmID": 2536217600,
     "osmType": "node",
-    "lastChanged": 1384686968000,
+    "lastChanged": 1623223009000,
     "address": {
       "city": "Kaustinen",
       "county": "Keski-Pohjanmaa",
       "country": "Finland"
     },
     "osmTags": {
+      "camera:direction": "20",
+      "camera:type": "fixed",
       "contact:webcam": "http://webcam.kaustinen.fi/",
       "man_made": "surveillance",
-      "surveillance": "webcam"
+      "name": "Kaustinen Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "url": "http://webcam.kaustinen.fi/"
   },
@@ -17441,7 +17445,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
