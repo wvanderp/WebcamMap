@@ -766,7 +766,7 @@
     "lon": -3.1133648,
     "osmID": 804172043,
     "osmType": "node",
-    "lastChanged": 1622990021000,
+    "lastChanged": 1623152972000,
     "address": {
       "city": "Port Haliguen",
       "county": "Morbihan",
@@ -780,31 +780,13 @@
       "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage",
       "man_made": "surveillance",
       "name": "Quiberon - La Grande Plage",
-      "opperator": "viewsurf",
+      "operator": "viewsurf",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
+    "operator": "viewsurf",
     "url": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage"
-  },
-  {
-    "lat": 50.9136617,
-    "lon": 6.3861476,
-    "osmID": 850119011,
-    "osmType": "node",
-    "lastChanged": 1285922859000,
-    "address": {
-      "city": "Jülich",
-      "county": "Kreis Düren",
-      "state": "Nordrhein-Westfalen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.stadtwerke-juelich.de/swj-t/html/webcam.html",
-      "man_made": "surveillance",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.stadtwerke-juelich.de/swj-t/html/webcam.html"
   },
   {
     "lat": 50.6701961,
@@ -1251,6 +1233,32 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=161086"
   },
   {
+    "lat": 48.7995221,
+    "lon": 9.7982137,
+    "osmID": 1263210279,
+    "osmType": "node",
+    "lastChanged": 1624304355000,
+    "address": {
+      "city": "Schwäbisch Gmünd",
+      "county": "Ostalbkreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "340",
+      "camera:type": "fixed",
+      "image": "https://www.schwaebisch-gmuend.de/files/upload/webcam/marktplatz1/gmuendcam.jpg",
+      "man_made": "surveillance",
+      "name": "Webcam Marktplatz",
+      "operator": "Stadt Schwäbisch Gmünd",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.schwaebisch-gmuend.de/webcam-marktplatz.html"
+    },
+    "operator": "Stadt Schwäbisch Gmünd",
+    "url": "https://www.schwaebisch-gmuend.de/webcam-marktplatz.html"
+  },
+  {
     "lat": 69.5851361,
     "lon": 20.3987632,
     "osmID": 1274357557,
@@ -1362,25 +1370,6 @@
     },
     "operator": "МегаФон",
     "url": "http://gorod.megafonvolga.ru/swf/source_5.swf"
-  },
-  {
-    "lat": 52.5304897,
-    "lon": 13.3179672,
-    "osmID": 1311030891,
-    "osmType": "node",
-    "lastChanged": 1335798983000,
-    "address": {
-      "city": "Berlin",
-      "state": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://thiesen-berlin.dyndns.org:2530/view/index.shtml",
-      "name": "Classic Car Dealers",
-      "shop": "car",
-      "surveillance": "webcam"
-    },
-    "url": "http://thiesen-berlin.dyndns.org:2530/view/index.shtml"
   },
   {
     "lat": 70.0033836,
@@ -1727,21 +1716,23 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109026"
   },
   {
-    "lat": 59.1828298,
-    "lon": 10.2077233,
+    "lat": 59.1803454,
+    "lon": 10.2061295,
     "osmID": 1417673808,
     "osmType": "node",
-    "lastChanged": 1314743470000,
+    "lastChanged": 1623399878000,
     "address": {
       "city": "Sandefjord",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "000",
+      "camera:direction": "175",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=111712",
       "man_made": "surveillance",
-      "name": "Fokserød",
-      "note": "Direction estimated from photo and survey",
+      "name": "E18 Fokserød (116 moh - sanderfjod)",
       "note:no": "Under ombygging",
       "operator": "Statens vegvesen",
       "ref": "111712",
@@ -1749,7 +1740,8 @@
       "source:position": "survey",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=111712"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=111712"
@@ -2051,26 +2043,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100100"
   },
   {
-    "lat": 59.625035,
-    "lon": 5.484806,
+    "lat": 59.6250295,
+    "lon": 5.4848461,
     "osmID": 1417673894,
     "osmType": "node",
-    "lastChanged": 1314662549000,
+    "lastChanged": 1624385142000,
     "address": {
       "city": "Førde",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "220",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110731",
       "man_made": "surveillance",
-      "name": "Sveio",
+      "name": "E39 Sveio (retn sør)",
       "operator": "Statens vegvesen",
       "ref": "110731",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110731"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110731"
@@ -2149,25 +2145,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=231975"
   },
   {
-    "lat": 60.581994,
-    "lon": 8.319538,
+    "lat": 60.5824655,
+    "lon": 8.3213377,
     "osmID": 1417673914,
     "osmType": "node",
-    "lastChanged": 1314662549000,
+    "lastChanged": 1623176151000,
     "address": {
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "210",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=111709",
       "man_made": "surveillance",
-      "name": "Kvisla",
+      "name": "Rv7 Kvisla (667 moh - retning Geilo)",
       "operator": "Statens vegvesen",
       "ref": "111709",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=111709"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=111709"
@@ -2599,7 +2599,7 @@
     "lon": 5.388955,
     "osmID": 1417674018,
     "osmType": "node",
-    "lastChanged": 1314662553000,
+    "lastChanged": 1624267884000,
     "address": {
       "city": "Bergen",
       "county": "Vestland",
@@ -2609,6 +2609,7 @@
       "fixme": "position",
       "man_made": "surveillance",
       "name": "Blindheim",
+      "not_working_since": "2021-06-21",
       "note:no": "Kommunal veg",
       "operator": "Statens vegvesen",
       "ref": "110811",
@@ -2748,51 +2749,59 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109105"
   },
   {
-    "lat": 61.926249,
-    "lon": 5.135039,
+    "lat": 61.9263356,
+    "lon": 5.135471,
     "osmID": 1417674056,
     "osmType": "node",
-    "lastChanged": 1314662554000,
+    "lastChanged": 1623184307000,
     "address": {
       "city": "Deknepollen",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "70",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=124322",
       "man_made": "surveillance",
-      "name": "Måløybrua aust",
+      "name": "Rv15 Måløybrua 1 (aust)",
       "note:no": "Retning aust",
       "operator": "Statens vegvesen",
       "ref": "124322",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=124322"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=124322"
   },
   {
-    "lat": 62.010444,
-    "lon": 7.392071,
+    "lat": 62.0110898,
+    "lon": 7.3930339,
     "osmID": 1417674058,
     "osmType": "node",
-    "lastChanged": 1314662554000,
+    "lastChanged": 1623935348000,
     "address": {
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "230",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=111506",
       "man_made": "surveillance",
-      "name": "Breiddalen",
+      "name": "Rv15 Breiddalen 1 (930 moh - retning Stryn)",
       "operator": "Statens vegvesen",
       "ref": "111506",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=111506"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=111506"
@@ -3214,25 +3223,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=207738"
   },
   {
-    "lat": 61.049956,
-    "lon": 7.59242,
+    "lat": 61.0493993,
+    "lon": 7.5946429,
     "osmID": 1417674170,
     "osmType": "node",
-    "lastChanged": 1314662558000,
+    "lastChanged": 1623174993000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "290",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110708",
       "man_made": "surveillance",
-      "name": "Ljøsne",
+      "name": "E16 Ljøsne (61 moh)",
       "operator": "Statens vegvesen",
       "ref": "110708",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110708"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110708"
@@ -3337,25 +3350,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110232"
   },
   {
-    "lat": 60.702517,
-    "lon": 5.225747,
+    "lat": 60.7037276,
+    "lon": 5.2272609,
     "osmID": 1417674200,
     "osmType": "node",
-    "lastChanged": 1314662559000,
+    "lastChanged": 1623416256000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100116",
       "man_made": "surveillance",
-      "name": "Marås",
+      "name": "Fv57 Skodvin",
       "operator": "Statens vegvesen",
       "ref": "100116",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100116"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100116"
@@ -3688,14 +3705,16 @@
     "lon": 13.5820721,
     "osmID": 1417674279,
     "osmType": "node",
-    "lastChanged": 1548108795000,
+    "lastChanged": 1623175135000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
-      "direction": "330",
-      "fixme": "position",
+      "camera:direction": "330",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.vegvesen.no/public/webkamera/kamera?id=100082",
       "man_made": "surveillance",
       "name": "E6 Osen (Korgfjellet)",
       "operator": "Statens vegvesen",
@@ -3703,12 +3722,11 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "surveillance:zone": "traffic",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100082",
-      "url:ssl": "https://www.vegvesen.no/public/webkamera/kamera?id=100082"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100082"
+    "url": "https://www.vegvesen.no/public/webkamera/kamera?id=100082"
   },
   {
     "lat": 61.565555,
@@ -3764,12 +3782,13 @@
     "lon": 6.731799,
     "osmID": 1417674298,
     "osmType": "node",
-    "lastChanged": 1314662563000,
+    "lastChanged": 1623511416000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
+      "check_date": "2021-06-12",
       "fixme": "position",
       "man_made": "surveillance",
       "name": "Bøyadalen",
@@ -3834,25 +3853,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110678"
   },
   {
-    "lat": 67.217491,
-    "lon": 15.406062,
+    "lat": 67.2230384,
+    "lon": 15.4123894,
     "osmID": 1417674313,
     "osmType": "node",
-    "lastChanged": 1314662563000,
+    "lastChanged": 1623867089000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "50",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100081",
       "man_made": "surveillance",
-      "name": "Tussvika",
+      "name": "E6 Tussvika (93moh)",
       "operator": "Statens vegvesen",
       "ref": "100081",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100081"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100081"
@@ -3956,25 +3979,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109062"
   },
   {
-    "lat": 59.767552,
-    "lon": 6.078816,
+    "lat": 59.7676924,
+    "lon": 6.0790024,
     "osmID": 1417674348,
     "osmType": "node",
-    "lastChanged": 1314662564000,
+    "lastChanged": 1624262705000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "30",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110730",
       "man_made": "surveillance",
-      "name": "Alsåkernes",
+      "name": "Fv5024 Alsåkernes (181 moh)",
       "operator": "Statens vegvesen",
       "ref": "110730",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110730"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110730"
@@ -4108,22 +4135,27 @@
     "lon": 14.898736,
     "osmID": 1417674403,
     "osmType": "node",
-    "lastChanged": 1314662566000,
+    "lastChanged": 1624036608000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "250",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=199416",
       "fixme": "position",
       "man_made": "surveillance",
-      "name": "Beiarfjellet",
+      "name": "Fv813 Beiarfjellet (598moh)",
       "note:no": "Ved Reinhornheiatunnelen",
       "operator": "Statens vegvesen",
       "ref": "199416",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=199416"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=199416"
@@ -4154,17 +4186,18 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100090"
   },
   {
-    "lat": 63.13848,
-    "lon": 10.254768,
+    "lat": 63.1383885,
+    "lon": 10.2548887,
     "osmID": 1417674420,
     "osmType": "node",
-    "lastChanged": 1314662566000,
+    "lastChanged": 1623008248000,
     "address": {
       "city": "Lundamo",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "27",
       "fixme": "position",
       "man_made": "surveillance",
       "name": "Horg",
@@ -4174,6 +4207,7 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=197147"
     },
     "operator": "Statens vegvesen",
@@ -4454,25 +4488,28 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109117"
   },
   {
-    "lat": 70.530223,
-    "lon": 29.094228,
+    "lat": 70.5291984,
+    "lon": 29.0919159,
     "osmID": 1417674552,
     "osmType": "node",
-    "lastChanged": 1314662569000,
+    "lastChanged": 1623601809000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "30",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110389",
       "man_made": "surveillance",
-      "name": "Gednje",
+      "name": "Fv890 Gednje (246moh)",
       "operator": "Statens vegvesen",
       "ref": "110389",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110389"
+      "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110389"
@@ -4652,49 +4689,57 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=185544"
   },
   {
-    "lat": 58.472618,
-    "lon": 6.406439,
+    "lat": 58.4727328,
+    "lon": 6.4063638,
     "osmID": 1417674628,
     "osmType": "node",
-    "lastChanged": 1314662570000,
+    "lastChanged": 1623338675000,
     "address": {
       "county": "Rogaland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "90",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=112521",
       "man_made": "surveillance",
-      "name": "Drangsdalen",
+      "name": "E39 Drangsdalen (171 moh - retning Moi)",
       "operator": "Statens vegvesen",
       "ref": "112521",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=112521"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=112521"
   },
   {
-    "lat": 69.899004,
-    "lon": 21.603314,
+    "lat": 69.897896,
+    "lon": 21.6070906,
     "osmID": 1417674641,
     "osmType": "node",
-    "lastChanged": 1314662570000,
+    "lastChanged": 1623140779000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100084",
       "man_made": "surveillance",
-      "name": "Kvænangsfjellet",
+      "name": "E6 Kvænangsfjellet",
       "operator": "Statens vegvesen",
       "ref": "100084",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100084"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100084"
@@ -4724,25 +4769,28 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100115"
   },
   {
-    "lat": 61.832007,
-    "lon": 5.457407,
+    "lat": 61.8323659,
+    "lon": 5.4582343,
     "osmID": 1417674660,
     "osmType": "node",
-    "lastChanged": 1314662571000,
+    "lastChanged": 1624179002000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "250",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=123575",
       "man_made": "surveillance",
-      "name": "Langesi",
+      "name": "Fv61 4 Langesi (372 moh)",
       "operator": "Statens vegvesen",
       "ref": "123575",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=123575"
+      "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=123575"
@@ -4820,17 +4868,19 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100093"
   },
   {
-    "lat": 59.8192183,
-    "lon": 10.3364854,
+    "lat": 59.8192736,
+    "lon": 10.3364618,
     "osmID": 1417674713,
     "osmType": "node",
-    "lastChanged": 1314743469000,
+    "lastChanged": 1623008536000,
     "address": {
-      "city": "Tranby",
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "100",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
       "man_made": "surveillance",
       "name": "Lierskogen",
       "note:no": "Retning mot Drammen",
@@ -4840,31 +4890,37 @@
       "source:position": "survey",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
       "url": "http://webkamera.vegvesen.no/kamera?id=127786"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=127786"
   },
   {
-    "lat": 69.091402,
-    "lon": 18.297675,
+    "lat": 69.0916729,
+    "lon": 18.2972056,
     "osmID": 1417674716,
     "osmType": "node",
-    "lastChanged": 1314662572000,
+    "lastChanged": 1623140556000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=208417",
       "man_made": "surveillance",
-      "name": "Andsvatnet",
+      "name": "Fv86 Andsvatnet (167moh)",
       "operator": "Statens vegvesen",
       "ref": "208417",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=208417"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=208417"
@@ -4894,25 +4950,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110411"
   },
   {
-    "lat": 69.148605,
-    "lon": 19.051322,
+    "lat": 69.1435032,
+    "lon": 19.0510769,
     "osmID": 1417674736,
     "osmType": "node",
-    "lastChanged": 1314662572000,
+    "lastChanged": 1624473788000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "0",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100102",
       "man_made": "surveillance",
-      "name": "Heia",
+      "name": "E6 Heia (229 moh)",
       "operator": "Statens vegvesen",
       "ref": "100102",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100102"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100102"
@@ -5044,51 +5104,59 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=113241"
   },
   {
-    "lat": 58.8847188,
-    "lon": 5.7184149,
+    "lat": 58.8841935,
+    "lon": 5.7183344,
     "osmID": 1417674816,
     "osmType": "node",
-    "lastChanged": 1314662574000,
+    "lastChanged": 1623417366000,
     "address": {
       "city": "Sandnes",
       "county": "Rogaland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
       "description": "Videocamera on pole to oversee traffic.",
       "man_made": "surveillance",
-      "name": "Forus 1",
+      "name": "E39 Forus 1 ( 14 moh - retning Stavanger)",
       "note:no": "Retning mot Stavanger",
       "operator": "Statens vegvesen",
       "ref": "178258",
       "source:ref": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=178258"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=178258"
   },
   {
-    "lat": 70.545549,
-    "lon": 23.730732,
+    "lat": 70.545619,
+    "lon": 23.7305382,
     "osmID": 1417674832,
     "osmType": "node",
-    "lastChanged": 1314662574000,
+    "lastChanged": 1623867254000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "0",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110414",
       "man_made": "surveillance",
-      "name": "Skjåholmen",
+      "name": "Rv94 Skjåholmen (25moh)",
       "operator": "Statens vegvesen",
       "ref": "110414",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110414"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110414"
@@ -5191,50 +5259,59 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110983"
   },
   {
-    "lat": 60.372564,
-    "lon": 5.160181,
+    "lat": 60.3720624,
+    "lon": 5.1557611,
     "osmID": 1417674867,
     "osmType": "node",
-    "lastChanged": 1314662575000,
+    "lastChanged": 1623175791000,
     "address": {
       "city": "Valen",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "220",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100091",
       "man_made": "surveillance",
-      "name": "Sotrabroen vest",
+      "name": "Rv555 Sotrabrua vest 1 (retning Sotra)",
       "note:no": "Retning mot Bergen",
       "operator": "Statens vegvesen",
       "ref": "100091",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100091"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100091"
   },
   {
-    "lat": 69.1467513,
-    "lon": 20.7467942,
+    "lat": 69.1467555,
+    "lon": 20.7467849,
     "osmID": 1417674884,
     "osmType": "node",
-    "lastChanged": 1381530836000,
+    "lastChanged": 1623400247000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "360",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100104",
       "man_made": "surveillance",
-      "name": "Galgo",
+      "name": "E8 Galgo (509 moh)",
       "operator": "Statens vegvesen",
       "ref": "100104",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100104"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100104"
@@ -5288,20 +5365,23 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=197154"
   },
   {
-    "lat": 61.5746968,
-    "lon": 11.0045221,
+    "lat": 61.5746887,
+    "lon": 11.004462,
     "osmID": 1417674918,
     "osmType": "node",
-    "lastChanged": 1314743469000,
+    "lastChanged": 1623417456000,
     "address": {
       "city": "Øverengsmoen",
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "150",
+      "camera:direction": "130",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109128",
       "man_made": "surveillance",
-      "name": "Koppang",
+      "name": "Rv3 Koppang (283moh - retning Rena)",
       "note": "Direction estimated from photo and survey",
       "operator": "Statens vegvesen",
       "ref": "109128",
@@ -5309,7 +5389,8 @@
       "source:position": "survey",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109128"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=109128"
@@ -5461,49 +5542,57 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109063"
   },
   {
-    "lat": 68.529744,
-    "lon": 17.424759,
+    "lat": 68.5299953,
+    "lon": 17.4254564,
     "osmID": 1417674975,
     "osmType": "node",
-    "lastChanged": 1314662577000,
+    "lastChanged": 1623601961000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=208374",
       "man_made": "surveillance",
-      "name": "Trollvikdal",
+      "name": "E10 Trollvikdal (162moh)",
       "operator": "Statens vegvesen",
       "ref": "208374",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=208374"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=208374"
   },
   {
-    "lat": 60.398141,
-    "lon": 5.650284,
+    "lat": 60.3981843,
+    "lon": 5.6502519,
     "osmID": 1417674998,
     "osmType": "node",
-    "lastChanged": 1314662578000,
+    "lastChanged": 1623669066000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "330",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100114",
       "man_made": "surveillance",
-      "name": "Gullbotn",
+      "name": "Fv49 Gullbotn (242 moh retning mot Trengereid)",
       "operator": "Statens vegvesen",
       "ref": "100114",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100114"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100114"
@@ -6360,7 +6449,7 @@
     "lon": 7.7030739,
     "osmID": 1964914497,
     "osmType": "node",
-    "lastChanged": 1412259449000,
+    "lastChanged": 1624191966000,
     "address": {
       "city": "Neuharlingersiel",
       "county": "Landkreis Wittmund",
@@ -6371,19 +6460,21 @@
       "camera:direction": "130",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.neuharlingersiel.de/index.php?id=369",
+      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/",
       "man_made": "surveillance",
+      "name": "Livebilder aus Neuharlingersiel",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
-    "url": "http://www.neuharlingersiel.de/index.php?id=369"
+    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/"
   },
   {
     "lat": 53.7003626,
     "lon": 7.7044563,
     "osmID": 1964914500,
     "osmType": "node",
-    "lastChanged": 1412181186000,
+    "lastChanged": 1624191966000,
     "address": {
       "city": "Neuharlingersiel",
       "county": "Landkreis Wittmund",
@@ -6395,13 +6486,15 @@
       "camera:features": "webcam",
       "camera:make": "Mobotix",
       "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "http://www.neuharlingersiel.de/index.php?id=369",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-3-panorama-webcam-neuharlingersiel/",
       "man_made": "surveillance",
+      "name": "Livebilder aus Neuharlingersiel",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
-    "url": "http://www.neuharlingersiel.de/index.php?id=369"
+    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-3-panorama-webcam-neuharlingersiel/"
   },
   {
     "lat": 51.7838274,
@@ -6975,20 +7068,24 @@
     "url": "http://webcam.schwaney.de/current.jpg"
   },
   {
-    "lat": 63.5465996,
-    "lon": 23.6888257,
+    "lat": 63.546461,
+    "lon": 23.6888793,
     "osmID": 2536217600,
     "osmType": "node",
-    "lastChanged": 1384686968000,
+    "lastChanged": 1623223009000,
     "address": {
       "city": "Kaustinen",
       "county": "Keski-Pohjanmaa",
       "country": "Finland"
     },
     "osmTags": {
+      "camera:direction": "20",
+      "camera:type": "fixed",
       "contact:webcam": "http://webcam.kaustinen.fi/",
       "man_made": "surveillance",
-      "surveillance": "webcam"
+      "name": "Kaustinen Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "url": "http://webcam.kaustinen.fi/"
   },
@@ -7639,32 +7736,11 @@
     "url": "http://www.nienburg-in-bildern.de/index.php?bild=4"
   },
   {
-    "lat": 51.030066,
-    "lon": 7.8443984,
-    "osmID": 2968463163,
-    "osmType": "node",
-    "lastChanged": 1405853649000,
-    "address": {
-      "city": "Olpe",
-      "county": "Kreis Olpe",
-      "state": "Nordrhein-Westfalen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "name": "Webcam Olper Marktplatz",
-      "surveillance": "webcam",
-      "url": "http://olpe.de/index.phtml?mNavID=1851.168&sNavID=1851.168&La=1",
-      "website": "http://webapps.kdz-ws.net/cam330/olpecam.jpg"
-    },
-    "url": "http://olpe.de/index.phtml?mNavID=1851.168&sNavID=1851.168&La=1"
-  },
-  {
-    "lat": 51.0291568,
-    "lon": 7.8422741,
+    "lat": 51.0292143,
+    "lon": 7.8423778,
     "osmID": 2968463173,
     "osmType": "node",
-    "lastChanged": 1405853649000,
+    "lastChanged": 1624192278000,
     "address": {
       "city": "Olpe",
       "county": "Kreis Olpe",
@@ -7672,34 +7748,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "345",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.olpe.de/Schnellnavigation/Webcam",
       "man_made": "surveillance",
       "name": "Webcam Freizeitbad und Biggesee",
       "surveillance": "webcam",
-      "url": "http://olpe.de/index.phtml?mNavID=1851.168&sNavID=1851.168&La=1",
-      "website": "http://webapps.kdz-ws.net/cam330/cam330/webcam2.jpg"
+      "surveillance:type": "camera"
     },
-    "url": "http://olpe.de/index.phtml?mNavID=1851.168&sNavID=1851.168&La=1"
-  },
-  {
-    "lat": 51.0289898,
-    "lon": 7.8420488,
-    "osmID": 2968463941,
-    "osmType": "node",
-    "lastChanged": 1405853649000,
-    "address": {
-      "city": "Olpe",
-      "county": "Kreis Olpe",
-      "state": "Nordrhein-Westfalen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "name": "Webcam \"Baustelle hinterm Bahnhof\"",
-      "surveillance": "webcam",
-      "url": "http://olpe.de/index.phtml?mNavID=1851.168&sNavID=1851.168&La=1",
-      "website": "http://webapps.kdz-ws.net/cam330/cam_III.jpg"
-    },
-    "url": "http://olpe.de/index.phtml?mNavID=1851.168&sNavID=1851.168&La=1"
+    "url": "https://www.olpe.de/Schnellnavigation/Webcam"
   },
   {
     "lat": 51.0936286,
@@ -7876,7 +7934,7 @@
     "lon": 7.3948935,
     "osmID": 2997621048,
     "osmType": "node",
-    "lastChanged": 1407242954000,
+    "lastChanged": 1623400131000,
     "address": {
       "city": "Papenburg",
       "county": "Landkreis Emsland",
@@ -7884,10 +7942,15 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "285",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
       "contact:webcam": "http://www.schwanenapotheke-papenburg.de/webcam",
       "man_made": "surveillance",
-      "name": "Schwanen Apotheke",
-      "surveillance": "webcam"
+      "name": "Schwanen Apotheke webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
     "url": "http://www.schwanenapotheke-papenburg.de/webcam"
   },
@@ -8324,6 +8387,31 @@
     "url": "http://www.svz-bw.de/kamera.html?webcamid=B03"
   },
   {
+    "lat": 53.6996093,
+    "lon": 7.703703,
+    "osmID": 3107239348,
+    "osmType": "node",
+    "lastChanged": 1624191966000,
+    "address": {
+      "city": "Neuharlingersiel",
+      "county": "Landkreis Wittmund",
+      "state": "Niedersachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "355",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/",
+      "man_made": "surveillance",
+      "name": "Livebilder aus Neuharlingersiel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/"
+  },
+  {
     "lat": 48.7154037,
     "lon": 9.0868501,
     "osmID": 3123642822,
@@ -8474,44 +8562,6 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.youtube.com/watch?v=AAQUGsUzWbE"
-  },
-  {
-    "lat": 63.3988355,
-    "lon": 13.0749464,
-    "osmID": 3219939358,
-    "osmType": "node",
-    "lastChanged": 1417771362000,
-    "address": {
-      "city": "Åre",
-      "county": "Jämtlands län",
-      "country": "Sweden"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.holidayclub.se/what-s-on/141-webcam",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "http://www.holidayclub.se/what-s-on/141-webcam"
-  },
-  {
-    "lat": 63.398963,
-    "lon": 13.0741351,
-    "osmID": 3219939360,
-    "osmType": "node",
-    "lastChanged": 1417771362000,
-    "address": {
-      "city": "Åre",
-      "county": "Jämtlands län",
-      "country": "Sweden"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.holidayclub.se/what-s-on/141-webcam",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "http://www.holidayclub.se/what-s-on/141-webcam"
   },
   {
     "lat": 54.2942649,
@@ -9851,30 +9901,33 @@
     "url": "http://www.wwa-webcams.de/kc/s-gbs-ablauf/s-gbs-ablauf.jpg"
   },
   {
-    "lat": 63.4407974,
-    "lon": 10.4098148,
+    "lat": 63.4407721,
+    "lon": 10.409824,
     "osmID": 4345802101,
     "osmType": "node",
-    "lastChanged": 1470929746000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "270",
+      "camera:direction": "260",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/brattora-webkamera.aspx",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam145_1_image.jpg",
+      "description": "Havnegata/Brattørkaia",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Brattøra",
       "operator": "Trondheim Havn",
       "ref": "K3-2",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
+      "surveillance:zone": "traffic"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/brattora-webkamera.aspx"
+    "url": "http://tsftp.no/Trondheim/cam145_1_image.jpg"
   },
   {
     "lat": 63.4364798,
@@ -9955,56 +10008,33 @@
     "url": "http://trondheimhavn.no/turistskipskaia-webkamera.aspx"
   },
   {
-    "lat": 63.4408118,
-    "lon": 10.40975,
+    "lat": 63.4408468,
+    "lon": 10.409747,
     "osmID": 4346086245,
     "osmType": "node",
-    "lastChanged": 1470929747000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "225",
+      "camera:direction": "254",
       "camera:type": "fixed",
       "contact:webcam": "http://trondheimhavn.no/godsterminalen-for-jernbane-webkamera.aspx",
+      "description": "Godsterminal og Pirsenteret på Brattøra",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Pirsenteret",
       "operator": "Trondheim Havn",
       "ref": "K3-10",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
     "url": "http://trondheimhavn.no/godsterminalen-for-jernbane-webkamera.aspx"
-  },
-  {
-    "lat": 63.4408331,
-    "lon": 10.4097359,
-    "osmID": 4346086246,
-    "osmType": "node",
-    "lastChanged": 1471001163000,
-    "address": {
-      "city": "Trondheim",
-      "county": "Trøndelag",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "camera:direction": "315",
-      "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/hurtigrutekaia-webkamera.aspx",
-      "height": "20",
-      "man_made": "surveillance",
-      "operator": "Trondheim Havn",
-      "ref": "K3-4",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/hurtigrutekaia-webkamera.aspx"
   },
   {
     "lat": 63.4412903,
@@ -10033,11 +10063,11 @@
     "url": "http://trondheimhavn.no/turistskipskaia-webkamera.aspx"
   },
   {
-    "lat": 63.4406733,
-    "lon": 10.4103975,
+    "lat": 63.4406588,
+    "lon": 10.410426,
     "osmID": 4346113211,
     "osmType": "node",
-    "lastChanged": 1470929746000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10046,76 +10076,53 @@
     "osmTags": {
       "camera:direction": "180",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/pir-ii-syd-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam145_9_image.jpg",
+      "description": "Riksvei 706 på Brattøra",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Nordre avslastingsvei",
       "operator": "Trondheim Havn",
-      "ref": "K6-1",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/pir-ii-syd-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam145_9_image.jpg"
   },
   {
-    "lat": 63.4406877,
-    "lon": 10.4104364,
+    "lat": 63.4434179,
+    "lon": 10.4033544,
     "osmID": 4346113212,
     "osmType": "node",
-    "lastChanged": 1470929746000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "45",
+      "camera:direction": "220",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/pir-ii-nord-webkamera.aspx",
-      "height": "20",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam157_9_1.jpg",
+      "description": "Her legger cruiseskipene til ved anløp til Trondheim",
       "man_made": "surveillance",
+      "name": "Turistskipskaia",
       "operator": "Trondheim Havn",
-      "ref": "K6-2",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/pir-ii-nord-webkamera.aspx"
-  },
-  {
-    "lat": 63.4407674,
-    "lon": 10.4097893,
-    "osmID": 4346113213,
-    "osmType": "node",
-    "lastChanged": 1470929746000,
-    "address": {
-      "city": "Trondheim",
-      "county": "Trøndelag",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "camera:direction": "180",
-      "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/pirbrua-webkamera.aspx",
-      "height": "20",
-      "man_made": "surveillance",
-      "operator": "Trondheim Havn",
-      "ref": "K3-9",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/pirbrua-webkamera.aspx"
+    "url": "http://tsftp.no/Trondheim/cam157_9_1.jpg"
   },
   {
     "lat": 63.4408049,
     "lon": 10.4097839,
     "osmID": 4346113214,
     "osmType": "node",
-    "lastChanged": 1471001164000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10124,24 +10131,26 @@
     "osmTags": {
       "camera:direction": "240",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/nordre-avlastningsveg-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam145_5_image.jpg",
+      "description": "Utsikt mot det nasjonale museet for populærmusikk",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Rockheim",
       "operator": "Trondheim Havn",
-      "ref": "K3-1",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/nordre-avlastningsveg-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam145_5_image.jpg"
   },
   {
-    "lat": 63.4408598,
-    "lon": 10.4097647,
+    "lat": 63.4409407,
+    "lon": 10.4098377,
     "osmID": 4346113215,
     "osmType": "node",
-    "lastChanged": 1471001164000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10149,25 +10158,29 @@
     },
     "osmTags": {
       "camera:direction": "0",
+      "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/pir-ii-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam145_3_image.jpg",
+      "description": "Gods- og industriområde",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Pir II Syd",
       "operator": "Trondheim Havn",
       "ref": "K3-3",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/pir-ii-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam145_3_image.jpg"
   },
   {
     "lat": 63.4323457,
     "lon": 10.3675112,
     "osmID": 4347148906,
     "osmType": "node",
-    "lastChanged": 1470999283000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10176,23 +10189,25 @@
     "osmTags": {
       "camera:direction": "90",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/skansen-smabathavn-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam63_1.jpg",
+      "description": "Småbåt- og gjestehavnplass",
       "man_made": "surveillance",
+      "name": "Skansen / Ila",
       "operator": "Trondheim Havn",
-      "ref": "K2-11",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/skansen-smabathavn-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam63_1.jpg"
   },
   {
     "lat": 63.4326075,
     "lon": 10.3666637,
     "osmID": 4347148907,
     "osmType": "node",
-    "lastChanged": 1470999283000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10201,49 +10216,25 @@
     "osmTags": {
       "camera:direction": "315",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/ila-webkamera.aspx",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam58_ila.jpg",
+      "description": "Her losses og lastes korn- og andre bulkvarer",
       "man_made": "surveillance",
+      "name": "Ila",
       "operator": "Trondheim Havn",
-      "ref": "K13",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/ila-webkamera.aspx"
+    "url": "http://tsftp.no/Trondheim/cam58_ila.jpg"
   },
   {
-    "lat": 63.434976,
-    "lon": 10.3980908,
-    "osmID": 4347148908,
-    "osmType": "node",
-    "lastChanged": 1508526845000,
-    "address": {
-      "city": "Trondheim",
-      "county": "Trøndelag",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "camera:direction": "315",
-      "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/fosenkaia-gjestehavn-webkamera.aspx",
-      "height": "20",
-      "man_made": "surveillance",
-      "operator": "Trondheim Havn",
-      "ref": "K8-2",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/fosenkaia-gjestehavn-webkamera.aspx"
-  },
-  {
-    "lat": 63.4349793,
-    "lon": 10.3981524,
+    "lat": 63.4349865,
+    "lon": 10.3982704,
     "osmID": 4347148909,
     "osmType": "node",
-    "lastChanged": 1508526845000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10252,17 +10243,19 @@
     "osmTags": {
       "camera:direction": "0",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/vestre-kanalhavn-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam82_1.jpg",
+      "description": "Småbåthavn ved Trondheim Sentralstasjon",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Kanalen",
       "operator": "Trondheim Havn",
-      "ref": "K8-1",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/vestre-kanalhavn-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam82_1.jpg"
   },
   {
     "lat": 63.4364764,
@@ -10317,115 +10310,69 @@
     "url": "http://trondheimhavn.no/ila-webkamera.aspx"
   },
   {
-    "lat": 63.4408236,
-    "lon": 10.4098152,
+    "lat": 63.441311,
+    "lon": 10.4108168,
     "osmID": 4347148912,
     "osmType": "node",
-    "lastChanged": 1471001164000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "45",
+      "camera:direction": "79",
+      "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/kullkranpiren-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam145_8_image.jpg",
+      "description": "Her losses og lastes stål til gjenvinning",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Kullkranpiren",
       "operator": "Trondheim Havn",
-      "ref": "K3-8",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/kullkranpiren-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam145_8_image.jpg"
   },
   {
     "lat": 63.4430389,
     "lon": 10.426372,
     "osmID": 4347148913,
     "osmType": "node",
-    "lastChanged": 1470999284000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "camera:direction": "0",
+      "camera:direction": "300",
+      "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/ladehammerkaia-webkamera.aspx",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam54_1.jpg",
+      "description": "Aktivt industriområde",
       "height": "15",
       "man_made": "surveillance",
+      "name": "Ladehammerkaia",
       "operator": "Trondheim Havn",
-      "ref": "K15",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/ladehammerkaia-webkamera.aspx"
+    "url": "http://tsftp.no/Trondheim/cam54_1.jpg"
   },
   {
-    "lat": 63.4408167,
-    "lon": 10.4097762,
-    "osmID": 4347194669,
-    "osmType": "node",
-    "lastChanged": 1471001163000,
-    "address": {
-      "city": "Trondheim",
-      "county": "Trøndelag",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "camera:direction": "240",
-      "camera:type": "fixed",
-      "contact:webcam": "http://webcams.travel/1383634214",
-      "height": "20",
-      "man_made": "surveillance",
-      "operator": "Trondheim Havn",
-      "ref": "K3-5",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "operator": "Trondheim Havn",
-    "url": "http://webcams.travel/1383634214"
-  },
-  {
-    "lat": 63.4408332,
-    "lon": 10.4097888,
-    "osmID": 4347194670,
-    "osmType": "node",
-    "lastChanged": 1471001163000,
-    "address": {
-      "city": "Trondheim",
-      "county": "Trøndelag",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "camera:direction": "40",
-      "camera:type": "fixed",
-      "contact:webcam": "http://webcams.travel/1383634214",
-      "height": "20",
-      "man_made": "surveillance",
-      "operator": "Trondheim Havn",
-      "ref": "K3-7",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "operator": "Trondheim Havn",
-    "url": "http://webcams.travel/1383634214"
-  },
-  {
-    "lat": 63.4408431,
-    "lon": 10.4097482,
+    "lat": 63.4408913,
+    "lon": 10.4098051,
     "osmID": 4347194671,
     "osmType": "node",
-    "lastChanged": 1471001163000,
+    "lastChanged": 1624266353000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10434,17 +10381,19 @@
     "osmTags": {
       "camera:direction": "320",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/hurtigrutekaia-webkamera.aspx",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam145_4_image.jpg",
+      "description": "Stillbilder fra Trondheims mest trafikkerte kai",
       "height": "20",
       "man_made": "surveillance",
+      "name": "Hurtigrutekaia",
       "operator": "Trondheim Havn",
-      "ref": "K3-11",
+      "source": "https://trondheimhavn.no/webkamera/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/hurtigrutekaia-webkamera.aspx"
+    "url": "http://tsftp.no/Trondheim/cam145_4_image.jpg"
   },
   {
     "lat": 53.6273879,
@@ -11438,11 +11387,11 @@
     "url": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc105.jpg"
   },
   {
-    "lat": 43.1160961,
-    "lon": -79.2022549,
+    "lat": 43.1161452,
+    "lon": -79.2020266,
     "osmID": 4605922173,
     "osmType": "node",
-    "lastChanged": 1485109211000,
+    "lastChanged": 1623175538000,
     "address": {
       "city": "Thorold",
       "county": "Niagara Region",
@@ -11450,13 +11399,16 @@
       "country": "Canada"
     },
     "osmTags": {
+      "camera:direction": "95",
       "camera:mount": "pole",
+      "camera:type": "fixed",
       "contact:webcam": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc110.jpg",
       "man_made": "surveillance",
       "name": "Thorold Tunnel - Hwy 58 at Pine Street",
       "operator": "Ministry of Transportation of Ontario",
       "surveillance": "traffic",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Ministry of Transportation of Ontario",
     "url": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc110.jpg"
@@ -14649,11 +14601,11 @@
     "url": "http://nikopol.cam.dp.ua/ncam23.html"
   },
   {
-    "lat": 59.2735357,
-    "lon": 9.9274794,
+    "lat": 59.2733641,
+    "lon": 9.9277767,
     "osmID": 5382957142,
     "osmType": "node",
-    "lastChanged": 1517664323000,
+    "lastChanged": 1624263062000,
     "address": {
       "city": "Larvik",
       "county": "Vestfold og Telemark",
@@ -14663,15 +14615,16 @@
       "camera:direction": "-52",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.vegvesen.no/trafikkinformasjon/Reiseinformasjon/Trafikkmeldinger/Webkamera?kamera=604420&video=true&zoom=16",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=604420",
       "man_made": "surveillance",
+      "name": "Fv40 Rienlia",
       "operator": "Statens Vegvesen",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
     "operator": "Statens Vegvesen",
-    "url": "https://www.vegvesen.no/trafikkinformasjon/Reiseinformasjon/Trafikkmeldinger/Webkamera?kamera=604420&video=true&zoom=16"
+    "url": "http://webkamera.vegvesen.no/kamera?id=604420"
   },
   {
     "lat": 49.89387,
@@ -15683,32 +15636,11 @@
     "url": "https://mummelsee.de/webcam_page/"
   },
   {
-    "lat": 50.8484805,
-    "lon": 0.5205686,
-    "osmID": 6139754934,
-    "osmType": "node",
-    "lastChanged": 1545441028000,
-    "address": {
-      "city": "St Leonards",
-      "county": "East Sussex",
-      "state": "England",
-      "country": "United Kingdom"
-    },
-    "osmTags": {
-      "addr:place": "Bridge Way, Bulverhythe",
-      "contact:webcam": "http://voc.axiscam.net/",
-      "image": "http://voc.axiscam.net/axis-cgi/jpg/image.cgi",
-      "name": "Amsterdam Shipwreck Webcam",
-      "surveillance": "webcam"
-    },
-    "url": "http://voc.axiscam.net/"
-  },
-  {
     "lat": 50.8385956,
     "lon": 0.4810823,
     "osmID": 6139754935,
     "osmType": "node",
-    "lastChanged": 1545441028000,
+    "lastChanged": 1624061720000,
     "address": {
       "city": "Rother",
       "county": "East Sussex",
@@ -15717,10 +15649,16 @@
     },
     "osmTags": {
       "addr:place": "The Sackville, De La Warr Parade",
+      "camera:direction": "150",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.discoverbexhill.com/bexhillwebcam.php",
       "image": "https://www.discoverbexhill.com/webcam/cam1.jpg",
+      "level": "4",
+      "man_made": "surveillance",
       "name": "Discover Bexhill Webcam",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
     },
     "url": "https://www.discoverbexhill.com/bexhillwebcam.php"
   },
@@ -15729,7 +15667,7 @@
     "lon": 0.4769531,
     "osmID": 6139754936,
     "osmType": "node",
-    "lastChanged": 1545441028000,
+    "lastChanged": 1624061720000,
     "address": {
       "city": "Rother",
       "county": "East Sussex",
@@ -15738,11 +15676,17 @@
     },
     "osmTags": {
       "addr:place": "Bexhill Sailing Club, De La Warr Parade",
-      "contact:webcam": "https://camsecure.co/httpswebcam/bexhill/bexhill.html",
+      "camera:direction": "170",
+      "camera:type": "fixed",
+      "contact:webcam": "https://bexhillsailing.club/webcam/",
+      "level": "1",
+      "man_made": "surveillance",
       "name": "Bexhill Sailing Club Webcam",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
-    "url": "https://camsecure.co/httpswebcam/bexhill/bexhill.html"
+    "url": "https://bexhillsailing.club/webcam/"
   },
   {
     "lat": 48.469671,
@@ -15930,28 +15874,6 @@
     "url": "https://cotrip.org/map.htm#/default?StillCameraId=10590"
   },
   {
-    "lat": 35.9993494,
-    "lon": -78.91002,
-    "osmID": 6206118715,
-    "osmType": "node",
-    "lastChanged": 1616082344000,
-    "address": {
-      "city": "Durham",
-      "county": "Durham County",
-      "state": "North Carolina",
-      "country": "United States"
-    },
-    "osmTags": {
-      "contact:webcam": "http://11foot8.com/",
-      "man_made": "surveillance",
-      "name": "11Foot8 Bridge Cam B",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "http://11foot8.com/"
-  },
-  {
     "lat": 66.2299612,
     "lon": 13.8736444,
     "osmID": 6226005407,
@@ -15975,6 +15897,28 @@
       "url": "https://www.vegvesen.no/public/webkamera/kamera?id=2544434"
     },
     "url": "https://www.vegvesen.no/public/webkamera/kamera?id=2544434"
+  },
+  {
+    "lat": 54.9326548,
+    "lon": -1.4674469,
+    "osmID": 6230913970,
+    "osmType": "node",
+    "lastChanged": 1623859273000,
+    "address": {
+      "city": "South Tyneside",
+      "county": "Tyne and Wear",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.netrafficcams.co.uk/south-tyneside-a1290-downhill-lane-a19-east-0",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.netrafficcams.co.uk/south-tyneside-a1290-downhill-lane-a19-east-0"
   },
   {
     "lat": 51.5044583,
@@ -17038,6 +16982,28 @@
     "url": "https://www.flugplatz-soest.de/unser-verein/webcam/"
   },
   {
+    "lat": 54.9321049,
+    "lon": -1.4687077,
+    "osmID": 6831551239,
+    "osmType": "node",
+    "lastChanged": 1623859273000,
+    "address": {
+      "city": "South Tyneside",
+      "county": "Tyne and Wear",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.netrafficcams.co.uk/south-tyneside-a1290-downhill-lane-a19-west-0",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.netrafficcams.co.uk/south-tyneside-a1290-downhill-lane-a19-west-0"
+  },
+  {
     "lat": 35.2549201,
     "lon": -82.2429709,
     "osmID": 6839040437,
@@ -17425,7 +17391,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -17468,7 +17435,7 @@
     "lon": -104.960641,
     "osmID": 7221400218,
     "osmType": "node",
-    "lastChanged": 1619945608000,
+    "lastChanged": 1623969102000,
     "address": {
       "city": "Denver",
       "county": "Denver County",
@@ -17476,6 +17443,7 @@
       "country": "United States"
     },
     "osmTags": {
+      "camera:type": "fixed",
       "man_made": "surveillance",
       "name": "Central 70 Webcam",
       "note": "no real-world access; webcam only",
@@ -18295,7 +18263,7 @@
     "osmType": "node",
     "lastChanged": 1594903700000,
     "address": {
-      "city": "Günzenhausen",
+      "city": "Eching",
       "county": "Landkreis Freising",
       "state": "Bayern",
       "country": "Germany"
@@ -18550,7 +18518,7 @@
     "lon": -0.1161398,
     "osmID": 7792620779,
     "osmType": "node",
-    "lastChanged": 1596753204000,
+    "lastChanged": 1623925116000,
     "address": {
       "city": "London",
       "state": "England",
@@ -18560,12 +18528,13 @@
       "camera:direction": "300",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://api.deckchair.com/v1/viewer/image/5f2c8110d10be100012ccab0",
+      "contact:webcam": "https://camera.deckchair.com/park-plaza-county-hall-london",
       "man_made": "surveillance",
+      "name": "Park Plaza County Hall Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://api.deckchair.com/v1/viewer/image/5f2c8110d10be100012ccab0"
+    "url": "https://camera.deckchair.com/park-plaza-county-hall-london"
   },
   {
     "lat": 51.5017358,
@@ -20770,7 +20739,7 @@
     "osmType": "node",
     "lastChanged": 1613566897000,
     "address": {
-      "city": "Taltal",
+      "city": "Antofagasta",
       "county": "Provincia de Antofagasta",
       "state": "Región de Antofagasta",
       "country": "Chile"
@@ -20967,7 +20936,7 @@
     "lon": -73.9942718,
     "osmID": 8435194094,
     "osmType": "node",
-    "lastChanged": 1613661434000,
+    "lastChanged": 1624268046000,
     "address": {
       "city": "New York",
       "state": "New York",
@@ -20977,7 +20946,9 @@
       "camera:direction": "346",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=KGuCGd726RA",
+      "description": "Live stream of NYC, Manhattan and the Brooklyn Bridge from the top of the St. George Tower in Brooklyn, NY",
       "man_made": "surveillance",
+      "name": "Brooklyn Bridge & Manhattan cam",
       "operator": "St. George Tower",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -21015,7 +20986,7 @@
     "lon": -73.9943408,
     "osmID": 8435211818,
     "osmType": "node",
-    "lastChanged": 1613661628000,
+    "lastChanged": 1624268046000,
     "address": {
       "city": "New York",
       "state": "New York",
@@ -21025,7 +20996,9 @@
       "camera:direction": "286",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=Vj0XKu6AoOw",
+      "description": "Live stream of lower Manhattan/NYC from the top of the St. George Tower in Brooklyn, NY",
       "man_made": "surveillance",
+      "name": "Lower Manhattan & New York Harbor Cam",
       "operator": "St. George Tower",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -21758,9 +21731,10 @@
     "lon": -6.0677847,
     "osmID": 8561241809,
     "osmType": "node",
-    "lastChanged": 1616693919000,
+    "lastChanged": 1623925434000,
     "address": {
       "city": "Howth",
+      "county": "County Dublin",
       "country": "Ireland"
     },
     "osmTags": {
@@ -21768,9 +21742,12 @@
       "camera:type": "fixed",
       "contact:webcam": "https://hyc.ie/webcam",
       "man_made": "surveillance",
+      "operator": "Howth Yacht Club",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
+    "operator": "Howth Yacht Club",
     "url": "https://hyc.ie/webcam"
   },
   {
@@ -22530,7 +22507,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Klinglbach",
+      "city": "Sankt Englmar",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -23306,7 +23283,7 @@
     "lon": -3.2144609,
     "osmID": 8809020760,
     "osmType": "node",
-    "lastChanged": 1622990484000,
+    "lastChanged": 1623152972000,
     "address": {
       "city": "Magouër",
       "county": "Morbihan",
@@ -23320,11 +23297,631 @@
       "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/16124-france-bretagne-plouhinec-la-barre-detel",
       "man_made": "surveillance",
       "name": "Plouhinec - La Barre d'Etel",
-      "opperator": "viewsurf",
+      "operator": "viewsurf",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
+    "operator": "viewsurf",
     "url": "https://www.viewsurf.com/univers/plage/vue/16124-france-bretagne-plouhinec-la-barre-detel"
+  },
+  {
+    "lat": 51.6783784,
+    "lon": 6.485777,
+    "osmID": 8815550089,
+    "osmType": "node",
+    "lastChanged": 1623182379000,
+    "address": {
+      "city": "Wesel",
+      "county": "Kreis Wesel",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-60",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bislich.de/content/storchencam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bislich.de/content/storchencam"
+  },
+  {
+    "lat": 39.5369322,
+    "lon": -119.7876452,
+    "osmID": 8816003342,
+    "osmType": "node",
+    "lastChanged": 1623200429000,
+    "address": {
+      "city": "Reno",
+      "county": "Washoe County",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nvroads.com/icx/pages/cameras.aspx",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://nvroads.com/icx/pages/cameras.aspx"
+  },
+  {
+    "lat": 39.5342855,
+    "lon": -119.7761476,
+    "osmID": 8816003343,
+    "osmType": "node",
+    "lastChanged": 1623200429000,
+    "address": {
+      "city": "Sparks",
+      "county": "Washoe County",
+      "state": "Nevada",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nvroads.com/icx/pages/cameras.aspx",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://nvroads.com/icx/pages/cameras.aspx"
+  },
+  {
+    "lat": 51.7137568,
+    "lon": 8.7404485,
+    "osmID": 8830412214,
+    "osmType": "node",
+    "lastChanged": 1623791623000,
+    "address": {
+      "city": "Paderborn",
+      "county": "Kreis Paderborn",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "http://bremerbau.nacura.de/Paderborn/A18110_HBF_Paderborn.jpg"
+    },
+    "url": "http://bremerbau.nacura.de/Paderborn/A18110_HBF_Paderborn.jpg"
+  },
+  {
+    "lat": 52.0178473,
+    "lon": 4.7072493,
+    "osmID": 8831442432,
+    "osmType": "node",
+    "lastChanged": 1623661656000,
+    "address": {
+      "city": "Gouda",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcam.g0uda.nl/webcam4.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://webcam.g0uda.nl/webcam4.html"
+  },
+  {
+    "lat": 45.0774398,
+    "lon": -64.5780765,
+    "osmID": 8837297065,
+    "osmType": "node",
+    "lastChanged": 1623813754000,
+    "address": {
+      "city": "Coldbrook",
+      "county": "Kings County",
+      "state": "Nova Scotia",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "https://novascotia.ca/tran/cameras/cameradetails.asp?id=Coldbrook",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://novascotia.ca/tran/cameras/cameradetails.asp?id=Coldbrook"
+  },
+  {
+    "lat": 54.9418955,
+    "lon": -1.4660786,
+    "osmID": 8839283211,
+    "osmType": "node",
+    "lastChanged": 1623859447000,
+    "address": {
+      "city": "South Tyneside",
+      "county": "Tyne and Wear",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.netrafficcams.co.uk/south-tyneside-a184-boldon-b1298-abingdon-way-business-park-roundabout",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.netrafficcams.co.uk/south-tyneside-a184-boldon-b1298-abingdon-way-business-park-roundabout"
+  },
+  {
+    "lat": 54.9490695,
+    "lon": -1.4619963,
+    "osmID": 8839283212,
+    "osmType": "node",
+    "lastChanged": 1623859447000,
+    "address": {
+      "city": "South Tyneside",
+      "county": "Tyne and Wear",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.netrafficcams.co.uk/south-tyneside-b1298-hubert-street-north-road-asda-boldon-0",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.netrafficcams.co.uk/south-tyneside-b1298-hubert-street-north-road-asda-boldon-0"
+  },
+  {
+    "lat": 50.7791992,
+    "lon": 0.0793008,
+    "osmID": 8841567944,
+    "osmType": "node",
+    "lastChanged": 1623925332000,
+    "address": {
+      "city": "Lewes",
+      "county": "East Sussex",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "210",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://nsscseaford.ddns.net/view/viewer_index.shtml?id=530245",
+      "man_made": "surveillance",
+      "operator": "Newhaven and Seaford Sailing Club",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
+    },
+    "operator": "Newhaven and Seaford Sailing Club",
+    "url": "http://nsscseaford.ddns.net/view/viewer_index.shtml?id=530245"
+  },
+  {
+    "lat": 32.6809024,
+    "lon": -117.1792123,
+    "osmID": 8841620665,
+    "osmType": "node",
+    "lastChanged": 1623926195000,
+    "address": {
+      "city": "Coronado",
+      "county": "San Diego County",
+      "state": "California",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://hoteldel.com/live-webcam/",
+      "man_made": "surveillance",
+      "name": "Hotel del Coronado - Beach Cam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://hoteldel.com/live-webcam/"
+  },
+  {
+    "lat": 63.441261,
+    "lon": 10.4107538,
+    "osmID": 8852411799,
+    "osmType": "node",
+    "lastChanged": 1624266353000,
+    "address": {
+      "city": "Trondheim",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "61",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam145_7_image.jpg",
+      "description": "Her losses og lastes stål til bygg- og anleggsbransjen",
+      "height": "20",
+      "man_made": "surveillance",
+      "name": "Transittkaia",
+      "operator": "Trondheim Havn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Trondheim Havn",
+    "url": "http://tsftp.no/Trondheim/cam145_7_image.jpg"
+  },
+  {
+    "lat": 63.4325904,
+    "lon": 10.3666436,
+    "osmID": 8852411800,
+    "osmType": "node",
+    "lastChanged": 1624266353000,
+    "address": {
+      "city": "Trondheim",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "315",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam145_6_image.jpg",
+      "description": "Tankanlegg for lagring og distribusjon av bensiner, diesel og lette fyringsoljer",
+      "man_made": "surveillance",
+      "name": "Trolla / Høvringen",
+      "operator": "Trondheim Havn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Trondheim Havn",
+    "url": "http://tsftp.no/Trondheim/cam145_6_image.jpg"
+  },
+  {
+    "lat": 63.4410037,
+    "lon": 10.409898,
+    "osmID": 8852411801,
+    "osmType": "node",
+    "lastChanged": 1624266353000,
+    "address": {
+      "city": "Trondheim",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam145_11_image.jpg",
+      "description": "Turistattraksjon som har fått sitt navn etter klosterdriften fram til 1537",
+      "height": "20",
+      "man_made": "surveillance",
+      "name": "Munkholmen",
+      "operator": "Trondheim Havn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Trondheim Havn",
+    "url": "http://tsftp.no/Trondheim/cam145_11_image.jpg"
+  },
+  {
+    "lat": 63.4410413,
+    "lon": 10.4099307,
+    "osmID": 8852411802,
+    "osmType": "node",
+    "lastChanged": 1624266353000,
+    "address": {
+      "city": "Trondheim",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/cam145_12_image.jpg",
+      "description": "Munkholmbåten frakter passasjerer ut til øya",
+      "height": "20",
+      "man_made": "surveillance",
+      "name": "Munkholmbåten",
+      "operator": "Trondheim Havn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Trondheim Havn",
+    "url": "http://tsftp.no/Trondheim/cam145_12_image.jpg"
+  },
+  {
+    "lat": 63.3156074,
+    "lon": 9.861198,
+    "osmID": 8852438043,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_1.jpg",
+      "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "man_made": "surveillance",
+      "name": "Terna småbåthavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_1.jpg"
+  },
+  {
+    "lat": 63.3156031,
+    "lon": 9.8612387,
+    "osmID": 8852438044,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_2.jpg",
+      "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "man_made": "surveillance",
+      "name": "Terna småbåthavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_2.jpg"
+  },
+  {
+    "lat": 63.3155975,
+    "lon": 9.8612656,
+    "osmID": 8852438045,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_3.jpg",
+      "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "man_made": "surveillance",
+      "name": "Terna småbåthavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_3.jpg"
+  },
+  {
+    "lat": 63.3155892,
+    "lon": 9.861188,
+    "osmID": 8852438046,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_4.jpg",
+      "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "man_made": "surveillance",
+      "name": "Terna småbåthavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_4.jpg"
+  },
+  {
+    "lat": 63.3155844,
+    "lon": 9.8612172,
+    "osmID": 8852438047,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_5.jpg",
+      "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "man_made": "surveillance",
+      "name": "Terna småbåthavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_5.jpg"
+  },
+  {
+    "lat": 63.3155683,
+    "lon": 9.861278,
+    "osmID": 8852438048,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "310",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_7.jpg",
+      "description": "Industrikai, spolebase, tømmer og container",
+      "man_made": "surveillance",
+      "name": "Stenakaia",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_7.jpg"
+  },
+  {
+    "lat": 63.3155773,
+    "lon": 9.8612515,
+    "osmID": 8852438049,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "260",
+      "camera:type": "fixed",
+      "contact:webcam": "https://tsftp.no/Trondheim/ork_6.jpg",
+      "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "man_made": "surveillance",
+      "name": "Terna småbåthavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "https://tsftp.no/Trondheim/ork_6.jpg"
+  },
+  {
+    "lat": 63.3155903,
+    "lon": 9.8612934,
+    "osmID": 8852438050,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_thams.jpg",
+      "description": "Industrihavn",
+      "man_made": "surveillance",
+      "name": "Thamshavn",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_thams.jpg"
+  },
+  {
+    "lat": 63.3155864,
+    "lon": 9.8613233,
+    "osmID": 8852438051,
+    "osmType": "node",
+    "lastChanged": 1624267054000,
+    "address": {
+      "city": "Orkanger",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "20",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/ork_8.jpg",
+      "description": "Utsikt mot Fosen og innseiling til Orkdal",
+      "man_made": "surveillance",
+      "name": "Orkdalsfjorden",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/ork_8.jpg"
+  },
+  {
+    "lat": 63.7843406,
+    "lon": 11.4377841,
+    "osmID": 8852446646,
+    "osmType": "node",
+    "lastChanged": 1624267218000,
+    "address": {
+      "city": "Verdalsøra",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "250",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/verdal225.jpg",
+      "description": "Midt-Norges største utskipingskai for kalk",
+      "man_made": "surveillance",
+      "name": "Verdal",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/verdal225.jpg"
+  },
+  {
+    "lat": 64.4642645,
+    "lon": 11.4922785,
+    "osmID": 8852459976,
+    "osmType": "node",
+    "lastChanged": 1624267608000,
+    "address": {
+      "city": "Namsos",
+      "county": "Trøndelag",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://tsftp.no/Trondheim/k13_30.jpg",
+      "description": "Tømmer- og stykkgodskai",
+      "man_made": "surveillance",
+      "name": "Namsos",
+      "source": "https://trondheimhavn.no/webkamera/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "http://tsftp.no/Trondheim/k13_30.jpg"
   }
 ]
