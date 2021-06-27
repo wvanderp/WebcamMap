@@ -1,11 +1,15 @@
 import * as React from 'react';
+import { useState } from 'react';
 import {Col, Container, Row} from 'reactstrap';
 
 import webcams from '../../../data/webcams.json';
 import {Webcam} from '../../types/webcam';
 
-const OldestPage: React.FC = () => {
+const MaintenancePage: React.FC = () => {
+    const [youtubeFilter, setYoutubeFilter] = useState(false);
+
     const webcamRow = webcams
+        .filter((a) => (youtubeFilter ? a.url.includes('youtube') : true))
         .sort((a, b) => a.lastChanged - b.lastChanged)
         .map((webcam: Webcam) => (
             <tr key={webcam.osmID}>
@@ -15,21 +19,32 @@ const OldestPage: React.FC = () => {
             </tr>
         ));
 
-    document.title = 'Oldest - CartoCams';
+    document.title = 'Maintenance - CartoCams';
 
     return (
         <Container fluid>
             <Row>
                 <Col md={6}>
-                    <h1>All Webcams</h1>
+                    filter:
+                    {' '}
+                    <span
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => setYoutubeFilter(!youtubeFilter)}
+                        style={{fontWeight: youtubeFilter ? 'bold' : 'normal'}}
+                    >
+                        youtube
+                    </span>
                 </Col>
             </Row>
             <Row>
                 <table>
                     <thead>
-                        <th>Time</th>
-                        <th>webcam at osm</th>
-                        <th>webcam at cartocams</th>
+                        <tr>
+                            <th>Time</th>
+                            <th>webcam at osm</th>
+                            <th>webcam at cartocams</th>
+                        </tr>
                     </thead>
                     <tbody>
                         {webcamRow}
@@ -40,4 +55,4 @@ const OldestPage: React.FC = () => {
     );
 };
 
-export default OldestPage;
+export default MaintenancePage;

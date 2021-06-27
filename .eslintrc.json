@@ -143,7 +143,7 @@
     "react/static-property-placement": "off",
     // I like the this.props syntax better
     "react/destructuring-assignment": "off",
-    // sometimes it is nessesary
+    // sometimes it is necessary
     "@typescript-eslint/ban-ts-comment": "off",
     "unicorn/no-null": "off",
     "unicorn/prevent-abbreviations": [
@@ -164,6 +164,7 @@
     "camelcase": "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
-    "unicorn/prefer-node-protocol": "off"
+    "unicorn/prefer-node-protocol": "off",
+    "jsx-a11y/click-events-have-key-events": "off"
   }
 }
