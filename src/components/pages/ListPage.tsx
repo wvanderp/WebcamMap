@@ -27,14 +27,14 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
     }
 
     const name = decodeUrl(props.match.params.name);
-    const type = props.match.url.split('/')[1];
+    const type = props.match.url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
 
     if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
         window.location.href = '/notfound';
     }
 
     const filteredWebcams: Webcam[] = webcams.filter(
-        (r: Webcam) => r.address[type as 'country' | 'state' | 'county' | 'city']?.toLowerCase() === name.toLowerCase()
+        (r: Webcam) => r.address[type]?.toLowerCase() === name.toLowerCase()
     );
 
     const lats: Webcam['lat'][] = filteredWebcams.map((webcam) => webcam.lat);
@@ -85,8 +85,8 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
 
     const onMove = useCallback(() => {
         updateLocation({
-            coordinates: [map?.getCenter().lat, map?.getCenter().lng],
-            zoom: map?.getZoom()
+            coordinates: [map?.getCenter().lat ?? 0, map?.getCenter().lng ?? 0],
+            zoom: map?.getZoom() ?? 2
         });
     }, [map]);
 
@@ -97,6 +97,8 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
         };
     },
     [map, onMove]);
+
+    // TODO: make this page fit the bounds every time it move to a divert part. look at leaflet fitBounds function
 
     return (
         <div>
