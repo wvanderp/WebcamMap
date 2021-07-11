@@ -8,7 +8,7 @@ import PopupContent from '../parts/PopupContent';
 const WebcamsSitemapPage: React.FC = () => {
     const webcamTiles = webcams.map((webcam: Webcam) => (
         <Col key={webcam.osmID} lg={4} md={6} sm={12}>
-            <PopupContent key={webcam.osmID} webcam={webcam} hasHeaderLink/>
+            <PopupContent key={webcam.osmID} webcam={webcam}/>
         </Col>
     ));
 
