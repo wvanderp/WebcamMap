@@ -1306,28 +1306,6 @@
     "url": "http://gorod.megafonvolga.ru/swf/source_33.swf"
   },
   {
-    "lat": 53.485942,
-    "lon": 49.485811,
-    "osmID": 1307518017,
-    "osmType": "node",
-    "lastChanged": 1306914638000,
-    "address": {
-      "city": "городской округ Тольятти",
-      "state": "Самарская область",
-      "country": "Russian Federation"
-    },
-    "osmTags": {
-      "contact:webcam": "http://gorod.megafonvolga.ru/swf/source_32.swf",
-      "man_made": "surveillance",
-      "name": "Громова 2",
-      "operator": "МегаФон",
-      "surveillance": "webcam",
-      "website": "http://gorod.megafonvolga.ru/?city=2"
-    },
-    "operator": "МегаФон",
-    "url": "http://gorod.megafonvolga.ru/swf/source_32.swf"
-  },
-  {
     "lat": 53.483722,
     "lon": 49.508072,
     "osmID": 1307518030,
@@ -2121,25 +2099,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=113111"
   },
   {
-    "lat": 68.459448,
-    "lon": 15.18,
+    "lat": 68.4597241,
+    "lon": 15.1811255,
     "osmID": 1417673912,
     "osmType": "node",
-    "lastChanged": 1314662549000,
+    "lastChanged": 1625258885000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "140",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=231975",
       "man_made": "surveillance",
-      "name": "Raftsundet",
+      "name": "E10 Raftsundet (13moh)",
       "operator": "Statens vegvesen",
       "ref": "231975",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=231975"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=231975"
@@ -2425,25 +2407,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110699"
   },
   {
-    "lat": 66.545331,
-    "lon": 15.311654,
+    "lat": 66.555035,
+    "lon": 15.3237127,
     "osmID": 1417673980,
     "osmType": "node",
-    "lastChanged": 1314662552000,
+    "lastChanged": 1625172543000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "15",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=163123",
       "fixme": "position",
       "man_made": "surveillance",
-      "name": "Saltfjellet",
+      "name": "E6 Saltfjellet mot saltdalen (674 moh)",
       "operator": "Statens vegvesen",
       "ref": "163123",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=163123"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=163123"
@@ -2599,17 +2586,17 @@
     "lon": 5.388955,
     "osmID": 1417674018,
     "osmType": "node",
-    "lastChanged": 1624267884000,
+    "lastChanged": 1624783671000,
     "address": {
       "city": "Bergen",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "check_date": "2021-06-21",
+      "fixme": "position / out of service",
       "man_made": "surveillance",
       "name": "Blindheim",
-      "not_working_since": "2021-06-21",
       "note:no": "Kommunal veg",
       "operator": "Statens vegvesen",
       "ref": "110811",
@@ -2725,25 +2712,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=113087"
   },
   {
-    "lat": 61.1699395,
-    "lon": 10.4108467,
+    "lat": 61.1696755,
+    "lon": 10.4107463,
     "osmID": 1417674047,
     "osmType": "node",
-    "lastChanged": 1389476425000,
+    "lastChanged": 1625159301000,
     "address": {
       "city": "Fåberg",
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109105",
       "man_made": "surveillance",
-      "name": "Fåberg",
+      "name": "E6 Fåberg",
       "operator": "Statens vegvesen",
       "ref": "109105",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109105"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=109105"
@@ -3198,17 +3190,20 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=187007"
   },
   {
-    "lat": 63.508653,
-    "lon": 10.133091,
+    "lat": 63.5083611,
+    "lon": 10.1336087,
     "osmID": 1417674160,
     "osmType": "node",
-    "lastChanged": 1314662558000,
+    "lastChanged": 1625159112000,
     "address": {
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "40",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=207738",
       "man_made": "surveillance",
       "name": "Rørvik ferjekai",
       "note:no": "Tidvis dårlige signalforhold",
@@ -3217,7 +3212,8 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=207738"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=207738"
@@ -3803,26 +3799,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110719"
   },
   {
-    "lat": 61.840733,
-    "lon": 11.994418,
+    "lat": 61.8405419,
+    "lon": 11.9927765,
     "osmID": 1417674302,
     "osmType": "node",
-    "lastChanged": 1314662563000,
+    "lastChanged": 1624951019000,
     "address": {
       "city": "Hogstad",
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "240",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109114",
       "man_made": "surveillance",
-      "name": "Kvilten",
+      "name": "Rv26 Skarvan",
       "operator": "Statens vegvesen",
       "ref": "109114",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109114"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=109114"
@@ -4159,31 +4159,6 @@
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=199416"
-  },
-  {
-    "lat": 58.144403,
-    "lon": 7.991703,
-    "osmID": 1417674418,
-    "osmType": "node",
-    "lastChanged": 1314662566000,
-    "address": {
-      "city": "Kristiansand",
-      "county": "Agder",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "fixme": "position",
-      "man_made": "surveillance",
-      "name": "Vestre Strandgate",
-      "operator": "Statens vegvesen",
-      "ref": "100090",
-      "source": "Statens vegvesen",
-      "source:url": "http://webkamera.vegvesen.no/metadata",
-      "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100090"
-    },
-    "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100090"
   },
   {
     "lat": 63.1383885,
@@ -6167,7 +6142,7 @@
     "lon": 6.533412,
     "osmID": 1902399118,
     "osmType": "node",
-    "lastChanged": 1594268116000,
+    "lastChanged": 1624951241000,
     "address": {
       "city": "Cavalaire-sur-Mer",
       "county": "Var",
@@ -6175,10 +6150,16 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/14296-france-provence-alpes-cote-dazur-cavalaire-sur-mer-live",
       "man_made": "surveillance",
+      "name": "Cavalaire-sur-Mer",
+      "operator": "viewsurf",
       "surveillance": "webcam",
-      "website": "https://www.viewsurf.com/univers/plage/vue/14296-france-provence-alpes-cote-dazur-cavalaire-sur-mer-live"
+      "surveillance:type": "camera"
     },
+    "operator": "viewsurf",
     "url": "https://www.viewsurf.com/univers/plage/vue/14296-france-provence-alpes-cote-dazur-cavalaire-sur-mer-live"
   },
   {
@@ -6681,6 +6662,32 @@
       "website": "http://www.brettenwebcam.de/"
     },
     "url": "http://www.brettenwebcam.de/"
+  },
+  {
+    "lat": 52.360278,
+    "lon": 5.6196254,
+    "osmID": 2206790702,
+    "osmType": "node",
+    "lastChanged": 1625610446000,
+    "address": {
+      "city": "Harderwijk",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "316",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/aquaduct/",
+      "man_made": "surveillance",
+      "name": "N302 Aquaduct Harderwijk",
+      "operator": "WebCam.NL",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "website": "https://www.gelderland.nl/?id=21408"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/aquaduct/"
   },
   {
     "lat": 51.9352316,
@@ -7441,6 +7448,31 @@
       "website": "http://www.ag-wanderfalken.de/index.php?option=com_wrapper&Itemid=79"
     },
     "url": "http://www.ag-wanderfalken.de/index.php?option=com_wrapper&Itemid=79"
+  },
+  {
+    "lat": 51.9764724,
+    "lon": 5.96312,
+    "osmID": 2733763240,
+    "osmType": "node",
+    "lastChanged": 1625608322000,
+    "address": {
+      "city": "Arnhem",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n325b.html",
+      "man_made": "surveillance",
+      "name": "N325 IJsseloord, Arnhem",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n325b.html"
   },
   {
     "lat": 54.1871442,
@@ -9135,6 +9167,32 @@
     "url": "https://geoportal.stadt-witten.de/RathausWebcam/webcam.jpg"
   },
   {
+    "lat": 52.4477491,
+    "lon": 5.8354885,
+    "osmID": 4056827189,
+    "osmType": "node",
+    "lastChanged": 1625763676000,
+    "address": {
+      "city": "Elburg",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:features": "webcam",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.elburg.nl/Toerisme/Webcam_in_de_Vesting",
+      "man_made": "surveillance",
+      "name": "Binnenstad Elburg",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://www.elburg.nl/Toerisme/Webcam_in_de_Vesting"
+  },
+  {
     "lat": 47.5146314,
     "lon": 12.4371152,
     "osmID": 4063301614,
@@ -10012,7 +10070,7 @@
     "lon": 10.409747,
     "osmID": 4346086245,
     "osmType": "node",
-    "lastChanged": 1624266353000,
+    "lastChanged": 1624783807000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
@@ -10021,7 +10079,7 @@
     "osmTags": {
       "camera:direction": "254",
       "camera:type": "fixed",
-      "contact:webcam": "http://trondheimhavn.no/godsterminalen-for-jernbane-webkamera.aspx",
+      "contact:webcam": "https://tsftp.no/Trondheim/cam145_2_image.jpg",
       "description": "Godsterminal og Pirsenteret på Brattøra",
       "height": "20",
       "man_made": "surveillance",
@@ -10034,7 +10092,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Trondheim Havn",
-    "url": "http://trondheimhavn.no/godsterminalen-for-jernbane-webkamera.aspx"
+    "url": "https://tsftp.no/Trondheim/cam145_2_image.jpg"
   },
   {
     "lat": 63.4412903,
@@ -12471,7 +12529,7 @@
     "lon": 4.3529973,
     "osmID": 4666307569,
     "osmType": "node",
-    "lastChanged": 1621778843000,
+    "lastChanged": 1625160071000,
     "address": {
       "city": "Ville de Bruxelles - Stad Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
@@ -12481,8 +12539,12 @@
       "camera:mount": "roof",
       "camera:type": "fixed",
       "contact:webcam": "http://www.brussels.be/webcam-grand-place",
+      "description": "The webcam at the Grand-Place of Brussels, with the City Hall at the left.",
       "man_made": "surveillance",
       "name": "Webcam Grand-Place - Grote Markt",
+      "name:en": "Webcam Grand-Place",
+      "name:fr": "Webcam Grand-Place",
+      "name:nl": "Webcam - Grote Markt",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area",
@@ -14212,7 +14274,7 @@
     "lon": 28.6651982,
     "osmID": 5306041497,
     "osmType": "node",
-    "lastChanged": 1514363271000,
+    "lastChanged": 1624785682000,
     "address": {
       "city": "Житомир",
       "county": "Житомирський район",
@@ -14222,7 +14284,7 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=uhAF_kIyR3w&feature=youtu.be",
+      "contact:webcam": "https://www.youtube.com/watch?v=6el6A9xTWXg",
       "man_made": "surveillance",
       "name": "Михайлівська вулиця",
       "name:de": "Mychajliwss'ka-Straßen",
@@ -14232,7 +14294,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "https://www.youtube.com/watch?v=uhAF_kIyR3w&feature=youtu.be"
+    "url": "https://www.youtube.com/watch?v=6el6A9xTWXg"
   },
   {
     "lat": 51.7647856,
@@ -14587,7 +14649,6 @@
     "lastChanged": 1517674730000,
     "address": {
       "city": "Нікополь",
-      "county": "Нікопольський район",
       "state": "Дніпропетровська область",
       "country": "Ukraine"
     },
@@ -14896,7 +14957,7 @@
     "lon": 4.3533064,
     "osmID": 5614807641,
     "osmType": "node",
-    "lastChanged": 1621778874000,
+    "lastChanged": 1625159972000,
     "address": {
       "city": "Ville de Bruxelles - Stad Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
@@ -14907,6 +14968,7 @@
       "camera:mount": "root",
       "camera:type": "fixed",
       "contact:webcam": "http://www.bruxelles.be/webcam-place-de-brouckere",
+      "description": "The webcam on the Place de Brouckère is installed on the 5th floor of the Continental Hotel, where services of the City of Brussels are located.",
       "layer": "2",
       "level": "5",
       "man_made": "surveillance",
@@ -15087,7 +15149,7 @@
     "lon": -1.791624,
     "osmID": 5792023013,
     "osmType": "node",
-    "lastChanged": 1613211539000,
+    "lastChanged": 1624786229000,
     "address": {
       "city": "Les Sables-d'Olonne",
       "county": "Vendée",
@@ -15097,15 +15159,16 @@
     "osmTags": {
       "camera:direction": "120",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=4nOn4fNEZhk",
+      "contact:webcam": "https://www.youtube.com/watch?v=xjlaExcaEt0",
       "man_made": "surveillance",
+      "name": "Webcam Live Les Sables D'Olonne",
       "operator": "Les Sables d'Olonne",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "tourism"
     },
     "operator": "Les Sables d'Olonne",
-    "url": "https://www.youtube.com/watch?v=4nOn4fNEZhk"
+    "url": "https://www.youtube.com/watch?v=xjlaExcaEt0"
   },
   {
     "lat": 46.7256239,
@@ -15263,6 +15326,7 @@
     "lastChanged": 1535936396000,
     "address": {
       "city": "Goffs",
+      "county": "Halifax County",
       "state": "Nova Scotia",
       "country": "Canada"
     },
@@ -16242,7 +16306,7 @@
     "lon": 138.7854936,
     "osmID": 6434856709,
     "osmType": "node",
-    "lastChanged": 1556503297000,
+    "lastChanged": 1625159825000,
     "address": {
       "city": "Goolwa",
       "county": "Alexandrina Council",
@@ -16252,12 +16316,13 @@
     "osmTags": {
       "camera:direction": "140",
       "camera:type": "fixed",
-      "contact:webcam": "http://203.122.219.79/cgi-bin/guestimage.html",
+      "contact:webcam": "http://goolwawharf.alexandrina.com.au/cgi-bin/guestimage.html",
       "man_made": "surveillance",
+      "name": "Goolwa Wharf Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "http://203.122.219.79/cgi-bin/guestimage.html"
+    "url": "http://goolwawharf.alexandrina.com.au/cgi-bin/guestimage.html"
   },
   {
     "lat": 35.5387535,
@@ -16892,7 +16957,7 @@
     "lon": -52.7031206,
     "osmID": 6700831498,
     "osmType": "node",
-    "lastChanged": 1613266499000,
+    "lastChanged": 1624786276000,
     "address": {
       "city": "St. John's",
       "state": "Newfoundland and Labrador",
@@ -16901,14 +16966,14 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=FegCHgu_4Pc",
+      "contact:webcam": "https://www.youtube.com/watch?v=E8_lcRxDM0M",
       "man_made": "surveillance",
-      "name": "Osprey NestCAM",
+      "name": "Newfoundland Power Osprey NestCAM",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://www.youtube.com/watch?v=FegCHgu_4Pc"
+    "url": "https://www.youtube.com/watch?v=E8_lcRxDM0M"
   },
   {
     "lat": 41.2306649,
@@ -17191,7 +17256,7 @@
     "lon": 14.5822343,
     "osmID": 7057272735,
     "osmType": "node",
-    "lastChanged": 1576366216000,
+    "lastChanged": 1624902912000,
     "address": {
       "city": "Krk",
       "county": "Primorsko-goranska županija",
@@ -17201,20 +17266,20 @@
       "camera:direction": "260",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=HExRFfPbgP8&feature=emb_rel_err",
+      "contact:webcam": "https://www.youtube.com/watch?v=Eg1MgEW2E6U",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "https://www.youtube.com/watch?v=HExRFfPbgP8&feature=emb_rel_err"
+    "url": "https://www.youtube.com/watch?v=Eg1MgEW2E6U"
   },
   {
-    "lat": 45.0236591,
-    "lon": 14.6354696,
+    "lat": 45.0236548,
+    "lon": 14.6353781,
     "osmID": 7057285659,
     "osmType": "node",
-    "lastChanged": 1576365815000,
+    "lastChanged": 1624785805000,
     "address": {
       "county": "Primorsko-goranska županija",
       "country": "Croatia"
@@ -17222,12 +17287,13 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=vbHFzc67hDE",
+      "contact:webcam": "https://www.youtube.com/watch?v=Rkijne_0JrI",
       "man_made": "surveillance",
+      "name": "Punat Live - Vodosprema",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=vbHFzc67hDE"
+    "url": "https://www.youtube.com/watch?v=Rkijne_0JrI"
   },
   {
     "lat": 35.8947222,
@@ -19229,7 +19295,7 @@
     "lon": 6.8314943,
     "osmID": 7825397273,
     "osmType": "node",
-    "lastChanged": 1597826562000,
+    "lastChanged": 1624785914000,
     "address": {
       "city": "Bourg-Saint-Maurice",
       "county": "Savoie",
@@ -19239,14 +19305,15 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=84-TQiEpYds",
+      "contact:webcam": "https://www.youtube.com/watch?v=7NjQ8Wccmtk",
       "man_made": "surveillance",
+      "name": "Les Arcs - Livecam Vagère",
       "operator": "Les Arcs",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
     "operator": "Les Arcs",
-    "url": "https://www.youtube.com/watch?v=84-TQiEpYds"
+    "url": "https://www.youtube.com/watch?v=7NjQ8Wccmtk"
   },
   {
     "lat": -34.9227553,
@@ -19551,27 +19618,6 @@
     "url": "http://www.landshut.de/fileadmin/webcam/webcam1.html"
   },
   {
-    "lat": 47.3963871,
-    "lon": 11.2668911,
-    "osmID": 7969054076,
-    "osmType": "node",
-    "lastChanged": 1601738633000,
-    "address": {
-      "city": "Gemeinde Scharnitz",
-      "county": "Bezirk Innsbruck-Land",
-      "state": "Tirol",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "contact:webcam": "https://webcams.tirol.gv.at/ftpb177/aktuell/cam8.jpg",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://webcams.tirol.gv.at/ftpb177/aktuell/cam8.jpg"
-  },
-  {
     "lat": 51.7202725,
     "lon": 8.7351461,
     "osmID": 7993481732,
@@ -19643,11 +19689,11 @@
     "url": "https://www.youtube.com/watch?v=5vkLsRK4N8A"
   },
   {
-    "lat": 42.27995,
-    "lon": -72.9782676,
+    "lat": 42.2800109,
+    "lon": -72.9783611,
     "osmID": 8069799072,
     "osmType": "node",
-    "lastChanged": 1604179722000,
+    "lastChanged": 1624786146000,
     "address": {
       "city": "Chester",
       "county": "Hampden County",
@@ -19658,13 +19704,14 @@
       "camera:direction": "-54",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=2dRxlKdibW4",
+      "contact:webcam": "https://www.youtube.com/watch?v=HJCxeWaSoAU",
       "man_made": "surveillance",
+      "name": "Chester Railway Station Museum",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=2dRxlKdibW4"
+    "url": "https://www.youtube.com/watch?v=HJCxeWaSoAU"
   },
   {
     "lat": 48.5444706,
@@ -20155,6 +20202,32 @@
       "surveillance:zone": "traffic"
     },
     "url": "http://kamera.kozut.hu/mcs083/"
+  },
+  {
+    "lat": 51.9080827,
+    "lon": 4.4925259,
+    "osmID": 8361994608,
+    "osmType": "node",
+    "lastChanged": 1625604868000,
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "265",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=gsViKzj7nuQ",
+      "man_made": "surveillance",
+      "name": "Erasmusbrug, Rotterdam - KPN Led Wall",
+      "operator": "Open Up To Rotterdam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "tourism"
+    },
+    "operator": "Open Up To Rotterdam",
+    "url": "https://www.youtube.com/watch?v=gsViKzj7nuQ"
   },
   {
     "lat": 47.064038,
@@ -20782,7 +20855,7 @@
     "lon": -1.0971025,
     "osmID": 8435106278,
     "osmType": "node",
-    "lastChanged": 1613658538000,
+    "lastChanged": 1624786338000,
     "address": {
       "city": "York",
       "county": "York",
@@ -20794,9 +20867,12 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=zTl7MUeMDMk",
       "man_made": "surveillance",
+      "name": "York ROC Camera No.1, Yorkshire UK",
+      "operator": "Railcam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
+    "operator": "Railcam",
     "url": "https://www.youtube.com/watch?v=zTl7MUeMDMk"
   },
   {
@@ -20804,7 +20880,7 @@
     "lon": -2.4347912,
     "osmID": 8435121363,
     "osmType": "node",
-    "lastChanged": 1613658990000,
+    "lastChanged": 1624786375000,
     "address": {
       "city": "Crewe",
       "county": "Cheshire East",
@@ -20816,9 +20892,12 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=pQKhS4F9sSM",
       "man_made": "surveillance",
+      "name": "Crewe Camera 5, Cheshire UK",
+      "operator": "Railcam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
+    "operator": "Railcam",
     "url": "https://www.youtube.com/watch?v=pQKhS4F9sSM"
   },
   {
@@ -20826,7 +20905,7 @@
     "lon": -1.1590948,
     "osmID": 8435126313,
     "osmType": "node",
-    "lastChanged": 1613659136000,
+    "lastChanged": 1624786430000,
     "address": {
       "city": "Ryde",
       "county": "Isle of Wight",
@@ -20835,12 +20914,16 @@
     },
     "osmTags": {
       "camera:direction": "360",
+      "camera:mount": "roof",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=Q-44KECp-xQ",
       "man_made": "surveillance",
+      "name": "Ryde Esplanade & Pier, Isle of Wight UK",
+      "operator": "Railcam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
+    "operator": "Railcam",
     "url": "https://www.youtube.com/watch?v=Q-44KECp-xQ"
   },
   {
@@ -20912,7 +20995,7 @@
     "lon": -73.9853132,
     "osmID": 8435183094,
     "osmType": "node",
-    "lastChanged": 1613661135000,
+    "lastChanged": 1624786478000,
     "address": {
       "city": "New York",
       "county": "New York County",
@@ -20921,7 +21004,9 @@
     },
     "osmTags": {
       "camera:direction": "170",
-      "contact:webcam": "https://www.youtube.com/watch?v=eJ7ZkQ5TC08",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=AdUw5RdyZxI",
       "man_made": "surveillance",
       "name": "EarthCam Live: Times Square in 4K",
       "operator": "EarthCam",
@@ -20929,7 +21014,7 @@
       "surveillance:type": "camera"
     },
     "operator": "EarthCam",
-    "url": "https://www.youtube.com/watch?v=eJ7ZkQ5TC08"
+    "url": "https://www.youtube.com/watch?v=AdUw5RdyZxI"
   },
   {
     "lat": 40.6981536,
@@ -20961,7 +21046,7 @@
     "lon": -73.9854761,
     "osmID": 8435195524,
     "osmType": "node",
-    "lastChanged": 1613661324000,
+    "lastChanged": 1624783286000,
     "address": {
       "city": "New York",
       "county": "New York County",
@@ -20971,7 +21056,7 @@
     "osmTags": {
       "camera:direction": "116",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=VYsHV7WPyFw",
+      "contact:webcam": "https://www.youtube.com/watch?v=jirltse20TY",
       "man_made": "surveillance",
       "name": "Duffy Square 4K View Live",
       "operator": "AE Signage",
@@ -20979,7 +21064,7 @@
       "surveillance:type": "camera"
     },
     "operator": "AE Signage",
-    "url": "https://www.youtube.com/watch?v=VYsHV7WPyFw"
+    "url": "https://www.youtube.com/watch?v=jirltse20TY"
   },
   {
     "lat": 40.6979996,
@@ -21011,7 +21096,7 @@
     "lon": -73.9850181,
     "osmID": 8435230121,
     "osmType": "node",
-    "lastChanged": 1613662227000,
+    "lastChanged": 1624783286000,
     "address": {
       "city": "New York",
       "county": "New York County",
@@ -21020,7 +21105,8 @@
     },
     "osmTags": {
       "camera:direction": "340",
-      "contact:webcam": "https://www.youtube.com/watch?v=3XTw2FmCUdE",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=VZOXbxdYnWg",
       "man_made": "surveillance",
       "name": "1540 Broadway View Live",
       "operator": "AE Signage",
@@ -21028,7 +21114,7 @@
       "surveillance:type": "camera"
     },
     "operator": "AE Signage",
-    "url": "https://www.youtube.com/watch?v=3XTw2FmCUdE"
+    "url": "https://www.youtube.com/watch?v=VZOXbxdYnWg"
   },
   {
     "lat": 54.262008,
@@ -21596,7 +21682,7 @@
     "lon": 3.8519201,
     "osmID": 8532735475,
     "osmType": "node",
-    "lastChanged": 1616081859000,
+    "lastChanged": 1624786537000,
     "address": {
       "city": "Ouddorp",
       "state": "Zuid-Holland",
@@ -21607,9 +21693,12 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=S8-aWT8XhBI",
       "man_made": "surveillance",
+      "name": "Webcam Brouwersdam Pooltje",
+      "operator": "Brouwersdam cam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
+    "operator": "Brouwersdam cam",
     "url": "https://www.youtube.com/watch?v=S8-aWT8XhBI"
   },
   {
@@ -21617,7 +21706,7 @@
     "lon": 3.8518209,
     "osmID": 8532735476,
     "osmType": "node",
-    "lastChanged": 1616081859000,
+    "lastChanged": 1624786622000,
     "address": {
       "city": "Ouddorp",
       "state": "Zuid-Holland",
@@ -21626,12 +21715,15 @@
     "osmTags": {
       "camera:direction": "260",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=R_aaYTN7W74",
+      "contact:webcam": "https://www.youtube.com/watch?v=ZQ1f3Y0S5ss",
       "man_made": "surveillance",
+      "name": "Webcam Brouwersdam Grevelingenmeer",
+      "operator": "Brouwersdam cam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=R_aaYTN7W74"
+    "operator": "Brouwersdam cam",
+    "url": "https://www.youtube.com/watch?v=ZQ1f3Y0S5ss"
   },
   {
     "lat": 42.9941659,
@@ -22810,7 +22902,7 @@
     "lon": 11.4517434,
     "osmID": 8729244903,
     "osmType": "node",
-    "lastChanged": 1620935129000,
+    "lastChanged": 1625860033000,
     "address": {
       "city": "Gemeinde Thaur",
       "county": "Bezirk Innsbruck-Land",
@@ -22818,12 +22910,18 @@
       "country": "Austria"
     },
     "osmTags": {
-      "contact:webcam": "https://thaureralm.at/webcam/",
+      "camera:angle": "0",
+      "camera:direction": "140",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://mdw.ag/camglungezer/thaureralm.jpg",
+      "description": "https://thaureralm.at/webcam/",
+      "height": "12",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://thaureralm.at/webcam/"
+    "url": "https://mdw.ag/camglungezer/thaureralm.jpg"
   },
   {
     "lat": 51.5133218,
@@ -23923,5 +24021,1423 @@
       "surveillance:zone": "harbour"
     },
     "url": "http://tsftp.no/Trondheim/k13_30.jpg"
+  },
+  {
+    "lat": 47.316108,
+    "lon": 8.528017,
+    "osmID": 8872509984,
+    "osmType": "node",
+    "lastChanged": 1624890204000,
+    "address": {
+      "city": "Adliswil",
+      "county": "Bezirk Horgen",
+      "state": "Zürich",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "camera:direction": "40",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.webcam-4insiders.com/de/Wetter-Adliswil-Webcam/17263-Webcam-Adliswil-Wetter.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.webcam-4insiders.com/de/Wetter-Adliswil-Webcam/17263-Webcam-Adliswil-Wetter.php"
+    },
+    "url": "https://www.webcam-4insiders.com/de/Wetter-Adliswil-Webcam/17263-Webcam-Adliswil-Wetter.php"
+  },
+  {
+    "lat": 47.3135676,
+    "lon": 8.5272317,
+    "osmID": 8872509985,
+    "osmType": "node",
+    "lastChanged": 1624890204000,
+    "address": {
+      "city": "Adliswil",
+      "county": "Bezirk Horgen",
+      "state": "Zürich",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.webcam-4insiders.com/de/Wetter-Adliswil-Webcam/17011-Webcam-Adliswil-Wetter.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.webcam-4insiders.com/de/Wetter-Adliswil-Webcam/17011-Webcam-Adliswil-Wetter.php"
+    },
+    "url": "https://www.webcam-4insiders.com/de/Wetter-Adliswil-Webcam/17011-Webcam-Adliswil-Wetter.php"
+  },
+  {
+    "lat": 47.3101738,
+    "lon": 8.5075309,
+    "osmID": 8872509986,
+    "osmType": "node",
+    "lastChanged": 1624890204000,
+    "address": {
+      "city": "Stallikon",
+      "county": "Bezirk Affoltern",
+      "state": "Zürich",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "camera:direction": "80",
+      "camera:type": "fixed",
+      "contact:webcam": "https://laf.roundshot.com/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://laf.roundshot.com/"
+    },
+    "url": "https://laf.roundshot.com/"
+  },
+  {
+    "lat": 46.1709989,
+    "lon": 14.2612817,
+    "osmID": 8879272285,
+    "osmType": "node",
+    "lastChanged": 1625038034000,
+    "address": {
+      "city": "Škofja Loka",
+      "country": "Slovenia"
+    },
+    "osmTags": {
+      "camera:direction": "N;NE;E;SE;S;SW;W;NW",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://lubnik.info",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://lubnik.info"
+  },
+  {
+    "lat": 47.900771,
+    "lon": 1.9057494,
+    "osmID": 8889539031,
+    "osmType": "node",
+    "lastChanged": 1625296901000,
+    "address": {
+      "city": "Orléans",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.skaping.com/orleans/beffroi",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.skaping.com/orleans/beffroi"
+  },
+  {
+    "lat": 47.8978988,
+    "lon": 1.9093047,
+    "osmID": 8889545349,
+    "osmType": "node",
+    "lastChanged": 1625297186000,
+    "address": {
+      "city": "Orléans",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.skaping.com/orleans/quais-de-loire/video",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.skaping.com/orleans/quais-de-loire/video"
+  },
+  {
+    "lat": -43.423207,
+    "lon": 172.649206,
+    "osmID": 8894152448,
+    "osmType": "node",
+    "lastChanged": 1625883752000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "contact:webcam": "https://trafficnz.info/camera/777.jpg",
+      "description": "South along SH1 from Chaneys Off-ramp towards Northern Corridor Off-ramp",
+      "man_made": "surveillance",
+      "name": "SH1 Chaneys Rd Off-ramp",
+      "ref": "777",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/777.jpg"
+  },
+  {
+    "lat": 52.4155478,
+    "lon": 4.8341493,
+    "osmID": 8898871212,
+    "osmType": "node",
+    "lastChanged": 1625598587000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "102",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://webcam.nl/bouw/amsterdam/alc/ptz/",
+      "man_made": "surveillance",
+      "name": "amsterdamlogisticcityhub.nl PTZ",
+      "operator": "webcam.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "webcam.nl",
+    "url": "https://webcam.nl/bouw/amsterdam/alc/ptz/"
+  },
+  {
+    "lat": 52.4155723,
+    "lon": 4.8341574,
+    "osmID": 8898871213,
+    "osmType": "node",
+    "lastChanged": 1625598587000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/amsterdam/alc/",
+      "man_made": "surveillance",
+      "name": "amsterdamlogisticcityhub.nl",
+      "operator": "webcam.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "webcam.nl",
+    "url": "https://webcam.nl/bouw/amsterdam/alc/"
+  },
+  {
+    "lat": 52.3408969,
+    "lon": 4.8775444,
+    "osmID": 8898936663,
+    "osmType": "node",
+    "lastChanged": 1625912195000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "237",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/amsterdam/wtc/",
+      "man_made": "surveillance",
+      "name": "Tower 10 Construction",
+      "operator": "webcam.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "webcam.nl",
+    "url": "https://webcam.nl/bouw/amsterdam/wtc/"
+  },
+  {
+    "lat": 51.6909908,
+    "lon": 5.305415,
+    "osmID": 8898970521,
+    "osmType": "node",
+    "lastChanged": 1625912195000,
+    "address": {
+      "city": "'s-Hertogenbosch",
+      "state": "Noord-Brabant",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "30",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/denbosch/",
+      "man_made": "surveillance",
+      "operator": "webcam.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "webcam.nl",
+    "url": "https://webcam.nl/bouw/denbosch/"
+  },
+  {
+    "lat": 51.6913755,
+    "lon": 5.2869791,
+    "osmID": 8898987914,
+    "osmType": "node",
+    "lastChanged": 1625601397000,
+    "address": {
+      "city": "'s-Hertogenbosch",
+      "state": "Noord-Brabant",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "70",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/denbosch/vakschool/",
+      "man_made": "surveillance",
+      "name": "Van Maerlant nieuwbouw",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/denbosch/vakschool/"
+  },
+  {
+    "lat": 52.0676797,
+    "lon": 4.2192953,
+    "osmID": 8899031481,
+    "osmType": "node",
+    "lastChanged": 1625602126000,
+    "address": {
+      "city": "Den Haag",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "40",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/kijkduin/",
+      "man_made": "surveillance",
+      "name": "nieuwkijkduin.nl",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/kijkduin/"
+  },
+  {
+    "lat": 52.0626347,
+    "lon": 4.3436067,
+    "osmID": 8899032379,
+    "osmType": "node",
+    "lastChanged": 1625601768000,
+    "address": {
+      "city": "Den Haag",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/denhaag/binck/",
+      "man_made": "surveillance",
+      "name": "VORM - Binckeiland",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/denhaag/binck/"
+  },
+  {
+    "lat": 52.1593812,
+    "lon": 4.5034306,
+    "osmID": 8899044622,
+    "osmType": "node",
+    "lastChanged": 1625602600000,
+    "address": {
+      "city": "Leiden",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "230",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/leiden/meelfabriek/",
+      "man_made": "surveillance",
+      "name": "Bouw Singeltoren - De Meelfabriek, Leiden",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "consruction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/leiden/meelfabriek/"
+  },
+  {
+    "lat": 52.1593504,
+    "lon": 4.503411,
+    "osmID": 8899044623,
+    "osmType": "node",
+    "lastChanged": 1625602600000,
+    "address": {
+      "city": "Leiden",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://webcam.nl/bouw/leiden/meelfabriek/ptz/",
+      "man_made": "surveillance",
+      "name": "Terrein De Meelfabriek, Leiden PTZ",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "consruction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/leiden/meelfabriek/ptz/"
+  },
+  {
+    "lat": 51.9130154,
+    "lon": 4.4725618,
+    "osmID": 8899053612,
+    "osmType": "node",
+    "lastChanged": 1625605022000,
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=uUFxlyL25i8",
+      "description": "view of the new building of the BOIJMANS VAN BEUNINGEN, DEPOT",
+      "man_made": "surveillance",
+      "name": "100 Days To Open Up - Let's Countdown Together",
+      "operator": "Open Up To Rotterdam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
+    },
+    "operator": "Open Up To Rotterdam",
+    "url": "https://www.youtube.com/watch?v=uUFxlyL25i8"
+  },
+  {
+    "lat": 52.2213204,
+    "lon": 5.4617088,
+    "osmID": 8899065886,
+    "osmType": "node",
+    "lastChanged": 1625602988000,
+    "address": {
+      "city": "Nijkerk",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://webcam.nl/bouw/nijkerk/",
+      "man_made": "surveillance",
+      "name": "Groot Nyenbeeck - Doornsteeg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "url": "https://webcam.nl/bouw/nijkerk/"
+  },
+  {
+    "lat": 51.7075974,
+    "lon": 5.056186,
+    "osmID": 8899067115,
+    "osmType": "node",
+    "lastChanged": 1625603811000,
+    "address": {
+      "city": "Waalwijk",
+      "state": "Noord-Brabant",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "30",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/waalwijk/",
+      "man_made": "surveillance",
+      "name": "waalwijk - renovatie haven",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/waalwijk/"
+  },
+  {
+    "lat": 52.5277651,
+    "lon": 6.3719274,
+    "osmID": 8899075850,
+    "osmType": "node",
+    "lastChanged": 1625603563000,
+    "address": {
+      "city": "Ommen",
+      "state": "Overijssel",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/vechtdal/ecoduct/",
+      "man_made": "surveillance",
+      "name": "Combinatie Vechtdal Verbinding",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/vechtdal/ecoduct/"
+  },
+  {
+    "lat": 51.2307084,
+    "lon": 4.4124174,
+    "osmID": 8899103625,
+    "osmType": "node",
+    "lastChanged": 1625604607000,
+    "address": {
+      "city": "Antwerpen",
+      "county": "Antwerpen",
+      "state": "Antwerpen",
+      "country": "Belgium"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/belgie/zna-cadix/",
+      "man_made": "surveillance",
+      "name": "ZNA Cadix bouw",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/belgie/zna-cadix/"
+  },
+  {
+    "lat": 51.8871863,
+    "lon": 4.4882836,
+    "osmID": 8899107967,
+    "osmType": "node",
+    "lastChanged": 1625605218000,
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "277",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=4auWA265Q0I",
+      "man_made": "surveillance",
+      "name": "\"The Splash\" Annie M.G. Smidtplein",
+      "operator": "Open Up To Rotterdam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "Open Up To Rotterdam",
+    "url": "https://www.youtube.com/watch?v=4auWA265Q0I"
+  },
+  {
+    "lat": 51.6507751,
+    "lon": 4.6068392,
+    "osmID": 8899113537,
+    "osmType": "node",
+    "lastChanged": 1625604372000,
+    "address": {
+      "city": "Zevenbergen",
+      "state": "Noord-Brabant",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/zevenbergen/",
+      "man_made": "surveillance",
+      "name": "Result Laboratorium - Construction",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/bouw/zevenbergen/"
+  },
+  {
+    "lat": 51.7950875,
+    "lon": 5.2493451,
+    "osmID": 8899212060,
+    "osmType": "node",
+    "lastChanged": 1625608185000,
+    "address": {
+      "city": "Zaltbommel",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n322.html",
+      "man_made": "surveillance",
+      "name": "N322 kruispunt Steenweg, Zaltbommel",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n322.html"
+  },
+  {
+    "lat": 52.6220587,
+    "lon": 6.0407669,
+    "osmID": 8899216900,
+    "osmType": "node",
+    "lastChanged": 1625606107000,
+    "address": {
+      "city": "Genemuiden",
+      "state": "Overijssel",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "110",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/bouw/genemuiden/",
+      "man_made": "surveillance",
+      "name": "Rijwielhuis van Dalfsen  - construction",
+      "operator": "https://webcam.nl/bouw/genemuiden/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
+    },
+    "operator": "https://webcam.nl/bouw/genemuiden/",
+    "url": "https://webcam.nl/bouw/genemuiden/"
+  },
+  {
+    "lat": 52.1205514,
+    "lon": 6.2154939,
+    "osmID": 8899226911,
+    "osmType": "node",
+    "lastChanged": 1625607510000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n314.html",
+      "man_made": "surveillance",
+      "name": "N314 op-/afrit zuid N348, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n314.html"
+  },
+  {
+    "lat": 52.1227223,
+    "lon": 6.2155506,
+    "osmID": 8899226912,
+    "osmType": "node",
+    "lastChanged": 1625607510000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n348e.html",
+      "man_made": "surveillance",
+      "name": "N348 Gelre Ziekenhuis, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n348e.html"
+  },
+  {
+    "lat": 51.9460193,
+    "lon": 5.5739615,
+    "osmID": 8899254797,
+    "osmType": "node",
+    "lastChanged": 1625607204000,
+    "address": {
+      "city": "Lienden",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n233.html",
+      "man_made": "surveillance",
+      "name": "N233 brug Rhenen, Kesteren",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n233.html"
+  },
+  {
+    "lat": 51.934586,
+    "lon": 6.6004175,
+    "osmID": 8899255405,
+    "osmType": "node",
+    "lastChanged": 1625607722000,
+    "address": {
+      "city": "Aalten",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n318.html",
+      "man_made": "surveillance",
+      "name": "N318 kruispunt N313, Aalten",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n318.html"
+  },
+  {
+    "lat": 51.935922,
+    "lon": 5.1850965,
+    "osmID": 8899270809,
+    "osmType": "node",
+    "lastChanged": 1625608088000,
+    "address": {
+      "city": "Culemborg",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n320.html",
+      "man_made": "surveillance",
+      "name": "N320 kruispunt Weth. Schoutenweg, Culemborg",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n320.html"
+  },
+  {
+    "lat": 52.0367292,
+    "lon": 6.6037893,
+    "osmID": 8899289085,
+    "osmType": "node",
+    "lastChanged": 1625607915000,
+    "address": {
+      "city": "Groenlo",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n319.html",
+      "man_made": "surveillance",
+      "name": "N319 Landbouwpasseerhavens, Groenlo",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n319.html"
+  },
+  {
+    "lat": 52.1496771,
+    "lon": 6.3904016,
+    "osmID": 8899289116,
+    "osmType": "node",
+    "lastChanged": 1625608595000,
+    "address": {
+      "city": "Lochem",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n346.html",
+      "man_made": "surveillance",
+      "name": "N346 landbouwpasseerhaven, Lochem",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n346.html"
+  },
+  {
+    "lat": 52.168399,
+    "lon": 6.3945333,
+    "osmID": 8899302651,
+    "osmType": "node",
+    "lastChanged": 1625608443000,
+    "address": {
+      "city": "Lochem",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n332.html",
+      "man_made": "surveillance",
+      "name": "N332 Kwinkweerd, Lochem",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n332.html"
+  },
+  {
+    "lat": 52.1268452,
+    "lon": 6.2168119,
+    "osmID": 8899306474,
+    "osmType": "node",
+    "lastChanged": 1625609183000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n348d.html",
+      "man_made": "surveillance",
+      "name": "N348d Den Elterweg, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n348d.html"
+  },
+  {
+    "lat": 52.1453122,
+    "lon": 6.2160811,
+    "osmID": 8899307927,
+    "osmType": "node",
+    "lastChanged": 1625608715000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n348a.html",
+      "man_made": "surveillance",
+      "name": "N348 kruispunt N346, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n348a.html"
+  },
+  {
+    "lat": 52.1506654,
+    "lon": 6.2162778,
+    "osmID": 8899315311,
+    "osmType": "node",
+    "lastChanged": 1625609311000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n348f.html",
+      "man_made": "surveillance",
+      "name": "N348 rondweg Polbeek, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n348f.html"
+  },
+  {
+    "lat": 52.1382657,
+    "lon": 6.2172751,
+    "osmID": 8899316920,
+    "osmType": "node",
+    "lastChanged": 1625609038000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n348c.html",
+      "man_made": "surveillance",
+      "name": "N348 brandweer, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n348c.html"
+  },
+  {
+    "lat": 52.3716255,
+    "lon": 6.0225698,
+    "osmID": 8899323587,
+    "osmType": "node",
+    "lastChanged": 1625609545000,
+    "address": {
+      "city": "Heerde",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n794.html",
+      "man_made": "surveillance",
+      "name": "N794 transferium, Heerde",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n794.html"
+  },
+  {
+    "lat": 52.1583132,
+    "lon": 6.2028607,
+    "osmID": 8899328064,
+    "osmType": "node",
+    "lastChanged": 1625609400000,
+    "address": {
+      "city": "Zutphen",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n348g.html",
+      "man_made": "surveillance",
+      "name": "N348g rondweg de Mars, Zutphen",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n348g.html"
+  },
+  {
+    "lat": 51.8762508,
+    "lon": 5.98926,
+    "osmID": 8899330827,
+    "osmType": "node",
+    "lastChanged": 1625610229000,
+    "address": {
+      "city": "Gendt",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/waalstrand.html",
+      "man_made": "surveillance",
+      "name": "Camping Waalstrand, Gendt",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/waalstrand.html"
+  },
+  {
+    "lat": 52.1656132,
+    "lon": 6.4446478,
+    "osmID": 8899332534,
+    "osmType": "node",
+    "lastChanged": 1625609706000,
+    "address": {
+      "city": "Lochem",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/n825.html",
+      "man_made": "surveillance",
+      "name": "N825 Nettelhorsterweg, Lochem",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/n825.html"
+  },
+  {
+    "lat": 51.8260436,
+    "lon": 5.3776027,
+    "osmID": 8899335473,
+    "osmType": "node",
+    "lastChanged": 1625609826000,
+    "address": {
+      "city": "Varik",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.gelderland.nl/varik.html",
+      "man_made": "surveillance",
+      "name": "Waalpleisterplaats de Bol, Varik",
+      "operator": "webcam.gelderland.nl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "webcam.gelderland.nl",
+    "url": "https://webcam.gelderland.nl/varik.html"
+  },
+  {
+    "lat": 52.4504331,
+    "lon": 5.8311211,
+    "osmID": 8904833508,
+    "osmType": "node",
+    "lastChanged": 1625763931000,
+    "address": {
+      "city": "Elburg",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.nl/elburg/haven/",
+      "man_made": "surveillance",
+      "name": "Elburg haven",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/elburg/haven/"
+  },
+  {
+    "lat": 52.3777381,
+    "lon": 4.8933545,
+    "osmID": 8904838461,
+    "osmType": "node",
+    "lastChanged": 1625762833000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.youtube.com/watch?v=iB6Te_JP4Lk",
+      "description": "Welcome to the livestream of Singel Hotel Amsterdam",
+      "man_made": "surveillance",
+      "name": "Amsterdam LIVE - Singel Hotel Amsterdam",
+      "operator": "Social Hotspot",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "tourism"
+    },
+    "operator": "Social Hotspot",
+    "url": "https://www.youtube.com/watch?v=iB6Te_JP4Lk"
+  },
+  {
+    "lat": 52.372551,
+    "lon": 4.8941161,
+    "osmID": 8904844083,
+    "osmType": "node",
+    "lastChanged": 1625762600000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://webcam.nl/amsterdam/",
+      "description": "moving camera on the dam square",
+      "man_made": "surveillance",
+      "name": "WebCam.NL - Dam Amsterdam",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/amsterdam/"
+  },
+  {
+    "lat": 52.3745928,
+    "lon": 4.8954254,
+    "osmID": 8904849271,
+    "osmType": "node",
+    "lastChanged": 1625763101000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.nl/amsterdam/beursplein/",
+      "description": "The Beursplein is a square in the center of Amsterdam, between the Damrak and the Beursstraat.",
+      "man_made": "surveillance",
+      "name": "WebCam.NL - Beurs van Berlage, Amsterdam",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/amsterdam/beursplein/"
+  },
+  {
+    "lat": 52.3828216,
+    "lon": 4.907711,
+    "osmID": 8904864983,
+    "osmType": "node",
+    "lastChanged": 1625763302000,
+    "address": {
+      "city": "Amsterdam",
+      "state": "Noord-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "250",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/amsterdam/sixhaven/",
+      "man_made": "surveillance",
+      "name": "Sixhaven",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/amsterdam/sixhaven/"
+  },
+  {
+    "lat": 52.6239898,
+    "lon": 6.040909,
+    "osmID": 8904882068,
+    "osmType": "node",
+    "lastChanged": 1625764393000,
+    "address": {
+      "city": "Genemuiden",
+      "state": "Overijssel",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "345",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/genemuiden/",
+      "man_made": "surveillance",
+      "name": "Genemuiden havenplein",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/genemuiden/"
+  },
+  {
+    "lat": 52.4482226,
+    "lon": 5.8338057,
+    "osmID": 8904891283,
+    "osmType": "node",
+    "lastChanged": 1625764209000,
+    "address": {
+      "city": "Elburg",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.nl/elburg/vischmarkt/",
+      "man_made": "surveillance",
+      "name": "Elburg vischmarkt",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/elburg/vischmarkt/"
+  },
+  {
+    "lat": 27.7577085,
+    "lon": -15.5773528,
+    "osmID": 8904893359,
+    "osmType": "node",
+    "lastChanged": 1625764671000,
+    "address": {
+      "city": "Maspalomas",
+      "county": "Las Palmas",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "https://webcam.nl/Gran_Canaria/ultraHD-PTZ-camera/",
+      "man_made": "surveillance",
+      "name": "Playa del Inglés - Yumbo Center",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/Gran_Canaria/ultraHD-PTZ-camera/"
+  },
+  {
+    "lat": 50.4685741,
+    "lon": 16.201564,
+    "osmID": 8904962276,
+    "osmType": "node",
+    "lastChanged": 1625767554000,
+    "address": {
+      "city": "Velké Poříčí",
+      "county": "Královéhradecký kraj",
+      "state": "Severovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "110",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.alte.cz/lkvp/kamera_09/snimek.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.alte.cz/lkvp/kamera_09/snimek.jpg"
+  },
+  {
+    "lat": 50.4595557,
+    "lon": 16.1887135,
+    "osmID": 8904962277,
+    "osmType": "node",
+    "lastChanged": 1625767554000,
+    "address": {
+      "city": "Velké Poříčí",
+      "county": "Královéhradecký kraj",
+      "state": "Severovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.velkeporici.cz/webcam-image1.asp",
+      "man_made": "surveillance",
+      "note": "Aktualizace snímku po 60 sekundách",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "park"
+    },
+    "url": "https://www.velkeporici.cz/webcam-image1.asp"
+  },
+  {
+    "lat": 50.4616704,
+    "lon": 16.1885965,
+    "osmID": 8904962303,
+    "osmType": "node",
+    "lastChanged": 1625767554000,
+    "address": {
+      "city": "Velké Poříčí",
+      "county": "Královéhradecký kraj",
+      "state": "Severovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.velkeporici.cz/webcam-image2.asp",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "url": "https://www.velkeporici.cz/webcam-image2.asp"
+  },
+  {
+    "lat": 47.3755947,
+    "lon": 12.5608497,
+    "osmID": 8907086582,
+    "osmType": "node",
+    "lastChanged": 1625830880000,
+    "address": {
+      "city": "Saalbach-Hinterglemm",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam.nl/oostenrijk/",
+      "man_made": "surveillance",
+      "name": "hotel Residenz Hochalm",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/oostenrijk/"
+  },
+  {
+    "lat": 51.9051496,
+    "lon": 4.4848078,
+    "osmID": 8907126490,
+    "osmType": "node",
+    "lastChanged": 1625831806000,
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "20",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://fotopaulmartens.netcam.nl/erasmus3.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "bridge"
+    },
+    "url": "https://fotopaulmartens.netcam.nl/erasmus3.php"
+  },
+  {
+    "lat": 51.8979969,
+    "lon": 4.537132,
+    "osmID": 8907149249,
+    "osmType": "node",
+    "lastChanged": 1625832200000,
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://fotopaulmartens.netcam.nl/brienenoord.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "bridge"
+    },
+    "url": "https://fotopaulmartens.netcam.nl/brienenoord.php"
+  },
+  {
+    "lat": 51.9196485,
+    "lon": 4.4900724,
+    "osmID": 8907157825,
+    "osmType": "node",
+    "lastChanged": 1625831916000,
+    "address": {
+      "city": "Rotterdam",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://fotopaulmartens.netcam.nl/blaakcam.php?autostart=false&#038;w=640&#038;h=480",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "square"
+    },
+    "url": "https://fotopaulmartens.netcam.nl/blaakcam.php?autostart=false&#038;w=640&#038;h=480"
   }
 ]
