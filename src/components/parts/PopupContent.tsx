@@ -15,12 +15,11 @@ import generateName from '../../utils/generateName';
 const pattern = /^((http|https|ftp):\/\/)/;
 
 interface PopupContentProps {
-    webcam: Webcam
-    hasHeaderLink?: boolean
+    webcam: Webcam;
 }
 
 const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
-    {webcam, hasHeaderLink}: PropsWithChildren<PopupContentProps>
+    {webcam}: PropsWithChildren<PopupContentProps>
 ) => {
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
@@ -28,11 +27,7 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
 
     return (
         <div id={'PopupContent'}>
-            {
-                hasHeaderLink
-                    ? <Link to={`/webcam/${webcam.osmID}`}><h1>{cardTitle}</h1></Link>
-                    : <h1>{cardTitle}</h1>
-            }
+            <Link to={`/webcam/${webcam.osmID}`}><h1>{cardTitle}</h1></Link>
             <br/>
             <AddressBreadCrumb address={webcam.address}/>
             <br/>

@@ -37,6 +37,10 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
         (r: Webcam) => r.address[type]?.toLowerCase() === name.toLowerCase()
     );
 
+    if (filteredWebcams.length === 0) {
+        window.location.href = '/notfound';
+    }
+
     const lats: Webcam['lat'][] = filteredWebcams.map((webcam) => webcam.lat);
     const lons: Webcam['lon'][] = filteredWebcams.map((webcam) => webcam.lon);
 
@@ -59,7 +63,7 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
     });
 
     const webcamTiles = filteredWebcams.map((r) => (
-        <PopupContent key={r.osmID} webcam={r} hasHeaderLink/>
+        <PopupContent key={r.osmID} webcam={r}/>
     ));
 
     const tableBody = chunk(webcamTiles, 4).map(
