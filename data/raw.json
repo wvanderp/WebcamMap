@@ -177,11 +177,11 @@
   {
     "type": "node",
     "id": 419876014,
-    "lat": 47.0260283,
-    "lon": 6.9580607,
-    "timestamp": "2020-11-19T13:56:36Z",
-    "version": 9,
-    "changeset": 94441208,
+    "lat": 47.0260217,
+    "lon": 6.9581735,
+    "timestamp": "2021-07-19T08:56:53Z",
+    "version": 10,
+    "changeset": 108234857,
     "user": "habi",
     "uid": 15671,
     "tags": {
@@ -507,24 +507,6 @@
       "url": "http://www1.messe-berlin.de/vip8_1/website/Internet/Internet/www.icc-berlin/deutsch/Das_ICC_Berlin/Webcam/index.jsp",
       "url:webcam": "http://www1.messe-berlin.de/vip8_1/website/MesseBerlin/htdocs/www.icc-berlin/WEBCAM/fullsize.jpg",
       "website": "https://messe-berlin.de/"
-    }
-  },
-  {
-    "type": "node",
-    "id": 733675614,
-    "lat": 52.5078793,
-    "lon": 13.3970685,
-    "timestamp": "2019-03-13T22:32:22Z",
-    "version": 5,
-    "changeset": 68117014,
-    "user": "b-jazz-bot",
-    "uid": 9451067,
-    "tags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "http://www.morgenpost.de/service/article75447/Webcam.html",
-      "url:webcam": "http://static.apps.morgenpost.de/webcam/image.jpg",
-      "website": "https://www.morgenpost.de/"
     }
   },
   {
@@ -3932,23 +3914,27 @@
   {
     "type": "node",
     "id": 1417674502,
-    "lat": 61.929158,
-    "lon": 5.121199,
-    "timestamp": "2011-08-30T00:02:48Z",
-    "version": 1,
-    "changeset": 9163187,
-    "user": "haakonst",
-    "uid": 118690,
+    "lat": 61.9291407,
+    "lon": 5.1218466,
+    "timestamp": "2021-08-07T08:45:33Z",
+    "version": 2,
+    "changeset": 109300156,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
-      "fixme": "position",
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100096",
       "man_made": "surveillance",
-      "name": "Måløybrua",
+      "name": "Rv15 Måløybrua 2 (retning mot Måløy)",
       "operator": "Statens vegvesen",
       "ref": "100096",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100096"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -5161,22 +5147,6 @@
   },
   {
     "type": "node",
-    "id": 1455751958,
-    "lat": 51.6446833,
-    "lon": 6.6777213,
-    "timestamp": "2021-05-05T11:05:59Z",
-    "version": 4,
-    "changeset": 104180491,
-    "user": "Cowboy79",
-    "uid": 778657,
-    "tags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
     "id": 1510027506,
     "lat": 51.8674984,
     "lon": 13.9729453,
@@ -5468,27 +5438,6 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "survey:date": "2020-11-21 15:38:13+00:00"
-    }
-  },
-  {
-    "type": "node",
-    "id": 1772763650,
-    "lat": 47.1715037,
-    "lon": 16.1484164,
-    "timestamp": "2012-06-01T15:53:02Z",
-    "version": 1,
-    "changeset": 11769002,
-    "user": "gitschi5550",
-    "uid": 693900,
-    "tags": {
-      "addr:housenumber": "16",
-      "addr:street": "Thermenstraße",
-      "description": "Webcam mit Blick auf die Familientherme Stegersbach sowie den benachbarten Hotels rund um die Therme,",
-      "name": "Webcam beim Thermenhotel PuchasPlus",
-      "phone": "+43 3326 53310",
-      "surveillance": "webcam",
-      "website": "http://www.thermen.travel/pwebcam-stegersbach.html",
-      "wheelchair": "no"
     }
   },
   {
@@ -7681,6 +7630,27 @@
   },
   {
     "type": "node",
+    "id": 3112419440,
+    "lat": 49.5550911,
+    "lon": 25.6401588,
+    "timestamp": "2021-08-04T09:42:59Z",
+    "version": 4,
+    "changeset": 109136115,
+    "user": "selb",
+    "uid": 13003665,
+    "tags": {
+      "camera:direction": "-30",
+      "camera:type": "fixed",
+      "contact:webcam": "http://ternopil.webcam",
+      "man_made": "surveillance",
+      "name": "Перехрестя Злуки - 15 квітня",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 3123642822,
     "lat": 48.7154037,
     "lon": 9.0868501,
@@ -7971,13 +7941,13 @@
     "id": 3337252714,
     "lat": 40.142943,
     "lon": -82.9895739,
-    "timestamp": "2015-02-08T14:38:12Z",
-    "version": 2,
-    "changeset": 28703715,
-    "user": "zeromap",
-    "uid": 599436,
+    "timestamp": "2021-07-18T15:32:14Z",
+    "version": 3,
+    "changeset": 108197199,
+    "user": "JohnFNa",
+    "uid": 11654063,
     "tags": {
-      "access": "public",
+      "access": "yes",
       "contact:webcam": "http://cmhimg01.dot.state.oh.us/images/Polaris_Pkwy_at_Sancus_Blvd.jpg",
       "image": "http://cmhimg01.dot.state.oh.us/images/Polaris_Pkwy_at_Sancus_Blvd.jpg",
       "interval": "5",
@@ -8286,6 +8256,30 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3768943257,
+    "lat": 52.8448414,
+    "lon": 5.7110046,
+    "timestamp": "2021-07-11T15:58:50Z",
+    "version": 4,
+    "changeset": 107788358,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "233-300",
+      "camera:features": "webcam",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcamlemmer.nl/",
+      "man_made": "surveillance",
+      "name": "Vanaf de Lemster Toer",
+      "operator": "Stichting Oud Lemmer;WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbor",
+      "website": "https://webcamlemmer.nl/"
     }
   },
   {
@@ -8734,13 +8728,14 @@
     "id": 4286338793,
     "lat": 48.5776433,
     "lon": 10.496013,
-    "timestamp": "2021-04-04T21:39:28Z",
-    "version": 6,
-    "changeset": 102288744,
-    "user": "kdkeller",
-    "uid": 43207,
+    "timestamp": "2021-08-07T19:54:55Z",
+    "version": 7,
+    "changeset": 109323952,
+    "user": "Ropino",
+    "uid": 42123,
     "tags": {
       "addr:city": "Dillingen a.d.Donau",
+      "addr:postcode": "89407",
       "direction": "250",
       "image": "https://www.dillingen-donau.de/webcam/camdlg.jpg",
       "man_made": "surveillance",
@@ -10241,27 +10236,6 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 4600391243,
-    "lat": 47.8847324,
-    "lon": 16.2462276,
-    "timestamp": "2017-01-12T12:55:49Z",
-    "version": 3,
-    "changeset": 45103146,
-    "user": "Megiga",
-    "uid": 5108093,
-    "tags": {
-      "camera:direction": "230",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://www.feuerwehr-felixdorf.at",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
     }
   },
   {
@@ -17027,11 +17001,11 @@
   {
     "type": "node",
     "id": 7635188592,
-    "lat": 46.6972914,
-    "lon": 7.8516309,
-    "timestamp": "2020-06-19T11:27:44Z",
-    "version": 1,
-    "changeset": 86874534,
+    "lat": 46.6972704,
+    "lon": 7.8516499,
+    "timestamp": "2021-07-30T06:37:23Z",
+    "version": 2,
+    "changeset": 108864702,
     "user": "HaPe-CZ",
     "uid": 11276832,
     "tags": {
@@ -17282,6 +17256,30 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town",
       "website": "https://app.webcam-hd.com/pontarlier/chapelle-esperance"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7747170095,
+    "lat": 52.8442432,
+    "lon": 5.7111711,
+    "timestamp": "2021-07-11T15:58:50Z",
+    "version": 2,
+    "changeset": 107788358,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "175-222",
+      "camera:features": "webcam",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcamlemmer.nl/",
+      "man_made": "surveillance",
+      "name": "Binnenhaven Lemmer",
+      "operator": "Stichting Oud Lemmer",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbor",
+      "website": "https://webcamlemmer.nl/"
     }
   },
   {
@@ -18330,6 +18328,29 @@
   },
   {
     "type": "node",
+    "id": 7858180997,
+    "lat": 51.468828,
+    "lon": 5.6356315,
+    "timestamp": "2021-07-14T18:51:03Z",
+    "version": 4,
+    "changeset": 107997450,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "290",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://railcam.nl/",
+      "man_made": "surveillance",
+      "name": "Railcam Mierlo-Hout",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://railcam.nl/"
+    }
+  },
+  {
+    "type": "node",
     "id": 7885744352,
     "lat": 34.7975444,
     "lon": 131.1312332,
@@ -18567,7 +18588,7 @@
     "timestamp": "2021-01-22T08:41:14Z",
     "version": 2,
     "changeset": 97958534,
-    "user": "HoMaHe",
+    "user": "hlfan",
     "uid": 1848175,
     "tags": {
       "camera:mount": "pole",
@@ -19008,6 +19029,27 @@
   },
   {
     "type": "node",
+    "id": 8374939691,
+    "lat": 59.4167374,
+    "lon": 24.7634708,
+    "timestamp": "2021-07-19T08:39:58Z",
+    "version": 2,
+    "changeset": 108233495,
+    "user": "fghj753",
+    "uid": 10394095,
+    "tags": {
+      "camera:direction": "40",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://ristmikud.tallinn.ee/last/cam041.jpg",
+      "height": "5",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
     "id": 8374939693,
     "lat": 59.4183754,
     "lon": 24.7659655,
@@ -19022,28 +19064,6 @@
       "camera:type": "fixed",
       "contact:webcam": "http://ristmikud.tallinn.ee/last/cam041.jpg",
       "height": "6",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
-    "id": 8374939695,
-    "lat": 59.4189061,
-    "lon": 24.7666224,
-    "timestamp": "2021-01-29T10:43:46Z",
-    "version": 1,
-    "changeset": 98357330,
-    "user": "fghj753",
-    "uid": 10394095,
-    "tags": {
-      "camera:direction": "35",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://ristmikud.tallinn.ee/last/cam041.jpg",
-      "fixme": "Camera URL is probably wrong",
-      "height": "4",
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera"
@@ -23682,6 +23702,352 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "square"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8911806927,
+    "lat": 51.8651405,
+    "lon": 6.0545416,
+    "timestamp": "2021-07-11T16:04:36Z",
+    "version": 1,
+    "changeset": 107788550,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://webcam.nl/Gelderse-Poort/",
+      "man_made": "surveillance",
+      "name": "De Gelderse Poort",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "river"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8922850866,
+    "lat": 50.8494322,
+    "lon": 5.6941473,
+    "timestamp": "2021-07-15T15:27:19Z",
+    "version": 1,
+    "changeset": 108061688,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "168",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.bekijknederland.nl/maasboulevardmaastricht/",
+      "man_made": "surveillance",
+      "name": "Maasboulevard, Maastricht",
+      "operator": "bekijknederland",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8922850867,
+    "lat": 50.8277331,
+    "lon": 5.7256304,
+    "timestamp": "2021-07-15T15:27:19Z",
+    "version": 1,
+    "changeset": 108061688,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "168",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "http://meteomaastricht.nl/webcam.htm",
+      "man_made": "surveillance",
+      "name": "meteomaastricht west-noord-west",
+      "operator": "meteomaastricht",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8922850868,
+    "lat": 50.8277289,
+    "lon": 5.725662,
+    "timestamp": "2021-07-15T15:27:19Z",
+    "version": 1,
+    "changeset": 108061688,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "168",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "http://meteomaastricht.nl/webcam.htm",
+      "man_made": "surveillance",
+      "name": "meteomaastricht zuidoost",
+      "operator": "meteomaastricht",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8922850869,
+    "lat": 50.8499421,
+    "lon": 5.6887903,
+    "timestamp": "2021-07-15T15:27:19Z",
+    "version": 1,
+    "changeset": 108061688,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "205",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "man_made": "surveillance",
+      "name": "Vrijthof - NetcamViewer Live",
+      "operator": "NetcamViewer Live",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8942372696,
+    "lat": 49.8709408,
+    "lon": 15.5775961,
+    "timestamp": "2021-07-22T19:33:24Z",
+    "version": 1,
+    "changeset": 108447693,
+    "user": "🇨🇿 Roman Horník",
+    "uid": 4018695,
+    "tags": {
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783342,
+    "lat": 45.8136896,
+    "lon": -1.2163862,
+    "timestamp": "2021-07-23T19:00:03Z",
+    "version": 1,
+    "changeset": 108509397,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "https://youtu.be/8mUz_HLA_Fs",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783343,
+    "lat": 45.915257,
+    "lon": -1.3268837,
+    "timestamp": "2021-07-23T19:00:03Z",
+    "version": 1,
+    "changeset": 108509397,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "camera:direction": "305",
+      "camera:mount": "street_lamp",
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "mapillary": "317657059892913",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783350,
+    "lat": 45.9142238,
+    "lon": -1.3276118,
+    "timestamp": "2021-07-26T18:42:52Z",
+    "version": 2,
+    "changeset": 108641644,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "camera:direction": "210-10",
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://youtu.be/l5o7WdZQaQI",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783351,
+    "lat": 45.8548486,
+    "lon": -1.1694166,
+    "timestamp": "2021-07-23T19:00:03Z",
+    "version": 1,
+    "changeset": 108509397,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783352,
+    "lat": 45.8296684,
+    "lon": -1.1959213,
+    "timestamp": "2021-07-23T19:00:03Z",
+    "version": 1,
+    "changeset": 108509397,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "camera:direction": "90",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://youtu.be/NTmN-3quw7g",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783353,
+    "lat": 46.0354208,
+    "lon": -1.3713553,
+    "timestamp": "2021-07-23T19:00:03Z",
+    "version": 1,
+    "changeset": 108509397,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://youtu.be/8VOZJhA-T1g",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8944783359,
+    "lat": 46.0056329,
+    "lon": -1.3908192,
+    "timestamp": "2021-07-23T19:00:03Z",
+    "version": 1,
+    "changeset": 108509397,
+    "user": "Kalepom",
+    "uid": 392288,
+    "tags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://youtu.be/XH8vaFef3Sc",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8954410567,
+    "lat": 52.2909352,
+    "lon": 9.5374289,
+    "timestamp": "2021-07-27T15:03:53Z",
+    "version": 1,
+    "changeset": 108696448,
+    "user": "jguddas",
+    "uid": 11412251,
+    "tags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8959092298,
+    "lat": 46.481471,
+    "lon": -1.7616091,
+    "timestamp": "2021-07-29T07:16:39Z",
+    "version": 3,
+    "changeset": 108800922,
+    "user": "Eric Bie",
+    "uid": 2141750,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "http://pv.viewsurf.com/1070/Les-Sables-d-Olonne",
+      "man_made": "surveillance",
+      "mapillary": "810645859811876",
+      "name": "Webcam vue de Tanchet, de l'Ecole de Voile",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8972379232,
+    "lat": 40.0002179,
+    "lon": 15.3732544,
+    "timestamp": "2021-08-01T15:51:00Z",
+    "version": 1,
+    "changeset": 108979077,
+    "user": "Italian Technology",
+    "uid": 10622815,
+    "tags": {
+      "camera:direction": "200",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.prolococamerota.it",
+      "man_made": "surveillance",
+      "name": "WebCam Marina di Camerota",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8977337617,
+    "lat": 49.5551799,
+    "lon": 25.6397147,
+    "timestamp": "2021-08-04T09:42:59Z",
+    "version": 2,
+    "changeset": 109136115,
+    "user": "selb",
+    "uid": 13003665,
+    "tags": {
+      "camera:direction": "73",
+      "camera:type": "fixed",
+      "contact:webcam": "http://ternopil.webcam",
+      "man_made": "surveillance",
+      "name": "Перехрестя Злуки - 15 квітня #2",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
