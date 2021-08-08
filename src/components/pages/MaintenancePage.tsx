@@ -7,9 +7,11 @@ import {Webcam} from '../../types/webcam';
 
 const MaintenancePage: React.FC = () => {
     const [youtubeFilter, setYoutubeFilter] = useState(false);
+    const [nameFilter, setNameFilter] = useState(false);
 
     const webcamRow = webcams
         .filter((a) => (youtubeFilter ? a.url.includes('youtube') : true))
+        .filter((a) => (nameFilter ? !a.osmTags.name : true))
         .sort((a, b) => a.lastChanged - b.lastChanged)
         .map((webcam: Webcam) => (
             <tr key={webcam.osmID}>
@@ -33,7 +35,16 @@ const MaintenancePage: React.FC = () => {
                         onClick={() => setYoutubeFilter(!youtubeFilter)}
                         style={{fontWeight: youtubeFilter ? 'bold' : 'normal'}}
                     >
-                        youtube
+                        Youtube
+                    </span>
+                    {' | '}
+                    <span
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => setNameFilter(!nameFilter)}
+                        style={{fontWeight: nameFilter ? 'bold' : 'normal'}}
+                    >
+                        No Name
                     </span>
                 </Col>
             </Row>
