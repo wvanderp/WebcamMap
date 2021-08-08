@@ -197,11 +197,11 @@
     "url": "http://www.brillen-krille.de/de/webcam_rostock_uniplatz_22.php"
   },
   {
-    "lat": 47.0260283,
-    "lon": 6.9580607,
+    "lat": 47.0260217,
+    "lon": 6.9581735,
     "osmID": 419876014,
     "osmType": "node",
-    "lastChanged": 1605794196000,
+    "lastChanged": 1626685013000,
     "address": {
       "city": "Neuchâtel",
       "state": "Neuchâtel",
@@ -550,26 +550,6 @@
     "url": "http://www1.messe-berlin.de/vip8_1/website/Internet/Internet/www.icc-berlin/deutsch/Das_ICC_Berlin/Webcam/index.jsp"
   },
   {
-    "lat": 52.5078793,
-    "lon": 13.3970685,
-    "osmID": 733675614,
-    "osmType": "node",
-    "lastChanged": 1552516342000,
-    "address": {
-      "city": "Berlin",
-      "state": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "http://www.morgenpost.de/service/article75447/Webcam.html",
-      "url:webcam": "http://static.apps.morgenpost.de/webcam/image.jpg",
-      "website": "https://www.morgenpost.de/"
-    },
-    "url": "http://www.morgenpost.de/service/article75447/Webcam.html"
-  },
-  {
     "lat": 52.4722043,
     "lon": 13.3650887,
     "osmID": 734962428,
@@ -817,7 +797,6 @@
     "lastChanged": 1523211977000,
     "address": {
       "city": "Канів",
-      "county": "Черкаський район",
       "state": "Черкаська область",
       "country": "Ukraine"
     },
@@ -1902,6 +1881,7 @@
     "osmType": "node",
     "lastChanged": 1567450982000,
     "address": {
+      "city": "Rakkestad",
       "county": "Viken",
       "country": "Norway"
     },
@@ -4087,7 +4067,7 @@
     "osmType": "node",
     "lastChanged": 1314662565000,
     "address": {
-      "city": "Åfoss",
+      "city": "Skien",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
@@ -4363,26 +4343,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=109213"
   },
   {
-    "lat": 61.929158,
-    "lon": 5.121199,
+    "lat": 61.9291407,
+    "lon": 5.1218466,
     "osmID": 1417674502,
     "osmType": "node",
-    "lastChanged": 1314662568000,
+    "lastChanged": 1628325933000,
     "address": {
       "city": "Måløy",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100096",
       "man_made": "surveillance",
-      "name": "Måløybrua",
+      "name": "Rv15 Måløybrua 2 (retning mot Måløy)",
       "operator": "Statens vegvesen",
       "ref": "100096",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100096"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100096"
@@ -6028,30 +6012,6 @@
     },
     "operator": "UCL",
     "url": "http://www.sri.ucl.ac.be/webcam/aula10s.html"
-  },
-  {
-    "lat": 47.1715037,
-    "lon": 16.1484164,
-    "osmID": 1772763650,
-    "osmType": "node",
-    "lastChanged": 1338565982000,
-    "address": {
-      "city": "Stegersbach",
-      "county": "Bezirk Güssing",
-      "state": "Burgenland",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "addr:housenumber": "16",
-      "addr:street": "Thermenstraße",
-      "description": "Webcam mit Blick auf die Familientherme Stegersbach sowie den benachbarten Hotels rund um die Therme,",
-      "name": "Webcam beim Thermenhotel PuchasPlus",
-      "phone": "+43 3326 53310",
-      "surveillance": "webcam",
-      "website": "http://www.thermen.travel/pwebcam-stegersbach.html",
-      "wheelchair": "no"
-    },
-    "url": "http://www.thermen.travel/pwebcam-stegersbach.html"
   },
   {
     "lat": 52.5241376,
@@ -8444,6 +8404,29 @@
     "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/"
   },
   {
+    "lat": 49.5550911,
+    "lon": 25.6401588,
+    "osmID": 3112419440,
+    "osmType": "node",
+    "lastChanged": 1628070179000,
+    "address": {
+      "city": "Тернопіль",
+      "state": "Тернопільська область",
+      "country": "Ukraine"
+    },
+    "osmTags": {
+      "camera:direction": "-30",
+      "camera:type": "fixed",
+      "contact:webcam": "http://ternopil.webcam",
+      "man_made": "surveillance",
+      "name": "Перехрестя Злуки - 15 квітня",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "http://ternopil.webcam"
+  },
+  {
     "lat": 48.7154037,
     "lon": 9.0868501,
     "osmID": 3123642822,
@@ -8700,7 +8683,7 @@
     "lon": -82.9895739,
     "osmID": 3337252714,
     "osmType": "node",
-    "lastChanged": 1423406292000,
+    "lastChanged": 1626622334000,
     "address": {
       "city": "Columbus",
       "county": "Delaware County",
@@ -8708,7 +8691,7 @@
       "country": "United States"
     },
     "osmTags": {
-      "access": "public",
+      "access": "yes",
       "contact:webcam": "http://cmhimg01.dot.state.oh.us/images/Polaris_Pkwy_at_Sancus_Blvd.jpg",
       "image": "http://cmhimg01.dot.state.oh.us/images/Polaris_Pkwy_at_Sancus_Blvd.jpg",
       "interval": "5",
@@ -9068,6 +9051,33 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.youtube.com/watch?v=hNvU59Ld8aA"
+  },
+  {
+    "lat": 52.8448414,
+    "lon": 5.7110046,
+    "osmID": 3768943257,
+    "osmType": "node",
+    "lastChanged": 1626019130000,
+    "address": {
+      "city": "Lemmer",
+      "state": "Fryslân",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "233-300",
+      "camera:features": "webcam",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcamlemmer.nl/",
+      "man_made": "surveillance",
+      "name": "Vanaf de Lemster Toer",
+      "operator": "Stichting Oud Lemmer;WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbor",
+      "website": "https://webcamlemmer.nl/"
+    },
+    "operator": "Stichting Oud Lemmer;WebCam.NL",
+    "url": "https://webcamlemmer.nl/"
   },
   {
     "lat": 45.026169,
@@ -9586,7 +9596,7 @@
     "lon": 10.496013,
     "osmID": 4286338793,
     "osmType": "node",
-    "lastChanged": 1617572368000,
+    "lastChanged": 1628366095000,
     "address": {
       "city": "Dillingen a.d.Donau",
       "county": "Landkreis Dillingen an der Donau",
@@ -9595,6 +9605,7 @@
     },
     "osmTags": {
       "addr:city": "Dillingen a.d.Donau",
+      "addr:postcode": "89407",
       "direction": "250",
       "image": "https://www.dillingen-donau.de/webcam/camdlg.jpg",
       "man_made": "surveillance",
@@ -11034,30 +11045,6 @@
       "surveillance:zone": "traffic"
     },
     "url": "http://kamera.kozut.hu/mcs129/index.php"
-  },
-  {
-    "lat": 47.8847324,
-    "lon": 16.2462276,
-    "osmID": 4600391243,
-    "osmType": "node",
-    "lastChanged": 1484225749000,
-    "address": {
-      "city": "Felixdorf",
-      "county": "Bezirk Wiener Neustadt",
-      "state": "Niederösterreich",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "camera:direction": "230",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://www.feuerwehr-felixdorf.at",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
-    "url": "http://www.feuerwehr-felixdorf.at"
   },
   {
     "lat": 42.3043172,
@@ -13741,7 +13728,6 @@
     "lastChanged": 1555837241000,
     "address": {
       "city": "Вінниця",
-      "county": "Вінницький район",
       "state": "Вінницька область",
       "country": "Ukraine"
     },
@@ -14277,7 +14263,6 @@
     "lastChanged": 1624785682000,
     "address": {
       "city": "Житомир",
-      "county": "Житомирський район",
       "state": "Житомирська область",
       "country": "Ukraine"
     },
@@ -18205,11 +18190,11 @@
     "url": "https://www.bergfex.cz/jungfrau-grindelwald-wengen/webcams/c2880/"
   },
   {
-    "lat": 46.6972914,
-    "lon": 7.8516309,
+    "lat": 46.6972704,
+    "lon": 7.8516499,
     "osmID": 7635188592,
     "osmType": "node",
-    "lastChanged": 1592566064000,
+    "lastChanged": 1627627043000,
     "address": {
       "city": "Unterseen",
       "county": "Verwaltungskreis Interlaken-Oberhasli",
@@ -18368,6 +18353,33 @@
       "website": "https://app.webcam-hd.com/pontarlier/chapelle-esperance"
     },
     "url": "https://app.webcam-hd.com/pontarlier/chapelle-esperance"
+  },
+  {
+    "lat": 52.8442432,
+    "lon": 5.7111711,
+    "osmID": 7747170095,
+    "osmType": "node",
+    "lastChanged": 1626019130000,
+    "address": {
+      "city": "Lemmer",
+      "state": "Fryslân",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "175-222",
+      "camera:features": "webcam",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcamlemmer.nl/",
+      "man_made": "surveillance",
+      "name": "Binnenhaven Lemmer",
+      "operator": "Stichting Oud Lemmer",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbor",
+      "website": "https://webcamlemmer.nl/"
+    },
+    "operator": "Stichting Oud Lemmer",
+    "url": "https://webcamlemmer.nl/"
   },
   {
     "lat": 50.3549929,
@@ -19549,6 +19561,31 @@
     "url": "https://www.menton.fr/webcam-photo.html"
   },
   {
+    "lat": 51.468828,
+    "lon": 5.6356315,
+    "osmID": 7858180997,
+    "osmType": "node",
+    "lastChanged": 1626288663000,
+    "address": {
+      "city": "Helmond",
+      "state": "Noord-Brabant",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://railcam.nl/",
+      "man_made": "surveillance",
+      "name": "Railcam Mierlo-Hout",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://railcam.nl/"
+    },
+    "url": "https://railcam.nl/"
+  },
+  {
     "lat": 34.7975444,
     "lon": 131.1312332,
     "osmID": 7885744352,
@@ -20253,6 +20290,29 @@
     "url": "http://sqr.netzcam.net/out/webcam1.jpg?dummy=1611670086"
   },
   {
+    "lat": 59.4167374,
+    "lon": 24.7634708,
+    "osmID": 8374939691,
+    "osmType": "node",
+    "lastChanged": 1626683998000,
+    "address": {
+      "city": "Tallinn",
+      "county": "Harju maakond",
+      "country": "Estonia"
+    },
+    "osmTags": {
+      "camera:direction": "40",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://ristmikud.tallinn.ee/last/cam041.jpg",
+      "height": "5",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://ristmikud.tallinn.ee/last/cam041.jpg"
+  },
+  {
     "lat": 59.4183754,
     "lon": 24.7659655,
     "osmID": 8374939693,
@@ -20269,30 +20329,6 @@
       "camera:type": "fixed",
       "contact:webcam": "http://ristmikud.tallinn.ee/last/cam041.jpg",
       "height": "6",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera"
-    },
-    "url": "http://ristmikud.tallinn.ee/last/cam041.jpg"
-  },
-  {
-    "lat": 59.4189061,
-    "lon": 24.7666224,
-    "osmID": 8374939695,
-    "osmType": "node",
-    "lastChanged": 1611917026000,
-    "address": {
-      "city": "Tallinn",
-      "county": "Harju maakond",
-      "country": "Estonia"
-    },
-    "osmTags": {
-      "camera:direction": "35",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://ristmikud.tallinn.ee/last/cam041.jpg",
-      "fixme": "Camera URL is probably wrong",
-      "height": "4",
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera"
@@ -22599,7 +22635,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Sankt Englmar",
+      "city": "Klinglbach",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -23021,7 +23057,6 @@
     "lastChanged": 1621681832000,
     "address": {
       "city": "Roanoke",
-      "county": "Roanoke County",
       "state": "Virginia",
       "country": "United States"
     },
@@ -23046,7 +23081,6 @@
     "lastChanged": 1621681832000,
     "address": {
       "city": "Roanoke",
-      "county": "Roanoke County",
       "state": "Virginia",
       "country": "United States"
     },
@@ -25439,5 +25473,311 @@
       "surveillance:zone": "square"
     },
     "url": "https://fotopaulmartens.netcam.nl/blaakcam.php?autostart=false&#038;w=640&#038;h=480"
+  },
+  {
+    "lat": 51.8651405,
+    "lon": 6.0545416,
+    "osmID": 8911806927,
+    "osmType": "node",
+    "lastChanged": 1626019476000,
+    "address": {
+      "city": "Millingen aan de Rijn",
+      "state": "Gelderland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://webcam.nl/Gelderse-Poort/",
+      "man_made": "surveillance",
+      "name": "De Gelderse Poort",
+      "operator": "WebCam.NL",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "river"
+    },
+    "operator": "WebCam.NL",
+    "url": "https://webcam.nl/Gelderse-Poort/"
+  },
+  {
+    "lat": 50.8494322,
+    "lon": 5.6941473,
+    "osmID": 8922850866,
+    "osmType": "node",
+    "lastChanged": 1626362839000,
+    "address": {
+      "state": "Limburg",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "168",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.bekijknederland.nl/maasboulevardmaastricht/",
+      "man_made": "surveillance",
+      "name": "Maasboulevard, Maastricht",
+      "operator": "bekijknederland",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "bekijknederland",
+    "url": "https://www.bekijknederland.nl/maasboulevardmaastricht/"
+  },
+  {
+    "lat": 50.8277331,
+    "lon": 5.7256304,
+    "osmID": 8922850867,
+    "osmType": "node",
+    "lastChanged": 1626362839000,
+    "address": {
+      "state": "Limburg",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "168",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "http://meteomaastricht.nl/webcam.htm",
+      "man_made": "surveillance",
+      "name": "meteomaastricht west-noord-west",
+      "operator": "meteomaastricht",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "meteomaastricht",
+    "url": "http://meteomaastricht.nl/webcam.htm"
+  },
+  {
+    "lat": 50.8277289,
+    "lon": 5.725662,
+    "osmID": 8922850868,
+    "osmType": "node",
+    "lastChanged": 1626362839000,
+    "address": {
+      "state": "Limburg",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "168",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "http://meteomaastricht.nl/webcam.htm",
+      "man_made": "surveillance",
+      "name": "meteomaastricht zuidoost",
+      "operator": "meteomaastricht",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "meteomaastricht",
+    "url": "http://meteomaastricht.nl/webcam.htm"
+  },
+  {
+    "lat": 45.8136896,
+    "lon": -1.2163862,
+    "osmID": 8944783342,
+    "osmType": "node",
+    "lastChanged": 1627066803000,
+    "address": {
+      "city": "Saint-Trojan-les-Bains",
+      "county": "Charente-Maritime",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "https://youtu.be/8mUz_HLA_Fs",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://youtu.be/8mUz_HLA_Fs"
+  },
+  {
+    "lat": 45.9142238,
+    "lon": -1.3276118,
+    "osmID": 8944783350,
+    "osmType": "node",
+    "lastChanged": 1627324972000,
+    "address": {
+      "city": "La Cotinière",
+      "county": "Charente-Maritime",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "210-10",
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://youtu.be/l5o7WdZQaQI",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://youtu.be/l5o7WdZQaQI"
+  },
+  {
+    "lat": 45.8296684,
+    "lon": -1.1959213,
+    "osmID": 8944783352,
+    "osmType": "node",
+    "lastChanged": 1627066803000,
+    "address": {
+      "city": "Saint-Trojan-les-Bains",
+      "county": "Charente-Maritime",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://youtu.be/NTmN-3quw7g",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://youtu.be/NTmN-3quw7g"
+  },
+  {
+    "lat": 46.0354208,
+    "lon": -1.3713553,
+    "osmID": 8944783353,
+    "osmType": "node",
+    "lastChanged": 1627066803000,
+    "address": {
+      "city": "Saint-Denis-d'Oléron",
+      "county": "Charente-Maritime",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://youtu.be/8VOZJhA-T1g",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://youtu.be/8VOZJhA-T1g"
+  },
+  {
+    "lat": 46.0056329,
+    "lon": -1.3908192,
+    "osmID": 8944783359,
+    "osmType": "node",
+    "lastChanged": 1627066803000,
+    "address": {
+      "city": "Saint-Denis-d'Oléron",
+      "county": "Charente-Maritime",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://youtu.be/XH8vaFef3Sc",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://youtu.be/XH8vaFef3Sc"
+  },
+  {
+    "lat": 52.2909352,
+    "lon": 9.5374289,
+    "osmID": 8954410567,
+    "osmType": "node",
+    "lastChanged": 1627398233000,
+    "address": {
+      "city": "Barsinghausen",
+      "county": "Region Hannover",
+      "state": "Niedersachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2"
+  },
+  {
+    "lat": 46.481471,
+    "lon": -1.7616091,
+    "osmID": 8959092298,
+    "osmType": "node",
+    "lastChanged": 1627542999000,
+    "address": {
+      "city": "Les Sables-d'Olonne",
+      "county": "Vendée",
+      "state": "Pays de la Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "contact:webcam": "http://pv.viewsurf.com/1070/Les-Sables-d-Olonne",
+      "man_made": "surveillance",
+      "mapillary": "810645859811876",
+      "name": "Webcam vue de Tanchet, de l'Ecole de Voile",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "http://pv.viewsurf.com/1070/Les-Sables-d-Olonne"
+  },
+  {
+    "lat": 40.0002179,
+    "lon": 15.3732544,
+    "osmID": 8972379232,
+    "osmType": "node",
+    "lastChanged": 1627833060000,
+    "address": {
+      "city": "Marina di Camerota",
+      "county": "Salerno",
+      "state": "Campania",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.prolococamerota.it",
+      "man_made": "surveillance",
+      "name": "WebCam Marina di Camerota",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://www.prolococamerota.it"
+  },
+  {
+    "lat": 49.5551799,
+    "lon": 25.6397147,
+    "osmID": 8977337617,
+    "osmType": "node",
+    "lastChanged": 1628070179000,
+    "address": {
+      "city": "Тернопіль",
+      "state": "Тернопільська область",
+      "country": "Ukraine"
+    },
+    "osmTags": {
+      "camera:direction": "73",
+      "camera:type": "fixed",
+      "contact:webcam": "http://ternopil.webcam",
+      "man_made": "surveillance",
+      "name": "Перехрестя Злуки - 15 квітня #2",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "http://ternopil.webcam"
   }
 ]
