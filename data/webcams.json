@@ -1381,21 +1381,27 @@
     "lon": 10.6491082,
     "osmID": 1329541658,
     "osmType": "node",
-    "lastChanged": 1308398145000,
+    "lastChanged": 1628418933000,
     "address": {
       "city": "Oslo",
       "country": "Norway"
     },
     "osmTags": {
-      "contact:webcam": "http://voksenlia.net/cam3/full/voksenlia.jpg",
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "http://voksenlia.net/",
       "contact:website": "http://voksenlia.net/",
       "man_made": "surveillance",
+      "name": "Utsikt fra Voksenlia",
+      "name:en": "View from Voksenlia",
+      "name:no": "Utsikt fra Voksenlia",
       "operator": "Steinar Midtskogen",
-      "source": "website",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "view"
     },
     "operator": "Steinar Midtskogen",
-    "url": "http://voksenlia.net/cam3/full/voksenlia.jpg"
+    "url": "http://voksenlia.net/"
   },
   {
     "lat": 59.9887,
@@ -5901,25 +5907,30 @@
     "url": "http://www.juistnews.de/webcam/juisterhof/juistcam.jpg"
   },
   {
-    "lat": 60.0764822,
-    "lon": 10.6553576,
+    "lat": 60.076422,
+    "lon": 10.6554247,
     "osmID": 1671401684,
     "osmType": "node",
-    "lastChanged": 1331516389000,
+    "lastChanged": 1628414252000,
     "address": {
       "city": "Oslo",
       "country": "Norway"
     },
     "osmTags": {
       "camera:direction": "130",
-      "fixme": "resurvey camera direction",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.kikutstua.no/index.php?side=vaer",
       "man_made": "surveillance",
+      "name": "Webcam and weather station at Kikutstua",
+      "name:no": "Nettkamera og værstasjon på Kikutstua",
       "operator": "Skiforeningen",
       "surveillance": "webcam",
-      "url": "http://test.holmenkollen.com/home/kikut"
+      "surveillance:type": "camera",
+      "surveillance:zone": "lake"
     },
     "operator": "Skiforeningen",
-    "url": "http://test.holmenkollen.com/home/kikut"
+    "url": "http://www.kikutstua.no/index.php?side=vaer"
   },
   {
     "lat": 60.8385335,
@@ -6512,11 +6523,11 @@
     "url": "http://stream1.is74.ru/jpg/victoria?refresh="
   },
   {
-    "lat": 55.1717568,
-    "lon": 61.294866,
+    "lat": 55.1706794,
+    "lon": 61.2960369,
     "osmID": 2059447334,
     "osmType": "node",
-    "lastChanged": 1601625291000,
+    "lastChanged": 1628415268000,
     "address": {
       "city": "Челябинск",
       "county": "Челябинский городской округ",
@@ -6524,16 +6535,21 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "170",
       "camera:features": "webcam",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/img/SalavataUlaeva-Kashirinyh.jpg",
-      "image": "https://www.is74.ru/interactive_map/streets_online/img/SalavataUlaeva-Kashirinyh.jpg",
+      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=954",
       "man_made": "surveillance",
+      "name": "БРАТЬЕВ КАШИРИНЫХ - САЛАВАТА ЮЛАЕВА",
+      "name:en": "KASHIRIN'S BROTHERS - SALAVATA YULAEVA",
+      "name:ru": "БРАТЬЕВ КАШИРИНЫХ - САЛАВАТА ЮЛАЕВА",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
       "website": "https://www.is74.ru/interactive_map/streets_online/img/SalavataUlaeva-Kashirinyh.jpg"
     },
-    "url": "https://www.is74.ru/interactive_map/streets_online/img/SalavataUlaeva-Kashirinyh.jpg"
+    "url": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=954"
   },
   {
     "lat": 55.1673041,
@@ -18194,7 +18210,7 @@
     "lon": 7.8516499,
     "osmID": 7635188592,
     "osmType": "node",
-    "lastChanged": 1627627043000,
+    "lastChanged": 1628414969000,
     "address": {
       "city": "Unterseen",
       "county": "Verwaltungskreis Interlaken-Oberhasli",
@@ -18203,11 +18219,13 @@
     },
     "osmTags": {
       "camera:mount": "street_lamp",
-      "camera:type": "public",
+      "camera:type": "360",
       "contact:webcam": "https://www.jungfrau.ch/webcams/interlaken-harderkulm/",
       "man_made": "surveillance",
+      "name": "interlaken harderkulm",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "view"
     },
     "url": "https://www.jungfrau.ch/webcams/interlaken-harderkulm/"
   },
@@ -19286,19 +19304,24 @@
     "lon": 4.0509917,
     "osmID": 7824407290,
     "osmType": "node",
-    "lastChanged": 1597787446000,
+    "lastChanged": 1628414344000,
     "address": {
       "city": "Rockanje",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:direction": "270",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=0q04F-t7sbU",
       "man_made": "surveillance",
+      "name": "Rockanje Strand 1e slag",
+      "name:en": "Rockanje Beach",
+      "name:nl": "Rockanje Strand 1e slag",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
     },
     "url": "https://www.youtube.com/watch?v=0q04F-t7sbU"
   },
@@ -19382,7 +19405,7 @@
     "lon": 138.6000378,
     "osmID": 7826156074,
     "osmType": "node",
-    "lastChanged": 1597844045000,
+    "lastChanged": 1628415394000,
     "address": {
       "city": "Adelaide",
       "county": "Adelaide City Council",
@@ -19395,6 +19418,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://explore.cityofadelaide.com.au/webcams/town-hall-south/",
       "man_made": "surveillance",
+      "name": "Town Hall South",
       "operator": "City of Adelaide",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -19407,7 +19431,7 @@
     "lon": 138.6000332,
     "osmID": 7826156075,
     "osmType": "node",
-    "lastChanged": 1597844045000,
+    "lastChanged": 1628415394000,
     "address": {
       "city": "Adelaide",
       "county": "Adelaide City Council",
@@ -19420,6 +19444,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://explore.cityofadelaide.com.au/webcams/town-hall-north/",
       "man_made": "surveillance",
+      "name": "Town Hall North",
       "operator": "City of Adelaide",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -19679,10 +19704,10 @@
   },
   {
     "lat": 35.1972703,
-    "lon": -111.6492201,
+    "lon": -111.64922,
     "osmID": 8063949085,
     "osmType": "node",
-    "lastChanged": 1604008906000,
+    "lastChanged": 1628414507000,
     "address": {
       "city": "Flagstaff",
       "county": "Coconino County",
@@ -19695,18 +19720,21 @@
       "camera:type": "dome",
       "contact:webcam": "https://www.youtube.com/watch?v=XnotRrW1udI",
       "man_made": "surveillance",
+      "name": "Flagstaff, Arizona - east",
+      "operator": "Virtual Railfan",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
+    "operator": "Virtual Railfan",
     "url": "https://www.youtube.com/watch?v=XnotRrW1udI"
   },
   {
     "lat": 35.1972767,
-    "lon": -111.6492423,
+    "lon": -111.649242,
     "osmID": 8063949086,
     "osmType": "node",
-    "lastChanged": 1604008906000,
+    "lastChanged": 1628414507000,
     "address": {
       "city": "Flagstaff",
       "county": "Coconino County",
@@ -19719,10 +19747,13 @@
       "camera:type": "dome",
       "contact:webcam": "https://www.youtube.com/watch?v=5vkLsRK4N8A",
       "man_made": "surveillance",
+      "name": "Flagstaff, Arizona - West",
+      "operator": "Virtual Railfan",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
+    "operator": "Virtual Railfan",
     "url": "https://www.youtube.com/watch?v=5vkLsRK4N8A"
   },
   {
@@ -19948,7 +19979,7 @@
     "lon": -3.0548206,
     "osmID": 8206628841,
     "osmType": "node",
-    "lastChanged": 1613212958000,
+    "lastChanged": 1628415054000,
     "address": {
       "city": "South Lakeland",
       "county": "Cumbria",
@@ -19961,9 +19992,13 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.threeshiresinn.co.uk/webcam",
       "man_made": "surveillance",
+      "name": "Lake District Webcam",
+      "operator": "The Three Shires Inn",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "view"
     },
+    "operator": "The Three Shires Inn",
     "url": "https://www.threeshiresinn.co.uk/webcam"
   },
   {
@@ -25779,5 +25814,28 @@
       "surveillance:zone": "traffic"
     },
     "url": "http://ternopil.webcam"
+  },
+  {
+    "lat": 51.4468407,
+    "lon": 6.7815798,
+    "osmID": 8990615052,
+    "osmType": "node",
+    "lastChanged": 1628450817000,
+    "address": {
+      "city": "Duisburg",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "80",
+      "camera:mount": "gantry",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.blitzvideoserver.de/player_strassennrw.html?serverip=62.113.210.7&serverapp=strassennrw-rtplive&streamname=10105753854339539156&a=-1&&autostart=-1",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.blitzvideoserver.de/player_strassennrw.html?serverip=62.113.210.7&serverapp=strassennrw-rtplive&streamname=10105753854339539156&a=-1&&autostart=-1"
   }
 ]
