@@ -961,6 +961,7 @@
     "lastChanged": 1299588016000,
     "address": {
       "city": "Псков",
+      "county": "городской округ Псков",
       "state": "Псковская область",
       "country": "Russian Federation"
     },
@@ -977,7 +978,8 @@
     "osmType": "node",
     "lastChanged": 1322829134000,
     "address": {
-      "city": "городской округ Псков",
+      "city": "Псков",
+      "county": "городской округ Псков",
       "state": "Псковская область",
       "country": "Russian Federation"
     },
@@ -995,6 +997,7 @@
     "lastChanged": 1299588016000,
     "address": {
       "city": "Псков",
+      "county": "городской округ Псков",
       "state": "Псковская область",
       "country": "Russian Federation"
     },
@@ -25518,6 +25521,7 @@
     "osmType": "node",
     "lastChanged": 1626362839000,
     "address": {
+      "city": "Maastricht",
       "state": "Limburg",
       "country": "Netherlands"
     },
@@ -25542,6 +25546,7 @@
     "osmType": "node",
     "lastChanged": 1626362839000,
     "address": {
+      "city": "Maastricht",
       "state": "Limburg",
       "country": "Netherlands"
     },
@@ -26274,5 +26279,29 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://chart.maryland.gov/video/video.php?feed=1d01f5fa004e002e005cd336c4235c0a"
+  },
+  {
+    "lat": 51.1507876,
+    "lon": -1.4554314,
+    "osmID": 9101685200,
+    "osmType": "node",
+    "lastChanged": 1631896846000,
+    "address": {
+      "city": "Test Valley",
+      "county": "Hampshire",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "18",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.farsondigitalwatercams.com/locations/whitchurch",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "river"
+    },
+    "url": "https://www.farsondigitalwatercams.com/locations/whitchurch"
   }
 ]
