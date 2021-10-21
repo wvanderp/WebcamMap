@@ -99,7 +99,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     const url = getNominatimUrl(lat, lon);
 
     console.log(`reaching to nominatim for ${lat},${lon}`);
-    const {data} = await axios.get(url);
+    const {data} = await axios.get<NominatimResponse>(url);
 
     nominatimCache[`${lat},${lon}`] = {
         ...data,
