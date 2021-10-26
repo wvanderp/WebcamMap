@@ -48,7 +48,6 @@
   "extends": [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "plugin:compat/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:sonarjs/recommended",
@@ -165,6 +164,7 @@
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "unicorn/prefer-node-protocol": "off",
-    "jsx-a11y/click-events-have-key-events": "off"
+    "jsx-a11y/click-events-have-key-events": "off",
+    "unicorn/prefer-module": "off"
   }
 }
