@@ -4,7 +4,7 @@
     "lon": 10.6885769,
     "osmID": 25393510,
     "osmType": "node",
-    "lastChanged": 1577127168000,
+    "lastChanged": 1635259118000,
     "address": {
       "city": "Lübeck",
       "state": "Schleswig-Holstein",
@@ -15,19 +15,19 @@
       "amenity": "pub",
       "contact:email": "post@zolln.de",
       "contact:phone": "+49 451 72395",
-      "contact:webcam": "http://www.alter-zolln.de/webcam/webcam.html",
-      "contact:website": "http://www.alter-zolln.de/",
+      "contact:website": "http://www.zolln.de/",
       "internet_access": "wlan",
       "internet_access:fee": "no",
       "name": "Im alten Zolln",
-      "opening_hours": "Mo-Su 11:00-24:00+ open \"geöffnet täglich von 11:00 Uhr bis tief in die Nacht\"",
+      "opening_hours": "Mo,Th,Fr 12:00-24:00; Tu,We,Sa 16:00-24:00",
+      "opening_hours:url": "https://zolln.de/",
       "operator": "Hardy Büttner",
       "smoking": "separated",
       "surveillance": "webcam",
       "wheelchair": "no"
     },
     "operator": "Hardy Büttner",
-    "url": "http://www.alter-zolln.de/webcam/webcam.html"
+    "url": "http://www.zolln.de/"
   },
   {
     "lat": 52.5161048,
@@ -259,25 +259,6 @@
     "url": "http://www.webcam-baden-baden.de"
   },
   {
-    "lat": 52.5049109,
-    "lon": 13.2811168,
-    "osmID": 506884271,
-    "osmType": "node",
-    "lastChanged": 1273946761000,
-    "address": {
-      "city": "Berlin",
-      "state": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url:webcam": "http://www.vmz-info.de/VMZ_WEBCAMS/webcam1-2.jpg",
-      "website": "http://www.vmzberlin.de/"
-    },
-    "url": "http://www.vmz-info.de/VMZ_WEBCAMS/webcam1-2.jpg"
-  },
-  {
     "lat": 50.5232857,
     "lon": 6.880723,
     "osmID": 702805467,
@@ -382,42 +363,6 @@
       "website": "http://www.johthal.de"
     },
     "url": "http://www.johthal.de"
-  },
-  {
-    "lat": 52.4486672,
-    "lon": 13.6513834,
-    "osmID": 725320233,
-    "osmType": "node",
-    "lastChanged": 1552461311000,
-    "address": {
-      "state": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "surveillance": "webcam",
-      "url": "http://www.igb-berlin.de/abt2/ms/ms_cam.shtml",
-      "url:webcam": "http://www.igb-berlin.de/abt2/ms/images/webcam/current_mega_l.jpg",
-      "website": "https://www.igb-berlin.de/"
-    },
-    "url": "http://www.igb-berlin.de/abt2/ms/ms_cam.shtml"
-  },
-  {
-    "lat": 52.448665,
-    "lon": 13.6514358,
-    "osmID": 725320253,
-    "osmType": "node",
-    "lastChanged": 1552461310000,
-    "address": {
-      "state": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "surveillance": "webcam",
-      "url": "http://www.igb-berlin.de/abt2/ms/ms_cam.shtml",
-      "url:webcam": "http://www.igb-berlin.de/abt2/ms/images/webcam/current_mega_r.jpg",
-      "website": "https://www.igb-berlin.de/"
-    },
-    "url": "http://www.igb-berlin.de/abt2/ms/ms_cam.shtml"
   },
   {
     "lat": 52.5190663,
@@ -6976,7 +6921,7 @@
     "lon": 9.9255367,
     "osmID": 2578307981,
     "osmType": "node",
-    "lastChanged": 1408374631000,
+    "lastChanged": 1635240990000,
     "address": {
       "city": "Würzburg",
       "state": "Bayern",
@@ -6987,16 +6932,17 @@
       "camera:direction": "200",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.wuerzburg.de/de/weitere-informationen/uebersicht/multimedia/webcams/index.html",
+      "contact:webcam": "https://www.wuerzburg.de/tourismus/service/webcam/index.html",
       "height": "25",
       "man_made": "surveillance",
+      "name": "Webcam Würzburg",
       "operator": "Stadt Würzburg",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
     "operator": "Stadt Würzburg",
-    "url": "http://www.wuerzburg.de/de/weitere-informationen/uebersicht/multimedia/webcams/index.html"
+    "url": "https://www.wuerzburg.de/tourismus/service/webcam/index.html"
   },
   {
     "lat": 49.7576733,
@@ -8441,7 +8387,7 @@
     "lon": -92.4939111,
     "osmID": 3211647589,
     "osmType": "node",
-    "lastChanged": 1628862701000,
+    "lastChanged": 1635240229000,
     "address": {
       "city": "La Plata",
       "county": "Macon County",
@@ -8452,16 +8398,43 @@
       "camera:direction": "-130",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=XFrD0GzrZmE",
+      "contact:webcam": "https://www.youtube.com/watch?v=8XlygX3v9lE",
       "man_made": "surveillance",
-      "name": "La Plata, Missouri, USA",
+      "name": "La Plata West, Missouri, USA",
       "operator": "Virtual Railfan",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "railway"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=XFrD0GzrZmE"
+    "url": "https://www.youtube.com/watch?v=8XlygX3v9lE"
+  },
+  {
+    "lat": 40.0291012,
+    "lon": -92.4938428,
+    "osmID": 3211647590,
+    "osmType": "node",
+    "lastChanged": 1635279881000,
+    "address": {
+      "city": "La Plata",
+      "county": "Macon County",
+      "state": "Missouri",
+      "country": "United States"
+    },
+    "osmTags": {
+      "camera:direction": "92",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=3A5KwHhQ3jQ",
+      "man_made": "surveillance",
+      "name": "La Plata East, Missouri, USA",
+      "operator": "Virtual Railfan",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "railway"
+    },
+    "operator": "Virtual Railfan",
+    "url": "https://www.youtube.com/watch?v=3A5KwHhQ3jQ"
   },
   {
     "lat": 54.2942649,
@@ -8918,7 +8891,7 @@
     "lon": -94.6066563,
     "osmID": 3757015340,
     "osmType": "node",
-    "lastChanged": 1629368412000,
+    "lastChanged": 1635279925000,
     "address": {
       "city": "Kansas City",
       "county": "Jackson County",
@@ -8929,7 +8902,7 @@
       "camera:direction": "240",
       "camera:mount": "wall",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=hNvU59Ld8aA",
+      "contact:webcam": "https://www.youtube.com/watch?v=Cj7uQPCpTjw",
       "man_made": "surveillance",
       "name": "Santa Fe Junction",
       "operator": "Virtual Railfan",
@@ -8938,7 +8911,7 @@
       "surveillance:zone": "area"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=hNvU59Ld8aA"
+    "url": "https://www.youtube.com/watch?v=Cj7uQPCpTjw"
   },
   {
     "lat": 52.8448414,
@@ -14351,7 +14324,7 @@
     "lon": 10.1213522,
     "osmID": 5311914532,
     "osmType": "node",
-    "lastChanged": 1514635876000,
+    "lastChanged": 1635241154000,
     "address": {
       "city": "Gemeinde Dalaas",
       "county": "Bezirk Bludenz",
@@ -14362,6 +14335,8 @@
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "http://www.vorarlberg-cam.at/wetter/zuers-madloch-livestream.html",
+      "description": "Livestream webcam at the mountain station of the Madlochbahn in Zürs am Arlberg",
+      "description:de": "Livestream Webcam an der Bergstation der Madlochbahn in Zürs am Arlberg",
       "man_made": "surveillance",
       "name": "Webcam Madloch",
       "surveillance": "webcam",
@@ -16398,32 +16373,6 @@
     "url": "https://hb.511ia.org/#cameras/albumView/59153581?timeFrame=TODAY&layers=cameras%2CgoogleTraffic"
   },
   {
-    "lat": 42.006306,
-    "lon": -93.5864812,
-    "osmID": 6533530064,
-    "osmType": "node",
-    "lastChanged": 1559984937000,
-    "address": {
-      "city": "Ames",
-      "county": "Story County",
-      "state": "Iowa",
-      "country": "United States"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "dome",
-      "contact:webcam": "https://hb.511ia.org/#cameras/albumView/59153463?timeFrame=TODAY&layers=cameras%2CgoogleTraffic",
-      "man_made": "surveillance",
-      "operator": "Iowa Department of Transportation",
-      "ref": "AMTV18",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "operator": "Iowa Department of Transportation",
-    "url": "https://hb.511ia.org/#cameras/albumView/59153463?timeFrame=TODAY&layers=cameras%2CgoogleTraffic"
-  },
-  {
     "lat": 42.0344984,
     "lon": -93.8490842,
     "osmID": 6533543654,
@@ -16532,7 +16481,7 @@
     "osmType": "node",
     "lastChanged": 1560095493000,
     "address": {
-      "city": "Waldkirch",
+      "city": "Simonswald",
       "county": "Landkreis Emmendingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
@@ -16986,7 +16935,7 @@
     "lon": -92.4900252,
     "osmID": 6969482252,
     "osmType": "node",
-    "lastChanged": 1608166325000,
+    "lastChanged": 1635240229000,
     "address": {
       "city": "La Plata",
       "county": "Macon County",
@@ -16996,14 +16945,14 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=AAQUGsUzWbE",
+      "contact:webcam": "https://www.youtube.com/watch?v=3A5KwHhQ3jQ",
       "man_made": "surveillance",
-      "name": "Virtual Railfan La Plata, MO",
+      "name": "La Plata PTZ, Missouri, USA",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=AAQUGsUzWbE"
+    "url": "https://www.youtube.com/watch?v=3A5KwHhQ3jQ"
   },
   {
     "lat": 54.921468,
@@ -17927,6 +17876,7 @@
     "osmType": "node",
     "lastChanged": 1613322196000,
     "address": {
+      "city": "Leuven",
       "county": "Leuven",
       "state": "Vlaams-Brabant",
       "country": "Belgium"
@@ -18534,6 +18484,7 @@
     "osmType": "node",
     "lastChanged": 1596877917000,
     "address": {
+      "city": "Київ",
       "country": "Ukraine"
     },
     "osmTags": {
@@ -19590,7 +19541,7 @@
     "lon": -72.9783611,
     "osmID": 8069799072,
     "osmType": "node",
-    "lastChanged": 1624786146000,
+    "lastChanged": 1635240460000,
     "address": {
       "city": "Chester",
       "county": "Hampden County",
@@ -19601,14 +19552,14 @@
       "camera:direction": "-54",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=HJCxeWaSoAU",
+      "contact:webcam": "https://www.youtube.com/watch?v=s0Ir6ZCXVRA",
       "man_made": "surveillance",
       "name": "Chester Railway Station Museum",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=HJCxeWaSoAU"
+    "url": "https://www.youtube.com/watch?v=s0Ir6ZCXVRA"
   },
   {
     "lat": 48.5444706,
@@ -20137,7 +20088,7 @@
     "osmType": "node",
     "lastChanged": 1611682045000,
     "address": {
-      "city": "Graz",
+      "county": "Graz",
       "state": "Steiermark",
       "country": "Austria"
     },
@@ -20504,6 +20455,7 @@
     "osmType": "node",
     "lastChanged": 1613322465000,
     "address": {
+      "city": "Antwerpen",
       "county": "Antwerpen",
       "state": "Antwerpen",
       "country": "Belgium"
@@ -20894,7 +20846,7 @@
     "lon": -73.9853132,
     "osmID": 8435183094,
     "osmType": "node",
-    "lastChanged": 1624786478000,
+    "lastChanged": 1635241681000,
     "address": {
       "city": "New York",
       "county": "New York County",
@@ -20906,6 +20858,7 @@
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=AdUw5RdyZxI",
+      "description": "Watch live streaming video in 4K of Times Square, New York City.",
       "man_made": "surveillance",
       "name": "EarthCam Live: Times Square in 4K",
       "operator": "EarthCam",
@@ -21581,7 +21534,7 @@
     "lon": 3.8519201,
     "osmID": 8532735475,
     "osmType": "node",
-    "lastChanged": 1624786537000,
+    "lastChanged": 1635241628000,
     "address": {
       "city": "Ouddorp",
       "state": "Zuid-Holland",
@@ -21590,7 +21543,7 @@
     "osmTags": {
       "camera:direction": "310",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=S8-aWT8XhBI",
+      "contact:webcam": "https://www.youtube.com/watch?v=AaqHOY6ggR0",
       "man_made": "surveillance",
       "name": "Webcam Brouwersdam Pooltje",
       "operator": "Brouwersdam cam",
@@ -21598,14 +21551,14 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=S8-aWT8XhBI"
+    "url": "https://www.youtube.com/watch?v=AaqHOY6ggR0"
   },
   {
     "lat": 51.7532292,
     "lon": 3.8518209,
     "osmID": 8532735476,
     "osmType": "node",
-    "lastChanged": 1624786622000,
+    "lastChanged": 1635241628000,
     "address": {
       "city": "Ouddorp",
       "state": "Zuid-Holland",
@@ -21614,7 +21567,7 @@
     "osmTags": {
       "camera:direction": "260",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=ZQ1f3Y0S5ss",
+      "contact:webcam": "https://www.youtube.com/watch?v=jrchP1IdMcc",
       "man_made": "surveillance",
       "name": "Webcam Brouwersdam Grevelingenmeer",
       "operator": "Brouwersdam cam",
@@ -21622,7 +21575,7 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=ZQ1f3Y0S5ss"
+    "url": "https://www.youtube.com/watch?v=jrchP1IdMcc"
   },
   {
     "lat": 42.9941659,
@@ -22757,23 +22710,24 @@
     "lon": -82.1216605,
     "osmID": 8707243697,
     "osmType": "node",
-    "lastChanged": 1620325966000,
+    "lastChanged": 1635240283000,
     "address": {
       "county": "Hillsborough County",
       "state": "Florida",
       "country": "United States"
     },
     "osmTags": {
+      "camera:direction": "30",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=wLC-Zg33RYc",
+      "contact:webcam": "https://www.youtube.com/watch?v=yNCWSFQvmww",
       "man_made": "surveillance",
       "name": "Virtual Railfan Camera - Plant City, FL",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=wLC-Zg33RYc"
+    "url": "https://www.youtube.com/watch?v=yNCWSFQvmww"
   },
   {
     "lat": 47.3136846,
@@ -25682,7 +25636,7 @@
     "osmType": "node",
     "lastChanged": 1628450817000,
     "address": {
-      "city": "Duisburg",
+      "county": "Duisburg",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
     },
@@ -27797,5 +27751,27 @@
       "video": "https://stream02.blickfix.com/BI10CAM01/timelapse.mp4"
     },
     "url": "https://www.blickfix.com/webcams/livestream-webcam-in-schoenau-am-wellnesshotel-zechmeisterlehen"
+  },
+  {
+    "lat": 51.9438102,
+    "lon": 4.047526,
+    "osmID": 9203037746,
+    "osmType": "node",
+    "lastChanged": 1635272463000,
+    "address": {
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "50",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.youtube.com/watch?v=M09NaBVPjAI",
+      "man_made": "surveillance",
+      "name": "Amazonehaven west",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.youtube.com/watch?v=M09NaBVPjAI"
   }
 ]
