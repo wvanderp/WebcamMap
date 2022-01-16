@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import {Webcam} from '../../types/webcam';
 import { encodeUrl } from '../../utils/encodeUrl';
 
-const AddressBreadCrumb: React.FC<{ address: Webcam['address'] }> = (props: { address: Webcam['address'] }) => {
+function AddressBreadCrumb(props: { address: Webcam['address'] }) {
     const {address} = props;
     return (
         <ul className={'breadCrumbs'}>
@@ -14,6 +14,6 @@ const AddressBreadCrumb: React.FC<{ address: Webcam['address'] }> = (props: { ad
             {address.city && <li className={'breadCrumb'}><Link to={`/city/${encodeUrl(address.city)}`}>{address.city}</Link></li>}
         </ul>
     );
-};
+}
 
 export default AddressBreadCrumb;

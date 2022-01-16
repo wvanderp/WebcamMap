@@ -18,9 +18,9 @@ interface PopupContentProps {
     webcam: Webcam;
 }
 
-const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
+function PopupContent(
     {webcam}: PropsWithChildren<PopupContentProps>
-) => {
+) {
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
     const cardTitle = generateName(webcam);
@@ -52,6 +52,6 @@ const PopupContent: React.FC<PropsWithChildren<PopupContentProps>> = (
             </a>
         </div>
     );
-};
+}
 
 export default PopupContent;

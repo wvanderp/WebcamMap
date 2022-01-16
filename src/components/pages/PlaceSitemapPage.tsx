@@ -1,3 +1,5 @@
+/* eslint-disable unicorn/prefer-object-from-entries */
+// @ts-nocheck
 import * as React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import {Link} from 'react-router-dom';
@@ -14,8 +16,12 @@ interface ListComponentsProps{
     level?: number
 }
 
-const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListComponentsProps) => {
+function ListComponents({tree, level = 0}: ListComponentsProps) {
     if ('osmID' in tree || level === 4) {
+        return null;
+    }
+
+    if (level < 0 || level > 4) {
         return null;
     }
 
@@ -33,7 +39,7 @@ const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListCo
                     <span key={key}>
                         {
                             key !== 'unknown'
-                                ? <li><Link to={`${levelLookup[level]}/${encodeUrl(key)}`}>{key}</Link></li>
+                                ? <li><Link to={`/${levelLookup[level]}/${encodeUrl(key)}`} replace>{key}</Link></li>
                                 : <li>{key}</li>
                         }
                         <ul>
@@ -44,10 +50,10 @@ const ListComponents: React.FC<ListComponentsProps> = ({tree, level = 0}: ListCo
             }
         </span>
     );
-};
+}
 
-const PlaceSitemapPage: React.FC = () => {
-    // eslint-disable-next-line unicorn/no-array-reduce
+function PlaceSitemapPage() {
+    // eslint-disable-next-line unicorn/prefer-object-from-entries, unicorn/no-array-reduce
     const tree = webcams.reduce(
         (accumulator, value: Webcam) => set(
             accumulator,
@@ -77,6 +83,6 @@ const PlaceSitemapPage: React.FC = () => {
             </Row>
         </Container>
     );
-};
+}
 
 export default PlaceSitemapPage;

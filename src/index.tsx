@@ -1,6 +1,6 @@
 import * as React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
@@ -23,22 +23,23 @@ import MaintenancePage from './components/pages/MaintenancePage';
 ReactDOM.render(
     <Router>
         <Menu />
-        <Switch>
-            <Route exact path="/" component={MapView}/>
+        <Routes >
+            <Route path="/" element={<MapView/>} />
 
-            <Route exact path="/country/:name" component={ListPage}/>
-            <Route exact path="/state/:name" component={ListPage}/>
-            <Route exact path="/county/:name" component={ListPage}/>
-            <Route exact path="/city/:name" component={ListPage}/>
+            <Route path="/country/:name" element={<ListPage/>} />
+            <Route path="/state/:name" element={<ListPage/>} />
+            <Route path="/county/:name" element={<ListPage/>} />
+            <Route path="/city/:name" element={<ListPage/>} />
 
-            <Route exact path="/webcam/:id" component={WebcamPage}/>
+            <Route path="/webcam/:id" element={<WebcamPage/>} />
 
-            <Route exact path="/webcams/" component={WebcamsSitemapPage}/>
-            <Route exact path="/places/" component={PlaceSitemapPage}/>
-            <Route exact path="/maintenance/" component={MaintenancePage}/>
+            <Route path="/webcams/" element={<WebcamsSitemapPage/>} />
+            <Route path="/places/" element={<PlaceSitemapPage/>} />
+            <Route path="/maintenance/" element={<MaintenancePage/>} />
 
-            <Route component={FourOFour}/>
-        </Switch>
+            <Route path="/404" element={<FourOFour/>} />
+            <Route path="*" element={<FourOFour/>} />
+        </Routes >
     </Router>,
     document.querySelector('#app')
 );
