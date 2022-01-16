@@ -1,36 +1,40 @@
 import * as React from 'react';
-import {useCallback, useEffect, useState } from 'react';
-import {match} from 'react-router';
+import { useCallback, useEffect, useState } from 'react';
+import { useParams, Navigate } from 'react-router-dom';
+
 import chunk from 'lodash.chunk';
 
-import {MapContainer, Marker, Popup, TileLayer} from 'react-leaflet';
-import {LatLngBoundsLiteral, Map as LeafletMap} from 'leaflet';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { LatLngBoundsLiteral, Map as LeafletMap } from 'leaflet';
 
-import {Col, Container, Row} from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
 import webcams from '../../../data/webcams.json';
 import PopupContent from '../parts/PopupContent';
-import {Webcam} from '../../types/webcam';
+import { Webcam } from '../../types/webcam';
 import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
 
 import useGlobalState from '../../state';
 
-interface ListPageProps {
-    match: match<{ name: string }>
-}
+function ListPage() {
+    const params = useParams();
+    const url = (new URL(window.location.href)).pathname;
 
-const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
-    if (props.match.params.name.includes(' ')) {
-        window.location.href = encodeUrl(decodeUrl(props.match.params.name));
+    if (params.name === undefined) {
+        return <Navigate to="/404" replace />;
     }
 
-    const name = decodeUrl(props.match.params.name);
-    const type = props.match.url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
+    if (params.name.includes(' ')) {
+        return <Navigate to={encodeUrl(decodeUrl(params.name))} replace />;
+    }
+
+    const name = decodeUrl(params.name);
+    const type = url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
 
     if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
-        window.location.href = '/notfound';
+        return <Navigate to="/404" replace />;
     }
 
     const filteredWebcams: Webcam[] = webcams.filter(
@@ -38,7 +42,7 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
     );
 
     if (filteredWebcams.length === 0) {
-        window.location.href = '/notfound';
+        return <Navigate to="/404" replace />;
     }
 
     const lats: Webcam['lat'][] = filteredWebcams.map((webcam) => webcam.lat);
@@ -56,14 +60,14 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
         return (
             <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
                 <Popup>
-                    <PopupContent webcam={webcam}/>
+                    <PopupContent webcam={webcam} />
                 </Popup>
             </Marker>
         );
     });
 
     const webcamTiles = filteredWebcams.map((r) => (
-        <PopupContent key={r.osmID} webcam={r}/>
+        <PopupContent key={r.osmID} webcam={r} />
     ));
 
     const tableBody = chunk(webcamTiles, 4).map(
@@ -94,13 +98,15 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
         });
     }, [map]);
 
-    useEffect(() => {
-        map?.on('move', onMove);
-        return () => {
-            map?.off('move', onMove);
-        };
-    },
-    [map, onMove]);
+    useEffect(
+        () => {
+            map?.on('move', onMove);
+            return () => {
+                map?.off('move', onMove);
+            };
+        },
+        [map, onMove]
+    );
 
     // TODO: make this page fit the bounds every time it move to a divert part. look at leaflet fitBounds function
 
@@ -126,13 +132,13 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
                 <Row>
                     <Col>
                         <Container fluid>
-                            { tableBody }
+                            {tableBody}
                         </Container>
                     </Col>
                 </Row>
             </Container>
         </div>
     );
-};
+}
 
 export default ListPage;

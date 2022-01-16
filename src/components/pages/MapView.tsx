@@ -11,7 +11,7 @@ import webcams from '../../../data/webcams.json';
 
 import PopupContent from '../parts/PopupContent';
 
-const MapView: React.FC = () => {
+function MapView() {
     const markers = webcams.map((webcam: Webcam) => {
         if (webcam === null) {
             return null;
@@ -36,13 +36,15 @@ const MapView: React.FC = () => {
         });
     }, [map]);
 
-    useEffect(() => {
-        map?.on('move', onMove);
-        return () => {
-            map?.off('move', onMove);
-        };
-    },
-    [map, onMove]);
+    useEffect(
+        () => {
+            map?.on('move', onMove);
+            return () => {
+                map?.off('move', onMove);
+            };
+        },
+        [map, onMove]
+    );
 
     return (
         <div>
@@ -60,6 +62,6 @@ const MapView: React.FC = () => {
             </MapContainer>
         </div>
     );
-};
+}
 
 export default MapView;

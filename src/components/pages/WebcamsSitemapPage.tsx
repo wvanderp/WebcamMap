@@ -5,7 +5,7 @@ import webcams from '../../../data/webcams.json';
 import {Webcam} from '../../types/webcam';
 import PopupContent from '../parts/PopupContent';
 
-const WebcamsSitemapPage: React.FC = () => {
+function WebcamsSitemapPage() {
     const webcamTiles = webcams.map((webcam: Webcam) => (
         <Col key={webcam.osmID} lg={4} md={6} sm={12}>
             <PopupContent key={webcam.osmID} webcam={webcam}/>
@@ -26,6 +26,6 @@ const WebcamsSitemapPage: React.FC = () => {
             </Row>
         </Container>
     );
-};
+}
 
 export default WebcamsSitemapPage;

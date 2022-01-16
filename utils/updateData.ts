@@ -3,7 +3,7 @@
 import axios from 'axios';
 import fs from 'fs';
 import iso3311a2 from 'iso-3166-1-alpha-2';
-import {Webcam} from '../src/types/webcam';
+import { Webcam } from '../src/types/webcam';
 
 export interface OsmResponse {
     version: number;
@@ -73,8 +73,7 @@ const getNominatimCache = (): NominatimCache => {
             )
         );
 
-        console.log(`removed ${
-            Object.values(data).length - Object.values(filteredNominatim).length
+        console.log(`removed ${Object.values(data).length - Object.values(filteredNominatim).length
         } out of date responses`);
 
         return filteredNominatim;
@@ -99,7 +98,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     const url = getNominatimUrl(lat, lon);
 
     console.log(`reaching to nominatim for ${lat},${lon}`);
-    const {data} = await axios.get<NominatimResponse>(url);
+    const { data } = await axios.get<NominatimResponse>(url);
 
     nominatimCache[`${lat},${lon}`] = {
         ...data,
@@ -123,7 +122,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
         throw new Error(`got a ${response.status} from overpass`);
     }
 
-    const {data} = response;
+    const { data } = response;
     const nodes = data.elements;
 
     if (nodes === undefined) {
@@ -148,10 +147,10 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
         }
 
         const url = r.tags['contact:webcam']
-        ?? r.tags.url
-        ?? r.tags['url:webcam']
-        ?? r.tags.website
-        ?? r.tags['contact:website'];
+            ?? r.tags.url
+            ?? r.tags['url:webcam']
+            ?? r.tags.website
+            ?? r.tags['contact:website'];
 
         if (url === undefined) {
             continue;

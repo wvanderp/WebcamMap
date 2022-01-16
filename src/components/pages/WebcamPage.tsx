@@ -1,11 +1,12 @@
 import * as React from 'react';
-import {useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
-import {match} from 'react-router';
-import {MapContainer, Marker, Popup, TileLayer} from 'react-leaflet';
-import {Map as LeafletMap} from 'leaflet';
+import { useParams } from 'react-router';
+import { Navigate } from 'react-router-dom';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { Map as LeafletMap } from 'leaflet';
 
-import {Col, Container, Row, Table} from 'reactstrap';
+import { Col, Container, Row, Table } from 'reactstrap';
 
 import '../../style/WebcamPage.sass';
 
@@ -18,23 +19,23 @@ import MarkerIcon from '../parts/MarkerIcon';
 
 import webcams from '../../../data/webcams.json';
 import PopupContent from '../parts/PopupContent';
-import {Webcam} from '../../types/webcam';
+import { Webcam } from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
 import generateName from '../../utils/generateName';
 
 import useGlobalState from '../../state';
 
-interface ListPageProps {
-    match: match<{ id: string }>
-}
+function ListPage() {
+    const { id } = useParams();
 
-const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
-    const {id} = props.match.params;
+    if (id === undefined) {
+        return <Navigate to="/404" replace />;
+    }
 
     const filteredWebcams: Webcam[] = webcams.filter((webcam: Webcam) => webcam.osmID === Number.parseInt(id, 10));
 
     if (filteredWebcams.length !== 1) {
-        window.location.href = '/notfound';
+        return <Navigate to="/404" />;
     }
 
     const webcam = filteredWebcams[0];
@@ -42,7 +43,7 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
     const marker = (
         <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
             <Popup>
-                <PopupContent webcam={webcam}/>
+                <PopupContent webcam={webcam} />
             </Popup>
         </Marker>
     );
@@ -72,13 +73,15 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
         });
     }, [map]);
 
-    useEffect(() => {
-        map?.on('move', onMove);
-        return () => {
-            map?.off('move', onMove);
-        };
-    },
-    [map, onMove]);
+    useEffect(
+        () => {
+            map?.on('move', onMove);
+            return () => {
+                map?.off('move', onMove);
+            };
+        },
+        [map, onMove]
+    );
 
     return (
         <div>
@@ -105,7 +108,7 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
                             target={'_blank'}
                             rel="noopener noreferrer"
                         >
-                            <img id={'osmLogo'} src={osmIcon} alt={'OSM Entity'}/>
+                            <img id={'osmLogo'} src={osmIcon} alt={'OSM Entity'} />
                         </a>
                         <a
                             href={url}
@@ -122,7 +125,7 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
                 </Row>
                 <Row>
                     <Col md={12}>
-                        <AddressBreadCrumb address={webcam.address}/>
+                        <AddressBreadCrumb address={webcam.address} />
                     </Col>
                 </Row>
                 <Row>
@@ -137,6 +140,6 @@ const ListPage: React.FC<ListPageProps> = (props: ListPageProps) => {
             </Container>
         </div>
     );
-};
+}
 
 export default ListPage;

@@ -8,7 +8,7 @@ import attribution from 'url:../../static/attribution.svg';
 
 import useGlobalState from '../../state';
 
-const Menu: React.FC = () => {
+function Menu() {
     const [location] = useGlobalState('location');
 
     return (
@@ -113,6 +113,6 @@ const Menu: React.FC = () => {
             </div>
         </nav>
     );
-};
+}
 
 export default Menu;
