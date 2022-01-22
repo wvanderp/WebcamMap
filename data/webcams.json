@@ -5642,11 +5642,11 @@
     "url": "https://www.ferienhaus-otterndorf.com/Webcam/"
   },
   {
-    "lat": 51.7075251,
-    "lon": 10.52365,
+    "lat": 51.7079398,
+    "lon": 10.5227017,
     "osmID": 1858868806,
     "osmType": "node",
-    "lastChanged": 1348068424000,
+    "lastChanged": 1642763893000,
     "address": {
       "city": "Braunlage",
       "county": "Landkreis Goslar",
@@ -5654,11 +5654,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "147",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.alberti-lift.de/index.php/webcam-1/11-ski-zentrum/webcams-einzeln/28-webcam-klause",
       "man_made": "surveillance",
+      "name": "Sportklause und Doppelsesselbahn DSB1",
       "surveillance": "webcam",
-      "website": "http://www.alberti-lift.de/webcam/start.html"
+      "surveillance:type": "camera",
+      "surveillance:zone": "piste"
     },
-    "url": "http://www.alberti-lift.de/webcam/start.html"
+    "url": "http://www.alberti-lift.de/index.php/webcam-1/11-ski-zentrum/webcams-einzeln/28-webcam-klause"
   },
   {
     "lat": 43.1731206,
@@ -6302,18 +6307,18 @@
     "lon": 8.7231385,
     "osmID": 2282060576,
     "osmType": "node",
-    "lastChanged": 1424170867000,
+    "lastChanged": 1642772896000,
     "address": {
       "city": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://www.mpia.de/de/service/webcam",
+      "contact:webcam": "https://www.mpia.de/de/services/webcam",
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "http://www.mpia.de/de/service/webcam"
+    "url": "https://www.mpia.de/de/services/webcam"
   },
   {
     "lat": 49.4034752,
@@ -6363,19 +6368,19 @@
     "lon": 8.7057734,
     "osmID": 2282060580,
     "osmType": "node",
-    "lastChanged": 1367888435000,
+    "lastChanged": 1642772762000,
     "address": {
       "city": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://www.waldschenke-heidelberg.de/webcam.php",
+      "contact:webcam": "https://www.waldschenke-heidelberg.de/#page2030",
       "man_made": "surveillance",
       "source:geometry": "HiRes aerial imagery",
       "surveillance": "webcam"
     },
-    "url": "http://www.waldschenke-heidelberg.de/webcam.php"
+    "url": "https://www.waldschenke-heidelberg.de/#page2030"
   },
   {
     "lat": 45.6268287,
@@ -28565,5 +28570,49 @@
       "surveillance:zone": "area"
     },
     "url": "https://jkab-media.com/webcam/"
+  },
+  {
+    "lat": 50.1062222,
+    "lon": 8.6955755,
+    "osmID": 9437085819,
+    "osmType": "node",
+    "lastChanged": 1642774921000,
+    "address": {
+      "city": "Frankfurt am Main",
+      "state": "Hessen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.mainhattan-webcam.de/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.mainhattan-webcam.de/"
+  },
+  {
+    "lat": 50.0522132,
+    "lon": 8.5728996,
+    "osmID": 9437417995,
+    "osmType": "node",
+    "lastChanged": 1642784093000,
+    "address": {
+      "city": "Frankfurt am Main",
+      "state": "Hessen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "20",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.airport-frankfurt-am-main.com/webcams/webcam-flughafen-hotel-sheraton-frankfurt-airport-hotel-conference-center.webp",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.airport-frankfurt-am-main.com/webcams/webcam-flughafen-hotel-sheraton-frankfurt-airport-hotel-conference-center.webp"
   }
 ]
