@@ -1019,7 +1019,7 @@
     "osmType": "node",
     "lastChanged": 1499298358000,
     "address": {
-      "city": "Тольятти",
+      "city": "городской округ Тольятти",
       "state": "Самарская область",
       "country": "Russian Federation"
     },
@@ -16802,7 +16802,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "county": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -28641,5 +28642,54 @@
       "surveillance:zone": "area"
     },
     "url": "http://alexenhof.stamm-net.de/picam/today/img_last.jpg"
+  },
+  {
+    "lat": 50.7273969,
+    "lon": -1.1666039,
+    "osmID": 9444771860,
+    "osmType": "node",
+    "lastChanged": 1643031443000,
+    "address": {
+      "city": "Ryde",
+      "county": "Isle of Wight",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.youtube.com/watch?v=nENnL58BTls",
+      "man_made": "surveillance",
+      "name": "SOLENT VIEW",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "view"
+    },
+    "url": "https://www.youtube.com/watch?v=nENnL58BTls"
+  },
+  {
+    "lat": -3.4261706,
+    "lon": 114.8553672,
+    "osmID": 9445229366,
+    "osmType": "node",
+    "lastChanged": 1643043870000,
+    "address": {
+      "city": "Sekumpul",
+      "county": "Banjar",
+      "state": "Kalimantan Selatan",
+      "country": "Indonesia"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://stream2.banjarkab.go.id:8080/cctv/hls/simpangempatsekumpul.m3u8",
+      "man_made": "surveillance",
+      "source": "survey",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://stream2.banjarkab.go.id:8080/cctv/hls/simpangempatsekumpul.m3u8"
   }
 ]
