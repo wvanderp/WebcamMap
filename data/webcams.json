@@ -5922,7 +5922,7 @@
     "lon": 7.7038591,
     "osmID": 1964914493,
     "osmType": "node",
-    "lastChanged": 1350230287000,
+    "lastChanged": 1643117378000,
     "address": {
       "city": "Neuharlingersiel",
       "county": "Landkreis Wittmund",
@@ -5930,17 +5930,24 @@
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://www.neuharlingersiel.de/index.php?id=369",
-      "surveillance": "webcam"
+      "camera:direction": "303",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/",
+      "man_made": "surveillance",
+      "name": "Webcam 1 – Livebilder aus Neuharlingersiel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
-    "url": "http://www.neuharlingersiel.de/index.php?id=369"
+    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/"
   },
   {
     "lat": 53.7001854,
     "lon": 7.7030739,
     "osmID": 1964914497,
     "osmType": "node",
-    "lastChanged": 1624191966000,
+    "lastChanged": 1643117378000,
     "address": {
       "city": "Neuharlingersiel",
       "county": "Landkreis Wittmund",
@@ -5953,39 +5960,12 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/",
       "man_made": "surveillance",
-      "name": "Livebilder aus Neuharlingersiel",
+      "name": "Webcam 2 – Livebilder aus Neuharlingersiel",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/"
-  },
-  {
-    "lat": 53.7003626,
-    "lon": 7.7044563,
-    "osmID": 1964914500,
-    "osmType": "node",
-    "lastChanged": 1624191966000,
-    "address": {
-      "city": "Neuharlingersiel",
-      "county": "Landkreis Wittmund",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "260",
-      "camera:features": "webcam",
-      "camera:make": "Mobotix",
-      "camera:mount": "wall",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-3-panorama-webcam-neuharlingersiel/",
-      "man_made": "surveillance",
-      "name": "Livebilder aus Neuharlingersiel",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-3-panorama-webcam-neuharlingersiel/"
   },
   {
     "lat": 51.7838274,
@@ -7997,31 +7977,6 @@
     },
     "operator": "Straßenverkehrszentrale Baden-Württemberg",
     "url": "http://www.svz-bw.de/kamera.html?webcamid=B03"
-  },
-  {
-    "lat": 53.6996093,
-    "lon": 7.703703,
-    "osmID": 3107239348,
-    "osmType": "node",
-    "lastChanged": 1624191966000,
-    "address": {
-      "city": "Neuharlingersiel",
-      "county": "Landkreis Wittmund",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "355",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/",
-      "man_made": "surveillance",
-      "name": "Livebilder aus Neuharlingersiel",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/"
   },
   {
     "lat": 49.5550911,
@@ -16774,8 +16729,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16853,7 +16807,7 @@
     "osmType": "node",
     "lastChanged": 1623969102000,
     "address": {
-      "city": "City and County of Denver",
+      "city": "Denver",
       "state": "Colorado",
       "country": "United States"
     },
