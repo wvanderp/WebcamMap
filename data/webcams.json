@@ -7076,11 +7076,11 @@
     "url": "http://www.rickmers-online.de/Webcamsalleklein.html"
   },
   {
-    "lat": 54.1776836,
-    "lon": 7.8896486,
+    "lat": 54.1776924,
+    "lon": 7.8896601,
     "osmID": 2734664147,
     "osmType": "node",
-    "lastChanged": 1628773175000,
+    "lastChanged": 1643223113000,
     "address": {
       "city": "Helgoland",
       "county": "Pinneberg",
@@ -7100,24 +7100,6 @@
       "surveillance:zone": "weather"
     },
     "url": "https://www.rickmers-online.de/wetter#cam"
-  },
-  {
-    "lat": 54.1777294,
-    "lon": 7.8897088,
-    "osmID": 2734664150,
-    "osmType": "node",
-    "lastChanged": 1395516204000,
-    "address": {
-      "city": "Helgoland",
-      "county": "Pinneberg",
-      "state": "Schleswig-Holstein",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.rickmers-online.de/Webcamsalleklein.html",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.rickmers-online.de/Webcamsalleklein.html"
   },
   {
     "lat": 49.7947854,
@@ -9254,10 +9236,10 @@
   },
   {
     "lat": 50.3557887,
-    "lon": 11.1694208,
+    "lon": 11.1693686,
     "osmID": 4344935202,
     "osmType": "node",
-    "lastChanged": 1470861421000,
+    "lastChanged": 1643223400000,
     "address": {
       "city": "Sonneberg",
       "county": "Landkreis Sonneberg",
@@ -9265,11 +9247,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "328",
+      "camera:type": "fixed",
+      "contact:webcam": "https://stadt-son.de/",
       "man_made": "surveillance",
+      "name": "Sonneberg Bahnhofsplatz webcam",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "website": "http://www.stadt-son.de/webcam/"
     },
-    "url": "http://www.stadt-son.de/webcam/"
+    "url": "https://stadt-son.de/"
   },
   {
     "lat": 50.4004775,
@@ -16322,6 +16309,52 @@
     "url": "http://m.webcam-hd.com/pontarlier/la-malmaison"
   },
   {
+    "lat": 46.8824372,
+    "lon": 17.4364732,
+    "osmID": 6653909828,
+    "osmType": "node",
+    "lastChanged": 1643227705000,
+    "address": {
+      "city": "Tapolca",
+      "county": "Veszprém megye",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "84",
+      "contact:webcam": "http://www.idokep.hu/webkamera/tapolcacam",
+      "man_made": "surveillance",
+      "name": "Tapolca Casco Ház webkamera",
+      "note": "Bárki meg lehet nézni a webkamerát! ;)",
+      "start_date": "2019-03-14",
+      "surveillance": "webcam",
+      "surveillance:type": "webcam"
+    },
+    "url": "http://www.idokep.hu/webkamera/tapolcacam"
+  },
+  {
+    "lat": 46.8828431,
+    "lon": 17.4416311,
+    "osmID": 6685147236,
+    "osmType": "node",
+    "lastChanged": 1643227705000,
+    "address": {
+      "city": "Tapolca",
+      "county": "Veszprém megye",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "contact:webcam": "https://www.idokep.hu/webkamera/tapolcacam1",
+      "man_made": "surveillance",
+      "name": "Tapolca Fő téri webkamera",
+      "note": "Bárki meg lehet nézni a webkamerát! ;)",
+      "start_date": "2019-08-05",
+      "surveillance": "webcam",
+      "surveillance:type": "webcam"
+    },
+    "url": "https://www.idokep.hu/webkamera/tapolcacam1"
+  },
+  {
     "lat": 41.2306649,
     "lon": -95.8406062,
     "osmID": 6725516809,
@@ -17991,6 +18024,7 @@
     "osmType": "node",
     "lastChanged": 1638279156000,
     "address": {
+      "city": "London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -22054,7 +22088,7 @@
     "osmType": "node",
     "lastChanged": 1619563782000,
     "address": {
-      "city": "Mittersill",
+      "city": "Stuhlfelden",
       "county": "Bezirk Zell am See",
       "state": "Salzburg",
       "country": "Austria"
