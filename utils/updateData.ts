@@ -163,7 +163,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
             lon: r.lon,
 
             osmID: r.id,
-            user: r.user
+            user: r.user,
             osmType: r.type,
 
             lastChanged: Date.parse(r.timestamp),

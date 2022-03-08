@@ -15,9 +15,9 @@ function MaintenancePage() {
     const [meFilter, setMeFilter] = useState(false);
 
     const webcamRow = webcams
-        .filter((a) => (youtubeFilter ? a.url.includes('youtube') : true))
-        .filter((a) => (nameFilter ? !a.osmTags.name : true))
-        .filter((a) => (meFilter ? !a.osmTags.user === "wvdp" : true))
+        .filter((a: Webcam) => (youtubeFilter ? a.url.includes('youtube') : true))
+        .filter((a: Webcam) => (nameFilter ? !a.osmTags.name : true))
+        .filter((a: Webcam) => (meFilter ? a.user === 'wvdp' : true))
         .sort((a, b) => a.lastChanged - b.lastChanged)
         .map((webcam: Webcam) => (
             <tr key={webcam.osmID}>
