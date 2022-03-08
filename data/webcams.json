@@ -7,6 +7,7 @@
     "lastChanged": 1635259118000,
     "address": {
       "city": "Lübeck",
+      "county": "Lübeck",
       "state": "Schleswig-Holstein",
       "country": "Germany"
     },
@@ -439,11 +440,11 @@
     "url": "https://www.berlin.de/webcams/4350944-4350835-webcam-am-rotes-rathaus.html"
   },
   {
-    "lat": 50.8533742,
-    "lon": 14.7061829,
+    "lat": 50.8533617,
+    "lon": 14.7061849,
     "osmID": 751827364,
     "osmType": "node",
-    "lastChanged": 1522698220000,
+    "lastChanged": 1645956030000,
     "address": {
       "city": "Jonsdorf",
       "county": "Görlitz",
@@ -451,11 +452,18 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/",
       "contact:website": "http://www.soeg-zittau.de",
+      "man_made": "surveillance",
+      "name": "Bahnhof Jonsdorf",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "station",
       "website": "http://www.soeg-zittau.de/picjon/"
     },
-    "url": "http://www.soeg-zittau.de/picjon/"
+    "url": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/"
   },
   {
     "lat": 54.4301857,
@@ -532,7 +540,7 @@
     "lon": 31.4689261,
     "osmID": 896455168,
     "osmType": "node",
-    "lastChanged": 1523211977000,
+    "lastChanged": 1645352815000,
     "address": {
       "city": "Канів",
       "state": "Черкаська область",
@@ -544,6 +552,8 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.kaniv.net/wc.php",
       "man_made": "surveillance",
+      "name": "Веб-камера в центрі міста",
+      "name:en": "Webcam in the city center",
       "operator": "www.kaniv.net",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -650,31 +660,11 @@
     "url": "http://217.152.196.254:8080/"
   },
   {
-    "lat": 49.50689,
-    "lon": -1.847207,
-    "osmID": 1162700614,
-    "osmType": "node",
-    "lastChanged": 1366586384000,
-    "address": {
-      "city": "Les Pieux",
-      "county": "Manche",
-      "state": "Normandie",
-      "country": "France"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.lahague-tourisme.com/lahague/webcams",
-      "man_made": "surveillance",
-      "note": "voir aussi http://www.lahague-tourisme.com/index.php?&option=webcamVS&action=afficher_contenu&produit=lahague01",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.lahague-tourisme.com/lahague/webcams"
-  },
-  {
-    "lat": 57.8192935,
-    "lon": 28.2936352,
+    "lat": 57.8191275,
+    "lon": 28.2933235,
     "osmID": 1192580167,
     "osmType": "node",
-    "lastChanged": 1299588016000,
+    "lastChanged": 1646036821000,
     "address": {
       "city": "Псков",
       "county": "городской округ Псков",
@@ -682,46 +672,16 @@
       "country": "Russian Federation"
     },
     "osmTags": {
-      "contact:webcam": "http://pskovline.tv/camers/view/view.php?cam=komm_ubil",
-      "surveillance": "webcam"
+      "camera:direction": "350",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pskov.camera/#cam0",
+      "man_made": "surveillance",
+      "name": "Перекресток Коммунальной и Юбилейной",
+      "name:en": "Crossroads of Kommunalnaya and Yubileinaya",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
-    "url": "http://pskovline.tv/camers/view/view.php?cam=komm_ubil"
-  },
-  {
-    "lat": 57.8120292,
-    "lon": 28.3384206,
-    "osmID": 1192580168,
-    "osmType": "node",
-    "lastChanged": 1322829134000,
-    "address": {
-      "city": "Псков",
-      "county": "городской округ Псков",
-      "state": "Псковская область",
-      "country": "Russian Federation"
-    },
-    "osmTags": {
-      "contact:webcam": "http://pskovline.tv/camers/view/view.php?cam=komso",
-      "surveillance": "webcam"
-    },
-    "url": "http://pskovline.tv/camers/view/view.php?cam=komso"
-  },
-  {
-    "lat": 57.8168686,
-    "lon": 28.3337377,
-    "osmID": 1192580169,
-    "osmType": "node",
-    "lastChanged": 1299588016000,
-    "address": {
-      "city": "Псков",
-      "county": "городской округ Псков",
-      "state": "Псковская область",
-      "country": "Russian Federation"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.teleseti.com/cam3/w_cam.php",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.teleseti.com/cam3/w_cam.php"
+    "url": "https://pskov.camera/#cam0"
   },
   {
     "lat": 56.3112338,
@@ -987,28 +947,6 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100103"
   },
   {
-    "lat": 53.486433,
-    "lon": 49.472983,
-    "osmID": 1307518012,
-    "osmType": "node",
-    "lastChanged": 1306914638000,
-    "address": {
-      "city": "Тольятти",
-      "state": "Самарская область",
-      "country": "Russian Federation"
-    },
-    "osmTags": {
-      "contact:webcam": "http://gorod.megafonvolga.ru/swf/source_33.swf",
-      "man_made": "surveillance",
-      "name": "Громова 1",
-      "operator": "МегаФон",
-      "surveillance": "webcam",
-      "website": "http://gorod.megafonvolga.ru/?city=2"
-    },
-    "operator": "МегаФон",
-    "url": "http://gorod.megafonvolga.ru/swf/source_33.swf"
-  },
-  {
     "lat": 53.483722,
     "lon": 49.508072,
     "osmID": 1307518030,
@@ -1016,6 +954,7 @@
     "lastChanged": 1306914639000,
     "address": {
       "city": "Тольятти",
+      "county": "городской округ Тольятти",
       "state": "Самарская область",
       "country": "Russian Federation"
     },
@@ -1038,6 +977,7 @@
     "lastChanged": 1499298358000,
     "address": {
       "city": "Тольятти",
+      "county": "городской округ Тольятти",
       "state": "Самарская область",
       "country": "Russian Federation"
     },
@@ -4246,17 +4186,16 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100092"
   },
   {
-    "lat": 60.957125,
-    "lon": 11.489926,
+    "lat": 60.9571855,
+    "lon": 11.4900789,
     "osmID": 1417674589,
     "osmType": "node",
-    "lastChanged": 1314662569000,
+    "lastChanged": 1646186186000,
     "address": {
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
       "man_made": "surveillance",
       "name": "Svingen",
       "operator": "Statens vegvesen",
@@ -5379,7 +5318,7 @@
     "lon": 13.9729453,
     "osmID": 1510027506,
     "osmType": "node",
-    "lastChanged": 1321807278000,
+    "lastChanged": 1646309628000,
     "address": {
       "city": "Lübbenau/Spreewald",
       "county": "Oberspreewald-Lausitz",
@@ -5387,11 +5326,15 @@
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://spreewaldwetter.de/webcam_spreewaldhafen.html",
+      "camera:direction": "80",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.spreewaldwetter.de/webcams/#webcam-spreewaldhafen",
       "man_made": "surveillance",
-      "surveillance": "webcam"
+      "name": "Grosser Spreewaldhafen Lübbenau -Hafenbecken, Süd-Ost",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
-    "url": "http://spreewaldwetter.de/webcam_spreewaldhafen.html"
+    "url": "http://www.spreewaldwetter.de/webcams/#webcam-spreewaldhafen"
   },
   {
     "lat": 53.1390876,
@@ -5575,34 +5518,6 @@
     "url": "https://derbevoelkerung.de/webcam/"
   },
   {
-    "lat": 50.6690551,
-    "lon": 4.6111202,
-    "osmID": 1754887714,
-    "osmType": "node",
-    "lastChanged": 1617829186000,
-    "address": {
-      "city": "Louvain-la-Neuve",
-      "county": "Nivelles",
-      "state": "Brabant wallon",
-      "country": "Belgium"
-    },
-    "osmTags": {
-      "camera:angle": "77",
-      "camera:direction": "326",
-      "camera:type": "dome",
-      "contact:webcam": "http://www.sri.ucl.ac.be/webcam/aula10s.html",
-      "man_made": "surveillance",
-      "operator": "UCL",
-      "ref:sous-surveillance.net": "21111",
-      "source": "sous-surveillance.net",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "survey:date": "2020-11-21 15:38:13+00:00"
-    },
-    "operator": "UCL",
-    "url": "http://www.sri.ucl.ac.be/webcam/aula10s.html"
-  },
-  {
     "lat": 52.5241376,
     "lon": 13.4119181,
     "osmID": 1816817801,
@@ -5670,11 +5585,11 @@
     "url": "https://www.ferienhaus-otterndorf.com/Webcam/"
   },
   {
-    "lat": 51.7075251,
-    "lon": 10.52365,
+    "lat": 51.7079398,
+    "lon": 10.5227017,
     "osmID": 1858868806,
     "osmType": "node",
-    "lastChanged": 1348068424000,
+    "lastChanged": 1642763893000,
     "address": {
       "city": "Braunlage",
       "county": "Landkreis Goslar",
@@ -5682,11 +5597,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "147",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.alberti-lift.de/index.php/webcam-1/11-ski-zentrum/webcams-einzeln/28-webcam-klause",
       "man_made": "surveillance",
+      "name": "Sportklause und Doppelsesselbahn DSB1",
       "surveillance": "webcam",
-      "website": "http://www.alberti-lift.de/webcam/start.html"
+      "surveillance:type": "camera",
+      "surveillance:zone": "piste"
     },
-    "url": "http://www.alberti-lift.de/webcam/start.html"
+    "url": "http://www.alberti-lift.de/index.php/webcam-1/11-ski-zentrum/webcams-einzeln/28-webcam-klause"
   },
   {
     "lat": 43.1731206,
@@ -5963,7 +5883,7 @@
     "lon": 7.7038591,
     "osmID": 1964914493,
     "osmType": "node",
-    "lastChanged": 1350230287000,
+    "lastChanged": 1643117378000,
     "address": {
       "city": "Neuharlingersiel",
       "county": "Landkreis Wittmund",
@@ -5971,17 +5891,24 @@
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://www.neuharlingersiel.de/index.php?id=369",
-      "surveillance": "webcam"
+      "camera:direction": "303",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/",
+      "man_made": "surveillance",
+      "name": "Webcam 1 – Livebilder aus Neuharlingersiel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
-    "url": "http://www.neuharlingersiel.de/index.php?id=369"
+    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/"
   },
   {
     "lat": 53.7001854,
     "lon": 7.7030739,
     "osmID": 1964914497,
     "osmType": "node",
-    "lastChanged": 1624191966000,
+    "lastChanged": 1643117378000,
     "address": {
       "city": "Neuharlingersiel",
       "county": "Landkreis Wittmund",
@@ -5994,7 +5921,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/",
       "man_made": "surveillance",
-      "name": "Livebilder aus Neuharlingersiel",
+      "name": "Webcam 2 – Livebilder aus Neuharlingersiel",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
@@ -6002,38 +5929,11 @@
     "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/"
   },
   {
-    "lat": 53.7003626,
-    "lon": 7.7044563,
-    "osmID": 1964914500,
-    "osmType": "node",
-    "lastChanged": 1624191966000,
-    "address": {
-      "city": "Neuharlingersiel",
-      "county": "Landkreis Wittmund",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "260",
-      "camera:features": "webcam",
-      "camera:make": "Mobotix",
-      "camera:mount": "wall",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-3-panorama-webcam-neuharlingersiel/",
-      "man_made": "surveillance",
-      "name": "Livebilder aus Neuharlingersiel",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-3-panorama-webcam-neuharlingersiel/"
-  },
-  {
     "lat": 51.7838274,
     "lon": 8.8172923,
     "osmID": 2033330193,
     "osmType": "node",
-    "lastChanged": 1401704444000,
+    "lastChanged": 1646036312000,
     "address": {
       "city": "Bad Lippspringe",
       "county": "Kreis Paderborn",
@@ -6044,11 +5944,13 @@
       "camera:direction": "270",
       "camera:mount": "window",
       "camera:type": "fixed",
+      "contact:webcam": "http://www.bad-lippspringe.com/webcam/bild2.jpg",
       "man_made": "surveillance",
+      "name": "Webcam bad-lippspringe Rathaus",
+      "name:en": "Webcam bad-lippspringe town hall",
       "operator": "Bad Lippspringe",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://www.bad-lippspringe.com/webcam/bild2.jpg"
+      "surveillance:type": "camera"
     },
     "operator": "Bad Lippspringe",
     "url": "http://www.bad-lippspringe.com/webcam/bild2.jpg"
@@ -6158,21 +6060,26 @@
     "url": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Lenina.jpg"
   },
   {
-    "lat": 60.9419209,
-    "lon": 11.1906456,
+    "lat": 60.9415352,
+    "lon": 11.1912646,
     "osmID": 2073338256,
     "osmType": "node",
-    "lastChanged": 1355854440000,
+    "lastChanged": 1646382285000,
     "address": {
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "212",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hht.no/stenfjellhytta-kamera-sv-siste-bilder/",
       "man_made": "surveillance",
+      "name": "STENFJELLHYTTA - UTSIKT MOT SØR-VEST",
+      "name:en": "STENFJELLHYTTA - VIEW TO THE SOUTH-WEST",
       "surveillance": "webcam",
-      "website": "http://www.hht.no/index.php?fo_id=912"
+      "surveillance:type": "camera"
     },
-    "url": "http://www.hht.no/index.php?fo_id=912"
+    "url": "https://www.hht.no/stenfjellhytta-kamera-sv-siste-bilder/"
   },
   {
     "lat": 49.0379319,
@@ -6204,6 +6111,7 @@
     "osmType": "node",
     "lastChanged": 1625610446000,
     "address": {
+      "city": "Harderwijk",
       "state": "Gelderland",
       "country": "Netherlands"
     },
@@ -6227,7 +6135,7 @@
     "lon": 8.8794053,
     "osmID": 2227035254,
     "osmType": "node",
-    "lastChanged": 1364346264000,
+    "lastChanged": 1643278640000,
     "address": {
       "city": "Detmold",
       "county": "Kreis Lippe",
@@ -6238,19 +6146,20 @@
       "camera:direction": "210",
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "contact:webcam": "https://www.detmold.de/fileadmin/user_upload/startseite/Politik_und_Rathaus/Online-Dienste/Webcams/rathaus/marktplatz.jpg",
       "man_made": "surveillance",
+      "name": "Webcam Stadt Detmold mit Blick auf den Marktplatz",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://www.webcam-detmold.de/webcam/webcam/marktplatz.jpg"
+      "surveillance:type": "camera"
     },
-    "url": "http://www.webcam-detmold.de/webcam/webcam/marktplatz.jpg"
+    "url": "https://www.detmold.de/fileadmin/user_upload/startseite/Politik_und_Rathaus/Online-Dienste/Webcams/rathaus/marktplatz.jpg"
   },
   {
     "lat": 49.0369487,
     "lon": 8.7067732,
     "osmID": 2235256966,
     "osmType": "node",
-    "lastChanged": 1364581214000,
+    "lastChanged": 1642415719000,
     "address": {
       "city": "Bretten",
       "county": "Landkreis Karlsruhe",
@@ -6258,11 +6167,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "60",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bretten.de/stadt-rathaus-verwaltung/webcams-marktplatz-und-pfeiferturm",
       "man_made": "surveillance",
+      "name": "Bretten: Marktplatz",
       "surveillance": "webcam",
-      "website": "http://www.bretten.de/cms/node/12474"
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
-    "url": "http://www.bretten.de/cms/node/12474"
+    "url": "https://www.bretten.de/stadt-rathaus-verwaltung/webcams-marktplatz-und-pfeiferturm"
   },
   {
     "lat": 39.7999174,
@@ -6325,18 +6239,18 @@
     "lon": 8.7231385,
     "osmID": 2282060576,
     "osmType": "node",
-    "lastChanged": 1424170867000,
+    "lastChanged": 1642772896000,
     "address": {
       "city": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://www.mpia.de/de/service/webcam",
+      "contact:webcam": "https://www.mpia.de/de/services/webcam",
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "http://www.mpia.de/de/service/webcam"
+    "url": "https://www.mpia.de/de/services/webcam"
   },
   {
     "lat": 49.4034752,
@@ -6386,19 +6300,19 @@
     "lon": 8.7057734,
     "osmID": 2282060580,
     "osmType": "node",
-    "lastChanged": 1367888435000,
+    "lastChanged": 1642772762000,
     "address": {
       "city": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
     "osmTags": {
-      "contact:webcam": "http://www.waldschenke-heidelberg.de/webcam.php",
+      "contact:webcam": "https://www.waldschenke-heidelberg.de/#page2030",
       "man_made": "surveillance",
       "source:geometry": "HiRes aerial imagery",
       "surveillance": "webcam"
     },
-    "url": "http://www.waldschenke-heidelberg.de/webcam.php"
+    "url": "https://www.waldschenke-heidelberg.de/#page2030"
   },
   {
     "lat": 45.6268287,
@@ -6407,7 +6321,7 @@
     "osmType": "node",
     "lastChanged": 1368116891000,
     "address": {
-      "city": "Campiglia Cervo",
+      "city": "Biella",
       "county": "Biella",
       "state": "Piemonte",
       "country": "Italy"
@@ -6510,8 +6424,8 @@
     "osmType": "node",
     "lastChanged": 1641672085000,
     "address": {
-      "city": "Gemeinde Sierndorf",
-      "county": "Bezirk Korneuburg",
+      "city": "Obermallebarn",
+      "county": "Bezirk Hollabrunn",
       "state": "Niederösterreich",
       "country": "Austria"
     },
@@ -6564,7 +6478,7 @@
     "lon": 8.4034967,
     "osmID": 2513851797,
     "osmType": "node",
-    "lastChanged": 1391444435000,
+    "lastChanged": 1643709762000,
     "address": {
       "city": "Karlsruhe",
       "state": "Baden-Württemberg",
@@ -6577,6 +6491,7 @@
       "contact:webcam": "http://service.ka-news.de/camimage.php?cam=27",
       "height": "10",
       "man_made": "surveillance",
+      "name": "Marktplatz Nord",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -7021,18 +6936,22 @@
     "lon": 8.709292,
     "osmID": 2720830627,
     "osmType": "node",
-    "lastChanged": 1394968453000,
+    "lastChanged": 1645955244000,
     "address": {
       "city": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
     "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ag-wanderfalken.de/webcams/",
       "man_made": "surveillance",
+      "name": "Wanderfalken in Heidelberg",
       "surveillance": "webcam",
-      "website": "http://www.ag-wanderfalken.de/index.php?option=com_wrapper&Itemid=79"
+      "surveillance:type": "camera",
+      "surveillance:zone": "hawk"
     },
-    "url": "http://www.ag-wanderfalken.de/index.php?option=com_wrapper&Itemid=79"
+    "url": "https://www.ag-wanderfalken.de/webcams/"
   },
   {
     "lat": 51.9764724,
@@ -7132,11 +7051,11 @@
     "url": "http://www.rickmers-online.de/Webcamsalleklein.html"
   },
   {
-    "lat": 54.1776836,
-    "lon": 7.8896486,
+    "lat": 54.1776924,
+    "lon": 7.8896601,
     "osmID": 2734664147,
     "osmType": "node",
-    "lastChanged": 1628773175000,
+    "lastChanged": 1643223113000,
     "address": {
       "city": "Helgoland",
       "county": "Pinneberg",
@@ -7156,24 +7075,6 @@
       "surveillance:zone": "weather"
     },
     "url": "https://www.rickmers-online.de/wetter#cam"
-  },
-  {
-    "lat": 54.1777294,
-    "lon": 7.8897088,
-    "osmID": 2734664150,
-    "osmType": "node",
-    "lastChanged": 1395516204000,
-    "address": {
-      "city": "Helgoland",
-      "county": "Pinneberg",
-      "state": "Schleswig-Holstein",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.rickmers-online.de/Webcamsalleklein.html",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.rickmers-online.de/Webcamsalleklein.html"
   },
   {
     "lat": 49.7947854,
@@ -7229,32 +7130,6 @@
     },
     "osmTags": {
       "camera:direction": "94",
-      "camera:mount": "ceiling",
-      "camera:type": "fixed",
-      "contact:webcam": "http://www.studentenwerk-karlsruhe.de/de/essen/livecams/popup/?page=1",
-      "height": "5",
-      "man_made": "surveillance",
-      "operator": "Studierendenwerk Karlsruhe",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "shop"
-    },
-    "operator": "Studierendenwerk Karlsruhe",
-    "url": "http://www.studentenwerk-karlsruhe.de/de/essen/livecams/popup/?page=1"
-  },
-  {
-    "lat": 49.0119534,
-    "lon": 8.4167525,
-    "osmID": 2813085736,
-    "osmType": "node",
-    "lastChanged": 1418386261000,
-    "address": {
-      "city": "Karlsruhe",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "274",
       "camera:mount": "ceiling",
       "camera:type": "fixed",
       "contact:webcam": "http://www.studentenwerk-karlsruhe.de/de/essen/livecams/popup/?page=1",
@@ -7580,7 +7455,7 @@
     "lon": 7.3948935,
     "osmID": 2997621048,
     "osmType": "node",
-    "lastChanged": 1623400131000,
+    "lastChanged": 1645955389000,
     "address": {
       "city": "Papenburg",
       "county": "Landkreis Emsland",
@@ -7592,6 +7467,8 @@
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "http://www.schwanenapotheke-papenburg.de/webcam",
+      "description": "Blick von der Schwanen-Apotheke in die Stadtmitte. Rechts sehen Sie das Museumsschiff Friederike, links den Rathausvorplatz.",
+      "description:en": "View of the city center from the Schwanen pharmacy. On the right you can see the museum ship Friederike, on the left the town hall forecourt.",
       "man_made": "surveillance",
       "name": "Schwanen Apotheke webcam",
       "surveillance": "webcam",
@@ -7688,7 +7565,7 @@
     "lon": 9.1457825,
     "osmID": 3027086592,
     "osmType": "node",
-    "lastChanged": 1515692315000,
+    "lastChanged": 1645013194000,
     "address": {
       "city": "Hopen",
       "county": "Dithmarschen",
@@ -7700,9 +7577,9 @@
       "direction": "NE",
       "man_made": "surveillance",
       "surveillance": "webcam",
-      "website": "http://www.dithmarscher-luftsportverein.de/cam2.html"
+      "website": "http://s264099294.online.de/cam2.html"
     },
-    "url": "http://www.dithmarscher-luftsportverein.de/cam2.html"
+    "url": "http://s264099294.online.de/cam2.html"
   },
   {
     "lat": 54.1281991,
@@ -8035,31 +7912,6 @@
     "url": "http://www.svz-bw.de/kamera.html?webcamid=B03"
   },
   {
-    "lat": 53.6996093,
-    "lon": 7.703703,
-    "osmID": 3107239348,
-    "osmType": "node",
-    "lastChanged": 1624191966000,
-    "address": {
-      "city": "Neuharlingersiel",
-      "county": "Landkreis Wittmund",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "355",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/",
-      "man_made": "surveillance",
-      "name": "Livebilder aus Neuharlingersiel",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
-    },
-    "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-1-hafen-neuharlingersiel-west/"
-  },
-  {
     "lat": 49.5550911,
     "lon": 25.6401588,
     "osmID": 3112419440,
@@ -8165,7 +8017,7 @@
     "lon": -92.4939111,
     "osmID": 3211647589,
     "osmType": "node",
-    "lastChanged": 1635240229000,
+    "lastChanged": 1645015339000,
     "address": {
       "city": "La Plata",
       "county": "Macon County",
@@ -8176,7 +8028,7 @@
       "camera:direction": "-130",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=8XlygX3v9lE",
+      "contact:webcam": "https://www.youtube.com/watch?v=dPTuEesIzWM",
       "man_made": "surveillance",
       "name": "La Plata West, Missouri, USA",
       "operator": "Virtual Railfan",
@@ -8185,14 +8037,14 @@
       "surveillance:zone": "railway"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=8XlygX3v9lE"
+    "url": "https://www.youtube.com/watch?v=dPTuEesIzWM"
   },
   {
     "lat": 40.0291012,
     "lon": -92.4938428,
     "osmID": 3211647590,
     "osmType": "node",
-    "lastChanged": 1635279881000,
+    "lastChanged": 1642894332000,
     "address": {
       "city": "La Plata",
       "county": "Macon County",
@@ -9335,10 +9187,10 @@
   },
   {
     "lat": 50.3557887,
-    "lon": 11.1694208,
+    "lon": 11.1693686,
     "osmID": 4344935202,
     "osmType": "node",
-    "lastChanged": 1470861421000,
+    "lastChanged": 1643223400000,
     "address": {
       "city": "Sonneberg",
       "county": "Landkreis Sonneberg",
@@ -9346,11 +9198,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "328",
+      "camera:type": "fixed",
+      "contact:webcam": "https://stadt-son.de/",
       "man_made": "surveillance",
+      "name": "Sonneberg Bahnhofsplatz webcam",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "website": "http://www.stadt-son.de/webcam/"
     },
-    "url": "http://www.stadt-son.de/webcam/"
+    "url": "https://stadt-son.de/"
   },
   {
     "lat": 50.4004775,
@@ -9573,6 +9430,7 @@
     "osmType": "node",
     "lastChanged": 1470929086000,
     "address": {
+      "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
@@ -9598,6 +9456,7 @@
     "osmType": "node",
     "lastChanged": 1470929086000,
     "address": {
+      "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
@@ -9623,6 +9482,7 @@
     "osmType": "node",
     "lastChanged": 1470929086000,
     "address": {
+      "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
@@ -9890,6 +9750,7 @@
     "osmType": "node",
     "lastChanged": 1470999284000,
     "address": {
+      "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
@@ -9915,6 +9776,7 @@
     "osmType": "node",
     "lastChanged": 1470999284000,
     "address": {
+      "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
@@ -9995,7 +9857,7 @@
     "lon": 10.4098051,
     "osmID": 4347194671,
     "osmType": "node",
-    "lastChanged": 1624266353000,
+    "lastChanged": 1645955822000,
     "address": {
       "county": "Trøndelag",
       "country": "Norway"
@@ -10005,6 +9867,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://tsftp.no/Trondheim/cam145_4_image.jpg",
       "description": "Stillbilder fra Trondheims mest trafikkerte kai",
+      "description:en": "Still images from Trondheim's busiest quay",
       "height": "20",
       "man_made": "surveillance",
       "name": "Hurtigrutekaia",
@@ -10512,7 +10375,6 @@
     "lastChanged": 1485109212000,
     "address": {
       "city": "London",
-      "county": "London",
       "state": "Ontario",
       "country": "Canada"
     },
@@ -10536,7 +10398,6 @@
     "lastChanged": 1485109214000,
     "address": {
       "city": "London",
-      "county": "London",
       "state": "Ontario",
       "country": "Canada"
     },
@@ -10560,7 +10421,7 @@
     "lastChanged": 1485109213000,
     "address": {
       "city": "London",
-      "county": "London",
+      "county": "Middlesex County",
       "state": "Ontario",
       "country": "Canada"
     },
@@ -12344,7 +12205,6 @@
     "osmType": "node",
     "lastChanged": 1503595255000,
     "address": {
-      "city": "Łuków",
       "county": "powiat łukowski",
       "state": "województwo lubelskie",
       "country": "Poland"
@@ -13923,11 +13783,11 @@
     "url": "http://www.zuerserhof.at/de/webcam"
   },
   {
-    "lat": 47.1751517,
-    "lon": 10.1422643,
+    "lat": 47.1754398,
+    "lon": 10.1425593,
     "osmID": 5311914529,
     "osmType": "node",
-    "lastChanged": 1514635875000,
+    "lastChanged": 1644752612000,
     "address": {
       "city": "Gemeinde Lech",
       "county": "Bezirk Bludenz",
@@ -14919,32 +14779,6 @@
     "url": "https://kingcounty.gov/depts/transportation/roads/traffic-cams.aspx"
   },
   {
-    "lat": 47.4775828,
-    "lon": -122.3339917,
-    "osmID": 5987473540,
-    "osmType": "node",
-    "lastChanged": 1539653814000,
-    "address": {
-      "city": "Burien",
-      "county": "King County",
-      "state": "Washington",
-      "country": "United States"
-    },
-    "osmTags": {
-      "camera:direction": "20",
-      "camera:mount": "traffic_signals",
-      "camera:type": "fixed",
-      "contact:webcam": "https://kingcounty.gov/depts/transportation/roads/traffic-cams.aspx",
-      "man_made": "surveillance",
-      "operator": "King County Department of Transportation",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "operator": "King County Department of Transportation",
-    "url": "https://kingcounty.gov/depts/transportation/roads/traffic-cams.aspx"
-  },
-  {
     "lat": 47.4992221,
     "lon": -122.355289,
     "osmID": 5987473541,
@@ -15065,7 +14899,7 @@
     "lon": 8.0275614,
     "osmID": 6138803719,
     "osmType": "node",
-    "lastChanged": 1549563569000,
+    "lastChanged": 1642601509000,
     "address": {
       "city": "Durbach",
       "county": "Ortenaukreis",
@@ -15075,13 +14909,13 @@
     "osmTags": {
       "camera:direction": "270",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.schloss-staufenberg.de/de/info-service/wetter-webcam/",
+      "contact:webcam": "https://www.schloss-staufenberg.de/en/info-service/weather-webcam/",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.schloss-staufenberg.de/de/info-service/wetter-webcam/"
+    "url": "https://www.schloss-staufenberg.de/en/info-service/weather-webcam/"
   },
   {
     "lat": 48.5317543,
@@ -15112,10 +14946,10 @@
     "lon": 8.2231102,
     "osmID": 6138803722,
     "osmType": "node",
-    "lastChanged": 1588339622000,
+    "lastChanged": 1642593373000,
     "address": {
       "city": "Baiersbronn",
-      "county": "Landkreis Freudenstadt",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -15123,20 +14957,20 @@
       "camera:direction": "50",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.skilift-ruhestein.de/webcam.html",
+      "contact:webcam": "https://www.skilift-ruhestein.de/webcam/",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "http://www.skilift-ruhestein.de/webcam.html"
+    "url": "https://www.skilift-ruhestein.de/webcam/"
   },
   {
     "lat": 48.5776845,
     "lon": 8.2327099,
     "osmID": 6138803723,
     "osmType": "node",
-    "lastChanged": 1544871623000,
+    "lastChanged": 1642592709000,
     "address": {
       "city": "Seebach",
       "county": "Ortenaukreis",
@@ -15147,13 +14981,13 @@
       "camera:direction": "170",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.darmstaedter-huette.de/schwarzwald-im-nationalpark-erleben-auf-faszinierenden-wanderrouten-zur-ski-und-wanderhuette-darmstaedter-huette-direkt-am-westweg-inmitten-des-naturschutzgebietes-wilder-see/webcam/",
+      "contact:webcam": "https://www.darmstaedter-huette.de/webcam/",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.darmstaedter-huette.de/schwarzwald-im-nationalpark-erleben-auf-faszinierenden-wanderrouten-zur-ski-und-wanderhuette-darmstaedter-huette-direkt-am-westweg-inmitten-des-naturschutzgebietes-wilder-see/webcam/"
+    "url": "https://www.darmstaedter-huette.de/webcam/"
   },
   {
     "lat": 48.5962213,
@@ -15206,7 +15040,7 @@
     "lon": 8.2011172,
     "osmID": 6138803726,
     "osmType": "node",
-    "lastChanged": 1544871624000,
+    "lastChanged": 1642591770000,
     "address": {
       "city": "Seebach",
       "county": "Ortenaukreis",
@@ -15216,13 +15050,13 @@
     "osmTags": {
       "camera:direction": "20",
       "camera:type": "fixed",
-      "contact:webcam": "https://mummelsee.de/webcam_page/",
+      "contact:webcam": "https://www.mummelsee.de/informationen/webcam-2/",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://mummelsee.de/webcam_page/"
+    "url": "https://www.mummelsee.de/informationen/webcam-2/"
   },
   {
     "lat": 50.8385956,
@@ -15421,7 +15255,7 @@
     "lon": 8.2005999,
     "osmID": 6147119156,
     "osmType": "node",
-    "lastChanged": 1545212371000,
+    "lastChanged": 1642591627000,
     "address": {
       "city": "Seebach",
       "county": "Ortenaukreis",
@@ -15431,13 +15265,13 @@
     "osmTags": {
       "camera:direction": "190",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.grindehuette.de/",
+      "contact:webcam": "https://www.grindehuette.de/#webcam",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "http://www.grindehuette.de/"
+    "url": "https://www.grindehuette.de/#webcam"
   },
   {
     "lat": 39.5619248,
@@ -15648,6 +15482,7 @@
     "osmType": "node",
     "lastChanged": 1614244343000,
     "address": {
+      "city": "Платформа 69-й км",
       "county": "Приозерский район",
       "state": "Ленинградская область",
       "country": "Russian Federation"
@@ -15825,11 +15660,11 @@
     "url": "http://76.127.48.230:4242/snap.jpeg#https://agorashoppingcenter.com/webcam"
   },
   {
-    "lat": 54.1359139,
-    "lon": 10.6166345,
+    "lat": 54.1359335,
+    "lon": 10.6166399,
     "osmID": 6468751039,
     "osmType": "node",
-    "lastChanged": 1557698942000,
+    "lastChanged": 1644588689000,
     "address": {
       "city": "Eutin",
       "county": "Ostholstein",
@@ -16208,7 +16043,6 @@
     "osmType": "node",
     "lastChanged": 1560672325000,
     "address": {
-      "city": "Waldeck",
       "county": "Landkreis Waldeck-Frankenberg",
       "state": "Hessen",
       "country": "Germany"
@@ -16403,6 +16237,52 @@
       "website": "http://m.webcam-hd.com/pontarlier/la-malmaison"
     },
     "url": "http://m.webcam-hd.com/pontarlier/la-malmaison"
+  },
+  {
+    "lat": 46.8824372,
+    "lon": 17.4364732,
+    "osmID": 6653909828,
+    "osmType": "node",
+    "lastChanged": 1643227705000,
+    "address": {
+      "city": "Tapolca",
+      "county": "Veszprém megye",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "84",
+      "contact:webcam": "http://www.idokep.hu/webkamera/tapolcacam",
+      "man_made": "surveillance",
+      "name": "Tapolca Casco Ház webkamera",
+      "note": "Bárki meg lehet nézni a webkamerát! ;)",
+      "start_date": "2019-03-14",
+      "surveillance": "webcam",
+      "surveillance:type": "webcam"
+    },
+    "url": "http://www.idokep.hu/webkamera/tapolcacam"
+  },
+  {
+    "lat": 46.8828431,
+    "lon": 17.4416311,
+    "osmID": 6685147236,
+    "osmType": "node",
+    "lastChanged": 1643227705000,
+    "address": {
+      "city": "Tapolca",
+      "county": "Veszprém megye",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "contact:webcam": "https://www.idokep.hu/webkamera/tapolcacam1",
+      "man_made": "surveillance",
+      "name": "Tapolca Fő téri webkamera",
+      "note": "Bárki meg lehet nézni a webkamerát! ;)",
+      "start_date": "2019-08-05",
+      "surveillance": "webcam",
+      "surveillance:type": "webcam"
+    },
+    "url": "https://www.idokep.hu/webkamera/tapolcacam1"
   },
   {
     "lat": 41.2306649,
@@ -16682,7 +16562,7 @@
     "lon": 14.6353781,
     "osmID": 7057285659,
     "osmType": "node",
-    "lastChanged": 1641051710000,
+    "lastChanged": 1643709439000,
     "address": {
       "city": "Punat",
       "county": "Primorsko-goranska županija",
@@ -16691,13 +16571,13 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=tXRk6_TY1YE",
+      "contact:webcam": "https://www.youtube.com/watch?v=LrHkKT5Xec0",
       "man_made": "surveillance",
       "name": "Punat Live - Vodosprema",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=tXRk6_TY1YE"
+    "url": "https://www.youtube.com/watch?v=LrHkKT5Xec0"
   },
   {
     "lat": 46.9508972,
@@ -16784,8 +16664,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16812,8 +16691,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16840,8 +16718,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16891,7 +16768,7 @@
     "osmType": "node",
     "lastChanged": 1623969102000,
     "address": {
-      "city": "City and County of Denver",
+      "city": "Denver",
       "state": "Colorado",
       "country": "United States"
     },
@@ -17672,7 +17549,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Přísečná",
+      "city": "Mirkovice",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -18260,15 +18137,21 @@
     "lon": 4.5385176,
     "osmID": 7814027610,
     "osmType": "node",
-    "lastChanged": 1597441460000,
+    "lastChanged": 1645189331000,
     "address": {
       "city": "Capelle aan den IJssel",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
       "contact:webcam": "https://rwsverkeersinfo.nl/cameras/25/a16-de-van-brienenoordbrug",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "name": "Verkeerscamera A16 t.h.v. de Van Brienenoordbrug",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "url": "https://rwsverkeersinfo.nl/cameras/25/a16-de-van-brienenoordbrug"
   },
@@ -18333,15 +18216,20 @@
     "lon": 4.4818244,
     "osmID": 7814027614,
     "osmType": "node",
-    "lastChanged": 1597441460000,
+    "lastChanged": 1645189498000,
     "address": {
       "city": "Rotterdam",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
       "contact:webcam": "https://fotopaulmartens.netcam.nl/erasmus2.php",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "name": "erasmus 2",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "url": "https://fotopaulmartens.netcam.nl/erasmus2.php"
   },
@@ -18397,31 +18285,11 @@
     "url": "https://webcam-hoekvanholland.nl/pages/cameras/waterweg-ingang.php"
   },
   {
-    "lat": 51.9775505,
-    "lon": 4.0966234,
-    "osmID": 7814027619,
-    "osmType": "node",
-    "lastChanged": 1598275995000,
-    "address": {
-      "city": "Hoek van Holland",
-      "state": "Zuid-Holland",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:type": "panning",
-      "contact:webcam": "https://fotopaulmartens.netcam.nl/breeddiep2.php",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "https://fotopaulmartens.netcam.nl/breeddiep2.php"
-  },
-  {
     "lat": 51.9623998,
     "lon": 4.0206239,
     "osmID": 7814027620,
     "osmType": "node",
-    "lastChanged": 1598286999000,
+    "lastChanged": 1645186890000,
     "address": {
       "state": "Zuid-Holland",
       "country": "Netherlands"
@@ -18430,12 +18298,13 @@
       "camera:direction": "250",
       "camera:mount": "roof",
       "camera:type": "panning",
-      "contact:webcam": "https://fotopaulmartens.netcam.nl/futureland.php",
+      "contact:webcam": "https://www.youtube.com/watch?v=qYy_7AJ4DKo",
       "man_made": "surveillance",
+      "name": "Maasvlakte 2 - FutureLand",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://fotopaulmartens.netcam.nl/futureland.php"
+    "url": "https://www.youtube.com/watch?v=qYy_7AJ4DKo"
   },
   {
     "lat": 51.918697,
@@ -18886,20 +18755,22 @@
     "lon": 4.0966989,
     "osmID": 7840147071,
     "osmType": "node",
-    "lastChanged": 1598275995000,
+    "lastChanged": 1645187930000,
     "address": {
       "city": "Hoek van Holland",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:direction": "300",
       "camera:type": "panning",
-      "contact:webcam": "https://fotopaulmartens.netcam.nl/breeddiep.php",
+      "contact:webcam": "https://www.youtube.com/watch?v=1sCBeKZjz8I",
       "man_made": "surveillance",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "sea"
     },
-    "url": "https://fotopaulmartens.netcam.nl/breeddiep.php"
+    "url": "https://www.youtube.com/watch?v=1sCBeKZjz8I"
   },
   {
     "lat": 52.2525893,
@@ -18973,7 +18844,6 @@
     "osmType": "node",
     "lastChanged": 1626288663000,
     "address": {
-      "city": "Helmond",
       "state": "Noord-Brabant",
       "country": "Netherlands"
     },
@@ -19116,7 +18986,7 @@
     "lon": -111.649242,
     "osmID": 8063949086,
     "osmType": "node",
-    "lastChanged": 1635280296000,
+    "lastChanged": 1643620576000,
     "address": {
       "city": "Flagstaff",
       "county": "Coconino County",
@@ -19127,7 +18997,7 @@
       "camera:direction": "250",
       "camera:mount": "wall",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=BHDD_i_feqc",
+      "contact:webcam": "https://www.youtube.com/watch?v=ONGBnLjwHgo",
       "description": "Flagstaff, Arizona, in Northern Arizona, is located on the BNSF Railway's Seligman Subdivision at milepost 344.2.  The Seligman Sub is part of their Southern Transcon, the former Atchison, Topeka & Santa Fe Railway (AT&SF) mainline between Chicago and Los",
       "man_made": "surveillance",
       "name": "Flagstaff, Arizona - West",
@@ -19137,7 +19007,7 @@
       "surveillance:zone": "area"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=BHDD_i_feqc"
+    "url": "https://www.youtube.com/watch?v=ONGBnLjwHgo"
   },
   {
     "lat": 42.2800109,
@@ -19513,7 +19383,7 @@
     "osmType": "node",
     "lastChanged": 1639481589000,
     "address": {
-      "city": "Edertal",
+      "city": "Hemfurth-Edersee",
       "county": "Landkreis Waldeck-Frankenberg",
       "state": "Hessen",
       "country": "Germany"
@@ -19695,7 +19565,7 @@
     "osmType": "node",
     "lastChanged": 1611682045000,
     "address": {
-      "county": "Graz",
+      "city": "Graz",
       "state": "Steiermark",
       "country": "Austria"
     },
@@ -20085,6 +19955,7 @@
     "osmType": "node",
     "lastChanged": 1613322465000,
     "address": {
+      "city": "Antwerpen",
       "county": "Antwerpen",
       "state": "Antwerpen",
       "country": "Belgium"
@@ -20829,7 +20700,7 @@
     "osmType": "node",
     "lastChanged": 1614244820000,
     "address": {
-      "city": "Mainz",
+      "county": "Mainz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -20898,7 +20769,7 @@
     "osmType": "node",
     "lastChanged": 1614780417000,
     "address": {
-      "city": "London",
+      "city": "City of Westminster",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -21063,18 +20934,18 @@
     "lon": 4.272115,
     "osmID": 8522433186,
     "osmType": "node",
-    "lastChanged": 1615846298000,
+    "lastChanged": 1643651488000,
     "address": {
       "city": "Den Haag",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
-      "camera:direction": "310",
+      "camera:direction": "273",
       "camera:type": "fixed",
       "contact:webcam": "http://www.scheveningenlive.nl/strand-webcam/",
-      "description": "Strand Webcam",
       "man_made": "surveillance",
+      "name": "Strand Webcam",
       "operator": "scheveningen live",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -21160,6 +21031,7 @@
     "osmType": "node",
     "lastChanged": 1621536437000,
     "address": {
+      "city": "Town of Tonawanda",
       "county": "Erie County",
       "state": "New York",
       "country": "United States"
@@ -22694,6 +22566,7 @@
     "osmType": "node",
     "lastChanged": 1622400989000,
     "address": {
+      "city": "Town of Carlton",
       "county": "Orleans County",
       "state": "New York",
       "country": "United States"
@@ -22718,7 +22591,7 @@
     "osmType": "node",
     "lastChanged": 1622400989000,
     "address": {
-      "city": "Canandaigua",
+      "city": "City of Canandaigua",
       "county": "Ontario County",
       "state": "New York",
       "country": "United States"
@@ -23022,7 +22895,7 @@
     "osmType": "node",
     "lastChanged": 1629794249000,
     "address": {
-      "city": "Seaford",
+      "city": "Lewes",
       "county": "East Sussex",
       "state": "England",
       "country": "United Kingdom"
@@ -23855,7 +23728,6 @@
     "osmType": "node",
     "lastChanged": 1625602600000,
     "address": {
-      "city": "Leiden",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
@@ -23880,7 +23752,6 @@
     "osmType": "node",
     "lastChanged": 1625602600000,
     "address": {
-      "city": "Leiden",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
@@ -23980,6 +23851,7 @@
     "osmType": "node",
     "lastChanged": 1625604607000,
     "address": {
+      "city": "Antwerpen",
       "county": "Antwerpen",
       "state": "Antwerpen",
       "country": "Belgium"
@@ -24547,33 +24419,6 @@
     },
     "operator": "WebCam.NL",
     "url": "https://webcam.nl/elburg/haven/"
-  },
-  {
-    "lat": 52.3777381,
-    "lon": 4.8933545,
-    "osmID": 8904838461,
-    "osmType": "node",
-    "lastChanged": 1638115833000,
-    "address": {
-      "city": "Amsterdam",
-      "state": "Noord-Holland",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:direction": "300",
-      "camera:mount": "roof",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=6mX8pT3OLGw",
-      "description": "Welcome to the livestream of Singel Hotel Amsterdam",
-      "man_made": "surveillance",
-      "name": "Amsterdam LIVE - Singel Hotel Amsterdam",
-      "operator": "Social Hotspot",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "tourism"
-    },
-    "operator": "Social Hotspot",
-    "url": "https://www.youtube.com/watch?v=6mX8pT3OLGw"
   },
   {
     "lat": 52.372551,
@@ -25273,6 +25118,7 @@
     "osmType": "node",
     "lastChanged": 1628450817000,
     "address": {
+      "city": "Duisburg",
       "county": "Duisburg",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
@@ -27456,7 +27302,7 @@
     "lon": 5.8699701,
     "osmID": 9207503693,
     "osmType": "node",
-    "lastChanged": 1635421157000,
+    "lastChanged": 1646132124000,
     "address": {
       "city": "Sittard",
       "state": "Limburg",
@@ -27466,14 +27312,14 @@
       "camera:direction": "120",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=ZS_gBczuxpo",
+      "contact:webcam": "https://www.youtube.com/watch?v=qd3gbc0RBdE",
       "man_made": "surveillance",
       "name": "Webcam Sittard Markt",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "church"
     },
-    "url": "https://www.youtube.com/watch?v=ZS_gBczuxpo"
+    "url": "https://www.youtube.com/watch?v=qd3gbc0RBdE"
   },
   {
     "lat": 50.99869,
@@ -27506,7 +27352,6 @@
     "osmType": "node",
     "lastChanged": 1635424574000,
     "address": {
-      "city": "San Bartolomé",
       "state": "Canarias",
       "country": "Spain"
     },
@@ -27600,7 +27445,7 @@
     "lon": 14.5446607,
     "osmID": 9240151580,
     "osmType": "node",
-    "lastChanged": 1638115961000,
+    "lastChanged": 1643709547000,
     "address": {
       "city": "Njivice",
       "county": "Primorsko-goranska županija",
@@ -27609,14 +27454,14 @@
     "osmTags": {
       "camera:direction": "190",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=uDEkHR45pTM",
+      "contact:webcam": "https://www.youtube.com/watch?v=CX7Vap47sxI",
       "man_made": "surveillance",
       "name": "Njivice Live - Stari Ribar",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=uDEkHR45pTM"
+    "url": "https://www.youtube.com/watch?v=CX7Vap47sxI"
   },
   {
     "lat": 46.7797809,
@@ -28361,5 +28206,1930 @@
     },
     "operator": "Transport for NSW",
     "url": "https://roads-waterways.transport.nsw.gov.au/trafficreports/cameras/camera_images/greatwesternhwy_hazelbrook.jpg"
+  },
+  {
+    "lat": 48.6181555,
+    "lon": 8.1259641,
+    "osmID": 9430896987,
+    "osmType": "node",
+    "lastChanged": 1642595427000,
+    "address": {
+      "city": "Sasbachwalden",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "315",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.blumen-weindorf-wetter.de/webcam2.htm",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.blumen-weindorf-wetter.de/webcam2.htm"
+  },
+  {
+    "lat": 48.6143799,
+    "lon": 8.1285062,
+    "osmID": 9430956568,
+    "osmType": "node",
+    "lastChanged": 1642598060000,
+    "address": {
+      "city": "Sasbachwalden",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "fixed",
+      "contact:webcam": "https://borkies.de/cam1/webcam_ddns2.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://borkies.de/cam1/webcam_ddns2.php"
+  },
+  {
+    "lat": 48.6108867,
+    "lon": 8.1246548,
+    "osmID": 9430961373,
+    "osmType": "node",
+    "lastChanged": 1642597759000,
+    "address": {
+      "city": "Sasbachwalden",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webcam.borkies.de/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://webcam.borkies.de/"
+  },
+  {
+    "lat": 48.6117511,
+    "lon": 8.1619598,
+    "osmID": 9430995157,
+    "osmType": "node",
+    "lastChanged": 1642598836000,
+    "address": {
+      "city": "Sasbachwalden",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "285",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.terrassenpark-brandmatt.de/webcams/webcam-terrassenpark-brandmatt-sasbachwalden",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.terrassenpark-brandmatt.de/webcams/webcam-terrassenpark-brandmatt-sasbachwalden"
+  },
+  {
+    "lat": 48.6288309,
+    "lon": 8.2067315,
+    "osmID": 9431022632,
+    "osmType": "node",
+    "lastChanged": 1642599235000,
+    "address": {
+      "city": "Sasbach",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unterstmatt.de/webcam.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://unterstmatt.de/webcam.html"
+  },
+  {
+    "lat": 39.4208465,
+    "lon": 3.2615456,
+    "osmID": 9431072747,
+    "osmType": "node",
+    "lastChanged": 1642600305000,
+    "address": {
+      "city": "Felanich",
+      "county": "Migjorn",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:type": "fixed",
+      "contact:webcam": "http://185.245.254.8:4000/video1s1.mjpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://185.245.254.8:4000/video1s1.mjpg"
+  },
+  {
+    "lat": 48.6283692,
+    "lon": 8.0718494,
+    "osmID": 9431185446,
+    "osmType": "node",
+    "lastChanged": 1642602208000,
+    "address": {
+      "city": "Achern",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.achern.de/webcam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.achern.de/webcam"
+  },
+  {
+    "lat": 48.4038152,
+    "lon": 8.0151914,
+    "osmID": 9433521264,
+    "osmType": "node",
+    "lastChanged": 1642682158000,
+    "address": {
+      "city": "Gengenbach",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "http://webcam.stadt-gengenbach.de/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://webcam.stadt-gengenbach.de/"
+  },
+  {
+    "lat": 48.3429228,
+    "lon": 7.8426821,
+    "osmID": 9433556649,
+    "osmType": "node",
+    "lastChanged": 1642683028000,
+    "address": {
+      "city": "Lahr/Schwarzwald",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "255",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.hirschplatz.de/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.hirschplatz.de/"
+  },
+  {
+    "lat": 48.6422894,
+    "lon": 8.1561611,
+    "osmID": 9433581432,
+    "osmType": "node",
+    "lastChanged": 1642683699000,
+    "address": {
+      "city": "Lauf",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "https://jkab-media.com/webcam/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://jkab-media.com/webcam/"
+  },
+  {
+    "lat": 50.1062222,
+    "lon": 8.6955755,
+    "osmID": 9437085819,
+    "osmType": "node",
+    "lastChanged": 1642774921000,
+    "address": {
+      "city": "Frankfurt am Main",
+      "state": "Hessen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.mainhattan-webcam.de/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.mainhattan-webcam.de/"
+  },
+  {
+    "lat": 50.0522132,
+    "lon": 8.5728996,
+    "osmID": 9437417995,
+    "osmType": "node",
+    "lastChanged": 1642784093000,
+    "address": {
+      "city": "Frankfurt am Main",
+      "state": "Hessen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "20",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.airport-frankfurt-am-main.com/webcams/webcam-flughafen-hotel-sheraton-frankfurt-airport-hotel-conference-center.webp",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.airport-frankfurt-am-main.com/webcams/webcam-flughafen-hotel-sheraton-frankfurt-airport-hotel-conference-center.webp"
+  },
+  {
+    "lat": 48.2829063,
+    "lon": 8.167837,
+    "osmID": 9439192776,
+    "osmType": "node",
+    "lastChanged": 1642850739000,
+    "address": {
+      "city": "Hausach",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "285",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hausach.de/freizeit-kultur-tourismus/hausach-virtuell/webcams",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.hausach.de/freizeit-kultur-tourismus/hausach-virtuell/webcams"
+  },
+  {
+    "lat": 48.3272432,
+    "lon": 8.2859161,
+    "osmID": 9439257044,
+    "osmType": "node",
+    "lastChanged": 1642850480000,
+    "address": {
+      "city": "Wolfach",
+      "county": "Ortenaukreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "http://alexenhof.stamm-net.de/picam/today/img_last.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://alexenhof.stamm-net.de/picam/today/img_last.jpg"
+  },
+  {
+    "lat": 50.7273969,
+    "lon": -1.1666039,
+    "osmID": 9444771860,
+    "osmType": "node",
+    "lastChanged": 1643031443000,
+    "address": {
+      "city": "Ryde",
+      "county": "Isle of Wight",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.youtube.com/watch?v=nENnL58BTls",
+      "man_made": "surveillance",
+      "name": "SOLENT VIEW",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "view"
+    },
+    "url": "https://www.youtube.com/watch?v=nENnL58BTls"
+  },
+  {
+    "lat": -3.4261706,
+    "lon": 114.8553672,
+    "osmID": 9445229366,
+    "osmType": "node",
+    "lastChanged": 1643043870000,
+    "address": {
+      "city": "Sekumpul",
+      "county": "Banjar",
+      "state": "Kalimantan Selatan",
+      "country": "Indonesia"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://stream2.banjarkab.go.id:8080/cctv/hls/simpangempatsekumpul.m3u8",
+      "man_made": "surveillance",
+      "source": "survey",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://stream2.banjarkab.go.id:8080/cctv/hls/simpangempatsekumpul.m3u8"
+  },
+  {
+    "lat": 39.5570324,
+    "lon": 2.6226253,
+    "osmID": 9455375797,
+    "osmType": "node",
+    "lastChanged": 1643374158000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "105",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.039.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.039.html"
+  },
+  {
+    "lat": 39.868936,
+    "lon": 3.0224637,
+    "osmID": 9455399904,
+    "osmType": "node",
+    "lastChanged": 1643376809000,
+    "address": {
+      "city": "Pollença",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.ibred.es/avista/camara-puig-de-maria/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-puig-de-maria/"
+  },
+  {
+    "lat": 39.5357547,
+    "lon": 2.4551021,
+    "osmID": 9455419563,
+    "osmType": "node",
+    "lastChanged": 1643375929000,
+    "address": {
+      "city": "Peguera",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.007.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.007.html"
+  },
+  {
+    "lat": 39.9165151,
+    "lon": 3.0583914,
+    "osmID": 9455451430,
+    "osmType": "node",
+    "lastChanged": 1643375092000,
+    "address": {
+      "city": "Pollença",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ibred.es/avista/ca/camera-cala-sant-vicenc/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/ca/camera-cala-sant-vicenc/"
+  },
+  {
+    "lat": 39.5348421,
+    "lon": 2.716829,
+    "osmID": 9455458011,
+    "osmType": "node",
+    "lastChanged": 1643376475000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.004.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.004.html"
+  },
+  {
+    "lat": 39.7092171,
+    "lon": 3.4610137,
+    "osmID": 9455459468,
+    "osmType": "node",
+    "lastChanged": 1643375506000,
+    "address": {
+      "city": "Cala Agulla",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "80",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.018.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.018.html"
+  },
+  {
+    "lat": 39.4554955,
+    "lon": 3.1874155,
+    "osmID": 9455472884,
+    "osmType": "node",
+    "lastChanged": 1643376119000,
+    "address": {
+      "city": "Felanich",
+      "county": "Migjorn",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "155",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ibred.es/avista/camara-san-salvador-felanitx/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-san-salvador-felanitx/"
+  },
+  {
+    "lat": 39.8035304,
+    "lon": 3.1195181,
+    "osmID": 9455512586,
+    "osmType": "node",
+    "lastChanged": 1643377000000,
+    "address": {
+      "city": "Muro",
+      "county": "Pla de Mallorca",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.024.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.024.html"
+  },
+  {
+    "lat": 39.7928701,
+    "lon": 2.69645,
+    "osmID": 9455533940,
+    "osmType": "node",
+    "lastChanged": 1643378148000,
+    "address": {
+      "city": "Sóller",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.seemallorca.com/webcams/port-de-soller",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.seemallorca.com/webcams/port-de-soller"
+  },
+  {
+    "lat": 39.5706515,
+    "lon": 2.6512935,
+    "osmID": 9455546046,
+    "osmType": "node",
+    "lastChanged": 1643377894000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/palma-altstadt.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/palma-altstadt.html"
+  },
+  {
+    "lat": 39.7316383,
+    "lon": 3.236014,
+    "osmID": 9455560454,
+    "osmType": "node",
+    "lastChanged": 1643378421000,
+    "address": {
+      "county": "Pla de Mallorca",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.035.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.035.html"
+  },
+  {
+    "lat": 39.5383322,
+    "lon": 2.4468467,
+    "osmID": 9455593290,
+    "osmType": "node",
+    "lastChanged": 1643381466000,
+    "address": {
+      "city": "Peguera",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "135",
+      "camera:type": "fixed",
+      "contact:webcam": "http://multimediatres.com/paguera-cala-fornells/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://multimediatres.com/paguera-cala-fornells/"
+  },
+  {
+    "lat": 39.5576068,
+    "lon": 2.8928101,
+    "osmID": 9455611909,
+    "osmType": "node",
+    "lastChanged": 1643380720000,
+    "address": {
+      "city": "Algaida",
+      "county": "Pla de Mallorca",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "315",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/mallorca-algaida.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/mallorca-algaida.html"
+  },
+  {
+    "lat": 39.7930125,
+    "lon": 2.6899594,
+    "osmID": 9455642400,
+    "osmType": "node",
+    "lastChanged": 1643380850000,
+    "address": {
+      "city": "Sóller",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.030.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.030.html"
+  },
+  {
+    "lat": 39.8979685,
+    "lon": 3.0786388,
+    "osmID": 9455662421,
+    "osmType": "node",
+    "lastChanged": 1643381213000,
+    "address": {
+      "city": "Pollença",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.seemallorca.com/webcams/port-de-pollensa",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.seemallorca.com/webcams/port-de-pollensa"
+  },
+  {
+    "lat": 39.5691808,
+    "lon": 2.644923,
+    "osmID": 9455674394,
+    "osmType": "node",
+    "lastChanged": 1643381753000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.017.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.017.html"
+  },
+  {
+    "lat": 39.8435608,
+    "lon": 3.1803804,
+    "osmID": 9455719765,
+    "osmType": "node",
+    "lastChanged": 1643382766000,
+    "address": {
+      "city": "Alcúdia",
+      "county": "Raiguer",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ibred.es/avista/camara-sa-bassa-blanca/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-sa-bassa-blanca/"
+  },
+  {
+    "lat": 39.9048706,
+    "lon": 3.0588438,
+    "osmID": 9455719799,
+    "osmType": "node",
+    "lastChanged": 1643383975000,
+    "address": {
+      "city": "Pollença",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "110",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ibred.es/avista/camara-port-de-pollenca/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-port-de-pollenca/"
+  },
+  {
+    "lat": 39.5907628,
+    "lon": 2.5921214,
+    "osmID": 9455730387,
+    "osmType": "node",
+    "lastChanged": 1643384476000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.025.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.025.html"
+  },
+  {
+    "lat": 39.7200017,
+    "lon": 3.4566527,
+    "osmID": 9455779036,
+    "osmType": "node",
+    "lastChanged": 1643385167000,
+    "address": {
+      "city": "Cala Agulla",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "https://g0.ipcamlive.com/player/player.php?alias=calaagulla&autoplay=0",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://g0.ipcamlive.com/player/player.php?alias=calaagulla&autoplay=0"
+  },
+  {
+    "lat": 39.5277269,
+    "lon": 2.925599,
+    "osmID": 9455787517,
+    "osmType": "node",
+    "lastChanged": 1643384644000,
+    "address": {
+      "city": "Randa",
+      "county": "Pla de Mallorca",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ibred.es/avista/camara-puig-de-randa/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-puig-de-randa/"
+  },
+  {
+    "lat": 39.6568068,
+    "lon": 3.4408049,
+    "osmID": 9455798550,
+    "osmType": "node",
+    "lastChanged": 1643386036000,
+    "address": {
+      "city": "Capdepera",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://g0.ipcamlive.com/player/player.php?alias=canyamel&autoplay=0",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://g0.ipcamlive.com/player/player.php?alias=canyamel&autoplay=0"
+  },
+  {
+    "lat": 39.7089804,
+    "lon": 3.4611104,
+    "osmID": 9455801985,
+    "osmType": "node",
+    "lastChanged": 1643385379000,
+    "address": {
+      "city": "Cala Rajada",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:type": "fixed",
+      "contact:webcam": "https://g0.ipcamlive.com/player/player.php?alias=port&autoplay=0",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://g0.ipcamlive.com/player/player.php?alias=port&autoplay=0"
+  },
+  {
+    "lat": 39.7457773,
+    "lon": 3.4315972,
+    "osmID": 9455821141,
+    "osmType": "node",
+    "lastChanged": 1643385568000,
+    "address": {
+      "city": "Cala Mesquida",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://g0.ipcamlive.com/player/player.php?alias=calamesquida&autoplay=0",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://g0.ipcamlive.com/player/player.php?alias=calamesquida&autoplay=0"
+  },
+  {
+    "lat": 39.7131887,
+    "lon": 3.4701093,
+    "osmID": 9455857471,
+    "osmType": "node",
+    "lastChanged": 1643386492000,
+    "address": {
+      "city": "Cala Agulla",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "195",
+      "camera:type": "fixed",
+      "contact:webcam": "https://g0.ipcamlive.com/player/player.php?alias=calagat&autoplay=0%22",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://g0.ipcamlive.com/player/player.php?alias=calagat&autoplay=0%22"
+  },
+  {
+    "lat": 60.158677,
+    "lon": 24.7352659,
+    "osmID": 9458192160,
+    "osmType": "node",
+    "lastChanged": 1643470626000,
+    "address": {
+      "city": "Espoo",
+      "county": "Uusimaa",
+      "country": "Finland"
+    },
+    "osmTags": {
+      "camera:direction": "50",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.youtube.com/watch?v=LLFt5TkX0uQ",
+      "direction": "50",
+      "man_made": "surveillance",
+      "name": "Hotel Matts @ Matinkylä, Espoo - Live Street view",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building",
+      "webcam": "yes",
+      "website": "https://www.youtube.com/watch?v=LLFt5TkX0uQ"
+    },
+    "url": "https://www.youtube.com/watch?v=LLFt5TkX0uQ"
+  },
+  {
+    "lat": 49.4656939,
+    "lon": 17.0160062,
+    "osmID": 9463404747,
+    "osmType": "node",
+    "lastChanged": 1643640733000,
+    "address": {
+      "city": "Plumlov",
+      "county": "Olomoucký kraj",
+      "state": "Střední Morava",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "-100",
+      "camera:mount": "building",
+      "camera:type": "panning",
+      "contact:webcam": "https://pastebin.com/embed_iframe/R07Jh97H",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://pastebin.com/embed_iframe/R07Jh97H"
+  },
+  {
+    "lat": 39.7062432,
+    "lon": 2.7885161,
+    "osmID": 9463421408,
+    "osmType": "node",
+    "lastChanged": 1643641445000,
+    "address": {
+      "city": "Alaró",
+      "county": "Raiguer",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/mallorca-alaro.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/mallorca-alaro.html"
+  },
+  {
+    "lat": 39.7976743,
+    "lon": 2.691287,
+    "osmID": 9463434538,
+    "osmType": "node",
+    "lastChanged": 1643642488000,
+    "address": {
+      "city": "Sóller",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.clubnauticsoller.es/imag/webcamHD.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.clubnauticsoller.es/imag/webcamHD.jpg"
+  },
+  {
+    "lat": 39.5370595,
+    "lon": 2.423959,
+    "osmID": 9463436843,
+    "osmType": "node",
+    "lastChanged": 1643641596000,
+    "address": {
+      "city": "Andratx",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "http://multimediatres.com/camp-de-mar/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://multimediatres.com/camp-de-mar/"
+  },
+  {
+    "lat": 39.5703143,
+    "lon": 3.3746736,
+    "osmID": 9463444112,
+    "osmType": "node",
+    "lastChanged": 1643641828000,
+    "address": {
+      "city": "Sant Llorenç des Cardassar",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "150",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ibred.es/avista/camara-s-illot/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-s-illot/"
+  },
+  {
+    "lat": 39.7649999,
+    "lon": 3.3433503,
+    "osmID": 9463473167,
+    "osmType": "node",
+    "lastChanged": 1643643018000,
+    "address": {
+      "city": "Artà",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.balearsmeteo.com/sa_tudossa/webcam_sa_tudossa.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.balearsmeteo.com/sa_tudossa/webcam_sa_tudossa.php"
+  },
+  {
+    "lat": 39.5638663,
+    "lon": 2.6688967,
+    "osmID": 9463480883,
+    "osmType": "node",
+    "lastChanged": 1643644615000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.003.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.003.html"
+  },
+  {
+    "lat": 39.9553668,
+    "lon": 3.2112676,
+    "osmID": 9463500016,
+    "osmType": "node",
+    "lastChanged": 1643643649000,
+    "address": {
+      "city": "Pollença",
+      "county": "Serra de Tramuntana",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "30",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.balearsmeteo.com/formentor/webcam_formentor.php",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.balearsmeteo.com/formentor/webcam_formentor.php"
+  },
+  {
+    "lat": 39.5526138,
+    "lon": 2.6074185,
+    "osmID": 9463516072,
+    "osmType": "node",
+    "lastChanged": 1643643815000,
+    "address": {
+      "city": "Palma",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://livecam-pro.com/mallorca-cala-major.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/mallorca-cala-major.html"
+  },
+  {
+    "lat": 39.7356484,
+    "lon": 3.2725984,
+    "osmID": 9463523190,
+    "osmType": "node",
+    "lastChanged": 1643645038000,
+    "address": {
+      "city": "Artà",
+      "county": "Llevant",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.ibred.es/avista/camara-colonia-de-sant-pere/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.ibred.es/avista/camara-colonia-de-sant-pere/"
+  },
+  {
+    "lat": 40.0004019,
+    "lon": 3.8369276,
+    "osmID": 9463569350,
+    "osmType": "node",
+    "lastChanged": 1643645920000,
+    "address": {
+      "city": "Ciutadella",
+      "county": "Menorca",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/livecam073.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/livecam073.html"
+  },
+  {
+    "lat": 39.889714,
+    "lon": 4.2721599,
+    "osmID": 9463588475,
+    "osmType": "node",
+    "lastChanged": 1643646308000,
+    "address": {
+      "city": "Maó",
+      "county": "Menorca",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://livecam-pro.com/livecam011.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/livecam011.html"
+  },
+  {
+    "lat": 52.2490687,
+    "lon": 4.4349435,
+    "osmID": 9463804793,
+    "osmType": "node",
+    "lastChanged": 1643652006000,
+    "address": {
+      "city": "Noordwijk",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "250",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.youtube.com/watch?v=L76VKII_Z7k",
+      "description": "Deze camera is geïnstalleerd op 25 meter boven de hoek Bosweg-Vuurtorenplein in Noordwijk aan Zee. Locatie Boschflat aan de zuidwest zijde op de 8ste verdieping. Dank aan de VVE van de Boschflat.",
+      "man_made": "surveillance",
+      "name": "Noordwijk Live Boulevard en Vuurtoren Camera",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.youtube.com/watch?v=L76VKII_Z7k"
+  },
+  {
+    "lat": 38.9118951,
+    "lon": 1.434393,
+    "osmID": 9465268202,
+    "osmType": "node",
+    "lastChanged": 1643702002000,
+    "address": {
+      "city": "Eivissa",
+      "county": "Eivissa",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://ibiza-style.com/webcam-livecam-ibiza-hafen/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://ibiza-style.com/webcam-livecam-ibiza-hafen/"
+  },
+  {
+    "lat": 38.9125172,
+    "lon": 1.2243325,
+    "osmID": 9465327509,
+    "osmType": "node",
+    "lastChanged": 1643703853000,
+    "address": {
+      "county": "Eivissa",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.skylinewebcams.com/es/webcam/espana/islas-baleares/ibiza/cala-vadella-ibiza.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.skylinewebcams.com/es/webcam/espana/islas-baleares/ibiza/cala-vadella-ibiza.html"
+  },
+  {
+    "lat": 38.9771192,
+    "lon": 1.3078818,
+    "osmID": 9465343366,
+    "osmType": "node",
+    "lastChanged": 1643704274000,
+    "address": {
+      "city": "Sant Antoni de Portmany",
+      "county": "Eivissa",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "285",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.skylinewebcams.com/it/webcam/espana/islas-baleares/ibiza/sant-antoni-de-portmany.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.skylinewebcams.com/it/webcam/espana/islas-baleares/ibiza/sant-antoni-de-portmany.html"
+  },
+  {
+    "lat": 39.0129118,
+    "lon": 1.5860206,
+    "osmID": 9465376226,
+    "osmType": "node",
+    "lastChanged": 1643704584000,
+    "address": {
+      "city": "Cala Llenya",
+      "county": "Eivissa",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.guenthoer.de/ibiza/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://www.guenthoer.de/ibiza/"
+  },
+  {
+    "lat": 38.9144371,
+    "lon": 1.224931,
+    "osmID": 9465392117,
+    "osmType": "node",
+    "lastChanged": 1643704465000,
+    "address": {
+      "county": "Eivissa",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.skylinewebcams.com/es/webcam/espana/islas-baleares/ibiza/cala-vadella.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.skylinewebcams.com/es/webcam/espana/islas-baleares/ibiza/cala-vadella.html"
+  },
+  {
+    "lat": 39.6472715,
+    "lon": 2.778321,
+    "osmID": 9465570429,
+    "osmType": "node",
+    "lastChanged": 1643709081000,
+    "address": {
+      "city": "Santa María del Camí",
+      "county": "Raiguer",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/mallorca-santa-maria-ajuntament.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/mallorca-santa-maria-ajuntament.html"
+  },
+  {
+    "lat": 39.6473193,
+    "lon": 2.7781853,
+    "osmID": 9465570430,
+    "osmType": "node",
+    "lastChanged": 1643709081000,
+    "address": {
+      "city": "Santa María del Camí",
+      "county": "Raiguer",
+      "state": "Illes Balears",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://livecam-pro.com/mallorca-santa-maria-vistas.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://livecam-pro.com/mallorca-santa-maria-vistas.html"
+  },
+  {
+    "lat": 48.4652332,
+    "lon": 8.4120157,
+    "osmID": 9483704174,
+    "osmType": "node",
+    "lastChanged": 1644162158000,
+    "address": {
+      "city": "Freudenstadt",
+      "county": "Landkreis Freudenstadt",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=2"
+  },
+  {
+    "lat": 48.4740718,
+    "lon": 8.3010452,
+    "osmID": 9483716123,
+    "osmType": "node",
+    "lastChanged": 1644162842000,
+    "address": {
+      "city": "Freudenstadt",
+      "county": "Landkreis Freudenstadt",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=4",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=4"
+  },
+  {
+    "lat": 48.4715928,
+    "lon": 8.3137552,
+    "osmID": 9483719470,
+    "osmType": "node",
+    "lastChanged": 1644162544000,
+    "address": {
+      "city": "Freudenstadt",
+      "county": "Landkreis Freudenstadt",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=3",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=3"
+  },
+  {
+    "lat": 45.1256199,
+    "lon": 5.9039604,
+    "osmID": 9485846487,
+    "osmType": "node",
+    "lastChanged": 1644228865000,
+    "address": {
+      "city": "Chamrousse",
+      "county": "Isère",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.skaping.com/chamrousse/panorama-croix",
+      "fixme": "position approximative",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.skaping.com/chamrousse/panorama-croix"
+  },
+  {
+    "lat": 45.1256559,
+    "lon": 5.8786258,
+    "osmID": 9485895851,
+    "osmType": "node",
+    "lastChanged": 1644446521000,
+    "address": {
+      "city": "Chamrousse",
+      "county": "Isère",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.skaping.com/chamrousse/recoin/video",
+      "fixme": "position approximative",
+      "man_made": "surveillance",
+      "name": "LE RECOIN DE CHAMROUSSE",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.skaping.com/chamrousse/recoin/video"
+  },
+  {
+    "lat": 48.2541269,
+    "lon": 9.0308381,
+    "osmID": 9497871707,
+    "osmType": "node",
+    "lastChanged": 1644579250000,
+    "address": {
+      "city": "Albstadt",
+      "county": "Zollernalbkreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.bulktraffic.de/wsvcam/wsvcam.jpg",
+      "contact:website": "https://www.wsv-tailfingen.de/webcam",
+      "man_made": "surveillance",
+      "operator": "Wintersportverein Tailfingen e. V.",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "operator": "Wintersportverein Tailfingen e. V.",
+    "url": "http://www.bulktraffic.de/wsvcam/wsvcam.jpg"
+  },
+  {
+    "lat": 48.7463703,
+    "lon": 9.9955906,
+    "osmID": 9498194450,
+    "osmType": "node",
+    "lastChanged": 1644589485000,
+    "address": {
+      "city": "Bartholomä",
+      "county": "Ostalbkreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://wirtsberg.de/wp-content/uploads/kamera/Wirtsberg1.jpg",
+      "contact:website": "https://wirtsberg.de/webcam/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://wirtsberg.de/wp-content/uploads/kamera/Wirtsberg1.jpg"
+  },
+  {
+    "lat": 48.0962906,
+    "lon": 8.8096419,
+    "osmID": 9505952779,
+    "osmType": "node",
+    "lastChanged": 1644869987000,
+    "address": {
+      "city": "Böttingen",
+      "county": "Landkreis Tuttlingen",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.skilift-boettingen.de/images/webcam/webcam2.jpg",
+      "contact:website": "https://www.skilift-boettingen.de/webcam/13-skilift/webcam/34-webcam-3",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.skilift-boettingen.de/images/webcam/webcam2.jpg"
+  },
+  {
+    "lat": 51.980923,
+    "lon": 4.1126415,
+    "osmID": 9516438553,
+    "osmType": "node",
+    "lastChanged": 1645187930000,
+    "address": {
+      "city": "Hoek van Holland",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "254",
+      "camera:type": "panning",
+      "contact:webcam": "http://webcams.dirkzwager.com/",
+      "man_made": "surveillance",
+      "name": "Royal dirkzwager",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "sea"
+    },
+    "url": "http://webcams.dirkzwager.com/"
+  },
+  {
+    "lat": 51.9449201,
+    "lon": 4.0722004,
+    "osmID": 9516474119,
+    "osmType": "node",
+    "lastChanged": 1645188733000,
+    "address": {
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.youtube.com/watch?v=2soIUIe-0Wk",
+      "man_made": "surveillance",
+      "name": "Amazonehaven oost",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.youtube.com/watch?v=2soIUIe-0Wk"
+  },
+  {
+    "lat": 48.5144497,
+    "lon": 9.5598148,
+    "osmID": 9520026297,
+    "osmType": "node",
+    "lastChanged": 1645290561000,
+    "address": {
+      "city": "Römerstein",
+      "county": "Landkreis Reutlingen",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://skilift-donnstetten.de/webcam/webcam.php",
+      "fixme": "webcam position",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://skilift-donnstetten.de/webcam/webcam.php"
+  },
+  {
+    "lat": 50.4239913,
+    "lon": 30.4989271,
+    "osmID": 9521334145,
+    "osmType": "node",
+    "lastChanged": 1645352696000,
+    "address": {
+      "city": "Київ",
+      "country": "Ukraine"
+    },
+    "osmTags": {
+      "camera:direction": "151",
+      "camera:type": "fixed",
+      "contact:webcam": "https://gora.com.ua/web-camera",
+      "man_made": "surveillance",
+      "name": "вид на схил, Київ",
+      "name:en": "slope view, Kyiv",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "slope"
+    },
+    "url": "https://gora.com.ua/web-camera"
+  },
+  {
+    "lat": 51.499464,
+    "lon": 31.2736458,
+    "osmID": 9521359740,
+    "osmType": "node",
+    "lastChanged": 1645353219000,
+    "address": {
+      "city": "Чернігів",
+      "state": "Чернігівська область",
+      "country": "Ukraine"
+    },
+    "osmTags": {
+      "camera:direction": "40",
+      "camera:type": "fixed",
+      "contact:webcam": "https://rtsp.me/embed/TkT7QSKh/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://rtsp.me/embed/TkT7QSKh/"
+  },
+  {
+    "lat": 48.2719166,
+    "lon": 9.8277982,
+    "osmID": 9522236048,
+    "osmType": "node",
+    "lastChanged": 1645377008000,
+    "address": {
+      "city": "Ehingen (Donau)",
+      "county": "Alb-Donau-Kreis",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "35",
+      "camera:direction": "10",
+      "camera:features": "webcam",
+      "camera:mount": "pole",
+      "camera:recording": "online_streaming",
+      "camera:type": "fixed",
+      "contact:webcam": "https://sgmbhweb1.goip.de:8082/",
+      "man_made": "surveillance",
+      "operator": "Schreiner GmbH",
+      "surveillance": "webcam",
+      "surveillance:zone": "fountain",
+      "url:webcam": "https://sgmbhweb1.goip.de:8082/",
+      "website": "https://www.rizzi-brunnen.de/index2.php"
+    },
+    "operator": "Schreiner GmbH",
+    "url": "https://sgmbhweb1.goip.de:8082/"
+  },
+  {
+    "lat": 46.3717428,
+    "lon": 35.3698515,
+    "osmID": 9532171331,
+    "osmType": "node",
+    "lastChanged": 1645701561000,
+    "address": {
+      "city": "Кирилівка",
+      "state": "Запорізька область",
+      "country": "Ukraine"
+    },
+    "osmTags": {
+      "camera:direction": "199",
+      "camera:type": "fixed",
+      "contact:webcam": "http://kirillovka-azov.com/webcam-center",
+      "description": "Веб-камера в центре Кирилловки возле дельфинов (Памятник 200 лет Кирилловке)",
+      "description:en": "Webcam in the center of Kirillovka near the dolphins (Monument 200 years of Kirillovka)",
+      "man_made": "surveillance",
+      "name": "Center of Kirillovka",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://kirillovka-azov.com/webcam-center"
+  },
+  {
+    "lat": 50.8431059,
+    "lon": 14.7456588,
+    "osmID": 9540327192,
+    "osmType": "node",
+    "lastChanged": 1645956387000,
+    "address": {
+      "city": "Oybin",
+      "county": "Görlitz",
+      "state": "Sachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "343",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/",
+      "man_made": "surveillance",
+      "name": "Bahnhof Oybin",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "station"
+    },
+    "url": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/"
+  },
+  {
+    "lat": 50.8673781,
+    "lon": 14.745561,
+    "osmID": 9540389985,
+    "osmType": "node",
+    "lastChanged": 1645956527000,
+    "address": {
+      "city": "Olbersdorf",
+      "county": "Görlitz",
+      "state": "Sachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "30",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/",
+      "man_made": "surveillance",
+      "name": "Bahnhof Bertsdorf",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "station"
+    },
+    "url": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/"
+  },
+  {
+    "lat": 50.8910404,
+    "lon": 14.7924046,
+    "osmID": 9540392062,
+    "osmType": "node",
+    "lastChanged": 1645956879000,
+    "address": {
+      "city": "Zittau",
+      "county": "Görlitz",
+      "state": "Sachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "203",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/",
+      "man_made": "surveillance",
+      "name": "Bahnhof Zittau Vorstadt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "station"
+    },
+    "url": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/"
+  },
+  {
+    "lat": 50.9038862,
+    "lon": 14.8067035,
+    "osmID": 9540408017,
+    "osmType": "node",
+    "lastChanged": 1645956973000,
+    "address": {
+      "city": "Zittau",
+      "county": "Görlitz",
+      "state": "Sachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "station"
+    },
+    "url": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/"
+  },
+  {
+    "lat": 47.709428,
+    "lon": 11.1614203,
+    "osmID": 9540418781,
+    "osmType": "node",
+    "lastChanged": 1645957714000,
+    "address": {
+      "city": "Uffing am Staffelsee",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://seerestaurant-alpenblick.de/de/livecam/",
+      "man_made": "surveillance",
+      "name": "WETTERCAM / LIVECAM STAFFELSEE",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "lake"
+    },
+    "url": "https://seerestaurant-alpenblick.de/de/livecam/"
+  },
+  {
+    "lat": 43.8970012,
+    "lon": 5.8371876,
+    "osmID": 9545435889,
+    "osmType": "node",
+    "lastChanged": 1646069046000,
+    "address": {
+      "city": "Volx",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "310",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.inforoute04.fr/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "http://www.inforoute04.fr/"
+  },
+  {
+    "lat": 51.867295,
+    "lon": 13.9736573,
+    "osmID": 9551794133,
+    "osmType": "node",
+    "lastChanged": 1646309628000,
+    "address": {
+      "city": "Lübbenau/Spreewald",
+      "county": "Oberspreewald-Lausitz",
+      "state": "Brandenburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "55",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.spreewaldwetter.de/webcams/#webcam-spreewaldhafen2",
+      "man_made": "surveillance",
+      "name": "Grosser Spreewaldhafen Lübbenau - Hafeneinfahrt Hauptspree, Osten",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://www.spreewaldwetter.de/webcams/#webcam-spreewaldhafen2"
   }
 ]
