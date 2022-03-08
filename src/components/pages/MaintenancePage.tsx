@@ -12,10 +12,12 @@ function MaintenancePage() {
 
     const [youtubeFilter, setYoutubeFilter] = useState(false);
     const [nameFilter, setNameFilter] = useState(false);
+    const [meFilter, setMeFilter] = useState(false);
 
     const webcamRow = webcams
         .filter((a) => (youtubeFilter ? a.url.includes('youtube') : true))
         .filter((a) => (nameFilter ? !a.osmTags.name : true))
+        .filter((a) => (meFilter ? !a.osmTags.user === "wvdp" : true))
         .sort((a, b) => a.lastChanged - b.lastChanged)
         .map((webcam: Webcam) => (
             <tr key={webcam.osmID}>
@@ -100,6 +102,15 @@ function MaintenancePage() {
                         style={{ fontWeight: nameFilter ? 'bold' : 'normal' }}
                     >
                         No Name
+                    </span>
+                    {' | '}
+                    <span
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => setMeFilter(!nameFilter)}
+                        style={{ fontWeight: meFilter ? 'bold' : 'normal' }}
+                    >
+                        Me
                     </span>
                 </Col>
             </Row>
