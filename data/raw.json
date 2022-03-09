@@ -9286,9 +9286,9 @@
     "id": 4405851188,
     "lat": 41.3462587,
     "lon": 13.4431849,
-    "timestamp": "2021-02-14T10:18:30Z",
-    "version": 3,
-    "changeset": 99243635,
+    "timestamp": "2022-03-08T10:22:21Z",
+    "version": 4,
+    "changeset": 118229884,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
@@ -9297,9 +9297,11 @@
       "camera:type": "fixed",
       "contact:webcam": "http://meteof.altervista.org",
       "man_made": "surveillance",
+      "name": "Web-Cam Meteo Fondi",
       "operator": "Meteo Fondi",
       "surveillance": "webcam",
       "surveillance:type": "camera",
+      "surveillance:zone": "weather",
       "website": "http://meteof.altervista.org"
     }
   },
@@ -17707,9 +17709,9 @@
     "id": 7840147071,
     "lat": 51.9775415,
     "lon": 4.0966989,
-    "timestamp": "2022-02-18T12:38:50Z",
-    "version": 2,
-    "changeset": 117563330,
+    "timestamp": "2022-03-08T09:10:55Z",
+    "version": 3,
+    "changeset": 118227336,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
@@ -17717,6 +17719,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.youtube.com/watch?v=1sCBeKZjz8I",
       "man_made": "surveillance",
+      "name": "Nieuwe Waterweg",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "sea"
@@ -17727,9 +17730,9 @@
     "id": 7840636660,
     "lat": 52.2525893,
     "lon": 4.7577878,
-    "timestamp": "2020-08-24T16:51:20Z",
-    "version": 1,
-    "changeset": 89869864,
+    "timestamp": "2022-03-08T10:31:13Z",
+    "version": 2,
+    "changeset": 118230217,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
@@ -17737,8 +17740,10 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.webcam-aalsmeer.nl/",
       "man_made": "surveillance",
+      "name": "Webcam Aalsmeer",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
     }
   },
   {
@@ -20850,9 +20855,9 @@
     "id": 8690453895,
     "lat": -28.1483161,
     "lon": 151.9453553,
-    "timestamp": "2021-05-02T12:35:06Z",
-    "version": 2,
-    "changeset": 103993080,
+    "timestamp": "2022-03-08T10:29:57Z",
+    "version": 3,
+    "changeset": 118230171,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
@@ -20860,9 +20865,11 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.warwickgliding.org/index.php/about-us/webcams",
       "man_made": "surveillance",
+      "name": "warwick gliding club webcam",
       "operator": "GLIDING WARWICK CLUB",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "airfield"
     }
   },
   {
@@ -27797,17 +27804,18 @@
   {
     "type": "node",
     "id": 9520026297,
-    "lat": 48.5144497,
-    "lon": 9.5598148,
-    "timestamp": "2022-02-19T17:09:21Z",
-    "version": 1,
-    "changeset": 117612701,
-    "user": "skilib_de",
-    "uid": 1870119,
+    "lat": 48.5144277,
+    "lon": 9.5599804,
+    "timestamp": "2022-03-08T09:10:24Z",
+    "version": 2,
+    "changeset": 118227309,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
+      "camera:direction": "320",
       "contact:webcam": "https://skilift-donnstetten.de/webcam/webcam.php",
-      "fixme": "webcam position",
       "man_made": "surveillance",
+      "name": "skilift donnstetten",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
