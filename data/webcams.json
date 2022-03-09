@@ -10418,7 +10418,7 @@
     "osmID": 4405851188,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1613297910000,
+    "lastChanged": 1646734941000,
     "address": {
       "city": "Fondi",
       "county": "Latina",
@@ -10431,9 +10431,11 @@
       "camera:type": "fixed",
       "contact:webcam": "http://meteof.altervista.org",
       "man_made": "surveillance",
+      "name": "Web-Cam Meteo Fondi",
       "operator": "Meteo Fondi",
       "surveillance": "webcam",
       "surveillance:type": "camera",
+      "surveillance:zone": "weather",
       "website": "http://meteof.altervista.org"
     },
     "operator": "Meteo Fondi",
@@ -19550,7 +19552,7 @@
     "osmID": 7840147071,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1645187930000,
+    "lastChanged": 1646730655000,
     "address": {
       "city": "Hoek van Holland",
       "state": "Zuid-Holland",
@@ -19561,6 +19563,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.youtube.com/watch?v=1sCBeKZjz8I",
       "man_made": "surveillance",
+      "name": "Nieuwe Waterweg",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "sea"
@@ -19573,7 +19576,7 @@
     "osmID": 7840636660,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1598287880000,
+    "lastChanged": 1646735473000,
     "address": {
       "city": "Aalsmeer",
       "state": "Noord-Holland",
@@ -19584,8 +19587,10 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.webcam-aalsmeer.nl/",
       "man_made": "surveillance",
+      "name": "Webcam Aalsmeer",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
     },
     "url": "https://www.webcam-aalsmeer.nl/"
   },
@@ -23072,7 +23077,7 @@
     "osmID": 8690453895,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1619958906000,
+    "lastChanged": 1646735397000,
     "address": {
       "city": "Warwick",
       "state": "Queensland",
@@ -23083,9 +23088,11 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.warwickgliding.org/index.php/about-us/webcams",
       "man_made": "surveillance",
+      "name": "warwick gliding club webcam",
       "operator": "GLIDING WARWICK CLUB",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "airfield"
     },
     "operator": "GLIDING WARWICK CLUB",
     "url": "https://www.warwickgliding.org/index.php/about-us/webcams"
@@ -31105,12 +31112,12 @@
     "url": "https://www.youtube.com/watch?v=2soIUIe-0Wk"
   },
   {
-    "lat": 48.5144497,
-    "lon": 9.5598148,
+    "lat": 48.5144277,
+    "lon": 9.5599804,
     "osmID": 9520026297,
-    "user": "skilib_de",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1645290561000,
+    "lastChanged": 1646730624000,
     "address": {
       "city": "Römerstein",
       "county": "Landkreis Reutlingen",
@@ -31118,9 +31125,10 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "320",
       "contact:webcam": "https://skilift-donnstetten.de/webcam/webcam.php",
-      "fixme": "webcam position",
       "man_made": "surveillance",
+      "name": "skilift donnstetten",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
