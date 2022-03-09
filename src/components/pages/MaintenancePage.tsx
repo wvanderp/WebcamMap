@@ -107,7 +107,7 @@ function MaintenancePage() {
                     <span
                         role="button"
                         tabIndex={0}
-                        onClick={() => setMeFilter(!nameFilter)}
+                        onClick={() => setMeFilter(!meFilter)}
                         style={{ fontWeight: meFilter ? 'bold' : 'normal' }}
                     >
                         Me
