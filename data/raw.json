@@ -15535,15 +15535,15 @@
     "id": 7057285659,
     "lat": 45.0236548,
     "lon": 14.6353781,
-    "timestamp": "2022-02-01T09:57:19Z",
-    "version": 7,
-    "changeset": 116860201,
+    "timestamp": "2022-03-09T10:17:34Z",
+    "version": 8,
+    "changeset": 118271968,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
       "camera:mount": "pole",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=LrHkKT5Xec0",
+      "contact:webcam": "https://www.youtube.com/watch?v=93yZBhxzNE0",
       "man_made": "surveillance",
       "name": "Punat Live - Vodosprema",
       "surveillance": "webcam",
@@ -18884,9 +18884,9 @@
     "id": 8423136211,
     "lat": 51.5020486,
     "lon": 5.7637026,
-    "timestamp": "2021-02-14T17:14:33Z",
-    "version": 1,
-    "changeset": 99259393,
+    "timestamp": "2022-03-09T19:23:55Z",
+    "version": 2,
+    "changeset": 118291807,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
@@ -18894,9 +18894,11 @@
       "camera:type": "fixed",
       "contact:webcam": "https://molenstichtinggemert-bakel.nl/molens/live-beeld-molens",
       "man_made": "surveillance",
+      "name": "Live-beeld van Korenmolen De Laurentia - Milheeze",
       "operator": "molen stichting gemert-bakel",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
     }
   },
   {
@@ -19006,9 +19008,9 @@
     "id": 8431885391,
     "lat": -33.4261739,
     "lon": -70.6339516,
-    "timestamp": "2021-02-17T12:52:25Z",
-    "version": 1,
-    "changeset": 99454168,
+    "timestamp": "2022-03-09T19:24:47Z",
+    "version": 2,
+    "changeset": 118291826,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
@@ -19017,6 +19019,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://balticlivecam.com/cameras/chile/santiago/view-san-cristobal-hill/",
       "man_made": "surveillance",
+      "name": "VIEW FROM SAN CRISTÓBAL HILL",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
@@ -27845,25 +27848,6 @@
   },
   {
     "type": "node",
-    "id": 9521359740,
-    "lat": 51.499464,
-    "lon": 31.2736458,
-    "timestamp": "2022-02-20T10:33:39Z",
-    "version": 1,
-    "changeset": 117632325,
-    "user": "wvdp",
-    "uid": 436419,
-    "tags": {
-      "camera:direction": "40",
-      "camera:type": "fixed",
-      "contact:webcam": "https://rtsp.me/embed/TkT7QSKh/",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
     "id": 9522236048,
     "lat": 48.2719166,
     "lon": 9.8277982,
@@ -28054,6 +28038,27 @@
       "name": "Grosser Spreewaldhafen Lübbenau - Hafeneinfahrt Hauptspree, Osten",
       "surveillance": "webcam",
       "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9565716309,
+    "lat": 52.1018716,
+    "lon": 30.9705997,
+    "timestamp": "2022-03-09T10:24:17Z",
+    "version": 1,
+    "changeset": 118272260,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "190;10",
+      "camera:type": "fixed",
+      "contact:webcam": "https://i.centr.by/inforoads/en/dises/current/34",
+      "man_made": "surveillance",
+      "name": "Novaya Guta M8 454,9 km",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {

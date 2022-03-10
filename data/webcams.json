@@ -17258,7 +17258,7 @@
     "osmID": 7057285659,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1643709439000,
+    "lastChanged": 1646821054000,
     "address": {
       "city": "Punat",
       "county": "Primorsko-goranska županija",
@@ -17267,13 +17267,13 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=LrHkKT5Xec0",
+      "contact:webcam": "https://www.youtube.com/watch?v=93yZBhxzNE0",
       "man_made": "surveillance",
       "name": "Punat Live - Vodosprema",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=LrHkKT5Xec0"
+    "url": "https://www.youtube.com/watch?v=93yZBhxzNE0"
   },
   {
     "lat": 46.9508972,
@@ -20850,7 +20850,7 @@
     "osmID": 8423136211,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1613322873000,
+    "lastChanged": 1646853835000,
     "address": {
       "city": "Milheeze",
       "state": "Noord-Brabant",
@@ -20861,9 +20861,11 @@
       "camera:type": "fixed",
       "contact:webcam": "https://molenstichtinggemert-bakel.nl/molens/live-beeld-molens",
       "man_made": "surveillance",
+      "name": "Live-beeld van Korenmolen De Laurentia - Milheeze",
       "operator": "molen stichting gemert-bakel",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
     },
     "operator": "molen stichting gemert-bakel",
     "url": "https://molenstichtinggemert-bakel.nl/molens/live-beeld-molens"
@@ -20997,7 +20999,7 @@
     "osmID": 8431885391,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1613566345000,
+    "lastChanged": 1646853887000,
     "address": {
       "city": "Recoleta",
       "county": "Provincia de Santiago",
@@ -21010,6 +21012,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://balticlivecam.com/cameras/chile/santiago/view-san-cristobal-hill/",
       "man_made": "surveillance",
+      "name": "VIEW FROM SAN CRISTÓBAL HILL",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -31160,28 +31163,6 @@
     "url": "https://gora.com.ua/web-camera"
   },
   {
-    "lat": 51.499464,
-    "lon": 31.2736458,
-    "osmID": 9521359740,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1645353219000,
-    "address": {
-      "city": "Чернігів",
-      "state": "Чернігівська область",
-      "country": "Ukraine"
-    },
-    "osmTags": {
-      "camera:direction": "40",
-      "camera:type": "fixed",
-      "contact:webcam": "https://rtsp.me/embed/TkT7QSKh/",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "https://rtsp.me/embed/TkT7QSKh/"
-  },
-  {
     "lat": 48.2719166,
     "lon": 9.8277982,
     "osmID": 9522236048,
@@ -31410,5 +31391,30 @@
       "surveillance:type": "camera"
     },
     "url": "http://www.spreewaldwetter.de/webcams/#webcam-spreewaldhafen2"
+  },
+  {
+    "lat": 52.1018716,
+    "lon": 30.9705997,
+    "osmID": 9565716309,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1646821457000,
+    "address": {
+      "city": "Терюхский сельский Совет",
+      "county": "Гомельский район",
+      "state": "Гомельская область",
+      "country": "Belarus"
+    },
+    "osmTags": {
+      "camera:direction": "190;10",
+      "camera:type": "fixed",
+      "contact:webcam": "https://i.centr.by/inforoads/en/dises/current/34",
+      "man_made": "surveillance",
+      "name": "Novaya Guta M8 454,9 km",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://i.centr.by/inforoads/en/dises/current/34"
   }
 ]
