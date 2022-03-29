@@ -27,12 +27,12 @@ function Menu() {
                             <div className="col-sm-8 col-md-7 py-4">
                                 <h4 className="text-white">About</h4>
                                 <p className="text-muted">
-                                    This page displays all the webcams known to the OpenStreetMap.
+                                    This page displays all the webcams known to OpenStreetMap.
                                     {' '}
                                     Zoom in to see if your local town or city has a webcam.
                                     <br/>
                                     <br/>
-                                    Are you missing a webcam? Please raze a issue on
+                                    Are you missing a webcam? Please raze an issue on
                                     {' '}
                                     <a
                                         href={`https://www.openstreetmap.org/note/new#map=${
@@ -44,16 +44,16 @@ function Menu() {
                                     </a>
                                     {', '}
                                     <a href={'https://github.com/wvanderp/WebcamMap/issues/new'}>
-                                        the projects Github Page
+                                        the project's Github Page
                                     </a>
                                     {' '}
                                     or learn how to add them yourself at
                                     {' '}
-                                    <a href={'https://learnosm.org/'}>learn osm</a>
+                                    <a href={'https://learnosm.org/'}>LearnOSM</a>
                                     {'.'}
                                     <br/>
                                     <br/>
-                                    Do you have feedback? You can contact me via github.
+                                    Do you have feedback? You can contact me via GitHub.
                                 </p>
                             </div>
                             <div className="col-sm-4 offset-md-1 py-4">
@@ -61,7 +61,7 @@ function Menu() {
                                 <ul className="list-unstyled">
                                     <li>
                                         <a href="https://overpass-turbo.eu/s/15aA" className="text-white">
-                                            The Overpass Query used to create the data
+                                            The Overpass query used to create the data
                                         </a>
                                     </li>
                                     <li className="text-muted">
@@ -69,7 +69,7 @@ function Menu() {
                                             href="https://github.com/wvanderp/WebcamMap"
                                             className="text-white"
                                         >
-                                            The source code is available on Github
+                                            The source code is available on GitHub
                                         </a>
                                     </li>
                                     <li>
@@ -84,7 +84,7 @@ function Menu() {
                                         >
                                             <img
                                                 id={'osmAttribution'}
-                                                alt={'This map proudly uses data made by OpenStreetMap.org contributors'}
+                                                alt={'This map proudly uses data made by openstreetmap.org contributors'}
                                                 src={attribution}
                                             />
                                         </a>
@@ -96,7 +96,7 @@ function Menu() {
                                 <ul className="list-unstyled">
                                     <li>
                                         <Link to="/webcams" className="text-white">
-                                            All Webcams
+                                            All webcams
                                         </Link>
                                     </li>
                                     <li>
