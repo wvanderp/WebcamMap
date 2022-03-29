@@ -16,16 +16,16 @@
 This repo contains the webapp available at [https://cartocams.com/](https://cartocams.com/)
 
 ## Data sources
-We want to thank the openStreetMap community for the webcams and the address data. the data is available at [https://www.openstreetmap.org/](the openStreetMap) under a `ODbL` licence. 
+We want to thank the OpenStreetMap community for providing the webcam and the address data. The data is available at https://www.openstreetmap.org/ under the [ODbL](https://creativecommons.org/licenses/by-sa/3.0/) license. 
 
-This project uses the `openStreetMap Logo` drawn by `Ken Vermette` witch is licensed under `CC by-sa3.0` and is available at [https://wiki.openstreetmap.org/wiki/File:Public-images-osm_logo.svg](the OpenStreetMap Wiki)
+This project uses the OpenStreetMap Logo by Ken Vermette which is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). It is available from the OpenStreetMap Wiki ([link](https://wiki.openstreetmap.org/wiki/File:Public-images-osm_logo.svg)).
 
-And this project also uses `Icons8 flat integrated webcam` from the Icons8 library. these icons are available under the `MIT license` and available at [https://commons.wikimedia.org/wiki/File:Icons8_flat_integrated_webcam.svg](the wiki commons)
+This project also uses the "Icons8 flat integrated webcam" icon from the Icons8 library. These icons are available under the [MIT](https://opensource.org/licenses/MIT) license and available at Wikimedia Commons ([link](https://commons.wikimedia.org/wiki/File:Icons8_flat_integrated_webcam.svg)).
 
 
 ## Todos
 - Preview webcams
 - Be able to add webcams directly
 - Make icons smaller on higher zoom levels
-- Make creative commons license visible on the sites
-- Look at all the package license
+- Make Creative Commons license visible on the sites
+- Look at all the package licenses
