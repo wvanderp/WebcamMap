@@ -113,7 +113,7 @@
     "osmType": "node",
     "lastChanged": 1403691465000,
     "address": {
-      "city": "Slavětice",
+      "city": "Dukovany",
       "county": "Kraj Vysočina",
       "state": "Jihovýchod",
       "country": "Czech Republic"
@@ -518,7 +518,7 @@
     "osmType": "node",
     "lastChanged": 1623152972000,
     "address": {
-      "city": "Quiberon",
+      "city": "Port Haliguen",
       "county": "Morbihan",
       "state": "Bretagne",
       "country": "France"
@@ -623,7 +623,7 @@
     "osmType": "node",
     "lastChanged": 1407047971000,
     "address": {
-      "city": "Pramet",
+      "city": "Pattigham",
       "county": "Bezirk Ried im Innkreis",
       "state": "Oberösterreich",
       "country": "Austria"
@@ -1336,6 +1336,7 @@
     "osmType": "node",
     "lastChanged": 1314662545000,
     "address": {
+      "city": "Larvik",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
@@ -1387,6 +1388,7 @@
     "osmType": "node",
     "lastChanged": 1623399878000,
     "address": {
+      "city": "Sandefjord",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
@@ -2758,6 +2760,7 @@
     "osmType": "node",
     "lastChanged": 1314662557000,
     "address": {
+      "city": "Kristiansand",
       "county": "Agder",
       "country": "Norway"
     },
@@ -3655,6 +3658,7 @@
     "osmType": "node",
     "lastChanged": 1314662564000,
     "address": {
+      "city": "Tønsberg",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
@@ -4653,6 +4657,7 @@
     "osmType": "node",
     "lastChanged": 1623008536000,
     "address": {
+      "city": "Lierskogen",
       "county": "Viken",
       "country": "Norway"
     },
@@ -4866,18 +4871,17 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100113"
   },
   {
-    "lat": 63.656035,
-    "lon": 12.212713,
+    "lat": 63.6559905,
+    "lon": 12.2144329,
     "osmID": 1417674814,
-    "user": "haakonst",
+    "user": "norgis",
     "osmType": "node",
-    "lastChanged": 1314662574000,
+    "lastChanged": 1652630254000,
     "address": {
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
       "man_made": "surveillance",
       "name": "Innsmoen",
       "operator": "Statens vegvesen",
@@ -5529,6 +5533,30 @@
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100095"
+  },
+  {
+    "lat": 35.4239662,
+    "lon": 134.6004465,
+    "osmID": 1470562308,
+    "user": "io2528e",
+    "osmType": "node",
+    "lastChanged": 1650715406000,
+    "address": {
+      "city": "香美町",
+      "county": "美方郡",
+      "country": "Japan"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.kkr.mlit.go.jp/toyooka/bosai/road/camera.html",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.kkr.mlit.go.jp/toyooka/bosai/road/camera.html"
   },
   {
     "lat": 51.8674984,
@@ -6582,7 +6610,7 @@
     "osmType": "node",
     "lastChanged": 1368116891000,
     "address": {
-      "city": "Biella",
+      "city": "Campiglia Cervo",
       "county": "Biella",
       "state": "Piemonte",
       "country": "Italy"
@@ -6692,8 +6720,8 @@
     "osmType": "node",
     "lastChanged": 1641672085000,
     "address": {
-      "city": "Obermallebarn",
-      "county": "Bezirk Hollabrunn",
+      "city": "Gemeinde Sierndorf",
+      "county": "Bezirk Korneuburg",
       "state": "Niederösterreich",
       "country": "Austria"
     },
@@ -8325,29 +8353,30 @@
     "url": "https://verkehrsinfo-bw.de/kamera?id=K8015"
   },
   {
-    "lat": 52.2517091,
-    "lon": 6.1547654,
+    "lat": 52.2516782,
+    "lon": 6.1546415,
     "osmID": 3138374084,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1597933623000,
+    "lastChanged": 1649590438000,
     "address": {
       "city": "Deventer",
       "state": "Overijssel",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:direction": "215",
       "camera:mount": "tower",
       "camera:type": "panning",
-      "contact:webcam": "http://webcam.mapgear.nl/deventer_stadhuiskwartier/",
+      "contact:webcam": "http://webcam.mapgear.nl/rvdr_deventer/",
       "man_made": "surveillance",
+      "name": "Rivierverruiming in Deventer",
       "operator": "gemeente deventer",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://webcam.mapgear.nl/deventer_stadhuiskwartier/"
+      "surveillance:type": "camera"
     },
     "operator": "gemeente deventer",
-    "url": "http://webcam.mapgear.nl/deventer_stadhuiskwartier/"
+    "url": "http://webcam.mapgear.nl/rvdr_deventer/"
   },
   {
     "lat": 40.0290885,
@@ -8482,6 +8511,30 @@
     },
     "operator": "Stadt Paderborn",
     "url": "http://spbcamdom.ddns.net/record/current.jpg"
+  },
+  {
+    "lat": 38.6797251,
+    "lon": 15.8976891,
+    "osmID": 3330370785,
+    "user": "Tropeabiz",
+    "osmType": "node",
+    "lastChanged": 1650728218000,
+    "address": {
+      "city": "Tropea",
+      "county": "Vibo Valentia",
+      "state": "Calabria",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://www.tropea.biz/webcamtropea.php",
+      "ele": "50",
+      "man_made": "surveillance",
+      "source": "local knowledge",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.tropea.biz/webcamtropea.php"
   },
   {
     "lat": 40.142943,
@@ -11898,9 +11951,9 @@
     "lat": 43.1672058,
     "lon": -79.1996356,
     "osmID": 4606253689,
-    "user": "fbax",
+    "user": "uujfioepiof",
     "osmType": "node",
-    "lastChanged": 1485224391000,
+    "lastChanged": 1651425902000,
     "address": {
       "city": "St. Catharines",
       "county": "Niagara Region",
@@ -11909,6 +11962,7 @@
     },
     "osmTags": {
       "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc93.jpg",
       "man_made": "surveillance",
       "name": "QEW Skyway West",
@@ -12405,7 +12459,7 @@
     "lastChanged": 1485339411000,
     "address": {
       "city": "Kastelruth - Castelrotto",
-      "county": "Bozen",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -12426,7 +12480,7 @@
     "lastChanged": 1485339411000,
     "address": {
       "city": "Kastelruth - Castelrotto",
-      "county": "Bozen",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -12442,11 +12496,11 @@
     "lat": 50.8463054,
     "lon": 4.3529973,
     "osmID": 4666307569,
-    "user": "wvdp",
+    "user": "Peter Maris",
     "osmType": "node",
-    "lastChanged": 1625160071000,
+    "lastChanged": 1650663507000,
     "address": {
-      "city": "Ville de Bruxelles - Stad Brussel",
+      "city": "Bruxelles - Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
       "country": "Belgium"
     },
@@ -12455,9 +12509,12 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.brussels.be/webcam-grand-place",
       "description": "The webcam at the Grand-Place of Brussels, with the City Hall at the left.",
+      "description:es": "La cámara web en la Gran Plaza de Bruselas, con el ayuntamiento a la izquierda.",
       "man_made": "surveillance",
       "name": "Webcam Grand-Place - Grote Markt",
+      "name:de": "Webcam Großer Markt",
       "name:en": "Webcam Grand-Place",
+      "name:es": "Cámara Web Gran Plaza",
       "name:fr": "Webcam Grand-Place",
       "name:nl": "Webcam - Grote Markt",
       "surveillance": "webcam",
@@ -12524,7 +12581,7 @@
     "lastChanged": 1491149899000,
     "address": {
       "city": "Kastelruth - Castelrotto",
-      "county": "Bozen",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -12549,7 +12606,7 @@
     "lastChanged": 1491150065000,
     "address": {
       "city": "Kastelruth - Castelrotto",
-      "county": "Bozen",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -12627,7 +12684,7 @@
     "osmType": "node",
     "lastChanged": 1639494000000,
     "address": {
-      "city": "Osnabrück",
+      "city": "Atter",
       "county": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
@@ -12654,7 +12711,7 @@
     "osmType": "node",
     "lastChanged": 1639494000000,
     "address": {
-      "city": "Osnabrück",
+      "city": "Atter",
       "county": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
@@ -14956,7 +15013,7 @@
     "osmType": "node",
     "lastChanged": 1642075184000,
     "address": {
-      "city": "Ville de Bruxelles - Stad Brussel",
+      "city": "Bruxelles - Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
       "country": "Belgium"
     },
@@ -15099,12 +15156,12 @@
     "url": "https://www.swisswebcams.ch/webcam/1510953922"
   },
   {
-    "lat": 48.2257001,
-    "lon": 8.3848886,
+    "lat": 48.2257261,
+    "lon": 8.3850916,
     "osmID": 5767420280,
-    "user": "sizeof",
+    "user": "SchwarzwaldLocal",
     "osmType": "node",
-    "lastChanged": 1600180491000,
+    "lastChanged": 1652701843000,
     "address": {
       "city": "Schramberg",
       "county": "Landkreis Rottweil",
@@ -15112,10 +15169,10 @@
       "country": "Germany"
     },
     "osmTags": {
-      "camera:direction": "222",
+      "camera:direction": "350",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg?maxWidth=660",
+      "contact:webcam": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg",
       "man_made": "surveillance",
       "operator": "Stadt Schramberg",
       "operator:type": "government",
@@ -15124,7 +15181,7 @@
       "surveillance:zone": "street"
     },
     "operator": "Stadt Schramberg",
-    "url": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg?maxWidth=660"
+    "url": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg"
   },
   {
     "lat": 48.2022459,
@@ -15988,6 +16045,7 @@
     "lastChanged": 1638278740000,
     "address": {
       "city": "London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -16638,7 +16696,7 @@
     "osmType": "node",
     "lastChanged": 1560095493000,
     "address": {
-      "city": "Simonswald",
+      "city": "Waldkirch",
       "county": "Landkreis Emmendingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
@@ -16826,7 +16884,7 @@
     "osmType": "node",
     "lastChanged": 1562496862000,
     "address": {
-      "city": "Port of Spain",
+      "state": "Port of Spain",
       "country": "Trinidad and Tobago"
     },
     "osmTags": {
@@ -17386,7 +17444,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -18633,6 +18692,7 @@
     "lastChanged": 1623925116000,
     "address": {
       "city": "London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -18657,6 +18717,7 @@
     "lastChanged": 1638279218000,
     "address": {
       "city": "London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -18681,6 +18742,7 @@
     "lastChanged": 1638278976000,
     "address": {
       "city": "London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -18703,7 +18765,8 @@
     "osmType": "node",
     "lastChanged": 1638279156000,
     "address": {
-      "city": "London",
+      "city": "City of London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -19501,7 +19564,7 @@
     "osmID": 7829840362,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1597933226000,
+    "lastChanged": 1649590351000,
     "address": {
       "city": "Sanibel",
       "county": "Lee County",
@@ -19512,14 +19575,15 @@
       "camera:direction": "180",
       "camera:mount": "building",
       "camera:type": "panning",
-      "contact:webcam": "http://pswebcam.bbhlabs.com:19910/mjpg/video.mjpg",
+      "contact:webcam": "http://pswebcam.bbhlabs.com/#view",
       "man_made": "surveillance",
+      "name": "Another Beautiful Day at Pointe Santo de Sanibel",
       "operator": "Pointe Santo Condos",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
     "operator": "Pointe Santo Condos",
-    "url": "http://pswebcam.bbhlabs.com:19910/mjpg/video.mjpg"
+    "url": "http://pswebcam.bbhlabs.com/#view"
   },
   {
     "lat": 51.9775415,
@@ -20375,7 +20439,6 @@
     "osmType": "node",
     "lastChanged": 1611682045000,
     "address": {
-      "city": "Graz",
       "county": "Graz",
       "state": "Steiermark",
       "country": "Austria"
@@ -20448,7 +20511,7 @@
     "osmType": "node",
     "lastChanged": 1612870266000,
     "address": {
-      "city": "Viuz-la-Chiésaz",
+      "city": "Leschaux",
       "county": "Haute-Savoie",
       "state": "Auvergne-Rhône-Alpes",
       "country": "France"
@@ -20472,7 +20535,7 @@
     "osmType": "node",
     "lastChanged": 1612870266000,
     "address": {
-      "city": "Gruffy",
+      "city": "Leschaux",
       "county": "Haute-Savoie",
       "state": "Auvergne-Rhône-Alpes",
       "country": "France"
@@ -20659,28 +20722,6 @@
     "url": "http://89.106.143.18:122/"
   },
   {
-    "lat": 52.0857483,
-    "lon": 4.2679731,
-    "osmID": 8420070671,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1613213405000,
-    "address": {
-      "city": "Den Haag",
-      "state": "Zuid-Holland",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:direction": "330",
-      "camera:type": "fixed",
-      "contact:webcam": "http://84.85.9.149:6811/CGIProxy.fcgi?cmd=snapPicture2&usr=Houtrust1&pwd=guest",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "http://84.85.9.149:6811/CGIProxy.fcgi?cmd=snapPicture2&usr=Houtrust1&pwd=guest"
-  },
-  {
     "lat": 53.4604,
     "lon": 6.8225018,
     "osmID": 8420107309,
@@ -20784,7 +20825,7 @@
     "osmID": 8423092057,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1613322465000,
+    "lastChanged": 1649676407000,
     "address": {
       "city": "Antwerpen",
       "county": "Antwerpen",
@@ -20796,6 +20837,7 @@
       "camera:type": "panning",
       "contact:webcam": "http://webcam.hzs.be/",
       "man_made": "surveillance",
+      "name": "Antwerp Martime Academy",
       "operator": "Hogere Zeevaartschool",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -20811,7 +20853,8 @@
     "osmType": "node",
     "lastChanged": 1647251257000,
     "address": {
-      "city": "บ้านกะตะ",
+      "city": "ตำบลกะรน",
+      "county": "อำเภอเมืองภูเก็ต",
       "state": "จังหวัดภูเก็ต",
       "country": "Thailand"
     },
@@ -21159,6 +21202,7 @@
     "lastChanged": 1648026063000,
     "address": {
       "city": "New York",
+      "county": "New York County",
       "state": "New York",
       "country": "United States"
     },
@@ -21206,6 +21250,7 @@
     "osmType": "node",
     "lastChanged": 1635241681000,
     "address": {
+      "city": "New York",
       "county": "New York County",
       "state": "New York",
       "country": "United States"
@@ -21525,7 +21570,7 @@
     "osmID": 8448666280,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1614071845000,
+    "lastChanged": 1650646513000,
     "address": {
       "city": "Niedergörsdorf",
       "county": "Teltow-Fläming",
@@ -21536,7 +21581,9 @@
       "camera:direction": "180",
       "camera:type": "fixed",
       "contact:webcam": "https://www.flaemingair.de/webcam/",
+      "description": "view of the airfield",
       "man_made": "surveillance",
+      "name": "Flaeming Air",
       "operator": "flaeming air",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -21648,7 +21695,8 @@
     "osmType": "node",
     "lastChanged": 1647104725000,
     "address": {
-      "city": "City of Westminster",
+      "city": "London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -22759,7 +22807,7 @@
     "lastChanged": 1619517474000,
     "address": {
       "city": "Ahrntal - Valle Aurina",
-      "county": "Bozen",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -22785,7 +22833,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Sankt Englmar",
+      "city": "Klinglbach",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -24396,7 +24444,7 @@
     "osmID": 8889539031,
     "user": "Eric Bie",
     "osmType": "node",
-    "lastChanged": 1625296901000,
+    "lastChanged": 1650378291000,
     "address": {
       "city": "Orléans",
       "county": "Loiret",
@@ -24408,6 +24456,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.skaping.com/orleans/beffroi",
       "man_made": "surveillance",
+      "name": "Beffroi",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
@@ -24420,7 +24469,7 @@
     "osmID": 8889545349,
     "user": "Eric Bie",
     "osmType": "node",
-    "lastChanged": 1625297186000,
+    "lastChanged": 1650378553000,
     "address": {
       "city": "Orléans",
       "county": "Loiret",
@@ -24432,6 +24481,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://www.skaping.com/orleans/quais-de-loire/video",
       "man_made": "surveillance",
+      "name": "Quais de Loire",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -24717,6 +24767,7 @@
     "osmType": "node",
     "lastChanged": 1625602600000,
     "address": {
+      "city": "Leiden",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
@@ -24742,6 +24793,7 @@
     "osmType": "node",
     "lastChanged": 1625602600000,
     "address": {
+      "city": "Leiden",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
@@ -26444,7 +26496,7 @@
     "osmType": "node",
     "lastChanged": 1628864454000,
     "address": {
-      "city": "Oost-Vlieland",
+      "city": "Vlieland",
       "state": "Fryslân",
       "country": "Netherlands"
     },
@@ -26716,7 +26768,7 @@
     "osmID": 9107899874,
     "user": "Eric Bie",
     "osmType": "node",
-    "lastChanged": 1632144872000,
+    "lastChanged": 1650378152000,
     "address": {
       "city": "Orléans",
       "county": "Loiret",
@@ -26728,6 +26780,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.skaping.com/orleans/hotel-groslot",
       "man_made": "surveillance",
+      "name": "Hôtel Groslot",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -26740,7 +26793,7 @@
     "osmID": 9107915665,
     "user": "Eric Bie",
     "osmType": "node",
-    "lastChanged": 1632144872000,
+    "lastChanged": 1650378152000,
     "address": {
       "city": "Orléans",
       "county": "Loiret",
@@ -26753,6 +26806,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.skaping.com/orleans/parvis-de-la-cathedrale",
       "man_made": "surveillance",
+      "name": "Parvis de la Cathedrale",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -26765,7 +26819,7 @@
     "osmID": 9107925182,
     "user": "Eric Bie",
     "osmType": "node",
-    "lastChanged": 1632145648000,
+    "lastChanged": 1650378980000,
     "address": {
       "city": "Orléans",
       "county": "Loiret",
@@ -26778,6 +26832,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.skaping.com/orleans/parc-floral",
       "man_made": "surveillance",
+      "name": "Parc Floral",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -26790,7 +26845,7 @@
     "osmID": 9107947424,
     "user": "Eric Bie",
     "osmType": "node",
-    "lastChanged": 1632145302000,
+    "lastChanged": 1650378384000,
     "address": {
       "city": "Orléans",
       "county": "Loiret",
@@ -26803,6 +26858,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.skaping.com/orleans/place-du-martroi/live/",
       "man_made": "surveillance",
+      "name": "Place du Martroi",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -28360,11 +28416,11 @@
   },
   {
     "lat": 61.1796582,
-    "lon": -149.9718672,
+    "lon": -149.971867,
     "osmID": 9203288257,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1635281169000,
+    "lastChanged": 1650220949000,
     "address": {
       "county": "Anchorage",
       "state": "Alaska",
@@ -28373,13 +28429,13 @@
     "osmTags": {
       "camera:mount": "roof",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=jaSBuCedy7A",
+      "contact:webcam": "https://www.youtube.com/watch?v=z5lYsvOwxHI",
       "man_made": "surveillance",
       "name": "Lake Hood Seaplane Base, Anchorage, Alaska, USA",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=jaSBuCedy7A"
+    "url": "https://www.youtube.com/watch?v=z5lYsvOwxHI"
   },
   {
     "lat": 42.006281,
@@ -28437,7 +28493,7 @@
     "osmID": 9207503693,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1646132124000,
+    "lastChanged": 1649963759000,
     "address": {
       "city": "Sittard",
       "state": "Limburg",
@@ -28447,14 +28503,14 @@
       "camera:direction": "120",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=qd3gbc0RBdE",
+      "contact:webcam": "https://www.youtube.com/watch?v=9sLTmx25O5Y",
       "man_made": "surveillance",
       "name": "Webcam Sittard Markt",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "church"
     },
-    "url": "https://www.youtube.com/watch?v=qd3gbc0RBdE"
+    "url": "https://www.youtube.com/watch?v=9sLTmx25O5Y"
   },
   {
     "lat": 50.99869,
@@ -28510,7 +28566,7 @@
     "osmID": 9207647997,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1635425119000,
+    "lastChanged": 1650810411000,
     "address": {
       "city": "Sault Ste. Marie",
       "county": "Chippewa County",
@@ -28519,14 +28575,14 @@
     },
     "osmTags": {
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=bUWE3XWCvmo",
+      "contact:webcam": "https://www.youtube.com/watch?v=wXZnp3lfu8o",
       "description": "a live stream of the Soo Locks in Sault Ste Marie, Michigan, for people who enjoy watching ships",
       "man_made": "surveillance",
       "name": "Soo Locks, Sault Ste Marie, Michigan USA",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=bUWE3XWCvmo"
+    "url": "https://www.youtube.com/watch?v=wXZnp3lfu8o"
   },
   {
     "lat": 28.4763431,
@@ -28938,6 +28994,7 @@
     "lastChanged": 1638278740000,
     "address": {
       "city": "London",
+      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -30977,7 +31034,7 @@
     "osmType": "node",
     "lastChanged": 1644579250000,
     "address": {
-      "city": "Tailfingen",
+      "city": "Albstadt",
       "county": "Zollernalbkreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
@@ -31018,6 +31075,31 @@
       "surveillance:zone": "area"
     },
     "url": "https://wirtsberg.de/wp-content/uploads/kamera/Wirtsberg1.jpg"
+  },
+  {
+    "lat": 50.977921,
+    "lon": 11.0247024,
+    "osmID": 9503129132,
+    "user": "OMME-OSM",
+    "osmType": "node",
+    "lastChanged": 1652683172000,
+    "address": {
+      "city": "Erfurt",
+      "state": "Thüringen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "210",
+      "camera:mount": "wall",
+      "man_made": "surveillance",
+      "name": "Webcam Domplatz",
+      "operator": "Stadt Erfurt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.erfurt.de/ef/de/service/mediathek/webcam/115621.html"
+    },
+    "operator": "Stadt Erfurt",
+    "url": "https://www.erfurt.de/ef/de/service/mediathek/webcam/115621.html"
   },
   {
     "lat": 48.0962906,
@@ -31609,5 +31691,73 @@
     },
     "operator": "Segler-Verein Paderborn",
     "url": "https://content.meteobridge.com/cam/d34bcf8361cba060849ae41f5c353ce0/camplus.jpg"
+  },
+  {
+    "lat": 49.8106405,
+    "lon": 15.8155218,
+    "osmID": 9682585454,
+    "user": "rblazek",
+    "osmType": "node",
+    "lastChanged": 1650543421000,
+    "address": {
+      "city": "Rohozná",
+      "county": "Pardubický kraj",
+      "state": "Severovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://dopravniinfo.cz/api/CameraImage.ashx?camera=2732",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://dopravniinfo.cz/api/CameraImage.ashx?camera=2732"
+  },
+  {
+    "lat": 48.0374702,
+    "lon": 7.0155512,
+    "osmID": 9689660417,
+    "user": "LouisXIV",
+    "osmType": "node",
+    "lastChanged": 1650804699000,
+    "address": {
+      "city": "Metzeral",
+      "county": "Haut-Rhin",
+      "state": "Grand Est",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.hotel-hohneck.com/auberge/webcam.html",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.hotel-hohneck.com/auberge/webcam.html"
+  },
+  {
+    "lat": -36.9918286,
+    "lon": 147.1483574,
+    "osmID": 9721892922,
+    "user": "breno-au",
+    "osmType": "node",
+    "lastChanged": 1651901102000,
+    "address": {
+      "city": "Hotham Heights",
+      "state": "Victoria",
+      "country": "Australia"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "contact:webcam": "https://www.mthotham.com.au/on-mountain/conditions/snow-cams",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "skifield"
+    },
+    "url": "https://www.mthotham.com.au/on-mountain/conditions/snow-cams"
   }
 ]

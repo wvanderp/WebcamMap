@@ -13,11 +13,13 @@ function MaintenancePage() {
     const [youtubeFilter, setYoutubeFilter] = useState(false);
     const [nameFilter, setNameFilter] = useState(false);
     const [meFilter, setMeFilter] = useState(false);
+    const [fixMeFilter, setFixMeFilter] = useState(false);
 
     const webcamRow = webcams
         .filter((a: Webcam) => (youtubeFilter ? a.url.includes('youtube') : true))
         .filter((a: Webcam) => (nameFilter ? !a.osmTags.name : true))
         .filter((a: Webcam) => (meFilter ? a.user === 'wvdp' : true))
+        .filter((a: Webcam) => (fixMeFilter ? Object.keys(a.osmTags).map((key) => key.toLowerCase()).includes('fixme') : true))
         .sort((a, b) => a.lastChanged - b.lastChanged)
         .map((webcam: Webcam) => (
             <tr key={webcam.osmID}>
@@ -93,6 +95,15 @@ function MaintenancePage() {
                         style={{ fontWeight: youtubeFilter ? 'bold' : 'normal' }}
                     >
                         Youtube
+                    </span>
+                    {' | '}
+                    <span
+                        role="button"
+                        tabIndex={0}
+                        onClick={() => setFixMeFilter(!fixMeFilter)}
+                        style={{ fontWeight: fixMeFilter ? 'bold' : 'normal' }}
+                    >
+                        Has FixMe
                     </span>
                     {' | '}
                     <span
