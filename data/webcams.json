@@ -2126,7 +2126,7 @@
     "osmID": 1417673980,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1625172543000,
+    "lastChanged": 1652737777000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
@@ -2136,7 +2136,6 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=163123",
-      "fixme": "position",
       "man_made": "surveillance",
       "name": "E6 Saltfjellet mot saltdalen (674 moh)",
       "operator": "Statens vegvesen",
@@ -3545,13 +3544,15 @@
     "osmID": 1417674298,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1623511416000,
+    "lastChanged": 1652737890000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:type": "fixed",
       "check_date": "2021-06-12",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110719",
       "fixme": "position",
       "man_made": "surveillance",
       "name": "Bøyadalen",
@@ -3560,6 +3561,7 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "url": "http://webkamera.vegvesen.no/kamera?id=110719"
     },
     "operator": "Statens vegvesen",
@@ -5770,28 +5772,6 @@
       "surveillance:zone": "artwork"
     },
     "url": "https://derbevoelkerung.de/webcam/"
-  },
-  {
-    "lat": 52.5241376,
-    "lon": 13.4119181,
-    "osmID": 1816817801,
-    "user": "b-jazz-bot",
-    "osmType": "node",
-    "lastChanged": 1552517501000,
-    "address": {
-      "city": "Berlin",
-      "state": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "fixme": "exact pos",
-      "man_made": "surveillance",
-      "operator": "VMZ Berlin Betreibergesellschaft mbH",
-      "surveillance": "webcam",
-      "website": "https://www.vmz-info.de/VMZ_WEBCAMS/webcam5-2.jpg"
-    },
-    "operator": "VMZ Berlin Betreibergesellschaft mbH",
-    "url": "https://www.vmz-info.de/VMZ_WEBCAMS/webcam5-2.jpg"
   },
   {
     "lat": 50.0190313,
@@ -10585,32 +10565,6 @@
       "surveillance:zone": "street"
     },
     "url": "https://hotel-deutsche-eiche.de/fotos/webcam"
-  },
-  {
-    "lat": 51.705473,
-    "lon": 9.9963328,
-    "osmID": 4579310370,
-    "user": "20180911",
-    "osmType": "node",
-    "lastChanged": 1593771169000,
-    "address": {
-      "city": "Northeim",
-      "county": "Landkreis Northeim",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "125",
-      "camera:mount": "window",
-      "camera:type": "fixed",
-      "contact:webcam": "http://data.stadt-nom.de/webcam/muensterplatz/webcam_muensterplatz.jpg",
-      "fixme": "ist jetzt an anderer Stelle, siehe 4579310370",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
-    "url": "http://data.stadt-nom.de/webcam/muensterplatz/webcam_muensterplatz.jpg"
   },
   {
     "lat": 42.988175,
@@ -24634,7 +24588,7 @@
     "osmID": 8898936663,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1635420822000,
+    "lastChanged": 1652737044000,
     "address": {
       "city": "Amsterdam",
       "state": "Noord-Holland",
@@ -24644,7 +24598,8 @@
       "camera:direction": "237",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=Oz6kdHEhVEo",
+      "contact:webcam": "http://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166",
+      "fixme": "Offline???",
       "man_made": "surveillance",
       "name": "CBRE World Trade Center Amsterdam Bouw",
       "operator": "webcam.nl",
@@ -24653,7 +24608,7 @@
       "surveillance:zone": "construction"
     },
     "operator": "webcam.nl",
-    "url": "https://www.youtube.com/watch?v=Oz6kdHEhVEo"
+    "url": "http://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166"
   },
   {
     "lat": 51.6909908,
@@ -28518,7 +28473,7 @@
     "osmID": 9207527924,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1635420971000,
+    "lastChanged": 1652736605000,
     "address": {
       "city": "Sittard",
       "state": "Limburg",
@@ -28528,14 +28483,14 @@
       "camera:direction": "164",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=YsS6R-yGLyg",
+      "contact:webcam": "https://www.youtube.com/watch?v=ynlsfTkcYos",
       "man_made": "surveillance",
       "name": "Petrus Kerk Sittard",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "church"
     },
-    "url": "https://www.youtube.com/watch?v=YsS6R-yGLyg"
+    "url": "https://www.youtube.com/watch?v=ynlsfTkcYos"
   },
   {
     "lat": 28.9604311,
