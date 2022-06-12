@@ -2,8 +2,11 @@
 /* eslint-disable no-console */
 import axios from 'axios';
 import fs from 'fs';
-import iso3311a2 from 'iso-3166-1-alpha-2';
+import countries from 'i18n-iso-countries';
+import englishCountry from 'i18n-iso-countries/langs/en.json';
 import { Webcam } from '../src/types/webcam';
+
+countries.registerLocale(englishCountry);
 
 export interface OsmResponse {
     version: number;
@@ -173,7 +176,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
                 city: nominatim.address.city ?? nominatim.address.town ?? nominatim.address.village,
                 county: nominatim.address.county,
                 state: nominatim.address.state,
-                country: iso3311a2.getCountry(nominatim.address.country_code.toUpperCase())
+                country: countries.getName(nominatim.address.country_code.toUpperCase(), 'en')
             },
 
             osmTags: r.tags,
