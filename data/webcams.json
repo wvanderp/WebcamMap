@@ -8,7 +8,6 @@
     "lastChanged": 1635259118000,
     "address": {
       "city": "Lübeck",
-      "county": "Lübeck",
       "state": "Schleswig-Holstein",
       "country": "Germany"
     },
@@ -40,7 +39,6 @@
     "lastChanged": 1634830132000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -61,7 +59,6 @@
     "lastChanged": 1491327177000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -155,7 +152,6 @@
     "lastChanged": 1478947453000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -215,7 +211,7 @@
     "osmType": "node",
     "lastChanged": 1648039292000,
     "address": {
-      "county": "Baden-Baden",
+      "city": "Baden-Baden",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -289,7 +285,6 @@
     "lastChanged": 1552516949000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -310,7 +305,6 @@
     "lastChanged": 1552516949000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -331,7 +325,6 @@
     "lastChanged": 1505905965000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -351,7 +344,6 @@
     "lastChanged": 1552585859000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -371,7 +363,6 @@
     "lastChanged": 1552625517000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -391,7 +382,6 @@
     "lastChanged": 1634902595000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -421,7 +411,6 @@
     "lastChanged": 1551783452000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -443,7 +432,6 @@
     "lastChanged": 1637051104000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -488,12 +476,12 @@
     "url": "https://www.zittauer-schmalspurbahn.de/bahn-region/webcams/"
   },
   {
-    "lat": 54.4301857,
-    "lon": 10.1703279,
+    "lat": 54.4301883,
+    "lon": 10.1703489,
     "osmID": 787225611,
-    "user": "jnsmws",
+    "user": "G4rden3r",
     "osmType": "node",
-    "lastChanged": 1571324826000,
+    "lastChanged": 1654613409000,
     "address": {
       "city": "Kiel",
       "state": "Schleswig-Holstein",
@@ -1228,26 +1216,29 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=209309"
   },
   {
-    "lat": 61.178438,
-    "lon": 8.151994,
+    "lat": 61.1783552,
+    "lon": 8.1528478,
     "osmID": 1417673770,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662544000,
+    "lastChanged": 1653664731000,
     "address": {
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=182277",
+      "direction": "290",
       "man_made": "surveillance",
-      "name": "Filefjell",
+      "name": "FY296 Filefijell v/Varden (1 009 moh - retning Lærdal)",
       "operator": "Statens vegvesen",
       "ref": "182277",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=182277"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=182277"
@@ -1543,16 +1534,16 @@
     "lat": 59.096784,
     "lon": 9.779024,
     "osmID": 1417673853,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662547000,
+    "lastChanged": 1654524606000,
     "address": {
       "city": "Langangen",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "404",
       "man_made": "surveillance",
       "name": "Kokkersvoll",
       "operator": "Statens vegvesen",
@@ -1566,18 +1557,21 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110586"
   },
   {
-    "lat": 60.952069,
-    "lon": 5.682978,
+    "lat": 60.9513296,
+    "lon": 5.6843313,
     "osmID": 1417673860,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662547000,
+    "lastChanged": 1653686111000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "20",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=111158",
       "man_made": "surveillance",
       "name": "Stordalen",
       "operator": "Statens vegvesen",
@@ -1585,7 +1579,8 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=111158"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=111158"
@@ -1991,23 +1986,27 @@
     "lat": 59.5872438,
     "lon": 8.5850256,
     "osmID": 1417673951,
-    "user": "Marius Geitle",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1577281213000,
+    "lastChanged": 1654357264000,
     "address": {
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "33",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=127268",
       "man_made": "surveillance",
-      "name": "Ambjørndalen",
+      "name": "Fv3420 Ambjørndalen (334 moh - retning HjartdaI/Øyan)",
       "operator": "Statens vegvesen",
       "ref": "127268",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=127268"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=127268"
@@ -2276,26 +2275,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100101"
   },
   {
-    "lat": 68.868949,
-    "lon": 17.47696,
+    "lat": 68.8690666,
+    "lon": 17.4771424,
     "osmID": 1417674017,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662553000,
+    "lastChanged": 1654524814000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "30",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=208384",
       "man_made": "surveillance",
-      "name": "Fornes",
+      "name": "Fv848 Fornes (9moh)",
       "operator": "Statens vegvesen",
       "ref": "208384",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=208384"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=208384"
@@ -2408,28 +2411,32 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100097"
   },
   {
-    "lat": 59.520075,
-    "lon": 10.726214,
+    "lat": 59.5176448,
+    "lon": 10.7251726,
     "osmID": 1417674046,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662554000,
+    "lastChanged": 1654357165000,
     "address": {
-      "city": "Hølen",
+      "city": "Strømbråten",
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "160",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=113087",
       "man_made": "surveillance",
-      "name": "Sonsveien",
+      "name": "E6 Sonsveien",
       "note:no": "Retning mot Svinesund",
       "operator": "Statens vegvesen",
       "ref": "113087",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=113087"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=113087"
@@ -2525,27 +2532,31 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=111506"
   },
   {
-    "lat": 70.244949,
-    "lon": 30.526922,
+    "lat": 70.2455521,
+    "lon": 30.5307033,
     "osmID": 1417674065,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662555000,
+    "lastChanged": 1653685991000,
     "address": {
       "city": "Komagvær",
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "90",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=112323",
       "man_made": "surveillance",
-      "name": "Komagvær",
+      "name": "E75 Komagvær (11 moh)",
       "operator": "Statens vegvesen",
       "ref": "112323",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=112323"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=112323"
@@ -2857,15 +2868,15 @@
     "lat": 63.622289,
     "lon": 11.072027,
     "osmID": 1417674141,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662557000,
+    "lastChanged": 1654524852000,
     "address": {
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "out of opperation",
       "man_made": "surveillance",
       "name": "Aasen",
       "operator": "Statens vegvesen",
@@ -2912,15 +2923,15 @@
     "lat": 69.4126116,
     "lon": 17.1530935,
     "osmID": 1417674151,
-    "user": "SverigeFan",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1547393956000,
+    "lastChanged": 1653685476000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "404",
       "man_made": "surveillance",
       "name": "Hamn",
       "operator": "Statens vegvesen",
@@ -3072,16 +3083,16 @@
     "lat": 63.449716,
     "lon": 10.195416,
     "osmID": 1417674199,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662559000,
+    "lastChanged": 1653666020000,
     "address": {
       "city": "Trondheim",
       "county": "Trøndelag",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "404",
       "man_made": "surveillance",
       "name": "Flakk fergekai",
       "operator": "Statens vegvesen",
@@ -3306,26 +3317,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=205245"
   },
   {
-    "lat": 68.620833,
-    "lon": 17.652249,
+    "lat": 68.6181915,
+    "lon": 17.6429954,
     "osmID": 1417674247,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662561000,
+    "lastChanged": 1654356466000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "211",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100083",
       "man_made": "surveillance",
-      "name": "Øse",
+      "name": "E6 Øse (271moh - retning Bjerkvik)",
       "operator": "Statens vegvesen",
       "ref": "100083",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100083"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100083"
@@ -3539,30 +3554,31 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=112296"
   },
   {
-    "lat": 61.484128,
-    "lon": 6.731799,
+    "lat": 61.480613,
+    "lon": 6.7430903,
     "osmID": 1417674298,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1652737890000,
+    "lastChanged": 1653234915000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "150",
+      "camera:mount": "pole",
       "camera:type": "fixed",
       "check_date": "2021-06-12",
       "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110719",
-      "fixme": "position",
       "man_made": "surveillance",
-      "name": "Bøyadalen",
+      "name": "Rv5 Bøyadalen (146 moh - retning Sogndal)",
       "operator": "Statens vegvesen",
       "ref": "110719",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110719"
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110719"
@@ -3653,28 +3669,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=100081"
   },
   {
-    "lat": 59.318284,
-    "lon": 10.37472,
+    "lat": 59.3308149,
+    "lon": 10.3789855,
     "osmID": 1417674319,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662564000,
+    "lastChanged": 1653665692000,
     "address": {
-      "city": "Tønsberg",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=209649",
       "man_made": "surveillance",
-      "name": "Gulli nord",
+      "name": "E18 Tveiten (13 moh - retning Drammen)",
       "note:no": "Retning mot Drammen",
       "operator": "Statens vegvesen",
       "ref": "209649",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=209649"
+      "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=209649"
@@ -3683,15 +3701,15 @@
     "lat": 60.915258,
     "lon": 10.795577,
     "osmID": 1417674324,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662564000,
+    "lastChanged": 1654356709000,
     "address": {
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "offline",
       "man_made": "surveillance",
       "name": "Rudshøgda",
       "operator": "Statens vegvesen",
@@ -3786,16 +3804,16 @@
     "lat": 59.7736594,
     "lon": 5.4835146,
     "osmID": 1417674350,
-    "user": "Pingvinen",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1418056122000,
+    "lastChanged": 1653685629000,
     "address": {
       "city": "Leirvik",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "404",
       "man_made": "surveillance",
       "name": "Vabakkjen",
       "operator": "Statens vegvesen",
@@ -3812,15 +3830,15 @@
     "lat": 60.4477219,
     "lon": 6.7954907,
     "osmID": 1417674367,
-    "user": "Gazer75",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1379764338000,
+    "lastChanged": 1653685448000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "404",
       "man_made": "surveillance",
       "name": "Hardangerbrua",
       "note:no": "Bygging av ny Hardangerbru",
@@ -3863,16 +3881,16 @@
     "lat": 59.190131,
     "lon": 9.55703,
     "osmID": 1417674385,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662565000,
+    "lastChanged": 1654524010000,
     "address": {
       "city": "Skien",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "404",
       "man_made": "surveillance",
       "name": "Fjærekilen",
       "operator": "Statens vegvesen",
@@ -3917,7 +3935,7 @@
     "osmID": 1417674403,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1624036608000,
+    "lastChanged": 1654356644000,
     "address": {
       "county": "Nordland",
       "country": "Norway"
@@ -3927,7 +3945,7 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=199416",
-      "fixme": "position",
+      "fixme": "offline",
       "man_made": "surveillance",
       "name": "Fv813 Beiarfjellet (598moh)",
       "note:no": "Ved Reinhornheiatunnelen",
@@ -3943,12 +3961,12 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=199416"
   },
   {
-    "lat": 63.1383885,
-    "lon": 10.2548887,
+    "lat": 63.1383909,
+    "lon": 10.2548906,
     "osmID": 1417674420,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1623008248000,
+    "lastChanged": 1653234742000,
     "address": {
       "city": "Lundamo",
       "county": "Trøndelag",
@@ -3956,17 +3974,18 @@
     },
     "osmTags": {
       "camera:direction": "27",
-      "fixme": "position",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=197147",
       "man_made": "surveillance",
-      "name": "Horg",
+      "name": "E6 Horg (42 moh - retning Trondheim)",
       "note:no": "Retning mot Lundamo",
       "operator": "Statens vegvesen",
       "ref": "197147",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "url": "http://webkamera.vegvesen.no/kamera?id=197147"
+      "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=197147"
@@ -4186,24 +4205,28 @@
     "lat": 61.073821,
     "lon": 7.9560611,
     "osmID": 1417674515,
-    "user": "gormur",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1553535271000,
+    "lastChanged": 1653685791000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "280",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100098",
       "man_made": "surveillance",
-      "name": "Borlaugkrysset",
+      "name": "E16 Borlaugkrysset aust (507 moh - retning Lærdal)",
       "note:no": "Retning mot Lærdal",
       "operator": "Statens vegvesen",
       "ref": "100098",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100098"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100098"
@@ -4235,27 +4258,31 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110128"
   },
   {
-    "lat": 59.300323,
-    "lon": 11.671961,
+    "lat": 59.301183,
+    "lon": 11.6721983,
     "osmID": 1417674541,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662568000,
+    "lastChanged": 1653665124000,
     "address": {
       "city": "Strømsfoss",
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "193",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109117",
       "man_made": "surveillance",
-      "name": "Strømsfoss",
+      "name": "Fv21 Strømsfoss (117 moh)",
       "operator": "Statens vegvesen",
       "ref": "109117",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109117"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=109117"
@@ -4390,25 +4417,30 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=113253"
   },
   {
-    "lat": 68.6269895,
-    "lon": 16.5924525,
+    "lat": 68.6267816,
+    "lon": 16.5926558,
     "osmID": 1417674602,
-    "user": "Peilscheibe",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1425057509000,
+    "lastChanged": 1654524524000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "315",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=100085",
       "man_made": "surveillance",
-      "name": "Tjeldsund bru øst",
+      "name": "E10 Tjeldsundbrua øst (30moh)",
       "operator": "Statens vegvesen",
       "ref": "100085",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100085"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=100085"
@@ -5256,6 +5288,7 @@
     "osmType": "node",
     "lastChanged": 1314662577000,
     "address": {
+      "city": "Kristiansand",
       "county": "Agder",
       "country": "Norway"
     },
@@ -5647,21 +5680,28 @@
     "url": "http://www.skiforeningen.no/cgi/webcam.cgi?id=6"
   },
   {
-    "lat": 60.1711105,
-    "lon": 10.3946159,
+    "lat": 60.1708237,
+    "lon": 10.3923653,
     "osmID": 1568010458,
-    "user": "delphin55",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1450049278000,
+    "lastChanged": 1653036669000,
     "address": {
       "county": "Viken",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "200",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.skiforeningen.no/cgi/webcam.cgi?id=4",
+      "description": "The camera is in the garage in the parking lot where the trails start. There is also a weather station with its own website.",
+      "description:no": "Kameraet står på garasjen på P-plassen der løypene starter. Det finnes også en værstasjon med egen nettside.",
       "man_made": "surveillance",
+      "name": "nettkamera Ringkollen",
       "surveillance": "webcam",
-      "url": "http://www.skiforeningen.no/cgi/webcam.cgi?id=4"
+      "surveillance:type": "camera",
+      "surveillance:zone": "piste"
     },
     "url": "http://www.skiforeningen.no/cgi/webcam.cgi?id=4"
   },
@@ -5755,7 +5795,6 @@
     "lastChanged": 1634829112000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -5880,7 +5919,7 @@
     "osmType": "node",
     "lastChanged": 1622990638000,
     "address": {
-      "county": "Osnabrück",
+      "city": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -5905,7 +5944,7 @@
     "osmType": "node",
     "lastChanged": 1491901936000,
     "address": {
-      "county": "Osnabrück",
+      "city": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -6478,7 +6517,7 @@
     "osmType": "node",
     "lastChanged": 1638176614000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -6506,7 +6545,7 @@
     "osmType": "node",
     "lastChanged": 1642772896000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -6525,7 +6564,7 @@
     "osmType": "node",
     "lastChanged": 1419279333000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -6544,7 +6583,7 @@
     "osmType": "node",
     "lastChanged": 1635113999000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -6570,7 +6609,7 @@
     "osmType": "node",
     "lastChanged": 1642772762000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -6590,7 +6629,7 @@
     "osmType": "node",
     "lastChanged": 1368116891000,
     "address": {
-      "city": "Campiglia Cervo",
+      "city": "Biella",
       "county": "Biella",
       "state": "Piemonte",
       "country": "Italy"
@@ -6655,7 +6694,6 @@
     "lastChanged": 1647856309000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -6700,8 +6738,8 @@
     "osmType": "node",
     "lastChanged": 1641672085000,
     "address": {
-      "city": "Gemeinde Sierndorf",
-      "county": "Bezirk Korneuburg",
+      "city": "Obermallebarn",
+      "county": "Bezirk Hollabrunn",
       "state": "Niederösterreich",
       "country": "Austria"
     },
@@ -6901,7 +6939,7 @@
     "osmType": "node",
     "lastChanged": 1635240990000,
     "address": {
-      "city": "Würzburg",
+      "county": "Würzburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -6930,7 +6968,8 @@
     "osmType": "node",
     "lastChanged": 1408374630000,
     "address": {
-      "city": "Würzburg",
+      "city": "Heidingsfeld",
+      "county": "Würzburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -7012,9 +7051,9 @@
     "lat": 49.008911,
     "lon": 8.4194253,
     "osmID": 2625991424,
-    "user": "Nakaner",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1539449152000,
+    "lastChanged": 1652874586000,
     "address": {
       "city": "Karlsruhe",
       "state": "Baden-Württemberg",
@@ -7024,8 +7063,8 @@
       "camera:direction": "275",
       "camera:type": "fixed",
       "contact:webcam": "http://service.ka-news.de/camimage.php?cam=22",
-      "fixme": "check exact location",
       "man_made": "surveillance",
+      "name": "Durlacher Tor",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -7235,7 +7274,7 @@
     "osmType": "node",
     "lastChanged": 1645955244000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -7388,6 +7427,7 @@
     "lastChanged": 1408374631000,
     "address": {
       "city": "Würzburg",
+      "county": "Würzburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -7451,33 +7491,6 @@
     "url": "http://www.studentenwerk-karlsruhe.de/de/essen/livecams/popup/?page=1"
   },
   {
-    "lat": 53.2924235,
-    "lon": 10.488388,
-    "osmID": 2829178429,
-    "user": "biker@gf",
-    "osmType": "node",
-    "lastChanged": 1414335260000,
-    "address": {
-      "city": "Scharnebeck",
-      "county": "Lüneburg",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:angle": "30",
-      "camera:direction": "6",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:website": "http://www.wsa-uelzen.wsv.de/aktuelles/WebCams/SHW_UW.html",
-      "height": "45.5",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
-    "url": "http://www.wsa-uelzen.wsv.de/aktuelles/WebCams/SHW_UW.html"
-  },
-  {
     "lat": 51.249413,
     "lon": 5.7039798,
     "osmID": 2849542607,
@@ -7511,7 +7524,7 @@
     "osmType": "node",
     "lastChanged": 1642327921000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -7828,7 +7841,6 @@
     "lastChanged": 1407596098000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -7850,7 +7862,6 @@
     "lastChanged": 1407596253000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -8284,7 +8295,7 @@
     "osmType": "node",
     "lastChanged": 1580657884000,
     "address": {
-      "city": "Stuttgart",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -8312,7 +8323,7 @@
     "osmType": "node",
     "lastChanged": 1580657884000,
     "address": {
-      "city": "Stuttgart",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -8686,7 +8697,7 @@
     "osmType": "node",
     "lastChanged": 1551997670000,
     "address": {
-      "city": "Stuttgart",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -8776,6 +8787,7 @@
     "lastChanged": 1552045110000,
     "address": {
       "city": "Stuttgart",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -8801,7 +8813,7 @@
     "osmType": "node",
     "lastChanged": 1552045111000,
     "address": {
-      "city": "Stuttgart",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -9518,7 +9530,7 @@
     "osmType": "node",
     "lastChanged": 1552264467000,
     "address": {
-      "city": "Heidelberg",
+      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -9541,7 +9553,7 @@
     "osmType": "node",
     "lastChanged": 1491899857000,
     "address": {
-      "county": "Osnabrück",
+      "city": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -9570,7 +9582,7 @@
     "osmType": "node",
     "lastChanged": 1470861088000,
     "address": {
-      "city": "Coburg",
+      "county": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -9589,7 +9601,7 @@
     "osmType": "node",
     "lastChanged": 1629838341000,
     "address": {
-      "city": "Coburg",
+      "county": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -9753,7 +9765,8 @@
     "osmType": "node",
     "lastChanged": 1552132806000,
     "address": {
-      "city": "Coburg",
+      "city": "Löbelstein",
+      "county": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -9773,7 +9786,8 @@
     "osmType": "node",
     "lastChanged": 1552132806000,
     "address": {
-      "city": "Coburg",
+      "city": "Löbelstein",
+      "county": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -9793,7 +9807,8 @@
     "osmType": "node",
     "lastChanged": 1470905650000,
     "address": {
-      "city": "Coburg",
+      "city": "Beiersdorf",
+      "county": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -9813,7 +9828,8 @@
     "osmType": "node",
     "lastChanged": 1470905650000,
     "address": {
-      "city": "Coburg",
+      "city": "Beiersdorf",
+      "county": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -10446,6 +10462,7 @@
     "lastChanged": 1553786115000,
     "address": {
       "city": "Emden",
+      "county": "Emden",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -12583,7 +12600,6 @@
     "lastChanged": 1491327177000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -12611,7 +12627,7 @@
     "osmType": "node",
     "lastChanged": 1649425459000,
     "address": {
-      "city": "Würzburg",
+      "county": "Würzburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -12638,8 +12654,7 @@
     "osmType": "node",
     "lastChanged": 1639494000000,
     "address": {
-      "city": "Atter",
-      "county": "Osnabrück",
+      "city": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -12665,8 +12680,7 @@
     "osmType": "node",
     "lastChanged": 1639494000000,
     "address": {
-      "city": "Atter",
-      "county": "Osnabrück",
+      "city": "Osnabrück",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -14616,7 +14630,6 @@
     "lastChanged": 1635495038000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -14806,7 +14819,7 @@
     "osmType": "node",
     "lastChanged": 1521886462000,
     "address": {
-      "city": "Heilbronn",
+      "county": "Heilbronn",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -15172,6 +15185,7 @@
     "osmType": "node",
     "lastChanged": 1624786229000,
     "address": {
+      "city": "Les Sables-d'Olonne",
       "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
@@ -15603,7 +15617,7 @@
     "lastChanged": 1642593373000,
     "address": {
       "city": "Baiersbronn",
-      "county": "Landkreis Freudenstadt",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16650,7 +16664,7 @@
     "osmType": "node",
     "lastChanged": 1560095493000,
     "address": {
-      "city": "Waldkirch",
+      "city": "Simonswald",
       "county": "Landkreis Emmendingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
@@ -17398,8 +17412,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -17427,8 +17440,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "county": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -18004,32 +18016,6 @@
     "url": "https://torrent.roundshot.com/"
   },
   {
-    "lat": 51.6327715,
-    "lon": 7.3348498,
-    "osmID": 7569549510,
-    "user": "20180911",
-    "osmType": "node",
-    "lastChanged": 1590756395000,
-    "address": {
-      "city": "Datteln",
-      "county": "Kreis Recklinghausen",
-      "state": "Nordrhein-Westfalen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "90",
-      "camera:mount": "roof",
-      "camera:type": "fixed",
-      "fixme": "exact_position",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area",
-      "website": "http://cam01.eon.cdnst.adacorcdn.com/Datteln4.jpg"
-    },
-    "url": "http://cam01.eon.cdnst.adacorcdn.com/Datteln4.jpg"
-  },
-  {
     "lat": 42.5347462,
     "lon": -0.3705321,
     "osmID": 7578071138,
@@ -18295,7 +18281,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Mirkovice",
+      "city": "Přísečná",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -18310,35 +18296,6 @@
       "surveillance:type": "camera"
     },
     "url": "https://gcceskykrumlov.cz/webcam.html"
-  },
-  {
-    "lat": 47.4211881,
-    "lon": 10.9848805,
-    "osmID": 7672482694,
-    "user": "Arlo James Barnes",
-    "osmType": "node",
-    "lastChanged": 1593578036000,
-    "address": {
-      "city": "Garmisch-Partenkirchen",
-      "county": "Landkreis Garmisch-Partenkirchen",
-      "state": "Bayern",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "0",
-      "camera:mount": "post",
-      "camera:type": "fixed",
-      "contact:webcam": "https://foto-webcam.eu/webcam",
-      "fixme": "fixme:en",
-      "fixme:en": "exact position",
-      "image": "https://foto-webcam.eu/webcam/eibsee-nord/infos/eibsee-nord1.jpg",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area",
-      "website": "https://zugspitze.de/en/News/Live-Info/Zugspitze?type=webcams"
-    },
-    "url": "https://foto-webcam.eu/webcam"
   },
   {
     "lat": 48.317734,
@@ -18425,7 +18382,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18447,7 +18404,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18469,7 +18426,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18491,7 +18448,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18513,7 +18470,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18535,7 +18492,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18557,7 +18514,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18579,7 +18536,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18601,7 +18558,7 @@
     "osmType": "node",
     "lastChanged": 1596119551000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18623,7 +18580,7 @@
     "osmType": "node",
     "lastChanged": 1596119551000,
     "address": {
-      "city": "Koblenz",
+      "county": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -19241,8 +19198,8 @@
     "osmType": "node",
     "lastChanged": 1597689445000,
     "address": {
-      "city": "Sugar Land",
-      "county": "Fort Bend County",
+      "city": "Houston",
+      "county": "Harris County",
       "state": "Texas",
       "country": "United States"
     },
@@ -19386,7 +19343,7 @@
     "osmID": 7825397273,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1624785914000,
+    "lastChanged": 1652811184000,
     "address": {
       "city": "Arc 1950",
       "county": "Savoie",
@@ -19396,15 +19353,15 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=7NjQ8Wccmtk",
+      "contact:webcam": "https://www.youtube.com/watch?v=Wzdm6sWvl-Q",
       "man_made": "surveillance",
-      "name": "Les Arcs - Livecam Vagère",
+      "name": "Les Arcs - Livecam Arc 2000",
       "operator": "Les Arcs",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
     "operator": "Les Arcs",
-    "url": "https://www.youtube.com/watch?v=7NjQ8Wccmtk"
+    "url": "https://www.youtube.com/watch?v=Wzdm6sWvl-Q"
   },
   {
     "lat": -34.9227553,
@@ -19707,6 +19664,36 @@
     "url": "https://www.galeriacima.cl/"
   },
   {
+    "lat": 48.5693311,
+    "lon": 12.1127737,
+    "osmID": 7968723684,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652893068000,
+    "address": {
+      "city": "Altdorf",
+      "county": "Landkreis Landshut",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "addr:country": "DE",
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.stwo.biz/webcam/DM0FFL/",
+      "description": "Landshut,Niederbayern,Bayern Flachland,Bayern,Deutschland",
+      "man_made": "surveillance",
+      "manufacturer": "Canon",
+      "name": "Funkfreunde Landshut e.V.",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "http://www.stwo.biz/webcam/DM0FFL/"
+  },
+  {
     "lat": 48.536388,
     "lon": 12.1519272,
     "osmID": 7968824195,
@@ -19715,7 +19702,6 @@
     "lastChanged": 1601731904000,
     "address": {
       "city": "Landshut",
-      "county": "Landshut",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -19819,7 +19805,7 @@
     "osmID": 8069799072,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1641802806000,
+    "lastChanged": 1653664579000,
     "address": {
       "city": "Chester",
       "county": "Hampden County",
@@ -19830,14 +19816,14 @@
       "camera:direction": "-54",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=2LLLd272TgY",
+      "contact:webcam": "https://www.youtube.com/watch?v=A_iCRTM4fuQ",
       "man_made": "surveillance",
       "name": "Chester Railway Station Museum",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=2LLLd272TgY"
+    "url": "https://www.youtube.com/watch?v=A_iCRTM4fuQ"
   },
   {
     "lat": 48.5444038,
@@ -20203,7 +20189,7 @@
     "osmType": "node",
     "lastChanged": 1639481589000,
     "address": {
-      "city": "Hemfurth-Edersee",
+      "city": "Rehbach",
       "county": "Landkreis Waldeck-Frankenberg",
       "state": "Hessen",
       "country": "Germany"
@@ -20393,6 +20379,7 @@
     "osmType": "node",
     "lastChanged": 1611682045000,
     "address": {
+      "city": "Graz",
       "county": "Graz",
       "state": "Steiermark",
       "country": "Austria"
@@ -20564,6 +20551,7 @@
     "osmType": "node",
     "lastChanged": 1613210969000,
     "address": {
+      "city": "Les Sables-d'Olonne",
       "county": "Vendée",
       "state": "Pays de la Loire",
       "country": "France"
@@ -21070,32 +21058,6 @@
     "url": "https://www.youtube.com/watch?v=zTl7MUeMDMk"
   },
   {
-    "lat": 53.092397,
-    "lon": -2.4347912,
-    "osmID": 8435121363,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1635280376000,
-    "address": {
-      "city": "Crewe",
-      "county": "Cheshire East",
-      "state": "England",
-      "country": "United Kingdom"
-    },
-    "osmTags": {
-      "camera:direction": "160",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=3NYpUcm37fY",
-      "man_made": "surveillance",
-      "name": "Crewe Camera 5, Cheshire UK",
-      "operator": "Railcam",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "operator": "Railcam",
-    "url": "https://www.youtube.com/watch?v=3NYpUcm37fY"
-  },
-  {
     "lat": 50.7322257,
     "lon": -1.1590948,
     "osmID": 8435126313,
@@ -21155,7 +21117,7 @@
     "osmType": "node",
     "lastChanged": 1648026063000,
     "address": {
-      "city": "New York",
+      "city": "City of New York",
       "county": "New York County",
       "state": "New York",
       "country": "United States"
@@ -21180,7 +21142,7 @@
     "osmType": "node",
     "lastChanged": 1648293480000,
     "address": {
-      "city": "New York",
+      "city": "City of New York",
       "county": "New York County",
       "state": "New York",
       "country": "United States"
@@ -21202,7 +21164,7 @@
     "osmID": 8435183094,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1635241681000,
+    "lastChanged": 1653664526000,
     "address": {
       "city": "New York",
       "county": "New York County",
@@ -21213,7 +21175,7 @@
       "camera:direction": "170",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=AdUw5RdyZxI",
+      "contact:webcam": "https://www.youtube.com/watch?v=1-iS7LArMPA",
       "description": "Watch live streaming video in 4K of Times Square, New York City.",
       "man_made": "surveillance",
       "name": "EarthCam Live: Times Square in 4K",
@@ -21222,7 +21184,7 @@
       "surveillance:type": "camera"
     },
     "operator": "EarthCam",
-    "url": "https://www.youtube.com/watch?v=AdUw5RdyZxI"
+    "url": "https://www.youtube.com/watch?v=1-iS7LArMPA"
   },
   {
     "lat": 40.6981536,
@@ -21258,7 +21220,7 @@
     "osmType": "node",
     "lastChanged": 1624268046000,
     "address": {
-      "city": "New York",
+      "city": "City of New York",
       "state": "New York",
       "country": "United States"
     },
@@ -21522,9 +21484,9 @@
     "lat": 51.901135,
     "lon": 13.0599591,
     "osmID": 8448666280,
-    "user": "wvdp",
+    "user": "Predatorix",
     "osmType": "node",
-    "lastChanged": 1650646513000,
+    "lastChanged": 1654556348000,
     "address": {
       "city": "Niedergörsdorf",
       "county": "Teltow-Fläming",
@@ -21540,7 +21502,8 @@
       "name": "Flaeming Air",
       "operator": "flaeming air",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "operator": "flaeming air",
     "url": "https://www.flaemingair.de/webcam/"
@@ -21577,7 +21540,6 @@
     "lastChanged": 1614244820000,
     "address": {
       "city": "Mainz",
-      "county": "Mainz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -22787,7 +22749,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Klinglbach",
+      "city": "Sankt Englmar",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -26170,7 +26132,6 @@
     "lastChanged": 1628450817000,
     "address": {
       "city": "Duisburg",
-      "county": "Duisburg",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
     },
@@ -26451,7 +26412,7 @@
     "osmType": "node",
     "lastChanged": 1628864454000,
     "address": {
-      "city": "Vlieland",
+      "city": "Oost-Vlieland",
       "state": "Fryslân",
       "country": "Netherlands"
     },
@@ -28229,7 +28190,6 @@
     "lastChanged": 1634830416000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -28251,7 +28211,6 @@
     "lastChanged": 1634829626000,
     "address": {
       "city": "Berlin",
-      "state": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
@@ -28842,7 +28801,7 @@
     "osmID": 9260072430,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1647855407000,
+    "lastChanged": 1653229896000,
     "address": {
       "city": "Duluth",
       "county": "Saint Louis County",
@@ -28852,7 +28811,7 @@
     "osmTags": {
       "camera:direction": "90",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=mMl9t1tal8g",
+      "contact:webcam": "https://www.youtube.com/watch?v=i2rSgt5t_p4",
       "description": "The Superior Entry (WP) cam buffers as a ship passes and blocks the signal to the hub. An inbound ship will be seen until she reaches the cam, then the image will freeze and it will start buffering. An outbound ship will be seen on the cam after buffering",
       "man_made": "surveillance",
       "name": "Wisconsin Point Cam",
@@ -28862,7 +28821,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=mMl9t1tal8g"
+    "url": "https://www.youtube.com/watch?v=i2rSgt5t_p4"
   },
   {
     "lat": 41.9202589,
@@ -30937,12 +30896,12 @@
     "url": "https://www.freudenstadt.de/assets/Tools/imgResizer/index.php?id=3"
   },
   {
-    "lat": 45.1256199,
-    "lon": 5.9039604,
+    "lat": 45.1256479,
+    "lon": 5.9039971,
     "osmID": 9485846487,
-    "user": "Sylvain M",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1644228865000,
+    "lastChanged": 1652874285000,
     "address": {
       "city": "Chamrousse",
       "county": "Isère",
@@ -30950,21 +30909,23 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "dome",
       "contact:webcam": "https://www.skaping.com/chamrousse/panorama-croix",
-      "fixme": "position approximative",
       "man_made": "surveillance",
+      "name": "PANORAMA CROIX",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
     "url": "https://www.skaping.com/chamrousse/panorama-croix"
   },
   {
-    "lat": 45.1256559,
-    "lon": 5.8786258,
+    "lat": 45.1255745,
+    "lon": 5.8786263,
     "osmID": 9485895851,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1644446521000,
+    "lastChanged": 1653235133000,
     "address": {
       "city": "Chamrousse",
       "county": "Isère",
@@ -30972,12 +30933,15 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.skaping.com/chamrousse/recoin/video",
-      "fixme": "position approximative",
       "man_made": "surveillance",
       "name": "LE RECOIN DE CHAMROUSSE",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "piste"
     },
     "url": "https://www.skaping.com/chamrousse/recoin/video"
   },
@@ -31039,7 +31003,7 @@
     "osmType": "node",
     "lastChanged": 1652683172000,
     "address": {
-      "city": "Erfurt",
+      "county": "Erfurt",
       "state": "Thüringen",
       "country": "Germany"
     },
@@ -31430,6 +31394,186 @@
     "url": "https://i.centr.by/inforoads/en/dises/current/34"
   },
   {
+    "lat": 47.41246,
+    "lon": 11.128825,
+    "osmID": 9569407630,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652893068000,
+    "address": {
+      "city": "Garmisch-Partenkirchen",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "addr:country": "DE",
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/meilerhuette/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/meilerhuette/",
+      "description": "Bayerische Alpen,Werdenfelser Land,Zugspitze,Alpspitze,Garmisch-Partenkirchen,Wetterstein,Bayern,Deutschland",
+      "ele": "2366",
+      "man_made": "surveillance",
+      "name": "Meilerhütte - Wetterstein - Blick nach Nordwesten zur Zugspitze",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/meilerhuette/"
+  },
+  {
+    "lat": 47.54576,
+    "lon": 12.39558,
+    "osmID": 9569407678,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652892969000,
+    "address": {
+      "city": "Gemeinde Kirchdorf in Tirol",
+      "county": "Bezirk Kitzbühel",
+      "state": "Tirol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "addr:country": "AT",
+      "camera:direction": "153",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/st-johann-in-tirol/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/st-johann-in-tirol/",
+      "description": "St. Johann,StJohann,St.Johann,Nordtirol,Kitzbüheler Alpen,Tirol,Österreich",
+      "ele": "1220",
+      "man_made": "surveillance",
+      "name": "St. Johann in Tirol - Blick zum Kitzbüheler Horn",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/st-johann-in-tirol/"
+  },
+  {
+    "lat": 46.488461,
+    "lon": 10.801753,
+    "osmID": 9569407718,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652892871000,
+    "address": {
+      "city": "Ulten - Ultimo",
+      "county": "Bolzano - Bozen",
+      "state": "Trentino-Alto Adige/Südtirol",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "addr:country": "IT",
+      "camera:direction": "255",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/weissbrunnferner/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/weissbrunnferner/",
+      "description": "Weissbrunnferner,Weißbrunnferner,Ultental,Ulten,Südtirol,Alto Adige,Italien,Italia",
+      "ele": "2955",
+      "man_made": "surveillance",
+      "name": "Weißbrunnferner | Ghiacciaio di Fontana Bianca - Ulten, Südtirol | Val d’Ultimo, Alto Adige",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/weissbrunnferner/"
+  },
+  {
+    "lat": 46.746433,
+    "lon": 12.001198,
+    "osmID": 9569407736,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652892871000,
+    "address": {
+      "city": "Olang - Valdaora",
+      "county": "Bolzano - Bozen",
+      "state": "Trentino-Alto Adige/Südtirol",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "addr:country": "IT",
+      "camera:direction": "55",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/olang/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/olang/",
+      "description": "Olang,Kronplatz,Bruneck,Pustertal,Südtirol,Alto Adige,Italien",
+      "ele": "1400",
+      "man_made": "surveillance",
+      "name": "Berghotel Zirm - Olang / Geiselsberg",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/olang/"
+  },
+  {
+    "lat": 46.6413095,
+    "lon": 12.2317042,
+    "osmID": 9569407741,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652892871000,
+    "address": {
+      "city": "Toblach - Dobbiaco",
+      "county": "Bolzano - Bozen",
+      "state": "Trentino-Alto Adige/Südtirol",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "addr:country": "IT",
+      "camera:direction": "115",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
+      "description": "Zinnen,Drei Zinnen,Tre Cime di Laveredo,Südtirol,Italien,Drei Zinnenblick",
+      "ele": "1405",
+      "man_made": "surveillance",
+      "name": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/dreizinnenblick/"
+  },
+  {
+    "lat": 46.98332,
+    "lon": 12.626943,
+    "osmID": 9569407752,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652892969000,
+    "address": {
+      "city": "Lesach",
+      "county": "Bezirk Lienz",
+      "state": "Tirol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "addr:country": "AT",
+      "camera:direction": "40",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/kals-nord/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/kals-nord/",
+      "description": "Kals,Kals am Großglockner,Osttirol,Tiro,Österreich",
+      "ele": "1500",
+      "man_made": "surveillance",
+      "name": "Kals am Großglockner - Blick nach Nordosten",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/kals-nord/"
+  },
+  {
     "lat": 49.276472,
     "lon": -122.9096369,
     "osmID": 9579057585,
@@ -31702,6 +31846,7 @@
     "lastChanged": 1651901102000,
     "address": {
       "city": "Hotham Heights",
+      "county": "Mount Hotham Alpine Resort",
       "state": "Victoria",
       "country": "Australia"
     },
@@ -31714,5 +31859,136 @@
       "surveillance:zone": "skifield"
     },
     "url": "https://www.mthotham.com.au/on-mountain/conditions/snow-cams"
+  },
+  {
+    "lat": 48.0648242,
+    "lon": 11.1963232,
+    "osmID": 9749956021,
+    "user": "Christoph Lotz",
+    "osmType": "node",
+    "lastChanged": 1652893068000,
+    "address": {
+      "city": "Steinebach am Wörthsee",
+      "county": "Landkreis Starnberg",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "addr:country": "DE",
+      "camera:direction": "250",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.foto-webcam.net/webcam/woerthsee/",
+      "description": "Bayern Flachland,Bayern,Deutschland",
+      "ele": "540",
+      "man_made": "surveillance",
+      "name": "foto-webcam.net: Il Kiosko am Wörthsee, Blick Richtung Süd-Westen",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "http://www.foto-webcam.net/webcam/woerthsee/"
+  },
+  {
+    "lat": 51.862351,
+    "lon": 4.3110514,
+    "osmID": 9751082200,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1652859860000,
+    "address": {
+      "city": "Spijkenisse",
+      "state": "Zuid-Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "209",
+      "camera:type": "fixed",
+      "contact:webcam": "https://clubhuis.ltvdehartel.nl/index.php/webcams/",
+      "man_made": "surveillance",
+      "name": "Hartel Baan 4-5-6",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "sport_field"
+    },
+    "url": "https://clubhuis.ltvdehartel.nl/index.php/webcams/"
+  },
+  {
+    "lat": 53.3496904,
+    "lon": -6.2598697,
+    "osmID": 9761859141,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1653230318000,
+    "address": {
+      "city": "Dublin",
+      "county": "County Dublin",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.carrollsirishgifts.com/dublinwebcam.html",
+      "description": "Our great Webcam takes viewers right into the heart of Dublin City - to the iconic GPO building! Whether you want to see traffic, the weather, or you want to see the St Patrick's Day Parade, this cam is perfectly positioned.",
+      "man_made": "surveillance",
+      "name": "Dublin O'Connell Street Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
+    },
+    "url": "https://www.carrollsirishgifts.com/dublinwebcam.html"
+  },
+  {
+    "lat": 53.349928,
+    "lon": -6.2606955,
+    "osmID": 9761883328,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1653230739000,
+    "address": {
+      "city": "Dublin",
+      "county": "County Dublin",
+      "country": "Ireland"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.skylinewebcams.com/webcam/ireland/leinster/dublin/dublin-o-connell-street.html",
+      "description": "Overflowing with charm, Dublin is Ireland’s most visited city. Dublin’s eternally young soul and beautiful culture, a perfect mix of Gaelic traditions and modern vitality, attracts millions of tourists from all over the world.",
+      "man_made": "surveillance",
+      "name": "O'Connell Street Live cam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "tourism"
+    },
+    "url": "https://www.skylinewebcams.com/webcam/ireland/leinster/dublin/dublin-o-connell-street.html"
+  },
+  {
+    "lat": 39.3109316,
+    "lon": -76.6231143,
+    "osmID": 9795962394,
+    "user": "bgo_eiu",
+    "osmType": "node",
+    "lastChanged": 1654397869000,
+    "address": {
+      "city": "Baltimore",
+      "state": "Maryland",
+      "country": "United States"
+    },
+    "osmTags": {
+      "alt_name": "I 83 at North Avenue",
+      "camera:direction": "S",
+      "camera:mount": "bridge",
+      "camera:type": "fixed",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=88005dc600990068004f823633235daa",
+      "layer": "3",
+      "man_made": "surveillance",
+      "name": "Jones Falls Expressway at North Avenue",
+      "ref": "BC24",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://chart.maryland.gov/video/video.php?feed=88005dc600990068004f823633235daa"
   }
 ]
