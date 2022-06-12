@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,7 +20,15 @@ import PlaceSitemapPage from './components/pages/PlaceSitemapPage';
 import WebcamsSitemapPage from './components/pages/WebcamsSitemapPage';
 import MaintenancePage from './components/pages/MaintenancePage';
 
-ReactDOM.render(
+const container = document.querySelector('#app');
+
+if (container === null) {
+    throw new Error('Container not found');
+}
+
+const root = createRoot(container);
+
+root.render(
     <Router>
         <Menu />
         <Routes >
@@ -40,8 +48,7 @@ ReactDOM.render(
             <Route path="/404" element={<FourOFour/>} />
             <Route path="*" element={<FourOFour/>} />
         </Routes >
-    </Router>,
-    document.querySelector('#app')
+    </Router>
 );
 
 // eslint-disable-next-line no-console

@@ -3,7 +3,7 @@ import { Webcam } from '../types/webcam';
 function typeBased(webcam: Webcam): string | undefined {
     switch (webcam.osmTags.surveillance) {
         case 'traffic':
-            return 'Unknown Traffic Cam';
+            return 'Unknown Traffic Camera';
         case 'webcam':
             return 'Unknown Webcam';
         default:

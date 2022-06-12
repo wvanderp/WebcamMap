@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { useCallback, useEffect, useState } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
 import chunk from 'lodash.chunk';
 
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import { LatLngBoundsLiteral, Map as LeafletMap } from 'leaflet';
+import { LatLngBoundsLiteral } from 'leaflet';
 
 import { Col, Container, Row } from 'reactstrap';
 
@@ -16,10 +15,11 @@ import PopupContent from '../parts/PopupContent';
 import { Webcam } from '../../types/webcam';
 import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
 
-import useGlobalState from '../../state';
+import UpdateMap from '../../utils/UpdateMap';
 
 function ListPage() {
     const params = useParams();
+    // eslint-disable-next-line compat/compat
     const url = (new URL(window.location.href)).pathname;
 
     if (params.name === undefined) {
@@ -88,39 +88,19 @@ function ListPage() {
 
     document.title = `${name} - CartoCams`;
 
-    const [map, setMap] = useState<LeafletMap | null>(null);
-    const [_, updateLocation] = useGlobalState('location');
-
-    const onMove = useCallback(() => {
-        updateLocation({
-            coordinates: [map?.getCenter().lat ?? 0, map?.getCenter().lng ?? 0],
-            zoom: map?.getZoom() ?? 2
-        });
-    }, [map]);
-
-    useEffect(
-        () => {
-            map?.on('move', onMove);
-            return () => {
-                map?.off('move', onMove);
-            };
-        },
-        [map, onMove]
-    );
-
-    // TODO: make this page fit the bounds every time it move to a divert part. look at leaflet fitBounds function
+    // TODO: make this page fit the bounds every time it moves to a divert part. look at leaflet fitBounds function
 
     return (
         <div>
             <MapContainer
                 bounds={bounds}
                 id={'miniMap'}
-                whenCreated={setMap}
             >
                 <TileLayer
                     attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+                <UpdateMap />
                 {markers}
             </MapContainer>
             <Container fluid>

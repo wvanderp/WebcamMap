@@ -32,7 +32,7 @@ function Menu() {
                                     Zoom in to see if your local town or city has a webcam.
                                     <br/>
                                     <br/>
-                                    Are you missing a webcam? Please raze an issue on
+                                    Are you missing a webcam? Please raise an issue on
                                     {' '}
                                     <a
                                         href={`https://www.openstreetmap.org/note/new#map=${
@@ -44,9 +44,9 @@ function Menu() {
                                     </a>
                                     {', '}
                                     <a href={'https://github.com/github-actions[bot]/WebcamMap/issues/new'}>
-                                        the project's Github Page
+                                        the project&apos;s Github Page
                                     </a>
-                                    {' '}
+                                    {', '}
                                     or learn how to add them yourself at
                                     {' '}
                                     <a href={'https://learnosm.org/'}>LearnOSM</a>

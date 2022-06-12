@@ -1,10 +1,8 @@
 import * as React from 'react';
-import { useCallback, useEffect, useState } from 'react';
 
 import { useParams } from 'react-router';
 import { Navigate } from 'react-router-dom';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import { Map as LeafletMap } from 'leaflet';
 
 import { Col, Container, Row, Table } from 'reactstrap';
 
@@ -23,7 +21,7 @@ import { Webcam } from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
 import generateName from '../../utils/generateName';
 
-import useGlobalState from '../../state';
+import UpdateMap from '../../utils/UpdateMap';
 
 function ListPage() {
     const { id } = useParams();
@@ -63,38 +61,18 @@ function ListPage() {
     const cardTitle = generateName(webcam);
     document.title = `${cardTitle} - CartoCams`;
 
-    const [map, setMap] = useState<LeafletMap | null>(null);
-    const [_, updateLocation] = useGlobalState('location');
-
-    const onMove = useCallback(() => {
-        updateLocation({
-            coordinates: [map?.getCenter().lat ?? 0, map?.getCenter().lng ?? 0],
-            zoom: map?.getZoom() ?? 2
-        });
-    }, [map]);
-
-    useEffect(
-        () => {
-            map?.on('move', onMove);
-            return () => {
-                map?.off('move', onMove);
-            };
-        },
-        [map, onMove]
-    );
-
     return (
         <div>
             <MapContainer
                 center={[webcam.lat, webcam.lon]}
                 zoom={17}
                 id={'miniMap'}
-                whenCreated={setMap}
             >
                 <TileLayer
                     attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
+                <UpdateMap />
                 {marker}
             </MapContainer>
             <Container fluid>
