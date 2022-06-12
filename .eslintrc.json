@@ -43,7 +43,8 @@
     "react",
     "sonarjs",
     "@typescript-eslint",
-    "unicorn"
+    "unicorn",
+    "compat"
   ],
   "extends": [
     "airbnb",
@@ -52,7 +53,8 @@
     "plugin:react/recommended",
     "plugin:sonarjs/recommended",
     "plugin:unicorn/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:compat/recommended"
   ],
   "overrides": [
     {
@@ -170,6 +172,7 @@
     ],
     "unicorn/prefer-node-protocol": "off",
     "jsx-a11y/click-events-have-key-events": "off",
-    "unicorn/prefer-module": "off"
+    "unicorn/prefer-module": "off",
+    "function-paren-newline": "off"
   }
 }

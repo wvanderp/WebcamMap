@@ -4,7 +4,9 @@ import youtubedl from 'youtube-dl-exec';
 import fs from 'fs';
 import path from 'path';
 import data from '../../data/webcams.json';
+import { Webcam } from '../../src/types/webcam';
 
+// eslint-disable-next-line compat/compat, no-promise-executor-return
 const delay = (ms: number) => new Promise((result) => setTimeout(result, ms));
 
 async function isGoodYTLink(url: string): Promise<boolean> {
@@ -28,7 +30,7 @@ async function isGoodYTLink(url: string): Promise<boolean> {
 }
 
 export default async function lintYoutube() {
-    const youtubeLinks = data.filter((a) => (a.url.includes('youtube')));
+    const youtubeLinks = data.filter((a: Webcam) => (a.url.includes('youtube')));
     const badYoutubeLinks = [];
 
     for (const youtubeLink of youtubeLinks) {

@@ -51,7 +51,7 @@ export interface NominatimResponse {
 type NominatimCache = Record<string, NominatimResponse>
 
 function sleep(ms: number): Promise<void> {
-    // eslint-disable-next-line compat/compat
+    // eslint-disable-next-line compat/compat, no-promise-executor-return
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
@@ -73,8 +73,9 @@ const getNominatimCache = (): NominatimCache => {
             )
         );
 
-        console.log(`removed ${Object.values(data).length - Object.values(filteredNominatim).length
-        } out of date responses`);
+        console.log(
+            `removed ${Object.values(data).length - Object.values(filteredNominatim).length} out of date responses`
+        );
 
         return filteredNominatim;
     } catch {
