@@ -6361,12 +6361,12 @@
     "url": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Truda.jpg"
   },
   {
-    "lat": 55.1606107,
-    "lon": 61.3884984,
+    "lat": 55.1606548,
+    "lon": 61.3852755,
     "osmID": 2059453308,
-    "user": "b-jazz",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1556562045000,
+    "lastChanged": 1655973964000,
     "address": {
       "city": "Челябинск",
       "county": "Челябинский городской округ",
@@ -6374,18 +6374,20 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "109",
       "camera:features": "webcam",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Lenina.jpg",
-      "image": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Lenina.jpg",
+      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=99",
       "man_made": "surveillance",
+      "name": "СВЕРДЛОВСКИЙ - ЛЕНИНА",
+      "name:en": "SVERDLOVSKY - LENINA",
+      "name:ru": "СВЕРДЛОВСКИЙ - ЛЕНИНА",
       "source": "Bing",
       "surveillance": "webcam",
-      "url": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Lenina.jpg",
-      "website": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Lenina.jpg"
+      "surveillance:type": "camera"
     },
-    "url": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Lenina.jpg"
+    "url": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=99"
   },
   {
     "lat": 60.9415352,
@@ -14092,9 +14094,9 @@
     "lat": 48.7337787,
     "lon": 9.0454294,
     "osmID": 5220619391,
-    "user": "mapper999",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1580637794000,
+    "lastChanged": 1655974233000,
     "address": {
       "city": "Sindelfingen",
       "county": "Landkreis Böblingen",
@@ -14106,8 +14108,10 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://verkehrsinfo-bw.de/kamera?id=K8062",
+      "fixme": "offline",
       "height": "6",
       "man_made": "surveillance",
+      "name": "A8 Rastplatz Sommerhofen München",
       "operator": "Straßenverkehrszentrale Baden-Württemberg",
       "ref": "A8 Rastplatz Sommerhofen FR München (km 208.000/K8062)",
       "surveillance": "webcam",
@@ -25937,9 +25941,9 @@
     "lat": 45.8136896,
     "lon": -1.2163862,
     "osmID": 8944783342,
-    "user": "Kalepom",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1627066803000,
+    "lastChanged": 1655974478000,
     "address": {
       "city": "Saint-Trojan-les-Bains",
       "county": "Charente-Maritime",
@@ -25951,10 +25955,13 @@
       "camera:type": "dome",
       "contact:webcam": "https://youtu.be/8mUz_HLA_Fs",
       "man_made": "surveillance",
+      "name": "Webcam Novotel Saint-Trojan",
+      "operator": "Hôtel Novotel Thalassa Oléron Saint-Trojan",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
+    "operator": "Hôtel Novotel Thalassa Oléron Saint-Trojan",
     "url": "https://youtu.be/8mUz_HLA_Fs"
   },
   {
@@ -32149,9 +32156,9 @@
     "lat": 50.6657372,
     "lon": 10.8810126,
     "osmID": 9836241584,
-    "user": "klääp",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1655820248000,
+    "lastChanged": 1655974616000,
     "address": {
       "city": "Ilmenau",
       "county": "Ilm-Kreis",
@@ -32159,12 +32166,15 @@
       "country": "Germany"
     },
     "osmTags": {
-      "camera:type": "panning",
+      "camera:mount": "tower",
+      "camera:type": "dome",
       "contact:webcam": "https://kickelhahn.panomax.com/",
       "ele": "888",
       "man_made": "surveillance",
+      "name": "Kickelhahn Turm bei Ilmenau",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "url": "https://kickelhahn.panomax.com/"
   }
