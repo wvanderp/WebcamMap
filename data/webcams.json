@@ -2329,29 +2329,33 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=208384"
   },
   {
-    "lat": 60.461177,
-    "lon": 5.388955,
+    "lat": 60.4611711,
+    "lon": 5.3889676,
     "osmID": 1417674018,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1624783671000,
+    "lastChanged": 1657702884000,
     "address": {
       "city": "Bergen",
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "290",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
       "check_date": "2021-06-21",
-      "fixme": "position / out of service",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110811",
       "man_made": "surveillance",
-      "name": "Blindheim",
+      "name": "Kv Blindheim (Bergen kommune)",
       "note:no": "Kommunal veg",
       "operator": "Statens vegvesen",
       "ref": "110811",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110811"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110811"
@@ -4778,15 +4782,18 @@
     "lat": 70.7390346,
     "lon": 25.6143223,
     "osmID": 1417674733,
-    "user": "SverigeFan",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1539957506000,
+    "lastChanged": 1657702345000,
     "address": {
       "county": "Troms og Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110411",
+      "fixme": "position;maintenance",
       "man_made": "surveillance",
       "name": "Vedbotn",
       "operator": "Statens vegvesen",
@@ -4794,7 +4801,8 @@
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110411"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=110411"
@@ -19867,7 +19875,7 @@
     "osmID": 8063949086,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1643620576000,
+    "lastChanged": 1657703156000,
     "address": {
       "city": "Flagstaff",
       "county": "Coconino County",
@@ -19878,7 +19886,7 @@
       "camera:direction": "250",
       "camera:mount": "wall",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=ONGBnLjwHgo",
+      "contact:webcam": "https://www.youtube.com/watch?v=lP4hFCL0BG0",
       "description": "Flagstaff, Arizona, in Northern Arizona, is located on the BNSF Railway's Seligman Subdivision at milepost 344.2.  The Seligman Sub is part of their Southern Transcon, the former Atchison, Topeka & Santa Fe Railway (AT&SF) mainline between Chicago and Los",
       "man_made": "surveillance",
       "name": "Flagstaff, Arizona - West",
@@ -19888,7 +19896,7 @@
       "surveillance:zone": "area"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=ONGBnLjwHgo"
+    "url": "https://www.youtube.com/watch?v=lP4hFCL0BG0"
   },
   {
     "lat": 42.2800109,
@@ -28838,9 +28846,9 @@
     "lat": 47.0153003,
     "lon": -91.6651041,
     "osmID": 9260053845,
-    "user": "Nordpfeil",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1637240302000,
+    "lastChanged": 1657703221000,
     "address": {
       "city": "Two Harbors",
       "county": "Lake County",
@@ -28850,7 +28858,7 @@
     "osmTags": {
       "camera:direction": "240",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=MAKfJ0KyS4w",
+      "contact:webcam": "https://www.youtube.com/watch?v=8NlISOaq6jg",
       "description": "The Two Harbors Boat Launch Cam views to large boats, pleasure boats and other activity in the Two Harbors Agate Bay area.",
       "man_made": "surveillance",
       "name": "Two Harbors Boat Launch",
@@ -28860,7 +28868,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=MAKfJ0KyS4w"
+    "url": "https://www.youtube.com/watch?v=8NlISOaq6jg"
   },
   {
     "lat": 46.7100383,
