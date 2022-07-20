@@ -7317,7 +7317,6 @@
     "lastChanged": 1645955244000,
     "address": {
       "city": "Heidelberg",
-      "county": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -8763,7 +8762,7 @@
     "osmType": "node",
     "lastChanged": 1551997670000,
     "address": {
-      "county": "Stuttgart",
+      "city": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -9596,7 +9595,7 @@
     "osmType": "node",
     "lastChanged": 1552264467000,
     "address": {
-      "county": "Heidelberg",
+      "city": "Heidelberg",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -9831,8 +9830,7 @@
     "osmType": "node",
     "lastChanged": 1552132806000,
     "address": {
-      "city": "Löbelstein",
-      "county": "Coburg",
+      "city": "Coburg",
       "state": "Bayern",
       "country": "Germany"
     },
@@ -13844,7 +13842,7 @@
     "osmType": "node",
     "lastChanged": 1508442506000,
     "address": {
-      "city": "Pacific",
+      "city": "Gray Summit",
       "county": "Franklin County",
       "state": "Missouri",
       "country": "United States of America"
@@ -14930,7 +14928,7 @@
     "osmType": "node",
     "lastChanged": 1544466015000,
     "address": {
-      "city": "Thionville",
+      "city": "Yutz",
       "county": "Moselle",
       "state": "Grand Est",
       "country": "France"
@@ -16221,6 +16219,7 @@
     "osmType": "node",
     "lastChanged": 1552005489000,
     "address": {
+      "city": "Платформа 69-й км",
       "county": "Приозерский район",
       "state": "Ленинградская область",
       "country": "Russian Federation"
@@ -17535,7 +17534,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "county": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -17780,6 +17780,7 @@
     "osmType": "node",
     "lastChanged": 1589802387000,
     "address": {
+      "state": "Region Sjælland",
       "country": "Denmark"
     },
     "osmTags": {
@@ -18522,7 +18523,7 @@
     "osmType": "node",
     "lastChanged": 1596119403000,
     "address": {
-      "county": "Koblenz",
+      "city": "Koblenz",
       "state": "Rheinland-Pfalz",
       "country": "Germany"
     },
@@ -18699,7 +18700,6 @@
     "lastChanged": 1623925116000,
     "address": {
       "city": "London",
-      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -18724,7 +18724,6 @@
     "lastChanged": 1638279218000,
     "address": {
       "city": "London",
-      "county": "Greater London",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -26007,7 +26006,7 @@
     "osmType": "node",
     "lastChanged": 1627324972000,
     "address": {
-      "city": "Saint-Pierre-d'Oléron",
+      "city": "La Cotinière",
       "county": "Charente-Maritime",
       "state": "Nouvelle-Aquitaine",
       "country": "France"
@@ -28161,7 +28160,6 @@
     "osmType": "node",
     "lastChanged": 1632618868000,
     "address": {
-      "city": "Mount Airy",
       "county": "Carroll County",
       "state": "Maryland",
       "country": "United States of America"
@@ -29174,7 +29172,7 @@
     "osmType": "node",
     "lastChanged": 1641660548000,
     "address": {
-      "city": "Gemeinde Wullersdorf",
+      "city": "Gemeinde Grabern",
       "county": "Bezirk Hollabrunn",
       "state": "Niederösterreich",
       "country": "Austria"
@@ -29881,7 +29879,7 @@
     "osmType": "node",
     "lastChanged": 1643375092000,
     "address": {
-      "city": "Pollença",
+      "city": "Port de Pollença",
       "county": "Serra de Tramuntana",
       "state": "Illes Balears",
       "country": "Spain"
@@ -30139,7 +30137,7 @@
     "osmType": "node",
     "lastChanged": 1643381213000,
     "address": {
-      "city": "Pollença",
+      "city": "Port de Pollença",
       "county": "Serra de Tramuntana",
       "state": "Illes Balears",
       "country": "Spain"
@@ -32670,7 +32668,7 @@
     "osmType": "node",
     "lastChanged": 1650804699000,
     "address": {
-      "city": "Metzeral",
+      "city": "Stosswihr",
       "county": "Haut-Rhin",
       "state": "Grand Est",
       "country": "France"
@@ -33545,5 +33543,27 @@
       "surveillance:zone": "entrance"
     },
     "url": "https://webcam-freibad.grafing.de:8889/mjpg/video.mjpg?videocodec=h264&streamprofile=webstream"
+  },
+  {
+    "lat": 45.4636037,
+    "lon": 7.1324454,
+    "osmID": 9897315490,
+    "user": "Skinoku",
+    "osmType": "node",
+    "lastChanged": 1658231307000,
+    "address": {
+      "city": "Ceresole Reale",
+      "county": "Torino",
+      "state": "Piemonte",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "man_made": "surveillance",
+      "name": "Webcam vista panoramica PANOMAX Glaciomuseo Serrù",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://ceresolereale-glaciomuseo.panomax.com/"
+    },
+    "url": "https://ceresolereale-glaciomuseo.panomax.com/"
   }
 ]
