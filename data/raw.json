@@ -17881,12 +17881,13 @@
     "id": 7847673041,
     "lat": 47.6199123,
     "lon": -122.3208739,
-    "timestamp": "2020-08-26T22:16:44Z",
-    "version": 1,
-    "changeset": 89993038,
-    "user": "TheAdventurer64",
-    "uid": 8466505,
+    "timestamp": "2022-10-20T06:00:01Z",
+    "version": 2,
+    "changeset": 127819817,
+    "user": "wislander",
+    "uid": 384146,
     "tags": {
+      "camera:type": "fixed",
       "contact:webcam": "https://www.seattle.gov/police/community-policing/red-light-cameras",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -18526,6 +18527,25 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8357662217,
+    "lat": 50.0470537,
+    "lon": 7.1289076,
+    "timestamp": "2022-10-20T18:50:10Z",
+    "version": 3,
+    "changeset": 127851128,
+    "user": "Seismograph",
+    "uid": 14012252,
+    "tags": {
+      "camera:mount": "ceiling",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.mosel-webcams.de/prinzenkopf-webcam/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -31638,6 +31658,48 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "parking"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10118236298,
+    "lat": 53.2014232,
+    "lon": 6.5515328,
+    "timestamp": "2022-10-21T08:14:09Z",
+    "version": 1,
+    "changeset": 127869081,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.rtvnoord.nl/webcamgasunie",
+      "man_made": "surveillance",
+      "name": "​Webcam Gasunie",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10118243263,
+    "lat": 53.3319693,
+    "lon": 6.9306627,
+    "timestamp": "2022-10-21T08:20:08Z",
+    "version": 1,
+    "changeset": 127869312,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "140",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcam-delfzijl.nl/pages/cameras/haven.php",
+      "man_made": "surveillance",
+      "name": "Webcam Delfzijl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     }
   },
   {

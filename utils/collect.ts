@@ -1,6 +1,6 @@
 /* eslint-disable unicorn/no-array-reduce */
 /* eslint-disable no-console */
-import axios from 'axios';
+import axios, {AxiosResponse} from 'axios';
 import fs from 'fs';
 import countries from 'i18n-iso-countries';
 import englishCountry from 'i18n-iso-countries/langs/en.json';
@@ -95,14 +95,19 @@ const getNominatimUrl = (
 const overpassUrl = 'https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A%28%0A%20%20nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3B%0A%20%20nwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%0A%29%3B%0Aout%20meta%3B%0A';
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
-    if (Object.keys(nominatimCache).includes(`${lat},${lon}`)) {
+    if (Object.keys(nominatimCache).includes(`
+    ${lat},${lon}`)) {
         console.log(`hit cache for ${lat},${lon}`);
         return nominatimCache[`${lat},${lon}`];
     }
     const url = getNominatimUrl(lat, lon);
 
     console.log(`reaching to nominatim for ${lat},${lon}`);
-    const { data } = await axios.get<NominatimResponse>(url);
+    const { data, status } = await axios.get<NominatimResponse>(url);
+
+    if (status >= 400) {
+        throw new Error(`got a ${status} from nominatim for ${lat},${lon}`);
+    }
 
     nominatimCache[`${lat},${lon}`] = {
         ...data,
@@ -119,8 +124,14 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     }
 
     console.log('getting overpass');
-
-    const response = await axios.get<OsmResponse>(overpassUrl);
+    let response: AxiosResponse<OsmResponse> = {} as AxiosResponse<OsmResponse>;
+    try {
+        response = await axios.get<OsmResponse>(overpassUrl);
+    } catch (error) {
+        console.log(error);
+        console.log(response.data);
+        throw new Error('could not get overpass');
+    }
 
     if (response.status >= 400) {
         throw new Error(`got a ${response.status} from overpass`);
@@ -182,7 +193,9 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
             osmTags: r.tags,
 
             operator: r.tags.operator,
-            url
+            url,
+
+            last404Check: 0
         } as Webcam);
     }
 
@@ -191,7 +204,10 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     console.log('writing files');
     fs.writeFileSync('./data/raw.json', JSON.stringify(nodes, null, 2));
     fs.writeFileSync('./data/webcams.json', JSON.stringify(filteredWebcams, null, 2));
-})();
+})()
+    .catch((error) => {
+        console.error(`error: ${error}`);
+    });
 
 function exitHandler(options: unknown, error: unknown) {
     console.log('writing cache file');

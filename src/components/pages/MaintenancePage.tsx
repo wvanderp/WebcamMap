@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'reactstrap';
 
 import webcams from '../../../data/webcams.json';
 import brokenYT from '../../../data/badYoutubeLink.json';
+import brokenLink from '../../../data/404Link.json';
 
 import { Webcam } from '../../types/webcam';
 
@@ -52,6 +53,8 @@ function MaintenancePage() {
             <td>
                 <a
                     href={`https://www.openstreetmap.org/node/${badLink.osmID}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     {`at osm ${badLink.osmID}`}
 
@@ -80,9 +83,49 @@ function MaintenancePage() {
         </div>
     );
 
+    const brokenLinkRows = brokenLink.map((badLink: Webcam) => (
+        <tr key={badLink.osmID}>
+            <td>{badLink.osmTags.name ?? 'no name'}</td>
+            <td>
+                <a href={badLink.url}>{badLink.url}</a>
+            </td>
+            <td>
+                <a
+                    href={`https://www.openstreetmap.org/node/${badLink.osmID}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {`at osm ${badLink.osmID}`}
+
+                </a>
+            </td>
+        </tr>
+    ));
+
+    const brokenLinkTable = (
+        <div>
+            <h1>Broken Links</h1>
+            <Row>
+                <Col md={12}>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>youtube link</th>
+                                <th>osm link</th>
+                            </tr>
+                        </thead>
+                        <tbody>{brokenLinkRows}</tbody>
+                    </table>
+                </Col>
+            </Row>
+        </div>
+    );
+
     return (
         <Container fluid>
             {brokenYT.length > 0 && brokenYTTable}
+            {brokenLink.length > 0 && brokenLinkTable}
             <h1>Other things</h1>
             <Row>
                 <Col md={6}>

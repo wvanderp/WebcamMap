@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable no-restricted-syntax */
 import youtubedl from 'youtube-dl-exec';
 
@@ -15,16 +16,20 @@ async function isGoodYTLink(url: string): Promise<boolean> {
             dumpSingleJson: true,
             noWarnings: true,
             callHome: false,
-            noCheckCertificate: true,
+            noCheckCertificates: true,
             preferFreeFormats: true,
             youtubeSkipDashManifest: true
         });
 
         return ytData.is_live === true;
     } catch (error) {
-        // eslint-disable-next-line no-console
-        console.error(error);
-
+        // @ts-expect-error
+        if (error.stderr) {
+            // @ts-expect-error
+            console.error(error.stderr);
+        } else {
+            console.error(error);
+        }
         return false;
     }
 }

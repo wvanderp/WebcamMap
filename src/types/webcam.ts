@@ -18,4 +18,6 @@ export interface Webcam {
 
     operator?: string;
     url: string;
+
+    last404Check: number;
 }
