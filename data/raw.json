@@ -184,11 +184,11 @@
   {
     "type": "node",
     "id": 699747176,
-    "lat": 52.4047864,
-    "lon": 23.819552,
-    "timestamp": "2022-07-09T13:10:53Z",
-    "version": 5,
-    "changeset": 123399798,
+    "lat": 52.4047901,
+    "lon": 23.8195488,
+    "timestamp": "2022-10-26T17:25:05Z",
+    "version": 9,
+    "changeset": 128094963,
     "user": "Андрей Кирилов",
     "uid": 4628447,
     "tags": {
@@ -5033,15 +5033,15 @@
     "id": 1568010468,
     "lat": 60.4537016,
     "lon": 10.6444033,
-    "timestamp": "2021-08-13T13:42:41Z",
-    "version": 4,
-    "changeset": 109632313,
+    "timestamp": "2022-10-21T14:16:05Z",
+    "version": 5,
+    "changeset": 127887110,
     "user": "wvdp",
     "uid": 436419,
     "tags": {
       "camera:direction": "45",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.skiforeningen.no/cgi/webcam.cgi?id=7",
+      "contact:webcam": "https://lygna-skisenter.no/p/52744/webkamera-lygnaomradet",
       "man_made": "surveillance",
       "name": "webcam Lygnasæter",
       "name:en": "webcam Lygnasæter",
@@ -5598,28 +5598,6 @@
   },
   {
     "type": "node",
-    "id": 2059450458,
-    "lat": 55.1673041,
-    "lon": 61.3879149,
-    "timestamp": "2019-06-06T05:06:51Z",
-    "version": 3,
-    "changeset": 70975499,
-    "user": "GPMapper",
-    "uid": 890496,
-    "tags": {
-      "camera:features": "webcam",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Truda.jpg",
-      "image": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Truda.jpg",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "url": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Truda.jpg",
-      "website": "https://www.is74.ru/interactive_map/streets_online/img/Sverdlovsky-Truda.jpg"
-    }
-  },
-  {
-    "type": "node",
     "id": 2059453308,
     "lat": 55.1606548,
     "lon": 61.3852755,
@@ -5962,27 +5940,6 @@
       "contact:webcam": "http://www.grossabuent.li/livecam.html",
       "name": "Großabünt.li",
       "surveillance": "webcam"
-    }
-  },
-  {
-    "type": "node",
-    "id": 2444187380,
-    "lat": 48.466778,
-    "lon": 16.1367535,
-    "timestamp": "2022-01-08T20:01:25Z",
-    "version": 3,
-    "changeset": 115922116,
-    "user": "hlfan",
-    "uid": 1848175,
-    "tags": {
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "www.asfinag.at",
-      "description": "S3 - km 10,9",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
     }
   },
   {
@@ -13330,22 +13287,6 @@
   },
   {
     "type": "node",
-    "id": 5584570904,
-    "lat": 46.451904,
-    "lon": 14.3873866,
-    "timestamp": "2018-04-28T15:37:43Z",
-    "version": 1,
-    "changeset": 58506836,
-    "user": "ortotorto",
-    "uid": 2165094,
-    "tags": {
-      "contact:webcam": "http://koschuta.viewbito.com/current/p_03.jpg",
-      "man_made": "monitoring_station",
-      "surveillance": "webcam"
-    }
-  },
-  {
-    "type": "node",
     "id": 5588994086,
     "lat": 50.9861366,
     "lon": 5.3226395,
@@ -13462,6 +13403,87 @@
       "man_made": "surveillance",
       "name": "Lange Straße",
       "surveillance": "webcam"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5715315695,
+    "lat": 47.542238,
+    "lon": 19.0982406,
+    "timestamp": "2022-10-29T08:42:19Z",
+    "version": 2,
+    "changeset": 128201696,
+    "user": "kogutowicz-mano",
+    "uid": 10259108,
+    "tags": {
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.mvpa.hu/webkamerak/",
+      "direction": "270",
+      "man_made": "surveillance",
+      "ref": "1",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5715315696,
+    "lat": 47.5422352,
+    "lon": 19.0986296,
+    "timestamp": "2022-10-29T08:42:19Z",
+    "version": 2,
+    "changeset": 128201696,
+    "user": "kogutowicz-mano",
+    "uid": 10259108,
+    "tags": {
+      "camera:type": "fixed",
+      "contact:webcam": "http://mvpa.hu/webkamerak-2/",
+      "direction": "110",
+      "man_made": "surveillance",
+      "ref": "2",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5715315697,
+    "lat": 47.5418738,
+    "lon": 19.0958648,
+    "timestamp": "2022-10-29T08:42:19Z",
+    "version": 3,
+    "changeset": 128201696,
+    "user": "kogutowicz-mano",
+    "uid": 10259108,
+    "tags": {
+      "camera:direction": "83",
+      "camera:type": "fixed",
+      "contact:webcam": "http://mvpa.hu/webkamerak-3/",
+      "man_made": "surveillance",
+      "ref": "3",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public_transport_platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5715315698,
+    "lat": 47.5429603,
+    "lon": 19.0978565,
+    "timestamp": "2022-10-29T08:42:19Z",
+    "version": 2,
+    "changeset": 128201696,
+    "user": "kogutowicz-mano",
+    "uid": 10259108,
+    "tags": {
+      "camera:direction": "250",
+      "camera:type": "fixed",
+      "contact:webcam": "http://vasuttortenetipark.hu/tortenet/webkamera-4",
+      "man_made": "surveillance",
+      "ref": "4",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -16883,44 +16905,6 @@
   },
   {
     "type": "node",
-    "id": 7770261586,
-    "lat": 50.3549929,
-    "lon": 7.5954524,
-    "timestamp": "2020-07-30T14:30:03Z",
-    "version": 1,
-    "changeset": 88738543,
-    "user": "c4mc0rder",
-    "uid": 11574538,
-    "tags": {
-      "camera:direction": "140",
-      "camera:type": "fixed",
-      "contact:webcam": "http://verkehr.rlp.de/syncdata/cam/1130/thumb_640x480.jpg?",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
-    "id": 7770261587,
-    "lat": 50.3550243,
-    "lon": 7.595332,
-    "timestamp": "2020-07-30T14:30:03Z",
-    "version": 1,
-    "changeset": 88738543,
-    "user": "c4mc0rder",
-    "uid": 11574538,
-    "tags": {
-      "camera:direction": "270",
-      "camera:type": "fixed",
-      "contact:webcam": "http://verkehr.rlp.de/syncdata/cam/1140/thumb_640x480.jpg?",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
     "id": 7770261588,
     "lat": 50.3825964,
     "lon": 7.5705232,
@@ -17479,15 +17463,15 @@
     "id": 7814698179,
     "lat": 51.7725861,
     "lon": 4.6489871,
-    "timestamp": "2021-05-02T13:10:59Z",
-    "version": 2,
-    "changeset": 103994485,
-    "user": "MvanderHeide",
-    "uid": 431046,
+    "timestamp": "2022-10-27T18:13:12Z",
+    "version": 3,
+    "changeset": 128141453,
+    "user": "JeroenvanderGun",
+    "uid": 11963177,
     "tags": {
       "contact:webcam": "https://rwsverkeersinfo.nl/cameras/27/a16-dordrecht",
       "man_made": "surveillance",
-      "operator": "RWS",
+      "operator": "Rijkswaterstaat",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -20152,11 +20136,11 @@
     "id": 8569694601,
     "lat": 51.2374164,
     "lon": -2.9447959,
-    "timestamp": "2021-10-21T15:44:49Z",
-    "version": 3,
-    "changeset": 112798587,
-    "user": "wvdp",
-    "uid": 436419,
+    "timestamp": "2022-10-28T19:13:33Z",
+    "version": 4,
+    "changeset": 128188126,
+    "user": "endim8",
+    "uid": 13666626,
     "tags": {
       "camera:direction": "230",
       "camera:mount": "pole",
@@ -20167,7 +20151,6 @@
       "operator": "National Highways",
       "operator:type": "government",
       "operator:wikidata": "Q5760006",
-      "operator:wikipedia": "en:National Highways",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -31700,6 +31683,46 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10120203485,
+    "lat": 44.0285443,
+    "lon": -123.0298629,
+    "timestamp": "2022-10-22T05:22:35Z",
+    "version": 1,
+    "changeset": 127909063,
+    "user": "Adam850",
+    "uid": 13843308,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://tripcheck.com/RoadCams/cams/I-5SouthEugene_pid1507.jpg",
+      "man_made": "surveillance",
+      "ref": "1507",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10130008529,
+    "lat": 52.4047901,
+    "lon": 23.8195488,
+    "timestamp": "2022-10-26T10:23:58Z",
+    "version": 1,
+    "changeset": 128076297,
+    "user": "Андрей Кирилов",
+    "uid": 4628447,
+    "tags": {
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
     }
   },
   {

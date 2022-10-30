@@ -57,7 +57,9 @@ export default async function lint404() {
             badLinks.push(webcam);
         }
         const webcamIndex = webcams.findIndex((w) => w.osmID === webcam.osmID);
-        webcams[webcamIndex].last404Check = Date.now();
+        if (webcamIndex !== -1) {
+            webcams[webcamIndex].last404Check = Date.now();
+        }
     }
 
     fs.writeFileSync(bad404LinksPath, JSON.stringify(badLinks, null, 4));

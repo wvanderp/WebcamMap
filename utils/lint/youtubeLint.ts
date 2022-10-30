@@ -35,11 +35,11 @@ async function isGoodYTLink(url: string): Promise<boolean> {
 }
 
 export default async function lintYoutube() {
-    const youtubeLinksFull = data.filter((a: Webcam) => (a.url.includes('youtube')));
-    const youtubeLinksShort = data.filter((a: Webcam) => (a.url.includes('youtu.be')));
+    const youtubeLinksFull: Webcam[] = data.filter((a: Webcam) => (a.url.includes('youtube')));
+    const youtubeLinksShort: Webcam[] = data.filter((a: Webcam) => (a.url.includes('youtu.be')));
 
     const youtubeLinks = [...youtubeLinksFull, ...youtubeLinksShort];
-    const badYoutubeLinks = [];
+    const badYoutubeLinks: Webcam[] = [];
 
     for (const youtubeLink of youtubeLinks) {
         // eslint-disable-next-line no-console
