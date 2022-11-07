@@ -13,14 +13,14 @@
     "@types/leaflet": "^1.9.0",
     "@types/lodash.chunk": "^4.2.7",
     "@types/lodash.set": "^4.3.7",
-    "@types/node": "^18.11.7",
-    "@types/react": "^18.0.24",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@types/react-leaflet": "^2.8.2",
     "@types/react-router-dom": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^5.41.0",
-    "@typescript-eslint/parser": "^5.41.0",
-    "eslint": "^8.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.27.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-nibble": "^8.1.0",
@@ -48,10 +48,10 @@
     "react-dom": "^18.2.0",
     "react-hooks-global-state": "2.0.0",
     "react-leaflet": "^4.1.0",
-    "react-router": "^6.4.2",
-    "react-router-dom": "^6.4.2",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
     "reactstrap": "^9.1.5",
-    "youtube-dl-exec": "^2.1.7"
+    "youtube-dl-exec": "^2.1.8"
   },
   "scripts": {
     "app": "parcel serve src/index.html",
@@ -60,6 +60,6 @@
     "tsc": "tsc --noEmit",
     "collect": "ts-node -P tsconfig.update.json --files utils/collect.ts",
     "lintData": "ts-node utils/lint/",
-    "clean": "rimraf .parcel-cache dist node_modules/ && npm i"
+    "clean": "rimraf .parcel-cache dist build node_modules/ && npm i"
   }
 }

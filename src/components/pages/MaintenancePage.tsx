@@ -3,24 +3,61 @@ import { useState } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
 import webcams from '../../../data/webcams.json';
-import brokenYT from '../../../data/badYoutubeLink.json';
-import brokenLink from '../../../data/404Link.json';
-
 import { Webcam } from '../../types/webcam';
+
+// @ts-expect-error
+// eslint-disable-next-line react/prop-types
+function FilterButton({ filters, setFilter, index, text }) {
+    return (
+        <span
+            role="button"
+            tabIndex={0}
+            onClick={() => setFilter({
+                ...filters,
+                [index]: !filters[index]
+            })}
+            style={{ fontWeight: filters[index] ? 'bold' : 'normal' }}
+        >
+            {text || index}
+        </span>
+    );
+}
+
+function stuffer<T, Y>(array: T[], element: Y): (T | Y)[] {
+    // eslint-disable-next-line unicorn/no-array-reduce
+    return array.reduce<(T | Y)[]>(
+        (collector, current, index, a) => (
+            index < a.length - 1 ? [...collector, current, element] : [...collector, current]
+        ), []
+    );
+}
 
 function MaintenancePage() {
     document.title = 'Maintenance - CartoCams';
 
-    const [youtubeFilter, setYoutubeFilter] = useState(false);
-    const [nameFilter, setNameFilter] = useState(false);
-    const [meFilter, setMeFilter] = useState(false);
-    const [fixMeFilter, setFixMeFilter] = useState(false);
+    const [filters, setFilters] = useState({
+        youtube: false,
+        noName: false,
+        me: false,
+        fixme: false,
+
+        unavailable: false,
+        badYoutube: false,
+        invalidUrl: false,
+        duplicate: false
+    });
 
     const webcamRow = webcams
-        .filter((a: Webcam) => (youtubeFilter ? a.url.includes('youtube') : true))
-        .filter((a: Webcam) => (nameFilter ? !a.osmTags.name : true))
-        .filter((a: Webcam) => (meFilter ? a.user === 'wvdp' : true))
-        .filter((a: Webcam) => (fixMeFilter ? Object.keys(a.osmTags).map((key) => key.toLowerCase()).includes('fixme') : true))
+        .filter((a: Webcam) => (filters.youtube ? a.url.includes('youtube') : true))
+        .filter((a: Webcam) => (filters.noName ? !a.osmTags.name : true))
+        .filter((a: Webcam) => (filters.me ? a.user === 'wvdp' : true))
+        .filter((a: Webcam) => (filters.fixme ? Object.keys(a.osmTags).map((key) => key.toLowerCase()).includes('fixme') : true))
+
+        .filter((a: Webcam) => (filters.unavailable ? a.lint?.unavailable : true))
+        .filter((a: Webcam) => (filters.badYoutube ? a.lint?.youtube : true))
+        .filter((a: Webcam) => (filters.invalidUrl ? a.lint?.invalidUrl : true))
+        .filter((a: Webcam) => (filters.duplicate ? a.lint?.duplicate : true))
+
         .sort((a, b) => a.lastChanged - b.lastChanged)
         .map((webcam: Webcam) => (
             <tr key={webcam.osmID}>
@@ -44,128 +81,26 @@ function MaintenancePage() {
             </tr>
         ));
 
-    const brokenYTRows = brokenYT.map((badLink: Webcam) => (
-        <tr key={badLink.osmID}>
-            <td>{badLink.osmTags.name ?? 'no name'}</td>
-            <td>
-                <a href={badLink.url}>{badLink.url}</a>
-            </td>
-            <td>
-                <a
-                    href={`https://www.openstreetmap.org/node/${badLink.osmID}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {`at osm ${badLink.osmID}`}
+    const filterRow = [
+        FilterButton({ filters, setFilter: setFilters, index: 'youtube', text: 'Youtube' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'noName', text: 'No Name' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'me', text: 'My Edits' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'fixme', text: 'Fixme' }),
 
-                </a>
-            </td>
-        </tr>
-    ));
-
-    const brokenYTTable = (
-        <div>
-            <h1>Broken YT Links</h1>
-            <Row>
-                <Col md={12}>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>youtube link</th>
-                                <th>osm link</th>
-                            </tr>
-                        </thead>
-                        <tbody>{brokenYTRows}</tbody>
-                    </table>
-                </Col>
-            </Row>
-        </div>
-    );
-
-    const brokenLinkRows = brokenLink.map((badLink: Webcam) => (
-        <tr key={badLink.osmID}>
-            <td>{badLink.osmTags.name ?? 'no name'}</td>
-            <td>
-                <a href={badLink.url}>{badLink.url}</a>
-            </td>
-            <td>
-                <a
-                    href={`https://www.openstreetmap.org/node/${badLink.osmID}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    {`at osm ${badLink.osmID}`}
-
-                </a>
-            </td>
-        </tr>
-    ));
-
-    const brokenLinkTable = (
-        <div>
-            <h1>Broken Links</h1>
-            <Row>
-                <Col md={12}>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>youtube link</th>
-                                <th>osm link</th>
-                            </tr>
-                        </thead>
-                        <tbody>{brokenLinkRows}</tbody>
-                    </table>
-                </Col>
-            </Row>
-        </div>
-    );
+        FilterButton({ filters, setFilter: setFilters, index: 'unavailable', text: '404' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'badYoutube', text: 'Bad Youtube link' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'invalidUrl', text: 'Invalid URL' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'duplicate', text: 'Duplicate' })
+    ];
 
     return (
         <Container fluid>
-            {brokenYT.length > 0 && brokenYTTable}
-            {brokenLink.length > 0 && brokenLinkTable}
             <h1>Other things</h1>
             <Row>
                 <Col md={6}>
                     filter:
                     {' '}
-                    <span
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => setYoutubeFilter(!youtubeFilter)}
-                        style={{ fontWeight: youtubeFilter ? 'bold' : 'normal' }}
-                    >
-                        Youtube
-                    </span>
-                    {' | '}
-                    <span
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => setFixMeFilter(!fixMeFilter)}
-                        style={{ fontWeight: fixMeFilter ? 'bold' : 'normal' }}
-                    >
-                        Has FixMe
-                    </span>
-                    {' | '}
-                    <span
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => setNameFilter(!nameFilter)}
-                        style={{ fontWeight: nameFilter ? 'bold' : 'normal' }}
-                    >
-                        No Name
-                    </span>
-                    {' | '}
-                    <span
-                        role="button"
-                        tabIndex={0}
-                        onClick={() => setMeFilter(!meFilter)}
-                        style={{ fontWeight: meFilter ? 'bold' : 'normal' }}
-                    >
-                        Me
-                    </span>
+                    {stuffer(filterRow, ' | ')}
                 </Col>
             </Row>
             <Row>

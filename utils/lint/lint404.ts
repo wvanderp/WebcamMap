@@ -5,37 +5,33 @@ import path from 'path';
 import axios, { AxiosError } from 'axios';
 import data from '../../data/webcams.json';
 import { Webcam } from '../../src/types/webcam';
+import getRandom from '../lib/getRandom';
 
-const maxInterval = 30 * 24 * 60 * 60 * 1000; // 30 days in miliseconds
-const bad404LinksPath = path.join(__dirname, '../../data', './404Link.json');
+const maxInterval = 30 * 24 * 60 * 60 * 1000; // 30 days in milliseconds
+const bad404indexPath = path.join(__dirname, '../../data', './404Index.json');
 
-// https://stackoverflow.com/a/49479872
-function getRandom<T>(items: T[], n: number): T[] {
-    return items
-        .map((x) => ({ x, r: Math.random() }))
-        .sort((a, b) => a.r - b.r)
-        .map((a) => a.x)
-        .slice(0, n);
-}
-
-function load404File(): Webcam[] {
-    if (fs.existsSync(bad404LinksPath)) {
-        return JSON.parse(fs.readFileSync(bad404LinksPath).toString());
+// load the 404 index file
+function load404Index(): Record<number, number> {
+    if (fs.existsSync(bad404indexPath)) {
+        return JSON.parse(fs.readFileSync(bad404indexPath).toString());
     }
-    return [];
+    return {};
 }
 
 export default async function lint404() {
+    const fourofourIndex = load404Index();
+
     const webcams = data as Webcam[];
-    const badLinks: Webcam[] = [];
 
     // only check urls that need checking
     const filteredWebcams = webcams.filter((w) => {
-        const sinceLastCheck = ((Date.now()) - w.last404Check);
-        return w.last404Check === 0 || sinceLastCheck > maxInterval;
+        const expiryDate = fourofourIndex[w.osmID] || 0;
+        const already404 = !webcams.some((o) => !o.lint?.unavailable && o.osmID === w.osmID);
+
+        return expiryDate < Date.now() || already404;
     });
 
-    const old404Links = load404File();
+    const old404Links = webcams.filter((w) => w.lint?.unavailable);
 
     const urlsToCheck = [...getRandom(filteredWebcams, 10), ...old404Links];
 
@@ -54,14 +50,15 @@ export default async function lint404() {
                 console.log(error);
             }
 
-            badLinks.push(webcam);
+            webcam.lint = {
+                ...webcam.lint,
+                unavailable: true
+            };
         }
-        const webcamIndex = webcams.findIndex((w) => w.osmID === webcam.osmID);
-        if (webcamIndex !== -1) {
-            webcams[webcamIndex].last404Check = Date.now();
-        }
+
+        fourofourIndex[webcam.osmID] = Date.now() + maxInterval;
     }
 
-    fs.writeFileSync(bad404LinksPath, JSON.stringify(badLinks, null, 4));
+    fs.writeFileSync(bad404indexPath, JSON.stringify(fourofourIndex, null, 4));
     fs.writeFileSync(path.join(__dirname, '../../data', './webcams.json'), JSON.stringify(webcams, null, 2));
 }

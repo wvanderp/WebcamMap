@@ -19,5 +19,10 @@ export interface Webcam {
     operator?: string;
     url: string;
 
-    last404Check: number;
+    lint?: {
+        unavailable?: boolean;
+        youtube?: boolean;
+        invalidUrl?: boolean;
+        duplicate?: boolean;
+    };
 }

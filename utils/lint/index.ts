@@ -1,7 +1,11 @@
 import lint404 from './lint404';
+import lintDuplicates from './lintDuplicates';
+import lintInvalidUrls from './lintInvalidUrls';
 import lintYoutube from './youtubeLint';
 
 (async () => {
-    lintYoutube();
-    lint404();
+    await lintYoutube();
+    await lint404();
+    lintDuplicates();
+    lintInvalidUrls();
 })().catch((error) => { throw error; });

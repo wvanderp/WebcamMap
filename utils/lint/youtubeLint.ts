@@ -1,9 +1,9 @@
 /* eslint-disable no-console */
 /* eslint-disable no-restricted-syntax */
-import youtubedl from 'youtube-dl-exec';
-
 import fs from 'fs';
 import path from 'path';
+import youtubedl from 'youtube-dl-exec';
+
 import data from '../../data/webcams.json';
 import { Webcam } from '../../src/types/webcam';
 
@@ -35,20 +35,22 @@ async function isGoodYTLink(url: string): Promise<boolean> {
 }
 
 export default async function lintYoutube() {
-    const youtubeLinksFull: Webcam[] = data.filter((a: Webcam) => (a.url.includes('youtube')));
-    const youtubeLinksShort: Webcam[] = data.filter((a: Webcam) => (a.url.includes('youtu.be')));
+    const webcams = data as Webcam[];
+
+    const youtubeLinksFull: Webcam[] = webcams.filter((a: Webcam) => (a.url.includes('youtube')));
+    const youtubeLinksShort: Webcam[] = webcams.filter((a: Webcam) => (a.url.includes('youtu.be')));
 
     const youtubeLinks = [...youtubeLinksFull, ...youtubeLinksShort];
-    const badYoutubeLinks: Webcam[] = [];
 
     for (const youtubeLink of youtubeLinks) {
-        // eslint-disable-next-line no-console
         console.log(`linting ${youtubeLink.url}`);
         if (!(await isGoodYTLink(youtubeLink.url))) {
-            badYoutubeLinks.push(youtubeLink);
+            youtubeLink.lint = {
+                ...youtubeLink.lint,
+                youtube: true
+            };
         }
         await delay(500);
     }
-
-    fs.writeFileSync(path.join(__dirname, '../../data', './badYoutubeLink.json'), JSON.stringify(badYoutubeLinks, null, 4));
+    fs.writeFileSync(path.join(__dirname, '../../data', './webcams.json'), JSON.stringify(webcams, null, 2));
 }

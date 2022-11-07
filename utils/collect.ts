@@ -1,68 +1,17 @@
 /* eslint-disable unicorn/no-array-reduce */
 /* eslint-disable no-console */
-import axios, {AxiosResponse} from 'axios';
+import axios, { AxiosResponse } from 'axios';
 import fs from 'fs';
 import countries from 'i18n-iso-countries';
 import englishCountry from 'i18n-iso-countries/langs/en.json';
 import { Webcam } from '../src/types/webcam';
+import getRandomInt from './lib/getRandomInt';
+import sleep from './lib/sleep';
+import { NominatimResponse, OsmResponse } from './lib/types';
 
 countries.registerLocale(englishCountry);
 
-export interface OsmResponse {
-    version: number;
-    generator: string;
-    osm3s: {
-        timestamp_osm_base: string;
-        copyright: string;
-    };
-    elements?: {
-        type: string;
-        id: number;
-        lat?: number | null;
-        lon?: number | null;
-        timestamp: string;
-        version: number;
-        changeset: number;
-        user: string;
-        uid: number;
-        tags?: Record<string, string>;
-        nodes?: (number)[] | null;
-    }[];
-}
-
-export interface NominatimResponse {
-    address: {
-        city: string;
-        town?: string;
-        village?: string;
-        county?: string;
-        state?: string;
-        country_code: string;
-    };
-    boundingbox?: (string)[] | null;
-    display_name: string;
-    extratags: Record<string, string>;
-    lat: string;
-    licence: string;
-    lon: string;
-    osm_id: number;
-    osm_type: 'node' | 'way' | 'relation';
-    place_id: number;
-    expires: number; // added by me
-}
-
 type NominatimCache = Record<string, NominatimResponse>
-
-function sleep(ms: number): Promise<void> {
-    // eslint-disable-next-line compat/compat, no-promise-executor-return
-    return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-function getRandomInt(min: number, max: number): number {
-    const roundedMin = Math.ceil(min);
-    const RoundedMax = Math.floor(max);
-    return Math.floor(Math.random() * (RoundedMax - roundedMin + 1)) + roundedMin;
-}
 
 const getNominatimCache = (): NominatimCache => {
     try {
@@ -88,43 +37,56 @@ const getNominatimCache = (): NominatimCache => {
 };
 
 const nominatimCache = getNominatimCache();
+
 const getNominatimUrl = (
     lat: number, lon: number
 ) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1`;
 
 const overpassUrl = 'https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A%28%0A%20%20nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3B%0A%20%20nwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%0A%29%3B%0Aout%20meta%3B%0A';
 
+// maximum age of the cache in seconds
+// 2 weeks
+const nominatimMaxAge = 2 * 7 * 24 * 60 * 60;
+// max 1 day difference
+const aDay = 24 * 60 * 60;
+
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
-    if (Object.keys(nominatimCache).includes(`
-    ${lat},${lon}`)) {
-        console.log(`hit cache for ${lat},${lon}`);
+    const cacheKey = `${lat},${lon}`;
+
+    if (Object.keys(nominatimCache).includes(cacheKey)) {
+        console.log(`hit cache for '${cacheKey}'`);
         return nominatimCache[`${lat},${lon}`];
     }
-    const url = getNominatimUrl(lat, lon);
 
-    console.log(`reaching to nominatim for ${lat},${lon}`);
+    console.log(`reaching to nominatim for '${cacheKey}'`);
+    const url = getNominatimUrl(lat, lon);
     const { data, status } = await axios.get<NominatimResponse>(url);
 
     if (status >= 400) {
-        throw new Error(`got a ${status} from nominatim for ${lat},${lon}`);
+        throw new Error(`got a ${status} from nominatim for '${cacheKey}'`);
     }
 
-    nominatimCache[`${lat},${lon}`] = {
+    nominatimCache[cacheKey] = {
         ...data,
-        expires: Math.floor((Date.now() / 1000) + getRandomInt(259_200, 604_800))
+        expires: Math.floor(
+            (Date.now() / 1000) + getRandomInt(
+                nominatimMaxAge + aDay,
+                nominatimMaxAge - aDay)
+        )
     };
 
     await sleep(1000);
-    return nominatimCache[`${lat},${lon}`];
+    return nominatimCache[cacheKey];
 };
 
+// eslint-disable-next-line sonarjs/cognitive-complexity
 (async (): Promise<void> => {
     if (!fs.existsSync('./data/')) {
         fs.mkdirSync('./data/');
     }
 
     console.log('getting overpass');
-    let response: AxiosResponse<OsmResponse> = {} as AxiosResponse<OsmResponse>;
+    let response = {} as AxiosResponse<OsmResponse>;
     try {
         response = await axios.get<OsmResponse>(overpassUrl);
     } catch (error) {
@@ -143,9 +105,10 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     if (nodes === undefined) {
         throw new Error('did not find any webcams');
     }
+
     console.log(`found ${nodes.length} possible webcams`);
 
-    const webcams: (null | Webcam)[] = [];
+    const webcams: Webcam[] = [];
 
     // eslint-disable-next-line no-restricted-syntax
     for (const r of nodes) {
@@ -193,22 +156,19 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
             osmTags: r.tags,
 
             operator: r.tags.operator,
-            url,
-
-            last404Check: 0
+            url
         } as Webcam);
     }
 
-    const filteredWebcams = webcams.filter((r) => r !== null);
-
     console.log('writing files');
     fs.writeFileSync('./data/raw.json', JSON.stringify(nodes, null, 2));
-    fs.writeFileSync('./data/webcams.json', JSON.stringify(filteredWebcams, null, 2));
+    fs.writeFileSync('./data/webcams.json', JSON.stringify(webcams, null, 2));
 })()
     .catch((error) => {
         console.error(`error: ${error}`);
     });
 
+// exit handler saves the caches
 function exitHandler(options: unknown, error: unknown) {
     console.log('writing cache file');
     const nominatimCacheOrdered = Object.keys(nominatimCache).sort().reduce<NominatimCache>(
