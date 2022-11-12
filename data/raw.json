@@ -95,16 +95,21 @@
     "id": 338178874,
     "lat": 52.4585984,
     "lon": 13.3103323,
-    "timestamp": "2016-11-12T10:44:13Z",
-    "version": 11,
-    "changeset": 43578544,
-    "user": "RoterEmil",
-    "uid": 4179530,
+    "timestamp": "2022-11-07T15:42:37Z",
+    "version": 13,
+    "changeset": 128603333,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
-      "contact:website": "http://www.met.fu-berlin.de/de/wetter/webcam/",
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam2_loop.php",
       "man_made": "surveillance",
-      "name": "Webcam",
-      "surveillance": "webcam"
+      "name": "berlin weather cam",
+      "operator": "Institut für Meteorologie der Freien Universität Berlin",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "weather"
     }
   },
   {
@@ -14042,7 +14047,7 @@
     "timestamp": "2022-10-15T17:43:20Z",
     "version": 3,
     "changeset": 127582177,
-    "user": "pedalritter84",
+    "user": "Diesterwandrer",
     "uid": 9002353,
     "tags": {
       "camera:mount": "pole",
@@ -31700,6 +31705,22 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "street"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10170514179,
+    "lat": 44.6365345,
+    "lon": -64.0790174,
+    "timestamp": "2022-11-09T04:13:20Z",
+    "version": 1,
+    "changeset": 128665689,
+    "user": "Dartmouthmapmaker",
+    "uid": 698649,
+    "tags": {
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "website": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
     }
   },
   {

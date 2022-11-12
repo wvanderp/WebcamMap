@@ -112,20 +112,26 @@
     "lat": 52.4585984,
     "lon": 13.3103323,
     "osmID": 338178874,
-    "user": "RoterEmil",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1478947453000,
+    "lastChanged": 1667835757000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
-      "contact:website": "http://www.met.fu-berlin.de/de/wetter/webcam/",
+      "camera:direction": "0",
+      "camera:type": "fixed",
+      "contact:webcam": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam2_loop.php",
       "man_made": "surveillance",
-      "name": "Webcam",
-      "surveillance": "webcam"
+      "name": "berlin weather cam",
+      "operator": "Institut für Meteorologie der Freien Universität Berlin",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "weather"
     },
-    "url": "http://www.met.fu-berlin.de/de/wetter/webcam/"
+    "operator": "Institut für Meteorologie der Freien Universität Berlin",
+    "url": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam2_loop.php"
   },
   {
     "lat": 54.0886457,
@@ -15823,7 +15829,7 @@
     "lat": 51.9805214,
     "lon": 9.6245742,
     "osmID": 6039724913,
-    "user": "pedalritter84",
+    "user": "Diesterwandrer",
     "osmType": "node",
     "lastChanged": 1665855800000,
     "address": {
@@ -35959,5 +35965,25 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://tripcheck.com/RoadCams/cams/I-5SouthEugene_pid1507.jpg"
+  },
+  {
+    "lat": 44.6365345,
+    "lon": -64.0790174,
+    "osmID": 10170514179,
+    "user": "Dartmouthmapmaker",
+    "osmType": "node",
+    "lastChanged": 1667967200000,
+    "address": {
+      "city": "Simms Settlement",
+      "county": "Lunenburg County",
+      "state": "Nova Scotia",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "website": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
+    },
+    "url": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
   }
 ]
