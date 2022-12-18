@@ -327,7 +327,10 @@
       "contact:website": "https://www.ipb.de",
       "surveillance": "webcam"
     },
-    "url": "http://www.ipb.de/webcam/cam2/cam2.jpg"
+    "url": "http://www.ipb.de/webcam/cam2/cam2.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.5245038,
@@ -523,7 +526,10 @@
       "surveillance:zone": "beach"
     },
     "operator": "viewsurf",
-    "url": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage"
+    "url": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.6701961,
@@ -545,7 +551,10 @@
       "surveillance": "webcam"
     },
     "operator": "UCL",
-    "url": "http://www.sri.ucl.ac.be/webcam/universite.html"
+    "url": "http://www.sri.ucl.ac.be/webcam/universite.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.7509759,
@@ -674,7 +683,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "street"
     },
-    "url": "http://217.152.196.254:8080/"
+    "url": "http://217.152.196.254:8080/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 57.8191275,
@@ -996,7 +1008,10 @@
       "website": "http://gorod.megafonvolga.ru/?city=2"
     },
     "operator": "МегаФон",
-    "url": "http://gorod.megafonvolga.ru/swf/source_5.swf"
+    "url": "http://gorod.megafonvolga.ru/swf/source_5.swf",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 70.0033836,
@@ -1120,9 +1135,9 @@
     "lat": 54.4425315,
     "lon": 61.2671476,
     "osmID": 1395327214,
-    "user": "GPMapper",
+    "user": "Corsa5",
     "osmType": "node",
-    "lastChanged": 1355156248000,
+    "lastChanged": 1669282361000,
     "address": {
       "city": "Южноуральск",
       "county": "Южноуральский городской округ",
@@ -1130,10 +1145,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
-      "contact:website": "http://195.54.9.138/mjpg/video.mjpg",
-      "image": "http://195.54.9.138/mjpg/video.mjpg",
       "man_made": "surveillance",
-      "name": "Камера видеонаблюдения",
       "surveillance": "webcam",
       "url": "http://195.54.9.138/mjpg/video.mjpg",
       "website": "http://195.54.9.138/mjpg/video.mjpg"
@@ -1242,55 +1254,33 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=110750"
   },
   {
-    "lat": 62.146766,
-    "lon": 8.69035,
+    "lat": 62.1470992,
+    "lon": 8.6902757,
     "osmID": 1417673782,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662545000,
+    "lastChanged": 1669552971000,
     "address": {
       "county": "Innlandet",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "camera:direction": "105",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109028",
       "man_made": "surveillance",
-      "name": "Lora",
+      "name": "E136 Lora (622 moh-retning Dombås)",
       "operator": "Statens vegvesen",
       "ref": "109028",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109028"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=109028"
-  },
-  {
-    "lat": 69.699301,
-    "lon": 25.939914,
-    "osmID": 1417673789,
-    "user": "haakonst",
-    "osmType": "node",
-    "lastChanged": 1314662545000,
-    "address": {
-      "city": "Karasjok",
-      "county": "Troms og Finnmark",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "fixme": "position",
-      "man_made": "surveillance",
-      "name": "Barta",
-      "operator": "Statens vegvesen",
-      "ref": "100086",
-      "source": "Statens vegvesen",
-      "source:url": "http://webkamera.vegvesen.no/metadata",
-      "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=100086"
-    },
-    "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100086"
   },
   {
     "lat": 59.076971,
@@ -2372,7 +2362,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=250283"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=250283"
+    "url": "http://webkamera.vegvesen.no/kamera?id=250283",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 61.185017,
@@ -2398,7 +2391,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100097"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100097"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100097",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.5176448,
@@ -3610,7 +3606,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109114"
+    "url": "http://webkamera.vegvesen.no/kamera?id=109114",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.2973534,
@@ -3751,31 +3750,6 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=186437"
   },
   {
-    "lat": 62.846159,
-    "lon": 11.802878,
-    "osmID": 1417674334,
-    "user": "haakonst",
-    "osmType": "node",
-    "lastChanged": 1314662564000,
-    "address": {
-      "county": "Trøndelag",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "fixme": "position",
-      "man_made": "surveillance",
-      "name": "Langsvola",
-      "operator": "Statens vegvesen",
-      "ref": "109062",
-      "source": "Statens vegvesen",
-      "source:url": "http://webkamera.vegvesen.no/metadata",
-      "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109062"
-    },
-    "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109062"
-  },
-  {
     "lat": 59.7676924,
     "lon": 6.0790024,
     "osmID": 1417674348,
@@ -3783,6 +3757,7 @@
     "osmType": "node",
     "lastChanged": 1624262705000,
     "address": {
+      "city": "Åkra",
       "county": "Vestland",
       "country": "Norway"
     },
@@ -3828,32 +3803,6 @@
     },
     "operator": "Statens vegvesen",
     "url": "http://webkamera.vegvesen.no/kamera?id=199517"
-  },
-  {
-    "lat": 60.4477219,
-    "lon": 6.7954907,
-    "osmID": 1417674367,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1653685448000,
-    "address": {
-      "county": "Vestland",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "fixme": "404",
-      "man_made": "surveillance",
-      "name": "Hardangerbrua",
-      "note:no": "Bygging av ny Hardangerbru",
-      "operator": "Statens vegvesen",
-      "ref": "154151",
-      "source": "Statens vegvesen",
-      "source:url": "http://webkamera.vegvesen.no/metadata",
-      "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=154151"
-    },
-    "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=154151"
   },
   {
     "lat": 58.5603807,
@@ -4350,7 +4299,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=109102"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109102"
+    "url": "http://webkamera.vegvesen.no/kamera?id=109102",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.6665043,
@@ -5117,7 +5069,7 @@
     "osmType": "node",
     "lastChanged": 1623175791000,
     "address": {
-      "city": "Valen",
+      "city": "Straume",
       "county": "Vestland",
       "country": "Norway"
     },
@@ -5516,7 +5468,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=230114"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=230114"
+    "url": "http://webkamera.vegvesen.no/kamera?id=230114",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.418025,
@@ -5578,7 +5533,6 @@
     "osmType": "node",
     "lastChanged": 1314662579000,
     "address": {
-      "city": "Byrkjelo",
       "county": "Vestland",
       "country": "Norway"
     },
@@ -5666,7 +5620,10 @@
       "surveillance": "webcam",
       "website": "http://www.petersfehn.net/webcams.php"
     },
-    "url": "http://www.petersfehn.net/webcams.php"
+    "url": "http://www.petersfehn.net/webcams.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.1049196,
@@ -5685,7 +5642,10 @@
       "surveillance": "webcam",
       "url": "http://varingskollen.no/varingskollen-alpinsenter/v%C3%A6r/webkamera-varingskollen-alpinsenter"
     },
-    "url": "http://varingskollen.no/varingskollen-alpinsenter/v%C3%A6r/webkamera-varingskollen-alpinsenter"
+    "url": "http://varingskollen.no/varingskollen-alpinsenter/v%C3%A6r/webkamera-varingskollen-alpinsenter",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.1708237,
@@ -5711,7 +5671,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "piste"
     },
-    "url": "http://www.skiforeningen.no/cgi/webcam.cgi?id=4"
+    "url": "http://www.skiforeningen.no/cgi/webcam.cgi?id=4",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.4537016,
@@ -5889,7 +5852,10 @@
       "surveillance": "webcam",
       "website": "https://www.dietzenbach.de/index.phtml?mNavID=1799.1628&sNavID=1799.1628&La=1"
     },
-    "url": "http://webcam.dietzenbach.de/bilder/image.jpg"
+    "url": "http://webcam.dietzenbach.de/bilder/image.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.8231389,
@@ -6470,9 +6436,9 @@
     "lat": 51.9352316,
     "lon": 8.8794053,
     "osmID": 2227035254,
-    "user": "wvdp",
+    "user": "bus-mt",
     "osmType": "node",
-    "lastChanged": 1643278640000,
+    "lastChanged": 1670173314000,
     "address": {
       "city": "Detmold",
       "county": "Kreis Lippe",
@@ -6484,8 +6450,8 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.detmold.de/fileadmin/user_upload/startseite/Politik_und_Rathaus/Online-Dienste/Webcams/rathaus/marktplatz.jpg",
+      "description": "Webcam Stadt Detmold mit Blick auf den Marktplatz",
       "man_made": "surveillance",
-      "name": "Webcam Stadt Detmold mit Blick auf den Marktplatz",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -6859,7 +6825,7 @@
     "osmType": "node",
     "lastChanged": 1390912771000,
     "address": {
-      "city": "Altenbeken",
+      "city": "Schwaney",
       "county": "Kreis Paderborn",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
@@ -7253,7 +7219,10 @@
       "surveillance": "webcam",
       "website": "http://wmvbuesum.axiscam.net:82/view/viewer_index.shtml?id=51683"
     },
-    "url": "http://wmvbuesum.axiscam.net:82/view/viewer_index.shtml?id=51683"
+    "url": "http://wmvbuesum.axiscam.net:82/view/viewer_index.shtml?id=51683",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.3211222,
@@ -7336,7 +7305,7 @@
     "osmType": "node",
     "lastChanged": 1395516202000,
     "address": {
-      "city": "Helgoland - deät Lun",
+      "city": "Helgoland",
       "county": "Kreis Pinneberg",
       "state": "Schleswig-Holstein",
       "country": "Germany"
@@ -7358,7 +7327,7 @@
     "osmType": "node",
     "lastChanged": 1395516202000,
     "address": {
-      "city": "Helgoland - deät Lun",
+      "city": "Helgoland",
       "county": "Kreis Pinneberg",
       "state": "Schleswig-Holstein",
       "country": "Germany"
@@ -7380,7 +7349,7 @@
     "osmType": "node",
     "lastChanged": 1584655414000,
     "address": {
-      "city": "Helgoland - deät Lun",
+      "city": "Helgoland",
       "county": "Kreis Pinneberg",
       "state": "Schleswig-Holstein",
       "country": "Germany"
@@ -7402,7 +7371,7 @@
     "osmType": "node",
     "lastChanged": 1395521610000,
     "address": {
-      "city": "Helgoland - deät Lun",
+      "city": "Helgoland",
       "county": "Kreis Pinneberg",
       "state": "Schleswig-Holstein",
       "country": "Germany"
@@ -7421,7 +7390,7 @@
     "osmType": "node",
     "lastChanged": 1643223113000,
     "address": {
-      "city": "Helgoland - deät Lun",
+      "city": "Helgoland",
       "county": "Kreis Pinneberg",
       "state": "Schleswig-Holstein",
       "country": "Germany"
@@ -7464,7 +7433,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://player.livespotting.tv/?alias=PS_e9782&ch=LS_5834c"
+    "url": "http://player.livespotting.tv/?alias=PS_e9782&ch=LS_5834c",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 55.5557159,
@@ -7851,7 +7823,10 @@
       "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024",
       "website": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024"
     },
-    "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024"
+    "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.5127722,
@@ -7905,7 +7880,7 @@
     "osmType": "node",
     "lastChanged": 1645013194000,
     "address": {
-      "city": "Hopen",
+      "city": "Sankt Michaelisdonn",
       "county": "Dithmarschen",
       "state": "Schleswig-Holstein",
       "country": "Germany"
@@ -8260,12 +8235,12 @@
     "url": "http://www.mtocdn.ca/english/traveller/compass/camera/pictures/loc95.jpg"
   },
   {
-    "lat": 48.95719,
-    "lon": 8.4808959,
+    "lat": 48.9572199,
+    "lon": 8.4808999,
     "osmID": 3102383897,
     "user": "mapper999",
     "osmType": "node",
-    "lastChanged": 1412012821000,
+    "lastChanged": 1670761797000,
     "address": {
       "city": "Karlsruhe",
       "state": "Baden-Württemberg",
@@ -8860,7 +8835,10 @@
       "website": "https://www.stuttgart.de/rosensteintunnel/item/show/563095"
     },
     "operator": "Landeshauptstadt Stuttgart",
-    "url": "https://www.stuttgart.de/rosensteintunnel/item/show/563095"
+    "url": "https://www.stuttgart.de/rosensteintunnel/item/show/563095",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.0830042,
@@ -9021,7 +8999,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Stadt Witten",
-    "url": "https://geoportal.stadt-witten.de/RathausWebcam/webcam.jpg"
+    "url": "https://geoportal.stadt-witten.de/RathausWebcam/webcam.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.4477491,
@@ -9117,7 +9098,10 @@
       "website": "https://www.oederan.de/online-service/webcam/"
     },
     "operator": "Stadt Oederan",
-    "url": "https://www.oederan.de/online-service/webcam/"
+    "url": "https://www.oederan.de/online-service/webcam/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.866742,
@@ -9468,9 +9452,9 @@
     "lat": 48.5776433,
     "lon": 10.496013,
     "osmID": 4286338793,
-    "user": "Ropino",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1628366095000,
+    "lastChanged": 1669284342000,
     "address": {
       "city": "Dillingen a.d.Donau",
       "county": "Landkreis Dillingen an der Donau",
@@ -9480,15 +9464,16 @@
     "osmTags": {
       "addr:city": "Dillingen a.d.Donau",
       "addr:postcode": "89407",
+      "camera:direction": "245",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.dillingen-donau.de/dillingen/impressionen/webcam",
       "direction": "250",
-      "image": "https://www.dillingen-donau.de/webcam/camdlg.jpg",
       "man_made": "surveillance",
       "name": "Webcam Königstraße",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://www.dillingen-donau.de/index.php?id=53"
+      "surveillance:type": "camera"
     },
-    "url": "http://www.dillingen-donau.de/index.php?id=53"
+    "url": "https://www.dillingen-donau.de/dillingen/impressionen/webcam"
   },
   {
     "lat": 48.3902863,
@@ -10444,7 +10429,10 @@
       "surveillance:type": "camera",
       "website": "https://www.hooksiel.de/webcamhafen/archiv.php"
     },
-    "url": "https://www.hooksiel.de/webcamhafen/archiv.php"
+    "url": "https://www.hooksiel.de/webcamhafen/archiv.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.6416772,
@@ -12650,12 +12638,12 @@
     }
   },
   {
-    "lat": 47.5153929,
-    "lon": 19.0004158,
+    "lat": 47.5153923,
+    "lon": 19.0004148,
     "osmID": 4752559429,
     "user": "Bálint",
     "osmType": "node",
-    "lastChanged": 1574529349000,
+    "lastChanged": 1670707241000,
     "address": {
       "city": "Budapest",
       "country": "Hungary"
@@ -12664,13 +12652,13 @@
       "camera:direction": "315",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "http://szakrendszerek.bkk-kozut.hu",
+      "contact:webcam": "https://kozutfigyelo.budapestkozut.hu/list/camerahistory?id=10158",
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "http://szakrendszerek.bkk-kozut.hu"
+    "url": "https://kozutfigyelo.budapestkozut.hu/list/camerahistory?id=10158"
   },
   {
     "lat": 46.5572984,
@@ -13595,7 +13583,10 @@
       "contact:webcam": "http://www.parcoprealpigiulie.it/public/meteo/it-fr-005-2/current.jpg",
       "surveillance": "webcam"
     },
-    "url": "http://www.parcoprealpigiulie.it/public/meteo/it-fr-005-2/current.jpg"
+    "url": "http://www.parcoprealpigiulie.it/public/meteo/it-fr-005-2/current.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.0551347,
@@ -14555,6 +14546,7 @@
     },
     "url": "http://skiarlberg.at/de/regionen/skigebiet/lech-oberlech-zuers/livecams",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -14781,7 +14773,10 @@
       "surveillance:zone": "traffic",
       "website": "https://168.thb.gov.tw/thb/navigate.do"
     },
-    "url": "http://117.56.163.169/T3-219K+600/"
+    "url": "http://117.56.163.169/T3-219K+600/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 23.8425183,
@@ -14806,7 +14801,10 @@
       "surveillance:zone": "trafic",
       "website": "http://traffic.nantou.gov.tw/"
     },
-    "url": "http://117.56.98.67/172017022128/"
+    "url": "http://117.56.98.67/172017022128/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 54.1271304,
@@ -14827,7 +14825,10 @@
       "surveillance": "webcam",
       "website": "http://webcam-buesum.axiscam.net/view/viewer_index.shtml"
     },
-    "url": "http://webcam-buesum.axiscam.net/view/viewer_index.shtml"
+    "url": "http://webcam-buesum.axiscam.net/view/viewer_index.shtml",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.5169444,
@@ -15237,7 +15238,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "street"
     },
-    "url": "http://www.turismodehervas.com/camaraapp.htm"
+    "url": "http://www.turismodehervas.com/camaraapp.htm",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.8459146,
@@ -15478,7 +15482,10 @@
       "surveillance:zone": "area"
     },
     "operator": "Stadtwerke Schramberg",
-    "url": "https://www.stadtwerke-schramberg.de/tools/webcams/index.php5?image=cameras/freibad/webcam_freibad.jpg&withWatermark=1&invertedWatermark=1&watermarkWidth=180&watermarkPadding=15"
+    "url": "https://www.stadtwerke-schramberg.de/tools/webcams/index.php5?image=cameras/freibad/webcam_freibad.jpg&withWatermark=1&invertedWatermark=1&watermarkWidth=180&watermarkPadding=15",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.4945677,
@@ -15745,6 +15752,7 @@
     "operator": "King County Department of Transportation",
     "url": "https://kingcounty.gov/depts/transportation/roads/traffic-cams.aspx",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -15938,7 +15946,7 @@
     "lastChanged": 1642593373000,
     "address": {
       "city": "Baiersbronn",
-      "county": "Landkreis Freudenstadt",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -16066,7 +16074,7 @@
     "osmType": "node",
     "lastChanged": 1657055201000,
     "address": {
-      "city": "St Leonards",
+      "city": "Hastings",
       "county": "East Sussex",
       "state": "England",
       "country": "United Kingdom"
@@ -16265,6 +16273,7 @@
     },
     "url": "https://www.e-werk-mittelbaden.de/webcams",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -16420,9 +16429,9 @@
     "osmType": "node",
     "lastChanged": 1658442775000,
     "address": {
-      "city": "Мокровский сельский Совет",
-      "county": "Пружанский район",
-      "state": "Брестская область",
+      "city": "Мокраўскі сельскі Савет",
+      "county": "Пружанскі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -16732,7 +16741,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "courtyard"
     },
-    "url": "http://76.127.48.230:4242/snap.jpeg#https://agorashoppingcenter.com/webcam"
+    "url": "http://76.127.48.230:4242/snap.jpeg#https://agorashoppingcenter.com/webcam",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 54.1359335,
@@ -17190,10 +17202,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.wsdot.com/traffic/seattle/default.aspx?cam=1381#cam",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.wsdot.com/traffic/seattle/default.aspx?cam=1381#cam"
   },
   {
     "lat": 38.4671227,
@@ -17411,6 +17420,7 @@
     },
     "url": "511ia.org",
     "lint": {
+      "unavailable": true,
       "invalidUrl": true
     }
   },
@@ -17447,7 +17457,7 @@
     "osmType": "node",
     "lastChanged": 1647522935000,
     "address": {
-      "city": "Bad Sassendorf",
+      "city": "Lohne",
       "county": "Kreis Soest",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
@@ -18207,8 +18217,8 @@
     "osmType": "node",
     "lastChanged": 1589925223000,
     "address": {
-      "city": "Гродно",
-      "state": "Гродненская область",
+      "city": "Гродна",
+      "state": "Гродзенская вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -18234,8 +18244,8 @@
     "osmType": "node",
     "lastChanged": 1589925223000,
     "address": {
-      "city": "Гродно",
-      "state": "Гродненская область",
+      "city": "Гродна",
+      "state": "Гродзенская вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -18461,7 +18471,7 @@
     "osmID": 7556486040,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662647585000,
+    "lastChanged": 1669120865000,
     "address": {
       "city": "Albinen",
       "county": "Leuk",
@@ -18469,7 +18479,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "https://torrent.roundshot.com/",
@@ -18585,7 +18594,7 @@
     "osmType": "node",
     "lastChanged": 1604110105000,
     "address": {
-      "city": "Saint Joseph",
+      "city": "Tunapuna",
       "state": "Tunapuna-Piarco",
       "country": "Trinidad and Tobago"
     },
@@ -18752,7 +18761,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Přísečná",
+      "city": "Mirkovice",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -19224,7 +19233,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "ОСН \"КОМІТЕТ М-НУ \"БЕРЕЗНЯКИ-ТЕЛЬБІН\"",
-    "url": "https://www.ocam.kiev.ua/cam/view/13"
+    "url": "https://www.ocam.kiev.ua/cam/view/13",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.7858892,
@@ -19791,7 +19803,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Les Arcs",
-    "url": "https://www.youtube.com/watch?v=Wzdm6sWvl-Q"
+    "url": "https://www.youtube.com/watch?v=Wzdm6sWvl-Q",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": -34.9227553,
@@ -19994,7 +20009,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "https://www.seattle.gov/police/community-policing/red-light-cameras"
+    "url": "https://www.seattle.gov/police/community-policing/red-light-cameras",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.7772767,
@@ -20179,7 +20197,7 @@
     "osmID": 8063949085,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1663583949000,
+    "lastChanged": 1668764115000,
     "address": {
       "city": "Flagstaff",
       "county": "Coconino County",
@@ -20190,7 +20208,7 @@
       "camera:direction": "160",
       "camera:mount": "wall",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=lP4hFCL0BG0",
+      "contact:webcam": "https://www.youtube.com/watch?v=cJzYyUpf2mg",
       "description": "Flagstaff, Arizona, in Northern Arizona, is located on the BNSF Railway's Seligman Subdivision at milepost 344.2.  The Seligman Sub is part of their Southern Transcon, the former Atchison, Topeka & Santa Fe Railway (AT&SF) mainline between Chicago and Los",
       "man_made": "surveillance",
       "name": "Flagstaff, Arizona - east",
@@ -20200,10 +20218,7 @@
       "surveillance:zone": "area"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=lP4hFCL0BG0",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=cJzYyUpf2mg"
   },
   {
     "lat": 35.1972767,
@@ -20211,7 +20226,7 @@
     "osmID": 8063949086,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1663583949000,
+    "lastChanged": 1668764115000,
     "address": {
       "city": "Flagstaff",
       "county": "Coconino County",
@@ -20222,7 +20237,7 @@
       "camera:direction": "250",
       "camera:mount": "wall",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=R9T9JLX-jWY",
+      "contact:webcam": "https://www.youtube.com/watch?v=88qbtT74hJQ",
       "description": "Flagstaff, Arizona, in Northern Arizona, is located on the BNSF Railway's Seligman Subdivision at milepost 344.2.  The Seligman Sub is part of their Southern Transcon, the former Atchison, Topeka & Santa Fe Railway (AT&SF) mainline between Chicago and Los",
       "man_made": "surveillance",
       "name": "Flagstaff, Arizona - West",
@@ -20232,10 +20247,7 @@
       "surveillance:zone": "area"
     },
     "operator": "Virtual Railfan",
-    "url": "https://www.youtube.com/watch?v=R9T9JLX-jWY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=88qbtT74hJQ"
   },
   {
     "lat": 42.2800109,
@@ -20687,9 +20699,9 @@
     "osmType": "node",
     "lastChanged": 1610451145000,
     "address": {
-      "city": "Логойский сельский Совет",
-      "county": "Логойский район",
-      "state": "Минская область",
+      "city": "Лагойскі сельскі Савет",
+      "county": "Лагойскі раён",
+      "state": "Мінская вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -21087,7 +21099,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Hook Lighthouse",
-    "url": "http://89.106.143.18:121/"
+    "url": "http://89.106.143.18:121/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.1238073,
@@ -21391,6 +21406,7 @@
     },
     "url": "cotrip.org",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
@@ -21485,7 +21501,7 @@
     "osmType": "node",
     "lastChanged": 1613566897000,
     "address": {
-      "city": "Antofagasta",
+      "city": "Taltal",
       "county": "Provincia de Antofagasta",
       "state": "Región de Antofagasta",
       "country": "Chile"
@@ -21604,7 +21620,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.webcamtaxi.com/en/usa/tennessee/broadway-nashville.html#"
+    "url": "https://www.webcamtaxi.com/en/usa/tennessee/broadway-nashville.html#",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 40.7563936,
@@ -22309,7 +22328,10 @@
       "surveillance:type": "camera"
     },
     "operator": "scheveningen live",
-    "url": "http://www.scheveningenlive.nl/strand-webcam/"
+    "url": "http://www.scheveningenlive.nl/strand-webcam/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.0907111,
@@ -22393,7 +22415,7 @@
     "osmType": "node",
     "lastChanged": 1621536437000,
     "address": {
-      "city": "Tonawanda Town CDP",
+      "city": "Town of Tonawanda",
       "county": "Erie County",
       "state": "New York",
       "country": "United States of America"
@@ -23406,7 +23428,7 @@
     "osmType": "node",
     "lastChanged": 1619563782000,
     "address": {
-      "city": "Stuhlfelden",
+      "city": "Mittersill",
       "county": "Bezirk Zell am See",
       "state": "Salzburg",
       "country": "Austria"
@@ -23926,7 +23948,7 @@
     "osmType": "node",
     "lastChanged": 1622400989000,
     "address": {
-      "city": "Town of Irondequoit",
+      "city": "City of Rochester",
       "county": "Monroe County",
       "state": "New York",
       "country": "United States of America"
@@ -24695,7 +24717,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
-    "url": "https://tsftp.no/Trondheim/ork_6.jpg"
+    "url": "https://tsftp.no/Trondheim/ork_6.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 63.3155903,
@@ -25405,9 +25430,9 @@
     "lat": 52.6220587,
     "lon": 6.0407669,
     "osmID": 8899216900,
-    "user": "wvdp",
+    "user": "Mond00",
     "osmType": "node",
-    "lastChanged": 1625606107000,
+    "lastChanged": 1669578313000,
     "address": {
       "city": "Genemuiden",
       "state": "Overijssel",
@@ -25418,7 +25443,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://webcam.nl/bouw/genemuiden/",
       "man_made": "surveillance",
-      "name": "Rijwielhuis van Dalfsen  - construction",
+      "name": "Rijwielhuis van Dalfsen - construction",
       "operator": "https://webcam.nl/bouw/genemuiden/",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -26427,7 +26452,10 @@
       "surveillance:zone": "area"
     },
     "operator": "Hôtel Novotel Thalassa Oléron Saint-Trojan",
-    "url": "https://youtu.be/8mUz_HLA_Fs"
+    "url": "https://youtu.be/8mUz_HLA_Fs",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 45.9142238,
@@ -26942,7 +26970,7 @@
     "osmType": "node",
     "lastChanged": 1628864865000,
     "address": {
-      "city": "Zaandijk",
+      "city": "Zaandam",
       "state": "Noord-Holland",
       "country": "Netherlands"
     },
@@ -27032,7 +27060,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1200_13912_diwue_viwue_hm-reinertshf-t_0.jpg"
+    "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1200_13912_diwue_viwue_hm-reinertshf-t_0.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 25.1320368,
@@ -28970,6 +29001,7 @@
     "osmType": "node",
     "lastChanged": 1635424574000,
     "address": {
+      "city": "San Bartolomé",
       "country": "Spain"
     },
     "osmTags": {
@@ -29666,6 +29698,7 @@
     },
     "url": "www.asfinag.at",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
@@ -31280,7 +31313,7 @@
     "osmType": "node",
     "lastChanged": 1643704584000,
     "address": {
-      "city": "Cala Llenya",
+      "city": "Santa Eulària des Riu",
       "county": "Eivissa",
       "state": "Illes Balears",
       "country": "Spain"
@@ -31935,9 +31968,9 @@
     "osmType": "node",
     "lastChanged": 1646821457000,
     "address": {
-      "city": "Терюхский сельский Совет",
-      "county": "Гомельский район",
-      "state": "Гомельская область",
+      "city": "Цярухскі сельскі Савет",
+      "county": "Гомельскі раён",
+      "state": "Гомельская вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34092,7 +34125,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=McK9GOCSfi4"
+    "url": "https://www.youtube.com/watch?v=McK9GOCSfi4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2263496,
@@ -34167,7 +34203,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=Ep1cq9mCJP4"
+    "url": "https://www.youtube.com/watch?v=Ep1cq9mCJP4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.193096,
@@ -34218,34 +34257,6 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.youtube.com/watch?v=np1Me6uuz4U",
-    "lint": {
-      "youtube": true
-    }
-  },
-  {
-    "lat": 53.1954748,
-    "lon": 6.5503624,
-    "osmID": 9899797228,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1658321768000,
-    "address": {
-      "city": "Groningen",
-      "state": "Groningen",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:direction": "285",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=b_7Vwz2YfMw",
-      "man_made": "surveillance",
-      "name": "Laan Corpus den Hoorn - Groningen - cam 3",
-      "source": "https://www.groningenbereikbaar.nl/webcams",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://www.youtube.com/watch?v=b_7Vwz2YfMw",
     "lint": {
       "youtube": true
     }
@@ -34334,8 +34345,8 @@
     "lastChanged": 1658443054000,
     "address": {
       "city": "Пружаны",
-      "county": "Пружанский район",
-      "state": "Брестская область",
+      "county": "Пружанскі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34356,9 +34367,9 @@
     "osmType": "node",
     "lastChanged": 1658441865000,
     "address": {
-      "city": "Кобрин",
-      "county": "Кобринский район",
-      "state": "Брестская область",
+      "city": "Кобрын",
+      "county": "Кобрынскі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34378,9 +34389,9 @@
     "osmType": "node",
     "lastChanged": 1658443528000,
     "address": {
-      "city": "Ряснянский сельский Совет",
-      "county": "Каменецкий район",
-      "state": "Брестская область",
+      "city": "Раснянскі сельскі Савет",
+      "county": "Камянецкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34402,9 +34413,9 @@
     "osmType": "node",
     "lastChanged": 1658443224000,
     "address": {
-      "city": "Видомлянский сельский Совет",
-      "county": "Каменецкий район",
-      "state": "Брестская область",
+      "city": "Відамлянскі сельскі Савет",
+      "county": "Камянецкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34425,9 +34436,9 @@
     "osmType": "node",
     "lastChanged": 1658443383000,
     "address": {
-      "city": "Речицкий сельский Совет",
-      "county": "Каменецкий район",
-      "state": "Брестская область",
+      "city": "Рэчыцкі сельскі Савет",
+      "county": "Камянецкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34448,9 +34459,9 @@
     "osmType": "node",
     "lastChanged": 1658442015000,
     "address": {
-      "city": "Кобрин",
-      "county": "Кобринский район",
-      "state": "Брестская область",
+      "city": "Кобрын",
+      "county": "Кобрынскі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34469,9 +34480,9 @@
     "osmType": "node",
     "lastChanged": 1658441335000,
     "address": {
-      "city": "Тельминский сельский Совет",
-      "county": "Брестский район",
-      "state": "Брестская область",
+      "city": "Тэльмінскі сельскі Савет",
+      "county": "Брэсцкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34491,9 +34502,9 @@
     "osmType": "node",
     "lastChanged": 1658441584000,
     "address": {
-      "city": "Хидринский сельский Совет",
-      "county": "Кобринский район",
-      "state": "Брестская область",
+      "city": "Хідрынскі сельскі Савет",
+      "county": "Кобрынскі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34514,8 +34525,8 @@
     "lastChanged": 1658443054000,
     "address": {
       "city": "Пружаны",
-      "county": "Пружанский район",
-      "state": "Брестская область",
+      "county": "Пружанскі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34536,9 +34547,9 @@
     "osmType": "node",
     "lastChanged": 1658443224000,
     "address": {
-      "city": "Видомлянский сельский Совет",
-      "county": "Каменецкий район",
-      "state": "Брестская область",
+      "city": "Відамлянскі сельскі Савет",
+      "county": "Камянецкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34559,9 +34570,9 @@
     "osmType": "node",
     "lastChanged": 1658443383000,
     "address": {
-      "city": "Речицкий сельский Совет",
-      "county": "Каменецкий район",
-      "state": "Брестская область",
+      "city": "Рэчыцкі сельскі Савет",
+      "county": "Камянецкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34582,9 +34593,9 @@
     "osmType": "node",
     "lastChanged": 1658443542000,
     "address": {
-      "city": "Ряснянский сельский Совет",
-      "county": "Каменецкий район",
-      "state": "Брестская область",
+      "city": "Раснянскі сельскі Савет",
+      "county": "Камянецкі раён",
+      "state": "Брэсцкая вобласць",
       "country": "Belarus"
     },
     "osmTags": {
@@ -34754,7 +34765,7 @@
     "osmID": 9974891639,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662649543000,
+    "lastChanged": 1669120734000,
     "address": {
       "city": "Rheinwald",
       "county": "Viamala",
@@ -34762,7 +34773,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "45",
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "https://meteoschweiz.roundshot.com/spluegenpass/#/",
@@ -34783,7 +34793,7 @@
     "osmID": 9974896536,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648966000,
+    "lastChanged": 1669120759000,
     "address": {
       "city": "Frauenfeld",
       "county": "Bezirk Frauenfeld",
@@ -34791,7 +34801,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "270",
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "https://meteoschweiz.roundshot.com/frauenfeld/#/",
@@ -34896,14 +34905,13 @@
     "osmID": 9977256140,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648561000,
+    "lastChanged": 1669120822000,
     "address": {
       "city": "Eich",
       "state": "Luzern",
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "90",
       "camera:mount": "building",
       "camera:type": "panning",
       "contact:webcam": "https://meteoschweiz.roundshot.com/schenkon/#/",
@@ -34953,7 +34961,7 @@
     "osmID": 9977265929,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648604000,
+    "lastChanged": 1669120815000,
     "address": {
       "city": "Leibstadt",
       "county": "Bezirk Zurzach",
@@ -34961,7 +34969,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "roof",
       "camera:type": "panning",
       "contact:webcam": "https://meteoschweiz.roundshot.com/leibstadt/#/",
@@ -35264,7 +35271,7 @@
     "osmID": 10009095211,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662647482000,
+    "lastChanged": 1669120939000,
     "address": {
       "city": "Château-d'Oex",
       "county": "District de la Riviera-Pays-d’Enhaut",
@@ -35272,13 +35279,14 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "270",
       "camera:mount": "pole",
-      "camera:type": "fixed",
+      "camera:type": "panning",
       "contact:webcam": "https://meteoschweiz.roundshot.com/chax/#/",
+      "man_made": "surveillance",
       "name": "Wetterkamera Château-d'Oex",
       "operator": "MeteoSchweiz",
       "surveillance": "webcam",
+      "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
     "operator": "MeteoSchweiz",
@@ -35290,7 +35298,7 @@
     "osmID": 10009137538,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662645978000,
+    "lastChanged": 1669121006000,
     "address": {
       "city": "Novazzano",
       "county": "Distretto di Mendrisio",
@@ -35298,7 +35306,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "90",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/novazzano/#/",
@@ -35316,7 +35323,7 @@
     "osmID": 10009146481,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662647133000,
+    "lastChanged": 1669120986000,
     "address": {
       "city": "Martigny-Combe",
       "county": "Martigny",
@@ -35324,7 +35331,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "180",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/ravoire/#/",
@@ -35344,7 +35350,7 @@
     "osmID": 10009147438,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662646347000,
+    "lastChanged": 1669120998000,
     "address": {
       "city": "Yverdon-les-Bains",
       "county": "District du Jura-Nord vaudois",
@@ -35352,7 +35358,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "180",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/yverdon-les-bains/#/",
@@ -35372,7 +35377,7 @@
     "osmID": 10009178092,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662647763000,
+    "lastChanged": 1669120856000,
     "address": {
       "city": "Rosswald",
       "county": "Brig",
@@ -35380,7 +35385,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/rosswald/#/",
@@ -35400,7 +35404,7 @@
     "osmID": 10009197619,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662647482000,
+    "lastChanged": 1669120948000,
     "address": {
       "city": "Villa",
       "county": "Hérens",
@@ -35408,7 +35412,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "180",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/evolene-villa/#/",
@@ -35428,7 +35431,7 @@
     "osmID": 10009198547,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662647981000,
+    "lastChanged": 1669120850000,
     "address": {
       "city": "Haltenegg",
       "county": "Verwaltungskreis Thun",
@@ -35436,7 +35439,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/heiligenschwendi/#/",
@@ -35456,14 +35458,13 @@
     "osmID": 10009211034,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648456000,
+    "lastChanged": 1669120829000,
     "address": {
       "city": "Lungern",
       "state": "Obwalden",
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/kaiserstuhl-nordost/#/",
@@ -35483,7 +35484,7 @@
     "osmID": 10009213480,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648108000,
+    "lastChanged": 1669120843000,
     "address": {
       "city": "Haute-Ajoie",
       "county": "District de Porrentruy",
@@ -35491,7 +35492,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/rochedor/#/",
@@ -35511,7 +35511,7 @@
     "osmID": 10009215048,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648287000,
+    "lastChanged": 1669120836000,
     "address": {
       "city": "Guttannen",
       "county": "Verwaltungskreis Interlaken-Oberhasli",
@@ -35519,7 +35519,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/grimselhospiz/#/",
@@ -35539,7 +35538,7 @@
     "osmID": 10009217480,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662649224000,
+    "lastChanged": 1669120742000,
     "address": {
       "city": "Igis",
       "county": "Landquart",
@@ -35547,7 +35546,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/landquart/#/",
@@ -35567,7 +35565,7 @@
     "osmID": 10009224645,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662650066000,
+    "lastChanged": 1669120671000,
     "address": {
       "city": "Silvaplana",
       "county": "Maloja",
@@ -35575,7 +35573,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "45",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/murtel/#/",
@@ -35595,14 +35592,13 @@
     "osmID": 10009231998,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648741000,
+    "lastChanged": 1669120807000,
     "address": {
       "city": "Bettingen",
       "state": "Basel-Stadt",
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "120",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/stchrischona/#/",
@@ -35622,7 +35618,7 @@
     "osmID": 10009232282,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662649076000,
+    "lastChanged": 1669120751000,
     "address": {
       "city": "Quarten",
       "county": "Wahlkreis Sarganserland",
@@ -35630,7 +35626,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/murg/#/",
@@ -35650,14 +35645,13 @@
     "osmID": 10009237073,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662648910000,
+    "lastChanged": 1669120766000,
     "address": {
       "city": "Neuhausen am Rheinfall",
       "state": "Schaffhausen",
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "90",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/schaffhausen/#/",
@@ -35680,7 +35674,7 @@
     "osmID": 10009243196,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662649843000,
+    "lastChanged": 1669120717000,
     "address": {
       "city": "Surses",
       "county": "Albula",
@@ -35688,7 +35682,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/bivio/#/",
@@ -35708,7 +35701,7 @@
     "osmID": 10009269583,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662650310000,
+    "lastChanged": 1669120652000,
     "address": {
       "city": "Aquila",
       "county": "Distretto di Blenio",
@@ -35716,7 +35709,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "45",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/olivone/#/",
@@ -35736,7 +35728,7 @@
     "osmID": 10009271736,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662649678000,
+    "lastChanged": 1669120725000,
     "address": {
       "city": "Zernez",
       "county": "Region Engiadina Bassa/Val Müstair",
@@ -35744,7 +35736,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "0",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/flueela-ost/#/",
@@ -35764,7 +35755,7 @@
     "osmID": 10009274520,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662649940000,
+    "lastChanged": 1669120709000,
     "address": {
       "city": "Casaccia",
       "county": "Maloja",
@@ -35772,7 +35763,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "0",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/casaccia-ost/#/",
@@ -35792,7 +35782,7 @@
     "osmID": 10009304362,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662650641000,
+    "lastChanged": 1669120605000,
     "address": {
       "city": "Goldau",
       "county": "Schwyz",
@@ -35800,7 +35790,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/goldau/#/",
@@ -35820,7 +35809,7 @@
     "osmID": 10009306356,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662650421000,
+    "lastChanged": 1669120635000,
     "address": {
       "city": "Airolo",
       "county": "Distretto di Leventina",
@@ -35828,7 +35817,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "270",
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/brugnasco/#/",
@@ -35848,7 +35836,7 @@
     "osmID": 10009315312,
     "user": "FxT_Black_Master",
     "osmType": "node",
-    "lastChanged": 1662650721000,
+    "lastChanged": 1669120591000,
     "address": {
       "city": "Etziken",
       "county": "Amtei Bucheggberg-Wasseramt",
@@ -35856,7 +35844,6 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "camera:direction": "360",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://meteoschweiz.roundshot.com/etziken/#/",
@@ -35891,6 +35878,29 @@
       "surveillance:zone": "animal"
     },
     "url": "https://storchencam-freden.de"
+  },
+  {
+    "lat": 47.5017965,
+    "lon": -122.1966328,
+    "osmID": 10061987863,
+    "user": "goldfndr",
+    "osmType": "node",
+    "lastChanged": 1670082147000,
+    "address": {
+      "city": "Renton",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/405vc00537.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://images.wsdot.wa.gov/nw/405vc00537.jpg"
   },
   {
     "lat": 53.7015054,
@@ -36006,5 +36016,227 @@
       "website": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
     },
     "url": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
+  },
+  {
+    "lat": 47.0209877,
+    "lon": 8.7029383,
+    "osmID": 10185577070,
+    "user": "FxT_Black_Master",
+    "osmType": "node",
+    "lastChanged": 1669120569000,
+    "address": {
+      "city": "Schwyz",
+      "county": "Schwyz",
+      "state": "Schwyz",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://kachelmannwetter.roundshot.com/rotenflue/#/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://kachelmannwetter.roundshot.com/rotenflue/#/"
+  },
+  {
+    "lat": 46.9571106,
+    "lon": 8.6758868,
+    "osmID": 10185581949,
+    "user": "FxT_Black_Master",
+    "osmType": "node",
+    "lastChanged": 1669120576000,
+    "address": {
+      "city": "Riemenstalden",
+      "county": "Schwyz",
+      "state": "Schwyz",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://kachelmannwetter.roundshot.com/klingenstock/#/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://kachelmannwetter.roundshot.com/klingenstock/#/"
+  },
+  {
+    "lat": 54.1798168,
+    "lon": 12.0810634,
+    "osmID": 10206808563,
+    "user": "Danny83",
+    "osmType": "node",
+    "lastChanged": 1669019479000,
+    "address": {
+      "city": "Rostock",
+      "state": "Mecklenburg-Vorpommern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "WNW",
+      "camera:type": "fixed",
+      "contact:webcam": "https://opendata.dwd.de/weather/webcam/Warnemuende-NW/Warnemuende-NW_latest_1200.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://opendata.dwd.de/weather/webcam/Warnemuende-NW/Warnemuende-NW_latest_1200.jpg"
+  },
+  {
+    "lat": 42.9502079,
+    "lon": -0.6661695,
+    "osmID": 10207245402,
+    "user": "MaxR_6429",
+    "osmType": "node",
+    "lastChanged": 1669033853000,
+    "address": {
+      "city": "Lescun",
+      "county": "Pyrénées-Atlantiques",
+      "state": "Nouvelle-Aquitaine",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "http://aberouat.fr/webcams",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://aberouat.fr/webcams"
+  },
+  {
+    "lat": 49.7532601,
+    "lon": 15.0203444,
+    "osmID": 10224486379,
+    "user": "Manu1400",
+    "osmType": "node",
+    "lastChanged": 1669671805000,
+    "address": {
+      "city": "Trhový Štěpánov",
+      "state": "Střední Čechy",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "http://sydoghost.cz/GhostServices/data/kamery/665410288.jpg?1669671741",
+      "man_made": "surveillance",
+      "source": "https://doprava.kr-stredocesky.cz/map/index/?point=49.753955%2C15.020338&point=49.753848%2C15.020794&locale=cs&layer=",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "http://sydoghost.cz/GhostServices/data/kamery/665410288.jpg?1669671741"
+  },
+  {
+    "lat": 50.8710368,
+    "lon": -1.3528335,
+    "osmID": 10237954061,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1670164753000,
+    "address": {
+      "city": "Eastleigh",
+      "county": "Hampshire",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://ncsc.co.uk/",
+      "man_made": "surveillance",
+      "name": "Netley Cam - Southampton Water (NCSC Netley Cliff Sailing Club) Shipspotting",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "https://ncsc.co.uk/"
+  },
+  {
+    "lat": 43.8964045,
+    "lon": 6.1289653,
+    "osmID": 10242563641,
+    "user": "Pa413",
+    "osmType": "node",
+    "lastChanged": 1670338869000,
+    "address": {
+      "city": "Bras-d'Asse",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.inforoute04.fr/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.inforoute04.fr/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 43.8814498,
+    "lon": 5.8510867,
+    "osmID": 10242563643,
+    "user": "Pa413",
+    "osmType": "node",
+    "lastChanged": 1670338869000,
+    "address": {
+      "city": "Villeneuve",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.inforoute04.fr/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.inforoute04.fr/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 43.8149332,
+    "lon": 5.8015058,
+    "osmID": 10242563644,
+    "user": "Pa413",
+    "osmType": "node",
+    "lastChanged": 1670338869000,
+    "address": {
+      "city": "Manosque",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.inforoute04.fr/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.inforoute04.fr/",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
