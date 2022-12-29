@@ -14510,10 +14510,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://www.zuerserhof.at/de/webcam",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://www.zuerserhof.at/de/webcam"
   },
   {
     "lat": 47.1754398,
@@ -18744,7 +18741,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "http://verkehr.rlp.de/syncdata/cam/1310/thumb_640x480.jpg?"
+    "url": "http://verkehr.rlp.de/syncdata/cam/1310/thumb_640x480.jpg?",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.3534582,
