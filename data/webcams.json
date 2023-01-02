@@ -3286,7 +3286,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=185992"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=185992"
+    "url": "http://webkamera.vegvesen.no/kamera?id=185992",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 69.9051521,
@@ -7824,12 +7827,12 @@
     "url": "https://www.buesum.de/live-vor-ort/webcams/museumshafen"
   },
   {
-    "lat": 54.1361622,
-    "lon": 8.8436615,
+    "lat": 54.1370351,
+    "lon": 8.8433365,
     "osmID": 3027086595,
-    "user": "Fischkopp0815",
+    "user": "frantzius2177",
     "osmType": "node",
-    "lastChanged": 1635048787000,
+    "lastChanged": 1672584828000,
     "address": {
       "city": "Büsum",
       "county": "Dithmarschen",
@@ -21276,6 +21279,7 @@
     },
     "url": "cotrip.org",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
@@ -24782,6 +24786,64 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.skaping.com/orleans/quais-de-loire/video"
+  },
+  {
+    "lat": -43.5641487,
+    "lon": 172.5261855,
+    "osmID": 8894152380,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1672611576000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/760.jpg",
+      "description": "East along Sthn Mwy across Springs Rd Overbridge",
+      "man_made": "surveillance",
+      "name": "SH76 Springs Rd",
+      "ref": "760",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/760.jpg"
+  },
+  {
+    "lat": -43.5639069,
+    "lon": 172.5329395,
+    "osmID": 8894152381,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1672611576000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/759.jpg",
+      "description": "East along Sthn Mwy from Halswell Junction Rd Overbridge",
+      "man_made": "surveillance",
+      "name": "SH76 Halswell Junction Rd",
+      "ref": "759",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/759.jpg"
   },
   {
     "lat": -43.5307487,
@@ -35799,7 +35861,10 @@
       "surveillance": "webcam",
       "website": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
     },
-    "url": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg"
+    "url": "https://novascotia.ca/tran/webcam/secure/images/rwis_cam/Hubbards_1.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.0209877,
