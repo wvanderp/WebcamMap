@@ -16606,7 +16606,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "http://santaclaraca.gov/residents/maps/san-tomas-aquino-creek-trail-webcam"
+    "url": "http://santaclaraca.gov/residents/maps/san-tomas-aquino-creek-trail-webcam",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -35.503474,
@@ -23334,12 +23337,12 @@
     "url": "http://cam1.rauris.net/view/view.shtml?id=5017&imagepath=/mjpg/video.mjpg"
   },
   {
-    "lat": 47.6775096,
-    "lon": 11.1987837,
+    "lat": 47.6775403,
+    "lon": 11.1987398,
     "osmID": 8677570925,
     "user": "kdkeller",
     "osmType": "node",
-    "lastChanged": 1619639780000,
+    "lastChanged": 1672953903000,
     "address": {
       "city": "Murnau am Staffelsee",
       "county": "Landkreis Garmisch-Partenkirchen",
@@ -25204,7 +25207,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://webcam.nl/bouw/nijkerk/"
+    "url": "https://webcam.nl/bouw/nijkerk/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.7075974,
@@ -29037,9 +29043,9 @@
     "lat": 46.7797599,
     "lon": -92.0923977,
     "osmID": 9260034903,
-    "user": "Nordpfeil",
+    "user": "TNS-MN",
     "osmType": "node",
-    "lastChanged": 1637240302000,
+    "lastChanged": 1672940871000,
     "address": {
       "city": "Duluth",
       "county": "Saint Louis County",
@@ -29047,7 +29053,7 @@
       "country": "United States of America"
     },
     "osmTags": {
-      "camera:direction": "180",
+      "camera:direction": "220",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=BzwWjdZXymc",
       "description": "This camera is located on the roof of the Lake Superior Maritime Visitor Center in Duluth, Minnesota. It focuses on the historic Duluth Aerial Lift Bridge.",
@@ -36176,7 +36182,7 @@
     "osmID": 10293296850,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1672322094000,
+    "lastChanged": 1672908570000,
     "address": {
       "city": "Bukowina Tatrzańska",
       "county": "powiat tatrzański",
@@ -36187,10 +36193,12 @@
       "contact:webcam": "https://player.webcamera.pl/olczan_cam_83c75a",
       "man_made": "surveillance",
       "name": "Olczan-SKI Turnia",
+      "operator": "WebCamera",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
+    "operator": "WebCamera",
     "url": "https://player.webcamera.pl/olczan_cam_83c75a"
   },
   {
@@ -36199,7 +36207,7 @@
     "osmID": 10293296852,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1672322094000,
+    "lastChanged": 1672908570000,
     "address": {
       "city": "Bukowina Tatrzańska",
       "county": "powiat tatrzański",
@@ -36210,10 +36218,12 @@
       "contact:webcam": "https://player.webcamera.pl/olczan_cam_336a5d",
       "man_made": "surveillance",
       "name": "Olczan-SKI Zwyrtlik",
+      "operator": "WebCamera",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
+    "operator": "WebCamera",
     "url": "https://player.webcamera.pl/olczan_cam_336a5d"
   },
   {
