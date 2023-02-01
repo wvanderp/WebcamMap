@@ -810,7 +810,7 @@
       "148.4090366",
       "148.4099578"
     ],
-    "expires": 1675251571
+    "expires": 1676390338
   },
   "-36.4085783,148.3982759": {
     "place_id": 168551367,
@@ -2921,11 +2921,11 @@
     "osm_id": 33743511,
     "lat": "37.22799405000001",
     "lon": "-80.41281747592586",
-    "display_name": "Kent Square, South Main Street, Miller Addition, Blacksburg, Montgomery County, Virginia, 24063, United States",
+    "display_name": "Kent Square, South Main Street, Keister Addition, Blacksburg, Montgomery County, Virginia, 24063, United States",
     "address": {
       "building": "Kent Square",
       "road": "South Main Street",
-      "hamlet": "Miller Addition",
+      "hamlet": "Keister Addition",
       "city": "Blacksburg",
       "county": "Montgomery County",
       "state": "Virginia",
@@ -2941,7 +2941,7 @@
       "-80.4133805",
       "-80.4126233"
     ],
-    "expires": 1675252337
+    "expires": 1676496780
   },
   "37.2308324,-80.4180667": {
     "place_id": 17116662,
@@ -5533,7 +5533,7 @@
       "-105.1089593",
       "-105.1088593"
     ],
-    "expires": 1675252766
+    "expires": 1676546780
   },
   "39.5607592,-104.932597": {
     "place_id": 78836894,
@@ -7421,7 +7421,7 @@
       "-78.320975",
       "-78.2979836"
     ],
-    "expires": 1675251237
+    "expires": 1676443771
   },
   "39.7131887,3.4701093": {
     "place_id": 146786985,
@@ -8214,7 +8214,7 @@
       "3.0220974",
       "3.0228874"
     ],
-    "expires": 1675251833
+    "expires": 1676415972
   },
   "39.889714,4.2721599": {
     "place_id": 143379228,
@@ -26212,49 +26212,6 @@
     ],
     "expires": 1675392786
   },
-  "48.6969336,6.1809021": {
-    "place_id": 118554850,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 43900317,
-    "lat": "48.697010649999996",
-    "lon": "6.180946705830795",
-    "display_name": "Palais du Gouvernement, Place de la Carrière, Saint-Nicolas - Charles III - Ville vieille - Trois Maisons - Léopold, Nancy, Meurthe-et-Moselle, Grand Est, France métropolitaine, 54100, France",
-    "address": {
-      "historic": "Palais du Gouvernement",
-      "road": "Place de la Carrière",
-      "suburb": "Saint-Nicolas - Charles III - Ville vieille - Trois Maisons - Léopold",
-      "city": "Nancy",
-      "municipality": "Nancy",
-      "county": "Meurthe-et-Moselle",
-      "ISO3166-2-lvl6": "FR-54",
-      "state": "Grand Est",
-      "ISO3166-2-lvl4": "FR-GES",
-      "region": "France métropolitaine",
-      "postcode": "54100",
-      "country": "France",
-      "country_code": "fr"
-    },
-    "extratags": {
-      "ref:mhs": "PA00106305",
-      "website": "https://www.pop.culture.gouv.fr/notice/merimee/PA00106305",
-      "heritage": "2",
-      "wikidata": "Q13518425",
-      "wikipedia": "fr:Palais du gouvernement de Nancy",
-      "start_date": "C18",
-      "heritage:operator": "mhs",
-      "wikimedia_commons": "Category:Palais du gouvernement de Nancy",
-      "mhs:inscription_date": "1923-12-27",
-      "building:architecture": "classicism"
-    },
-    "boundingbox": [
-      "48.6968009",
-      "48.6972215",
-      "6.1804123",
-      "6.1813626"
-    ],
-    "expires": 1675252000
-  },
   "48.6969864,6.1808824": {
     "place_id": 119679785,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -29153,14 +29110,15 @@
     "expires": 1675254023
   },
   "50.0190313,8.7831269": {
-    "place_id": 16631837,
+    "place_id": 112052183,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 1841494910,
-    "lat": "50.0190313",
-    "lon": "8.7831269",
-    "display_name": "1, Europaplatz, Spessartviertel, Neue Mitte, Dietzenbach, Landkreis Offenbach, Hessen, 63128, Deutschland",
+    "osm_type": "way",
+    "osm_id": 27832687,
+    "lat": "50.0190901",
+    "lon": "8.782928588238189",
+    "display_name": "Rathaus Dietzenbach, 1, Europaplatz, Spessartviertel, Neue Mitte, Dietzenbach, Landkreis Offenbach, Hessen, 63128, Deutschland",
     "address": {
+      "amenity": "Rathaus Dietzenbach",
       "house_number": "1",
       "road": "Europaplatz",
       "quarter": "Spessartviertel",
@@ -29174,18 +29132,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "website": "https://www.dietzenbach.de/index.phtml?mNavID=1799.1628&sNavID=1799.1628&La=1",
-      "description": "Live-Bild des Europaplatzes",
-      "surveillance": "webcam",
-      "contact:webcam": "http://webcam.dietzenbach.de/bilder/image.jpg"
+      "height": "12",
+      "roof:shape": "flat",
+      "wheelchair": "yes",
+      "townhall:type": "city",
+      "building:parts": "vertical",
+      "building:colour": "#7b7b7b",
+      "building:levels": "4"
     },
     "boundingbox": [
-      "50.0189813",
-      "50.0190813",
-      "8.7830769",
-      "8.7831769"
+      "50.0187742",
+      "50.0194457",
+      "8.7824019",
+      "8.78328"
     ],
-    "expires": 1675251189
+    "expires": 1676456196
   },
   "50.0470537,7.1289076": {
     "place_id": 160790431,
@@ -29855,7 +29816,7 @@
       "7.6003766",
       "7.6010642"
     ],
-    "expires": 1675251791
+    "expires": 1676378271
   },
   "50.3557887,11.1693686": {
     "place_id": 119978116,
@@ -48299,7 +48260,7 @@
       "10.3915971",
       "10.3916971"
     ],
-    "expires": 1675251084
+    "expires": 1676542256
   },
   "63.4364915,10.391665": {
     "place_id": 49258266,
