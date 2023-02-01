@@ -20,6 +20,7 @@ function load404Index(): Record<number, { last: number, bad: boolean }> {
 }
 
 export default async function lint404() {
+    console.log('linting 404 links');
     const fourofourIndex = load404Index();
 
     const webcams = data as Webcam[];
@@ -44,10 +45,15 @@ export default async function lint404() {
     for (const webcam of urlsToCheck) {
         console.log(`linting ${webcam.url}`);
         try {
-            const { status } = await axios.get(webcam.url);
+            const { status } = await axios.get(
+                webcam.url,
+                {
+                    signal: AbortSignal.timeout(5000) // Aborts request after 5 seconds
+                }
+            );
 
             if (status >= 400) {
-                throw new Error(`this a bad link yall: ${status}`);
+                throw new Error(`this a bad link y'all: ${status}`);
             }
         } catch (error) {
             if (error instanceof AxiosError) {

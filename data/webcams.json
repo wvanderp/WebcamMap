@@ -1885,7 +1885,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=208410"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=208410"
+    "url": "http://webkamera.vegvesen.no/kamera?id=208410",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 62.732132,
@@ -6226,6 +6229,7 @@
     "osmType": "node",
     "lastChanged": 1655973964000,
     "address": {
+      "city": "Челябинск",
       "county": "Челябинский городской округ",
       "state": "Челябинская область",
       "country": "Russian Federation"
@@ -7355,10 +7359,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://player.livespotting.tv/?alias=PS_e9782&ch=LS_5834c",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://player.livespotting.tv/?alias=PS_e9782&ch=LS_5834c"
   },
   {
     "lat": 55.5557159,
@@ -8882,12 +8883,12 @@
     "url": "https://www.whatsupcams.com/en/webcams/croatia/primorje-gorski-kotar/krk/webcam-krk-vela-placa/"
   },
   {
-    "lat": 47.8668508,
-    "lon": 13.2534899,
+    "lat": 47.8678774,
+    "lon": 13.2543572,
     "osmID": 3822888000,
-    "user": "pyrog",
+    "user": "herr warto",
     "osmType": "node",
-    "lastChanged": 1640268859000,
+    "lastChanged": 1675083437000,
     "address": {
       "city": "Thalgauberg",
       "county": "Bezirk Salzburg-Umgebung",
@@ -8895,10 +8896,18 @@
       "country": "Austria"
     },
     "osmTags": {
+      "amenity": "vending_machine",
       "contact:webcam": "http://webcams-thalgau.at/webcams/wasenmoosloipe.jpg",
+      "ele": "790",
+      "information": "map",
       "man_made": "surveillance",
-      "name": "Wasenmoosloipe",
-      "surveillance": "webcam"
+      "map_size": "site",
+      "map_type": "scheme",
+      "name": "Wasenmoosloipe;Wasenmooslift;Langlaufen am Thalgauberg",
+      "nordic": "yes",
+      "surveillance": "webcam",
+      "tourism": "information",
+      "vending": "parking_tickets"
     },
     "url": "http://webcams-thalgau.at/webcams/wasenmoosloipe.jpg"
   },
@@ -12974,12 +12983,12 @@
     }
   },
   {
-    "lat": 44.0638427,
-    "lon": -123.0498747,
+    "lat": 44.0637726,
+    "lon": -123.0497846,
     "osmID": 4906582670,
-    "user": "b-jazz",
+    "user": "Adam850",
     "osmType": "node",
-    "lastChanged": 1497038784000,
+    "lastChanged": 1675145431000,
     "address": {
       "city": "Eugene",
       "county": "Lane County",
@@ -12987,9 +12996,9 @@
       "country": "United States of America"
     },
     "osmTags": {
-      "camera:direction": "160",
+      "camera:direction": "150",
       "camera:mount": "pole",
-      "camera:type": "fixed",
+      "camera:type": "dome",
       "contact:webcam": "https://www.tripcheck.com/Pages/RCMap.asp",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -13255,10 +13264,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "view"
     },
-    "url": "http://www.allgaeu-cam.de/wetter/pfronten-falkenstein-panoramawebcam.html",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://www.allgaeu-cam.de/wetter/pfronten-falkenstein-panoramawebcam.html"
   },
   {
     "lat": 50.7812727,
@@ -13290,9 +13296,9 @@
     "lat": 48.6935531,
     "lon": 6.1823907,
     "osmID": 5027065112,
-    "user": "Rom1",
+    "user": "duvb*",
     "osmType": "node",
-    "lastChanged": 1613404999000,
+    "lastChanged": 1674693024000,
     "address": {
       "city": "Nancy",
       "county": "Meurthe-et-Moselle",
@@ -13304,7 +13310,7 @@
       "camera:mount": "roof",
       "camera:type": "fixed",
       "contact:webcam": "https://pv.viewsurf.com/1744/Nancy-Place-Stanislas-MBA?i=Njc2MDp1bmRlZmluZWQ",
-      "description": "Vue depuis le Musée des Beaux-Arts",
+      "description": "Vue depuis le Musée des Beaux-Arts, étage 2, fenêtre tout à gauche depuis la facade",
       "man_made": "surveillance",
       "operator": "Ville de Nancy",
       "surveillance": "webcam",
@@ -15721,7 +15727,6 @@
     "operator": "King County Department of Transportation",
     "url": "https://kingcounty.gov/depts/transportation/roads/traffic-cams.aspx",
     "lint": {
-      "unavailable": true,
       "duplicate": true
     }
   },
@@ -15752,7 +15757,6 @@
     "operator": "King County Department of Transportation",
     "url": "https://kingcounty.gov/depts/transportation/roads/traffic-cams.aspx",
     "lint": {
-      "unavailable": true,
       "duplicate": true
     }
   },
@@ -16067,12 +16071,12 @@
     "url": "http://cam.vocschip-amsterdam.org/"
   },
   {
-    "lat": 50.8385956,
-    "lon": 0.4810823,
+    "lat": 50.8386187,
+    "lon": 0.4810441,
     "osmID": 6139754935,
     "user": "Bexhill-OSM",
     "osmType": "node",
-    "lastChanged": 1624061720000,
+    "lastChanged": 1675114286000,
     "address": {
       "city": "Rother",
       "county": "East Sussex",
@@ -17098,6 +17102,7 @@
     "osmType": "node",
     "lastChanged": 1560672325000,
     "address": {
+      "city": "Scheid",
       "county": "Landkreis Waldeck-Frankenberg",
       "state": "Hessen",
       "country": "Germany"
@@ -17677,7 +17682,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=c_aS_hcZIkA"
+    "url": "https://www.youtube.com/watch?v=c_aS_hcZIkA",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.9508972,
@@ -17795,7 +17803,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -17823,7 +17832,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -18717,7 +18727,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Mirkovice",
+      "city": "Přísečná",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -19744,7 +19754,7 @@
     "osmID": 7825397273,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1652811184000,
+    "lastChanged": 1674831731000,
     "address": {
       "city": "Arc 2000",
       "county": "Savoie",
@@ -19754,18 +19764,16 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=Wzdm6sWvl-Q",
+      "contact:webcam": "https://www.youtube.com/watch?v=XzixW-oq0M8",
       "man_made": "surveillance",
       "name": "Les Arcs - Livecam Arc 2000",
       "operator": "Les Arcs",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "piste"
     },
     "operator": "Les Arcs",
-    "url": "https://www.youtube.com/watch?v=Wzdm6sWvl-Q",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=XzixW-oq0M8"
   },
   {
     "lat": -34.9227553,
@@ -21065,10 +21073,7 @@
       "surveillance:type": "camera"
     },
     "operator": "Hook Lighthouse",
-    "url": "http://89.106.143.18:121/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://89.106.143.18:121/"
   },
   {
     "lat": 52.1238073,
@@ -21191,12 +21196,12 @@
     "url": "http://media.streampartner.nl/player.php?url=c5yvsyr1x3lt05294w95"
   },
   {
-    "lat": 48.6969336,
-    "lon": 6.1809021,
+    "lat": 48.6969864,
+    "lon": 6.1808824,
     "osmID": 8422272019,
-    "user": "cyel",
+    "user": "duvb*",
     "osmType": "node",
-    "lastChanged": 1619630240000,
+    "lastChanged": 1674695375000,
     "address": {
       "city": "Nancy",
       "county": "Meurthe-et-Moselle",
@@ -21204,7 +21209,7 @@
       "country": "France"
     },
     "osmTags": {
-      "camera:direction": "150",
+      "camera:direction": "160",
       "camera:mount": "wall",
       "camera:type": "dome",
       "contact:webcam": "https://pv.viewsurf.com/1746/Nancy-Palais-du-gouvernement?i=Njc2Mjp1bmRlZmluZWQ",
@@ -21436,7 +21441,7 @@
     "osmType": "node",
     "lastChanged": 1613566897000,
     "address": {
-      "city": "Antofagasta",
+      "city": "Taltal",
       "county": "Provincia de Antofagasta",
       "state": "Región de Antofagasta",
       "country": "Chile"
@@ -23494,7 +23499,7 @@
     "osmID": 8707243697,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1649246465000,
+    "lastChanged": 1674831414000,
     "address": {
       "county": "Hillsborough County",
       "state": "Florida",
@@ -23504,17 +23509,14 @@
       "camera:direction": "30",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=OHVJNyp1Yvc",
+      "contact:webcam": "https://www.youtube.com/watch?v=w9eXJYS2yhk",
       "man_made": "surveillance",
       "name": "Virtual Railfan Camera - Plant City, FL",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=OHVJNyp1Yvc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=w9eXJYS2yhk"
   },
   {
     "lat": 47.3136846,
@@ -24140,7 +24142,7 @@
     "osmID": 8830412214,
     "user": "bielebog",
     "osmType": "node",
-    "lastChanged": 1623791623000,
+    "lastChanged": 1675032873000,
     "address": {
       "city": "Paderborn",
       "county": "Kreis Paderborn",
@@ -24154,9 +24156,9 @@
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "website": "http://bremerbau.nacura.de/Paderborn/A18110_HBF_Paderborn.jpg"
+      "website": "https://www.webcam-profi.de/bilder/bremer/paderborn/hauptbahnhof/cam1/image.jpg"
     },
-    "url": "http://bremerbau.nacura.de/Paderborn/A18110_HBF_Paderborn.jpg"
+    "url": "https://www.webcam-profi.de/bilder/bremer/paderborn/hauptbahnhof/cam1/image.jpg"
   },
   {
     "lat": 52.0178473,
@@ -26402,7 +26404,7 @@
     "osmID": 8944783342,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1655974478000,
+    "lastChanged": 1675249626000,
     "address": {
       "city": "Saint-Trojan-les-Bains",
       "county": "Charente-Maritime",
@@ -26412,7 +26414,8 @@
     "osmTags": {
       "camera:mount": "roof",
       "camera:type": "dome",
-      "contact:webcam": "https://youtu.be/8mUz_HLA_Fs",
+      "contact:webcam": "https://www.youtube.com/watch?v=kqkYDTcizHE",
+      "description": "Pour vous ressourcer, rendez-vous au Novotel Thalassa Île d'Oléron. Son cadre exceptionnel sur la plage et ses chambres vue mer ou côté forêt accueillent vos vacances en famille ou vos week-ends thalasso en amoureux. Appréciez les soins d'eau de mer, de b",
       "man_made": "surveillance",
       "name": "Webcam Novotel Saint-Trojan",
       "operator": "Hôtel Novotel Thalassa Oléron Saint-Trojan",
@@ -26421,10 +26424,7 @@
       "surveillance:zone": "area"
     },
     "operator": "Hôtel Novotel Thalassa Oléron Saint-Trojan",
-    "url": "https://youtu.be/8mUz_HLA_Fs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=kqkYDTcizHE"
   },
   {
     "lat": 45.9142238,
@@ -26481,9 +26481,9 @@
     "lat": 46.0354208,
     "lon": -1.3713553,
     "osmID": 8944783353,
-    "user": "Kalepom",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1627066803000,
+    "lastChanged": 1674831092000,
     "address": {
       "city": "Saint-Denis-d'Oléron",
       "county": "Charente-Maritime",
@@ -26491,18 +26491,17 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "180",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://youtu.be/8VOZJhA-T1g",
+      "contact:webcam": "https://www.youtube.com/watch?v=6CBAIEinSN4",
       "man_made": "surveillance",
+      "name": "Webcam Oléron - Saint-Denis YCO",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://youtu.be/8VOZJhA-T1g",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=6CBAIEinSN4"
   },
   {
     "lat": 46.0056329,
@@ -27833,7 +27832,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=97000de4013600bc005dd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=97000de4013600bc005dd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.7122117,
@@ -28927,7 +28929,7 @@
     "osmID": 9207503693,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1649963759000,
+    "lastChanged": 1674831482000,
     "address": {
       "city": "Sittard",
       "state": "Limburg",
@@ -28937,45 +28939,14 @@
       "camera:direction": "120",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=9sLTmx25O5Y",
+      "contact:webcam": "https://www.youtube.com/watch?v=Plk-nJUOOgM",
       "man_made": "surveillance",
       "name": "Webcam Sittard Markt",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "church"
     },
-    "url": "https://www.youtube.com/watch?v=9sLTmx25O5Y",
-    "lint": {
-      "youtube": true
-    }
-  },
-  {
-    "lat": 50.99869,
-    "lon": 5.8681831,
-    "osmID": 9207527924,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1652736605000,
-    "address": {
-      "city": "Sittard",
-      "state": "Limburg",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:direction": "164",
-      "camera:mount": "wall",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=ynlsfTkcYos",
-      "man_made": "surveillance",
-      "name": "Petrus Kerk Sittard",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "church"
-    },
-    "url": "https://www.youtube.com/watch?v=ynlsfTkcYos",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Plk-nJUOOgM"
   },
   {
     "lat": 28.9604311,
@@ -28999,7 +28970,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=doqBgKIBBh8"
+    "url": "https://www.youtube.com/watch?v=doqBgKIBBh8",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.4982121,
@@ -29081,7 +29055,7 @@
     "osmID": 9240151580,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1655908860000,
+    "lastChanged": 1675249683000,
     "address": {
       "city": "Njivice",
       "county": "Primorsko-goranska županija",
@@ -29090,17 +29064,14 @@
     "osmTags": {
       "camera:direction": "190",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=LH1kS5Q6hsk",
+      "contact:webcam": "https://www.youtube.com/watch?v=5XQmyEcsPzQ",
       "man_made": "surveillance",
       "name": "Njivice Live - Stari Ribar",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=LH1kS5Q6hsk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=5XQmyEcsPzQ"
   },
   {
     "lat": 46.7797809,
@@ -31609,7 +31580,7 @@
     "osmID": 9516474119,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1645188733000,
+    "lastChanged": 1674831284000,
     "address": {
       "state": "Zuid-Holland",
       "country": "Netherlands"
@@ -31617,16 +31588,14 @@
     "osmTags": {
       "camera:direction": "330",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=2soIUIe-0Wk",
+      "contact:webcam": "https://www.youtube.com/watch?v=_KVWehizoNU",
       "man_made": "surveillance",
       "name": "Amazonehaven oost",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
-    "url": "https://www.youtube.com/watch?v=2soIUIe-0Wk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=_KVWehizoNU"
   },
   {
     "lat": 48.5144277,
@@ -34064,34 +34033,6 @@
     "url": "https://ceresolereale-glaciomuseo.panomax.com/"
   },
   {
-    "lat": 53.2003837,
-    "lon": 6.55452,
-    "osmID": 9899732688,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1658322406000,
-    "address": {
-      "city": "Groningen",
-      "state": "Groningen",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:direction": "285",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=McK9GOCSfi4",
-      "man_made": "surveillance",
-      "name": "Vrijheidsplein Groningen - aanpakringzuid.nl",
-      "source": "https://www.aanpakringzuid.nl/actueel/webcams/",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "construction"
-    },
-    "url": "https://www.youtube.com/watch?v=McK9GOCSfi4",
-    "lint": {
-      "youtube": true
-    }
-  },
-  {
     "lat": 53.2263496,
     "lon": 6.5330264,
     "osmID": 9899782260,
@@ -34139,7 +34080,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=X-BGNeHLX58"
+    "url": "https://www.youtube.com/watch?v=X-BGNeHLX58",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 53.200354,
@@ -34147,7 +34091,7 @@
     "osmID": 9899792411,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1658322406000,
+    "lastChanged": 1674831794000,
     "address": {
       "city": "Groningen",
       "state": "Groningen",
@@ -34156,7 +34100,7 @@
     "osmTags": {
       "camera:direction": "270",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=Ep1cq9mCJP4",
+      "contact:webcam": "https://www.youtube.com/watch?v=X-BGNeHLX58",
       "man_made": "surveillance",
       "name": "GroningenBereikbaar - N7 Vrijheidsplein",
       "source": "https://www.groningenbereikbaar.nl/webcams",
@@ -34164,9 +34108,9 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=Ep1cq9mCJP4",
+    "url": "https://www.youtube.com/watch?v=X-BGNeHLX58",
     "lint": {
-      "youtube": true
+      "duplicate": true
     }
   },
   {
@@ -34193,34 +34137,6 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.youtube.com/watch?v=RTC1Dd1pXdE"
-  },
-  {
-    "lat": 53.1929232,
-    "lon": 6.559587,
-    "osmID": 9899795006,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1658321644000,
-    "address": {
-      "city": "Groningen",
-      "state": "Groningen",
-      "country": "Netherlands"
-    },
-    "osmTags": {
-      "camera:direction": "80",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=np1Me6uuz4U",
-      "man_made": "surveillance",
-      "name": "Laan Corpus den Hoorn - Groningen - cam 2",
-      "source": "https://www.groningenbereikbaar.nl/webcams",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://www.youtube.com/watch?v=np1Me6uuz4U",
-    "lint": {
-      "youtube": true
-    }
   },
   {
     "lat": 53.2041822,
@@ -35862,7 +35778,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://images.wsdot.wa.gov/nw/405vc00537.jpg"
+    "url": "https://images.wsdot.wa.gov/nw/405vc00537.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.7015054,
@@ -36635,5 +36554,125 @@
       "website": "https://berggasthofkoenigstuhl.roundshot.com"
     },
     "url": "https://berggasthofkoenigstuhl.roundshot.com"
+  },
+  {
+    "lat": 46.4343172,
+    "lon": 6.939162,
+    "osmID": 10589669571,
+    "user": "imagoiq",
+    "osmType": "node",
+    "lastChanged": 1674935095000,
+    "address": {
+      "city": "Montreux",
+      "county": "District de la Riviera-Pays-d’Enhaut",
+      "state": "Vaud",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "contact:webcam": "https://briod.com/image_caux.jpg",
+      "direction": "145",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://briod.com/image_caux.jpg"
+  },
+  {
+    "lat": 54.2234279,
+    "lon": -1.4050535,
+    "osmID": 10596511679,
+    "user": "Locator",
+    "osmType": "node",
+    "lastChanged": 1675178512000,
+    "address": {
+      "city": "Hambleton",
+      "county": "North Yorkshire",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/3880?1675178402020",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/3880?1675178402020"
+  },
+  {
+    "lat": 54.2359288,
+    "lon": -1.2103382,
+    "osmID": 10596519737,
+    "user": "Locator",
+    "osmType": "node",
+    "lastChanged": 1675178267000,
+    "address": {
+      "city": "Hambleton",
+      "county": "North Yorkshire",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.northyorks.gov.uk/road-cameras-and-weather-conditions?utm_campaign=2486331_Copy%20of%20NY%20Now%20January%202023&utm_medium=email&utm_source=North%20Yorks%20County%20Council&dm_i=4BPJ,1HAGR,3JXQZ6,6UWIW,1",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.northyorks.gov.uk/road-cameras-and-weather-conditions?utm_campaign=2486331_Copy%20of%20NY%20Now%20January%202023&utm_medium=email&utm_source=North%20Yorks%20County%20Council&dm_i=4BPJ,1HAGR,3JXQZ6,6UWIW,1"
+  },
+  {
+    "lat": 54.3307402,
+    "lon": -0.6904481,
+    "osmID": 10596626949,
+    "user": "Locator",
+    "osmType": "node",
+    "lastChanged": 1675181343000,
+    "address": {
+      "city": "Ryedale",
+      "county": "North Yorkshire",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "195",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/12919?1675178942308",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/12919?1675178942308"
+  },
+  {
+    "lat": 54.1544652,
+    "lon": -0.2685181,
+    "osmID": 10596646343,
+    "user": "Locator",
+    "osmType": "node",
+    "lastChanged": 1675181678000,
+    "address": {
+      "city": "Scarborough",
+      "county": "North Yorkshire",
+      "state": "England",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "310",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/5887?1675181425158",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/5887?1675181425158"
   }
 ]

@@ -38,9 +38,9 @@ function ListComponents({tree, level = 0}: ListComponentsProps) {
                 Object.entries(tree).map(([key, value]) => (
                     <span key={key}>
                         {
-                            key !== 'unknown'
-                                ? <li><Link to={`/${levelLookup[level]}/${encodeUrl(key)}`} replace>{key}</Link></li>
-                                : <li>{key}</li>
+                            key === 'unknown'
+                                ? <li>{key}</li>
+                                : <li><Link to={`/${levelLookup[level]}/${encodeUrl(key)}`} replace>{key}</Link></li>
                         }
                         <ul>
                             <ListComponents tree={value} level={level + 1}/>
