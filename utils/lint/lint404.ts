@@ -1,3 +1,4 @@
+/* eslint-disable unicorn/no-array-reduce */
 /* eslint-disable no-console */
 /* eslint-disable no-restricted-syntax */
 import fs from 'fs';
@@ -11,7 +12,7 @@ const maxInterval = 30 * 24 * 60 * 60 * 1000; // 30 days in milliseconds
 const bad404indexPath = path.join(__dirname, '../../data', './404Index.json');
 
 // load the 404 index file
-function load404Index(): Record<number, number> {
+function load404Index(): Record<number, { last: number, bad: boolean }> {
     if (fs.existsSync(bad404indexPath)) {
         return JSON.parse(fs.readFileSync(bad404indexPath).toString());
     }
@@ -25,13 +26,18 @@ export default async function lint404() {
 
     // only check urls that need checking
     const filteredWebcams = webcams.filter((w) => {
-        const expiryDate = fourofourIndex[w.osmID] || 0;
+        const expiryDate = fourofourIndex[w.osmID]?.last ?? 0;
         const already404 = !webcams.some((o) => !o.lint?.unavailable && o.osmID === w.osmID);
 
         return expiryDate < Date.now() || already404;
     });
 
-    const old404Links = webcams.filter((w) => w.lint?.unavailable);
+    const old404Links = Object.entries(fourofourIndex).filter((w) => w[1].bad)
+        .reduce(
+            (accumulator, w) => [...accumulator, webcams.find((o) => o.osmID === Number(w[0]))],
+            [] as (Webcam | undefined)[]
+        )
+        .filter((w): w is Webcam => !!w);
 
     const urlsToCheck = [...getRandom(filteredWebcams, 10), ...old404Links];
 
@@ -56,7 +62,10 @@ export default async function lint404() {
             };
         }
 
-        fourofourIndex[webcam.osmID] = Date.now() + maxInterval;
+        fourofourIndex[webcam.osmID] = {
+            last: Date.now() + maxInterval,
+            bad: webcam.lint?.unavailable ?? false
+        };
     }
 
     fs.writeFileSync(bad404indexPath, JSON.stringify(fourofourIndex, null, 4));

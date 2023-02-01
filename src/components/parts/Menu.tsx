@@ -43,7 +43,7 @@ function Menu() {
                                         OpenStreetMap
                                     </a>
                                     {', '}
-                                    <a href={'https://github.com/github-actions[bot]/WebcamMap/issues/new'}>
+                                    <a href={'https://github.com/wvanderp/WebcamMap/issues/new'}>
                                         the project&apos;s Github Page
                                     </a>
                                     {', '}
