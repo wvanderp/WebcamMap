@@ -2789,7 +2789,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100109"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100109"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100109",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 63.622289,
@@ -6210,6 +6213,7 @@
     "osmType": "node",
     "lastChanged": 1628415268000,
     "address": {
+      "city": "Челябинск",
       "county": "Челябинский городской округ",
       "state": "Челябинская область",
       "country": "Russian Federation"
@@ -17782,7 +17786,8 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Stuttgart",
+      "city": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -36681,5 +36686,31 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.northyorks.gov.uk/nycc_weather_cameras/cameras/5887?1675181425158"
+  },
+  {
+    "lat": 38.9140198,
+    "lon": 21.794692,
+    "osmID": 10601723651,
+    "user": "evrytaniaweather",
+    "osmType": "node",
+    "lastChanged": 1675356781000,
+    "address": {
+      "city": "Καρπενήσι",
+      "county": "Περιφερειακή Ενότητα Ευρυτανίας",
+      "state": "Αποκεντρωμένη Διοίκηση Θεσσαλίας - Στερεάς Ελλάδος",
+      "country": "Greece"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "contact:webcam": "https://evrytaniaweather.com/karpenisi-965m",
+      "image": "https://worldcam.live/img/webcams/540/karpenisi2.jpg",
+      "man_made": "surveillance",
+      "name": "evrytaniaweather",
+      "source": "https://evrytaniaweather.com/karpenisi-965m",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://evrytaniaweather.com/karpenisi-965m"
   }
 ]
