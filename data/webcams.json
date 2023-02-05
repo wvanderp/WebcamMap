@@ -19018,7 +19018,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "http://verkehr.rlp.de/syncdata/cam/1410/thumb_640x480.jpg?"
+    "url": "http://verkehr.rlp.de/syncdata/cam/1410/thumb_640x480.jpg?",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.5015154,
@@ -20310,6 +20313,7 @@
     },
     "url": "www.asfinag.at",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
