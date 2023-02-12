@@ -3427,7 +3427,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=110597"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110597"
+    "url": "http://webkamera.vegvesen.no/kamera?id=110597",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 66.0529557,
@@ -13023,6 +13026,7 @@
     "operator": "Selwyn Snow Resort",
     "url": "http://www.selwynsnow.com.au/livecams",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -36764,5 +36768,29 @@
       "surveillance:zone": "area"
     },
     "url": "https://evrytaniaweather.com/karpenisi-965m"
+  },
+  {
+    "lat": 33.2876619,
+    "lon": -111.7557391,
+    "osmID": 10650765442,
+    "user": "Matthew_Hanson",
+    "osmType": "node",
+    "lastChanged": 1676163819000,
+    "address": {
+      "city": "Gilbert",
+      "county": "Maricopa County",
+      "state": "Arizona",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.az511.gov/map/Cctv/465--14",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.az511.gov/map/Cctv/465--14"
   }
 ]
