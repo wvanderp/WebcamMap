@@ -12659,9 +12659,9 @@
     "lat": 48.70736,
     "lon": 2.3888691,
     "osmID": 4697498914,
-    "user": "elfronto",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1578412019000,
+    "lastChanged": 1676548051000,
     "address": {
       "city": "Athis-Mons",
       "county": "Essonne",
@@ -12672,16 +12672,13 @@
       "camera:direction": "338",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "www.mairie-athis-mons.fr/webcam/",
+      "contact:webcam": "http://www.mairie-athis-mons.fr/?p=webcam/",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "www.mairie-athis-mons.fr/webcam/",
-    "lint": {
-      "invalidUrl": true
-    }
+    "url": "http://www.mairie-athis-mons.fr/?p=webcam/"
   },
   {
     "lat": 47.5153923,
@@ -17191,7 +17188,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.traffictt.com/camera/traffic-camera/west/cocorite/cocorite-traffic-camera/"
+    "url": "https://www.traffictt.com/camera/traffic-camera/west/cocorite/cocorite-traffic-camera/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.6899479,
@@ -19234,7 +19234,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "ОСН \"КОМІТЕТ М-НУ \"БЕРЕЗНЯКИ-ТЕЛЬБІН\"",
-    "url": "https://www.ocam.kiev.ua/cam/view/50"
+    "url": "https://www.ocam.kiev.ua/cam/view/50",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.4223351,
@@ -23600,7 +23603,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://mdw.ag/camglungezer/thaureralm.jpg"
+    "url": "https://mdw.ag/camglungezer/thaureralm.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.5133218,
@@ -24161,6 +24167,7 @@
     },
     "url": "https://nvroads.com/icx/pages/cameras.aspx",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
