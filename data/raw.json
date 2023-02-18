@@ -323,22 +323,6 @@
   },
   {
     "type": "node",
-    "id": 725412899,
-    "lat": 52.5190461,
-    "lon": 13.3897665,
-    "timestamp": "2022-07-14T17:51:07Z",
-    "version": 5,
-    "changeset": 123619805,
-    "user": "ChrissW-R1",
-    "uid": 251543,
-    "tags": {
-      "contact:webcam": "http://www.ipb.de/webcam/cam2/cam2.jpg",
-      "contact:website": "https://www.ipb.de",
-      "surveillance": "webcam"
-    }
-  },
-  {
-    "type": "node",
     "id": 726896906,
     "lat": 52.5245038,
     "lon": 13.4121096,
@@ -6266,18 +6250,22 @@
   {
     "type": "node",
     "id": 2719368315,
-    "lat": 54.1292552,
-    "lon": 8.8698199,
-    "timestamp": "2018-01-11T12:11:52Z",
-    "version": 3,
-    "changeset": 55350370,
-    "user": "Fischkopp0815",
-    "uid": 437941,
+    "lat": 54.1292051,
+    "lon": 8.8698737,
+    "timestamp": "2023-02-17T09:13:21Z",
+    "version": 4,
+    "changeset": 132665293,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
-      "description": "Webcam Wohnmobilstellplatz",
+      "camera:direction": "55",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.wohnmobiluebernachtungsplatz.de/webcam.html",
       "man_made": "surveillance",
+      "name": "Life-WebCam Wohnmobilplatz Büsum am Hafen",
       "surveillance": "webcam",
-      "website": "http://wmvbuesum.axiscam.net:82/view/viewer_index.shtml?id=51683"
+      "surveillance:type": "camera",
+      "surveillance:zone": "trailer_park"
     }
   },
   {
@@ -15355,21 +15343,25 @@
   {
     "type": "node",
     "id": 6918685920,
-    "lat": 47.6759668,
-    "lon": 9.507407,
-    "timestamp": "2019-10-26T16:55:48Z",
-    "version": 1,
-    "changeset": 76247994,
-    "user": "rene78",
-    "uid": 257555,
+    "lat": 47.6747514,
+    "lon": 9.5078898,
+    "timestamp": "2023-02-17T09:07:02Z",
+    "version": 2,
+    "changeset": 132665097,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
       "camera:direction": "150",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.wetter.com/hd-live-webcams/deutschland/friedrichshafen-am-bodensee-flughafen/5ad47c3538f788107b730c32/",
+      "contact:webcam": "https://webcam.zeppelin-nt.de/#view",
+      "description": "Sehen Sie Zeppelin beim Start und der Landung am Zeppelin Hangar am Bodensee live über unsere Webcam. Erleben Sie das Geschehen hautnah und persönlich. Sie können sogar die Webcam interaktiv steuern und somit ein einzigartiges Seherlebnis genießen.",
+      "description:en": "Watch Zeppelin take off and land at the Zeppelin Hangar on Lake Constance with our Live View webcam. Experience the action up close and personal. You can even control the webcam interactively for a unique viewing experience.",
       "man_made": "surveillance",
+      "name": "Webcam Zeppelin-Hangar",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "airport"
     }
   },
   {
@@ -32125,6 +32117,48 @@
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10674911318,
+    "lat": 47.1911145,
+    "lon": 18.4098773,
+    "timestamp": "2023-02-17T23:02:08Z",
+    "version": 1,
+    "changeset": 132697659,
+    "user": "ociboerkll",
+    "uid": 16327141,
+    "tags": {
+      "camera:direction": "0",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.szekesfehervar.hu/webkamera",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10674911319,
+    "lat": 47.1911864,
+    "lon": 18.4088855,
+    "timestamp": "2023-02-17T23:02:08Z",
+    "version": 1,
+    "changeset": 132697659,
+    "user": "ociboerkll",
+    "uid": 16327141,
+    "tags": {
+      "camera:direction": "180",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.szekesfehervar.hu/webkamera",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     }
   },
   {

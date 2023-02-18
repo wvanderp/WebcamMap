@@ -312,27 +312,6 @@
     "url": "http://www.johthal.de"
   },
   {
-    "lat": 52.5190461,
-    "lon": 13.3897665,
-    "osmID": 725412899,
-    "user": "ChrissW-R1",
-    "osmType": "node",
-    "lastChanged": 1657821067000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.ipb.de/webcam/cam2/cam2.jpg",
-      "contact:website": "https://www.ipb.de",
-      "surveillance": "webcam"
-    },
-    "url": "http://www.ipb.de/webcam/cam2/cam2.jpg",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
     "lat": 52.5245038,
     "lon": 13.4121096,
     "osmID": 726896906,
@@ -2725,7 +2704,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100088"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100088"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100088",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.368051,
@@ -3884,7 +3866,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=199416"
+    "url": "http://webkamera.vegvesen.no/kamera?id=199416",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 63.1383909,
@@ -7174,12 +7159,12 @@
     "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1200_13912_difsn_vifsn_hm-reinertshf-t_0.jpg"
   },
   {
-    "lat": 54.1292552,
-    "lon": 8.8698199,
+    "lat": 54.1292051,
+    "lon": 8.8698737,
     "osmID": 2719368315,
-    "user": "Fischkopp0815",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1515672712000,
+    "lastChanged": 1676625201000,
     "address": {
       "city": "Büsum",
       "county": "Dithmarschen",
@@ -7187,15 +7172,16 @@
       "country": "Germany"
     },
     "osmTags": {
-      "description": "Webcam Wohnmobilstellplatz",
+      "camera:direction": "55",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.wohnmobiluebernachtungsplatz.de/webcam.html",
       "man_made": "surveillance",
+      "name": "Life-WebCam Wohnmobilplatz Büsum am Hafen",
       "surveillance": "webcam",
-      "website": "http://wmvbuesum.axiscam.net:82/view/viewer_index.shtml?id=51683"
+      "surveillance:type": "camera",
+      "surveillance:zone": "trailer_park"
     },
-    "url": "http://wmvbuesum.axiscam.net:82/view/viewer_index.shtml?id=51683",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.wohnmobiluebernachtungsplatz.de/webcam.html"
   },
   {
     "lat": 49.3211222,
@@ -9128,7 +9114,7 @@
     "osmType": "node",
     "lastChanged": 1615382787000,
     "address": {
-      "city": "Thalgauberg",
+      "city": "Thalgau",
       "county": "Bezirk Salzburg-Umgebung",
       "state": "Salzburg",
       "country": "Austria"
@@ -9189,7 +9175,10 @@
       "surveillance:type": "camera",
       "website": "http://irpfel.org/webcam/"
     },
-    "url": "http://irpfel.org/webcam/"
+    "url": "http://irpfel.org/webcam/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.6245634,
@@ -17540,12 +17529,12 @@
     "url": "https://eapps.ncdot.gov/services/traffic-prod/v1/cameras/images?filename=I26_mm64_5.jpg"
   },
   {
-    "lat": 47.6759668,
-    "lon": 9.507407,
+    "lat": 47.6747514,
+    "lon": 9.5078898,
     "osmID": 6918685920,
-    "user": "rene78",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1572108948000,
+    "lastChanged": 1676624822000,
     "address": {
       "city": "Friedrichshafen",
       "county": "Bodenseekreis",
@@ -17556,15 +17545,16 @@
       "camera:direction": "150",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.wetter.com/hd-live-webcams/deutschland/friedrichshafen-am-bodensee-flughafen/5ad47c3538f788107b730c32/",
+      "contact:webcam": "https://webcam.zeppelin-nt.de/#view",
+      "description": "Sehen Sie Zeppelin beim Start und der Landung am Zeppelin Hangar am Bodensee live über unsere Webcam. Erleben Sie das Geschehen hautnah und persönlich. Sie können sogar die Webcam interaktiv steuern und somit ein einzigartiges Seherlebnis genießen.",
+      "description:en": "Watch Zeppelin take off and land at the Zeppelin Hangar on Lake Constance with our Live View webcam. Experience the action up close and personal. You can even control the webcam interactively for a unique viewing experience.",
       "man_made": "surveillance",
+      "name": "Webcam Zeppelin-Hangar",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "airport"
     },
-    "url": "https://www.wetter.com/hd-live-webcams/deutschland/friedrichshafen-am-bodensee-flughafen/5ad47c3538f788107b730c32/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://webcam.zeppelin-nt.de/#view"
   },
   {
     "lat": 37.9757032,
@@ -17831,8 +17821,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "city": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -36811,5 +36800,59 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.az511.gov/map/Cctv/465--14"
+  },
+  {
+    "lat": 47.1911145,
+    "lon": 18.4098773,
+    "osmID": 10674911318,
+    "user": "ociboerkll",
+    "osmType": "node",
+    "lastChanged": 1676674928000,
+    "address": {
+      "city": "Székesfehérvár",
+      "county": "Fejér vármegye",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.szekesfehervar.hu/webkamera",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.szekesfehervar.hu/webkamera",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 47.1911864,
+    "lon": 18.4088855,
+    "osmID": 10674911319,
+    "user": "ociboerkll",
+    "osmType": "node",
+    "lastChanged": 1676674928000,
+    "address": {
+      "city": "Székesfehérvár",
+      "county": "Fejér vármegye",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.szekesfehervar.hu/webkamera",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.szekesfehervar.hu/webkamera",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
