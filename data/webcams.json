@@ -921,7 +921,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=161086"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=161086"
+    "url": "http://webkamera.vegvesen.no/kamera?id=161086",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.7995221,
@@ -6312,9 +6315,9 @@
     "lat": 49.0379319,
     "lon": 8.7002054,
     "osmID": 2121191884,
-    "user": "wvdp",
+    "user": "AntiCedros",
     "osmType": "node",
-    "lastChanged": 1635281673000,
+    "lastChanged": 1676742818000,
     "address": {
       "city": "Bretten",
       "county": "Landkreis Karlsruhe",
@@ -6326,7 +6329,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://www.brettenwebcam.de/",
       "man_made": "surveillance",
-      "name": "webcan bretten",
+      "name": "webcam bretten",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -9175,10 +9178,7 @@
       "surveillance:type": "camera",
       "website": "http://irpfel.org/webcam/"
     },
-    "url": "http://irpfel.org/webcam/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://irpfel.org/webcam/"
   },
   {
     "lat": 48.6245634,
@@ -17177,10 +17177,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.traffictt.com/camera/traffic-camera/west/cocorite/cocorite-traffic-camera/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.traffictt.com/camera/traffic-camera/west/cocorite/cocorite-traffic-camera/"
   },
   {
     "lat": 47.6899479,
@@ -23255,7 +23252,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Sankt Englmar",
+      "city": "Klinglbach",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -36854,5 +36851,149 @@
     "lint": {
       "duplicate": true
     }
+  },
+  {
+    "lat": 47.9479372,
+    "lon": 1.9067319,
+    "osmID": 10675740238,
+    "user": "Eric Bie",
+    "osmType": "node",
+    "lastChanged": 1676708872000,
+    "address": {
+      "city": "Saran",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saran-de",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saran-de"
+  },
+  {
+    "lat": 47.8979735,
+    "lon": 2.0393666,
+    "osmID": 10675777187,
+    "user": "Eric Bie",
+    "osmType": "node",
+    "lastChanged": 1676711241000,
+    "address": {
+      "city": "Chécy",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=checy-de",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=checy-de"
+  },
+  {
+    "lat": 47.9121962,
+    "lon": 1.9434549,
+    "osmID": 10675781717,
+    "user": "Eric Bie",
+    "osmType": "node",
+    "lastChanged": 1676709982000,
+    "address": {
+      "city": "Saint-Jean-de-Braye",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saint-jean-de-braye-de",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saint-jean-de-braye-de"
+  },
+  {
+    "lat": 47.8974778,
+    "lon": 2.039763,
+    "osmID": 10675804192,
+    "user": "Eric Bie",
+    "osmType": "node",
+    "lastChanged": 1676711087000,
+    "address": {
+      "city": "Chécy",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=checy-ve",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=checy-ve"
+  },
+  {
+    "lat": 47.8835422,
+    "lon": 1.8622846,
+    "osmID": 10675875461,
+    "user": "Eric Bie",
+    "osmType": "node",
+    "lastChanged": 1676713549000,
+    "address": {
+      "city": "Saint-Pryvé-Saint-Mesmin",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saint-pryve-ve",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saint-pryve-ve"
+  },
+  {
+    "lat": 47.9114561,
+    "lon": 1.8218044,
+    "osmID": 10675882012,
+    "user": "Eric Bie",
+    "osmType": "node",
+    "lastChanged": 1676714331000,
+    "address": {
+      "city": "Ingré",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=ingre-de",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=ingre-de"
   }
 ]
