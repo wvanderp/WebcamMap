@@ -12956,9 +12956,9 @@
     "lat": -35.9081251,
     "lon": 148.4507994,
     "osmID": 4881110977,
-    "user": "supaluminal",
+    "user": "Alex Shearing",
     "osmType": "node",
-    "lastChanged": 1495949967000,
+    "lastChanged": 1676793764000,
     "address": {
       "state": "New South Wales",
       "country": "Australia"
@@ -12966,9 +12966,11 @@
     "osmTags": {
       "camera:direction": "90",
       "contact:webcam": "http://www.selwynsnow.com.au/livecams",
+      "man_made": "surveillance",
       "name": "Township Base Webcam",
       "operator": "Selwyn Snow Resort",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "operator": "Selwyn Snow Resort",
     "url": "http://www.selwynsnow.com.au/livecams",
@@ -12980,19 +12982,23 @@
     "lat": -35.9060452,
     "lon": 148.4498761,
     "osmID": 4881110978,
-    "user": "supaluminal",
+    "user": "Alex Shearing",
     "osmType": "node",
-    "lastChanged": 1495949967000,
+    "lastChanged": 1676793764000,
     "address": {
       "state": "New South Wales",
       "country": "Australia"
     },
     "osmTags": {
       "camera:direction": "170",
+      "camera:type": "fixed",
       "contact:webcam": "http://www.selwynsnow.com.au/livecams",
+      "man_made": "surveillance",
       "name": "New Chum Webcam",
       "operator": "Selwyn Snow Resort",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "snow"
     },
     "operator": "Selwyn Snow Resort",
     "url": "http://www.selwynsnow.com.au/livecams",
@@ -13004,9 +13010,9 @@
     "lat": -35.9059333,
     "lon": 148.4552459,
     "osmID": 4881110979,
-    "user": "supaluminal",
+    "user": "Alex Shearing",
     "osmType": "node",
-    "lastChanged": 1495949968000,
+    "lastChanged": 1676793764000,
     "address": {
       "state": "New South Wales",
       "country": "Australia"
@@ -13014,9 +13020,11 @@
     "osmTags": {
       "camera:direction": "325",
       "contact:webcam": "http://www.selwynsnow.com.au/livecams",
+      "man_made": "surveillance",
       "name": "Township Summit Webcam",
       "operator": "Selwyn Snow Resort",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "operator": "Selwyn Snow Resort",
     "url": "http://www.selwynsnow.com.au/livecams",
@@ -23960,7 +23968,7 @@
     "lastChanged": 1622400989000,
     "address": {
       "city": "City of Rochester",
-      "county": "Monroe",
+      "county": "Monroe County",
       "state": "New York",
       "country": "United States of America"
     },
@@ -26601,7 +26609,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2"
+    "url": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.481471,
@@ -31698,9 +31709,9 @@
     "lat": 50.4239913,
     "lon": 30.4989271,
     "osmID": 9521334145,
-    "user": "wvdp",
+    "user": "avinet_ua",
     "osmType": "node",
-    "lastChanged": 1645352696000,
+    "lastChanged": 1677174105000,
     "address": {
       "city": "Київ",
       "country": "Ukraine"
@@ -31710,8 +31721,9 @@
       "camera:type": "fixed",
       "contact:webcam": "https://gora.com.ua/web-camera",
       "man_made": "surveillance",
-      "name": "вид на схил, Київ",
+      "name": "Вид на схил, Київ",
       "name:en": "slope view, Kyiv",
+      "name:uk": "Вид на схил, Київ",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "slope"
@@ -36589,7 +36601,7 @@
     "osmID": 10556685779,
     "user": "APneunzehn74",
     "osmType": "node",
-    "lastChanged": 1673788921000,
+    "lastChanged": 1676913981000,
     "address": {
       "city": "Deggendorf",
       "county": "Landkreis Deggendorf",
@@ -36597,15 +36609,16 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "225",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "http://webcam.deg.net/?a=showcam&w=showliveimage2&o=stma-w",
+      "contact:webcam": "http://webcam.deg.net/?a=showcam&w=showliveimage1&o=stma-w",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://webcam.deg.net/?a=showcam&w=showliveimage2&o=stma-w"
+    "url": "http://webcam.deg.net/?a=showcam&w=showliveimage1&o=stma-w"
   },
   {
     "lat": 49.4037398,
@@ -36995,5 +37008,54 @@
       "surveillance:zone": "entrance"
     },
     "url": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=ingre-de"
+  },
+  {
+    "lat": 33.283002,
+    "lon": -111.8245161,
+    "osmID": 10687141562,
+    "user": "Matthew_Hanson",
+    "osmType": "node",
+    "lastChanged": 1677112447000,
+    "address": {
+      "city": "Chandler",
+      "county": "Maricopa County",
+      "state": "Arizona",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.az511.gov/map/Cctv/469--14",
+      "man_made": "surveillance",
+      "operator": "Airzona Department of Transportation",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Airzona Department of Transportation",
+    "url": "https://www.az511.gov/map/Cctv/469--14"
+  },
+  {
+    "lat": 46.4672635,
+    "lon": -119.5414268,
+    "osmID": 10687351386,
+    "user": "Adam850",
+    "osmType": "node",
+    "lastChanged": 1677121225000,
+    "address": {
+      "county": "Benton County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "mast",
+      "camera:type": "dome",
+      "contact:webcam": "https://wsdot.com/Travel/Real-time/Map/?featuretype=camera&featureid=9034",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://wsdot.com/Travel/Real-time/Map/?featuretype=camera&featureid=9034"
   }
 ]

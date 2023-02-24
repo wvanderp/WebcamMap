@@ -11307,17 +11307,19 @@
     "id": 4881110977,
     "lat": -35.9081251,
     "lon": 148.4507994,
-    "timestamp": "2017-05-28T05:39:27Z",
-    "version": 1,
-    "changeset": 49037626,
-    "user": "supaluminal",
-    "uid": 3745565,
+    "timestamp": "2023-02-19T08:02:44Z",
+    "version": 2,
+    "changeset": 132738373,
+    "user": "Alex Shearing",
+    "uid": 5009381,
     "tags": {
       "camera:direction": "90",
       "contact:webcam": "http://www.selwynsnow.com.au/livecams",
+      "man_made": "surveillance",
       "name": "Township Base Webcam",
       "operator": "Selwyn Snow Resort",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -11325,17 +11327,21 @@
     "id": 4881110978,
     "lat": -35.9060452,
     "lon": 148.4498761,
-    "timestamp": "2017-05-28T05:39:27Z",
-    "version": 1,
-    "changeset": 49037626,
-    "user": "supaluminal",
-    "uid": 3745565,
+    "timestamp": "2023-02-19T08:02:44Z",
+    "version": 2,
+    "changeset": 132738373,
+    "user": "Alex Shearing",
+    "uid": 5009381,
     "tags": {
       "camera:direction": "170",
+      "camera:type": "fixed",
       "contact:webcam": "http://www.selwynsnow.com.au/livecams",
+      "man_made": "surveillance",
       "name": "New Chum Webcam",
       "operator": "Selwyn Snow Resort",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "snow"
     }
   },
   {
@@ -11343,17 +11349,19 @@
     "id": 4881110979,
     "lat": -35.9059333,
     "lon": 148.4552459,
-    "timestamp": "2017-05-28T05:39:28Z",
-    "version": 1,
-    "changeset": 49037626,
-    "user": "supaluminal",
-    "uid": 3745565,
+    "timestamp": "2023-02-19T08:02:44Z",
+    "version": 2,
+    "changeset": 132738373,
+    "user": "Alex Shearing",
+    "uid": 5009381,
     "tags": {
       "camera:direction": "325",
       "contact:webcam": "http://www.selwynsnow.com.au/livecams",
+      "man_made": "surveillance",
       "name": "Township Summit Webcam",
       "operator": "Selwyn Snow Resort",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -27672,18 +27680,19 @@
     "id": 9521334145,
     "lat": 50.4239913,
     "lon": 30.4989271,
-    "timestamp": "2022-02-20T10:24:56Z",
-    "version": 1,
-    "changeset": 117632047,
-    "user": "wvdp",
-    "uid": 436419,
+    "timestamp": "2023-02-23T17:41:45Z",
+    "version": 2,
+    "changeset": 132937214,
+    "user": "avinet_ua",
+    "uid": 1538111,
     "tags": {
       "camera:direction": "151",
       "camera:type": "fixed",
       "contact:webcam": "https://gora.com.ua/web-camera",
       "man_made": "surveillance",
-      "name": "вид на схил, Київ",
+      "name": "Вид на схил, Київ",
       "name:en": "slope view, Kyiv",
+      "name:uk": "Вид на схил, Київ",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "slope"
@@ -31944,15 +31953,16 @@
     "id": 10556685779,
     "lat": 48.8413492,
     "lon": 12.9559212,
-    "timestamp": "2023-01-15T13:22:01Z",
-    "version": 1,
-    "changeset": 131298256,
+    "timestamp": "2023-02-20T17:26:21Z",
+    "version": 2,
+    "changeset": 132801152,
     "user": "APneunzehn74",
     "uid": 12180500,
     "tags": {
+      "camera:direction": "225",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "http://webcam.deg.net/?a=showcam&w=showliveimage2&o=stma-w",
+      "contact:webcam": "http://webcam.deg.net/?a=showcam&w=showliveimage1&o=stma-w",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -32279,6 +32289,47 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "entrance"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10687141562,
+    "lat": 33.283002,
+    "lon": -111.8245161,
+    "timestamp": "2023-02-23T00:34:07Z",
+    "version": 1,
+    "changeset": 132904098,
+    "user": "Matthew_Hanson",
+    "uid": 18400254,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.az511.gov/map/Cctv/469--14",
+      "man_made": "surveillance",
+      "operator": "Airzona Department of Transportation",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 10687351386,
+    "lat": 46.4672635,
+    "lon": -119.5414268,
+    "timestamp": "2023-02-23T03:00:25Z",
+    "version": 1,
+    "changeset": 132905981,
+    "user": "Adam850",
+    "uid": 13843308,
+    "tags": {
+      "camera:mount": "mast",
+      "camera:type": "dome",
+      "contact:webcam": "https://wsdot.com/Travel/Real-time/Map/?featuretype=camera&featureid=9034",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
