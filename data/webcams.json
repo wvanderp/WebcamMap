@@ -13015,6 +13015,7 @@
     "operator": "Selwyn Snow Resort",
     "url": "http://www.selwynsnow.com.au/livecams",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -15532,7 +15533,10 @@
       "surveillance:zone": "street"
     },
     "operator": "Stadt Schramberg",
-    "url": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg"
+    "url": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.2022459,
@@ -37080,5 +37084,31 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://wsdot.com/Travel/Real-time/Map/?featuretype=camera&featureid=9034"
+  },
+  {
+    "lat": 43.982171,
+    "lon": 6.7589813,
+    "osmID": 10693976724,
+    "user": "Pa413",
+    "osmType": "node",
+    "lastChanged": 1677369218000,
+    "address": {
+      "city": "Castellet-lès-Sausses",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "230",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.inforoutes06.fr/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "traffic_sign": "variable_message"
+    },
+    "url": "https://www.inforoutes06.fr/"
   }
 ]
