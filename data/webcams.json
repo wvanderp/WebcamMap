@@ -23975,7 +23975,7 @@
     "lastChanged": 1622400989000,
     "address": {
       "city": "City of Rochester",
-      "county": "Monroe",
+      "county": "Monroe County",
       "state": "New York",
       "country": "United States of America"
     },
@@ -26574,7 +26574,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=acejPg62Op8"
+    "url": "https://www.youtube.com/watch?v=acejPg62Op8",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.0354208,
@@ -26600,7 +26603,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=6CBAIEinSN4"
+    "url": "https://www.youtube.com/watch?v=6CBAIEinSN4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.0056329,
@@ -37150,5 +37156,29 @@
       "surveillance:type": "camera"
     },
     "url": "https://storchencam-2.click2stream.com/"
+  },
+  {
+    "lat": 50.3750058,
+    "lon": 15.9139829,
+    "osmID": 10703014965,
+    "user": "vykovikor",
+    "osmType": "node",
+    "lastChanged": 1677709564000,
+    "address": {
+      "city": "Hořenice",
+      "county": "Královéhradecký kraj",
+      "state": "Severovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://api.dopravniinfo.cz/CameraImage.ashx?camera=3812&rnd=fUN3Fa6t",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://api.dopravniinfo.cz/CameraImage.ashx?camera=3812&rnd=fUN3Fa6t"
   }
 ]
