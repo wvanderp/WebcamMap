@@ -3,13 +3,14 @@
 
 import fs from 'fs';
 import path from 'path';
-import data from '../../data/webcams.json';
 import { Webcam } from '../../src/types/webcam';
+
+const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
 // finds duplicate links in the webcams.json file
 export default function lintDuplicates() {
     console.log('linting duplicates');
-    const webcams = data as Webcam[];
+    const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
 
     const duplicates = webcams.filter((w) => webcams.some((o) => o.url === w.url && o.osmID !== w.osmID));
 
@@ -20,5 +21,5 @@ export default function lintDuplicates() {
         };
     }
 
-    fs.writeFileSync(path.join(__dirname, '../../data', './webcams.json'), JSON.stringify(webcams, null, 2));
+    fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
 }

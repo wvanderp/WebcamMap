@@ -19,25 +19,11 @@ jobs:
     - name: npm install
       run: npm install
       
-    - name: npm run collect
-      run: npm run collect
-
-    - name: npm run lintData
-      run: npm run lintData
-
-    - name: push changes to remote
+    - name: collect and lint
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        npm run collect
+        npm run lintData
 
-        git pull
-        git add -A
-
-        if [ -z "$(git status --porcelain)" ]; then 
-          echo "No changes"
-        else 
-          git commit -m "updated the data"
-          git push
-        fi
-      
-        
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: updated the data

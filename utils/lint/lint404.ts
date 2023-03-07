@@ -4,12 +4,12 @@
 import fs from 'fs';
 import path from 'path';
 import axios, { AxiosError } from 'axios';
-import data from '../../data/webcams.json';
 import { Webcam } from '../../src/types/webcam';
 import getRandom from '../lib/getRandom';
 
 const maxInterval = 30 * 24 * 60 * 60 * 1000; // 30 days in milliseconds
 const bad404indexPath = path.join(__dirname, '../../data', './404Index.json');
+const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
 // load the 404 index file
 function load404Index(): Record<number, { last: number, bad: boolean }> {
@@ -23,7 +23,7 @@ export default async function lint404() {
     console.log('linting 404 links');
     const fourofourIndex = load404Index();
 
-    const webcams = data as Webcam[];
+    const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
 
     // only check urls that need checking
     const filteredWebcams = webcams.filter((w) => {
@@ -75,5 +75,5 @@ export default async function lint404() {
     }
 
     fs.writeFileSync(bad404indexPath, JSON.stringify(fourofourIndex, null, 4));
-    fs.writeFileSync(path.join(__dirname, '../../data', './webcams.json'), JSON.stringify(webcams, null, 2));
+    fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
 }

@@ -1,4 +1,5 @@
 import lint404 from './lint404';
+import lintClean from './lintClean';
 import lintDuplicates from './lintDuplicates';
 import lintInvalidUrls from './lintInvalidUrls';
 import lintYoutube from './youtubeLint';
@@ -8,4 +9,6 @@ import lintYoutube from './youtubeLint';
     await lint404();
     lintDuplicates();
     lintInvalidUrls();
+
+    lintClean();
 })().catch((error) => { throw error; });

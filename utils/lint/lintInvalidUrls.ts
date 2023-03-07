@@ -2,12 +2,13 @@
 /* eslint-disable no-restricted-syntax */
 import fs from 'fs';
 import path from 'path';
-import data from '../../data/webcams.json';
 import { Webcam } from '../../src/types/webcam';
+
+const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
 // mark links invalid if they are not valid urls
 export default function lintInvalidUrls() {
-    const webcams = data as Webcam[];
+    const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
 
     const invalidUrls: Webcam[] = [];
 
@@ -33,5 +34,5 @@ export default function lintInvalidUrls() {
         };
     }
 
-    fs.writeFileSync(path.resolve(__dirname, '../../data/webcams.json'), JSON.stringify(webcams, null, 2));
+    fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
 }

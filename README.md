@@ -13,7 +13,21 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/723c662b-f86b-4d02-be3f-540b94d79b22/deploy-status)](https://app.netlify.com/sites/cartocams/deploys)
 
-This repo contains the webapp available at [https://cartocams.com/](https://cartocams.com/)
+## Introduction
+
+This project is a map of webcams around the world. It is based on the OpenStreetMap data. The map is available at [https://cartocams.com/](https://cartocams.com/).
+
+It queries OpenStreetMap via the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API) filters the data and extends the data with an address from the [Nominatim API](https://wiki.openstreetmap.org/wiki/Nominatim). The map is then rendered using the [Leaflet](https://leafletjs.com/) library.
+
+## Installation
+
+run `npm install` to install all the dependencies.
+
+## Usage
+
+run `npm run collect` to collect the data from OpenStreetMap and save it to the `data` folder.
+
+run `npm run app` to start the development server.
 
 ## Data sources
 
@@ -30,3 +44,4 @@ This project also uses the "Icons8 flat integrated webcam" icon from the Icons8 
 - Make icons smaller on higher zoom levels
 - Make Creative Commons license visible on the sites
 - Look at all the package licenses
+- use the cluster plugin
