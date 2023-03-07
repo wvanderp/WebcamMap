@@ -19222,7 +19222,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "ОСН \"КОМІТЕТ М-НУ \"БЕРЕЗНЯКИ-ТЕЛЬБІН\"",
-    "url": "https://www.ocam.kiev.ua/cam/view/17"
+    "url": "https://www.ocam.kiev.ua/cam/view/17",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.4189505,
@@ -20453,6 +20456,7 @@
     },
     "url": "www.asfinag.at",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
@@ -37221,5 +37225,30 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://cwwp2.dot.ca.gov/vm/loc/d9/us395lonepine4.htm"
+  },
+  {
+    "lat": 47.4408486,
+    "lon": 11.7033534,
+    "osmID": 10717826600,
+    "user": "Marco Debus",
+    "osmType": "node",
+    "lastChanged": 1678141087000,
+    "address": {
+      "city": "Gemeinde Eben am Achensee",
+      "county": "Bezirk Schwaz",
+      "state": "Tirol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "95",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.entners.at/de/das-hotel-am-see/webcam/",
+      "man_made": "surveillance",
+      "name": "Webcam Entners am See",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.entners.at/de/das-hotel-am-see/webcam/"
   }
 ]
