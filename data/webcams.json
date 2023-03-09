@@ -7989,7 +7989,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.douarnenez-communaute.fr/_webcam/webcam-sablesblancs.php"
+    "url": "https://www.douarnenez-communaute.fr/_webcam/webcam-sablesblancs.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.7968443,
@@ -19470,7 +19473,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://fotopaulmartens.netcam.nl/erasmus2.php"
+    "url": "https://fotopaulmartens.netcam.nl/erasmus2.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.9773929,
@@ -33260,6 +33266,31 @@
     "url": "https://content.meteobridge.com/cam/d34bcf8361cba060849ae41f5c353ce0/camplus.jpg"
   },
   {
+    "lat": 43.0492848,
+    "lon": 6.1324974,
+    "osmID": 9674434014,
+    "user": "waielbi",
+    "osmType": "node",
+    "lastChanged": 1678297293000,
+    "address": {
+      "city": "Hyères",
+      "county": "Var",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.youtube.com/watch?v=YBb5owlpD7Q",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.youtube.com/watch?v=YBb5owlpD7Q"
+  },
+  {
     "lat": 49.8106405,
     "lon": 15.8155218,
     "osmID": 9682585454,
@@ -37250,5 +37281,55 @@
       "surveillance:type": "camera"
     },
     "url": "https://www.entners.at/de/das-hotel-am-see/webcam/"
+  },
+  {
+    "lat": 43.0800298,
+    "lon": 6.1230424,
+    "osmID": 10721843447,
+    "user": "waielbi",
+    "osmType": "node",
+    "lastChanged": 1678297180000,
+    "address": {
+      "city": "Hyères",
+      "county": "Var",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.youtube.com/watch?v=sAC9U7mHsfU",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.youtube.com/watch?v=sAC9U7mHsfU"
+  },
+  {
+    "lat": 43.0398671,
+    "lon": 6.1098674,
+    "osmID": 10721861731,
+    "user": "waielbi",
+    "osmType": "node",
+    "lastChanged": 1678296777000,
+    "address": {
+      "city": "Hyères",
+      "county": "Var",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "270,90",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.youtube.com/watch?v=ia_pqHaSTNg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.youtube.com/watch?v=ia_pqHaSTNg"
   }
 ]
