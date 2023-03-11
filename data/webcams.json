@@ -63,11 +63,11 @@
   },
   {
     "lat": 51.7997006,
-    "lon": 10.6154531,
+    "lon": 10.6154496,
     "osmID": 292269439,
-    "user": "Interteutones",
+    "user": "HansWürstchen",
     "osmType": "node",
-    "lastChanged": 1674339631000,
+    "lastChanged": 1678461408000,
     "address": {
       "city": "Wernigerode",
       "county": "Landkreis Harz",
@@ -5778,7 +5778,10 @@
       "surveillance:type": "camera",
       "website": "https://www.wirkbau.de/news/wirkbau-liveansicht.html"
     },
-    "url": "https://www.wirkbau.de/files/oneo/wirkbau-chemnitz/bilder-wirkbau/www/wirkbau/files/oneo/wirkbau-chemnitz/bilder-wirkbau/Dach1/image.jpg"
+    "url": "https://www.wirkbau.de/files/oneo/wirkbau-chemnitz/bilder-wirkbau/www/wirkbau/files/oneo/wirkbau-chemnitz/bilder-wirkbau/Dach1/image.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.9792149,
@@ -13778,10 +13781,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://martin-bochum.de/webcam_bo.php",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://martin-bochum.de/webcam_bo.php"
   },
   {
     "lat": 51.0891285,
@@ -17379,9 +17379,9 @@
     "lat": 46.8728766,
     "lon": 6.3235646,
     "osmID": 6638896820,
-    "user": "Antonin Del Fabbro",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1564178697000,
+    "lastChanged": 1678442113000,
     "address": {
       "city": "Granges-Narboz",
       "county": "Doubs",
@@ -17389,12 +17389,15 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "165",
       "camera:mount": "roof",
       "camera:type": "dome",
+      "contact:webcam": "http://webcam.ville-pontarlier.fr/lesgranges/all_image/galerie.php",
       "man_made": "surveillance",
+      "name": "Webcam les Granges-Dessus",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "website": "http://webcam.ville-pontarlier.fr/lesgranges/all_image/galerie.php"
+      "surveillance:zone": "piste"
     },
     "url": "http://webcam.ville-pontarlier.fr/lesgranges/all_image/galerie.php"
   },
@@ -18160,9 +18163,9 @@
     "lat": 39.5637534,
     "lon": -104.949469,
     "osmID": 7491305071,
-    "user": "Stevestr",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1613363368000,
+    "lastChanged": 1678440579000,
     "address": {
       "county": "Douglas County",
       "state": "Colorado",
@@ -18171,17 +18174,13 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "dome",
-      "contact:webcam": "cotrip.org",
+      "contact:webcam": "https://maps.cotrip.org/camera/74675/@-104.9533,39.56425,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/74675/709972183",
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "cotrip.org",
-    "lint": {
-      "duplicate": true,
-      "invalidUrl": true
-    }
+    "url": "https://maps.cotrip.org/camera/74675/@-104.9533,39.56425,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/74675/709972183"
   },
   {
     "lat": 39.5607592,
@@ -19895,7 +19894,10 @@
       "surveillance:zone": "piste"
     },
     "operator": "Les Arcs",
-    "url": "https://www.youtube.com/watch?v=XzixW-oq0M8"
+    "url": "https://www.youtube.com/watch?v=XzixW-oq0M8",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": -34.9227553,
@@ -24633,7 +24635,7 @@
     "osmID": 8852438045,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1624267054000,
+    "lastChanged": 1678441548000,
     "address": {
       "city": "Orkanger",
       "county": "Trøndelag",
@@ -24644,6 +24646,7 @@
       "camera:type": "fixed",
       "contact:webcam": "http://tsftp.no/Trondheim/ork_3.jpg",
       "description": "Småbåthavn for fritidsbåter i Orkdal",
+      "fixme": "404 also on the source website",
       "man_made": "surveillance",
       "name": "Terna småbåthavn",
       "source": "https://trondheimhavn.no/webkamera/",
@@ -29326,9 +29329,9 @@
     "lat": 46.7809571,
     "lon": -92.1116131,
     "osmID": 9260034905,
-    "user": "Nordpfeil",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1637240302000,
+    "lastChanged": 1678441333000,
     "address": {
       "city": "Duluth",
       "county": "Saint Louis County",
@@ -29339,7 +29342,7 @@
       "camera:direction": "120",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=Jc4LpjP67Nw",
-      "description": "This camera overlooks Bayfront Park in Duluth.",
+      "description": "This camera overlooks Bayfront Park in Duluth, with a view of the Aerial Lift Bridge and Lake Superior beyond.",
       "man_made": "surveillance",
       "name": "Duluth Bayfront Cam",
       "operator": "Duluth Harbor Cam",
@@ -29348,10 +29351,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=Jc4LpjP67Nw",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "https://www.youtube.com/watch?v=Jc4LpjP67Nw"
   },
   {
     "lat": 46.7789012,
@@ -29384,9 +29384,9 @@
     "lat": 46.7808692,
     "lon": -92.1117017,
     "osmID": 9260034911,
-    "user": "Nordpfeil",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1637240302000,
+    "lastChanged": 1678441333000,
     "address": {
       "city": "Duluth",
       "county": "Saint Louis County",
@@ -29396,20 +29396,17 @@
     "osmTags": {
       "camera:direction": "120",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=Jc4LpjP67Nw",
-      "description": "This camera pans the Duluth-Superior Harbor from the Duluth Hillside.",
+      "contact:webcam": "https://www.youtube.com/watch?v=DzJb26edNjs",
+      "description": "This panorama view of the Duluth Harbor and Lake Superior is located on the hillside of Duluth.",
       "man_made": "surveillance",
-      "name": "Hillside Cam",
+      "name": "Duluth Hillside Cam",
       "operator": "Duluth Harbor Cam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=Jc4LpjP67Nw",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "https://www.youtube.com/watch?v=DzJb26edNjs"
   },
   {
     "lat": 46.7807448,
