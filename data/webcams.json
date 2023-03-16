@@ -5399,7 +5399,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100114"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100114",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.27537,
@@ -12864,10 +12867,7 @@
       "surveillance:zone": "town",
       "website": "https://www.wuerzburger-markt.de/webcam.html"
     },
-    "url": "https://www.wuerzburger-markt.de/webcam.html",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.wuerzburger-markt.de/webcam.html"
   },
   {
     "lat": 52.2873159,
@@ -18993,7 +18993,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "http://verkehr.rlp.de/syncdata/cam/1400/thumb_640x480.jpg?"
+    "url": "http://verkehr.rlp.de/syncdata/cam/1400/thumb_640x480.jpg?",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.3505165,
@@ -34213,7 +34216,10 @@
       "surveillance:zone": "town",
       "website": "http://dolcam.ddnss.ch:88//cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=gast&pwd=Welcome2018"
     },
-    "url": "http://dolcam.ddnss.ch:88//cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=gast&pwd=Welcome2018"
+    "url": "http://dolcam.ddnss.ch:88//cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=gast&pwd=Welcome2018",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.0508801,
@@ -34288,7 +34294,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18"
+    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2113206,
