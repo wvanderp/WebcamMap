@@ -5394,7 +5394,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=208374"
+    "url": "http://webkamera.vegvesen.no/kamera?id=208374",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.3981843,
@@ -18236,27 +18239,49 @@
     "osmID": 7491342115,
     "user": "Stevestr",
     "osmType": "node",
-    "lastChanged": 1613363368000,
+    "lastChanged": 1679863355000,
     "address": {
       "county": "Douglas County",
       "state": "Colorado",
       "country": "United States of America"
     },
     "osmTags": {
+      "camera:direction": "90;270",
       "camera:mount": "pole",
       "camera:type": "dome",
-      "contact:webcam": "cotrip.org",
+      "contact:webcam": "https://maps.cotrip.org/@-104.93922,39.56405,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77570/1182391207",
       "man_made": "surveillance",
-      "name": "0.8 Mi E of Colorado Blvd",
+      "ref": "MP 22.55",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "cotrip.org",
-    "lint": {
-      "duplicate": true,
-      "invalidUrl": true
-    }
+    "url": "https://maps.cotrip.org/@-104.93922,39.56405,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77570/1182391207"
+  },
+  {
+    "lat": 39.5647054,
+    "lon": -104.917795,
+    "osmID": 7491342125,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679861916000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/@-104.92308,39.5668,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77550/4112859682",
+      "man_made": "surveillance",
+      "ref": "MP 22.90",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/@-104.92308,39.5668,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77550/4112859682"
   },
   {
     "lat": 54.9662137,
