@@ -7824,7 +7824,7 @@
     "osmID": 2997621048,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1645955389000,
+    "lastChanged": 1679948388000,
     "address": {
       "city": "Papenburg",
       "county": "Landkreis Emsland",
@@ -7838,16 +7838,14 @@
       "contact:webcam": "http://www.schwanenapotheke-papenburg.de/webcam",
       "description": "Blick von der Schwanen-Apotheke in die Stadtmitte. Rechts sehen Sie das Museumsschiff Friederike, links den Rathausvorplatz.",
       "description:en": "View of the city center from the Schwanen pharmacy. On the right you can see the museum ship Friederike, on the left the town hall forecourt.",
+      "fixme": "the webcam is currently stuck in 2021",
       "man_made": "surveillance",
       "name": "Schwanen Apotheke webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://www.schwanenapotheke-papenburg.de/webcam",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://www.schwanenapotheke-papenburg.de/webcam"
   },
   {
     "lat": 52.6821988,
@@ -18190,7 +18188,7 @@
     "osmID": 7491237515,
     "user": "Stevestr",
     "osmType": "node",
-    "lastChanged": 1613171713000,
+    "lastChanged": 1679928562000,
     "address": {
       "city": "Lone Tree",
       "county": "Douglas County",
@@ -18198,40 +18196,18 @@
       "country": "United States of America"
     },
     "osmTags": {
+      "camera:direction": "0;90;180;270",
       "camera:mount": "pole",
       "camera:type": "panning",
-      "contact:webcam": "https://www.cotrip.org/map.htm#/default?StillCameraId=11404",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78166/1939648587",
       "description:en": "0.2 mi W of I-25 NW Quadrant",
       "man_made": "surveillance",
-      "reference": "11404",
+      "ref": "MP 194.35 NB",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.cotrip.org/map.htm#/default?StillCameraId=11404"
-  },
-  {
-    "lat": 39.5637534,
-    "lon": -104.949469,
-    "osmID": 7491305071,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1678440579000,
-    "address": {
-      "county": "Douglas County",
-      "state": "Colorado",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "dome",
-      "contact:webcam": "https://maps.cotrip.org/camera/74675/@-104.9533,39.56425,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/74675/709972183",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://maps.cotrip.org/camera/74675/@-104.9533,39.56425,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/74675/709972183"
+    "url": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78166/1939648587"
   },
   {
     "lat": 39.5607592,
@@ -18239,19 +18215,19 @@
     "osmID": 7491342115,
     "user": "Stevestr",
     "osmType": "node",
-    "lastChanged": 1679863355000,
+    "lastChanged": 1679933096000,
     "address": {
       "county": "Douglas County",
       "state": "Colorado",
       "country": "United States of America"
     },
     "osmTags": {
-      "camera:direction": "90;270",
+      "camera:direction": "0;90;180;270",
       "camera:mount": "pole",
       "camera:type": "dome",
       "contact:webcam": "https://maps.cotrip.org/@-104.93922,39.56405,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77570/1182391207",
       "man_made": "surveillance",
-      "ref": "MP 22.55",
+      "ref": "MP 022.55 EB",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -18282,6 +18258,31 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://maps.cotrip.org/@-104.92308,39.5668,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77550/4112859682"
+  },
+  {
+    "lat": 39.5636449,
+    "lon": -104.966958,
+    "osmID": 7495436374,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679935141000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;275",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96788,39.56284,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78178/2184178901",
+      "man_made": "surveillance",
+      "ref": "MP 020.75",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.96788,39.56284,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78178/2184178901"
   },
   {
     "lat": 54.9662137,
@@ -37524,5 +37525,660 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.quebec511.info/en/Diffusion/EtatReseau/Camera.aspx?Type=2&Id=20"
+  },
+  {
+    "lat": 39.5641442,
+    "lon": -104.9050755,
+    "osmID": 10766423184,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679929251000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77778/2743249197",
+      "man_made": "surveillance",
+      "ref": "MP 024.10 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77778/2743249197"
+  },
+  {
+    "lat": 39.5564713,
+    "lon": -104.874094,
+    "osmID": 10766441791,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679928562000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77572/2885101072",
+      "man_made": "surveillance",
+      "ref": "MP 025.95 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77572/2885101072"
+  },
+  {
+    "lat": 39.5556052,
+    "lon": -104.8715144,
+    "osmID": 10766456681,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679928751000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77820/1892779928",
+      "man_made": "surveillance",
+      "ref": "MP 026.15 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77820/1892779928"
+  },
+  {
+    "lat": 39.5558748,
+    "lon": -104.8772734,
+    "osmID": 10766472068,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679928903000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87899,39.55731,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77497/2454846098",
+      "man_made": "surveillance",
+      "ref": "MP 025.85 EB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.87899,39.55731,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77497/2454846098"
+  },
+  {
+    "lat": 39.564588,
+    "lon": -104.8951505,
+    "osmID": 10766472779,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679929118000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.8937,39.56403,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77816/3962772378",
+      "man_made": "surveillance",
+      "ref": "MP 024.65 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.8937,39.56403,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77816/3962772378"
+  },
+  {
+    "lat": 39.5630171,
+    "lon": -104.9041789,
+    "osmID": 10766475154,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679929399000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/410/2771375415",
+      "man_made": "surveillance",
+      "ref": "MP 003.00 NB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/410/2771375415"
+  },
+  {
+    "lat": 39.5588077,
+    "lon": -104.8811387,
+    "osmID": 10766475454,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679929006000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.88224,39.55952,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77950/910748573",
+      "man_made": "surveillance",
+      "ref": "MP 025.55 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.88224,39.55952,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77950/910748573"
+  },
+  {
+    "lat": 39.5605814,
+    "lon": -104.9417156,
+    "osmID": 10766576280,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933096000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.94447,39.5609,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77692/4112903696",
+      "man_made": "surveillance",
+      "ref": "MP 022.10",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.94447,39.5609,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77692/4112903696"
+  },
+  {
+    "lat": 39.5658932,
+    "lon": -104.9415535,
+    "osmID": 10766576281,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933096000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.94423,39.56033,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/435/908211949",
+      "direction": "0;90;180;270",
+      "man_made": "surveillance",
+      "ref": "089 MP 002.00",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.94423,39.56033,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/435/908211949"
+  },
+  {
+    "lat": 39.5657935,
+    "lon": -104.9041247,
+    "osmID": 10766595375,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679932328000,
+    "address": {
+      "city": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/409/908211949",
+      "man_made": "surveillance",
+      "ref": "MP 004.00 NB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/409/908211949"
+  },
+  {
+    "lat": 39.5631538,
+    "lon": -104.92245,
+    "osmID": 10766599281,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933096000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.92117,39.56211,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78066/2142215068",
+      "man_made": "surveillance",
+      "ref": "MP 023.15 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.92117,39.56211,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78066/2142215068"
+  },
+  {
+    "lat": 39.5620102,
+    "lon": -104.927895,
+    "osmID": 10766603415,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933096000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.92914,39.56042,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77570/1182391207",
+      "man_made": "surveillance",
+      "ref": "MP 022.90 WB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.92914,39.56042,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77570/1182391207"
+  },
+  {
+    "lat": 39.5627462,
+    "lon": -104.944904,
+    "osmID": 10766634256,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933273000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.95203,39.56411,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77628/709972183",
+      "man_made": "surveillance",
+      "ref": "MP 021.65",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.95203,39.56411,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77628/709972183"
+  },
+  {
+    "lat": 39.563051,
+    "lon": -104.9599806,
+    "osmID": 10766663325,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933938000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77918/296087794",
+      "man_made": "surveillance",
+      "ref": "MP 021.10",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77918/296087794"
+  },
+  {
+    "lat": 39.56093,
+    "lon": -104.959572,
+    "osmID": 10766663326,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679933964000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/439/908211949",
+      "man_made": "surveillance",
+      "ref": "1 MP 003.00 NB",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/439/908211949"
+  },
+  {
+    "lat": 39.5659638,
+    "lon": -104.9602457,
+    "osmID": 10766682424,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679935141000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77857/2423316329",
+      "man_made": "surveillance",
+      "ref": "MP 000.10",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77857/2423316329"
+  },
+  {
+    "lat": 39.5652423,
+    "lon": -104.9741318,
+    "osmID": 10766682425,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679935141000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;275",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96788,39.56284,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77791/3158729696",
+      "man_made": "surveillance",
+      "ref": "MP 020.35",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.96788,39.56284,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77791/3158729696"
+  },
+  {
+    "lat": 39.5657162,
+    "lon": -104.9810453,
+    "osmID": 10766682426,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679935141000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77784/3297724809",
+      "man_made": "surveillance",
+      "ref": "MP 019.95",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77784/3297724809"
+  },
+  {
+    "lat": 39.5642597,
+    "lon": -104.9886615,
+    "osmID": 10766682430,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679935141000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77897/4157557301",
+      "man_made": "surveillance",
+      "ref": "MP 019.55",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77897/4157557301"
+  },
+  {
+    "lat": 39.5627838,
+    "lon": -104.9865014,
+    "osmID": 10766705834,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679935370000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/417/908211949",
+      "man_made": "surveillance",
+      "ref": "2 MP 001.00",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/417/908211949"
+  },
+  {
+    "lat": 39.5648538,
+    "lon": -104.9885846,
+    "osmID": 10766705835,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679936183000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.98994,39.56398,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/438/908211949",
+      "man_made": "surveillance",
+      "ref": "150 MP 001.00",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-104.98994,39.56398,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/438/908211949"
+  },
+  {
+    "lat": 39.5595433,
+    "lon": -104.9966603,
+    "osmID": 10766720592,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679936183000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.00783,39.55978,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77656/48554349",
+      "man_made": "surveillance",
+      "ref": "MP 019.00",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-105.00783,39.55978,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77656/48554349"
+  },
+  {
+    "lat": 39.5589115,
+    "lon": -105.0063937,
+    "osmID": 10766720593,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679936183000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78006/961280011",
+      "man_made": "surveillance",
+      "ref": "MP 018.55",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78006/961280011"
+  },
+  {
+    "lat": 39.5605613,
+    "lon": -105.0083732,
+    "osmID": 10766720594,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679936183000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78068/3515893519",
+      "man_made": "surveillance",
+      "ref": "MP 018.40",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78068/3515893519"
+  },
+  {
+    "lat": 39.5648763,
+    "lon": -105.0101039,
+    "osmID": 10766720595,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679936183000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/426/2234927265",
+      "man_made": "surveillance",
+      "ref": "51 MP 001.00",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/426/2234927265"
+  },
+  {
+    "lat": 39.5618734,
+    "lon": -105.0154168,
+    "osmID": 10766720596,
+    "user": "Stevestr",
+    "osmType": "node",
+    "lastChanged": 1679936183000,
+    "address": {
+      "county": "Douglas County",
+      "state": "Colorado",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0;90;180;270",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01976,39.56277,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77969/3064048637",
+      "man_made": "surveillance",
+      "ref": "MP 018.00",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://maps.cotrip.org/camera/78166/@-105.01976,39.56277,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77969/3064048637"
   }
 ]
