@@ -318,28 +318,6 @@
     "url": "http://www.johthal.de"
   },
   {
-    "lat": 52.5245038,
-    "lon": 13.4121096,
-    "osmID": 726896906,
-    "user": "ChrissW-R1",
-    "osmType": "node",
-    "lastChanged": 1657821067000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "contact:webcam": "http://www.berlin.de/.img/webcam/webcam-back.jpg",
-      "contact:website": "https://www.berlin.de",
-      "surveillance": "webcam",
-      "url": "http://www.berlin.de/webcams/index.php/alex"
-    },
-    "url": "http://www.berlin.de/.img/webcam/webcam-back.jpg",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
     "lat": 52.5222444,
     "lon": 13.3765784,
     "osmID": 727611593,
@@ -6781,7 +6759,6 @@
     "lastChanged": 1382464805000,
     "address": {
       "city": "Bendern",
-      "county": "Unterland",
       "country": "Liechtenstein"
     },
     "osmTags": {
@@ -9149,7 +9126,10 @@
       "surveillance:zone": "public"
     },
     "operator": "WebCam.NL",
-    "url": "https://www.elburg.nl/Toerisme/Webcam_in_de_Vesting"
+    "url": "https://www.elburg.nl/Toerisme/Webcam_in_de_Vesting",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.5146314,
@@ -15530,6 +15510,38 @@
     }
   },
   {
+    "lat": 46.8728751,
+    "lon": 12.86306,
+    "osmID": 5717947484,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1680167094000,
+    "address": {
+      "city": "Winklern",
+      "county": "Bezirk Spittal an der Drau",
+      "state": "Kärnten",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "addr:country": "AT",
+      "camera:direction": "111",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/winklern/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/winklern/",
+      "description": "Winklern, Penzelberg, Winklern im Mölltal,Kärnten,Österreich",
+      "ele": "1370",
+      "man_made": "surveillance",
+      "name": "Winklern im Mölltal / Penzelberg - Blick nach Osten",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "atm"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/winklern/"
+  },
+  {
     "lat": 43.6581887,
     "lon": 11.1824526,
     "osmID": 5723424934,
@@ -18152,6 +18164,38 @@
     "url": "https://live.netcamviewer.nl/Lausche-Video/1333"
   },
   {
+    "lat": 50.8257267,
+    "lon": 14.7277039,
+    "osmID": 7366158376,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1680167203000,
+    "address": {
+      "city": "Hain",
+      "county": "Görlitz - Zhorjelc",
+      "state": "Sachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "addr:country": "de",
+      "camera:direction": "27",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/hochwald/",
+      "description": "Görlitz,Sachsen,Deutschland",
+      "ele": "750",
+      "man_made": "surveillance",
+      "name": "terra-hd.de: Hochwaldturm im Zittauer Gebirge",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.terra-hd.de/hochwald/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 50.82254,
     "lon": 14.7268432,
     "osmID": 7366158377,
@@ -18172,7 +18216,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.terra-hd.de/hochwald/"
+    "url": "https://www.terra-hd.de/hochwald/",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 51.5979331,
@@ -18926,7 +18973,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Přísečná",
+      "city": "Mirkovice",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -19977,7 +20024,7 @@
     "osmID": 7825397273,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1674831731000,
+    "lastChanged": 1680165617000,
     "address": {
       "city": "Bourg-Saint-Maurice",
       "county": "Savoie",
@@ -19987,7 +20034,7 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=XzixW-oq0M8",
+      "contact:webcam": "https://www.youtube.com/watch?v=B0vZX9GnpxI",
       "man_made": "surveillance",
       "name": "Les Arcs - Livecam Arc 2000",
       "operator": "Les Arcs",
@@ -19996,10 +20043,7 @@
       "surveillance:zone": "piste"
     },
     "operator": "Les Arcs",
-    "url": "https://www.youtube.com/watch?v=XzixW-oq0M8",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=B0vZX9GnpxI"
   },
   {
     "lat": -34.9227553,
@@ -20454,7 +20498,7 @@
     "osmID": 8069799072,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1663583856000,
+    "lastChanged": 1680165844000,
     "address": {
       "city": "Chester",
       "county": "Hampden County",
@@ -20465,17 +20509,15 @@
       "camera:direction": "-54",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=-PTD7GCQtNE",
+      "contact:webcam": "https://www.youtube.com/watch?v=4a3ihnVtlVQ",
+      "description": "Enjoy the live view of CSX tracks at the Chester Railway Station Chester, Massachusetts\nThis camera owned and operated Boston And Maine Live:",
       "man_made": "surveillance",
       "name": "Chester Railway Station Museum",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.youtube.com/watch?v=-PTD7GCQtNE",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=4a3ihnVtlVQ"
   },
   {
     "lat": 48.5444038,
@@ -20550,36 +20592,6 @@
       "camera:type": "fixed",
       "contact:webcam": "www.asfinag.at",
       "description": "S3 - km 25,5",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "www.asfinag.at",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true,
-      "invalidUrl": true
-    }
-  },
-  {
-    "lat": 48.6573645,
-    "lon": 16.0521596,
-    "osmID": 8075724355,
-    "user": "hlfan",
-    "osmType": "node",
-    "lastChanged": 1641660548000,
-    "address": {
-      "city": "Gemeinde Guntersdorf",
-      "county": "Bezirk Hollabrunn",
-      "state": "Niederösterreich",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "www.asfinag.at",
-      "description": "S3 - km 35,1",
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera",
@@ -21353,7 +21365,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "http://89.106.143.18:122/"
+    "url": "http://89.106.143.18:122/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.4604,
@@ -21721,7 +21736,7 @@
     "osmID": 8435106278,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1663583775000,
+    "lastChanged": 1680165967000,
     "address": {
       "city": "York",
       "county": "York",
@@ -21731,19 +21746,18 @@
     "osmTags": {
       "camera:direction": "80",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=5ARM06FWPVQ",
+      "contact:webcam": "https://www.youtube.com/watch?v=1fwCoChGAUo",
+      "description": "Railcam Free View Camera, Live fromYork ROC",
       "man_made": "surveillance",
       "name": "York ROC Camera No.1, Yorkshire UK",
       "operator": "Railcam",
+      "opperator": "Railcam & Network Rail",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "rail"
     },
     "operator": "Railcam",
-    "url": "https://www.youtube.com/watch?v=5ARM06FWPVQ",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=1fwCoChGAUo"
   },
   {
     "lat": 50.7322257,
@@ -22513,7 +22527,7 @@
     "osmID": 8532735475,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1637258556000,
+    "lastChanged": 1680166322000,
     "address": {
       "city": "Ouddorp",
       "state": "Zuid-Holland",
@@ -22522,7 +22536,7 @@
     "osmTags": {
       "camera:direction": "310",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=NhnXZbT0_QQ",
+      "contact:webcam": "https://www.youtube.com/watch?v=2ftRg8sxw5M",
       "man_made": "surveillance",
       "name": "Webcam Brouwersdam Pooltje",
       "operator": "Brouwersdam cam",
@@ -22530,10 +22544,7 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=NhnXZbT0_QQ",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2ftRg8sxw5M"
   },
   {
     "lat": 51.7532292,
@@ -22664,7 +22675,7 @@
     "osmID": 8561241809,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1628773766000,
+    "lastChanged": 1680167427000,
     "address": {
       "city": "Howth",
       "county": "County Dublin",
@@ -22674,6 +22685,8 @@
       "camera:direction": "360",
       "camera:type": "fixed",
       "contact:webcam": "https://hyc.ie/webcam",
+      "description": "View looking North from Howth Yacht Club",
+      "fixme": "seem to be stuck on April 6 2022",
       "man_made": "surveillance",
       "name": "Howth Yacht Club - north webcam",
       "operator": "Howth Yacht Club",
@@ -23740,7 +23753,7 @@
     "osmID": 8707243697,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1674831414000,
+    "lastChanged": 1680165724000,
     "address": {
       "county": "Hillsborough County",
       "state": "Florida",
@@ -23750,17 +23763,15 @@
       "camera:direction": "30",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=w9eXJYS2yhk",
+      "contact:webcam": "https://www.youtube.com/watch?v=fZVSkTqHIcw",
+      "description": "You are watching a live stream of Plant City, Florida, USA, for people who enjoy watching trains. \n\nSpecial thanks to the City of Plant City and the Robert W. Willaford Railroad Museum for hosting this cam.",
       "man_made": "surveillance",
       "name": "Virtual Railfan Camera - Plant City, FL",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=w9eXJYS2yhk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=fZVSkTqHIcw"
   },
   {
     "lat": 47.3136846,
@@ -26720,7 +26731,7 @@
     "osmID": 8944783352,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1678202054000,
+    "lastChanged": 1680165407000,
     "address": {
       "city": "Saint-Trojan-les-Bains",
       "county": "Charente-Maritime",
@@ -26731,17 +26742,14 @@
       "camera:direction": "90",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=UhlBytFwsNc",
+      "contact:webcam": "https://www.youtube.com/watch?v=mhaKqo5vHXo",
       "man_made": "surveillance",
       "name": "Webcam Saint-Trojan - CNCO",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=UhlBytFwsNc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=mhaKqo5vHXo"
   },
   {
     "lat": 46.0354208,
@@ -26749,7 +26757,7 @@
     "osmID": 8944783353,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1678202179000,
+    "lastChanged": 1680165288000,
     "address": {
       "city": "Saint-Denis-d'Oléron",
       "county": "Charente-Maritime",
@@ -26760,17 +26768,14 @@
       "camera:direction": "180",
       "camera:mount": "wall",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=CpLB-QvqNSA",
+      "contact:webcam": "https://www.youtube.com/watch?v=rTGx9iYKV4Y",
       "man_made": "surveillance",
       "name": "Webcam Oléron - Saint-Denis YCO",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=CpLB-QvqNSA",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=rTGx9iYKV4Y"
   },
   {
     "lat": 46.0056329,
@@ -28934,7 +28939,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=d400c13500070075004d823633235daa"
+    "url": "https://chart.maryland.gov/video/video.php?feed=d400c13500070075004d823633235daa",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.3595689,
@@ -29288,7 +29296,7 @@
     "osmID": 9207644087,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1678202008000,
+    "lastChanged": 1680165534000,
     "address": {
       "city": "San Bartolomé",
       "country": "Spain"
@@ -29297,17 +29305,15 @@
       "camera:direction": "214",
       "camera:mount": "pole",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=gDLVm6DnWzs",
+      "contact:webcam": "https://www.youtube.com/watch?v=AAlo3eCPVbk",
+      "description": "Welcome to our genuine 24x7 stream from Lanzarote Airport (ACE | GCRR ) in Canary Islands, Spain.\n\nOur Live webcam is showing you the landings and takes offs operations details and a panoramic view of the Lanzarote Airport Parking, the terminals and the c",
       "man_made": "surveillance",
       "name": "LANZAROTE AIRPORT webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=gDLVm6DnWzs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk"
   },
   {
     "lat": 46.4982121,
@@ -29339,7 +29345,7 @@
     "osmID": 9207663697,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1635424880000,
+    "lastChanged": 1680166397000,
     "address": {
       "city": "San Cristóbal de La Laguna",
       "country": "Spain"
@@ -29348,18 +29354,15 @@
       "camera:direction": "340",
       "camera:mount": "roof",
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=q6bh2ksEHFk",
-      "description": "(TFN|GCXO)",
+      "contact:webcam": "https://www.youtube.com/watch?v=dyCxFZgrGXw",
+      "description": "Our new  24/7 live webcam shows a privileged view of Tenerife Nort airport runway and the taxiway. The planes are detected during landings and takeoffs and it allows our live webcam to do PTZ (Pan, tilt and zoom) automatic movements that show all operatio",
       "man_made": "surveillance",
       "name": "TENERIFE AIRPORT webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=q6bh2ksEHFk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=dyCxFZgrGXw"
   },
   {
     "lat": 45.4440293,
@@ -29670,7 +29673,7 @@
     "osmID": 9264383123,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1639481221000,
+    "lastChanged": 1680166262000,
     "address": {
       "city": "Rochelle",
       "county": "Ogle County",
@@ -29681,17 +29684,15 @@
       "camera:direction": "254",
       "camera:mount": "pole",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=301J6zuerzc",
+      "contact:webcam": "https://www.youtube.com/watch?v=ENLa-KWr-AA",
+      "description": "This camera is hosted by  the City of Rochelle at the Rochelle Railfan Park.",
       "man_made": "surveillance",
       "name": "Rochelle, Illinois",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "railway"
     },
-    "url": "https://www.youtube.com/watch?v=301J6zuerzc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=ENLa-KWr-AA"
   },
   {
     "lat": 46.077239,
@@ -33034,6 +33035,36 @@
     "url": "https://www.foto-webcam.eu/webcam/st-johann-in-tirol/"
   },
   {
+    "lat": 46.6254577,
+    "lon": 8.0969413,
+    "osmID": 9569407703,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1680167299000,
+    "address": {
+      "city": "Grindelwald",
+      "county": "Verwaltungskreis Interlaken-Oberhasli",
+      "state": "Bern/Berne",
+      "country": "Switzerland"
+    },
+    "osmTags": {
+      "addr:country": "ch",
+      "camera:direction": "270",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/glecksteinhuette/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/glecksteinhuette/",
+      "description": "Glecksteinhütte,SAC,Grindelwald,Schweiz,Swiss",
+      "ele": "2317",
+      "man_made": "surveillance",
+      "name": "Glecksteinhütte - Blick nach Westen",
+      "operator": "foto-webcam.eu",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "foto-webcam.eu",
+    "url": "https://www.foto-webcam.eu/webcam/glecksteinhuette/"
+  },
+  {
     "lat": 46.701102,
     "lon": 10.506797,
     "osmID": 9569407714,
@@ -33447,9 +33478,9 @@
     "lat": 43.0492848,
     "lon": 6.1324974,
     "osmID": 9674434014,
-    "user": "waielbi",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1678297293000,
+    "lastChanged": 1680165084000,
     "address": {
       "city": "Hyères",
       "county": "Var",
@@ -33460,16 +33491,16 @@
       "camera:direction": "270",
       "camera:mount": "pole",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=YBb5owlpD7Q",
+      "contact:webcam": "https://www.youtube.com/watch?v=3FfaOLCncUw",
+      "description": "La presqu'île de Giens est rattachée au continent par 2 cordons d'alluvions de 4 km de long :  le double tombolo. Entre ces deux bras sableux, une vaste zone de marais aménagés en salines constitue un refuge pour les oiseaux migrateurs.\nOriginale et inoub",
+      "description:en": "The Giens peninsula is attached to the mainland by 2 alluvial cords 4 km long: the double tombolo. Between these two sandy arms, a vast area of marshes converted into salt marshes constitutes a refuge for migratory birds.",
       "man_made": "surveillance",
+      "name": "Webcam Hyères - Les Estagnets",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=YBb5owlpD7Q",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=3FfaOLCncUw"
   },
   {
     "lat": 49.8106405,
@@ -33544,9 +33575,9 @@
     "lat": 48.0648242,
     "lon": 11.1963232,
     "osmID": 9749956021,
-    "user": "Christoph Lotz",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1652893068000,
+    "lastChanged": 1680166935000,
     "address": {
       "city": "Steinebach am Wörthsee",
       "county": "Landkreis Starnberg",
@@ -33558,10 +33589,10 @@
       "camera:direction": "250",
       "camera:type": "fixed",
       "contact:webcam": "http://www.foto-webcam.net/webcam/woerthsee/",
-      "description": "Bayern Flachland,Bayern,Deutschland",
+      "description": "Die Kamera befindet sich im Ortsteil Steinebach in der Gemeinde Wörthsee an der Seepromenade.\nDer Blick zeigt nach Westen über den Wörthsee in Richtung Bachern. Der untere Teil des Kamerabildes wurde künstlich unscharf gemacht, so dass Einzelpersonen nich",
       "ele": "540",
       "man_made": "surveillance",
-      "name": "foto-webcam.net: Il Kiosko am Wörthsee, Blick Richtung Süd-Westen",
+      "name": "Il Kiosko am Wörthsee, Blick Richtung Süd-Westen",
       "operator": "foto-webcam.eu",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -37469,9 +37500,9 @@
     "lat": 43.0800298,
     "lon": 6.1230424,
     "osmID": 10721843447,
-    "user": "waielbi",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1678297180000,
+    "lastChanged": 1680165152000,
     "address": {
       "city": "Hyères",
       "county": "Var",
@@ -37482,24 +37513,22 @@
       "camera:direction": "180",
       "camera:mount": "pole",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=sAC9U7mHsfU",
+      "contact:webcam": "https://www.youtube.com/watch?v=8c2edXPNSjw",
       "man_made": "surveillance",
+      "name": "Webcam Hyères - L'Almanarre",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=sAC9U7mHsfU",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=8c2edXPNSjw"
   },
   {
     "lat": 43.0398671,
     "lon": 6.1098674,
     "osmID": 10721861731,
-    "user": "waielbi",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1678296777000,
+    "lastChanged": 1680165215000,
     "address": {
       "city": "Hyères",
       "county": "Var",
@@ -37510,16 +37539,14 @@
       "camera:direction": "270,90",
       "camera:mount": "pole",
       "camera:type": "dome",
-      "contact:webcam": "https://www.youtube.com/watch?v=ia_pqHaSTNg",
+      "contact:webcam": "https://www.youtube.com/watch?v=Ukuh3TXLQek",
       "man_made": "surveillance",
+      "name": "Webcam Hyères - La Madrague",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=ia_pqHaSTNg",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Ukuh3TXLQek"
   },
   {
     "lat": 45.3990724,
