@@ -5541,7 +5541,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100095"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100095"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100095",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 35.4239662,
@@ -8325,7 +8328,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Straßenverkehrszentrale Baden-Württemberg",
-    "url": "http://www.svz-bw.de/kamera.html?webcamid=B03"
+    "url": "http://www.svz-bw.de/kamera.html?webcamid=B03",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.5550911,
@@ -21691,7 +21697,7 @@
     "osmType": "node",
     "lastChanged": 1613566897000,
     "address": {
-      "city": "Antofagasta",
+      "city": "Taltal",
       "county": "Provincia de Antofagasta",
       "state": "Región de Antofagasta",
       "country": "Chile"
@@ -21734,9 +21740,9 @@
     "lat": 53.9559011,
     "lon": -1.0971025,
     "osmID": 8435106278,
-    "user": "wvdp",
+    "user": "karaga",
     "osmType": "node",
-    "lastChanged": 1680165967000,
+    "lastChanged": 1680259496000,
     "address": {
       "city": "York",
       "county": "York",
@@ -21751,7 +21757,6 @@
       "man_made": "surveillance",
       "name": "York ROC Camera No.1, Yorkshire UK",
       "operator": "Railcam",
-      "opperator": "Railcam & Network Rail",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "rail"
@@ -22544,7 +22549,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=2ftRg8sxw5M"
+    "url": "https://www.youtube.com/watch?v=2ftRg8sxw5M",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 51.7532292,
@@ -23771,7 +23779,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=fZVSkTqHIcw"
+    "url": "https://www.youtube.com/watch?v=fZVSkTqHIcw",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 47.3136846,
@@ -26874,10 +26885,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "street"
     },
-    "url": "https://www.prolococamerota.it",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.prolococamerota.it"
   },
   {
     "lat": 49.5551799,
@@ -27263,7 +27271,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1160_-6299_difsn_vifsn_---rottachtal-b_0.jpg"
+    "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1160_-6299_difsn_vifsn_---rottachtal-b_0.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.6416159,
@@ -27288,7 +27299,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://wcp.bayerninfo.de/bi/jpg/si_--a0007_1180_-2950_difsn_vifsn_wertachtalbruec_0.jpg"
+    "url": "https://wcp.bayerninfo.de/bi/jpg/si_--a0007_1180_-2950_difsn_vifsn_wertachtalbruec_0.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.6047262,
