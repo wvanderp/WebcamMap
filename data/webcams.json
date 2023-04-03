@@ -2622,7 +2622,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110737"
+    "url": "http://webkamera.vegvesen.no/kamera?id=110737",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.5505704,
@@ -18834,7 +18837,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.traffictt.com/camera/traffic-camera/north/curepe/kaydonna-flyover/"
+    "url": "https://www.traffictt.com/camera/traffic-camera/north/curepe/kaydonna-flyover/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.5574344,
@@ -19222,7 +19228,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "http://verkehr.rlp.de/syncdata/cam/1370/thumb_640x480.jpg?"
+    "url": "http://verkehr.rlp.de/syncdata/cam/1370/thumb_640x480.jpg?",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.3603445,
@@ -28577,7 +28586,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=3200a76b008000d30050fa36c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=3200a76b008000d30050fa36c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.4158622,
@@ -32346,7 +32358,6 @@
     "lastChanged": 1657471236000,
     "address": {
       "city": "Triesenberg",
-      "county": "Oberland",
       "country": "Liechtenstein"
     },
     "osmTags": {
@@ -37478,7 +37489,7 @@
     "lastChanged": 1677982606000,
     "address": {
       "city": "Lone Pine",
-      "county": "Inyo County",
+      "county": "CAL Fire San Bernardino Unit",
       "state": "California",
       "country": "United States of America"
     },
