@@ -5109,7 +5109,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100104"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100104",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 64.925851,
@@ -8681,6 +8684,7 @@
     "lastChanged": 1639744405000,
     "address": {
       "city": "Paris",
+      "county": "Paris",
       "state": "Île-de-France",
       "country": "France"
     },
@@ -8729,9 +8733,9 @@
     "lat": 54.4389435,
     "lon": 11.1971092,
     "osmID": 3545585671,
-    "user": "DD1GJ",
+    "user": "googlenaut",
     "osmType": "node",
-    "lastChanged": 1432591971000,
+    "lastChanged": 1680595290000,
     "address": {
       "city": "Fehmarn",
       "county": "Ostholstein",
@@ -8740,12 +8744,9 @@
     },
     "osmTags": {
       "surveillance": "webcam",
-      "website": "http://www.michael-majewski.de/webcam/marktplatz/current.jpg"
+      "website": "https://www.stadtfehmarn.de/Leben-auf-Fehmarn/Webcams/?&La=1"
     },
-    "url": "http://www.michael-majewski.de/webcam/marktplatz/current.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.stadtfehmarn.de/Leben-auf-Fehmarn/Webcams/?&La=1"
   },
   {
     "lat": 41.3598305,
@@ -8916,7 +8917,10 @@
       "website": "https://www.stuttgart.de/rosensteintunnel/item/show/563414"
     },
     "operator": "Landeshauptstadt Stuttgart",
-    "url": "https://www.stuttgart.de/rosensteintunnel/item/show/563414"
+    "url": "https://www.stuttgart.de/rosensteintunnel/item/show/563414",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.7992228,
@@ -26751,7 +26755,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://youtu.be/l5o7WdZQaQI"
+    "url": "https://youtu.be/l5o7WdZQaQI",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 45.8296797,
