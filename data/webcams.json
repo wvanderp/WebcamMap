@@ -1576,7 +1576,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=127262"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=127262"
+    "url": "http://webkamera.vegvesen.no/kamera?id=127262",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.572475,
@@ -38331,5 +38334,27 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.haus-bayerischer-wald.de/"
+  },
+  {
+    "lat": 51.5778855,
+    "lon": 6.2366429,
+    "osmID": 10795652398,
+    "user": "rurseekatze",
+    "osmType": "node",
+    "lastChanged": 1680977959000,
+    "address": {
+      "city": "Kevelaer",
+      "county": "Kreis Kleve",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.kevelaer.de/stadtwerke/inhalt/webcam-solegarten/",
+      "man_made": "surveillance",
+      "name": "Solegarten Sankt Jakob",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.kevelaer.de/stadtwerke/inhalt/webcam-solegarten/"
   }
 ]
