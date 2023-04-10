@@ -4888,7 +4888,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100113"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100113"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100113",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.8841935,
@@ -12700,8 +12703,7 @@
     "osmType": "node",
     "lastChanged": 1485339411000,
     "address": {
-      "city": "Kastelruth - Castelrotto",
-      "county": "Bolzano - Bozen",
+      "county": "Kastelruth - Castelrotto",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -21433,7 +21435,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Growind",
-    "url": "https://camera.growind.nl:9095/jpg/1/image.jpg"
+    "url": "https://camera.growind.nl:9095/jpg/1/image.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.865848,
