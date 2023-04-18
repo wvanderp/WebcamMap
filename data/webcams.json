@@ -12868,8 +12868,8 @@
     "osmType": "node",
     "lastChanged": 1491150065000,
     "address": {
-      "city": "Kastelruth - Castelrotto",
-      "county": "Bolzano - Bozen",
+      "city": "Telfen - Lanzin",
+      "county": "Kastelruth - Castelrotto",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -19615,15 +19615,19 @@
     "osmID": 7814027611,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1597441460000,
+    "lastChanged": 1681724821000,
     "address": {
       "city": "Rotterdam",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:type": "panning",
       "contact:webcam": "https://webcam-rotterdam.nl/pages/cameras/de-esch.php",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "name": "Webcam Rotterdam - De Esch",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "url": "https://webcam-rotterdam.nl/pages/cameras/de-esch.php"
   },
@@ -20062,7 +20066,7 @@
     "osmID": 7824407290,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1628414344000,
+    "lastChanged": 1681724585000,
     "address": {
       "city": "Rockanje",
       "state": "Zuid-Holland",
@@ -20073,6 +20077,7 @@
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=0q04F-t7sbU",
+      "fixme": "seams to be offline",
       "man_made": "surveillance",
       "name": "Rockanje Strand 1e slag",
       "name:en": "Rockanje Beach",
@@ -23153,9 +23158,9 @@
     "lat": 48.4160672,
     "lon": 9.7837493,
     "osmID": 8627073362,
-    "user": "kdkeller",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1618381770000,
+    "lastChanged": 1681724949000,
     "address": {
       "city": "Blaubeuren",
       "county": "Alb-Donau-Kreis",
@@ -23165,20 +23170,18 @@
     "osmTags": {
       "camera:direction": "350",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
+      "contact:webcam": "http://bilder.blaubeuren.de/blaublick.jpg",
       "description": "Blick auf den Blautopf",
-      "image": "http://bilder.blaubeuren.de/blaublick.jpg",
       "man_made": "surveillance",
       "name": "Blautopf-Webcam",
       "operator": "Stadt Blaubeuren",
+      "source": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "water"
     },
     "operator": "Stadt Blaubeuren",
-    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "http://bilder.blaubeuren.de/blaublick.jpg"
   },
   {
     "lat": 48.4157978,
@@ -23205,10 +23208,7 @@
       "surveillance:type": "camera"
     },
     "operator": "Stadt Blaubeuren",
-    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam"
   },
   {
     "lat": 36.2531761,
@@ -26889,9 +26889,9 @@
     "lat": 45.9142238,
     "lon": -1.3276118,
     "osmID": 8944783350,
-    "user": "Kalepom",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1627324972000,
+    "lastChanged": 1681724516000,
     "address": {
       "city": "La Cotinière",
       "county": "Charente-Maritime",
@@ -26903,7 +26903,10 @@
       "camera:mount": "wall",
       "camera:type": "panning",
       "contact:webcam": "https://youtu.be/l5o7WdZQaQI",
+      "description": "Située sur la côte ouest, sur la commune de Saint-Pierre d'Oléron, La Cotinière est un petit coin de paradis, où il faut bon se prélasser le matin à la fraiche en admirant les pêcheurs dénouer leurs filets. A ne pas rater, la visite de la criée organisée",
+      "description:en": "Located on the west coast, in the town of Saint-Pierre d'Oléron, La Cotinière is a little corner of paradise, where you can relax in the morning in the cool, admiring the fishermen untying their nets. Do not miss the visit to the auction organized by the",
       "man_made": "surveillance",
+      "name": "Webcam Oléron - Port de la Cotinière",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -38576,12 +38579,12 @@
     "url": "https://neumarkt.panomax.com/wallersee"
   },
   {
-    "lat": 48.8117254,
-    "lon": 14.2583364,
+    "lat": 48.8113118,
+    "lon": 14.258137,
     "osmID": 10809183908,
     "user": "Jiří Podhorecký",
     "osmType": "node",
-    "lastChanged": 1681416793000,
+    "lastChanged": 1681727241000,
     "address": {
       "city": "Kladné",
       "county": "Jihočeský kraj",
@@ -38589,7 +38592,7 @@
       "country": "Czech Republic"
     },
     "osmTags": {
-      "camera:direction": "180",
+      "camera:direction": "170",
       "camera:mount": "roof",
       "camera:type": "fixed",
       "contact:webcam": "https://www.ipcamlive.com/64242023ee65b",
