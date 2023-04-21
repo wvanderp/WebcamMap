@@ -15685,9 +15685,9 @@
     "lat": 48.2257261,
     "lon": 8.3850916,
     "osmID": 5767420280,
-    "user": "SchwarzwaldLocal",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1652701843000,
+    "lastChanged": 1681806942000,
     "address": {
       "city": "Schramberg",
       "county": "Landkreis Rottweil",
@@ -15698,7 +15698,7 @@
       "camera:direction": "350",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg",
+      "contact:webcam": "https://www.schramberg.de/de/stadt/stadtinformationen/stadtportrait.php#:~:text=Ein%20Blick%20auf%20unsere%20Webcam",
       "man_made": "surveillance",
       "operator": "Stadt Schramberg",
       "operator:type": "government",
@@ -15707,10 +15707,7 @@
       "surveillance:zone": "street"
     },
     "operator": "Stadt Schramberg",
-    "url": "https://www.schramberg.de/tools/webcam/rathaus/webcam/current.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.schramberg.de/de/stadt/stadtinformationen/stadtportrait.php#:~:text=Ein%20Blick%20auf%20unsere%20Webcam"
   },
   {
     "lat": 48.2022459,
@@ -18791,7 +18788,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "http://www.dgt.es/es/el-trafico/camaras-de-trafico/huesca/n-330/pk-630.200-c.shtml"
+    "url": "http://www.dgt.es/es/el-trafico/camaras-de-trafico/huesca/n-330/pk-630.200-c.shtml",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.4363808,
@@ -19624,15 +19624,19 @@
     "osmID": 7814027611,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1597441460000,
+    "lastChanged": 1681724821000,
     "address": {
       "city": "Rotterdam",
       "state": "Zuid-Holland",
       "country": "Netherlands"
     },
     "osmTags": {
+      "camera:type": "panning",
       "contact:webcam": "https://webcam-rotterdam.nl/pages/cameras/de-esch.php",
-      "surveillance": "webcam"
+      "man_made": "surveillance",
+      "name": "Webcam Rotterdam - De Esch",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "url": "https://webcam-rotterdam.nl/pages/cameras/de-esch.php"
   },
@@ -20071,7 +20075,7 @@
     "osmID": 7824407290,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1628414344000,
+    "lastChanged": 1681724585000,
     "address": {
       "city": "Rockanje",
       "state": "Zuid-Holland",
@@ -20082,6 +20086,7 @@
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/watch?v=0q04F-t7sbU",
+      "fixme": "seams to be offline",
       "man_made": "surveillance",
       "name": "Rockanje Strand 1e slag",
       "name:en": "Rockanje Beach",
@@ -20642,36 +20647,6 @@
       "camera:type": "fixed",
       "contact:webcam": "www.asfinag.at",
       "description": "S3 - km 22,7",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "www.asfinag.at",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true,
-      "invalidUrl": true
-    }
-  },
-  {
-    "lat": 48.5798782,
-    "lon": 16.072296,
-    "osmID": 8075724354,
-    "user": "hlfan",
-    "osmType": "node",
-    "lastChanged": 1641660548000,
-    "address": {
-      "city": "Gemeinde Hollabrunn",
-      "county": "Bezirk Hollabrunn",
-      "state": "Niederösterreich",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "www.asfinag.at",
-      "description": "S3 - km 25,5",
       "man_made": "surveillance",
       "surveillance": "traffic",
       "surveillance:type": "camera",
@@ -22609,7 +22584,7 @@
     "osmID": 8532735475,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1680166322000,
+    "lastChanged": 1681637954000,
     "address": {
       "city": "Ouddorp",
       "state": "Zuid-Holland",
@@ -22618,7 +22593,7 @@
     "osmTags": {
       "camera:direction": "310",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=2ftRg8sxw5M",
+      "contact:webcam": "https://www.youtube.com/watch?v=1y2qqyjnNRA",
       "man_made": "surveillance",
       "name": "Webcam Brouwersdam Pooltje",
       "operator": "Brouwersdam cam",
@@ -22626,10 +22601,7 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=2ftRg8sxw5M",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=1y2qqyjnNRA"
   },
   {
     "lat": 51.7532292,
@@ -23198,9 +23170,9 @@
     "lat": 48.4160672,
     "lon": 9.7837493,
     "osmID": 8627073362,
-    "user": "kdkeller",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1618381770000,
+    "lastChanged": 1681724949000,
     "address": {
       "city": "Blaubeuren",
       "county": "Alb-Donau-Kreis",
@@ -23210,20 +23182,18 @@
     "osmTags": {
       "camera:direction": "350",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
+      "contact:webcam": "http://bilder.blaubeuren.de/blaublick.jpg",
       "description": "Blick auf den Blautopf",
-      "image": "http://bilder.blaubeuren.de/blaublick.jpg",
       "man_made": "surveillance",
       "name": "Blautopf-Webcam",
       "operator": "Stadt Blaubeuren",
+      "source": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "water"
     },
     "operator": "Stadt Blaubeuren",
-    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "http://bilder.blaubeuren.de/blaublick.jpg"
   },
   {
     "lat": 48.4157978,
@@ -23250,10 +23220,7 @@
       "surveillance:type": "camera"
     },
     "operator": "Stadt Blaubeuren",
-    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam"
   },
   {
     "lat": 36.2531761,
@@ -23838,7 +23805,7 @@
     "osmID": 8707243697,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1680165724000,
+    "lastChanged": 1681638328000,
     "address": {
       "county": "Hillsborough County",
       "state": "Florida",
@@ -23848,7 +23815,7 @@
       "camera:direction": "30",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=fZVSkTqHIcw",
+      "contact:webcam": "https://www.youtube.com/watch?v=2x373y8yv_c",
       "description": "You are watching a live stream of Plant City, Florida, USA, for people who enjoy watching trains. \n\nSpecial thanks to the City of Plant City and the Robert W. Willaford Railroad Museum for hosting this cam.",
       "man_made": "surveillance",
       "name": "Virtual Railfan Camera - Plant City, FL",
@@ -23856,10 +23823,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=fZVSkTqHIcw",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2x373y8yv_c"
   },
   {
     "lat": 47.3136846,
@@ -25323,6 +25287,122 @@
     "url": "https://trafficnz.info/camera/261.jpg"
   },
   {
+    "lat": -43.485345,
+    "lon": 172.630821,
+    "osmID": 8894152442,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1681597418000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/783.jpg",
+      "description": "South along SH74 Queen Elizabeth II Dr southbound off-ramp",
+      "man_made": "surveillance",
+      "name": "SH74 QEII Dr Roundabout North",
+      "ref": "783",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/783.jpg"
+  },
+  {
+    "lat": -43.4865793,
+    "lon": 172.6286696,
+    "osmID": 8894152443,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1681597418000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/782.jpg",
+      "description": "South along SH74 Queen Elizabeth II Dr northbound off-ramp",
+      "man_made": "surveillance",
+      "name": "SH74 QEII Dr Roundabout South",
+      "ref": "782",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/782.jpg"
+  },
+  {
+    "lat": -43.4747918,
+    "lon": 172.6305362,
+    "osmID": 8894152444,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1681597418000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/781.jpg",
+      "description": "South along SH74 towards Queen Elizabeth II Dr roundabout",
+      "man_made": "surveillance",
+      "name": "SH74 Prestons Rd",
+      "ref": "781",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/781.jpg"
+  },
+  {
+    "lat": -43.4679997,
+    "lon": 172.631652,
+    "osmID": 8894152445,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1681597418000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/780.jpg",
+      "description": "South along SH74 towards Styx River Bridge",
+      "man_made": "surveillance",
+      "name": "SH74 Radcliffe Rd",
+      "ref": "780",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/780.jpg"
+  },
+  {
     "lat": -43.4476815,
     "lon": 172.6464434,
     "osmID": 8894152446,
@@ -25352,12 +25432,41 @@
     "url": "https://trafficnz.info/camera/779.jpg"
   },
   {
-    "lat": -43.423207,
-    "lon": 172.649206,
+    "lat": -43.4391307,
+    "lon": 172.6473022,
+    "osmID": 8894152447,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1681597418000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://trafficnz.info/camera/778.jpg",
+      "description": "South along SH74 towards Belfast Rd",
+      "man_made": "surveillance",
+      "name": "SH74 Railway Bridge",
+      "ref": "778",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/778.jpg"
+  },
+  {
+    "lat": -43.4235596,
+    "lon": 172.6492986,
     "osmID": 8894152448,
     "user": "brevans",
     "osmType": "node",
-    "lastChanged": 1625883752000,
+    "lastChanged": 1681597418000,
     "address": {
       "city": "Christchurch",
       "county": "Christchurch City",
@@ -26792,9 +26901,9 @@
     "lat": 45.9142238,
     "lon": -1.3276118,
     "osmID": 8944783350,
-    "user": "Kalepom",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1627324972000,
+    "lastChanged": 1681724516000,
     "address": {
       "city": "La Cotinière",
       "county": "Charente-Maritime",
@@ -26806,7 +26915,10 @@
       "camera:mount": "wall",
       "camera:type": "panning",
       "contact:webcam": "https://youtu.be/l5o7WdZQaQI",
+      "description": "Située sur la côte ouest, sur la commune de Saint-Pierre d'Oléron, La Cotinière est un petit coin de paradis, où il faut bon se prélasser le matin à la fraiche en admirant les pêcheurs dénouer leurs filets. A ne pas rater, la visite de la criée organisée",
+      "description:en": "Located on the west coast, in the town of Saint-Pierre d'Oléron, La Cotinière is a little corner of paradise, where you can relax in the morning in the cool, admiring the fishermen untying their nets. Do not miss the visit to the auction organized by the",
       "man_made": "surveillance",
+      "name": "Webcam Oléron - Port de la Cotinière",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
@@ -32294,12 +32406,12 @@
     "url": "https://seerestaurant-alpenblick.de/de/livecam/"
   },
   {
-    "lat": 43.8970012,
-    "lon": 5.8371876,
+    "lat": 43.8969641,
+    "lon": 5.8372276,
     "osmID": 9545435889,
     "user": "Pa413",
     "osmType": "node",
-    "lastChanged": 1646069046000,
+    "lastChanged": 1681542419000,
     "address": {
       "city": "Volx",
       "county": "Alpes-de-Haute-Provence",
@@ -32310,13 +32422,19 @@
       "camera:direction": "310",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.inforoute04.fr/",
+      "contact:webcam": "https://www.inforoute04.fr/",
+      "ele": "350",
       "man_made": "surveillance",
+      "name": "Pont du Largue (D13)",
+      "source": "Département des Alpes-de-Haute-Provence",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "http://www.inforoute04.fr/"
+    "url": "https://www.inforoute04.fr/",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 51.867295,
@@ -36560,7 +36678,7 @@
     "osmID": 10242563641,
     "user": "Pa413",
     "osmType": "node",
-    "lastChanged": 1670338869000,
+    "lastChanged": 1681542419000,
     "address": {
       "city": "Bras-d'Asse",
       "county": "Alpes-de-Haute-Provence",
@@ -36568,10 +36686,14 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "100",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.inforoute04.fr/",
+      "ele": "735",
       "man_made": "surveillance",
+      "name": "Poteau de Telle (D953)",
+      "source": "Département des Alpes-de-Haute-Provence",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -36582,12 +36704,12 @@
     }
   },
   {
-    "lat": 43.8814498,
-    "lon": 5.8510867,
+    "lat": 43.8815143,
+    "lon": 5.8514148,
     "osmID": 10242563643,
     "user": "Pa413",
     "osmType": "node",
-    "lastChanged": 1670338869000,
+    "lastChanged": 1681542419000,
     "address": {
       "city": "Villeneuve",
       "county": "Alpes-de-Haute-Provence",
@@ -36595,10 +36717,14 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "45",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.inforoute04.fr/",
+      "ele": "340",
       "man_made": "surveillance",
+      "name": "Villeneuve (D4096)",
+      "source": "Département des Alpes-de-Haute-Provence",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -36614,7 +36740,7 @@
     "osmID": 10242563644,
     "user": "Pa413",
     "osmType": "node",
-    "lastChanged": 1670338869000,
+    "lastChanged": 1681542419000,
     "address": {
       "city": "Manosque",
       "county": "Alpes-de-Haute-Provence",
@@ -36622,10 +36748,14 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "320",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.inforoute04.fr/",
+      "ele": "310",
       "man_made": "surveillance",
+      "name": "Manosque (D907)",
+      "source": "Département des Alpes-de-Haute-Provence",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -37535,30 +37665,6 @@
     "url": "https://storchencam-2.click2stream.com/"
   },
   {
-    "lat": 50.3750058,
-    "lon": 15.9139829,
-    "osmID": 10703014965,
-    "user": "vykovikor",
-    "osmType": "node",
-    "lastChanged": 1677709564000,
-    "address": {
-      "city": "Hořenice",
-      "county": "Královéhradecký kraj",
-      "state": "Severovýchod",
-      "country": "Czech Republic"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "https://api.dopravniinfo.cz/CameraImage.ashx?camera=3812&rnd=fUN3Fa6t",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://api.dopravniinfo.cz/CameraImage.ashx?camera=3812&rnd=fUN3Fa6t"
-  },
-  {
     "lat": 36.6140195,
     "lon": -118.0665182,
     "osmID": 10711318589,
@@ -38434,5 +38540,171 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://qldtraffic.qld.gov.au/index.html?cid=177&ref=tc"
+  },
+  {
+    "lat": 47.9302112,
+    "lon": 13.2002337,
+    "osmID": 10806995897,
+    "user": "pbreuss",
+    "osmType": "node",
+    "lastChanged": 1681377633000,
+    "address": {
+      "city": "Neumarkt am Wallersee",
+      "county": "Bezirk Salzburg-Umgebung",
+      "state": "Salzburg",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "360",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://neumarkt.panomax.com/wallersee",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "url": "https://neumarkt.panomax.com/wallersee"
+  },
+  {
+    "lat": 48.8113118,
+    "lon": 14.258137,
+    "osmID": 10809183908,
+    "user": "Jiří Podhorecký",
+    "osmType": "node",
+    "lastChanged": 1681727241000,
+    "address": {
+      "city": "Kladné",
+      "county": "Jihočeský kraj",
+      "state": "Jihozápad",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "170",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ipcamlive.com/64242023ee65b",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "bird_nest"
+    },
+    "url": "https://www.ipcamlive.com/64242023ee65b"
+  },
+  {
+    "lat": 44.4203923,
+    "lon": 6.3539468,
+    "osmID": 10813970307,
+    "user": "Pa413",
+    "osmType": "node",
+    "lastChanged": 1681541603000,
+    "address": {
+      "city": "Ubaye-Serre-Ponçon",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.inforoute04.fr/",
+      "ele": "1335",
+      "man_made": "surveillance",
+      "name": "Col Saint-Jean (D900)",
+      "source": "Département des Alpes-de-Haute-Provence",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.inforoute04.fr/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 44.4562465,
+    "lon": 6.3092416,
+    "osmID": 10813970316,
+    "user": "Pa413",
+    "osmType": "node",
+    "lastChanged": 1681541603000,
+    "address": {
+      "city": "Ubaye-Serre-Ponçon",
+      "county": "Alpes-de-Haute-Provence",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "265",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.inforoute04.fr/",
+      "ele": "991",
+      "man_made": "surveillance",
+      "name": "La Bréole (D900B)",
+      "source": "Département des Alpes-de-Haute-Provence",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.inforoute04.fr/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 47.6247405,
+    "lon": -122.5143401,
+    "osmID": 10821284116,
+    "user": "tobych",
+    "osmType": "node",
+    "lastChanged": 1681803696000,
+    "address": {
+      "city": "Bainbridge Island",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "135",
+      "camera:type": "fixed",
+      "contact:webcam": "https://wsdot.com/ferries/vesselwatch/cameradetail.aspx?terminalid=3",
+      "description": "Loading zone for Bainbridge Ferry Terminal, from Winslow Way to the toll booths",
+      "man_made": "surveillance",
+      "name": "SR-305 at MP 0.2: Winslow Way South",
+      "operator": "Washington State Department of Transport",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "operator": "Washington State Department of Transport",
+    "url": "https://wsdot.com/ferries/vesselwatch/cameradetail.aspx?terminalid=3"
+  },
+  {
+    "lat": 41.5197554,
+    "lon": -81.4457111,
+    "osmID": 10828168756,
+    "user": "cvieira",
+    "osmType": "node",
+    "lastChanged": 1682031370000,
+    "address": {
+      "city": "Mayfield Heights",
+      "county": "Cuyahoga County",
+      "state": "Ohio",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0 - 360",
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://itscameras.dot.state.oh.us/images/CLE/CLE201-L.jpg",
+      "man_made": "surveillance",
+      "operator": "Ohio Department of Transportation",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Ohio Department of Transportation",
+    "url": "https://itscameras.dot.state.oh.us/images/CLE/CLE201-L.jpg"
   }
 ]
