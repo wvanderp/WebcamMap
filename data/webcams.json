@@ -21376,7 +21376,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Hook Lighthouse",
-    "url": "http://89.106.143.18:120"
+    "url": "http://89.106.143.18:120",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.123722,
@@ -28207,7 +28210,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=44013f49015800b0005dd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=44013f49015800b0005dd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.700508,
@@ -33297,9 +33303,9 @@
     "lat": 46.6254577,
     "lon": 8.0969413,
     "osmID": 9569407703,
-    "user": "wvdp",
+    "user": "Christoph Lotz",
     "osmType": "node",
-    "lastChanged": 1680167299000,
+    "lastChanged": 1682262751000,
     "address": {
       "city": "Grindelwald",
       "county": "Verwaltungskreis Interlaken-Oberhasli",
@@ -33307,7 +33313,7 @@
       "country": "Switzerland"
     },
     "osmTags": {
-      "addr:country": "ch",
+      "addr:country": "CH",
       "camera:direction": "270",
       "camera:type": "fixed",
       "contact:webcam": "https://www.foto-webcam.eu/webcam/glecksteinhuette/",
