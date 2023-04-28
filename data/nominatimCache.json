@@ -28,7 +28,7 @@
       "15.8872883",
       "15.8873883"
     ],
-    "expires": 1682607749
+    "expires": 1683895647
   },
   "-24.6274496,-70.404623": {
     "place_id": 111821572,
@@ -63,6 +63,38 @@
       "-70.4030591"
     ],
     "expires": 1682752370
+  },
+  "-27.3407969,153.0752255": {
+    "place_id": 289058002,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1006855542,
+    "lat": "-27.34091418109347",
+    "lon": "153.0753405751795",
+    "display_name": "Boondall, Greater Brisbane, Queensland, 4029, Australia",
+    "address": {
+      "suburb": "Boondall",
+      "city_district": "Boondall",
+      "district": "Greater Brisbane",
+      "state": "Queensland",
+      "ISO3166-2-lvl4": "AU-QLD",
+      "postcode": "4029",
+      "country": "Australia",
+      "country_code": "au"
+    },
+    "extratags": {
+      "lanes": "2",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "cycleway:left": "no"
+    },
+    "boundingbox": [
+      "-27.3416667",
+      "-27.3405406",
+      "153.0749765",
+      "153.0765984"
+    ],
+    "expires": 1683931776
   },
   "-28.0859656,153.4259152": {
     "place_id": 350392785,
@@ -101,16 +133,16 @@
     "expires": 1682871934
   },
   "-28.1483161,151.9453553": {
-    "place_id": 150269798,
+    "place_id": 89217887,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 186295486,
-    "lat": "-28.14902855",
-    "lon": "151.94322804581208",
-    "display_name": "Warwick Airport, Gus Mauch Road, Massie, Southern Downs Regional, Queensland, Australia",
+    "osm_type": "node",
+    "osm_id": 8690453895,
+    "lat": "-28.1483161",
+    "lon": "151.9453553",
+    "display_name": "warwick gliding club webcam, Massie - Bony Mountain Road, Massie, Southern Downs Regional, Queensland, Australia",
     "address": {
-      "aeroway": "Warwick Airport",
-      "road": "Gus Mauch Road",
+      "man_made": "warwick gliding club webcam",
+      "road": "Massie - Bony Mountain Road",
       "city_district": "Massie",
       "municipality": "Southern Downs Regional",
       "state": "Queensland",
@@ -119,15 +151,21 @@
       "country_code": "au"
     },
     "extratags": {
-      "ele": "465"
+      "operator": "GLIDING WARWICK CLUB",
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.warwickgliding.org/index.php/about-us/webcams",
+      "camera:direction": "240",
+      "surveillance:type": "camera",
+      "surveillance:zone": "airfield"
     },
     "boundingbox": [
-      "-28.1517114",
-      "-28.1464248",
-      "151.9334836",
-      "151.9529813"
+      "-28.1483661",
+      "-28.1482661",
+      "151.9453053",
+      "151.9454053"
     ],
-    "expires": 1682658501
+    "expires": 1683861850
   },
   "-3.3721572,38.5966014": {
     "place_id": 80743674,
@@ -493,7 +531,7 @@
       "148.4551959",
       "148.4552959"
     ],
-    "expires": 1682573370
+    "expires": 1683816081
   },
   "-35.9060452,148.4498761": {
     "place_id": 357200066,
@@ -884,7 +922,7 @@
       "148.3874734",
       "148.3875853"
     ],
-    "expires": 1682578907
+    "expires": 1683937614
   },
   "-36.4110242,148.4004585": {
     "place_id": 167150930,
@@ -1088,44 +1126,6 @@
     ],
     "expires": 1682873805
   },
-  "-43.423207,172.649206": {
-    "place_id": 91636171,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8894152448,
-    "lat": "-43.423207",
-    "lon": "172.649206",
-    "display_name": "SH1 Chaneys Rd Off-ramp, Christchurch Northern Motorway, Bridgend, Papanui-Innes Community, Christchurch, Christchurch City, Canterbury, 7630, New Zealand/Aotearoa",
-    "address": {
-      "man_made": "SH1 Chaneys Rd Off-ramp",
-      "road": "Christchurch Northern Motorway",
-      "suburb": "Bridgend",
-      "city_district": "Papanui-Innes Community",
-      "city": "Christchurch",
-      "county": "Christchurch City",
-      "state": "Canterbury",
-      "ISO3166-2-lvl4": "NZ-CAN",
-      "postcode": "7630",
-      "country": "New Zealand/Aotearoa",
-      "country_code": "nz"
-    },
-    "extratags": {
-      "description": "South along SH1 from Chaneys Off-ramp towards Northern Corridor Off-ramp",
-      "camera:mount": "pole",
-      "surveillance": "traffic",
-      "contact:webcam": "https://trafficnz.info/camera/777.jpg",
-      "camera:direction": "180",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "boundingbox": [
-      "-43.423257",
-      "-43.423157",
-      "172.649156",
-      "172.649256"
-    ],
-    "expires": 1682646443
-  },
   "-43.4235596,172.6492986": {
     "place_id": 91636171,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -1209,10 +1209,10 @@
     "osm_id": 8894152446,
     "lat": "-43.4476815",
     "lon": "172.6464434",
-    "display_name": "SH74 Factory Rd, Christchurch Northern Corridor, Ouruhia, Papanui-Innes Community, Christchurch, Christchurch City, Canterbury, 8051, New Zealand/Aotearoa",
+    "display_name": "SH74 Factory Rd, Christchurch Northern Corridor Shared Path, Ouruhia, Papanui-Innes Community, Christchurch, Christchurch City, Canterbury, 8051, New Zealand/Aotearoa",
     "address": {
       "man_made": "SH74 Factory Rd",
-      "road": "Christchurch Northern Corridor",
+      "road": "Christchurch Northern Corridor Shared Path",
       "suburb": "Ouruhia",
       "city_district": "Papanui-Innes Community",
       "city": "Christchurch",
@@ -1239,7 +1239,7 @@
       "172.6463934",
       "172.6464934"
     ],
-    "expires": 1682589726
+    "expires": 1683924554
   },
   "-43.4679997,172.631652": {
     "place_id": 92599730,
@@ -1436,6 +1436,45 @@
     ],
     "expires": 1682942966
   },
+  "-43.5639069,172.5329395": {
+    "place_id": 93141033,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8894152381,
+    "lat": "-43.5639069",
+    "lon": "172.5329395",
+    "display_name": "SH76 Halswell Junction Rd, Little River Link, Hornby, Halswell-Hornby-Riccarton Community, Christchurch, Christchurch City, Canterbury, 7676, New Zealand/Aotearoa",
+    "address": {
+      "man_made": "SH76 Halswell Junction Rd",
+      "road": "Little River Link",
+      "suburb": "Hornby",
+      "city_district": "Halswell-Hornby-Riccarton Community",
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "ISO3166-2-lvl4": "NZ-CAN",
+      "postcode": "7676",
+      "country": "New Zealand/Aotearoa",
+      "country_code": "nz"
+    },
+    "extratags": {
+      "camera:type": "panning",
+      "description": "East along Sthn Mwy from Halswell Junction Rd Overbridge",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://trafficnz.info/camera/759.jpg",
+      "camera:direction": "90",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "-43.5639569",
+      "-43.5638569",
+      "172.5328895",
+      "172.5329895"
+    ],
+    "expires": 1683917397
+  },
   "-43.5641487,172.5261855": {
     "place_id": 92582887,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -1542,7 +1581,7 @@
       "-77.5315806",
       "-77.5314806"
     ],
-    "expires": 1682596383
+    "expires": 1683899534
   },
   "10.6356234,-61.4117307": {
     "place_id": 245026439,
@@ -2092,6 +2131,40 @@
     ],
     "expires": 1682672761
   },
+  "33.2821263,-111.8239186": {
+    "place_id": 204354314,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 436927609,
+    "lat": "33.28211860954066",
+    "lon": "-111.82413613013527",
+    "display_name": "South McQueen Road, Chandler, Maricopa County, Arizona, 85286, United States",
+    "address": {
+      "road": "South McQueen Road",
+      "city": "Chandler",
+      "county": "Maricopa County",
+      "state": "Arizona",
+      "ISO3166-2-lvl4": "US-AZ",
+      "postcode": "85286",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "lanes": "5",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "smoothness": "good",
+      "turn:lanes": "left|left|||",
+      "cycleway:right": "lane"
+    },
+    "boundingbox": [
+      "33.2820329",
+      "33.2821715",
+      "-111.824138",
+      "-111.8241331"
+    ],
+    "expires": 1683912278
+  },
   "33.283002,-111.8245161": {
     "place_id": 204533162,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -2124,6 +2197,39 @@
       "-111.824369"
     ],
     "expires": 1683487465
+  },
+  "33.2876619,-111.7557391": {
+    "place_id": 204587694,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 436796355,
+    "lat": "33.28766680698687",
+    "lon": "-111.75558608304253",
+    "display_name": "South Val Vista Drive, Gilbert, Maricopa County, Arizona, 85295, United States",
+    "address": {
+      "road": "South Val Vista Drive",
+      "city": "Gilbert",
+      "county": "Maricopa County",
+      "state": "Arizona",
+      "ISO3166-2-lvl4": "US-AZ",
+      "postcode": "85295",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "lanes": "5",
+      "oneway": "yes",
+      "surface": "concrete",
+      "turn:lanes": "left|left|||",
+      "cycleway:right": "lane"
+    },
+    "boundingbox": [
+      "33.2875083",
+      "33.2878482",
+      "-111.7555919",
+      "-111.755581"
+    ],
+    "expires": 1683884181
   },
   "34.1665739,132.1787434": {
     "place_id": 60759081,
@@ -2474,7 +2580,7 @@
       "-82.5562067",
       "-82.5426593"
     ],
-    "expires": 1682650922
+    "expires": 1683890579
   },
   "35.505227,138.6612167": {
     "place_id": 171134126,
@@ -2683,7 +2789,7 @@
       "14.3309659",
       "14.333178"
     ],
-    "expires": 1682604200
+    "expires": 1683942639
   },
   "35.9887413,14.3288586": {
     "place_id": 201973209,
@@ -3275,7 +3381,7 @@
       "-80.0992006",
       "-80.0788746"
     ],
-    "expires": 1682612285
+    "expires": 1683926438
   },
   "37.3035328,-79.9682348": {
     "place_id": 101627571,
@@ -3722,7 +3828,7 @@
       "-90.8260433",
       "-90.8194256"
     ],
-    "expires": 1682617631
+    "expires": 1683935444
   },
   "38.4845955,-90.7550138": {
     "place_id": 213458259,
@@ -4570,7 +4676,7 @@
       "-77.2845608",
       "-77.284396"
     ],
-    "expires": 1682586916
+    "expires": 1683830856
   },
   "39.2769915,-77.3233063": {
     "place_id": 293422796,
@@ -4909,7 +5015,7 @@
       "-77.4238521",
       "-77.412361"
     ],
-    "expires": 1682612533
+    "expires": 1683942209
   },
   "39.3992055,-77.4277274": {
     "place_id": 17089224,
@@ -5109,7 +5215,7 @@
       "-77.4057099",
       "-77.4035839"
     ],
-    "expires": 1682582197
+    "expires": 1683910061
   },
   "39.4538184,-79.2082015": {
     "place_id": 131395031,
@@ -5631,6 +5737,78 @@
     ],
     "expires": 1682663085
   },
+  "39.5556052,-104.8715144": {
+    "place_id": 360443986,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766456681,
+    "lat": "39.5556052",
+    "lon": "-104.8715144",
+    "display_name": "MP 026.15 WB, E470, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 026.15 WB",
+      "road": "E470",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77820/1892779928",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5555552",
+      "39.5556552",
+      "-104.8715644",
+      "-104.8714644"
+    ],
+    "expires": 1683944641
+  },
+  "39.5558748,-104.8772734": {
+    "place_id": 360444167,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766472068,
+    "lat": "39.5558748",
+    "lon": "-104.8772734",
+    "display_name": "MP 025.85 EB, E470, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 025.85 EB",
+      "road": "E470",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87899,39.55731,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77497/2454846098",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5558248",
+      "39.5559248",
+      "-104.8773234",
+      "-104.8772234"
+    ],
+    "expires": 1683785519
+  },
   "39.5560826,-104.871845": {
     "place_id": 78620247,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -5702,6 +5880,42 @@
       "-104.8704274"
     ],
     "expires": 1683016726
+  },
+  "39.5564713,-104.874094": {
+    "place_id": 360443840,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766441791,
+    "lat": "39.5564713",
+    "lon": "-104.874094",
+    "display_name": "MP 025.95 WB, CO-470 Multi Use Trail, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 025.95 WB",
+      "road": "CO-470 Multi Use Trail",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.87364,39.55598,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77572/2885101072",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5564213",
+      "39.5565213",
+      "-104.874144",
+      "-104.874044"
+    ],
+    "expires": 1683838532
   },
   "39.5570324,2.6226253": {
     "place_id": 119572477,
@@ -5795,6 +6009,112 @@
     ],
     "expires": 1682755908
   },
+  "39.5588077,-104.8811387": {
+    "place_id": 360444308,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766475454,
+    "lat": "39.5588077",
+    "lon": "-104.8811387",
+    "display_name": "MP 025.55 WB, CO 470, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 025.55 WB",
+      "road": "CO 470",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.88224,39.55952,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77950/910748573",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5587577",
+      "39.5588577",
+      "-104.8811887",
+      "-104.8810887"
+    ],
+    "expires": 1683908716
+  },
+  "39.5589115,-105.0063937": {
+    "place_id": 360453374,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766720593,
+    "lat": "39.5589115",
+    "lon": "-105.0063937",
+    "display_name": "MP 018.55, CO 470, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 018.55",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78006/961280011",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5588615",
+      "39.5589615",
+      "-105.0064437",
+      "-105.0063437"
+    ],
+    "expires": 1683807468
+  },
+  "39.5595433,-104.9966603": {
+    "place_id": 360453373,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766720592,
+    "lat": "39.5595433",
+    "lon": "-104.9966603",
+    "display_name": "MP 019.00, CO 470, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 019.00",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.00783,39.55978,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77656/48554349",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5594933",
+      "39.5595933",
+      "-104.9967103",
+      "-104.9966103"
+    ],
+    "expires": 1683936923
+  },
   "39.5601686,-105.1089093": {
     "place_id": 84169926,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -5828,6 +6148,75 @@
       "-105.1088593"
     ],
     "expires": 1682682081
+  },
+  "39.5605613,-105.0083732": {
+    "place_id": 360453375,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766720594,
+    "lat": "39.5605613",
+    "lon": "-105.0083732",
+    "display_name": "MP 018.40, CO 470, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 018.40",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78068/3515893519",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5605113",
+      "39.5606113",
+      "-105.0084232",
+      "-105.0083232"
+    ],
+    "expires": 1683914333
+  },
+  "39.5605814,-104.9417156": {
+    "place_id": 360449694,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766576280,
+    "lat": "39.5605814",
+    "lon": "-104.9417156",
+    "display_name": "MP 022.10, South Colorado Boulevard, Douglas County, Colorado, 80126, United States",
+    "address": {
+      "man_made": "MP 022.10",
+      "road": "South Colorado Boulevard",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80126",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.94447,39.5609,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77692/4112903696",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5605314",
+      "39.5606314",
+      "-104.9417656",
+      "-104.9416656"
+    ],
+    "expires": 1683891359
   },
   "39.5607592,-104.932597": {
     "place_id": 78836894,
@@ -5864,6 +6253,76 @@
     ],
     "expires": 1682726429
   },
+  "39.56093,-104.959572": {
+    "place_id": 360450602,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766663326,
+    "lat": "39.56093",
+    "lon": "-104.959572",
+    "display_name": "1 MP 003.00 NB, South University Boulevard, Douglas County, Colorado, 80126, United States",
+    "address": {
+      "man_made": "1 MP 003.00 NB",
+      "road": "South University Boulevard",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80126",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/439/908211949",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.56088",
+      "39.56098",
+      "-104.959622",
+      "-104.959522"
+    ],
+    "expires": 1683809401
+  },
+  "39.5618734,-105.0154168": {
+    "place_id": 360453377,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766720596,
+    "lat": "39.5618734",
+    "lon": "-105.0154168",
+    "display_name": "MP 018.00, CO 470, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 018.00",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01976,39.56277,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77969/3064048637",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5618234",
+      "39.5619234",
+      "-105.0154668",
+      "-105.0153668"
+    ],
+    "expires": 1683841874
+  },
   "39.5619248,-105.124239": {
     "place_id": 67100790,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -5898,6 +6357,41 @@
     ],
     "expires": 1683167728
   },
+  "39.5620102,-104.927895": {
+    "place_id": 360449298,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766603415,
+    "lat": "39.5620102",
+    "lon": "-104.927895",
+    "display_name": "MP 022.90 WB, CO 470, Douglas County, Colorado, 80126, United States",
+    "address": {
+      "man_made": "MP 022.90 WB",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80126",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.92914,39.56042,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77570/1182391207",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5619602",
+      "39.5620602",
+      "-104.927945",
+      "-104.927845"
+    ],
+    "expires": 1683920133
+  },
   "39.5627462,-104.944904": {
     "place_id": 360449814,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -5931,7 +6425,78 @@
       "-104.944954",
       "-104.944854"
     ],
-    "expires": 1682577060
+    "expires": 1683891789
+  },
+  "39.5627838,-104.9865014": {
+    "place_id": 360452213,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766705834,
+    "lat": "39.5627838",
+    "lon": "-104.9865014",
+    "display_name": "2 MP 001.00, South Broadway, Douglas County, Colorado, 80122, United States",
+    "address": {
+      "man_made": "2 MP 001.00",
+      "road": "South Broadway",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80122",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/417/908211949",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5627338",
+      "39.5628338",
+      "-104.9865514",
+      "-104.9864514"
+    ],
+    "expires": 1683920966
+  },
+  "39.5630171,-104.9041789": {
+    "place_id": 360444947,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766475154,
+    "lat": "39.5630171",
+    "lon": "-104.9041789",
+    "display_name": "MP 003.00 NB, South Quebec Street, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 003.00 NB",
+      "road": "South Quebec Street",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/410/2771375415",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5629671",
+      "39.5630671",
+      "-104.9042289",
+      "-104.9041289"
+    ],
+    "expires": 1683851478
   },
   "39.563051,-104.9599806": {
     "place_id": 360450601,
@@ -5966,7 +6531,77 @@
       "-104.9600306",
       "-104.9599306"
     ],
-    "expires": 1682584652
+    "expires": 1683926230
+  },
+  "39.5631538,-104.92245": {
+    "place_id": 360449072,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766599281,
+    "lat": "39.5631538",
+    "lon": "-104.92245",
+    "display_name": "MP 023.15 WB, CO 470, Douglas County, Colorado, 80130, United States",
+    "address": {
+      "man_made": "MP 023.15 WB",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80130",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.92117,39.56211,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78066/2142215068",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5631038",
+      "39.5632038",
+      "-104.9225",
+      "-104.9224"
+    ],
+    "expires": 1683815445
+  },
+  "39.5636449,-104.966958": {
+    "place_id": 77753118,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7495436374,
+    "lat": "39.5636449",
+    "lon": "-104.966958",
+    "display_name": "MP 020.75, CO 470, Douglas County, Colorado, 80126, United States",
+    "address": {
+      "man_made": "MP 020.75",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80126",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96788,39.56284,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/78178/2184178901",
+      "camera:direction": "0;90;180;275",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5635949",
+      "39.5636949",
+      "-104.967008",
+      "-104.966908"
+    ],
+    "expires": 1683892182
   },
   "39.5638663,2.6688967": {
     "place_id": 119860314,
@@ -5996,6 +6631,77 @@
       "2.6694065"
     ],
     "expires": 1682878337
+  },
+  "39.5641442,-104.9050755": {
+    "place_id": 360444782,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766423184,
+    "lat": "39.5641442",
+    "lon": "-104.9050755",
+    "display_name": "MP 024.10 WB, C-470 Multi Use Trail, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 024.10 WB",
+      "road": "C-470 Multi Use Trail",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77778/2743249197",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5640942",
+      "39.5641942",
+      "-104.9051255",
+      "-104.9050255"
+    ],
+    "expires": 1683905224
+  },
+  "39.5642597,-104.9886615": {
+    "place_id": 360451868,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766682430,
+    "lat": "39.5642597",
+    "lon": "-104.9886615",
+    "display_name": "MP 019.55, CO 470, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 019.55",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77897/4157557301",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5642097",
+      "39.5643097",
+      "-104.9887115",
+      "-104.9886115"
+    ],
+    "expires": 1683878649
   },
   "39.564588,-104.8951505": {
     "place_id": 360444449,
@@ -6031,7 +6737,147 @@
       "-104.8952005",
       "-104.8951005"
     ],
-    "expires": 1682647724
+    "expires": 1683842340
+  },
+  "39.5647054,-104.917795": {
+    "place_id": 78620887,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7491342125,
+    "lat": "39.5647054",
+    "lon": "-104.917795",
+    "display_name": "MP 22.90, CO 470, Douglas County, Colorado, 80130, United States",
+    "address": {
+      "man_made": "MP 22.90",
+      "road": "CO 470",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80130",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/@-104.92308,39.5668,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77550/4112859682",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5646554",
+      "39.5647554",
+      "-104.917845",
+      "-104.917745"
+    ],
+    "expires": 1683917487
+  },
+  "39.5648538,-104.9885846": {
+    "place_id": 360452214,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766705835,
+    "lat": "39.5648538",
+    "lon": "-104.9885846",
+    "display_name": "150 MP 001.00, C-470 Trail, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "150 MP 001.00",
+      "road": "C-470 Trail",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.98994,39.56398,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/438/908211949",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5648038",
+      "39.5649038",
+      "-104.9886346",
+      "-104.9885346"
+    ],
+    "expires": 1683900404
+  },
+  "39.5648763,-105.0101039": {
+    "place_id": 360453376,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766720595,
+    "lat": "39.5648763",
+    "lon": "-105.0101039",
+    "display_name": "51 MP 001.00, Lucent Boulevard, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "51 MP 001.00",
+      "road": "Lucent Boulevard",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-105.01194,39.55859,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/426/2234927265",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5648263",
+      "39.5649263",
+      "-105.0101539",
+      "-105.0100539"
+    ],
+    "expires": 1683947342
+  },
+  "39.5652423,-104.9741318": {
+    "place_id": 360451866,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766682425,
+    "lat": "39.5652423",
+    "lon": "-104.9741318",
+    "display_name": "MP 020.35, C-470 Trail, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 020.35",
+      "road": "C-470 Trail",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96788,39.56284,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77791/3158729696",
+      "camera:direction": "0;90;180;275",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5651923",
+      "39.5652923",
+      "-104.9741818",
+      "-104.9740818"
+    ],
+    "expires": 1683915672
   },
   "39.5656496,-104.8716585": {
     "place_id": 84207004,
@@ -6068,6 +6914,77 @@
     ],
     "expires": 1682699398
   },
+  "39.5657162,-104.9810453": {
+    "place_id": 360451867,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766682426,
+    "lat": "39.5657162",
+    "lon": "-104.9810453",
+    "display_name": "MP 019.95, C-470 Trail, Douglas County, Colorado, 80129, United States",
+    "address": {
+      "man_made": "MP 019.95",
+      "road": "C-470 Trail",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80129",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.99002,39.56138,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77784/3297724809",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5656662",
+      "39.5657662",
+      "-104.9810953",
+      "-104.9809953"
+    ],
+    "expires": 1683892892
+  },
+  "39.5657935,-104.9041247": {
+    "place_id": 360448746,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766595375,
+    "lat": "39.5657935",
+    "lon": "-104.9041247",
+    "display_name": "MP 004.00 NB, East County Line Road, Lone Tree, Douglas County, Colorado, 80124, United States",
+    "address": {
+      "man_made": "MP 004.00 NB",
+      "road": "East County Line Road",
+      "village": "Lone Tree",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80124",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.90236,39.56376,17?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/409/908211949",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5657435",
+      "39.5658435",
+      "-104.9041747",
+      "-104.9040747"
+    ],
+    "expires": 1683844367
+  },
   "39.5658932,-104.9415535": {
     "place_id": 360449695,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -6099,7 +7016,42 @@
       "-104.9416035",
       "-104.9415035"
     ],
-    "expires": 1682592353
+    "expires": 1683877235
+  },
+  "39.5659638,-104.9602457": {
+    "place_id": 360451865,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10766682424,
+    "lat": "39.5659638",
+    "lon": "-104.9602457",
+    "display_name": "MP 000.10, East County Line Road, Douglas County, Colorado, 80126, United States",
+    "address": {
+      "man_made": "MP 000.10",
+      "road": "East County Line Road",
+      "county": "Douglas County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80126",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "camera:type": "dome",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://maps.cotrip.org/camera/78166/@-104.96383,39.56061,16?show=normalCameras,winterDriving,roadReports,plowLocations,weatherRadar,weatherWarnings,chainLaws#camera/77857/2423316329",
+      "camera:direction": "0;90;180;270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.5659138",
+      "39.5660138",
+      "-104.9602957",
+      "-104.9601957"
+    ],
+    "expires": 1683936807
   },
   "39.5691808,2.644923": {
     "place_id": 14993401,
@@ -6194,7 +7146,7 @@
       "2.6512066",
       "2.6513066"
     ],
-    "expires": 1682597866
+    "expires": 1683938502
   },
   "39.5786514,-105.142204": {
     "place_id": 84748910,
@@ -6228,7 +7180,7 @@
       "-105.142254",
       "-105.142154"
     ],
-    "expires": 1682630915
+    "expires": 1683945765
   },
   "39.5858456,-77.6392342": {
     "place_id": 295886417,
@@ -6292,7 +7244,7 @@
       "2.5915553",
       "2.5919562"
     ],
-    "expires": 1682579584
+    "expires": 1683944188
   },
   "39.5976477,-105.150745": {
     "place_id": 84922332,
@@ -6471,7 +7423,7 @@
       "-77.7852367",
       "-77.7825443"
     ],
-    "expires": 1682640419
+    "expires": 1683875954
   },
   "39.6228572,-105.1518981": {
     "place_id": 85042038,
@@ -7063,7 +8015,7 @@
       "-77.3863121",
       "-77.3664375"
     ],
-    "expires": 1682592505
+    "expires": 1683840650
   },
   "39.6657968,-78.9612467": {
     "place_id": 297807464,
@@ -7162,7 +8114,7 @@
       "-78.9622226",
       "-78.9621098"
     ],
-    "expires": 1682586601
+    "expires": 1683834203
   },
   "39.6746503,-105.188903": {
     "place_id": 85499699,
@@ -7330,7 +8282,7 @@
       "-78.1283099",
       "-78.1027406"
     ],
-    "expires": 1682587561
+    "expires": 1683909829
   },
   "39.6883065,-79.0921585": {
     "place_id": 306635857,
@@ -7641,6 +8593,35 @@
     ],
     "expires": 1682806031
   },
+  "39.7062432,2.7885161": {
+    "place_id": 25192744,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2714392667,
+    "lat": "39.7062525",
+    "lon": "2.7885123",
+    "display_name": "13, Plaça de la Vila, Ses Rotes, Alaró, Raiguer, Illes Balears, 07340, España",
+    "address": {
+      "house_number": "13",
+      "road": "Plaça de la Vila",
+      "neighbourhood": "Ses Rotes",
+      "town": "Alaró",
+      "county": "Raiguer",
+      "state": "Illes Balears",
+      "ISO3166-2-lvl4": "ES-IB",
+      "postcode": "07340",
+      "country": "España",
+      "country_code": "es"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "39.7062025",
+      "39.7063025",
+      "2.7884623",
+      "2.7885623"
+    ],
+    "expires": 1683939185
+  },
   "39.7076178,-77.5731804": {
     "place_id": 343421429,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -7796,7 +8777,7 @@
       "-78.320975",
       "-78.2979836"
     ],
-    "expires": 1682609243
+    "expires": 1683801498
   },
   "39.7131887,3.4701093": {
     "place_id": 145413024,
@@ -7951,7 +8932,7 @@
       "3.2358319",
       "3.2361197"
     ],
-    "expires": 1682626666
+    "expires": 1683812092
   },
   "39.7356484,3.2725984": {
     "place_id": 267660814,
@@ -8279,6 +9260,42 @@
       "2.6900086"
     ],
     "expires": 1683017106
+  },
+  "39.7953677,-86.1651185": {
+    "place_id": 56776769,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5135540075,
+    "lat": "39.7953677",
+    "lon": "-86.1651185",
+    "display_name": "CAM - 115A (Mile 114.3), I 65, Meridian Highlands, Indianapolis, Marion County, Indiana, 46202, United States",
+    "address": {
+      "man_made": "CAM - 115A (Mile 114.3)",
+      "road": "I 65",
+      "neighbourhood": "Meridian Highlands",
+      "city": "Indianapolis",
+      "county": "Marion County",
+      "state": "Indiana",
+      "ISO3166-2-lvl4": "US-IN",
+      "postcode": "46202",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "description": "65/114.3 21ST ST N -- Mile 114.3",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://indot.carsprogram.org/#cameras/albumView/146?timeFrame=TODAY&layers=cameras",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "39.7953177",
+      "39.7954177",
+      "-86.1651685",
+      "-86.1650685"
+    ],
+    "expires": 1683947592
   },
   "39.7976743,2.691287": {
     "place_id": 225755800,
@@ -8779,6 +9796,43 @@
       "3.8370672"
     ],
     "expires": 1683024013
+  },
+  "40.0290885,-92.4939111": {
+    "place_id": 40577518,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3211647589,
+    "lat": "40.0290885",
+    "lon": "-92.4939111",
+    "display_name": "La Plata West, Missouri, USA, West Cleveland Street, La Plata, Macon County, Missouri, 63549, United States",
+    "address": {
+      "man_made": "La Plata West, Missouri, USA",
+      "road": "West Cleveland Street",
+      "town": "La Plata",
+      "county": "Macon County",
+      "state": "Missouri",
+      "ISO3166-2-lvl4": "US-MO",
+      "postcode": "63549",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "operator": "Virtual Railfan",
+      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.youtube.com/watch?v=oq6nJka7hNc",
+      "camera:direction": "-130",
+      "surveillance:type": "camera",
+      "surveillance:zone": "railway"
+    },
+    "boundingbox": [
+      "40.0290385",
+      "40.0291385",
+      "-92.4939611",
+      "-92.4938611"
+    ],
+    "expires": 1683917890
   },
   "40.0291012,-92.4938428": {
     "place_id": 40119284,
@@ -10268,7 +11322,7 @@
       "14.7928808",
       "14.7929808"
     ],
-    "expires": 1682605222
+    "expires": 1683925224
   },
   "41.9202589,-89.0729077": {
     "place_id": 94675463,
@@ -10415,7 +11469,7 @@
       "14.9956865",
       "14.9957865"
     ],
-    "expires": 1682598261
+    "expires": 1683817958
   },
   "42.0043406,14.995519": {
     "place_id": 99377732,
@@ -10665,7 +11719,7 @@
       "-93.7245389",
       "-93.7244389"
     ],
-    "expires": 1682625711
+    "expires": 1683838749
   },
   "42.0230529,-93.7772423": {
     "place_id": 69275959,
@@ -11792,7 +12846,7 @@
       "-82.8988967",
       "-82.8987967"
     ],
-    "expires": 1682580074
+    "expires": 1683882862
   },
   "42.3043172,-83.0656698": {
     "place_id": 299348263,
@@ -12071,7 +13125,7 @@
       "-83.0084355",
       "-83.0083355"
     ],
-    "expires": 1682575554
+    "expires": 1683799056
   },
   "42.5347462,-0.3705321": {
     "place_id": 112935592,
@@ -12312,6 +13366,45 @@
       "-81.1504214"
     ],
     "expires": 1682816634
+  },
+  "42.9502079,-0.6661695": {
+    "place_id": 78387332,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7425418126,
+    "lat": "42.9502946",
+    "lon": "-0.6660394",
+    "display_name": "Refuge de l'Abérouat, Chemin de l'Abérouat - Sentier Principal, Cabane d'Artichac (Ruine), Lescun, Oloron-Sainte-Marie, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64490, France",
+    "address": {
+      "tourism": "Refuge de l'Abérouat",
+      "road": "Chemin de l'Abérouat - Sentier Principal",
+      "isolated_dwelling": "Cabane d'Artichac (Ruine)",
+      "village": "Lescun",
+      "municipality": "Oloron-Sainte-Marie",
+      "county": "Pyrénées-Atlantiques",
+      "ISO3166-2-lvl6": "FR-64",
+      "state": "Nouvelle-Aquitaine",
+      "ISO3166-2-lvl4": "FR-NAQ",
+      "region": "France métropolitaine",
+      "postcode": "64490",
+      "country": "France",
+      "country_code": "fr"
+    },
+    "extratags": {
+      "ele": "1450",
+      "email": "aberouat.ligue64@orabge.fr",
+      "phone": "+33 5 59 34 71 67",
+      "capacity": "27",
+      "description": "2019-06 : Gite réservé en partie aux groupes, classes de découvertes et en partie aux randonneurs. Période d'ouverture : du 1/07 au 15/09. Hiver : ouvert pour groupe d'au moins 10 personnes (réservation obligatoire) Printemps : le Week-end",
+      "ref:refuges.info": "6670"
+    },
+    "boundingbox": [
+      "42.9502446",
+      "42.9503446",
+      "-0.6660894",
+      "-0.6659894"
+    ],
+    "expires": 1683839269
   },
   "42.9866862,-82.3752523": {
     "place_id": 51638725,
@@ -12731,7 +13824,7 @@
       "-82.4264176",
       "-82.4263176"
     ],
-    "expires": 1682604869
+    "expires": 1683943690
   },
   "43.0398671,6.1098674": {
     "place_id": 359065563,
@@ -13027,7 +14120,7 @@
       "-79.2020766",
       "-79.2019766"
     ],
-    "expires": 1682653379
+    "expires": 1683938114
   },
   "43.1168708,6.2483771": {
     "place_id": 238211707,
@@ -13631,6 +14724,41 @@
     ],
     "expires": 1682982027
   },
+  "43.1730783,-79.2312889": {
+    "place_id": 52102901,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4606247081,
+    "lat": "43.1730783",
+    "lon": "-79.2312889",
+    "display_name": "QEW near Niagara St, Queen Elizabeth Way, St. Catharines, Niagara Region, Golden Horseshoe, Ontario, L2N 1A1, Canada",
+    "address": {
+      "man_made": "QEW near Niagara St",
+      "road": "Queen Elizabeth Way",
+      "city": "St. Catharines",
+      "county": "Niagara Region",
+      "state_district": "Golden Horseshoe",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "L2N 1A1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "operator": "Ministry of Transportation of Ontario",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/BurlCamera/loc90.jpg",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "43.1730283",
+      "43.1731283",
+      "-79.2313389",
+      "-79.2312389"
+    ],
+    "expires": 1683832381
+  },
   "43.1731206,6.533412": {
     "place_id": 17050407,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -13737,7 +14865,7 @@
       "-79.2495403",
       "-79.2494403"
     ],
-    "expires": 1682589752
+    "expires": 1683809459
   },
   "43.1779989,-79.285274": {
     "place_id": 51874392,
@@ -14317,6 +15445,41 @@
     ],
     "expires": 1682904988
   },
+  "43.8158116,-79.1144735": {
+    "place_id": 37299316,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3040192833,
+    "lat": "43.8158116",
+    "lon": "-79.1144735",
+    "display_name": "401 *163 near Whites Road, Whites Road, Pickering, Durham Region, Golden Horseshoe, Ontario, L1V 1A6, Canada",
+    "address": {
+      "man_made": "401 *163 near Whites Road",
+      "road": "Whites Road",
+      "city": "Pickering",
+      "county": "Durham Region",
+      "state_district": "Golden Horseshoe",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "L1V 1A6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "operator": "Ministry of Transportation of Ontario",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "http://www.mtocdn.ca/english/traveller/compass/camera/pictures/loc95.jpg",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "43.8157616",
+      "43.8158616",
+      "-79.1145235",
+      "-79.1144235"
+    ],
+    "expires": 1683847489
+  },
   "43.8233344,-79.1031383": {
     "place_id": 37116977,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -14835,7 +15998,7 @@
       "-123.0299129",
       "-123.0298129"
     ],
-    "expires": 1682631491
+    "expires": 1683940621
   },
   "44.0476076,6.5944813": {
     "place_id": 152107133,
@@ -14867,7 +16030,7 @@
       "6.5940476",
       "6.5943431"
     ],
-    "expires": 1682615385
+    "expires": 1683913203
   },
   "44.0637726,-123.0497846": {
     "place_id": 101250117,
@@ -15218,7 +16381,7 @@
     "expires": 1682762900
   },
   "45.0255736,14.5737379": {
-    "place_id": 352327915,
+    "place_id": 352327916,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 374530332,
@@ -15226,7 +16389,7 @@
     "lon": "14.573765522107024",
     "display_name": "Kula na obali, Trg bana Josipa Jelačića, Krk, Grad Krk, Primorsko-goranska županija, 51500, Hrvatska",
     "address": {
-      "historic": "Kula na obali",
+      "man_made": "Kula na obali",
       "road": "Trg bana Josipa Jelačića",
       "town": "Krk",
       "municipality": "Grad Krk",
@@ -15238,7 +16401,7 @@
     },
     "extratags": {
       "building": "yes",
-      "man_made": "tower",
+      "historic": "tower",
       "tower:type": "defensive"
     },
     "boundingbox": [
@@ -15247,7 +16410,7 @@
       "14.5737165",
       "14.573814"
     ],
-    "expires": 1682582120
+    "expires": 1683888612
   },
   "45.02618,14.5736158": {
     "place_id": 45196280,
@@ -15668,7 +16831,7 @@
       "-73.5915464",
       "-73.5914464"
     ],
-    "expires": 1682589095
+    "expires": 1683801606
   },
   "45.5702259,6.8314943": {
     "place_id": 196267345,
@@ -15705,6 +16868,36 @@
       "6.8315158"
     ],
     "expires": 1682962031
+  },
+  "45.6268287,7.9811729": {
+    "place_id": 220830149,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 543696103,
+    "lat": "45.62584995",
+    "lon": "7.975448862149035",
+    "display_name": "Riserva Naturale Speciale del Sacro Monte di Oropa, SP512, Cascina Signora, Biella, Piemonte, 13817, Italia",
+    "address": {
+      "leisure": "Riserva Naturale Speciale del Sacro Monte di Oropa",
+      "road": "SP512",
+      "farm": "Cascina Signora",
+      "city": "Biella",
+      "county": "Biella",
+      "ISO3166-2-lvl6": "IT-BI",
+      "state": "Piemonte",
+      "ISO3166-2-lvl4": "IT-21",
+      "postcode": "13817",
+      "country": "Italia",
+      "country_code": "it"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "45.6056505",
+      "45.645577",
+      "7.9351576",
+      "8.0138629"
+    ],
+    "expires": 1683828775
   },
   "45.6503731,13.7714364": {
     "place_id": 43278039,
@@ -16094,7 +17287,7 @@
       "6.6940152",
       "6.6941152"
     ],
-    "expires": 1682602979
+    "expires": 1683908490
   },
   "45.8414733,8.970053": {
     "place_id": 342420928,
@@ -17578,7 +18771,7 @@
       "-1.791674",
       "-1.791574"
     ],
-    "expires": 1682615875
+    "expires": 1683954737
   },
   "46.4982121,-84.3405452": {
     "place_id": 95005140,
@@ -17931,7 +19124,7 @@
       "11.5705071",
       "11.5706071"
     ],
-    "expires": 1682611840
+    "expires": 1683808821
   },
   "46.5574344,7.8346506": {
     "place_id": 338380278,
@@ -18069,6 +19262,46 @@
     ],
     "expires": 1682837824
   },
+  "46.614799,10.492088": {
+    "place_id": 98014869,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9569407716,
+    "lat": "46.614799",
+    "lon": "10.492088",
+    "display_name": "Piz Chavalatsch - Sulden / Vinschgau - Blick nach Südosten zum Ortler, 14, Prad am Stilfserjoch - Prato allo Stelvio, Vinschgau - Val Venosta, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 29026, Italia",
+    "address": {
+      "man_made": "Piz Chavalatsch - Sulden / Vinschgau - Blick nach Südosten zum Ortler",
+      "road": "14",
+      "city": "Prad am Stilfserjoch - Prato allo Stelvio",
+      "municipality": "Vinschgau - Val Venosta",
+      "county": "Bolzano - Bozen",
+      "ISO3166-2-lvl6": "IT-BZ",
+      "state": "Trentino-Alto Adige/Südtirol",
+      "ISO3166-2-lvl4": "IT-32",
+      "postcode": "29026",
+      "country": "Italia",
+      "country_code": "it"
+    },
+    "extratags": {
+      "ele": "2763",
+      "operator": "foto-webcam.eu",
+      "camera:type": "fixed",
+      "description": "Piz Chavalatsch,Vinschgau,Stilfs,Sulden,Südtirol,Alto Adige,Italien",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/chavalatsch/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/chavalatsch/",
+      "camera:direction": "150",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "46.614749",
+      "46.614849",
+      "10.492038",
+      "10.492138"
+    ],
+    "expires": 1683801297
+  },
   "46.6254577,8.0969413": {
     "place_id": 96910663,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -18106,7 +19339,7 @@
       "8.0968913",
       "8.0969913"
     ],
-    "expires": 1682650264
+    "expires": 1683942943
   },
   "46.6413095,12.2317042": {
     "place_id": 98132841,
@@ -18303,7 +19536,7 @@
       "7.8515999",
       "7.8516999"
     ],
-    "expires": 1682588529
+    "expires": 1683946018
   },
   "46.701102,10.506797": {
     "place_id": 140862516,
@@ -19414,6 +20647,35 @@
     ],
     "expires": 1683594361
   },
+  "46.9571106,8.6758868": {
+    "place_id": 180533669,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 310432200,
+    "lat": "46.95710975",
+    "lon": "8.675973491525053",
+    "display_name": "Sessellift Klingenstock Bergstation, Obere Stapfen, Riemenstalden, Schwyz, 6452, Schweiz/Suisse/Svizzera/Svizra",
+    "address": {
+      "building": "Sessellift Klingenstock Bergstation",
+      "road": "Obere Stapfen",
+      "hamlet": "Obere Stapfen",
+      "village": "Riemenstalden",
+      "county": "Schwyz",
+      "state": "Schwyz",
+      "ISO3166-2-lvl4": "CH-SZ",
+      "postcode": "6452",
+      "country": "Schweiz/Suisse/Svizzera/Svizra",
+      "country_code": "ch"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "46.9569951",
+      "46.9571987",
+      "8.6758285",
+      "8.6761045"
+    ],
+    "expires": 1683841867
+  },
   "46.9623438,-1.144124": {
     "place_id": 62693583,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -19662,7 +20924,7 @@
       "12.3378754",
       "12.362192"
     ],
-    "expires": 1682623924
+    "expires": 1683951806
   },
   "47.014794,12.0197608": {
     "place_id": 88857071,
@@ -20740,7 +22002,7 @@
       "17.7369401",
       "17.7370401"
     ],
-    "expires": 1682625368
+    "expires": 1683867932
   },
   "47.2177585,9.5051498": {
     "place_id": 285767780,
@@ -20768,7 +22030,7 @@
       "9.5047769",
       "9.5051846"
     ],
-    "expires": 1682574955
+    "expires": 1683842121
   },
   "47.2287334,9.1532609": {
     "place_id": 344581294,
@@ -20803,7 +22065,7 @@
       "9.1532109",
       "9.1533109"
     ],
-    "expires": 1682657931
+    "expires": 1683814078
   },
   "47.2295916,12.9942162": {
     "place_id": 143136453,
@@ -21159,7 +22421,7 @@
       "9.890494",
       "9.890594"
     ],
-    "expires": 1682637086
+    "expires": 1683950402
   },
   "47.2951738,12.4308258": {
     "place_id": 88310940,
@@ -21523,6 +22785,40 @@
     ],
     "expires": 1683497164
   },
+  "47.3604921,10.4610483": {
+    "place_id": 122636137,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 74985938,
+    "lat": "47.360602400000005",
+    "lon": "10.46117980479076",
+    "display_name": "Landgasthof Adler, 17, Hinterhornbach, Gemeinde Hinterhornbach, Bezirk Reutte, Tirol, 6646, Österreich",
+    "address": {
+      "amenity": "Landgasthof Adler",
+      "house_number": "17",
+      "road": "Hinterhornbach",
+      "village": "Hinterhornbach",
+      "city": "Gemeinde Hinterhornbach",
+      "county": "Bezirk Reutte",
+      "state": "Tirol",
+      "ISO3166-2-lvl4": "AT-7",
+      "postcode": "6646",
+      "country": "Österreich",
+      "country_code": "at"
+    },
+    "extratags": {
+      "phone": "+44 5632 318",
+      "cuisine": "regional",
+      "website": "http://www.hinterhornbach-adler.at/"
+    },
+    "boundingbox": [
+      "47.3604702",
+      "47.3606976",
+      "10.4609741",
+      "10.4613781"
+    ],
+    "expires": 1683882060
+  },
   "47.3639524,6.9589301": {
     "place_id": 342424135,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -21559,6 +22855,43 @@
       "6.9589801"
     ],
     "expires": 1682885885
+  },
+  "47.3644728,12.819649": {
+    "place_id": 88095551,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8674336827,
+    "lat": "47.3644728",
+    "lon": "12.819649",
+    "display_name": "Webcam Maishofen, Kammererstraße, Mitterhofen, Maishofen, Bezirk Zell am See, Salzburg, 5751, Österreich",
+    "address": {
+      "man_made": "Webcam Maishofen",
+      "road": "Kammererstraße",
+      "village": "Mitterhofen",
+      "county": "Bezirk Zell am See",
+      "state": "Salzburg",
+      "ISO3166-2-lvl4": "AT-5",
+      "postcode": "5751",
+      "country": "Österreich",
+      "country_code": "at"
+    },
+    "extratags": {
+      "image": "https://www.foto-webcam.eu/webcam/schlosskammer/current/1200.jpg",
+      "operator": "Schloss Kammer",
+      "camera:type": "fixed",
+      "description": "Blick Richtung Süden auf Zell am See",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/schlosskammer/",
+      "camera:direction": "200",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "47.3644228",
+      "47.3645228",
+      "12.819599",
+      "12.819699"
+    ],
+    "expires": 1683877993
   },
   "47.3705581,10.3136945": {
     "place_id": 127330126,
@@ -21748,7 +23081,7 @@
       "12.7627943",
       "12.7628943"
     ],
-    "expires": 1682636264
+    "expires": 1683949236
   },
   "47.388064,9.75051": {
     "place_id": 97620054,
@@ -21864,7 +23197,7 @@
       "9.938751",
       "9.938851"
     ],
-    "expires": 1682628558
+    "expires": 1683866109
   },
   "47.41246,11.128825": {
     "place_id": 98056729,
@@ -21902,7 +23235,7 @@
       "11.128775",
       "11.128875"
     ],
-    "expires": 1682574535
+    "expires": 1683929224
   },
   "47.4128334,19.0579978": {
     "place_id": 19363397,
@@ -22010,7 +23343,7 @@
       "19.0612954",
       "19.0613954"
     ],
-    "expires": 1682595123
+    "expires": 1683934678
   },
   "47.4165422,19.0611934": {
     "place_id": 13006631,
@@ -22128,7 +23461,7 @@
       "-122.271486",
       "-122.2701864"
     ],
-    "expires": 1682652595
+    "expires": 1683848023
   },
   "47.432947,10.263093": {
     "place_id": 97579658,
@@ -22318,6 +23651,47 @@
     ],
     "expires": 1683037248
   },
+  "47.4763104,-3.1133648": {
+    "place_id": 6339843,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 804172043,
+    "lat": "47.4763104",
+    "lon": "-3.1133648",
+    "display_name": "Quiberon - La Grande Plage, 2, Boulevard René Cassin, Port Haliguen, Quiberon, Lorient, Morbihan, Bretagne, France métropolitaine, 56170, France",
+    "address": {
+      "man_made": "Quiberon - La Grande Plage",
+      "house_number": "2",
+      "road": "Boulevard René Cassin",
+      "village": "Port Haliguen",
+      "municipality": "Lorient",
+      "county": "Morbihan",
+      "ISO3166-2-lvl6": "FR-56",
+      "state": "Bretagne",
+      "ISO3166-2-lvl4": "FR-BRE",
+      "region": "France métropolitaine",
+      "postcode": "56170",
+      "country": "France",
+      "country_code": "fr"
+    },
+    "extratags": {
+      "operator": "viewsurf",
+      "camera:type": "panning",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/13596-france-bretagne-quiberon-la-grande-plage",
+      "camera:direction": "290",
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
+    },
+    "boundingbox": [
+      "47.4762604",
+      "47.4763604",
+      "-3.1134148",
+      "-3.1133148"
+    ],
+    "expires": 1683953192
+  },
   "47.4812795,12.1960859": {
     "place_id": 87723895,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -22490,7 +23864,7 @@
       "-122.1967522",
       "-122.1942015"
     ],
-    "expires": 1682573520
+    "expires": 1683811403
   },
   "47.5026972,-122.3552219": {
     "place_id": 189201339,
@@ -22624,7 +23998,7 @@
       "19.0000302",
       "19.000375"
     ],
-    "expires": 1682595320
+    "expires": 1683907640
   },
   "47.5169444,18.9360426": {
     "place_id": 338887737,
@@ -22658,6 +24032,48 @@
       "18.9365064"
     ],
     "expires": 1682835418
+  },
+  "47.5321541,-122.1975434": {
+    "place_id": 283742328,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 964872218,
+    "lat": "47.53212464580143",
+    "lon": "-122.19747641181725",
+    "display_name": "I 405, May Creek, Renton, King County, Washington, 98056, United States",
+    "address": {
+      "road": "I 405",
+      "hamlet": "May Creek",
+      "town": "Renton",
+      "county": "King County",
+      "state": "Washington",
+      "ISO3166-2-lvl4": "US-WA",
+      "postcode": "98056",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "hgv": "designated",
+      "hov": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "bicycle": "no",
+      "surface": "asphalt",
+      "maxspeed": "60 mph",
+      "bus:lanes": "designated||",
+      "hov:lanes": "designated||",
+      "maxheight": "default",
+      "hov:minimum": "2",
+      "motorcycle:lanes": "yes||",
+      "motor_vehicle:lanes": "no||"
+    },
+    "boundingbox": [
+      "47.5285054",
+      "47.5340443",
+      "-122.1976891",
+      "-122.1963438"
+    ],
+    "expires": 1683905651
   },
   "47.5418738,19.0958648": {
     "place_id": 62065245,
@@ -23050,7 +24466,47 @@
       "10.5613974",
       "10.5616351"
     ],
-    "expires": 1682655965
+    "expires": 1683872697
+  },
+  "47.5694452,10.5912496": {
+    "place_id": 130116428,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 110547863,
+    "lat": "47.5694453",
+    "lon": "10.59130023916526",
+    "display_name": "Ruine Falkenstein, Auf dem Falkenstein, Pfronten, Landkreis Ostallgäu, Bayern, Deutschland",
+    "address": {
+      "historic": "Ruine Falkenstein",
+      "road": "Auf dem Falkenstein",
+      "town": "Pfronten",
+      "county": "Landkreis Ostallgäu",
+      "state": "Bayern",
+      "ISO3166-2-lvl4": "DE-BY",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {
+      "ele": "1277",
+      "ruins": "yes",
+      "access": "yes",
+      "heritage": "4",
+      "ref:BLfD": "D-7-77-159-30",
+      "wikidata": "Q573732",
+      "wikipedia": "de:Burg Falkenstein (Pfronten)",
+      "start_date": "1280;1434",
+      "castle_type": "castle",
+      "BLfD:criteria": "Baudenkmal",
+      "heritage:operator": "BLfD",
+      "historic:civilization": "middle-ages"
+    },
+    "boundingbox": [
+      "47.5694008",
+      "47.5694871",
+      "10.5911864",
+      "10.5914133"
+    ],
+    "expires": 1683937181
   },
   "47.5717388,7.6870859": {
     "place_id": 137803816,
@@ -24725,16 +26181,15 @@
     "expires": 1682735830
   },
   "48.0648242,11.1963232": {
-    "place_id": 179046935,
+    "place_id": 99402950,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 305784909,
-    "lat": "48.0648427",
-    "lon": "11.196405196280974",
-    "display_name": "Il Kiosko, 18, Seepromenade, Steinebach am Wörthsee, Wörthsee, Landkreis Starnberg, Bayern, 82237, Deutschland",
+    "osm_type": "node",
+    "osm_id": 9749956021,
+    "lat": "48.0648242",
+    "lon": "11.1963232",
+    "display_name": "Il Kiosko am Wörthsee, Blick Richtung Süd-Westen, Seepromenade, Steinebach am Wörthsee, Wörthsee, Landkreis Starnberg, Bayern, 82237, Deutschland",
     "address": {
-      "amenity": "Il Kiosko",
-      "house_number": "18",
+      "man_made": "Il Kiosko am Wörthsee, Blick Richtung Süd-Westen",
       "road": "Seepromenade",
       "village": "Steinebach am Wörthsee",
       "municipality": "Wörthsee",
@@ -24746,16 +26201,22 @@
       "country_code": "de"
     },
     "extratags": {
-      "website": "http://www.il-kiosko.de",
-      "wheelchair": "yes"
+      "ele": "540",
+      "operator": "foto-webcam.eu",
+      "camera:type": "fixed",
+      "description": "Die Kamera befindet sich im Ortsteil Steinebach in der Gemeinde Wörthsee an der Seepromenade.\nDer Blick zeigt nach Westen über den Wörthsee in Richtung Bachern. Der untere Teil des Kamerabildes wurde künstlich unscharf gemacht, so dass Einzelpersonen nich",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.foto-webcam.net/webcam/woerthsee/",
+      "camera:direction": "250",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "48.0647598",
-      "48.0649264",
-      "11.1962784",
-      "11.1965326"
+      "48.0647742",
+      "48.0648742",
+      "11.1962732",
+      "11.1963732"
     ],
-    "expires": 1682651213
+    "expires": 1683807425
   },
   "48.0651032,8.0151785": {
     "place_id": 129540155,
@@ -25174,7 +26635,7 @@
       "9.7263944",
       "9.7264944"
     ],
-    "expires": 1682574660
+    "expires": 1683815807
   },
   "48.2829063,8.167837": {
     "place_id": 174025133,
@@ -25237,7 +26698,7 @@
       "10.1586975",
       "10.1589711"
     ],
-    "expires": 1682627915
+    "expires": 1683912197
   },
   "48.3043176,10.1596417": {
     "place_id": 360182778,
@@ -25305,15 +26766,14 @@
     "expires": 1682889375
   },
   "48.3272432,8.2859161": {
-    "place_id": 150975483,
+    "place_id": 96156847,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 192618278,
-    "lat": "48.32716725",
-    "lon": "8.285868574476478",
-    "display_name": "Alexenhof, 2, Alexenhof, Eckenhöfe, Sankt Roman, Wolfach, Verwaltungsgemeinschaft Wolfach, Ortenaukreis, Baden-Württemberg, Deutschland",
+    "osm_type": "node",
+    "osm_id": 9439257044,
+    "lat": "48.3272432",
+    "lon": "8.2859161",
+    "display_name": "2, Alexenhof, Eckenhöfe, Sankt Roman, Wolfach, Verwaltungsgemeinschaft Wolfach, Ortenaukreis, Baden-Württemberg, Deutschland",
     "address": {
-      "building": "Alexenhof",
       "house_number": "2",
       "locality": "Alexenhof",
       "hamlet": "Eckenhöfe",
@@ -25326,14 +26786,21 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "http://alexenhof.stamm-net.de/picam/today/img_last.jpg",
+      "camera:direction": "0",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "48.3270301",
-      "48.3273119",
-      "8.2857421",
-      "8.2861285"
+      "48.3271932",
+      "48.3272932",
+      "8.2858661",
+      "8.2859661"
     ],
-    "expires": 1682593650
+    "expires": 1683891095
   },
   "48.3395956,9.6045374": {
     "place_id": 86927662,
@@ -25828,7 +27295,7 @@
       "16.1597608",
       "16.1697788"
     ],
-    "expires": 1682625284
+    "expires": 1683811103
   },
   "48.4328701,16.1640724": {
     "place_id": 264102,
@@ -26210,7 +27677,7 @@
       "16.1031393",
       "16.1075743"
     ],
-    "expires": 1682614280
+    "expires": 1683855846
   },
   "48.500956,8.0275614": {
     "place_id": 259648526,
@@ -26536,7 +28003,7 @@
       "10.2930415",
       "10.2936265"
     ],
-    "expires": 1682587191
+    "expires": 1683792183
   },
   "48.5618394,8.2231102": {
     "place_id": 66302110,
@@ -27356,7 +28823,7 @@
       "8.2652447",
       "8.2653447"
     ],
-    "expires": 1682584702
+    "expires": 1683784532
   },
   "48.6734184,10.1152968": {
     "place_id": 49268111,
@@ -27823,7 +29290,7 @@
       "9.0678008",
       "9.0679008"
     ],
-    "expires": 1682639545
+    "expires": 1683841160
   },
   "48.7266031,9.0678574": {
     "place_id": 261659781,
@@ -27996,7 +29463,37 @@
       "8.2396876",
       "8.2400382"
     ],
-    "expires": 1682658319
+    "expires": 1683931142
+  },
+  "48.7802971,12.8679138": {
+    "place_id": 152796150,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 197293046,
+    "lat": "48.7803027",
+    "lon": "12.867901057068405",
+    "display_name": "6, Silostraße, Höhenrain, Ringkofen, Plattling, Landkreis Deggendorf, Bayern, 94447, Deutschland",
+    "address": {
+      "house_number": "6",
+      "road": "Silostraße",
+      "suburb": "Höhenrain",
+      "village": "Ringkofen",
+      "town": "Plattling",
+      "county": "Landkreis Deggendorf",
+      "state": "Bayern",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "94447",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "48.7801709",
+      "48.7804345",
+      "12.8676477",
+      "12.8681544"
+    ],
+    "expires": 1683902734
   },
   "48.7992228,9.2095307": {
     "place_id": 45170000,
@@ -28033,7 +29530,7 @@
       "9.2094807",
       "9.2095807"
     ],
-    "expires": 1682622977
+    "expires": 1683868712
   },
   "48.79923,9.2095024": {
     "place_id": 44696416,
@@ -28249,7 +29746,7 @@
       "14.3588836",
       "14.3715708"
     ],
-    "expires": 1682602053
+    "expires": 1683898183
   },
   "48.8413492,12.9559212": {
     "place_id": 134244111,
@@ -28287,14 +29784,15 @@
     "expires": 1682668721
   },
   "48.8454831,13.1380119": {
-    "place_id": 353585177,
+    "place_id": 161062189,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 10556541177,
-    "lat": "48.8454831",
-    "lon": "13.1380119",
-    "display_name": "28, Hauptstraße, Ranzing, Lalling, Lalling (VGem), Landkreis Deggendorf, Bayern, 94551, Deutschland",
+    "osm_type": "way",
+    "osm_id": 225631481,
+    "lat": "48.84544265",
+    "lon": "13.138011958197023",
+    "display_name": "Verwaltungsgemeinschaft Lalling, 28, Hauptstraße, Ranzing, Lalling, Lalling (VGem), Landkreis Deggendorf, Bayern, 94551, Deutschland",
     "address": {
+      "amenity": "Verwaltungsgemeinschaft Lalling",
       "house_number": "28",
       "road": "Hauptstraße",
       "village": "Ranzing",
@@ -28307,18 +29805,19 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "panning",
-      "surveillance": "webcam",
-      "contact:webcam": "https://lalling.panomax.com/",
-      "surveillance:type": "camera"
+      "email": "poststelle@vgem-lalling.bayern.de",
+      "phone": "+49 9904 8312-0",
+      "website": "https://lalling.de/",
+      "wheelchair": "no",
+      "opening_hours": "Mo-We 08:15-12:00, Mo 13:15-16:00, We 13:15-18:00, Fr 08:15-12:15"
     },
     "boundingbox": [
-      "48.8454331",
-      "48.8455331",
-      "13.1379619",
-      "13.1380619"
+      "48.8453253",
+      "48.845534",
+      "13.1378291",
+      "13.1381948"
     ],
-    "expires": 1682592497
+    "expires": 1683838245
   },
   "48.8752717,13.0234096": {
     "place_id": 901084,
@@ -29169,7 +30668,7 @@
       "9.2182348",
       "9.2194712"
     ],
-    "expires": 1682614076
+    "expires": 1683788655
   },
   "49.2164909,13.0653038": {
     "place_id": 147923294,
@@ -29367,6 +30866,39 @@
     ],
     "expires": 1682857909
   },
+  "49.2798175,-122.919425": {
+    "place_id": 128160500,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 102254132,
+    "lat": "49.276709600000004",
+    "lon": "-122.91780296438841",
+    "display_name": "Simon Fraser University, 8888, Gaglardi Way, Burnaby, Metro Vancouver Regional District, British Columbia, V5A 1S6, Canada",
+    "address": {
+      "amenity": "Simon Fraser University",
+      "house_number": "8888",
+      "road": "Gaglardi Way",
+      "city": "Burnaby",
+      "county": "Metro Vancouver Regional District",
+      "state": "British Columbia",
+      "ISO3166-2-lvl4": "CA-BC",
+      "postcode": "V5A 1S6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "website": "https://www.sfu.ca/",
+      "wikidata": "Q201603",
+      "wikipedia": "en:Simon Fraser University"
+    },
+    "boundingbox": [
+      "49.2721516",
+      "49.2813003",
+      "-122.9336084",
+      "-122.9028692"
+    ],
+    "expires": 1683877655
+  },
   "49.3211222,8.8145079": {
     "place_id": 139118324,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -29439,7 +30971,7 @@
       "20.0922314",
       "20.0923314"
     ],
-    "expires": 1682618127
+    "expires": 1683854989
   },
   "49.3344953,20.091088": {
     "place_id": 352000111,
@@ -29511,7 +31043,7 @@
       "20.0950333",
       "20.0951333"
     ],
-    "expires": 1682595211
+    "expires": 1683873837
   },
   "49.3478842,6.1661603": {
     "place_id": 115042029,
@@ -29618,7 +31150,7 @@
       "8.7230885",
       "8.7231885"
     ],
-    "expires": 1682612514
+    "expires": 1683798086
   },
   "49.4037398,8.7283427": {
     "place_id": 134323228,
@@ -29726,7 +31258,7 @@
     "expires": 1682799548
   },
   "49.4120933,8.709292": {
-    "place_id": 125311240,
+    "place_id": 125311177,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 87428181,
@@ -29734,7 +31266,7 @@
     "lon": "8.709660614450355",
     "display_name": "Heiliggeistkirche, Fußgängerzone Altstadt, Altstadt, Heidelberg, Baden-Württemberg, 69117, Deutschland",
     "address": {
-      "historic": "Heiliggeistkirche",
+      "amenity": "Heiliggeistkirche",
       "road": "Fußgängerzone Altstadt",
       "suburb": "Altstadt",
       "city_district": "Altstadt",
@@ -29767,7 +31299,7 @@
       "8.7092063",
       "8.7101318"
     ],
-    "expires": 1682604085
+    "expires": 1683890140
   },
   "49.4133688,8.709092": {
     "place_id": 112808528,
@@ -30121,7 +31653,7 @@
       "15.0198597",
       "15.0201353"
     ],
-    "expires": 1682609686
+    "expires": 1683820652
   },
   "49.7576733,9.9537881": {
     "place_id": 23455205,
@@ -30566,7 +32098,7 @@
       "8.7824019",
       "8.78328"
     ],
-    "expires": 1682656464
+    "expires": 1683797258
   },
   "50.0470537,7.1289076": {
     "place_id": 160790431,
@@ -30958,6 +32490,34 @@
     ],
     "expires": 1683000506
   },
+  "50.2649769,10.9920921": {
+    "place_id": 204479131,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 436673330,
+    "lat": "50.264998750000004",
+    "lon": "10.992118971213355",
+    "display_name": "Tower, Zur Brandensteinsebene, Cortendorf, Coburg, Bayern, 96450, Deutschland",
+    "address": {
+      "building": "Tower",
+      "road": "Zur Brandensteinsebene",
+      "suburb": "Cortendorf",
+      "town": "Coburg",
+      "state": "Bayern",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "96450",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "50.2649634",
+      "50.2650341",
+      "10.9920644",
+      "10.9921735"
+    ],
+    "expires": 1683789385
+  },
   "50.2651301,10.9955462": {
     "place_id": 49773775,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -31273,7 +32833,7 @@
       "7.5885787",
       "7.5893355"
     ],
-    "expires": 1682642956
+    "expires": 1683861722
   },
   "50.360354,7.5888303": {
     "place_id": 110843318,
@@ -31699,7 +33259,7 @@
       "30.4988771",
       "30.4989771"
     ],
-    "expires": 1682653945
+    "expires": 1683806411
   },
   "50.4595557,16.1887135": {
     "place_id": 93201498,
@@ -32528,16 +34088,16 @@
     "expires": 1682673993
   },
   "50.8463054,4.3529973": {
-    "place_id": 120390068,
+    "place_id": 53125826,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 59917698,
-    "lat": "50.8463203",
-    "lon": "4.3533358627066825",
-    "display_name": "Maison des ducs du Brabant - Huis van de Hertogen van Brabant, Galerie Agora - Agoragalerij, Quartier Saint-Jacques - Sint-Jacobswijk, Quartier du Centre - Centrumwijk, Pentagone - Vijfhoek, Bruxelles - Brussel, Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1000, België / Belgique / Belgien",
+    "osm_type": "node",
+    "osm_id": 4666307569,
+    "lat": "50.8463054",
+    "lon": "4.3529973",
+    "display_name": "Webcam Grand-Place - Grote Markt, Grand-Place - Grote Markt, Quartier Saint-Jacques - Sint-Jacobswijk, Quartier du Centre - Centrumwijk, Pentagone - Vijfhoek, Bruxelles - Brussel, Ville de Bruxelles - Stad Brussel, Brussel-Hoofdstad - Bruxelles-Capitale, Région de Bruxelles-Capitale - Brussels Hoofdstedelijk Gewest, 1000, België / Belgique / Belgien",
     "address": {
-      "tourism": "Maison des ducs du Brabant - Huis van de Hertogen van Brabant",
-      "road": "Galerie Agora - Agoragalerij",
+      "man_made": "Webcam Grand-Place - Grote Markt",
+      "square": "Grand-Place - Grote Markt",
       "neighbourhood": "Quartier Saint-Jacques - Sint-Jacobswijk",
       "suburb": "Pentagone - Vijfhoek",
       "city_district": "Bruxelles - Brussel",
@@ -32550,19 +34110,23 @@
       "country_code": "be"
     },
     "extratags": {
-      "image": "https://images.mapillary.com/ILsU0TFNmgywlGUYiiVooN/thumb-2048.jpg",
-      "wikidata": "Q3279843",
-      "mapillary": "203697514919362",
-      "ref:UrbIS": "8187613",
-      "wikipedia": "fr:Maison des Ducs de Brabant"
+      "url:m3u8": "http://live.streamcloud.be/webbxl_live/_definst_/webcam.stream/playlist.m3u8",
+      "camera:type": "fixed",
+      "description": "The webcam at the Grand-Place of Brussels, with the City Hall at the left.",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.brussels.be/webcam-grand-place",
+      "description:es": "La cámara web en la Gran Plaza de Bruselas, con el ayuntamiento a la izquierda.",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "50.8461217",
-      "50.8465072",
-      "4.3528554",
-      "4.3536839"
+      "50.8462554",
+      "50.8463554",
+      "4.3529473",
+      "4.3530473"
     ],
-    "expires": 1682613632
+    "expires": 1683788091
   },
   "50.8484805,0.5205686": {
     "place_id": 66077420,
@@ -32772,7 +34336,7 @@
       "14.7454086",
       "14.7455909"
     ],
-    "expires": 1682619579
+    "expires": 1683887515
   },
   "50.8710368,-1.3528335": {
     "place_id": 149141802,
@@ -33050,7 +34614,7 @@
       "13.3428473",
       "13.3437803"
     ],
-    "expires": 1682640314
+    "expires": 1683838745
   },
   "50.9776772,14.599958": {
     "place_id": 57446118,
@@ -33126,7 +34690,7 @@
       "11.0246524",
       "11.0247524"
     ],
-    "expires": 1682597997
+    "expires": 1683918902
   },
   "50.9861366,5.3226395": {
     "place_id": 187914204,
@@ -33446,7 +35010,7 @@
       "14.3911737",
       "14.3912737"
     ],
-    "expires": 1682577165
+    "expires": 1683809763
   },
   "51.1128336,7.8919387": {
     "place_id": 11280696,
@@ -34539,6 +36103,37 @@
       "-0.0859134"
     ],
     "expires": 1682811009
+  },
+  "51.5133218,3.7294359": {
+    "place_id": 101842149,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 6344370,
+    "lat": "51.51275885",
+    "lon": "3.731524995775864",
+    "display_name": "Midden Zeeland, Calandweg, Arnemuiden, Middelburg, Zeeland, Nederland, 4341 RA, Nederland",
+    "address": {
+      "aeroway": "Midden Zeeland",
+      "road": "Calandweg",
+      "village": "Arnemuiden",
+      "municipality": "Middelburg",
+      "state": "Zeeland",
+      "ISO3166-2-lvl4": "NL-ZE",
+      "country": "Nederland",
+      "postcode": "4341 RA",
+      "country_code": "nl"
+    },
+    "extratags": {
+      "ele": "2",
+      "wikidata": "Q1927092"
+    },
+    "boundingbox": [
+      "51.5114906",
+      "51.5141975",
+      "3.7219651",
+      "3.7402933"
+    ],
+    "expires": 1683881190
   },
   "51.5322503,-0.1776334": {
     "place_id": 84618784,
@@ -35642,7 +37237,7 @@
       "11.1354078",
       "11.1357154"
     ],
-    "expires": 1682605667
+    "expires": 1683819654
   },
   "51.7950875,5.2493451": {
     "place_id": 92637039,
@@ -35679,7 +37274,7 @@
       "5.2492951",
       "5.2493951"
     ],
-    "expires": 1682604778
+    "expires": 1683866727
   },
   "51.7997006,10.6154496": {
     "place_id": 140428149,
@@ -37440,7 +39035,7 @@
       "4.2192453",
       "4.2193453"
     ],
-    "expires": 1682619584
+    "expires": 1683903392
   },
   "52.1018716,30.9705997": {
     "place_id": 96914125,
@@ -37509,7 +39104,7 @@
       "23.8580757",
       "23.8581757"
     ],
-    "expires": 1682622293
+    "expires": 1683784814
   },
   "52.1205514,6.2154939": {
     "place_id": 92300441,
@@ -37581,7 +39176,7 @@
       "6.2155006",
       "6.2156006"
     ],
-    "expires": 1682600725
+    "expires": 1683925957
   },
   "52.123722,-6.929467": {
     "place_id": 83914242,
@@ -37653,15 +39248,15 @@
     "expires": 1682954301
   },
   "52.1238073,-6.9294426": {
-    "place_id": 84682321,
+    "place_id": 124766058,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8420065281,
-    "lat": "52.1238073",
-    "lon": "-6.9294426",
-    "display_name": "Hook Lighthouse North, R734, Templetown ED, The Municipal District of New Ross, County Wexford, Leinster, Y34 KD93, Éire / Ireland",
+    "osm_type": "way",
+    "osm_id": 87606863,
+    "lat": "52.1237579",
+    "lon": "-6.9294594500705315",
+    "display_name": "Hook Head Lighthouse, R734, Templetown ED, The Municipal District of New Ross, County Wexford, Leinster, Y34 KD93, Éire / Ireland",
     "address": {
-      "man_made": "Hook Lighthouse North",
+      "man_made": "Hook Head Lighthouse",
       "road": "R734",
       "city_district": "Templetown ED",
       "region": "The Municipal District of New Ross",
@@ -37672,20 +39267,33 @@
       "country_code": "ie"
     },
     "extratags": {
-      "operator": "Hook Lighthouse",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "http://89.106.143.18:120",
-      "camera:direction": "0",
-      "surveillance:type": "camera"
+      "url": "https://www.irishlights.ie/tourism/our-lighthouses/hook-head.aspx",
+      "wikidata": "Q5897891",
+      "wikipedia": "en:Hook Lighthouse",
+      "seamark:name": "Hook Head Lighthouse",
+      "seamark:type": "light_major",
+      "seamark:light:range": "23",
+      "seamark:light:colour": "white",
+      "seamark:light:height": "46",
+      "seamark:light:period": "3",
+      "seamark:light:sequence": "0.1+(2.9)",
+      "seamark:landmark:height": "35",
+      "seamark:light:character": "Fl",
+      "seamark:light:reference": "A 5798",
+      "seamark:radio_station:mmsi": "992501079",
+      "seamark:fog_signal:category": "horn",
+      "seamark:radio_station:category": "ais",
+      "seamark:radar_transponder:group": "K",
+      "seamark:radar_transponder:period": "120",
+      "seamark:radar_transponder:category": "racon"
     },
     "boundingbox": [
-      "52.1237573",
-      "52.1238573",
-      "-6.9294926",
-      "-6.9293926"
+      "52.1237042",
+      "52.1238211",
+      "-6.929554",
+      "-6.9293639"
     ],
-    "expires": 1682619566
+    "expires": 1683889998
   },
   "52.1268452,6.2168119": {
     "place_id": 91623056,
@@ -37793,7 +39401,7 @@
       "6.2160311",
       "6.2161311"
     ],
-    "expires": 1682646555
+    "expires": 1683945261
   },
   "52.1496771,6.3904016": {
     "place_id": 92731326,
@@ -39260,7 +40868,7 @@
       "10.4434935",
       "10.4438661"
     ],
-    "expires": 1682655770
+    "expires": 1683895064
   },
   "52.4477491,5.8354885": {
     "place_id": 299855305,
@@ -39328,7 +40936,7 @@
       "5.8337557",
       "5.8338557"
     ],
-    "expires": 1682647098
+    "expires": 1683925204
   },
   "52.4504331,5.8311211": {
     "place_id": 91350527,
@@ -39683,7 +41291,7 @@
       "13.3200202",
       "13.3201202"
     ],
-    "expires": 1682592053
+    "expires": 1683821223
   },
   "52.5127757,13.3201328": {
     "place_id": 37060162,
@@ -40286,7 +41894,7 @@
       "9.2087961",
       "9.2088961"
     ],
-    "expires": 1682608542
+    "expires": 1683866407
   },
   "52.6391888,9.2053462": {
     "place_id": 161593649,
@@ -40363,10 +41971,9 @@
     "osm_id": 2997596337,
     "lat": "52.6395761",
     "lon": "9.2033275",
-    "display_name": "Wesertorbrücke, 19, Weserstraße, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
+    "display_name": "Wesertorbrücke, Weserstraße, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
     "address": {
       "man_made": "Wesertorbrücke",
-      "house_number": "19",
       "road": "Weserstraße",
       "suburb": "Stadtteil Nienburg",
       "town": "Nienburg/Weser",
@@ -40387,7 +41994,7 @@
       "9.2032775",
       "9.2033775"
     ],
-    "expires": 1682577508
+    "expires": 1683788003
   },
   "52.639688,9.2061923": {
     "place_id": 36129402,
@@ -40424,6 +42031,38 @@
       "9.2062423"
     ],
     "expires": 1682712705
+  },
+  "52.6412364,9.2056896": {
+    "place_id": 35033512,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2926763556,
+    "lat": "52.6412364",
+    "lon": "9.2056896",
+    "display_name": "Schloßplatz, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
+    "address": {
+      "man_made": "Schloßplatz",
+      "road": "Schloßplatz",
+      "suburb": "Stadtteil Nienburg",
+      "town": "Nienburg/Weser",
+      "county": "Landkreis Nienburg/Weser",
+      "state": "Niedersachsen",
+      "ISO3166-2-lvl4": "DE-NI",
+      "postcode": "31582",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.nienburg-in-bildern.de/index.php?bild=2"
+    },
+    "boundingbox": [
+      "52.6411864",
+      "52.6412864",
+      "9.2056396",
+      "9.2057396"
+    ],
+    "expires": 1683791224
   },
   "52.6435113,9.2068836": {
     "place_id": 36360129,
@@ -41282,6 +42921,37 @@
     ],
     "expires": 1682877253
   },
+  "53.3888207,-6.0677847": {
+    "place_id": 118910624,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 52347473,
+    "lat": "53.388736949999995",
+    "lon": "-6.067635939840543",
+    "display_name": "Club House, Middle Pier, Ben Eadair A ED, Howth, Fingal, County Dublin, Leinster, D13 E6V3, Éire / Ireland",
+    "address": {
+      "building": "Club House",
+      "road": "Middle Pier",
+      "city_district": "Ben Eadair A ED",
+      "town": "Howth",
+      "municipality": "Fingal",
+      "county": "County Dublin",
+      "ISO3166-2-lvl6": "IE-D",
+      "region": "Leinster",
+      "ISO3166-2-lvl5": "IE-L",
+      "postcode": "D13 E6V3",
+      "country": "Éire / Ireland",
+      "country_code": "ie"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "53.3885131",
+      "53.3889685",
+      "-6.0680821",
+      "-6.0672637"
+    ],
+    "expires": 1683877222
+  },
   "53.4051184,6.2041453": {
     "place_id": 174083865,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -41570,7 +43240,7 @@
       "23.8277822",
       "23.8285054"
     ],
-    "expires": 1682578326
+    "expires": 1683822293
   },
   "53.6802451,23.8616383": {
     "place_id": 193572838,
@@ -41815,7 +43485,7 @@
       "7.6716587",
       "7.6718564"
     ],
-    "expires": 1682621021
+    "expires": 1683930291
   },
   "53.7658004,7.6962093": {
     "place_id": 826053,
@@ -41882,7 +43552,7 @@
       "7.687998",
       "7.688098"
     ],
-    "expires": 1682626744
+    "expires": 1683862463
   },
   "53.7702471,7.6936644": {
     "place_id": 124953610,
@@ -42129,6 +43799,40 @@
     ],
     "expires": 1682750232
   },
+  "53.9559011,-1.0971025": {
+    "place_id": 178206327,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 301008442,
+    "lat": "53.95605185",
+    "lon": "-1.0972695376200874",
+    "display_name": "York ROC and Training Centre, Cinder Lane, Leeman Road, Clifton, York, England, YO26 4AB, United Kingdom",
+    "address": {
+      "railway": "York ROC and Training Centre",
+      "road": "Cinder Lane",
+      "neighbourhood": "Leeman Road",
+      "suburb": "Clifton",
+      "city": "York",
+      "county": "York",
+      "ISO3166-2-lvl6": "GB-YOR",
+      "state": "England",
+      "ISO3166-2-lvl4": "GB-ENG",
+      "postcode": "YO26 4AB",
+      "country": "United Kingdom",
+      "country_code": "gb"
+    },
+    "extratags": {
+      "website": "https://www.networkrail.co.uk/",
+      "operator": "Network Rail"
+    },
+    "boundingbox": [
+      "53.9553814",
+      "53.9567381",
+      "-1.0980531",
+      "-1.0963129"
+    ],
+    "expires": 1683950316
+  },
   "53.9566641,-1.0827814": {
     "place_id": 299875724,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -42230,7 +43934,7 @@
       "-3.1707011",
       "-3.1706011"
     ],
-    "expires": 1682617844
+    "expires": 1683940376
   },
   "54.0886457,12.1377827": {
     "place_id": 114779192,
@@ -42419,6 +44123,34 @@
       "8.8716725"
     ],
     "expires": 1682899845
+  },
+  "54.1359335,10.6166399": {
+    "place_id": 57339174,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5250679022,
+    "lat": "54.1358356",
+    "lon": "10.616738",
+    "display_name": "1, Markt, Eutin, Ostholstein, Schleswig-Holstein, 23701, Deutschland",
+    "address": {
+      "house_number": "1",
+      "road": "Markt",
+      "town": "Eutin",
+      "county": "Ostholstein",
+      "state": "Schleswig-Holstein",
+      "ISO3166-2-lvl4": "DE-SH",
+      "postcode": "23701",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {},
+    "boundingbox": [
+      "54.1357856",
+      "54.1358856",
+      "10.616688",
+      "10.616788"
+    ],
+    "expires": 1683853970
   },
   "54.1370351,8.8433365": {
     "place_id": 36828346,
@@ -42912,7 +44644,7 @@
       "16.0512691",
       "16.0513691"
     ],
-    "expires": 1682638900
+    "expires": 1683935075
   },
   "54.2942649,9.6798589": {
     "place_id": 40187189,
@@ -43411,7 +45143,7 @@
       "-1.4623577",
       "-1.4622577"
     ],
-    "expires": 1682620028
+    "expires": 1683787746
   },
   "54.9662137,12.5480737": {
     "place_id": 172481733,
@@ -43511,7 +45243,7 @@
       "61.3851118",
       "61.3854227"
     ],
-    "expires": 1682619410
+    "expires": 1683865888
   },
   "55.1706794,61.2960369": {
     "place_id": 18178571,
@@ -43740,14 +45472,15 @@
     "expires": 1682730553
   },
   "56.3112338,101.7508076": {
-    "place_id": 345868063,
+    "place_id": 11339297,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 78717461,
-    "lat": "56.311177799999996",
-    "lon": "101.75106624923808",
-    "display_name": "10, улица Пирогова, Энергетик жилой район, Энергетик, Братск, городской округ Братск, Иркутская область, Сибирский федеральный округ, 665709, Россия",
+    "osm_type": "node",
+    "osm_id": 1208639766,
+    "lat": "56.3112338",
+    "lon": "101.7508076",
+    "display_name": "st. Gindina, 10, улица Пирогова, Энергетик жилой район, Энергетик, Братск, городской округ Братск, Иркутская область, Сибирский федеральный округ, 665709, Россия",
     "address": {
+      "man_made": "st. Gindina",
       "house_number": "10",
       "road": "улица Пирогова",
       "residential": "Энергетик жилой район",
@@ -43762,15 +45495,20 @@
       "country_code": "ru"
     },
     "extratags": {
-      "building:levels": "14"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.teleos.ru/project/camer/ener",
+      "camera:direction": "300",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "56.3109946",
-      "56.3113609",
-      "101.7505765",
-      "101.751556"
+      "56.3111838",
+      "56.3112838",
+      "101.7507576",
+      "101.7508576"
     ],
-    "expires": 1682625831
+    "expires": 1683902707
   },
   "57.8191275,28.2933235": {
     "place_id": 11163235,
@@ -43871,7 +45609,7 @@
       "7.619965",
       "7.620065"
     ],
-    "expires": 1682581416
+    "expires": 1683898366
   },
   "58.154595,7.997479": {
     "place_id": 13632468,
@@ -43905,7 +45643,7 @@
       "7.997429",
       "7.997529"
     ],
-    "expires": 1682583030
+    "expires": 1683870137
   },
   "58.162637,8.018195": {
     "place_id": 13637074,
@@ -44136,7 +45874,7 @@
       "7.078131",
       "7.078231"
     ],
-    "expires": 1682654260
+    "expires": 1683815200
   },
   "58.5505704,5.6816748": {
     "place_id": 13545253,
@@ -44232,7 +45970,7 @@
       "6.0761465",
       "6.0762465"
     ],
-    "expires": 1682592828
+    "expires": 1683889188
   },
   "58.6265484,6.4867535": {
     "place_id": 13703434,
@@ -44447,6 +46185,42 @@
       "5.7116603"
     ],
     "expires": 1682769989
+  },
+  "58.8946942,5.7115905": {
+    "place_id": 12242575,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1260548535,
+    "lat": "58.8946942",
+    "lon": "5.7115905",
+    "display_name": "Forus, mot Stavanger, E 39, Gådeset, Hinna, Stavanger, Rogaland, 4035, Norge",
+    "address": {
+      "man_made": "Forus, mot Stavanger",
+      "road": "E 39",
+      "farm": "Gådeset",
+      "city_district": "Hinna",
+      "city": "Stavanger",
+      "county": "Rogaland",
+      "ISO3166-2-lvl4": "NO-11",
+      "postcode": "4035",
+      "country": "Norge",
+      "country_code": "no"
+    },
+    "extratags": {
+      "url": "http://webkamera.vegvesen.no/kamera?id=161086",
+      "operator": "Statens vegvesen",
+      "description": "Camera to oversee traffic on motorway",
+      "surveillance": "webcam",
+      "camera:direction": "337",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "58.8946442",
+      "58.8947442",
+      "5.7115405",
+      "5.7116405"
+    ],
+    "expires": 1683789311
   },
   "58.9396965,9.3324071": {
     "place_id": 12152126,
@@ -44674,7 +46448,7 @@
       "9.778974",
       "9.779074"
     ],
-    "expires": 1682588177
+    "expires": 1683914749
   },
   "59.117841,9.527061": {
     "place_id": 13463173,
@@ -44952,6 +46726,45 @@
     ],
     "expires": 1683408805
   },
+  "59.301183,11.6721983": {
+    "place_id": 13545398,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1417674541,
+    "lat": "59.301183",
+    "lon": "11.6721983",
+    "display_name": "Fv21 Strømsfoss (117 moh), Aremarkveien, Fangebukta, Nord-Fange, Strømsfoss, Aremark, Viken, 1798, Norge",
+    "address": {
+      "man_made": "Fv21 Strømsfoss (117 moh)",
+      "road": "Aremarkveien",
+      "neighbourhood": "Fangebukta",
+      "farm": "Nord-Fange",
+      "village": "Strømsfoss",
+      "municipality": "Aremark",
+      "county": "Viken",
+      "ISO3166-2-lvl4": "NO-30",
+      "postcode": "1798",
+      "country": "Norge",
+      "country_code": "no"
+    },
+    "extratags": {
+      "operator": "Statens vegvesen",
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109117",
+      "camera:direction": "193",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "59.301133",
+      "59.301233",
+      "11.6721483",
+      "11.6722483"
+    ],
+    "expires": 1683904844
+  },
   "59.3308149,10.3789855": {
     "place_id": 13703822,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -45025,7 +46838,7 @@
       "10.8983137",
       "10.8984137"
     ],
-    "expires": 1682609699
+    "expires": 1683921269
   },
   "59.3539447,10.3825146": {
     "place_id": 13506956,
@@ -45167,6 +46980,43 @@
       "5.448652"
     ],
     "expires": 1682922827
+  },
+  "59.4183754,24.7659655": {
+    "place_id": 229505017,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 604219721,
+    "lat": "59.418436491473095",
+    "lon": "24.76591681389883",
+    "display_name": "Peterburi tee, Luite, Kesklinna linnaosa, Tallinn, Harju maakond, 10132, Eesti",
+    "address": {
+      "road": "Peterburi tee",
+      "quarter": "Luite",
+      "suburb": "Kesklinna linnaosa",
+      "city": "Tallinn",
+      "municipality": "Tallinn",
+      "county": "Harju maakond",
+      "ISO3166-2-lvl6": "EE-37",
+      "postcode": "10132",
+      "country": "Eesti",
+      "country_code": "ee"
+    },
+    "extratags": {
+      "lit": "yes",
+      "foot": "no",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "70",
+      "sidewalk": "no"
+    },
+    "boundingbox": [
+      "59.4178562",
+      "59.4195119",
+      "24.7650997",
+      "24.7671717"
+    ],
+    "expires": 1683920633
   },
   "59.4422582,8.5036325": {
     "place_id": 13670368,
@@ -46016,6 +47866,36 @@
     ],
     "expires": 1682728751
   },
+  "60.27537,10.74855": {
+    "place_id": 13714136,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1417675013,
+    "lat": "60.27537",
+    "lon": "10.74855",
+    "display_name": "Romeriksåsen, E 16, Lunner, Viken, Norge",
+    "address": {
+      "man_made": "Romeriksåsen",
+      "road": "E 16",
+      "municipality": "Lunner",
+      "county": "Viken",
+      "ISO3166-2-lvl4": "NO-30",
+      "country": "Norge",
+      "country_code": "no"
+    },
+    "extratags": {
+      "url": "http://webkamera.vegvesen.no/kamera?id=108543",
+      "operator": "Statens vegvesen",
+      "surveillance": "webcam"
+    },
+    "boundingbox": [
+      "60.27532",
+      "60.27542",
+      "10.7485",
+      "10.7486"
+    ],
+    "expires": 1683916819
+  },
   "60.2973534,5.3272128": {
     "place_id": 13631983,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -46550,6 +48430,46 @@
     ],
     "expires": 1682884932
   },
+  "60.4611711,5.3889676": {
+    "place_id": 13740240,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1417674018,
+    "lat": "60.4611711",
+    "lon": "5.3889676",
+    "display_name": "Kv Blindheim (Bergen kommune), Blindheimsvegen, Flaktveit, Blinde, Åsane, Bergen, Vestland, 5134, Norge",
+    "address": {
+      "man_made": "Kv Blindheim (Bergen kommune)",
+      "road": "Blindheimsvegen",
+      "neighbourhood": "Flaktveit",
+      "farm": "Blinde",
+      "city_district": "Åsane",
+      "city": "Bergen",
+      "county": "Vestland",
+      "ISO3166-2-lvl4": "NO-46",
+      "postcode": "5134",
+      "country": "Norge",
+      "country_code": "no"
+    },
+    "extratags": {
+      "operator": "Statens vegvesen",
+      "check_date": "2021-06-21",
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=110811",
+      "camera:direction": "290",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "60.4611211",
+      "60.4612211",
+      "5.3889176",
+      "5.3890176"
+    ],
+    "expires": 1683928446
+  },
   "60.476269,5.352884": {
     "place_id": 13545309,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -46841,7 +48761,7 @@
       "6.6024341",
       "6.6025341"
     ],
-    "expires": 1682596397
+    "expires": 1683906810
   },
   "60.6382254,6.2029721": {
     "place_id": 13662063,
@@ -47495,7 +49415,7 @@
       "11.3630772",
       "11.3631772"
     ],
-    "expires": 1682587011
+    "expires": 1683918583
   },
   "61.1696755,10.4107463": {
     "place_id": 13598751,
@@ -48048,7 +49968,7 @@
       "11.9927265",
       "11.9928265"
     ],
-    "expires": 1682591161
+    "expires": 1683864961
   },
   "61.912007,6.58346": {
     "place_id": 13610910,
@@ -48217,6 +50137,44 @@
       "9.28493"
     ],
     "expires": 1682762314
+  },
+  "62.1470992,8.6902757": {
+    "place_id": 13549710,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1417673782,
+    "lat": "62.1470992",
+    "lon": "8.6902757",
+    "display_name": "E136 Lora (622 moh-retning Dombås), Romsdalsvegen, Lora, Øvre Haugen, Lesja, Innlandet, 2666, Norge",
+    "address": {
+      "man_made": "E136 Lora (622 moh-retning Dombås)",
+      "road": "Romsdalsvegen",
+      "quarter": "Lora",
+      "farm": "Øvre Haugen",
+      "municipality": "Lesja",
+      "county": "Innlandet",
+      "ISO3166-2-lvl4": "NO-34",
+      "postcode": "2666",
+      "country": "Norge",
+      "country_code": "no"
+    },
+    "extratags": {
+      "operator": "Statens vegvesen",
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "http://webkamera.vegvesen.no/kamera?id=109028",
+      "camera:direction": "105",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "boundingbox": [
+      "62.1470492",
+      "62.1471492",
+      "8.6902257",
+      "8.6903257"
+    ],
+    "expires": 1683808346
   },
   "62.2426575,25.7475756": {
     "place_id": 10448840,
@@ -49200,6 +51158,39 @@
     ],
     "expires": 1682839993
   },
+  "63.436483,10.3916367": {
+    "place_id": 144064633,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 165293748,
+    "lat": "63.4362214",
+    "lon": "10.391449719755418",
+    "display_name": "St. Olavs pir, Hospitalsløkkan, Midtbyen, Trondheim, Trøndelag, 7011, Norge",
+    "address": {
+      "man_made": "St. Olavs pir",
+      "road": "St. Olavs pir",
+      "quarter": "Hospitalsløkkan",
+      "suburb": "Midtbyen",
+      "city": "Trondheim",
+      "county": "Trøndelag",
+      "ISO3166-2-lvl4": "NO-50",
+      "postcode": "7011",
+      "country": "Norge",
+      "country_code": "no"
+    },
+    "extratags": {
+      "area": "yes",
+      "foot": "yes",
+      "floating": "no"
+    },
+    "boundingbox": [
+      "63.4358147",
+      "63.436546",
+      "10.3911707",
+      "10.3917506"
+    ],
+    "expires": 1683824292
+  },
   "63.4364883,10.3916471": {
     "place_id": 49073485,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
@@ -50021,7 +52012,7 @@
       "12.300763",
       "12.300863"
     ],
-    "expires": 1682591250
+    "expires": 1683951470
   },
   "64.4642645,11.4922785": {
     "place_id": 91961860,
@@ -50820,7 +52811,7 @@
       "20.7467349",
       "20.7468349"
     ],
-    "expires": 1682577111
+    "expires": 1683893325
   },
   "69.3954501,19.2796547": {
     "place_id": 14019686,
@@ -50883,7 +52874,7 @@
       "17.1530435",
       "17.1531435"
     ],
-    "expires": 1682625740
+    "expires": 1683814790
   },
   "69.5851361,20.3987632": {
     "place_id": 12546715,
