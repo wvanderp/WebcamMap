@@ -501,6 +501,29 @@
     }
   },
   {
+    "lat": 54.1488729,
+    "lon": -4.4742767,
+    "osmID": 846835051,
+    "user": "dankarran",
+    "osmType": "node",
+    "lastChanged": 1682681625000,
+    "address": {
+      "city": "Douglas",
+      "county": "Middle",
+      "country": "Isle of Man"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.gov.im/webcams/douglas-promenade/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://www.gov.im/webcams/douglas-promenade/"
+  },
+  {
     "lat": 50.6701961,
     "lon": 4.6151675,
     "osmID": 854773220,
@@ -6038,7 +6061,10 @@
       "url:webcam": "http://www.osnabrueck.de/rathauswebcam/axis-cgi/mjpg/video.cgi"
     },
     "operator": "Stadt Osnabrück",
-    "url": "http://www.osnabrueck.de/rathauswebcam/axis-cgi/mjpg/video.cgi"
+    "url": "http://www.osnabrueck.de/rathauswebcam/axis-cgi/mjpg/video.cgi",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 37.2275052,
@@ -29137,7 +29163,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=9d00e9d3000a0075004d823633235daa"
+    "url": "https://chart.maryland.gov/video/video.php?feed=9d00e9d3000a0075004d823633235daa",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.2045025,
@@ -39134,5 +39163,28 @@
       "website": "http://webcam.deg.net/?a=showcam&w=showliveimage1&o=pla"
     },
     "url": "http://webcam.deg.net/?a=showcam&w=showliveimage1&o=pla"
+  },
+  {
+    "lat": 54.1472705,
+    "lon": -4.4769561,
+    "osmID": 10852484601,
+    "user": "dankarran",
+    "osmType": "node",
+    "lastChanged": 1682681625000,
+    "address": {
+      "city": "Douglas",
+      "county": "Middle",
+      "country": "Isle of Man"
+    },
+    "osmTags": {
+      "camera:direction": "285",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.gov.im/webcams/douglas-marina/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.gov.im/webcams/douglas-marina/"
   }
 ]
