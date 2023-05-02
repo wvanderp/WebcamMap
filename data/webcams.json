@@ -6335,6 +6335,32 @@
     "url": "https://www.neuharlingersiel.de/entdecken/webcam/webcam-2-hafen-neuharlingersiel/"
   },
   {
+    "lat": 54.1431431,
+    "lon": -4.4696732,
+    "osmID": 1967695417,
+    "user": "dankarran",
+    "osmType": "node",
+    "lastChanged": 1682961807000,
+    "address": {
+      "city": "Douglas",
+      "county": "Middle",
+      "country": "Isle of Man"
+    },
+    "osmTags": {
+      "camera:direction": "345",
+      "camera:type": "fixed",
+      "contact:webcam": "https://s3-eu-west-1.amazonaws.com/mrwebcams/Bay.jpg",
+      "man_made": "surveillance",
+      "operator": "Manx Radio",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "url": "https://www.manxradio.com/webcams/"
+    },
+    "operator": "Manx Radio",
+    "url": "https://s3-eu-west-1.amazonaws.com/mrwebcams/Bay.jpg"
+  },
+  {
     "lat": 51.7838274,
     "lon": 8.8172923,
     "osmID": 2033330193,
@@ -16199,7 +16225,7 @@
     "lastChanged": 1642593373000,
     "address": {
       "city": "Baiersbronn",
-      "county": "Landkreis Freudenstadt",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -20861,7 +20887,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficscotland.org/livetrafficcameras/view/?cam=265"
+    "url": "https://trafficscotland.org/livetrafficcameras/view/?cam=265",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.8772787,
@@ -32549,10 +32578,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://i.centr.by/inforoads/en/dises/current/34",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://i.centr.by/inforoads/en/dises/current/34"
   },
   {
     "lat": 46.78261,
