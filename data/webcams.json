@@ -4866,31 +4866,33 @@
     "url": "http://webkamera.vegvesen.no/kamera?id=176375"
   },
   {
-    "lat": 61.912007,
-    "lon": 6.58346,
+    "lat": 61.9120471,
+    "lon": 6.583437,
     "osmID": 1417674769,
-    "user": "Eclogiter",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1540977424000,
+    "lastChanged": 1683016756000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
+      "camera:direction": "285",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webkamera.atlas.vegvesen.no/public/kamera?id=1429033_1",
       "man_made": "surveillance",
-      "name": "Markane",
+      "name": "Rv15 Markane (220 moh - retning Eid)",
       "operator": "Statens vegvesen",
       "ref": "110821",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110821"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110821",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://webkamera.atlas.vegvesen.no/public/kamera?id=1429033_1"
   },
   {
     "lat": 60.931527,
@@ -5403,7 +5405,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109201"
+    "url": "http://webkamera.vegvesen.no/kamera?id=109201",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 63.3408981,
@@ -7781,9 +7786,9 @@
     "lat": 51.1128987,
     "lon": 7.8921194,
     "osmID": 2975537574,
-    "user": "mahundt",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1406115472000,
+    "lastChanged": 1683015865000,
     "address": {
       "city": "Attendorn",
       "county": "Kreis Olpe",
@@ -7791,11 +7796,15 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "160",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg",
       "man_made": "surveillance",
       "name": "Webcam Biggetalsperre Hochwassserentlassung",
+      "name:en": "Webcam Biggetalsperre flood discharge",
       "surveillance": "webcam",
-      "url": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg",
-      "website": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg"
+      "surveillance:type": "camera",
+      "surveillance:zone": "dam"
     },
     "url": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg"
   },
@@ -23549,7 +23558,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Klinglbach",
+      "city": "Sankt Englmar",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -27042,9 +27051,9 @@
     "lat": 52.2909352,
     "lon": 9.5374289,
     "osmID": 8954410567,
-    "user": "jguddas",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1627398233000,
+    "lastChanged": 1683016933000,
     "address": {
       "city": "Barsinghausen",
       "county": "Region Hannover",
@@ -27052,16 +27061,17 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "200",
       "camera:type": "fixed",
-      "contact:webcam": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2",
+      "contact:webcam": "https://mfg-barsinghausen.de/index.php/wetter?view=article&id=27&catid=9",
+      "description": "Die Modellfluggruppe Barsinghausen gibt es schon über 40 Jahre. Im Süden von Hannover gelegen hat die Gruppe immer schon Modellflieger aus dem südlichen Raum Hannover angezogen, wir nennen es hier Calenberger Land oder auch Fliegen im Calenberger Land.",
       "man_made": "surveillance",
+      "name": "Webcam Modellfluggruppe Barsinghausen",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "field"
     },
-    "url": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://mfg-barsinghausen.de/index.php/wetter?view=article&id=27&catid=9"
   },
   {
     "lat": 46.481471,

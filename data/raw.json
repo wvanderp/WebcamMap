@@ -4105,22 +4105,27 @@
   {
     "type": "node",
     "id": 1417674769,
-    "lat": 61.912007,
-    "lon": 6.58346,
-    "timestamp": "2018-10-31T09:17:04Z",
-    "version": 2,
-    "changeset": 64038747,
-    "user": "Eclogiter",
-    "uid": 9019433,
+    "lat": 61.9120471,
+    "lon": 6.583437,
+    "timestamp": "2023-05-02T08:39:16Z",
+    "version": 3,
+    "changeset": 135605469,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
+      "camera:direction": "285",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webkamera.atlas.vegvesen.no/public/kamera?id=1429033_1",
       "man_made": "surveillance",
-      "name": "Markane",
+      "name": "Rv15 Markane (220 moh - retning Eid)",
       "operator": "Statens vegvesen",
       "ref": "110821",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=110821"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -6635,17 +6640,21 @@
     "id": 2975537574,
     "lat": 51.1128987,
     "lon": 7.8921194,
-    "timestamp": "2014-07-23T11:37:52Z",
-    "version": 1,
-    "changeset": 24309621,
-    "user": "mahundt",
-    "uid": 449980,
+    "timestamp": "2023-05-02T08:24:25Z",
+    "version": 2,
+    "changeset": 135604946,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
+      "camera:direction": "160",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg",
       "man_made": "surveillance",
       "name": "Webcam Biggetalsperre Hochwassserentlassung",
+      "name:en": "Webcam Biggetalsperre flood discharge",
       "surveillance": "webcam",
-      "url": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg",
-      "website": "http://www.talsperrenleitzentrale-ruhr.de/daten/internet/onlinedaten/webcam/webcam_bigge_2.jpg"
+      "surveillance:type": "camera",
+      "surveillance:zone": "dam"
     }
   },
   {
@@ -23540,17 +23549,21 @@
     "id": 8954410567,
     "lat": 52.2909352,
     "lon": 9.5374289,
-    "timestamp": "2021-07-27T15:03:53Z",
-    "version": 1,
-    "changeset": 108696448,
-    "user": "jguddas",
-    "uid": 11412251,
+    "timestamp": "2023-05-02T08:42:13Z",
+    "version": 2,
+    "changeset": 135605573,
+    "user": "wvdp",
+    "uid": 436419,
     "tags": {
+      "camera:direction": "200",
       "camera:type": "fixed",
-      "contact:webcam": "https://mfg-barsinghausen.de/index.php/wetter/wettercam-2",
+      "contact:webcam": "https://mfg-barsinghausen.de/index.php/wetter?view=article&id=27&catid=9",
+      "description": "Die Modellfluggruppe Barsinghausen gibt es schon über 40 Jahre. Im Süden von Hannover gelegen hat die Gruppe immer schon Modellflieger aus dem südlichen Raum Hannover angezogen, wir nennen es hier Calenberger Land oder auch Fliegen im Calenberger Land.",
       "man_made": "surveillance",
+      "name": "Webcam Modellfluggruppe Barsinghausen",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "field"
     }
   },
   {
