@@ -2470,7 +2470,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109105"
+    "url": "http://webkamera.vegvesen.no/kamera?id=109105",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 61.9263356,
@@ -4326,7 +4329,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109117"
+    "url": "http://webkamera.vegvesen.no/kamera?id=109117",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 70.5291984,
@@ -4354,7 +4360,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110389"
+    "url": "http://webkamera.vegvesen.no/kamera?id=110389",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.6665043,
@@ -23410,12 +23419,12 @@
     "url": "http://202.87.238.166/live/index.html?Language=0&ViewMode=pull"
   },
   {
-    "lat": 47.5445597,
-    "lon": 12.9726363,
+    "lat": 47.5445466,
+    "lon": 12.9726321,
     "osmID": 8662560764,
-    "user": "kdkeller",
+    "user": "k127",
     "osmType": "node",
-    "lastChanged": 1619292211000,
+    "lastChanged": 1684073345000,
     "address": {
       "city": "Schönau am Königssee",
       "county": "Landkreis Berchtesgadener Land",
@@ -39311,5 +39320,200 @@
       "surveillance:zone": "town"
     },
     "url": "https://www.gov.im/webcams/douglas-marina/"
+  },
+  {
+    "lat": 45.7967531,
+    "lon": 24.1509154,
+    "osmID": 10895588210,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam6.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 1",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam1.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam6.jpg"
+  },
+  {
+    "lat": 45.79681,
+    "lon": 24.1510877,
+    "osmID": 10895588211,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam1.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 2",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam2.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam1.jpg"
+  },
+  {
+    "lat": 45.7967478,
+    "lon": 24.1526244,
+    "osmID": 10895588212,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam2.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 5",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam5.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam2.jpg",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.7975626,
+    "lon": 24.1521854,
+    "osmID": 10895588213,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam2.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 3",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam3.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam2.jpg",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.7976623,
+    "lon": 24.1520671,
+    "osmID": 10895588214,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam3.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 4",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam4.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam3.jpg"
+  },
+  {
+    "lat": 45.7984215,
+    "lon": 24.1519955,
+    "osmID": 10895588215,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 6",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam8.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg"
+  },
+  {
+    "lat": 45.7623458,
+    "lon": 24.1231038,
+    "osmID": 10895588216,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam5.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 7",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://sibiu.ro/LiveOK/cam7.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam5.jpg"
+  },
+  {
+    "lat": 45.6562977,
+    "lon": 23.9315208,
+    "osmID": 10895588217,
+    "user": "Elian D․",
+    "osmType": "node",
+    "lastChanged": 1684051365000,
+    "address": {
+      "city": "Sibiu",
+      "county": "Sibiu",
+      "country": "Romania"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam8.jpg",
+      "man_made": "surveillance",
+      "name": "Camera 8",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "https://sibiu.ro/LiveOK/cam10.php"
+    },
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam8.jpg"
   }
 ]
