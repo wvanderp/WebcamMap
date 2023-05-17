@@ -2127,7 +2127,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110699"
+    "url": "http://webkamera.vegvesen.no/kamera?id=110699",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 66.555035,
@@ -19480,7 +19483,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://camera.deckchair.com/park-plaza-county-hall-london"
+    "url": "https://camera.deckchair.com/park-plaza-county-hall-london",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.5017358,
@@ -23646,7 +23652,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Sankt Englmar",
+      "city": "Klinglbach",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
