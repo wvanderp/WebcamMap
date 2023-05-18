@@ -16545,10 +16545,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://kunsteisbahn-wiedenfelsen.de/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://kunsteisbahn-wiedenfelsen.de/"
   },
   {
     "lat": 48.6597001,
@@ -16661,7 +16658,7 @@
     "osmType": "node",
     "lastChanged": 1613974808000,
     "address": {
-      "county": "Jefferson",
+      "county": "Jefferson County",
       "state": "Colorado",
       "country": "United States of America"
     },
@@ -27384,7 +27381,7 @@
     "osmID": 9004532778,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1628863532000,
+    "lastChanged": 1684320817000,
     "address": {
       "city": "Ommen",
       "state": "Overijssel",
@@ -27395,8 +27392,9 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.koeksebelt.nl/onze-webcam-is-weer-live",
       "man_made": "surveillance",
-      "name": "koeksebelt swimming pool",
-      "name:nl": "koeksebelt zwembad",
+      "name": "Koeksebelt swimming pool",
+      "name:en": "Koeksebelt swimming pool",
+      "name:nl": "Koeksebelt zwembad",
       "operator": "webcam.nl",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -28061,7 +28059,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=60ffe582008000c8005bd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=60ffe582008000c8005bd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.3012495,
@@ -29956,7 +29957,10 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=Jc4LpjP67Nw"
+    "url": "https://www.youtube.com/watch?v=Jc4LpjP67Nw",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.7789012,
@@ -39529,5 +39533,29 @@
       "website": "https://sibiu.ro/LiveOK/cam10.php"
     },
     "url": "https://www.sibiu.ro/webcamfeeds/webcam8.jpg"
+  },
+  {
+    "lat": 47.5650781,
+    "lon": -122.1860291,
+    "osmID": 10904491907,
+    "user": "goldfndr",
+    "osmType": "node",
+    "lastChanged": 1684304142000,
+    "address": {
+      "city": "Bellevue",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/405vc00986.jpg",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/nw/405vc00986.jpg"
   }
 ]
