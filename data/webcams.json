@@ -23018,7 +23018,7 @@
     "lat": 51.2374164,
     "lon": -2.9447959,
     "osmID": 8569694601,
-    "user": "endim8",
+    "user": "RedAuburn",
     "osmType": "node",
     "lastChanged": 1666984413000,
     "address": {
@@ -25486,7 +25486,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/782.jpg"
+    "url": "https://trafficnz.info/camera/782.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -43.4747918,
@@ -39561,5 +39564,30 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://images.wsdot.wa.gov/nw/405vc00986.jpg"
+  },
+  {
+    "lat": 47.485267,
+    "lon": -122.1948985,
+    "osmID": 10911292557,
+    "user": "goldfndr",
+    "osmType": "node",
+    "lastChanged": 1684498749000,
+    "address": {
+      "city": "Renton",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/405vc00402.jpg",
+      "man_made": "surveillance",
+      "operator": "Washington State Department of Transportation",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Washington State Department of Transportation",
+    "url": "https://images.wsdot.wa.gov/nw/405vc00402.jpg"
   }
 ]
