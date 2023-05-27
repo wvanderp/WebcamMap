@@ -5737,33 +5737,6 @@
     "url": "http://www.spreewaldwetter.de/webcams/#webcam-spreewaldhafen"
   },
   {
-    "lat": 53.1390876,
-    "lon": 8.1084728,
-    "osmID": 1555330706,
-    "user": "Basstoelpel",
-    "osmType": "node",
-    "lastChanged": 1491373629000,
-    "address": {
-      "city": "Petersfehn I",
-      "county": "Landkreis Ammerland",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "addr:city": "Bad Zwischenahn",
-      "addr:country": "DE",
-      "addr:postcode": "26160",
-      "addr:suburb": "Petersfehn",
-      "name": "Petersfehn, Dorfplatz",
-      "surveillance": "webcam",
-      "website": "http://www.petersfehn.net/webcams.php"
-    },
-    "url": "http://www.petersfehn.net/webcams.php",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
     "lat": 60.1049196,
     "lon": 10.8445645,
     "osmID": 1561505155,
@@ -6196,7 +6169,10 @@
       "website": "http://198.82.159.134/local/viewer/index.shtml"
     },
     "operator": "Virginia Tech",
-    "url": "http://198.82.159.134/local/viewer/index.shtml"
+    "url": "http://198.82.159.134/local/viewer/index.shtml",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 37.2278112,
@@ -7989,7 +7965,7 @@
     "lastChanged": 1527765359000,
     "address": {
       "city": "Nienburg/Weser",
-      "county": "Landkreis Nienburg/Weser",
+      "county": "Stadtteil Nienburg",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -18203,8 +18179,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "city": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -25415,6 +25390,34 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://trafficnz.info/camera/759.jpg"
+  },
+  {
+    "lat": -43.559263,
+    "lon": 172.526134,
+    "osmID": 8894152386,
+    "user": "brevans",
+    "osmType": "node",
+    "lastChanged": 1685098039000,
+    "address": {
+      "city": "Christchurch",
+      "county": "Christchurch City",
+      "state": "Canterbury",
+      "country": "New Zealand"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "contact:webcam": "https://trafficnz.info/camera/285.jpg",
+      "description": "East along Hallswell Junction Rd towards Springs Rd roundabout",
+      "man_made": "surveillance",
+      "name": "SH76 Springs Halswell Reserve",
+      "ref": "285",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://trafficnz.info/camera/285.jpg"
   },
   {
     "lat": -43.5307487,
@@ -37354,7 +37357,6 @@
     },
     "url": "https://kolbuszowa.pl/kamery",
     "lint": {
-      "unavailable": true,
       "duplicate": true
     }
   },

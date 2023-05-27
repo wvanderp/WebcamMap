@@ -4782,26 +4782,6 @@
   },
   {
     "type": "node",
-    "id": 1555330706,
-    "lat": 53.1390876,
-    "lon": 8.1084728,
-    "timestamp": "2017-04-05T06:27:09Z",
-    "version": 3,
-    "changeset": 47464842,
-    "user": "Basstoelpel",
-    "uid": 72235,
-    "tags": {
-      "addr:city": "Bad Zwischenahn",
-      "addr:country": "DE",
-      "addr:postcode": "26160",
-      "addr:suburb": "Petersfehn",
-      "name": "Petersfehn, Dorfplatz",
-      "surveillance": "webcam",
-      "website": "http://www.petersfehn.net/webcams.php"
-    }
-  },
-  {
-    "type": "node",
     "id": 1561505155,
     "lat": 60.1049196,
     "lon": 10.8445645,
@@ -22040,6 +22020,30 @@
       "man_made": "surveillance",
       "name": "SH76 Halswell Junction Rd",
       "ref": "759",
+      "source": "NZTA",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8894152386,
+    "lat": -43.559263,
+    "lon": 172.526134,
+    "timestamp": "2023-05-26T10:47:19Z",
+    "version": 2,
+    "changeset": 136581390,
+    "user": "brevans",
+    "uid": 1887753,
+    "tags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "contact:webcam": "https://trafficnz.info/camera/285.jpg",
+      "description": "East along Hallswell Junction Rd towards Springs Rd roundabout",
+      "man_made": "surveillance",
+      "name": "SH76 Springs Halswell Reserve",
+      "ref": "285",
       "source": "NZTA",
       "surveillance": "traffic",
       "surveillance:type": "camera",
