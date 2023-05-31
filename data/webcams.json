@@ -5293,7 +5293,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=197154"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=197154"
+    "url": "http://webkamera.vegvesen.no/kamera?id=197154",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 61.5746887,
@@ -16325,7 +16328,7 @@
     "lastChanged": 1642593373000,
     "address": {
       "city": "Baiersbronn",
-      "county": "Ortenaukreis",
+      "county": "Landkreis Freudenstadt",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -25725,9 +25728,9 @@
     "lat": 52.3408969,
     "lon": 4.8775444,
     "osmID": 8898936663,
-    "user": "wvdp",
+    "user": "cEvLGWiQ",
     "osmType": "node",
-    "lastChanged": 1652737044000,
+    "lastChanged": 1685480694000,
     "address": {
       "city": "Amsterdam",
       "state": "Noord-Holland",
@@ -25737,7 +25740,7 @@
       "camera:direction": "237",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "http://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166",
+      "contact:webcam": "https://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166",
       "fixme": "Offline???",
       "man_made": "surveillance",
       "name": "CBRE World Trade Center Amsterdam Bouw",
@@ -25747,7 +25750,7 @@
       "surveillance:zone": "construction"
     },
     "operator": "webcam.nl",
-    "url": "http://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166"
+    "url": "https://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166"
   },
   {
     "lat": 51.6909908,
@@ -28124,7 +28127,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=be00a3fe007d00d30050fa36c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=be00a3fe007d00d30050fa36c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.4538184,

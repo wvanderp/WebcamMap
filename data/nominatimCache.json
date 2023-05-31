@@ -130,7 +130,7 @@
       "153.4258391",
       "153.4259114"
     ],
-    "expires": 1685484898
+    "expires": 1686676817
   },
   "-28.1483161,151.9453553": {
     "place_id": 150269798,
@@ -648,7 +648,7 @@
       "148.4066206",
       "148.4078191"
     ],
-    "expires": 1685485449
+    "expires": 1686729352
   },
   "-36.3809748,148.3865515": {
     "place_id": 263568789,
@@ -832,7 +832,7 @@
       "148.4103634",
       "148.4111322"
     ],
-    "expires": 1685453648
+    "expires": 1686647878
   },
   "-36.4058674,148.4088871": {
     "place_id": 162557338,
@@ -860,7 +860,7 @@
       "148.4090366",
       "148.4099578"
     ],
-    "expires": 1685439642
+    "expires": 1686673247
   },
   "-36.4085783,148.3982759": {
     "place_id": 167150930,
@@ -1094,7 +1094,7 @@
       "-73.1361861",
       "-73.1360861"
     ],
-    "expires": 1685468848
+    "expires": 1686682036
   },
   "-41.0024031,173.9997054": {
     "place_id": 85572247,
@@ -1350,7 +1350,7 @@
       "172.630771",
       "172.630871"
     ],
-    "expires": 1685450209
+    "expires": 1686800501
   },
   "-43.4865793,172.6286696": {
     "place_id": 91591400,
@@ -1584,7 +1584,7 @@
       "-39.8183709",
       "-39.8182709"
     ],
-    "expires": 1685479764
+    "expires": 1686651027
   },
   "-9.5301994,-77.5316039": {
     "place_id": 49231755,
@@ -1773,7 +1773,7 @@
       "120.6969815",
       "120.6970815"
     ],
-    "expires": 1685449804
+    "expires": 1686775731
   },
   "25.1320368,55.1185903": {
     "place_id": 93274114,
@@ -2061,7 +2061,7 @@
       "-95.6910973",
       "-95.6463479"
     ],
-    "expires": 1685490171
+    "expires": 1686652554
   },
   "32.4889215,34.8892549": {
     "place_id": 219115714,
@@ -2092,18 +2092,18 @@
       "34.8890632",
       "34.8915395"
     ],
-    "expires": 1685497263
+    "expires": 1686757241
   },
   "32.6809024,-117.1792123": {
-    "place_id": 298570898,
+    "place_id": 92196280,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 1785615,
-    "lat": "32.68089575",
-    "lon": "-117.17779096849321",
-    "display_name": "Hotel Del Coronado, 1500, Orange Avenue, Coronado, San Diego County, California, 92118, United States",
+    "osm_type": "node",
+    "osm_id": 8841620665,
+    "lat": "32.6809024",
+    "lon": "-117.1792123",
+    "display_name": "Hotel del Coronado - Beach Cam, 1500, Orange Avenue, Coronado, San Diego County, California, 92118, United States",
     "address": {
-      "tourism": "Hotel Del Coronado",
+      "man_made": "Hotel del Coronado - Beach Cam",
       "house_number": "1500",
       "road": "Orange Avenue",
       "town": "Coronado",
@@ -2115,19 +2115,20 @@
       "country_code": "us"
     },
     "extratags": {
-      "phone": "+1-619-435-6611",
-      "website": "https://hoteldel.com",
-      "wikidata": "Q1631096",
-      "building:levels": "7",
-      "internet_access": "wlan"
+      "camera:type": "fixed",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "https://hoteldel.com/live-webcam/",
+      "camera:direction": "160",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "32.6800658",
-      "32.6817329",
-      "-117.1792373",
-      "-117.177503"
+      "32.6808524",
+      "32.6809524",
+      "-117.1792623",
+      "-117.1791623"
     ],
-    "expires": 1685445468
+    "expires": 1686789980
   },
   "32.7480107,-117.252595": {
     "place_id": 62165668,
@@ -2359,15 +2360,15 @@
     "expires": 1686580782
   },
   "35.1972767,-111.649242": {
-    "place_id": 82150399,
+    "place_id": 154475623,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8063949086,
-    "lat": "35.1972767",
-    "lon": "-111.649242",
-    "display_name": "Flagstaff, Arizona - West, 1, East Route 66, Downtown Flagstaff, Flagstaff, Coconino County, Arizona, 86004, United States",
+    "osm_type": "way",
+    "osm_id": 203321195,
+    "lat": "35.1973507",
+    "lon": "-111.64930292815765",
+    "display_name": "Flagstaff Visitor Center, 1, East Route 66, Downtown Flagstaff, Flagstaff, Coconino County, Arizona, 86004, United States",
     "address": {
-      "man_made": "Flagstaff, Arizona - West",
+      "tourism": "Flagstaff Visitor Center",
       "house_number": "1",
       "road": "East Route 66",
       "neighbourhood": "Downtown Flagstaff",
@@ -2380,23 +2381,15 @@
       "country_code": "us"
     },
     "extratags": {
-      "operator": "Virtual Railfan",
-      "camera:type": "dome",
-      "description": "Flagstaff, Arizona, in Northern Arizona, is located on the BNSF Railway's Seligman Subdivision at milepost 344.2.  The Seligman Sub is part of their Southern Transcon, the former Atchison, Topeka & Santa Fe Railway (AT&SF) mainline between Chicago and Los",
-      "camera:mount": "wall",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.youtube.com/watch?v=88qbtT74hJQ",
-      "camera:direction": "250",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "information": "office"
     },
     "boundingbox": [
-      "35.1972267",
-      "35.1973267",
-      "-111.649292",
-      "-111.649192"
+      "35.1972619",
+      "35.1974471",
+      "-111.6495044",
+      "-111.6491531"
     ],
-    "expires": 1685461857
+    "expires": 1686652428
   },
   "35.2488253,-82.208155": {
     "place_id": 233905870,
@@ -2530,7 +2523,7 @@
       "-82.0679611",
       "-82.0679187"
     ],
-    "expires": 1685508102
+    "expires": 1686654709
   },
   "35.4239662,134.6004465": {
     "place_id": 350607423,
@@ -2563,7 +2556,7 @@
       "134.6004169",
       "134.6005169"
     ],
-    "expires": 1685489513
+    "expires": 1686739091
   },
   "35.4400672,-82.5360825": {
     "place_id": 196087265,
@@ -2597,7 +2590,7 @@
       "-82.5362554",
       "-82.5359423"
     ],
-    "expires": 1685508273
+    "expires": 1686650693
   },
   "35.4816081,-82.55573": {
     "place_id": 116317150,
@@ -3039,7 +3032,7 @@
       "-118.0665814",
       "-118.0664814"
     ],
-    "expires": 1685463556
+    "expires": 1686673262
   },
   "36.7534536,139.6046278": {
     "place_id": 203474307,
@@ -3365,7 +3358,7 @@
       "-80.4133805",
       "-80.4126233"
     ],
-    "expires": 1685432751
+    "expires": 1686665269
   },
   "37.2308324,-80.4180667": {
     "place_id": 17116662,
@@ -3508,7 +3501,7 @@
       "-80.058147",
       "-80.054489"
     ],
-    "expires": 1685424849
+    "expires": 1686658934
   },
   "37.31545,-79.9811985": {
     "place_id": 284147597,
@@ -3612,7 +3605,7 @@
       "-121.9684024",
       "-121.9666059"
     ],
-    "expires": 1685470412
+    "expires": 1686751083
   },
   "37.5640712,127.0304623": {
     "place_id": 291949570,
@@ -3783,7 +3776,7 @@
       "-90.9044416",
       "-90.8608563"
     ],
-    "expires": 1685468406
+    "expires": 1686742612
   },
   "38.4671227,-107.1658588": {
     "place_id": 69680645,
@@ -3816,7 +3809,7 @@
       "-107.1659088",
       "-107.1658088"
     ],
-    "expires": 1685459611
+    "expires": 1686733296
   },
   "38.4744803,-90.8507372": {
     "place_id": 348682944,
@@ -3918,7 +3911,7 @@
       "-90.7552895",
       "-90.7551502"
     ],
-    "expires": 1685470773
+    "expires": 1686804453
   },
   "38.4847989,-90.7550486": {
     "place_id": 124611251,
@@ -3988,7 +3981,7 @@
       "-90.7798576",
       "-90.767606"
     ],
-    "expires": 1685490936
+    "expires": 1686751873
   },
   "38.4895882,-90.7452394": {
     "place_id": 124070740,
@@ -4058,7 +4051,7 @@
       "-90.7274305",
       "-90.7232637"
     ],
-    "expires": 1685476253
+    "expires": 1686680271
   },
   "38.4990221,-90.7153579": {
     "place_id": 213048594,
@@ -4157,7 +4150,7 @@
       "-90.700459",
       "-90.700359"
     ],
-    "expires": 1685486402
+    "expires": 1686801285
   },
   "38.5058667,-90.6779454": {
     "place_id": 123718230,
@@ -4226,7 +4219,7 @@
       "15.896856",
       "15.9005225"
     ],
-    "expires": 1685488489
+    "expires": 1686679331
   },
   "38.9118951,1.434393": {
     "place_id": 49911823,
@@ -4351,7 +4344,7 @@
       "1.2246024",
       "1.2251916"
     ],
-    "expires": 1685448912
+    "expires": 1686672583
   },
   "38.9716358,-95.3260584": {
     "place_id": 353105861,
@@ -4672,7 +4665,7 @@
       "-77.2627546",
       "-77.2606764"
     ],
-    "expires": 1685440481
+    "expires": 1686698502
   },
   "39.2045025,-77.2457881": {
     "place_id": 126257194,
@@ -4703,7 +4696,7 @@
       "-77.2459132",
       "-77.2397195"
     ],
-    "expires": 1685459149
+    "expires": 1686732986
   },
   "39.2320073,-77.2844441": {
     "place_id": 222702530,
@@ -4986,7 +4979,7 @@
       "-77.1676788",
       "-77.1668125"
     ],
-    "expires": 1685475925
+    "expires": 1686684087
   },
   "39.3749673,-77.2286203": {
     "place_id": 295218528,
@@ -5027,7 +5020,7 @@
       "-77.2529684",
       "-77.1964312"
     ],
-    "expires": 1685443471
+    "expires": 1686751437
   },
   "39.39763,-77.4219065": {
     "place_id": 102832916,
@@ -5227,7 +5220,7 @@
       "3.2615771",
       "3.2616771"
     ],
-    "expires": 1685479004
+    "expires": 1686725158
   },
   "39.4417032,-77.4043661": {
     "place_id": 111776020,
@@ -5492,7 +5485,7 @@
       "-119.7768227",
       "-119.7757681"
     ],
-    "expires": 1685504041
+    "expires": 1686660914
   },
   "39.5348421,2.716829": {
     "place_id": 53195442,
@@ -5562,7 +5555,7 @@
       "2.455027",
       "2.455124"
     ],
-    "expires": 1685445514
+    "expires": 1686654349
   },
   "39.5369322,-119.7876452": {
     "place_id": 112330148,
@@ -5929,7 +5922,7 @@
       "-104.8715378",
       "-104.8704274"
     ],
-    "expires": 1685506150
+    "expires": 1686758123
   },
   "39.5564713,-104.874094": {
     "place_id": 360443840,
@@ -7507,7 +7500,7 @@
       "-105.1519481",
       "-105.1518481"
     ],
-    "expires": 1685489949
+    "expires": 1686667024
   },
   "39.6348105,-78.8443128": {
     "place_id": 118472101,
@@ -7755,7 +7748,7 @@
       "-78.7467809",
       "-78.7463487"
     ],
-    "expires": 1685476651
+    "expires": 1686680958
   },
   "39.6511499,-77.8880875": {
     "place_id": 138582517,
@@ -7790,7 +7783,7 @@
       "-77.8884596",
       "-77.8300549"
     ],
-    "expires": 1685502665
+    "expires": 1686733068
   },
   "39.6515506,-77.9234794": {
     "place_id": 338432845,
@@ -7888,7 +7881,7 @@
       "-79.4596939",
       "-79.4387955"
     ],
-    "expires": 1685440547
+    "expires": 1686797205
   },
   "39.6543977,-105.181479": {
     "place_id": 63792264,
@@ -8426,7 +8419,7 @@
       "-79.2826606",
       "-79.2506753"
     ],
-    "expires": 1685454578
+    "expires": 1686716884
   },
   "39.6945071,-79.3407287": {
     "place_id": 145028285,
@@ -8766,7 +8759,7 @@
       "-78.183030800191",
       "-78.182930800191"
     ],
-    "expires": 1685451604
+    "expires": 1686651754
   },
   "39.7092171,3.4610137": {
     "place_id": 165104728,
@@ -9281,7 +9274,7 @@
       "2.6963798",
       "2.6968712"
     ],
-    "expires": 1685490412
+    "expires": 1686652897
   },
   "39.7930125,2.6899594": {
     "place_id": 193930857,
@@ -9559,7 +9552,7 @@
       "3.1803021",
       "3.1804021"
     ],
-    "expires": 1685505605
+    "expires": 1686759792
   },
   "39.8534575,-86.2658113": {
     "place_id": 57447971,
@@ -9692,7 +9685,7 @@
       "3.0779984",
       "3.0786967"
     ],
-    "expires": 1685434670
+    "expires": 1686692566
   },
   "39.9048706,3.0588438": {
     "place_id": 127938127,
@@ -9748,7 +9741,7 @@
       "3.056742",
       "3.0579155"
     ],
-    "expires": 1685458122
+    "expires": 1686715672
   },
   "39.9553668,3.2112676": {
     "place_id": 221608493,
@@ -10025,7 +10018,7 @@
       "-5.8595055",
       "-5.8593398"
     ],
-    "expires": 1685487713
+    "expires": 1686678269
   },
   "40.3921323,-91.3769954": {
     "place_id": 93419027,
@@ -10139,9 +10132,10 @@
     "osm_id": 8435194094,
     "lat": "40.6981536",
     "lon": "-73.9942718",
-    "display_name": "Brooklyn Bridge & Manhattan cam, Hicks Street, Brooklyn, Kings County, City of New York, New York, 11201, United States",
+    "display_name": "Brooklyn Bridge & Manhattan cam, 111, Hicks Street, Brooklyn, Kings County, City of New York, New York, 11201, United States",
     "address": {
       "man_made": "Brooklyn Bridge & Manhattan cam",
+      "house_number": "111",
       "road": "Hicks Street",
       "suburb": "Brooklyn",
       "city": "City of New York",
@@ -10166,7 +10160,7 @@
       "-73.9943218",
       "-73.9942218"
     ],
-    "expires": 1685508901
+    "expires": 1686798925
   },
   "40.7563936,-73.9864196": {
     "place_id": 85260722,
@@ -10279,7 +10273,7 @@
       "-73.9853632",
       "-73.9852632"
     ],
-    "expires": 1685488115
+    "expires": 1686690620
   },
   "40.9624837,-80.134721": {
     "place_id": 85098082,
@@ -11272,7 +11266,7 @@
       "14.5095701",
       "14.5096701"
     ],
-    "expires": 1685499773
+    "expires": 1686777306
   },
   "41.8025032,14.7930283": {
     "place_id": 171838737,
@@ -11840,7 +11834,7 @@
       "-93.8155902",
       "-93.8154902"
     ],
-    "expires": 1685428221
+    "expires": 1686634936
   },
   "42.0344984,-93.8490842": {
     "place_id": 69835442,
@@ -11947,7 +11941,7 @@
       "-82.9854823",
       "-82.9853823"
     ],
-    "expires": 1685500174
+    "expires": 1686727999
   },
   "42.2351641,-82.9834603": {
     "place_id": 51800504,
@@ -12301,7 +12295,7 @@
       "-83.0389058",
       "-83.0388058"
     ],
-    "expires": 1685480533
+    "expires": 1686794071
   },
   "42.2632272,-82.9694205": {
     "place_id": 52039507,
@@ -12406,7 +12400,7 @@
       "-83.0144592",
       "-83.0143592"
     ],
-    "expires": 1685467811
+    "expires": 1686772544
   },
   "42.273968,-83.0297972": {
     "place_id": 52021926,
@@ -12723,7 +12717,7 @@
       "-82.9396921",
       "-82.9395921"
     ],
-    "expires": 1685427833
+    "expires": 1686652455
   },
   "42.2930553,-82.9259991": {
     "place_id": 52325394,
@@ -12932,7 +12926,7 @@
       "-83.0336729",
       "-83.0335729"
     ],
-    "expires": 1685464916
+    "expires": 1686656580
   },
   "42.3146978,-83.0348031": {
     "place_id": 52170855,
@@ -15033,7 +15027,7 @@
       "-77.544661",
       "-77.5399407"
     ],
-    "expires": 1685457397
+    "expires": 1686761921
   },
   "43.2527781,-77.6105641": {
     "place_id": 88703840,
@@ -15148,7 +15142,7 @@
       "-1.5964521",
       "-1.5963521"
     ],
-    "expires": 1685452273
+    "expires": 1686729450
   },
   "43.5937561,-79.6515496": {
     "place_id": 48149841,
@@ -15253,7 +15247,7 @@
       "11.1824526",
       "11.1825608"
     ],
-    "expires": 1685452227
+    "expires": 1686690058
   },
   "43.7052444,11.3724103": {
     "place_id": 70995280,
@@ -15835,7 +15829,7 @@
       "6.1289153",
       "6.1290153"
     ],
-    "expires": 1685504493
+    "expires": 1686769674
   },
   "43.8969641,5.8372276": {
     "place_id": 97257665,
@@ -15874,7 +15868,7 @@
       "5.8371776",
       "5.8372776"
     ],
-    "expires": 1685491581
+    "expires": 1686678837
   },
   "43.9027659,6.9363982": {
     "place_id": 367217672,
@@ -16090,7 +16084,7 @@
       "10.7311503",
       "10.7312503"
     ],
-    "expires": 1685475861
+    "expires": 1686643675
   },
   "44.2147265,10.7187354": {
     "place_id": 144423052,
@@ -16264,7 +16258,7 @@
       "-63.394386894737",
       "-63.394286894737"
     ],
-    "expires": 1685444354
+    "expires": 1686801196
   },
   "44.8462647,-63.5688465": {
     "place_id": 233512033,
@@ -16335,7 +16329,7 @@
       "24.9235034",
       "24.9236034"
     ],
-    "expires": 1685472410
+    "expires": 1686649087
   },
   "45.0236548,14.6353781": {
     "place_id": 73824864,
@@ -17092,7 +17086,7 @@
       "14.197947",
       "14.1984257"
     ],
-    "expires": 1685479857
+    "expires": 1686646851
   },
   "45.7877169,6.0966108": {
     "place_id": 18157624,
@@ -17270,7 +17264,7 @@
     "expires": 1686664240
   },
   "45.7975626,24.1521854": {
-    "place_id": 116195378,
+    "place_id": 116195451,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 40253784,
@@ -17278,7 +17272,7 @@
     "lon": "24.15213226537238",
     "display_name": "Turnul Sfatului, Piața Mare, Orașul de Sus, Centrul Istoric, Sibiu, 550000, România",
     "address": {
-      "man_made": "Turnul Sfatului",
+      "tourism": "Turnul Sfatului",
       "road": "Piața Mare",
       "neighbourhood": "Orașul de Sus",
       "suburb": "Centrul Istoric",
@@ -17291,8 +17285,8 @@
     },
     "extratags": {
       "level": "7",
-      "tourism": "attraction",
       "building": "public",
+      "man_made": "tower",
       "wikidata": "Q30675330",
       "wikipedia": "ro:Turnul Sfatului din Sibiu",
       "tower:type": "clock_tower",
@@ -17304,7 +17298,7 @@
       "24.1520192",
       "24.1522453"
     ],
-    "expires": 1685424142
+    "expires": 1686700873
   },
   "45.7976623,24.1520671": {
     "place_id": 116195451,
@@ -17632,7 +17626,7 @@
       "6.1434957",
       "6.1440442"
     ],
-    "expires": 1685479012
+    "expires": 1686754981
   },
   "45.9142238,-1.3276118": {
     "place_id": 130459091,
@@ -18041,14 +18035,16 @@
       "country": "France",
       "country_code": "fr"
     },
-    "extratags": {},
+    "extratags": {
+      "wheelchair": "limited"
+    },
     "boundingbox": [
       "46.0772733",
       "46.0773733",
       "-1.0932862",
       "-1.0931862"
     ],
-    "expires": 1685490244
+    "expires": 1686714939
   },
   "46.1055441,7.0539198": {
     "place_id": 342422768,
@@ -18123,7 +18119,7 @@
       "7.5046919",
       "7.5047919"
     ],
-    "expires": 1685444475
+    "expires": 1686791158
   },
   "46.1222101,7.2121701": {
     "place_id": 77956388,
@@ -18157,7 +18153,7 @@
       "7.2121201",
       "7.2122201"
     ],
-    "expires": 1685487960
+    "expires": 1686711623
   },
   "46.1298672,11.2444232": {
     "place_id": 110190646,
@@ -18326,7 +18322,7 @@
       "10.1985025",
       "10.1986025"
     ],
-    "expires": 1685464686
+    "expires": 1686725655
   },
   "46.1871,10.1985917": {
     "place_id": 60538271,
@@ -18507,7 +18503,7 @@
       "35.3698015",
       "35.3699015"
     ],
-    "expires": 1685482901
+    "expires": 1686750245
   },
   "46.3727895,-0.7469139": {
     "place_id": 140109924,
@@ -18678,7 +18674,7 @@
       "9.8234367",
       "9.8235367"
     ],
-    "expires": 1685468885
+    "expires": 1686699693
   },
   "46.4343172,6.939162": {
     "place_id": 354689598,
@@ -18780,7 +18776,7 @@
       "12.1224828",
       "12.1226712"
     ],
-    "expires": 1685441046
+    "expires": 1686659913
   },
   "46.4599298,9.6565232": {
     "place_id": 342426419,
@@ -18884,7 +18880,7 @@
       "7.1396007",
       "7.1397007"
     ],
-    "expires": 1685472076
+    "expires": 1686742051
   },
   "46.480567,-1.7610525": {
     "place_id": 148240858,
@@ -19649,7 +19645,7 @@
       "12.2316542",
       "12.2317542"
     ],
-    "expires": 1685469287
+    "expires": 1686684604
   },
   "46.6432725,8.5809134": {
     "place_id": 118806962,
@@ -19736,7 +19732,7 @@
       "7.9091858",
       "7.9098622"
     ],
-    "expires": 1685473104
+    "expires": 1686783416
   },
   "46.6639936,8.2831719": {
     "place_id": 219792334,
@@ -19845,7 +19841,7 @@
       "10.5064847",
       "10.5073352"
     ],
-    "expires": 1685457793
+    "expires": 1686753107
   },
   "46.7065644,8.8534875": {
     "place_id": 341184326,
@@ -19883,7 +19879,7 @@
       "8.8534375",
       "8.8535375"
     ],
-    "expires": 1685443681
+    "expires": 1686682767
   },
   "46.7100383,-92.0258502": {
     "place_id": 244364308,
@@ -19989,15 +19985,15 @@
     "expires": 1686429919
   },
   "46.7256239,-2.3474823": {
-    "place_id": 140533840,
+    "place_id": 62612494,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 151978699,
-    "lat": "46.72535535",
-    "lon": "-2.3474230437882655",
-    "display_name": "Gare Maritime, Quai Vernier, Gats Prompts, Port-Joinville, L'Île-d'Yeu, Les Sables-d'Olonne, Vendée, Pays de la Loire, France métropolitaine, 85350, France",
+    "osm_type": "node",
+    "osm_id": 5794530678,
+    "lat": "46.7256239",
+    "lon": "-2.3474823",
+    "display_name": "Port de l'Île d'Yeu, Quai Vernier, Gats Prompts, Port-Joinville, L'Île-d'Yeu, Les Sables-d'Olonne, Vendée, Pays de la Loire, France métropolitaine, 85350, France",
     "address": {
-      "amenity": "Gare Maritime",
+      "man_made": "Port de l'Île d'Yeu",
       "road": "Quai Vernier",
       "hamlet": "Gats Prompts",
       "village": "Port-Joinville",
@@ -20013,22 +20009,22 @@
       "country_code": "fr"
     },
     "extratags": {
-      "ferry": "yes",
-      "level": "1",
-      "network": "Yeu Continent",
-      "operator": "Yeu Continent",
-      "wheelchair": "yes",
-      "internet_access": "wlan",
-      "public_transport": "station",
-      "internet_access:ssid": "Vendée Wifi"
+      "operator": "Conseil départemental de la Vendée",
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.vendee.fr/Webcams/Port-de-l-Ile-d-Yeu",
+      "camera:direction": "350",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "46.7248345",
-      "46.7256505",
-      "-2.3476299",
-      "-2.3471255"
+      "46.7255739",
+      "46.7256739",
+      "-2.3475323",
+      "-2.3474323"
     ],
-    "expires": 1685435055
+    "expires": 1686756821
   },
   "46.7440345,9.9820915": {
     "place_id": 342426218,
@@ -20148,15 +20144,15 @@
     "expires": 1686716400
   },
   "46.7762001,-92.1030465": {
-    "place_id": 281363649,
+    "place_id": 95218866,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 947737006,
-    "lat": "46.77653975",
-    "lon": "-92.10324475097806",
-    "display_name": "Pier B Resort Hotel, 800, West Railroad Street, Duluth, Saint Louis County, Minnesota, 55802, United States",
+    "osm_type": "node",
+    "osm_id": 9260034904,
+    "lat": "46.7762001",
+    "lon": "-92.1030465",
+    "display_name": "Duluth Harbor - Pier B Cam, 800, West Railroad Street, Duluth, Saint Louis County, Minnesota, 55802, United States",
     "address": {
-      "tourism": "Pier B Resort Hotel",
+      "man_made": "Duluth Harbor - Pier B Cam",
       "house_number": "800",
       "road": "West Railroad Street",
       "city": "Duluth",
@@ -20168,15 +20164,22 @@
       "country_code": "us"
     },
     "extratags": {
-      "building:levels": "3"
+      "operator": "Duluth Harbor Cam",
+      "camera:type": "fixed",
+      "description": "Pier B Resort Hotel is located on the Duluth Waterfront just across the slip from Bayfront Park.",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.youtube.com/watch?v=vCBaTTC7FHs",
+      "camera:direction": "90",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
     "boundingbox": [
-      "46.7760902",
-      "46.7770255",
-      "-92.1037757",
-      "-92.1028976"
+      "46.7761501",
+      "46.7762501",
+      "-92.1030965",
+      "-92.1029965"
     ],
-    "expires": 1685473745
+    "expires": 1686782864
   },
   "46.7789012,-92.0998415": {
     "place_id": 145184747,
@@ -20353,7 +20356,7 @@
       "-92.1117517",
       "-92.1116517"
     ],
-    "expires": 1685446917
+    "expires": 1686774509
   },
   "46.7809571,-92.1116131": {
     "place_id": 95947324,
@@ -20703,14 +20706,15 @@
     "expires": 1685631376
   },
   "46.8824372,17.4364732": {
-    "place_id": 146504234,
+    "place_id": 70356294,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 170947555,
-    "lat": "46.88238415",
-    "lon": "17.43643853797923",
-    "display_name": "21, Deák Ferenc utca, Belváros, Tapolca, Tapolcai járás, Veszprém vármegye, Dunántúl, 8300, Magyarország",
+    "osm_type": "node",
+    "osm_id": 6653909828,
+    "lat": "46.8824372",
+    "lon": "17.4364732",
+    "display_name": "Tapolca Casco Ház webkamera, 21, Deák Ferenc utca, Belváros, Tapolca, Tapolcai járás, Veszprém vármegye, Közép-Dunántúl, Dunántúl, 8300, Magyarország",
     "address": {
+      "man_made": "Tapolca Casco Ház webkamera",
       "house_number": "21",
       "road": "Deák Ferenc utca",
       "suburb": "Belváros",
@@ -20718,21 +20722,25 @@
       "municipality": "Tapolcai járás",
       "county": "Veszprém vármegye",
       "ISO3166-2-lvl6": "HU-VE",
-      "region": "Dunántúl",
+      "region": "Közép-Dunántúl",
       "postcode": "8300",
       "country": "Magyarország",
       "country_code": "hu"
     },
     "extratags": {
-      "building:levels": "9"
+      "start_date": "2019-03-14",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.idokep.hu/webkamera/tapolcacam",
+      "camera:direction": "84",
+      "surveillance:type": "webcam"
     },
     "boundingbox": [
-      "46.8822974",
-      "46.882502",
-      "17.4363431",
-      "17.4365254"
+      "46.8823872",
+      "46.8824872",
+      "17.4364232",
+      "17.4365232"
     ],
-    "expires": 1685433661
+    "expires": 1686737162
   },
   "46.8828431,17.4416311": {
     "place_id": 70994420,
@@ -21071,7 +21079,7 @@
       "8.2561369",
       "8.2562369"
     ],
-    "expires": 1685451237
+    "expires": 1686657729
   },
   "46.979739,9.436717": {
     "place_id": 96864124,
@@ -21253,7 +21261,7 @@
       "12.0197108",
       "12.0198108"
     ],
-    "expires": 1685459763
+    "expires": 1686633876
   },
   "47.0153003,-91.6651041": {
     "place_id": 95972161,
@@ -21602,19 +21610,19 @@
       "9.602533",
       "9.602633"
     ],
-    "expires": 1685464157
+    "expires": 1686696173
   },
   "47.0819366,9.9257658": {
-    "place_id": 226405871,
+    "place_id": 98056293,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 579280738,
-    "lat": "47.0819362",
-    "lon": "9.925827409033076",
-    "display_name": "2, Briferweg, Hof, Schruns, Marktgemeinde Schruns, Bezirk Bludenz, Vorarlberg, 6780, Österreich",
+    "osm_type": "node",
+    "osm_id": 9569387995,
+    "lat": "47.0819366",
+    "lon": "9.9257658",
+    "display_name": "Blick über Schruns nach Südwesten, Hofweg, Hof, Schruns, Marktgemeinde Schruns, Bezirk Bludenz, Vorarlberg, 6780, Österreich",
     "address": {
-      "house_number": "2",
-      "road": "Briferweg",
+      "man_made": "Blick über Schruns nach Südwesten",
+      "road": "Hofweg",
       "hamlet": "Hof",
       "village": "Schruns",
       "city": "Marktgemeinde Schruns",
@@ -21626,15 +21634,23 @@
       "country_code": "at"
     },
     "extratags": {
-      "at_bev:addr_date": "2017-10-01"
+      "ele": "735",
+      "operator": "foto-webcam.eu",
+      "camera:type": "fixed",
+      "description": "Schruns,Tschagguns,Montafon,Schanze,Vorarlberg,Österreich",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/schruns/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/schruns/",
+      "camera:direction": "250",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "47.0818718",
-      "47.0820006",
-      "9.92573",
-      "9.9259248"
+      "47.0818866",
+      "47.0819866",
+      "9.9257158",
+      "9.9258158"
     ],
-    "expires": 1685483039
+    "expires": 1686663740
   },
   "47.09494,10.225127": {
     "place_id": 96848053,
@@ -21889,7 +21905,7 @@
       "10.1357301",
       "10.1358301"
     ],
-    "expires": 1685506563
+    "expires": 1686686380
   },
   "47.1666813,8.1605244": {
     "place_id": 189129653,
@@ -22097,7 +22113,7 @@
       "10.1432799",
       "10.1433799"
     ],
-    "expires": 1685426558
+    "expires": 1686705091
   },
   "47.1754398,10.1425593": {
     "place_id": 57984478,
@@ -22241,7 +22257,7 @@
       "18.4092369",
       "18.4104508"
     ],
-    "expires": 1685444960
+    "expires": 1686725097
   },
   "47.1911864,18.4088855": {
     "place_id": 298718285,
@@ -22439,7 +22455,7 @@
       "9.3419764",
       "9.3435433"
     ],
-    "expires": 1685448328
+    "expires": 1686762796
   },
   "47.256121,10.115857": {
     "place_id": 98239570,
@@ -22516,7 +22532,7 @@
       "10.093952",
       "10.094052"
     ],
-    "expires": 1685446499
+    "expires": 1686676273
   },
   "47.264004,9.827745": {
     "place_id": 98452364,
@@ -22593,7 +22609,7 @@
       "12.482721",
       "12.482821"
     ],
-    "expires": 1685464510
+    "expires": 1686744683
   },
   "47.2816095,12.5050989": {
     "place_id": 298268200,
@@ -22813,7 +22829,7 @@
       "9.879863",
       "9.879963"
     ],
-    "expires": 1685487718
+    "expires": 1686696833
   },
   "47.3101738,8.5075309": {
     "place_id": 112538045,
@@ -22846,7 +22862,7 @@
       "8.5072893",
       "8.507545"
     ],
-    "expires": 1685441758
+    "expires": 1686653806
   },
   "47.3135676,8.5272317": {
     "place_id": 141769967,
@@ -23435,7 +23451,7 @@
       "9.75046",
       "9.75056"
     ],
-    "expires": 1685475504
+    "expires": 1686641401
   },
   "47.393347,10.281679": {
     "place_id": 97927230,
@@ -23692,7 +23708,7 @@
       "19.0612954",
       "19.0613954"
     ],
-    "expires": 1685454635
+    "expires": 1686715345
   },
   "47.4165541,19.061201": {
     "place_id": 13006631,
@@ -23952,7 +23968,7 @@
       "-122.334613",
       "-122.3342549"
     ],
-    "expires": 1685473617
+    "expires": 1686793013
   },
   "47.4763104,-3.1133648": {
     "place_id": 6339843,
@@ -25216,16 +25232,16 @@
     "expires": 1685512343
   },
   "47.6199123,-122.3208739": {
-    "place_id": 17176841,
+    "place_id": 18335478,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 1934503063,
-    "lat": "47.6200406",
-    "lon": "-122.3210692",
-    "display_name": "Rite Aid, 201, Broadway East, Capitol Hill, Seattle, King County, Washington, 98102, United States",
+    "osm_id": 2077272329,
+    "lat": "47.6197788",
+    "lon": "-122.32108",
+    "display_name": "U.S. Bank, 135, Broadway East, Capitol Hill, Seattle, King County, Washington, 98102, United States",
     "address": {
-      "amenity": "Rite Aid",
-      "house_number": "201",
+      "amenity": "U.S. Bank",
+      "house_number": "135",
       "road": "Broadway East",
       "suburb": "Capitol Hill",
       "city": "Seattle",
@@ -25237,16 +25253,18 @@
       "country_code": "us"
     },
     "extratags": {
-      "brand:wikidata": "Q3433273",
-      "brand:wikipedia": "en:Rite Aid"
+      "phone": "+1 206 720 0615",
+      "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-13:00",
+      "brand:wikidata": "Q739084",
+      "brand:wikipedia": "en:U.S. Bancorp"
     },
     "boundingbox": [
-      "47.6199906",
-      "47.6200906",
-      "-122.3211192",
-      "-122.3210192"
+      "47.6197288",
+      "47.6198288",
+      "-122.32113",
+      "-122.32103"
     ],
-    "expires": 1685480084
+    "expires": 1686723175
   },
   "47.6214635,19.046105": {
     "place_id": 160015907,
@@ -25364,7 +25382,7 @@
       "10.50001",
       "10.5049995"
     ],
-    "expires": 1685436302
+    "expires": 1686692094
   },
   "47.6460697,-3.2144609": {
     "place_id": 91853464,
@@ -25443,7 +25461,7 @@
       "10.4259125",
       "10.434251"
     ],
-    "expires": 1685437279
+    "expires": 1686713814
   },
   "47.6696649,11.1946335": {
     "place_id": 88856885,
@@ -25483,15 +25501,15 @@
     "expires": 1686587695
   },
   "47.6747514,9.5078898": {
-    "place_id": 112157197,
+    "place_id": 159736841,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 29403559,
-    "lat": "47.6742399",
-    "lon": "9.5073707824821",
-    "display_name": "Zeppelinhalle, Messestraße, Allmannsweiler, Friedrichshafen, Verwaltungsgemeinschaft Friedrichshafen, Bodenseekreis, Baden-Württemberg, 88046, Deutschland",
+    "osm_id": 215996087,
+    "lat": "47.674435700000004",
+    "lon": "9.507053764112912",
+    "display_name": "132, Messestraße, Allmannsweiler, Friedrichshafen, Verwaltungsgemeinschaft Friedrichshafen, Bodenseekreis, Baden-Württemberg, 88046, Deutschland",
     "address": {
-      "building": "Zeppelinhalle",
+      "house_number": "132",
       "road": "Messestraße",
       "suburb": "Allmannsweiler",
       "town": "Friedrichshafen",
@@ -25503,14 +25521,21 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": {
+      "height": "9",
+      "roof:shape": "flat",
+      "roof:colour": "#ededee",
+      "building:part": "yes",
+      "building:colour": "white",
+      "building:levels": "3"
+    },
     "boundingbox": [
-      "47.6736504",
+      "47.6741926",
       "47.6748186",
       "9.5065039",
-      "9.5082776"
+      "9.5079669"
     ],
-    "expires": 1685476166
+    "expires": 1686803722
   },
   "47.6775403,11.1987398": {
     "place_id": 131307923,
@@ -25663,15 +25688,16 @@
     "expires": 1685884402
   },
   "47.709428,11.1614203": {
-    "place_id": 97928916,
+    "place_id": 133970004,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9540418781,
-    "lat": "47.709428",
-    "lon": "11.1614203",
-    "display_name": "WETTERCAM / LIVECAM STAFFELSEE, Kirchtalstraße, Uffing am Staffelsee, Landkreis Garmisch-Partenkirchen, Bayern, 82449, Deutschland",
+    "osm_type": "way",
+    "osm_id": 122815556,
+    "lat": "47.7094706",
+    "lon": "11.1614574",
+    "display_name": "Seerestaurant Alpenblick, 30, Kirchtalstraße, Uffing am Staffelsee, Landkreis Garmisch-Partenkirchen, Bayern, 82449, Deutschland",
     "address": {
-      "man_made": "WETTERCAM / LIVECAM STAFFELSEE",
+      "amenity": "Seerestaurant Alpenblick",
+      "house_number": "30",
       "road": "Kirchtalstraße",
       "village": "Uffing am Staffelsee",
       "county": "Landkreis Garmisch-Partenkirchen",
@@ -25682,20 +25708,24 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://seerestaurant-alpenblick.de/de/livecam/",
-      "camera:direction": "180",
-      "surveillance:type": "camera",
-      "surveillance:zone": "lake"
+      "phone": "+49 8846 9300",
+      "cuisine": "bavarian",
+      "website": "https://seerestaurant-alpenblick.de/",
+      "biergarten": "yes",
+      "wheelchair": "yes",
+      "opening_hours": "We-Su 09:30-21:00",
+      "payment:coins": "yes",
+      "payment:notes": "yes",
+      "outdoor_seating": "yes",
+      "toilets:wheelchair": "yes"
     },
     "boundingbox": [
-      "47.709378",
-      "47.709478",
-      "11.1613703",
-      "11.1614703"
+      "47.7094171",
+      "47.7095241",
+      "11.1613349",
+      "11.1615799"
     ],
-    "expires": 1685446860
+    "expires": 1686694658
   },
   "47.7246269,-84.8121848": {
     "place_id": 95831926,
@@ -25949,7 +25979,7 @@
       "2.0393134",
       "2.0403526"
     ],
-    "expires": 1685430863
+    "expires": 1686642407
   },
   "47.8978988,1.9093047": {
     "place_id": 91540765,
@@ -26044,15 +26074,15 @@
     "expires": 1685680950
   },
   "47.900771,1.9057494": {
-    "place_id": 298305863,
+    "place_id": 92447987,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 1591817,
-    "lat": "47.900884500000004",
-    "lon": "1.905547213723284",
-    "display_name": "Hôtel des Créneaux, 1, Place Louis XI, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45000, France",
+    "osm_type": "node",
+    "osm_id": 8889539031,
+    "lat": "47.900771",
+    "lon": "1.9057494",
+    "display_name": "Beffroi, 1, Place Louis XI, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45000, France",
     "address": {
-      "historic": "Hôtel des Créneaux",
+      "man_made": "Beffroi",
       "house_number": "1",
       "road": "Place Louis XI",
       "city": "Orléans",
@@ -26067,22 +26097,20 @@
       "country_code": "fr"
     },
     "extratags": {
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/France_Orleans_02.jpg/300px-France_Orleans_02.jpg",
-      "ref:mhs": "PA00098855",
-      "building": "yes",
-      "wikidata": "Q15950826",
-      "mapillary": "525554038828996",
-      "source:heritage": "data.gouv.fr:Ministère de la Culture - 04/2015",
-      "heritage:operator": "mhs",
-      "mhs:inscription_date": "1840"
+      "camera:type": "panning",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.skaping.com/orleans/beffroi",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
     "boundingbox": [
-      "47.90071",
-      "47.901067",
-      "1.905451",
-      "1.906113"
+      "47.900721",
+      "47.900821",
+      "1.9056994",
+      "1.9057994"
     ],
-    "expires": 1685492571
+    "expires": 1686667729
   },
   "47.9021109,1.9040301": {
     "place_id": 131652192,
@@ -26168,15 +26196,14 @@
     "expires": 1685512889
   },
   "47.9025932,1.9088877": {
-    "place_id": 93994519,
+    "place_id": 364832503,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9107899874,
-    "lat": "47.9025932",
-    "lon": "1.9088877",
-    "display_name": "Hôtel Groslot, 1, Place de l'Étape, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45000, France",
+    "osm_type": "way",
+    "osm_id": 152119466,
+    "lat": "47.9026405",
+    "lon": "1.90928620384792",
+    "display_name": "1, Place de l'Étape, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45000, France",
     "address": {
-      "man_made": "Hôtel Groslot",
       "house_number": "1",
       "square": "Place de l'Étape",
       "city": "Orléans",
@@ -26191,20 +26218,16 @@
       "country_code": "fr"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.skaping.com/orleans/hotel-groslot",
-      "camera:direction": "270",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "height": "15",
+      "building:levels": "3"
     },
     "boundingbox": [
-      "47.9025432",
-      "47.9026432",
-      "1.9088377",
-      "1.9089377"
+      "47.902535",
+      "47.902829",
+      "1.908851",
+      "1.90972"
     ],
-    "expires": 1685444224
+    "expires": 1686640598
   },
   "47.9114561,1.8218044": {
     "place_id": 254838456,
@@ -26282,7 +26305,7 @@
       "1.9432866",
       "1.9440984"
     ],
-    "expires": 1685497888
+    "expires": 1686768184
   },
   "47.9302112,13.2002337": {
     "place_id": 62689315,
@@ -26880,7 +26903,7 @@
       "8.3542529",
       "8.3566553"
     ],
-    "expires": 1685440121
+    "expires": 1686804530
   },
   "48.2257261,8.3850916": {
     "place_id": 130893211,
@@ -27150,7 +27173,7 @@
       "11.6124788",
       "11.6296109"
     ],
-    "expires": 1685483030
+    "expires": 1686778169
   },
   "48.3272432,8.2859161": {
     "place_id": 96156847,
@@ -27226,7 +27249,7 @@
       "9.6044874",
       "9.6045874"
     ],
-    "expires": 1685432907
+    "expires": 1686664491
   },
   "48.3414975,9.9406181": {
     "place_id": 87899257,
@@ -27369,7 +27392,7 @@
       "16.1773615",
       "16.178654"
     ],
-    "expires": 1685474486
+    "expires": 1686739145
   },
   "48.3902863,9.9854851": {
     "place_id": 49267353,
@@ -27532,7 +27555,7 @@
       "8.0150774",
       "8.0152782"
     ],
-    "expires": 1685489636
+    "expires": 1686702316
   },
   "48.4060926,16.1723657": {
     "place_id": 118177933,
@@ -27570,18 +27593,17 @@
     "expires": 1686716719
   },
   "48.4157978,9.7907857": {
-    "place_id": 87999458,
+    "place_id": 128116556,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8628023647,
-    "lat": "48.4157978",
-    "lon": "9.7907857",
-    "display_name": "Webcam, 16, Mühlweg, Landsitzle, Blaubeuren, Gemeindeverwaltungsverband Blaubeuren, Alb-Donau-Kreis, Baden-Württemberg, 89143, Deutschland",
+    "osm_type": "way",
+    "osm_id": 98604400,
+    "lat": "48.41606645",
+    "lon": "9.79085629885628",
+    "display_name": "Christian Schmidbleicher Bad, 16, Mühlweg, Blaubeuren, Gemeindeverwaltungsverband Blaubeuren, Alb-Donau-Kreis, Baden-Württemberg, 89143, Deutschland",
     "address": {
-      "man_made": "Webcam",
+      "leisure": "Christian Schmidbleicher Bad",
       "house_number": "16",
       "road": "Mühlweg",
-      "hamlet": "Landsitzle",
       "town": "Blaubeuren",
       "municipality": "Gemeindeverwaltungsverband Blaubeuren",
       "county": "Alb-Donau-Kreis",
@@ -27592,21 +27614,16 @@
       "country_code": "de"
     },
     "extratags": {
-      "image": "http://bilder.blaubeuren.de/current-m.jpg",
-      "operator": "Stadt Blaubeuren",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.blaubeuren.de/de/Aktuelles/Service/Wetter-Webcam",
-      "camera:direction": "10",
-      "surveillance:type": "camera"
+      "barrier": "fence",
+      "website": "https://www.tw-blaubeuren.de/"
     },
     "boundingbox": [
-      "48.4157478",
-      "48.4158478",
-      "9.7907357",
-      "9.7908357"
+      "48.4155408",
+      "48.4164705",
+      "9.7894433",
+      "9.7922167"
     ],
-    "expires": 1685501506
+    "expires": 1686742024
   },
   "48.4160672,9.7837493": {
     "place_id": 87598166,
@@ -28274,7 +28291,7 @@
       "12.1520022",
       "12.1524426"
     ],
-    "expires": 1685466718
+    "expires": 1686670707
   },
   "48.5444038,16.0795983": {
     "place_id": 208093873,
@@ -28349,7 +28366,7 @@
       "16.0641674",
       "16.0648563"
     ],
-    "expires": 1685427138
+    "expires": 1686745206
   },
   "48.5613676,10.2934426": {
     "place_id": 298657031,
@@ -28384,33 +28401,40 @@
     "expires": 1686352934
   },
   "48.5618394,8.2231102": {
-    "place_id": 154740073,
+    "place_id": 66302110,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 206295856,
-    "lat": "48.561754050000005",
-    "lon": "8.223074110053627",
-    "display_name": "2, Ruhestein, Baiersbronn, Verwaltungsverband Kappelrodeck, Ortenaukreis, Baden-Württemberg, 72270, Deutschland",
+    "osm_type": "node",
+    "osm_id": 6138803722,
+    "lat": "48.5618394",
+    "lon": "8.2231102",
+    "display_name": "2, Ruhestein, Baiersbronn, Landkreis Freudenstadt, Baden-Württemberg, 72270, Deutschland",
     "address": {
       "house_number": "2",
       "isolated_dwelling": "Ruhestein",
       "town": "Baiersbronn",
-      "municipality": "Verwaltungsverband Kappelrodeck",
-      "county": "Ortenaukreis",
+      "county": "Landkreis Freudenstadt",
       "state": "Baden-Württemberg",
       "ISO3166-2-lvl4": "DE-BW",
       "postcode": "72270",
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "camera:mount": "building",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.skilift-ruhestein.de/webcam/",
+      "camera:direction": "50",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "48.5616598",
-      "48.5618483",
-      "8.2229307",
-      "8.2232175"
+      "48.5617894",
+      "48.5618894",
+      "8.2230602",
+      "8.2231602"
     ],
-    "expires": 1685472306
+    "expires": 1686711189
   },
   "48.5693311,12.1127737": {
     "place_id": 80418713,
@@ -29025,7 +29049,7 @@
       "10.2128854",
       "10.2194375"
     ],
-    "expires": 1685493304
+    "expires": 1686803855
   },
   "48.6359532,10.2149729": {
     "place_id": 115559496,
@@ -29197,7 +29221,7 @@
       "10.1152468",
       "10.1153468"
     ],
-    "expires": 1685494927
+    "expires": 1686741985
   },
   "48.6822819,10.1316235": {
     "place_id": 143597069,
@@ -29227,7 +29251,7 @@
       "10.1315865",
       "10.1317569"
     ],
-    "expires": 1685441592
+    "expires": 1686763530
   },
   "48.6822894,10.1314954": {
     "place_id": 143305269,
@@ -29948,7 +29972,7 @@
       "9.7981637",
       "9.7982637"
     ],
-    "expires": 1685496643
+    "expires": 1686782647
   },
   "48.8113118,14.258137": {
     "place_id": 7251624,
@@ -29981,7 +30005,7 @@
       "14.2580328",
       "14.2581328"
     ],
-    "expires": 1685477040
+    "expires": 1686655382
   },
   "48.8133526,9.1681433": {
     "place_id": 44251194,
@@ -30168,15 +30192,15 @@
     "expires": 1686524673
   },
   "48.879485,2.2828809": {
-    "place_id": 198236094,
+    "place_id": 298533255,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 393519526,
-    "lat": "48.879459",
-    "lon": "2.282993181884062",
-    "display_name": "Napapjiri, Boulevard Pershing, Villa des Ternes, Quartier des Ternes, Paris 17e Arrondissement, Paris, Île-de-France, France métropolitaine, 75017, France",
+    "osm_type": "relation",
+    "osm_id": 3074644,
+    "lat": "48.87922585",
+    "lon": "2.2832741639361815",
+    "display_name": "Palais des Congrès, Boulevard Pershing, Villa des Ternes, Quartier des Ternes, Paris 17e Arrondissement, Paris, Île-de-France, France métropolitaine, 75017, France",
     "address": {
-      "shop": "Napapjiri",
+      "amenity": "Palais des Congrès",
       "road": "Boulevard Pershing",
       "neighbourhood": "Villa des Ternes",
       "suburb": "Paris 17e Arrondissement",
@@ -30192,15 +30216,18 @@
       "country_code": "fr"
     },
     "extratags": {
-      "level": "0"
+      "operator": "Unibail - Rodamco",
+      "wikidata": "Q1781591",
+      "internet_access": "wlan",
+      "internet_access:fee": "free"
     },
     "boundingbox": [
-      "48.879433",
-      "48.8795361",
-      "2.2828809",
-      "2.2830717"
+      "48.878272",
+      "48.8801677",
+      "2.2819623",
+      "2.2844811"
     ],
-    "expires": 1685478029
+    "expires": 1686669677
   },
   "48.9366996,8.9709019": {
     "place_id": 137373344,
@@ -30395,7 +30422,7 @@
       "8.4193815",
       "8.4205103"
     ],
-    "expires": 1685470138
+    "expires": 1686635429
   },
   "49.0094941,8.4034967": {
     "place_id": 298807206,
@@ -30560,7 +30587,8 @@
     "extratags": {
       "email": "info@waldwipfelweg.de",
       "phone": "+49 9965 80087",
-      "website": "http://www.waldwipfelweg.de/",
+      "website": "https://www.waldwipfelweg.de/",
+      "wikidata": "Q80011722",
       "wheelchair": "yes",
       "toilets:wheelchair": "yes"
     },
@@ -30570,7 +30598,7 @@
       "12.7795574",
       "12.7830888"
     ],
-    "expires": 1685452115
+    "expires": 1686635707
   },
   "49.0122727,8.4130406": {
     "place_id": 24750951,
@@ -30690,7 +30718,7 @@
       "8.462501",
       "8.4704548"
     ],
-    "expires": 1685481278
+    "expires": 1686664221
   },
   "49.0241752,7.8844064": {
     "place_id": 253735290,
@@ -30952,7 +30980,7 @@
       "16.1343701",
       "16.1344701"
     ],
-    "expires": 1685440689
+    "expires": 1686747129
   },
   "49.1425272,9.2183306": {
     "place_id": 298676297,
@@ -31157,7 +31185,7 @@
       "-122.9130617",
       "-122.9095522"
     ],
-    "expires": 1685446388
+    "expires": 1686712485
   },
   "49.276472,-122.9096369": {
     "place_id": 128169581,
@@ -31333,7 +31361,7 @@
       "20.091038",
       "20.091138"
     ],
-    "expires": 1685449248
+    "expires": 1686699088
   },
   "49.3365063,20.0950833": {
     "place_id": 352000110,
@@ -31397,6 +31425,7 @@
       "toll": "no",
       "lanes": "2",
       "oneway": "yes",
+      "surface": "asphalt",
       "maxspeed": "90",
       "operator": "DIR EST"
     },
@@ -31406,7 +31435,7 @@
       "6.1645337",
       "6.1676"
     ],
-    "expires": 1685464925
+    "expires": 1686768142
   },
   "49.3921243,8.6925406": {
     "place_id": 19794324,
@@ -31836,7 +31865,7 @@
       "9.1870184",
       "9.2045125"
     ],
-    "expires": 1685438817
+    "expires": 1686786984
   },
   "49.5550911,25.6401588": {
     "place_id": 38367283,
@@ -31913,17 +31942,16 @@
     "expires": 1686674379
   },
   "49.7509759,31.4689261": {
-    "place_id": 123231045,
+    "place_id": 7185764,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 73827141,
-    "lat": "49.75114575",
-    "lon": "31.468805653235485",
-    "display_name": "Канів, Енергетиків вулиця, 206-ї Дивізії, Канів, Канівська міська громада, Черкаський район, Черкаська область, 19000, Україна",
+    "osm_type": "node",
+    "osm_id": 896455168,
+    "lat": "49.7509759",
+    "lon": "31.4689261",
+    "display_name": "Веб-камера в центрі міста, Шевченка вулиця, Канів, Канівська міська громада, Черкаський район, Черкаська область, 19000, Україна",
     "address": {
-      "amenity": "Канів",
-      "road": "Енергетиків вулиця",
-      "residential": "206-ї Дивізії",
+      "man_made": "Веб-камера в центрі міста",
+      "road": "Шевченка вулиця",
       "town": "Канів",
       "municipality": "Канівська міська громада",
       "district": "Черкаський район",
@@ -31934,17 +31962,22 @@
       "country_code": "ua"
     },
     "extratags": {
-      "building": "yes",
-      "capacity": "720",
-      "building:levels": "3"
+      "operator": "www.kaniv.net",
+      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.kaniv.net/wc.php",
+      "camera:direction": "SE",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "49.7509167",
-      "49.7513821",
-      "31.4684013",
-      "31.4691948"
+      "49.7509259",
+      "49.7510259",
+      "31.4688761",
+      "31.4689761"
     ],
-    "expires": 1685448656
+    "expires": 1686654150
   },
   "49.7532601,15.0203444": {
     "place_id": 342960307,
@@ -32278,7 +32311,7 @@
       "1.0698542",
       "1.0705962"
     ],
-    "expires": 1685477936
+    "expires": 1686676570
   },
   "49.9299382,1.0872227": {
     "place_id": 55725721,
@@ -32317,7 +32350,7 @@
       "1.0871727",
       "1.0872727"
     ],
-    "expires": 1685491564
+    "expires": 1686676532
   },
   "49.98413,11.6112357": {
     "place_id": 88026812,
@@ -32355,7 +32388,7 @@
       "11.6111857",
       "11.6112857"
     ],
-    "expires": 1685509221
+    "expires": 1686710872
   },
   "49.9995375,8.2731832": {
     "place_id": 141711423,
@@ -32640,7 +32673,7 @@
       "10.9903971",
       "10.9904793"
     ],
-    "expires": 1685474408
+    "expires": 1686785840
   },
   "50.2300587,10.990815": {
     "place_id": 119368381,
@@ -32784,18 +32817,19 @@
       "10.9641825",
       "10.964716"
     ],
-    "expires": 1685453337
+    "expires": 1686638259
   },
   "50.2586706,10.9645925": {
-    "place_id": 49235776,
+    "place_id": 116132990,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 4344563903,
-    "lat": "50.2586706",
-    "lon": "10.9645925",
-    "display_name": "webcam stadthaus Coburg, Markt, Coburg, Bayern, 96450, Deutschland",
+    "osm_type": "way",
+    "osm_id": 39224062,
+    "lat": "50.258641049999994",
+    "lon": "10.964930295512836",
+    "display_name": "Stadthaus, 10, Markt, Coburg, Bayern, 96450, Deutschland",
     "address": {
-      "man_made": "webcam stadthaus Coburg",
+      "building": "Stadthaus",
+      "house_number": "10",
       "square": "Markt",
       "town": "Coburg",
       "state": "Bayern",
@@ -32805,20 +32839,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "http://cam-stadthaus.dacor.de/cgi-bin/guestimage.html",
-      "camera:direction": "190",
-      "surveillance:type": "camera",
-      "surveillance:zone": "square"
+      "image": "https://commons.wikimedia.org/wiki/File:Coburg-Stadthaus1.jpg",
+      "heritage": "4",
+      "ref:BLfD": "D-4-63-000-310",
+      "wikidata": "Q2327276",
+      "wikipedia": "de:Stadthaus (Coburg)",
+      "heritage:operator": "BLfD",
+      "wikimedia_commons": "Category:Stadthaus_Coburg"
     },
     "boundingbox": [
-      "50.2586206",
-      "50.2587206",
-      "10.9645425",
-      "10.9646425"
+      "50.2584899",
+      "50.2587919",
+      "10.9645614",
+      "10.9652126"
     ],
-    "expires": 1685506515
+    "expires": 1686701801
   },
   "50.2649769,10.9920921": {
     "place_id": 119094984,
@@ -32852,15 +32887,15 @@
     "expires": 1686291219
   },
   "50.2651301,10.9955462": {
-    "place_id": 49773775,
+    "place_id": 119094984,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 4345521554,
-    "lat": "50.2651301",
-    "lon": "10.9955462",
-    "display_name": "Verkehrslandeplatz Coburg Brandensteinsebene, Zur Brandensteinsebene, Cortendorf, Coburg, Bayern, 96450, Deutschland",
+    "osm_type": "way",
+    "osm_id": 50200030,
+    "lat": "50.26271695",
+    "lon": "10.996144562679058",
+    "display_name": "Coburg-Brandensteinsebene, Zur Brandensteinsebene, Cortendorf, Coburg, Bayern, 96450, Deutschland",
     "address": {
-      "man_made": "Verkehrslandeplatz Coburg Brandensteinsebene",
+      "aeroway": "Coburg-Brandensteinsebene",
       "road": "Zur Brandensteinsebene",
       "suburb": "Cortendorf",
       "town": "Coburg",
@@ -32871,18 +32906,16 @@
       "country_code": "de"
     },
     "extratags": {
-      "website": "https://www.vlp-coburg.de/pilots/webcam",
-      "description": "Unsere Webcams verschaffen ihnen einen Eindruck von unserem Flugplatz. Die Bilder werden minütlich aktualisiert.",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "wikidata": "Q1433551",
+      "wikipedia": "de:Flugplatz Coburg-Brandensteinsebene"
     },
     "boundingbox": [
-      "50.2650801",
-      "50.2651801",
-      "10.9954962",
-      "10.9955962"
+      "50.2599258",
+      "50.2654639",
+      "10.9899579",
+      "11.0018698"
     ],
-    "expires": 1685430405
+    "expires": 1686760289
   },
   "50.2768601,10.9442724": {
     "place_id": 244205547,
@@ -32981,7 +33014,7 @@
       "11.0314431",
       "11.0315431"
     ],
-    "expires": 1685446465
+    "expires": 1686705173
   },
   "50.3504537,7.608477": {
     "place_id": 180902552,
@@ -33370,7 +33403,7 @@
       "11.0112332",
       "11.0114058"
     ],
-    "expires": 1685434061
+    "expires": 1686637215
   },
   "50.4186962,30.5929597": {
     "place_id": 80125219,
@@ -33792,15 +33825,15 @@
     "expires": 1686694131
   },
   "50.6657372,10.8810126": {
-    "place_id": 98948693,
+    "place_id": 119173906,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9836241584,
-    "lat": "50.6657372",
-    "lon": "10.8810126",
-    "display_name": "Kickelhahn Turm bei Ilmenau, Panoramaweg, Ilmenau, Ilm-Kreis, Thüringen, 98693, Deutschland",
+    "osm_type": "way",
+    "osm_id": 51504939,
+    "lat": "50.66573995",
+    "lon": "10.881022458465868",
+    "display_name": "Kickelhahnturm, Panoramaweg, Ilmenau, Ilm-Kreis, Thüringen, 98693, Deutschland",
     "address": {
-      "man_made": "Kickelhahn Turm bei Ilmenau",
+      "historic": "Kickelhahnturm",
       "road": "Panoramaweg",
       "city_district": "Ilmenau",
       "town": "Ilmenau",
@@ -33812,21 +33845,22 @@
       "country_code": "de"
     },
     "extratags": {
-      "ele": "888",
-      "camera:type": "dome",
-      "camera:mount": "tower",
-      "surveillance": "webcam",
-      "contact:webcam": "https://kickelhahn.panomax.com/",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "height": "24",
+      "wikidata": "Q110180262",
+      "roof:shape": "flat",
+      "roof:colour": "#808080",
+      "roof:material": "concrete",
+      "building:colour": "#808080",
+      "building:material": "stone",
+      "wikimedia_commons": "Category:Kickelhahnturm"
     },
     "boundingbox": [
-      "50.6656872",
-      "50.6657872",
-      "10.8809626",
-      "10.8810626"
+      "50.6657209",
+      "50.6657596",
+      "10.880992",
+      "10.8810531"
     ],
-    "expires": 1685472533
+    "expires": 1686677230
   },
   "50.6701961,4.6151675": {
     "place_id": 231384911,
@@ -33867,42 +33901,40 @@
     "expires": 1686695152
   },
   "50.7273969,-1.1666039": {
-    "place_id": 97396881,
+    "place_id": 137568946,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9444771860,
-    "lat": "50.7273969",
-    "lon": "-1.1666039",
-    "display_name": "Solent View, Queens Road, Pelhamfield, Ryde, Isle of Wight, England, PO33 3BG, United Kingdom",
+    "osm_type": "way",
+    "osm_id": 133021816,
+    "lat": "50.7272788",
+    "lon": "-1.166744551119204",
+    "display_name": "All Saints, West Street, Swanmore, Ryde, Isle of Wight, England, PO33 2PQ, United Kingdom",
     "address": {
-      "man_made": "Solent View",
-      "road": "Queens Road",
-      "suburb": "Pelhamfield",
+      "amenity": "All Saints",
+      "road": "West Street",
+      "suburb": "Swanmore",
       "town": "Ryde",
       "county": "Isle of Wight",
       "ISO3166-2-lvl6": "GB-IOW",
       "state": "England",
       "ISO3166-2-lvl4": "GB-ENG",
-      "postcode": "PO33 3BG",
+      "postcode": "PO33 2PQ",
       "country": "United Kingdom",
       "country_code": "gb"
     },
     "extratags": {
-      "camera:type": "panning",
-      "description": "This 4k camera is located at the top of All Saints Church Spire in Ryde and gives amazing views across the Solent towards Portsmouth Harbour and beyond. As you watch you will see three different ferries to the Island cross the screen.",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.youtube.com/watch?v=lhf_x8tI6L4",
-      "camera:direction": "45",
-      "surveillance:type": "camera",
-      "surveillance:zone": "view"
+      "religion": "christian",
+      "wikidata": "Q4729345",
+      "wikipedia": "en:All Saints' Church, Ryde",
+      "denomination": "anglican",
+      "contact:website": "https://www.rydeallsaints.org.uk/"
     },
     "boundingbox": [
-      "50.7273469",
-      "50.7274469",
-      "-1.1666539",
-      "-1.1665539"
+      "50.7271193",
+      "50.7274307",
+      "-1.1670651",
+      "-1.1664173"
     ],
-    "expires": 1685509000
+    "expires": 1686775531
   },
   "50.7322257,-1.1590948": {
     "place_id": 83704948,
@@ -33976,15 +34008,15 @@
     "expires": 1686636669
   },
   "50.7812727,-0.6758564": {
-    "place_id": 215117268,
+    "place_id": 55837157,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 501151857,
-    "lat": "50.7812914",
-    "lon": "-0.676021125029983",
-    "display_name": "Bognor Pier, The Esplanade, Bognor Regis, Felpham, Arun, West Sussex, England, PO21 1NE, United Kingdom",
+    "osm_type": "node",
+    "osm_id": 5016901223,
+    "lat": "50.7812727",
+    "lon": "-0.6758564",
+    "display_name": "Bognor Regis Webcam, The Esplanade, Bognor Regis, Felpham, Arun, West Sussex, England, PO21 1NE, United Kingdom",
     "address": {
-      "building": "Bognor Pier",
+      "man_made": "Bognor Regis Webcam",
       "road": "The Esplanade",
       "town": "Felpham",
       "city": "Arun",
@@ -33997,16 +34029,21 @@
       "country_code": "gb"
     },
     "extratags": {
-      "name_1": "Sheiks Nightclub",
-      "building:levels": "1"
+      "camera:type": "fixed",
+      "description": "view of East Beach Bognor Regis from The Pier at Bognor Regis",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.bognorregisbeach.co.uk/live",
+      "camera:direction": "90",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "50.7809207",
-      "50.7815446",
-      "-0.6763063",
-      "-0.6757085"
+      "50.7812227",
+      "50.7813227",
+      "-0.6759064",
+      "-0.6758064"
     ],
-    "expires": 1685471125
+    "expires": 1686732319
   },
   "50.8224881,14.726794": {
     "place_id": 246735582,
@@ -34068,7 +34105,7 @@
       "14.7267513",
       "14.7269552"
     ],
-    "expires": 1685436284
+    "expires": 1686653829
   },
   "50.82254,14.7268432": {
     "place_id": 246735582,
@@ -34099,7 +34136,7 @@
       "14.7267513",
       "14.7269552"
     ],
-    "expires": 1685485248
+    "expires": 1686688655
   },
   "50.8234587,12.9213474": {
     "place_id": 145358622,
@@ -34469,7 +34506,7 @@
       "0.5205186",
       "0.5206186"
     ],
-    "expires": 1685474086
+    "expires": 1686757672
   },
   "50.8494322,5.6941473": {
     "place_id": 92722870,
@@ -34686,40 +34723,38 @@
     "expires": 1686680683
   },
   "50.8816359,12.1320933": {
-    "place_id": 226546435,
+    "place_id": 56257315,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 572403516,
-    "lat": "50.8809951",
-    "lon": "12.134583034444386",
-    "display_name": "Flugplatz Gera-Leumnitz, L 1362, Gera, Thüringen, 07554, Deutschland",
+    "osm_type": "node",
+    "osm_id": 5045983508,
+    "lat": "50.8816359",
+    "lon": "12.1320933",
+    "display_name": "webcam Flugplatz Gera-Leumnitz, Ronneburger Straße, Gera, Thüringen, 07546, Deutschland",
     "address": {
-      "aeroway": "Flugplatz Gera-Leumnitz",
-      "road": "L 1362",
+      "man_made": "webcam Flugplatz Gera-Leumnitz",
+      "road": "Ronneburger Straße",
       "town": "Gera",
       "state": "Thüringen",
       "ISO3166-2-lvl4": "DE-TH",
-      "postcode": "07554",
+      "postcode": "07546",
       "country": "Deutschland",
       "country_code": "de"
     },
     "extratags": {
-      "ele": "309",
-      "is_in": "Leumnitz, Gera, Thüringen, Bundesrepublik Deutschland,Europe",
-      "operator": "C&L Systeme LFDU",
-      "wikidata": "Q1433602",
-      "wikipedia": "de:Flugplatz Gera-Leumnitz",
-      "opening_hours": "Apr-Sep: 09:00-19:00; Oct-Mar: 09:00-(sunset+00:30)",
-      "aerodrome:type": "airfield",
-      "contact:website": "https://www.flugplatz-gera.de"
+      "camera:type": "panning",
+      "camera:mount": "tower",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.flugplatz-gera.de/webcam/",
+      "surveillance:type": "camera",
+      "surveillance:zone": "airport"
     },
     "boundingbox": [
-      "50.8779288",
-      "50.8838712",
-      "12.1278426",
-      "12.144977"
+      "50.8815859",
+      "50.8816859",
+      "12.1320433",
+      "12.1321433"
     ],
-    "expires": 1685463658
+    "expires": 1686667167
   },
   "50.8861802,4.7003569": {
     "place_id": 216382593,
@@ -35010,7 +35045,7 @@
     "expires": 1686525831
   },
   "50.9861366,5.3226395": {
-    "place_id": 187914129,
+    "place_id": 187914204,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 341338816,
@@ -35018,7 +35053,7 @@
     "lon": "5.322594359863115",
     "display_name": "Uitkijktoren Wijers Zonhoven, Bolderdal, Zonhoven, Hasselt, Limburg, Vlaanderen, 3520, België / Belgique / Belgien",
     "address": {
-      "man_made": "Uitkijktoren Wijers Zonhoven",
+      "tourism": "Uitkijktoren Wijers Zonhoven",
       "road": "Bolderdal",
       "town": "Zonhoven",
       "county": "Hasselt",
@@ -35034,8 +35069,8 @@
       "fee": "no",
       "access": "yes",
       "height": "15",
-      "tourism": "viewpoint",
       "building": "yes",
+      "man_made": "tower",
       "tower:type": "observation"
     },
     "boundingbox": [
@@ -35044,7 +35079,7 @@
       "5.3225152",
       "5.3226769"
     ],
-    "expires": 1685491084
+    "expires": 1686802883
   },
   "50.9980663,5.8699701": {
     "place_id": 94581681,
@@ -35081,7 +35116,7 @@
       "5.8699201",
       "5.8700201"
     ],
-    "expires": 1685452705
+    "expires": 1686638206
   },
   "51.0292143,7.8423778": {
     "place_id": 130242443,
@@ -35185,15 +35220,14 @@
     "expires": 1686262805
   },
   "51.0753161,7.8402817": {
-    "place_id": 36182708,
+    "place_id": 184117029,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 2975527542,
-    "lat": "51.0753161",
-    "lon": "7.8402817",
-    "display_name": "Webcam Olpe-Sondern Pension Stumpf, 7, Sonderner Straße, Sondern, Olpe, Kreis Olpe, Nordrhein-Westfalen, 57462, Deutschland",
+    "osm_type": "way",
+    "osm_id": 326457385,
+    "lat": "51.07529425",
+    "lon": "7.840165431454325",
+    "display_name": "7, Sonderner Straße, Sondern, Olpe, Kreis Olpe, Nordrhein-Westfalen, 57462, Deutschland",
     "address": {
-      "man_made": "Webcam Olpe-Sondern Pension Stumpf",
       "house_number": "7",
       "road": "Sonderner Straße",
       "village": "Sondern",
@@ -35205,18 +35239,14 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {
-      "url": "http://wettercam.pension-stumpf.de/images/stories/MOBOTIX/webcam/current.jpg",
-      "website": "http://wettercam.pension-stumpf.de/images/stories/MOBOTIX/webcam/current.jpg",
-      "surveillance": "webcam"
-    },
+    "extratags": {},
     "boundingbox": [
-      "51.0752661",
-      "51.0753661",
-      "7.8402317",
-      "7.8403317"
+      "51.0752404",
+      "51.0753749",
+      "7.8400328",
+      "7.8403012"
     ],
-    "expires": 1685471426
+    "expires": 1686685037
   },
   "51.0891285,6.589649": {
     "place_id": 56550665,
@@ -35398,7 +35428,7 @@
       "7.8920694",
       "7.8921694"
     ],
-    "expires": 1685468709
+    "expires": 1686683506
   },
   "51.1507876,-1.4554314": {
     "place_id": 94833953,
@@ -36103,7 +36133,7 @@
       "5.6355815",
       "5.6356815"
     ],
-    "expires": 1685486478
+    "expires": 1686633945
   },
   "51.4763099,7.2161577": {
     "place_id": 299161592,
@@ -36574,18 +36604,17 @@
       "8.2078722",
       "8.2223423"
     ],
-    "expires": 1685445338
+    "expires": 1686669546
   },
   "51.5876359,14.0108529": {
-    "place_id": 149027270,
+    "place_id": 97417005,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 184021844,
-    "lat": "51.5877188",
-    "lon": "14.010476975543222",
-    "display_name": "Kurmärker, 1, Seestraße, Klein Räschen, Großräschen, Oberspreewald-Lausitz - Górne Błota-Łužyca, Brandenburg, 01983, Deutschland",
+    "osm_type": "node",
+    "osm_id": 9626280494,
+    "lat": "51.5876359",
+    "lon": "14.0108529",
+    "display_name": "1, Seestraße, Klein Räschen, Großräschen, Oberspreewald-Lausitz - Górne Błota-Łužyca, Brandenburg, 01983, Deutschland",
     "address": {
-      "building": "Kurmärker",
       "house_number": "1",
       "road": "Seestraße",
       "suburb": "Klein Räschen",
@@ -36597,24 +36626,32 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "camera:mount": "building",
+      "surveillance": "webcam",
+      "contact:webcam": "http://cams.grossraeschen.de/markt/markt.jpg",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "51.5875472",
-      "51.5878722",
-      "14.0101633",
-      "14.0109013"
+      "51.5875859",
+      "51.5876859",
+      "14.0108029",
+      "14.0109029"
     ],
-    "expires": 1685496717
+    "expires": 1686806389
   },
   "51.5979331,6.681226": {
-    "place_id": 77744698,
+    "place_id": 126842408,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 7379792421,
-    "lat": "51.5979331",
-    "lon": "6.681226",
-    "display_name": "20, Rathausplatz, Voerde, Voerde (Niederrhein), Kreis Wesel, Nordrhein-Westfalen, 46562, Deutschland",
+    "osm_type": "way",
+    "osm_id": 94835460,
+    "lat": "51.59816905",
+    "lon": "6.680874308943794",
+    "display_name": "Rathaus Voerde, 20, Rathausplatz, Voerde, Voerde (Niederrhein), Kreis Wesel, Nordrhein-Westfalen, 46562, Deutschland",
     "address": {
+      "amenity": "Rathaus Voerde",
       "house_number": "20",
       "road": "Rathausplatz",
       "suburb": "Voerde",
@@ -36627,17 +36664,18 @@
       "country_code": "de"
     },
     "extratags": {
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.voerde.de/de/inhalt/webcam/",
-      "camera:direction": "190"
+      "roof:shape": "flat",
+      "wheelchair": "yes",
+      "building:levels": "5",
+      "toilets:wheelchair": "yes"
     },
     "boundingbox": [
-      "51.5978831",
-      "51.5979831",
-      "6.681176",
-      "6.681276"
+      "51.597802",
+      "51.5985494",
+      "6.6806924",
+      "6.681873"
     ],
-    "expires": 1685426957
+    "expires": 1686662393
   },
   "51.6507751,4.6068392": {
     "place_id": 92050352,
@@ -37082,7 +37120,7 @@
       "8.7530382",
       "8.7531382"
     ],
-    "expires": 1685478597
+    "expires": 1686641176
   },
   "51.7178801,8.7521241": {
     "place_id": 5878344,
@@ -37115,7 +37153,7 @@
       "8.7519526",
       "8.7520526"
     ],
-    "expires": 1685468187
+    "expires": 1686705630
   },
   "51.7183292,8.9374824": {
     "place_id": 22721619,
@@ -37472,16 +37510,15 @@
     "expires": 1686700617
   },
   "51.7838274,8.8172923": {
-    "place_id": 155849826,
+    "place_id": 17841010,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 210882548,
-    "lat": "51.78373805",
-    "lon": "8.817285433744546",
-    "display_name": "Rathaus Bad Lippspringe, 1, Friedrich-Wilhelm-Weber-Platz, Bad Lippspringe, Kreis Paderborn, Nordrhein-Westfalen, 33175, Deutschland",
+    "osm_type": "node",
+    "osm_id": 2033330193,
+    "lat": "51.7838274",
+    "lon": "8.8172923",
+    "display_name": "Webcam bad-lippspringe Rathaus, Friedrich-Wilhelm-Weber-Platz, Bad Lippspringe, Kreis Paderborn, Nordrhein-Westfalen, 33175, Deutschland",
     "address": {
-      "amenity": "Rathaus Bad Lippspringe",
-      "house_number": "1",
+      "man_made": "Webcam bad-lippspringe Rathaus",
       "road": "Friedrich-Wilhelm-Weber-Platz",
       "town": "Bad Lippspringe",
       "county": "Kreis Paderborn",
@@ -37492,22 +37529,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "roof:shape": "hipped",
-      "wheelchair": "yes",
-      "roof:colour": "brown",
-      "roof:levels": "1",
-      "roof:material": "roof_tiles",
-      "building:colour": "white",
-      "building:levels": "2",
-      "building:material": "plaster"
+      "operator": "Bad Lippspringe",
+      "camera:type": "fixed",
+      "camera:mount": "window",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.bad-lippspringe.com/webcam/bild2.jpg",
+      "camera:direction": "270",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "51.783542",
-      "51.7839273",
-      "8.8170443",
-      "8.8176927"
+      "51.7837774",
+      "51.7838774",
+      "8.8172423",
+      "8.8173423"
     ],
-    "expires": 1685453401
+    "expires": 1686733649
   },
   "51.7858892,11.1355763": {
     "place_id": 155073335,
@@ -37731,7 +37767,7 @@
       "4.1279453",
       "4.1280453"
     ],
-    "expires": 1685508331
+    "expires": 1686763620
   },
   "51.8260436,5.3776027": {
     "place_id": 91378241,
@@ -37767,7 +37803,7 @@
       "5.3775527",
       "5.3776527"
     ],
-    "expires": 1685484360
+    "expires": 1686644224
   },
   "51.830375,4.6218176": {
     "place_id": 102332392,
@@ -37812,9 +37848,8 @@
       "amenity": "Carpoolplaats Avelingen West",
       "road": "Nieuwe Wolpherensedijk",
       "industrial": "Avelingen West",
+      "city_district": "Gorinchem",
       "town": "Gorinchem",
-      "city": "Gorinchem",
-      "municipality": "Gorinchem",
       "state": "Zuid-Holland",
       "ISO3166-2-lvl4": "NL-ZH",
       "country": "Nederland",
@@ -37832,7 +37867,7 @@
       "4.9430668",
       "4.9435103"
     ],
-    "expires": 1685502509
+    "expires": 1686716837
   },
   "51.8597099,13.9517458": {
     "place_id": 5906399,
@@ -37867,16 +37902,17 @@
     "expires": 1686599456
   },
   "51.862351,4.3110514": {
-    "place_id": 99343809,
+    "place_id": 295846121,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9751082200,
-    "lat": "51.862351",
-    "lon": "4.3110514",
-    "display_name": "Hartel Baan 4-5-6, Markenburgweg, Schiekamp, Spijkenisse, Nissewaard, Zuid-Holland, Nederland, 3202 LC, Nederland",
+    "osm_type": "way",
+    "osm_id": 1061297320,
+    "lat": "51.861881100000005",
+    "lon": "4.311008741624463",
+    "display_name": "L.T.V. De Hartel, 2, Voorweg, Schiekamp, Spijkenisse, Nissewaard, Zuid-Holland, Nederland, 3202 LC, Nederland",
     "address": {
-      "man_made": "Hartel Baan 4-5-6",
-      "road": "Markenburgweg",
+      "club": "L.T.V. De Hartel",
+      "house_number": "2",
+      "road": "Voorweg",
       "quarter": "Schiekamp",
       "town": "Spijkenisse",
       "municipality": "Nissewaard",
@@ -37887,20 +37923,17 @@
       "country_code": "nl"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://clubhuis.ltvdehartel.nl/index.php/webcams/",
-      "camera:direction": "209",
-      "surveillance:type": "camera",
-      "surveillance:zone": "sport_field"
+      "phone": "+31 181 612 909",
+      "sport": "tennis",
+      "website": "https://www.ltvdehartel.nl/webcam"
     },
     "boundingbox": [
-      "51.862301",
-      "51.862401",
-      "4.3110014",
-      "4.3111014"
+      "51.8615674",
+      "51.8625827",
+      "4.3101332",
+      "4.3118882"
     ],
-    "expires": 1685483675
+    "expires": 1686765040
   },
   "51.8651405,6.0545416": {
     "place_id": 92502257,
@@ -38146,7 +38179,7 @@
       "4.5378438",
       "4.5381807"
     ],
-    "expires": 1685484022
+    "expires": 1686673195
   },
   "51.901135,13.0599591": {
     "place_id": 115664186,
@@ -38367,7 +38400,7 @@
       "4.5264218",
       "4.5265218"
     ],
-    "expires": 1685487011
+    "expires": 1686752573
   },
   "51.9080827,4.4925259": {
     "place_id": 173714143,
@@ -38670,7 +38703,7 @@
       "9.8836058",
       "9.8899499"
     ],
-    "expires": 1685489147
+    "expires": 1686689665
   },
   "51.934586,6.6004175": {
     "place_id": 92818371,
@@ -38779,7 +38812,7 @@
       "5.1850465",
       "5.1851465"
     ],
-    "expires": 1685467734
+    "expires": 1686704263
   },
   "51.936511,22.3869418": {
     "place_id": 147189907,
@@ -38914,7 +38947,7 @@
       "5.5739115",
       "5.5740115"
     ],
-    "expires": 1685463018
+    "expires": 1686715291
   },
   "51.9623998,4.0206239": {
     "place_id": 80848818,
@@ -39272,7 +39305,7 @@
       "6.6037393",
       "6.6038393"
     ],
-    "expires": 1685489702
+    "expires": 1686806061
   },
   "52.0626347,4.3436067": {
     "place_id": 91461236,
@@ -39585,7 +39618,7 @@
       "-6.929554",
       "-6.9293639"
     ],
-    "expires": 1685473563
+    "expires": 1686801324
   },
   "52.1238073,-6.9294426": {
     "place_id": 124766058,
@@ -39669,7 +39702,7 @@
       "6.2167619",
       "6.2168619"
     ],
-    "expires": 1685457112
+    "expires": 1686779081
   },
   "52.1382657,6.2172751": {
     "place_id": 119646430,
@@ -39809,7 +39842,7 @@
       "6.2162278",
       "6.2163278"
     ],
-    "expires": 1685432654
+    "expires": 1686674479
   },
   "52.1583132,6.2028607": {
     "place_id": 92020700,
@@ -40030,7 +40063,7 @@
       "5.0850956",
       "5.0851956"
     ],
-    "expires": 1685493092
+    "expires": 1686702426
   },
   "52.1922197,24.2447634": {
     "place_id": 248741607,
@@ -40266,7 +40299,7 @@
       "4.7577378",
       "4.7578378"
     ],
-    "expires": 1685480807
+    "expires": 1686699267
   },
   "52.2641875,10.5262579": {
     "place_id": 178183995,
@@ -40301,17 +40334,16 @@
     "expires": 1685570289
   },
   "52.2643559,10.524755": {
-    "place_id": 297911018,
+    "place_id": 155832379,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 5412,
-    "lat": "52.26463495",
-    "lon": "10.524983905843627",
-    "display_name": "Rathaus Braunschweig, 1, Platz der Deutschen Einheit, Innenstadt, Braunschweig, Niedersachsen, 38100, Deutschland",
+    "osm_type": "way",
+    "osm_id": 210947619,
+    "lat": "52.26432975",
+    "lon": "10.524786686903365",
+    "display_name": "Rathausturm, Platz der Deutschen Einheit, Innenstadt, Braunschweig, Niedersachsen, 38100, Deutschland",
     "address": {
-      "office": "Rathaus Braunschweig",
-      "house_number": "1",
-      "road": "Platz der Deutschen Einheit",
+      "man_made": "Rathausturm",
+      "square": "Platz der Deutschen Einheit",
       "suburb": "Innenstadt",
       "city": "Braunschweig",
       "state": "Niedersachsen",
@@ -40321,28 +40353,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "heritage": "4",
-      "operator": "Stadt Braunschweig",
-      "wikidata": "Q901951",
-      "architect": "Ludwig Winter",
-      "wikipedia": "de:Braunschweiger Rathaus",
-      "start_date": "1894 - 1900",
-      "wheelchair": "limited",
-      "contact:fax": "+49 531 15112",
-      "contact:phone": "+49 531 4701",
-      "contact:website": "https://www.braunschweig.de/",
-      "construction_date": "1900",
-      "heritage:operator": "nld",
-      "architect:wikidata": "Q1875192",
-      "building:architecture": "neo-gothic"
+      "height": "45",
+      "roof:shape": "pyramidal",
+      "wheelchair": "no",
+      "roof:height": "10",
+      "building:part": "yes",
+      "opening_hours": "Mo-Fr 09:00-15:00",
+      "roof:material": "copper"
     },
     "boundingbox": [
-      "52.2641714",
-      "52.2650697",
+      "52.2642872",
+      "52.2643718",
       "10.5247174",
-      "10.5257575"
+      "10.5248551"
     ],
-    "expires": 1685470996
+    "expires": 1686763613
   },
   "52.264359,10.524757": {
     "place_id": 155832379,
@@ -40594,7 +40619,7 @@
     "expires": 1686595174
   },
   "52.3177955,8.0192775": {
-    "place_id": 337471878,
+    "place_id": 158205399,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 215493307,
@@ -40602,7 +40627,7 @@
     "lon": "8.0192747",
     "display_name": "Aussichtsturm Felsrippe (Piesberg), Erdzeitaltertreppe, Pye, Osnabrück, Niedersachsen, 49090, Deutschland",
     "address": {
-      "man_made": "Aussichtsturm Felsrippe (Piesberg)",
+      "tourism": "Aussichtsturm Felsrippe (Piesberg)",
       "road": "Erdzeitaltertreppe",
       "suburb": "Pye",
       "city": "Osnabrück",
@@ -40627,7 +40652,7 @@
       "8.0192408",
       "8.0193086"
     ],
-    "expires": 1685451567
+    "expires": 1686801701
   },
   "52.3266665,23.7830237": {
     "place_id": 340192462,
@@ -40770,7 +40795,7 @@
       "5.6195754",
       "5.6196754"
     ],
-    "expires": 1685504648
+    "expires": 1686802276
   },
   "52.3608341,23.4103301": {
     "place_id": 290621600,
@@ -41051,7 +41076,7 @@
       "23.8666829",
       "23.8954711"
     ],
-    "expires": 1685470272
+    "expires": 1686719802
   },
   "52.400109,23.8816203": {
     "place_id": 214555977,
@@ -41083,7 +41108,7 @@
       "23.8666829",
       "23.8954711"
     ],
-    "expires": 1685432014
+    "expires": 1686653156
   },
   "52.4155478,4.8341493": {
     "place_id": 92369744,
@@ -41324,7 +41349,7 @@
       "5.8310711",
       "5.8311711"
     ],
-    "expires": 1685429793
+    "expires": 1686766376
   },
   "52.4525192,13.5091773": {
     "place_id": 5982980,
@@ -41355,7 +41380,7 @@
       "13.5091273",
       "13.5092273"
     ],
-    "expires": 1685456016
+    "expires": 1686805521
   },
   "52.4585984,13.3103323": {
     "place_id": 272530268,
@@ -42046,7 +42071,7 @@
       "24.4755278",
       "24.4755927"
     ],
-    "expires": 1685440462
+    "expires": 1686776859
   },
   "52.6027128,0.3778365": {
     "place_id": 55833395,
@@ -42120,7 +42145,7 @@
       "6.0407169",
       "6.0408169"
     ],
-    "expires": 1685472080
+    "expires": 1686689553
   },
   "52.6239898,6.040909": {
     "place_id": 91703390,
@@ -42566,14 +42591,15 @@
     "expires": 1685626375
   },
   "53.0781505,7.3948935": {
-    "place_id": 273256172,
+    "place_id": 36416124,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 884626980,
-    "lat": "53.078129000000004",
-    "lon": "7.394984150000003",
-    "display_name": "70, Hauptkanal rechts, Papenburg, Landkreis Emsland, Niedersachsen, 26871, Deutschland",
+    "osm_type": "node",
+    "osm_id": 2997621048,
+    "lat": "53.0781505",
+    "lon": "7.3948935",
+    "display_name": "Schwanen Apotheke webcam, 70, Hauptkanal rechts, Papenburg, Landkreis Emsland, Niedersachsen, 26871, Deutschland",
     "address": {
+      "man_made": "Schwanen Apotheke webcam",
       "house_number": "70",
       "road": "Hauptkanal rechts",
       "town": "Papenburg",
@@ -42584,43 +42610,24 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
-    "boundingbox": [
-      "53.0780625",
-      "53.0781955",
-      "7.3948529",
-      "7.3951154"
-    ],
-    "expires": 1685431719
-  },
-  "53.1390876,8.1084728": {
-    "place_id": 3325081,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 419830861,
-    "lat": "53.1391703",
-    "lon": "8.1083505",
-    "display_name": "Dorfplatz - Springbrunnen, Mittellinie, Petersfehn I, Bad Zwischenahn, Landkreis Ammerland, Niedersachsen, 26160, Deutschland",
-    "address": {
-      "amenity": "Dorfplatz - Springbrunnen",
-      "road": "Mittellinie",
-      "village": "Petersfehn I",
-      "municipality": "Bad Zwischenahn",
-      "county": "Landkreis Ammerland",
-      "state": "Niedersachsen",
-      "ISO3166-2-lvl4": "DE-NI",
-      "postcode": "26160",
-      "country": "Deutschland",
-      "country_code": "de"
+    "extratags": {
+      "camera:type": "fixed",
+      "description": "Blick von der Schwanen-Apotheke in die Stadtmitte. Rechts sehen Sie das Museumsschiff Friederike, links den Rathausvorplatz.",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.schwanenapotheke-papenburg.de/webcam",
+      "description:en": "View of the city center from the Schwanen pharmacy. On the right you can see the museum ship Friederike, on the left the town hall forecourt.",
+      "camera:direction": "285",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
-    "extratags": {},
     "boundingbox": [
-      "53.1391203",
-      "53.1392203",
-      "8.1083005",
-      "8.1084005"
+      "53.0781005",
+      "53.0782005",
+      "7.3948435",
+      "7.3949435"
     ],
-    "expires": 1685507536
+    "expires": 1686678914
   },
   "53.193096,6.5587609": {
     "place_id": 337375953,
@@ -42887,7 +42894,7 @@
       "6.5865618",
       "6.5866618"
     ],
-    "expires": 1685432136
+    "expires": 1686663865
   },
   "53.2263496,6.5330264": {
     "place_id": 337375819,
@@ -43032,42 +43039,37 @@
     "expires": 1686299513
   },
   "53.3496904,-6.2598697": {
-    "place_id": 99142595,
+    "place_id": 188982226,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9761859141,
-    "lat": "53.3496904",
-    "lon": "-6.2598697",
-    "display_name": "Dublin O'Connell Street Webcam, North Earl Street, North City ED, Dublin, County Dublin, Leinster, D01 KX67, Éire / Ireland",
+    "osm_type": "way",
+    "osm_id": 353991663,
+    "lat": "53.34970655",
+    "lon": "-6.25979498174822",
+    "display_name": "Carroll's Irish Gifts, 33, O'Connell Street Lower, North City Ward 1986, Dublin, County Dublin, Leinster, D01 P5P5, Éire / Ireland",
     "address": {
-      "man_made": "Dublin O'Connell Street Webcam",
-      "road": "North Earl Street",
-      "city_district": "North City ED",
+      "shop": "Carroll's Irish Gifts",
+      "house_number": "33",
+      "road": "O'Connell Street Lower",
+      "city_district": "North City Ward 1986",
       "city": "Dublin",
       "county": "County Dublin",
       "ISO3166-2-lvl6": "IE-D",
       "region": "Leinster",
       "ISO3166-2-lvl5": "IE-L",
-      "postcode": "D01 KX67",
+      "postcode": "D01 P5P5",
       "country": "Éire / Ireland",
       "country_code": "ie"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "description": "Our great Webcam takes viewers right into the heart of Dublin City - to the iconic GPO building! Whether you want to see traffic, the weather, or you want to see the St Patrick's Day Parade, this cam is perfectly positioned.",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.carrollsirishgifts.com/dublinwebcam.html",
-      "camera:direction": "220",
-      "surveillance:type": "camera",
-      "surveillance:zone": "building"
+      "wheelchair": "yes"
     },
     "boundingbox": [
-      "53.3496404",
-      "53.3497404",
-      "-6.2599197",
-      "-6.2598197"
+      "53.349664",
+      "53.3497509",
+      "-6.2599004",
+      "-6.2596901"
     ],
-    "expires": 1685463759
+    "expires": 1686677620
   },
   "53.349928,-6.2606955": {
     "place_id": 98249520,
@@ -43386,7 +43388,7 @@
       "7.1515649",
       "7.1524489"
     ],
-    "expires": 1685471371
+    "expires": 1686703081
   },
   "53.6219988,7.1589841": {
     "place_id": 49563739,
@@ -43423,7 +43425,7 @@
     "expires": 1686456084
   },
   "53.6273879,8.0286779": {
-    "place_id": 141742846,
+    "place_id": 141742774,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 154682710,
@@ -43431,7 +43433,7 @@
     "lon": "8.028611283218904",
     "display_name": "Hotel zum Packhaus, 1, Am Hafen, Hooksiel, Langengroden, Hooksiel, Wangerland, Landkreis Friesland, Niedersachsen, 26434, Deutschland",
     "address": {
-      "tourism": "Hotel zum Packhaus",
+      "amenity": "Hotel zum Packhaus",
       "house_number": "1",
       "road": "Am Hafen",
       "residential": "Hooksiel",
@@ -43449,8 +43451,8 @@
     "extratags": {
       "email": "restaurant.hotel.packhaus@ewetel.net",
       "phone": "+49 4425 990306",
-      "amenity": "restaurant",
       "cuisine": "regional",
+      "tourism": "hotel",
       "website": "https://hotel-packhaus.de/",
       "building": "yes",
       "operator": "Nicole Wilfert",
@@ -43466,7 +43468,7 @@
       "8.0284264",
       "8.0287962"
     ],
-    "expires": 1685507059
+    "expires": 1686716885
   },
   "53.6416772,8.0811862": {
     "place_id": 49807474,
@@ -43568,7 +43570,7 @@
       "23.8612636",
       "23.8617403"
     ],
-    "expires": 1685487265
+    "expires": 1686705433
   },
   "53.6996713,7.7038591": {
     "place_id": 148265212,
@@ -43608,7 +43610,7 @@
       "7.7035657",
       "7.7041078"
     ],
-    "expires": 1685437956
+    "expires": 1686670392
   },
   "53.7001854,7.7030739": {
     "place_id": 17361303,
@@ -43944,7 +43946,7 @@
       "7.6903355",
       "7.6993006"
     ],
-    "expires": 1685460379
+    "expires": 1686805263
   },
   "53.7790453,7.6959271": {
     "place_id": 161548927,
@@ -44173,7 +44175,7 @@
       "9.1454676",
       "9.1460174"
     ],
-    "expires": 1685482637
+    "expires": 1686703722
   },
   "54.0528399,-3.1706511": {
     "place_id": 59765409,
@@ -44631,15 +44633,14 @@
     "expires": 1686590802
   },
   "54.1798168,12.0810634": {
-    "place_id": 114705530,
+    "place_id": 348574923,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 34329186,
-    "lat": "54.1797911",
-    "lon": "12.08103679438155",
-    "display_name": "DWD Wetterwarte Warnemünde, 15a, Seestraße, Warnemünde, Ortsbeirat 1 : Diedrichshagen,Seebad Warnemünde, Rostock, Mecklenburg-Vorpommern, 18119, Deutschland",
+    "osm_type": "node",
+    "osm_id": 10206808563,
+    "lat": "54.1798168",
+    "lon": "12.0810634",
+    "display_name": "15a, Seestraße, Warnemünde, Ortsbeirat 1 : Diedrichshagen,Seebad Warnemünde, Rostock, Mecklenburg-Vorpommern, 18119, Deutschland",
     "address": {
-      "building": "DWD Wetterwarte Warnemünde",
       "house_number": "15a",
       "road": "Seestraße",
       "suburb": "Warnemünde",
@@ -44652,20 +44653,20 @@
       "country_code": "de"
     },
     "extratags": {
-      "height": "16.10 m",
-      "website": "https://www.dwd.de/DE/wetter/wetterundklima_vorort/mecklenburg-vorpommern/warnemuende/_node.html",
-      "roof:levels": "1",
-      "kvl_hro:type": "1124",
-      "building:levels": "3",
-      "kvl_hro:amenity": "research"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://opendata.dwd.de/weather/webcam/Warnemuende-NW/Warnemuende-NW_latest_1200.jpg",
+      "camera:direction": "WNW",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "54.1797037",
-      "54.1798725",
-      "12.0808822",
-      "12.0811914"
+      "54.1797668",
+      "54.1798668",
+      "12.0810134",
+      "12.0811134"
     ],
-    "expires": 1685439258
+    "expires": 1686664493
   },
   "54.1809512,7.8866367": {
     "place_id": 170033175,
@@ -45155,7 +45156,7 @@
       "10.9820885",
       "10.9821885"
     ],
-    "expires": 1685438351
+    "expires": 1686805135
   },
   "54.4213354,-3.0548206": {
     "place_id": 83667696,
@@ -45297,7 +45298,7 @@
       "61.2667644",
       "61.2672204"
     ],
-    "expires": 1685496861
+    "expires": 1686671205
   },
   "54.921468,9.7605502": {
     "place_id": 147150583,
@@ -45414,7 +45415,7 @@
       "9.7715806",
       "9.7748628"
     ],
-    "expires": 1685488255
+    "expires": 1686683754
   },
   "54.9321049,-1.4687077": {
     "place_id": 114025887,
@@ -45445,7 +45446,7 @@
       "-1.4692723",
       "-1.4686647"
     ],
-    "expires": 1685428470
+    "expires": 1686698088
   },
   "54.9327164,-1.4673537": {
     "place_id": 113590562,
@@ -45820,7 +45821,7 @@
       "-2.6825221",
       "-2.6821594"
     ],
-    "expires": 1685493713
+    "expires": 1686757394
   },
   "56.2398665,9.8078793": {
     "place_id": 8615149,
@@ -46350,7 +46351,7 @@
       "6.0761579",
       "6.0762579"
     ],
-    "expires": 1685505053
+    "expires": 1686788981
   },
   "58.560403,6.0761965": {
     "place_id": 13627292,
@@ -46419,7 +46420,7 @@
       "6.4867035",
       "6.4868035"
     ],
-    "expires": 1685482150
+    "expires": 1686636849
   },
   "58.6664653,5.987387": {
     "place_id": 13703490,
@@ -47391,7 +47392,7 @@
       "5.448552",
       "5.448652"
     ],
-    "expires": 1685486440
+    "expires": 1686781192
   },
   "59.4183754,24.7659655": {
     "place_id": 229505017,
@@ -48136,7 +48137,7 @@
       "10.6490582",
       "10.6491582"
     ],
-    "expires": 1685434240
+    "expires": 1686683149
   },
   "60.076422,10.6554247": {
     "place_id": 15213512,
@@ -48346,7 +48347,7 @@
       "5.3271628",
       "5.3272628"
     ],
-    "expires": 1685454429
+    "expires": 1686643438
   },
   "60.2973819,5.3272393": {
     "place_id": 13563241,
@@ -48522,7 +48523,7 @@
       "5.2478604",
       "5.2479604"
     ],
-    "expires": 1685501786
+    "expires": 1686659650
   },
   "60.3533141,5.3385246": {
     "place_id": 13511712,
@@ -48632,7 +48633,7 @@
       "8.492314",
       "8.492414"
     ],
-    "expires": 1685462325
+    "expires": 1686762517
   },
   "60.368051,7.505773": {
     "place_id": 13517195,
@@ -48703,7 +48704,7 @@
       "5.1557111",
       "5.1558111"
     ],
-    "expires": 1685461155
+    "expires": 1686799599
   },
   "60.377567,5.991031": {
     "place_id": 13549998,
@@ -49273,7 +49274,7 @@
       "5.2272109",
       "5.2273109"
     ],
-    "expires": 1685496459
+    "expires": 1686800460
   },
   "60.7418189,7.5747521": {
     "place_id": 13630934,
@@ -49466,7 +49467,7 @@
       "10.795527",
       "10.795627"
     ],
-    "expires": 1685452799
+    "expires": 1686644831
   },
   "60.931325,8.196775": {
     "place_id": 13703755,
@@ -49795,7 +49796,7 @@
       "12.0633616",
       "12.0634616"
     ],
-    "expires": 1685492290
+    "expires": 1686641158
   },
   "61.1217687,11.3631272": {
     "place_id": 13591998,
@@ -49970,7 +49971,7 @@
       "7.256861",
       "7.256961"
     ],
-    "expires": 1685489340
+    "expires": 1686668789
   },
   "61.274399,8.140033": {
     "place_id": 13594180,
@@ -50032,7 +50033,7 @@
       "5.826491",
       "5.826591"
     ],
-    "expires": 1685468968
+    "expires": 1686693067
   },
   "61.325944,6.925151": {
     "place_id": 13744182,
@@ -50276,7 +50277,7 @@
       "5.1947797",
       "5.1948797"
     ],
-    "expires": 1685447061
+    "expires": 1686780072
   },
   "61.766378,6.503681": {
     "place_id": 13550001,
@@ -50342,7 +50343,7 @@
       "5.4581843",
       "5.4582843"
     ],
-    "expires": 1685441953
+    "expires": 1686753980
   },
   "61.8405419,11.9927765": {
     "place_id": 13770327,
@@ -50741,7 +50742,7 @@
       "10.3894006",
       "10.3895006"
     ],
-    "expires": 1685440354
+    "expires": 1686670604
   },
   "62.6006185,9.7215365": {
     "place_id": 13727094,
@@ -50844,7 +50845,7 @@
       "10.021454",
       "10.021554"
     ],
-    "expires": 1685482337
+    "expires": 1686637493
   },
   "63.1383909,10.2548906": {
     "place_id": 13549955,
@@ -51328,7 +51329,7 @@
       "9.534262",
       "9.534362"
     ],
-    "expires": 1685476625
+    "expires": 1686651707
   },
   "63.357364,11.075592": {
     "place_id": 13671367,
@@ -51734,7 +51735,7 @@
       "10.410376",
       "10.410476"
     ],
-    "expires": 1685504296
+    "expires": 1686788551
   },
   "63.4407721,10.409824": {
     "place_id": 49534327,
@@ -51891,7 +51892,7 @@
       "10.4097551",
       "10.4098551"
     ],
-    "expires": 1685482541
+    "expires": 1686663439
   },
   "63.4409407,10.4098377": {
     "place_id": 49616286,
@@ -52305,7 +52306,7 @@
       "10.1335587",
       "10.1336587"
     ],
-    "expires": 1685448310
+    "expires": 1686706855
   },
   "63.546461,23.6888793": {
     "place_id": 23014190,
@@ -52341,7 +52342,7 @@
       "23.6888293",
       "23.6889293"
     ],
-    "expires": 1685482412
+    "expires": 1686726479
   },
   "63.622289,11.072027": {
     "place_id": 13718327,
@@ -52692,7 +52693,7 @@
       "15.3236627",
       "15.3237627"
     ],
-    "expires": 1685462363
+    "expires": 1686659022
   },
   "66.881447,13.6675347": {
     "place_id": 13549809,
@@ -53031,7 +53032,7 @@
       "17.6429454",
       "17.6430454"
     ],
-    "expires": 1685454087
+    "expires": 1686739240
   },
   "68.6267816,16.5926558": {
     "place_id": 13463230,
@@ -53629,7 +53630,7 @@
       "30.5306533",
       "30.5307533"
     ],
-    "expires": 1685443386
+    "expires": 1686801149
   },
   "70.5291984,29.0919159": {
     "place_id": 13549931,
@@ -53699,7 +53700,7 @@
       "23.7304882",
       "23.7305882"
     ],
-    "expires": 1685493084
+    "expires": 1686796968
   },
   "70.7390346,25.6143223": {
     "place_id": 13740389,
