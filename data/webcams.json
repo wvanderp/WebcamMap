@@ -3713,7 +3713,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110678"
+    "url": "http://webkamera.vegvesen.no/kamera?id=110678",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 67.2230384,
@@ -8037,7 +8040,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://www.schwanenapotheke-papenburg.de/webcam"
+    "url": "http://www.schwanenapotheke-papenburg.de/webcam",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.6821988,
@@ -16879,6 +16885,7 @@
     },
     "url": "https://igora.ru/about/web_cams/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -27263,10 +27270,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "street"
     },
-    "url": "https://www.prolococamerota.it",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.prolococamerota.it"
   },
   {
     "lat": 49.5551799,
