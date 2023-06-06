@@ -1553,7 +1553,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=111158"
+    "url": "http://webkamera.vegvesen.no/kamera?id=111158",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.3757216,
@@ -4704,7 +4707,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100110"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100110"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100110",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.504597,
@@ -18052,7 +18058,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=TicBIotgUgo"
+    "url": "https://www.youtube.com/watch?v=TicBIotgUgo",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.9508972,
