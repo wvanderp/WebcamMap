@@ -2087,7 +2087,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=110734"
+    "url": "http://webkamera.vegvesen.no/kamera?id=110734",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.85024,
@@ -16673,6 +16676,7 @@
     },
     "url": "https://www.e-werk-mittelbaden.de/webcams",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -19201,7 +19205,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Mirkovice",
+      "city": "Přísečná",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -30840,7 +30844,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://unterstmatt.de/webcam.html"
+    "url": "https://unterstmatt.de/webcam.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.4208465,
@@ -35156,7 +35163,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5540186,
