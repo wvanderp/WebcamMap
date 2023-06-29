@@ -4162,7 +4162,10 @@
       "website": "http://webkamera.vegvesen.no/kamera?id=100087"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100087"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100087",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.3499443,
@@ -27188,7 +27191,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
     },
-    "url": "https://www.youtube.com/watch?v=mhaKqo5vHXo"
+    "url": "https://www.youtube.com/watch?v=mhaKqo5vHXo",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.0354208,
@@ -39881,5 +39887,55 @@
       "surveillance:type": "camera"
     },
     "url": "https://oktraffic.org/#/cameras/locations/22?camDir=N"
+  },
+  {
+    "lat": 49.5414349,
+    "lon": 15.3592032,
+    "osmID": 11012591556,
+    "user": "Fjuro",
+    "osmType": "node",
+    "lastChanged": 1687968646000,
+    "address": {
+      "city": "Humpolec",
+      "county": "Kraj Vysočina",
+      "state": "Jihovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "153",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "http://orlik.mesto-humpolec.cz/index.php?cam=7",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "http://orlik.mesto-humpolec.cz/index.php?cam=7"
+  },
+  {
+    "lat": 49.5410653,
+    "lon": 15.3306596,
+    "osmID": 11012591557,
+    "user": "Fjuro",
+    "osmType": "node",
+    "lastChanged": 1687968646000,
+    "address": {
+      "city": "Jiřice",
+      "county": "Kraj Vysočina",
+      "state": "Jihovýchod",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "camera:direction": "84",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://orlik.mesto-humpolec.cz/index.php?cam=6",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "url": "http://orlik.mesto-humpolec.cz/index.php?cam=6"
   }
 ]
