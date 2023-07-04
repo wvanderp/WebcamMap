@@ -7541,29 +7541,6 @@
     }
   },
   {
-    "lat": 49.4120933,
-    "lon": 8.709292,
-    "osmID": 2720830627,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1645955244000,
-    "address": {
-      "city": "Heidelberg",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.ag-wanderfalken.de/webcams/",
-      "man_made": "surveillance",
-      "name": "Wanderfalken in Heidelberg",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "hawk"
-    },
-    "url": "https://www.ag-wanderfalken.de/webcams/"
-  },
-  {
     "lat": 51.9764724,
     "lon": 5.96312,
     "osmID": 2733763240,
@@ -17147,7 +17124,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "http://www.stadtverwaltung-eutin.online.de/webcam/markt.jpg"
+    "url": "http://www.stadtverwaltung-eutin.online.de/webcam/markt.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 42.0226611,
@@ -28720,7 +28700,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=950008fc01cf000f005cd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=950008fc01cf000f005cd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.6879835,
@@ -29549,7 +29532,6 @@
     "address": {
       "city": "Jáchymov",
       "county": "Karlovarský kraj",
-      "state": "Severozápad",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -35026,10 +35008,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18"
   },
   {
     "lat": 53.2113206,
