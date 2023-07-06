@@ -8399,7 +8399,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Ministry of Transportation of Ontario",
-    "url": "http://www.mtocdn.ca/english/traveller/compass/camera/pictures/loc101.jpg"
+    "url": "http://www.mtocdn.ca/english/traveller/compass/camera/pictures/loc101.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.8318709,
@@ -29715,7 +29718,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "river"
     },
-    "url": "https://www.youtube.com/watch?v=mi4S_KatJeo"
+    "url": "https://www.youtube.com/watch?v=mi4S_KatJeo",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 61.1796582,
@@ -39901,5 +39907,26 @@
       "surveillance:zone": "public"
     },
     "url": "http://orlik.mesto-humpolec.cz/index.php?cam=6"
+  },
+  {
+    "lat": 41.6797611,
+    "lon": -69.9570147,
+    "osmID": 11028583037,
+    "user": "mikeocool",
+    "osmType": "node",
+    "lastChanged": 1688596476000,
+    "address": {
+      "city": "Chatham",
+      "county": "Barnstable County",
+      "state": "Massachusetts",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.thesquire.com/chatham-squire-main-street-webcam",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.thesquire.com/chatham-squire-main-street-webcam"
   }
 ]
