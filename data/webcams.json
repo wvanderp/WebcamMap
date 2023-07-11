@@ -9504,7 +9504,10 @@
       "surveillance:type": "camera",
       "website": "http://irpfel.org/webcam/"
     },
-    "url": "http://irpfel.org/webcam/"
+    "url": "http://irpfel.org/webcam/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.6245634,
@@ -39962,5 +39965,31 @@
     },
     "operator": "Washington State Department of Transportation",
     "url": "https://images.wsdot.wa.gov/nw/405vc00889.jpg"
+  },
+  {
+    "lat": 40.784809,
+    "lon": -113.8298575,
+    "osmID": 11038252470,
+    "user": "CryptikFox",
+    "osmType": "node",
+    "lastChanged": 1689031993000,
+    "address": {
+      "city": "Wendover",
+      "county": "Tooele County",
+      "state": "Utah",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "310",
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "name": "BFLAT",
+      "operator": "University of Utah",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://home.chpc.utah.edu/~u0790486/wxinfo/cgi-bin/uunet_camera_explorer.cgi?cam=BFLAT"
+    },
+    "operator": "University of Utah",
+    "url": "https://home.chpc.utah.edu/~u0790486/wxinfo/cgi-bin/uunet_camera_explorer.cgi?cam=BFLAT"
   }
 ]
