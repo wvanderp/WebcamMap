@@ -746,7 +746,7 @@
       "148.426988",
       "148.4294649"
     ],
-    "expires": 1689122513
+    "expires": 1690300505
   },
   "-36.4020262,148.4147128": {
     "place_id": 253819715,
@@ -807,7 +807,7 @@
       "148.4048298",
       "148.4048859"
     ],
-    "expires": 1689060438
+    "expires": 1690384369
   },
   "-36.404593,148.4103634": {
     "place_id": 162841019,
@@ -1036,7 +1036,7 @@
       "147.148211",
       "147.1486817"
     ],
-    "expires": 1689088258
+    "expires": 1690325043
   },
   "-4.442774,39.536449": {
     "place_id": 44626719,
@@ -1544,7 +1544,7 @@
       "172.5261355",
       "172.5262355"
     ],
-    "expires": 1689056829
+    "expires": 1690288549
   },
   "-8.7875008,-39.8183209": {
     "place_id": 89096484,
@@ -1584,7 +1584,7 @@
       "-39.8183709",
       "-39.8182709"
     ],
-    "expires": 1689070470
+    "expires": 1690387931
   },
   "-9.5301994,-77.5316039": {
     "place_id": 49231755,
@@ -1805,7 +1805,7 @@
       "55.1185403",
       "55.1186403"
     ],
-    "expires": 1689128722
+    "expires": 1690380869
   },
   "25.1861849,121.5252519": {
     "place_id": 82359251,
@@ -1880,15 +1880,15 @@
     "expires": 1690192908
   },
   "27.7577085,-15.5773528": {
-    "place_id": 91963833,
+    "place_id": 111298778,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8904893359,
-    "lat": "27.7577085",
-    "lon": "-15.5773528",
-    "display_name": "Playa del Inglés - Yumbo Center, Avenida Estados Unidos, Playa del Inglés, San Bartolomé de Tirajana, Las Palmas, Canarias, 35290, España",
+    "osm_type": "way",
+    "osm_id": 27504584,
+    "lat": "27.758460550000002",
+    "lon": "-15.576880794565572",
+    "display_name": "Centro Comercial Yumbo, Avenida Estados Unidos, Playa del Inglés, San Bartolomé de Tirajana, Las Palmas, Canarias, 35290, España",
     "address": {
-      "man_made": "Playa del Inglés - Yumbo Center",
+      "shop": "Centro Comercial Yumbo",
       "road": "Avenida Estados Unidos",
       "suburb": "Playa del Inglés",
       "village": "San Bartolomé de Tirajana",
@@ -1901,21 +1901,19 @@
       "country_code": "es"
     },
     "extratags": {
-      "operator": "WebCam.NL",
-      "camera:type": "dome",
-      "camera:mount": "roof",
-      "surveillance": "webcam",
-      "contact:webcam": "https://webcam.nl/Gran_Canaria/ultraHD-PTZ-camera/",
-      "surveillance:type": "camera",
-      "surveillance:zone": "public"
+      "landuse": "retail",
+      "toilets": "yes",
+      "website": "https://yumbocentrum.com/",
+      "wikidata": "Q48784380",
+      "wheelchair": "limited"
     },
     "boundingbox": [
-      "27.7576585",
-      "27.7577585",
-      "-15.5774028",
-      "-15.5773028"
+      "27.757592",
+      "27.7592336",
+      "-15.5783424",
+      "-15.575377"
     ],
-    "expires": 1689077048
+    "expires": 1690408569
   },
   "28.0154611,-82.1216605": {
     "place_id": 88588262,
@@ -2318,7 +2316,7 @@
       "131.131546",
       "131.1327"
     ],
-    "expires": 1689080614
+    "expires": 1690386264
   },
   "35.1972703,-111.64922": {
     "place_id": 154475623,
@@ -2489,7 +2487,7 @@
       "-82.2810973",
       "-82.2329752"
     ],
-    "expires": 1689130997
+    "expires": 1690428357
   },
   "35.2861248,-82.0680393": {
     "place_id": 225033511,
@@ -2676,7 +2674,7 @@
       "138.6612863",
       "138.6613716"
     ],
-    "expires": 1689122255
+    "expires": 1690358203
   },
   "35.5340185,-82.6029955": {
     "place_id": 129219606,
@@ -2997,14 +2995,15 @@
     "expires": 1689196021
   },
   "36.2531761,-81.4163295": {
-    "place_id": 88476509,
+    "place_id": 221875182,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8648818040,
-    "lat": "36.2531761",
-    "lon": "-81.4163295",
-    "display_name": "267, Observatory Road, Wilkes County, North Carolina, 28607, United States",
+    "osm_type": "way",
+    "osm_id": 548828712,
+    "lat": "36.2532205",
+    "lon": "-81.41632665",
+    "display_name": "Lowe's House Observers' Quarters, 267, Observatory Road, Wilkes County, North Carolina, 28607, United States",
     "address": {
+      "building": "Lowe's House Observers' Quarters",
       "house_number": "267",
       "road": "Observatory Road",
       "county": "Wilkes County",
@@ -3015,18 +3014,17 @@
       "country_code": "us"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://dso.appstate.edu/webcams/roadcam-looking-south-lowes-house",
-      "surveillance:type": "camera"
+      "description": "House used by observers after night shifts and visiting astronomers.",
+      "building:levels": "1",
+      "contact:website": "https://dso.appstate.edu/facilities/lowes-house"
     },
     "boundingbox": [
-      "36.2531261",
-      "36.2532261",
-      "-81.4163795",
-      "-81.4162795"
+      "36.25317",
+      "36.253271",
+      "-81.4164102",
+      "-81.4162431"
     ],
-    "expires": 1689117902
+    "expires": 1690334366
   },
   "36.6140195,-118.0665182": {
     "place_id": 358573873,
@@ -3119,17 +3117,18 @@
     "expires": 1689185560
   },
   "37.219214,-80.428948": {
-    "place_id": 17193945,
+    "place_id": 298235546,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 1916555971,
-    "lat": "37.219214",
-    "lon": "-80.428948",
-    "display_name": "Virginia Tech - Human and Agricultural Biosciences Work Zone Cam, 800, Drillfield Drive, Blacksburg, Montgomery County, Virginia, 24061, United States",
+    "osm_type": "relation",
+    "osm_id": 1214378,
+    "lat": "37.22192675",
+    "lon": "-80.42728184013652",
+    "display_name": "Virginia Polytechnic Institute and State University, 800, Drillfield Drive, Keister Addition, Blacksburg, Montgomery County, Virginia, 24061, United States",
     "address": {
-      "man_made": "Virginia Tech - Human and Agricultural Biosciences Work Zone Cam",
+      "amenity": "Virginia Polytechnic Institute and State University",
       "house_number": "800",
       "road": "Drillfield Drive",
+      "hamlet": "Keister Addition",
       "city": "Blacksburg",
       "county": "Montgomery County",
       "state": "Virginia",
@@ -3139,17 +3138,15 @@
       "country_code": "us"
     },
     "extratags": {
-      "website": "http://skanskausa.workzonecam.com/",
-      "operator": "Work Zone Cam",
-      "surveillance": "webcam"
+      "wikidata": "Q65379"
     },
     "boundingbox": [
-      "37.219164",
-      "37.219264",
-      "-80.428998",
-      "-80.428898"
+      "37.2102892",
+      "37.2347283",
+      "-80.4400394",
+      "-80.4118735"
     ],
-    "expires": 1689130811
+    "expires": 1690431448
   },
   "37.2192897,-80.4186906": {
     "place_id": 135180255,
@@ -3525,7 +3522,7 @@
       "-80.058147",
       "-80.054489"
     ],
-    "expires": 1689059948
+    "expires": 1690337410
   },
   "37.31545,-79.9811985": {
     "place_id": 284147597,
@@ -4206,7 +4203,7 @@
       "-90.6878659",
       "-90.6777743"
     ],
-    "expires": 1689065755
+    "expires": 1690366002
   },
   "38.6797251,15.8976891": {
     "place_id": 114566584,
@@ -5123,7 +5120,7 @@
       "-77.427743",
       "-77.427643"
     ],
-    "expires": 1689124503
+    "expires": 1690312837
   },
   "39.4066985,-77.3748315": {
     "place_id": 181788815,
@@ -5296,7 +5293,7 @@
       "-77.4057099",
       "-77.4035839"
     ],
-    "expires": 1689064900
+    "expires": 1690336372
   },
   "39.4538184,-79.2082015": {
     "place_id": 131395031,
@@ -5563,7 +5560,7 @@
       "2.7168448",
       "2.7169448"
     ],
-    "expires": 1689120528
+    "expires": 1690348601
   },
   "39.5357547,2.4551021": {
     "place_id": 164885316,
@@ -5596,7 +5593,7 @@
       "2.455027",
       "2.455124"
     ],
-    "expires": 1689066339
+    "expires": 1690326490
   },
   "39.5369322,-119.7876452": {
     "place_id": 112330148,
@@ -5930,7 +5927,7 @@
       "-104.871895",
       "-104.871795"
     ],
-    "expires": 1689134955
+    "expires": 1690390910
   },
   "39.5564023,-104.8700454": {
     "place_id": 115141658,
@@ -6093,7 +6090,7 @@
       "-104.8715378",
       "-104.8704274"
     ],
-    "expires": 1689100676
+    "expires": 1690333401
   },
   "39.5588077,-104.8811387": {
     "place_id": 360444308,
@@ -6337,7 +6334,7 @@
       "-104.932647",
       "-104.932547"
     ],
-    "expires": 1689082125
+    "expires": 1690336533
   },
   "39.56093,-104.959572": {
     "place_id": 360450602,
@@ -6511,7 +6508,7 @@
       "-104.944954",
       "-104.944854"
     ],
-    "expires": 1689084759
+    "expires": 1690319832
   },
   "39.5627838,-104.9865014": {
     "place_id": 360452213,
@@ -6858,7 +6855,7 @@
       "-104.917845",
       "-104.917745"
     ],
-    "expires": 1689115628
+    "expires": 1690397255
   },
   "39.5648538,-104.9885846": {
     "place_id": 360452214,
@@ -7543,7 +7540,7 @@
       "-105.1519481",
       "-105.1518481"
     ],
-    "expires": 1689118565
+    "expires": 1690263506
   },
   "39.6348105,-78.8443128": {
     "place_id": 118472101,
@@ -7791,7 +7788,7 @@
       "-78.7467809",
       "-78.7463487"
     ],
-    "expires": 1689121296
+    "expires": 1690338407
   },
   "39.6511499,-77.8880875": {
     "place_id": 138582517,
@@ -8174,7 +8171,7 @@
       "-78.7191341",
       "-78.6932586"
     ],
-    "expires": 1689127033
+    "expires": 1690331619
   },
   "39.6743354,-78.9623528": {
     "place_id": 271214066,
@@ -8398,7 +8395,7 @@
       "-79.091612433131",
       "-79.091512433131"
     ],
-    "expires": 1689082525
+    "expires": 1690322931
   },
   "39.6920924,-79.2482737": {
     "place_id": 118140315,
@@ -8679,7 +8676,7 @@
       "-78.576813",
       "-78.567439"
     ],
-    "expires": 1689083431
+    "expires": 1690391073
   },
   "39.7062432,2.7885161": {
     "place_id": 25192744,
@@ -8708,7 +8705,7 @@
       "2.7884623",
       "2.7885623"
     ],
-    "expires": 1689126883
+    "expires": 1690415791
   },
   "39.7076178,-77.5731804": {
     "place_id": 343421429,
@@ -8738,7 +8735,7 @@
       "-77.5753051",
       "-77.5670466"
     ],
-    "expires": 1689072219
+    "expires": 1690388116
   },
   "39.7089804,3.4611104": {
     "place_id": 17452116,
@@ -8802,7 +8799,7 @@
       "-78.183030800191",
       "-78.182930800191"
     ],
-    "expires": 1689105370
+    "expires": 1690355180
   },
   "39.7092171,3.4610137": {
     "place_id": 165104728,
@@ -8894,7 +8891,7 @@
       "3.4700798",
       "3.4701888"
     ],
-    "expires": 1689102630
+    "expires": 1690342393
   },
   "39.7141763,-78.611563": {
     "place_id": 145888590,
@@ -9292,7 +9289,7 @@
       "-86.1394945",
       "-86.1393945"
     ],
-    "expires": 1689089862
+    "expires": 1690421384
   },
   "39.7928701,2.69645": {
     "place_id": 157821801,
@@ -9761,7 +9758,7 @@
       "3.0562709",
       "3.0588672"
     ],
-    "expires": 1689124919
+    "expires": 1690346277
   },
   "39.9165151,3.0583914": {
     "place_id": 128078394,
@@ -9994,7 +9991,7 @@
       "-92.4900329",
       "-92.4899589"
     ],
-    "expires": 1689097496
+    "expires": 1690356186
   },
   "40.142943,-82.9895739": {
     "place_id": 208979516,
@@ -10138,15 +10135,15 @@
     "expires": 1689741454
   },
   "40.6979996,-73.9943408": {
-    "place_id": 165337337,
+    "place_id": 83972623,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 241848478,
-    "lat": "40.69820705",
-    "lon": "-73.99405792223419",
-    "display_name": "The St George Tower, 111, Hicks Street, Brooklyn, Kings County, City of New York, New York, 11201, United States",
+    "osm_type": "node",
+    "osm_id": 8435211818,
+    "lat": "40.6979996",
+    "lon": "-73.9943408",
+    "display_name": "Lower Manhattan & New York Harbor Cam, 111, Hicks Street, Brooklyn, Kings County, City of New York, New York, 11201, United States",
     "address": {
-      "building": "The St George Tower",
+      "man_made": "Lower Manhattan & New York Harbor Cam",
       "house_number": "111",
       "road": "Hicks Street",
       "suburb": "Brooklyn",
@@ -10158,15 +10155,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "nycdoitt:bin": "3001726"
+      "operator": "St. George Tower",
+      "camera:type": "fixed",
+      "description": "Live stream of lower Manhattan/NYC from the top of the St. George Tower in Brooklyn, NY",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.youtube.com/watch?v=Vj0XKu6AoOw",
+      "camera:direction": "286",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "40.6979083",
-      "40.6984429",
-      "-73.9944404",
-      "-73.9937264"
+      "40.6979496",
+      "40.6980496",
+      "-73.9943908",
+      "-73.9942908"
     ],
-    "expires": 1689058284
+    "expires": 1690291283
   },
   "40.6981536,-73.9942718": {
     "place_id": 83996020,
@@ -10453,7 +10456,7 @@
       "-80.1599606",
       "-80.1598606"
     ],
-    "expires": 1689132573
+    "expires": 1690295810
   },
   "41.2305256,-95.8380907": {
     "place_id": 71224404,
@@ -10562,7 +10565,7 @@
       "13.4431349",
       "13.4432349"
     ],
-    "expires": 1689057921
+    "expires": 1690343982
   },
   "41.3598305,13.4363208": {
     "place_id": 120937834,
@@ -11126,7 +11129,7 @@
       "14.5203721",
       "14.5204721"
     ],
-    "expires": 1689125015
+    "expires": 1690394648
   },
   "41.6579047,-81.2399652": {
     "place_id": 285442957,
@@ -11814,7 +11817,7 @@
       "-93.6789362",
       "-93.6788362"
     ],
-    "expires": 1689124841
+    "expires": 1690364415
   },
   "42.0148946,-93.6988024": {
     "place_id": 69356514,
@@ -11919,7 +11922,7 @@
       "-93.7772923",
       "-93.7771923"
     ],
-    "expires": 1689119516
+    "expires": 1690397432
   },
   "42.0275255,-93.7937509": {
     "place_id": 70118863,
@@ -11954,7 +11957,7 @@
       "-93.7938009",
       "-93.7937009"
     ],
-    "expires": 1689068894
+    "expires": 1690322736
   },
   "42.0342977,-93.8155402": {
     "place_id": 69583907,
@@ -12416,7 +12419,7 @@
       "-83.0036194",
       "-83.0035194"
     ],
-    "expires": 1689132906
+    "expires": 1690403708
   },
   "42.2574137,-83.0388558": {
     "place_id": 52237280,
@@ -12908,7 +12911,7 @@
       "-82.9260491",
       "-82.9259491"
     ],
-    "expires": 1689131899
+    "expires": 1690290045
   },
   "42.2980989,-83.0173681": {
     "place_id": 52023013,
@@ -13358,7 +13361,7 @@
       "-77.2723847",
       "-77.2719017"
     ],
-    "expires": 1689118723
+    "expires": 1690430662
   },
   "42.9118838,-78.9439942": {
     "place_id": 52721226,
@@ -14313,7 +14316,7 @@
       "6.2482764",
       "6.2485081"
     ],
-    "expires": 1689111108
+    "expires": 1690302974
   },
   "43.1267632,-77.6606087": {
     "place_id": 89174131,
@@ -14348,7 +14351,7 @@
       "-77.6606587",
       "-77.6605587"
     ],
-    "expires": 1689082349
+    "expires": 1690409563
   },
   "43.1347779,-79.1306818": {
     "place_id": 52241418,
@@ -14522,7 +14525,7 @@
       "-79.122292",
       "-79.122192"
     ],
-    "expires": 1689138680
+    "expires": 1690433166
   },
   "43.1518857,-79.148694": {
     "place_id": 52175800,
@@ -14627,7 +14630,7 @@
       "-79.0687299",
       "-79.0686299"
     ],
-    "expires": 1689121902
+    "expires": 1690345036
   },
   "43.1572991,-79.0552523": {
     "place_id": 52159934,
@@ -14798,7 +14801,7 @@
       "-79.1996856",
       "-79.1995856"
     ],
-    "expires": 1689073834
+    "expires": 1690318274
   },
   "43.1682739,-79.2099546": {
     "place_id": 52075076,
@@ -14978,7 +14981,7 @@
       "6.533362",
       "6.533462"
     ],
-    "expires": 1689118597
+    "expires": 1690289566
   },
   "43.1757574,-79.2851959": {
     "place_id": 52935781,
@@ -15260,7 +15263,7 @@
       "-77.6106141",
       "-77.6105141"
     ],
-    "expires": 1689113665
+    "expires": 1690405326
   },
   "43.372267,-78.1915225": {
     "place_id": 88671080,
@@ -15446,7 +15449,7 @@
       "11.1824026",
       "11.1825026"
     ],
-    "expires": 1689133673
+    "expires": 1690262858
   },
   "43.7052444,11.3724103": {
     "place_id": 70995280,
@@ -15551,7 +15554,7 @@
       "-79.1443016",
       "-79.1442016"
     ],
-    "expires": 1689136743
+    "expires": 1690433513
   },
   "43.8029117,-79.1359481": {
     "place_id": 37107509,
@@ -16252,7 +16255,7 @@
       "-123.0516614",
       "-123.0497663"
     ],
-    "expires": 1689109151
+    "expires": 1690408995
   },
   "44.1983825,10.7315381": {
     "place_id": 6074780,
@@ -16484,6 +16487,7 @@
     },
     "extratags": {
       "NHS": "yes",
+      "lit": "no",
       "lanes": "3",
       "oneway": "yes",
       "surface": "asphalt",
@@ -16496,7 +16500,7 @@
       "-63.5693572",
       "-63.5653603"
     ],
-    "expires": 1689094100
+    "expires": 1690288454
   },
   "44.8650834,24.9235534": {
     "place_id": 98863399,
@@ -16566,7 +16570,7 @@
       "14.6353281",
       "14.6354281"
     ],
-    "expires": 1689103867
+    "expires": 1690407438
   },
   "45.0255736,14.5737379": {
     "place_id": 352327916,
@@ -17151,7 +17155,7 @@
       "23.9314708",
       "23.9315708"
     ],
-    "expires": 1689087309
+    "expires": 1690295676
   },
   "45.7453021,11.6554747": {
     "place_id": 114297869,
@@ -17261,7 +17265,7 @@
       "24.1191429",
       "24.1274439"
     ],
-    "expires": 1689101269
+    "expires": 1690387779
   },
   "45.7698978,14.1981378": {
     "place_id": 246607506,
@@ -17296,7 +17300,7 @@
       "14.197947",
       "14.1984257"
     ],
-    "expires": 1689098874
+    "expires": 1690354459
   },
   "45.7877169,6.0966108": {
     "place_id": 18157624,
@@ -17399,7 +17403,7 @@
       "24.1503978",
       "24.1511065"
     ],
-    "expires": 1689061506
+    "expires": 1690357473
   },
   "45.79681,24.1510877": {
     "place_id": 116728222,
@@ -17463,7 +17467,7 @@
       "6.1041603",
       "6.1042603"
     ],
-    "expires": 1689055818
+    "expires": 1690325922
   },
   "45.7975626,24.1521854": {
     "place_id": 116195451,
@@ -17540,15 +17544,15 @@
     "expires": 1689310569
   },
   "45.7984215,24.1519955": {
-    "place_id": 365575212,
+    "place_id": 205264774,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 10895588215,
-    "lat": "45.7984215",
-    "lon": "24.1519955",
-    "display_name": "Camera 6, 25, Piața Mică, Orașul de Sus, Centrul Istoric, Sibiu, 550182, România",
+    "osm_type": "way",
+    "osm_id": 441457427,
+    "lat": "45.798519150000004",
+    "lon": "24.152217641395836",
+    "display_name": "Casa Breslei Aurarilor, 25, Piața Mică, Orașul de Sus, Centrul Istoric, Sibiu, 550182, România",
     "address": {
-      "man_made": "Camera 6",
+      "tourism": "Casa Breslei Aurarilor",
       "house_number": "25",
       "road": "Piața Mică",
       "neighbourhood": "Orașul de Sus",
@@ -17561,20 +17565,16 @@
       "country_code": "ro"
     },
     "extratags": {
-      "website": "https://sibiu.ro/LiveOK/cam8.php",
-      "camera:mount": "building",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
+      "building:levels": "3",
+      "historic:civilization": "medieval"
     },
     "boundingbox": [
-      "45.7983715",
-      "45.7984715",
-      "24.1519455",
-      "24.1520455"
+      "45.798367",
+      "45.7986005",
+      "24.151947",
+      "24.1523699"
     ],
-    "expires": 1689075794
+    "expires": 1690272001
   },
   "45.8037753,6.0969488": {
     "place_id": 72782826,
@@ -17610,7 +17610,7 @@
       "6.0969646",
       "6.0970646"
     ],
-    "expires": 1689059871
+    "expires": 1690421205
   },
   "45.8050035,6.0974872": {
     "place_id": 23960728,
@@ -17684,7 +17684,7 @@
       "-1.2164362",
       "-1.2163362"
     ],
-    "expires": 1689124037
+    "expires": 1690297575
   },
   "45.8296797,-1.1959113": {
     "place_id": 92985882,
@@ -17831,15 +17831,15 @@
     "expires": 1689335379
   },
   "45.9142238,-1.3276118": {
-    "place_id": 130459091,
+    "place_id": 92399424,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 111374257,
-    "lat": "45.9140299",
-    "lon": "-1.3277266617542427",
-    "display_name": "S.N.S.M., Avenue du Port, Les Garnaudières, La Cotinière, Saint-Pierre-d'Oléron, Rochefort, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17310, France",
+    "osm_type": "node",
+    "osm_id": 8944783350,
+    "lat": "45.9142238",
+    "lon": "-1.3276118",
+    "display_name": "Webcam Oléron - Port de la Cotinière, Avenue du Port, Les Garnaudières, La Cotinière, Saint-Pierre-d'Oléron, Rochefort, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17310, France",
     "address": {
-      "amenity": "S.N.S.M.",
+      "man_made": "Webcam Oléron - Port de la Cotinière",
       "road": "Avenue du Port",
       "hamlet": "Les Garnaudières",
       "village": "La Cotinière",
@@ -17854,26 +17854,23 @@
       "country_code": "fr"
     },
     "extratags": {
-      "phone": "+33 6 58 17 89 25",
-      "website": "https://station-cotiniere.snsm.org/",
-      "building": "public",
-      "operator": "Société Nationale de Sauvetage en Mer",
-      "emergency": "lifeboat_station",
-      "seamark:name": "Station SNSM de la Cotinière",
-      "seamark:type": "rescue_station",
-      "operator:short": "SNSM",
-      "operator:website": "https://www.snsm.org/",
-      "operator:wikidata": "Q584914",
-      "operator:wikipedia": "fr:Société Nationale de Sauvetage en Mer",
-      "seamark:rescue_station:category": "lifeboat"
+      "camera:type": "panning",
+      "description": "Située sur la côte ouest, sur la commune de Saint-Pierre d'Oléron, La Cotinière est un petit coin de paradis, où il faut bon se prélasser le matin à la fraiche en admirant les pêcheurs dénouer leurs filets. A ne pas rater, la visite de la criée organisée",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "https://youtu.be/l5o7WdZQaQI",
+      "description:en": "Located on the west coast, in the town of Saint-Pierre d'Oléron, La Cotinière is a little corner of paradise, where you can relax in the morning in the cool, admiring the fishermen untying their nets. Do not miss the visit to the auction organized by the",
+      "camera:direction": "210-10",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "45.9139237",
-      "45.9142253",
-      "-1.3278474",
-      "-1.3275452"
+      "45.9141738",
+      "45.9142738",
+      "-1.3276618",
+      "-1.3275618"
     ],
-    "expires": 1689122433
+    "expires": 1690291284
   },
   "45.9815826,8.9163789": {
     "place_id": 341093571,
@@ -18910,12 +18907,12 @@
     "expires": 1689205985
   },
   "46.4347863,7.8620877": {
-    "place_id": 172429766,
+    "place_id": 78283991,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 271185481,
-    "lat": "46.4348058",
-    "lon": "7.862134463802661",
+    "osm_type": "node",
+    "osm_id": 7556486039,
+    "lat": "46.4347863",
+    "lon": "7.8620877",
     "display_name": "3, Gletscheralp, Gletscherstafel, Blatten, Westlich Raron, Valais/Wallis, 3919, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "house_number": "3",
@@ -18930,15 +18927,18 @@
       "country_code": "ch"
     },
     "extratags": {
-      "building:levels": "1"
+      "camera:type": "panning",
+      "surveillance": "webcam",
+      "contact:webcam": "https://blatten.roundshot.com/fafleralp/",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "46.4347564",
-      "46.4348468",
-      "7.86204",
-      "7.8622289"
+      "46.4347363",
+      "46.4348363",
+      "7.8620377",
+      "7.8621377"
     ],
-    "expires": 1689089624
+    "expires": 1690335411
   },
   "46.4365698,12.1219692": {
     "place_id": 153611024,
@@ -19155,7 +19155,7 @@
       "-1.7616591",
       "-1.7615591"
     ],
-    "expires": 1689066525
+    "expires": 1690313364
   },
   "46.488461,10.801753": {
     "place_id": 96901809,
@@ -19624,15 +19624,14 @@
     "expires": 1689160368
   },
   "46.5631023,8.3302317": {
-    "place_id": 342424310,
+    "place_id": 170721210,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 10009215048,
-    "lat": "46.5631023",
-    "lon": "8.3302317",
-    "display_name": "Wetterkamera Grimsel Hospiz, 1n, Hüsegg, Grimselpass, Guttannen, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3864, Schweiz/Suisse/Svizzera/Svizra",
+    "osm_type": "way",
+    "osm_id": 263796398,
+    "lat": "46.56317545",
+    "lon": "8.330282523222511",
+    "display_name": "1n, Hüsegg, Grimselpass, Guttannen, Verwaltungskreis Interlaken-Oberhasli, Verwaltungsregion Oberland, Bern/Berne, 3864, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "man_made": "Wetterkamera Grimsel Hospiz",
       "house_number": "1n",
       "locality": "Hüsegg",
       "hamlet": "Grimselpass",
@@ -19646,21 +19645,15 @@
       "country_code": "ch"
     },
     "extratags": {
-      "operator": "MeteoSchweiz",
-      "camera:type": "fixed",
-      "camera:mount": "building",
-      "surveillance": "webcam",
-      "contact:webcam": "https://meteoschweiz.roundshot.com/grimselhospiz/#/",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "ele": "2211"
     },
     "boundingbox": [
-      "46.5630523",
-      "46.5631523",
-      "8.3301817",
-      "8.3302817"
+      "46.5630673",
+      "46.5632874",
+      "8.330196",
+      "8.3303171"
     ],
-    "expires": 1689105576
+    "expires": 1690421461
   },
   "46.5848582,7.9604158": {
     "place_id": 118371397,
@@ -19813,15 +19806,15 @@
     "expires": 1690210672
   },
   "46.6413095,12.2317042": {
-    "place_id": 98132841,
+    "place_id": 146025215,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9569407741,
-    "lat": "46.6413095",
-    "lon": "12.2317042",
-    "display_name": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks, SS51, Höhlenstein - Landro, Toblach - Dobbiaco, Pustertal - Val Pusteria, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39034, Italia",
+    "osm_type": "way",
+    "osm_id": 172204023,
+    "lat": "46.6413979",
+    "lon": "12.231580301199399",
+    "display_name": "Drei-Zinnenblick, SS51, Höhlenstein - Landro, Toblach - Dobbiaco, Pustertal - Val Pusteria, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39034, Italia",
     "address": {
-      "man_made": "Toblach / Dobbiaco - Drei-Zinnen-Blick / Vista Tre Cime / View of the Three Peaks",
+      "amenity": "Drei-Zinnenblick",
       "road": "SS51",
       "isolated_dwelling": "Höhlenstein - Landro",
       "village": "Toblach - Dobbiaco",
@@ -19835,23 +19828,16 @@
       "country_code": "it"
     },
     "extratags": {
-      "ele": "1405",
-      "operator": "foto-webcam.eu",
-      "camera:type": "fixed",
-      "description": "Zinnen,Drei Zinnen,Tre Cime di Laveredo,Südtirol,Italien,Drei Zinnenblick",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
-      "contact:website": "https://www.foto-webcam.eu/webcam/dreizinnenblick/",
-      "camera:direction": "115",
-      "surveillance:type": "camera"
+      "cuisine": "italian",
+      "website": "http://www.hoteltrecime.com"
     },
     "boundingbox": [
-      "46.6412595",
-      "46.6413595",
-      "12.2316542",
-      "12.2317542"
+      "46.6412753",
+      "46.6416424",
+      "12.2313487",
+      "12.23183"
     ],
-    "expires": 1689138579
+    "expires": 1690279885
   },
   "46.6432725,8.5809134": {
     "place_id": 118806962,
@@ -20317,9 +20303,9 @@
     "osm_id": 10009198547,
     "lat": "46.7479826",
     "lon": "7.667833",
-    "display_name": "Wetterkamera Heiligenschwendi, 1, Obere Haltenstrasse, Dörfli, Haltenegg, Heiligenschwendi, Horrenbach-Buchen, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, 3625, Schweiz/Suisse/Svizzera/Svizra",
+    "display_name": "Heiligenschwendi, 1, Obere Haltenstrasse, Dörfli, Haltenegg, Heiligenschwendi, Horrenbach-Buchen, Verwaltungskreis Thun, Verwaltungsregion Oberland, Bern/Berne, 3625, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "man_made": "Wetterkamera Heiligenschwendi",
+      "man_made": "Heiligenschwendi",
       "house_number": "1",
       "road": "Obere Haltenstrasse",
       "hamlet": "Dörfli",
@@ -20335,7 +20321,7 @@
     },
     "extratags": {
       "operator": "MeteoSchweiz",
-      "camera:type": "fixed",
+      "camera:type": "panning",
       "camera:mount": "building",
       "surveillance": "webcam",
       "contact:webcam": "https://meteoschweiz.roundshot.com/heiligenschwendi/#/",
@@ -20348,7 +20334,7 @@
       "7.667783",
       "7.667883"
     ],
-    "expires": 1689116203
+    "expires": 1690317560
   },
   "46.7762001,-92.1030465": {
     "place_id": 281363649,
@@ -20520,7 +20506,7 @@
       "-92.1115283",
       "-92.1114283"
     ],
-    "expires": 1689059294
+    "expires": 1690344306
   },
   "46.7808692,-92.1117017": {
     "place_id": 95753743,
@@ -20645,9 +20631,9 @@
     "osm_id": 10009147438,
     "lat": "46.7856503",
     "lon": "6.6498349",
-    "display_name": "Wetterkamera Yverdon-les-Bains, Chemin du Buron, Yverdon-les-Bains, District du Jura-Nord vaudois, Vaud, 1401, Schweiz/Suisse/Svizzera/Svizra",
+    "display_name": "Yverdon-les-Bains, Chemin du Buron, Yverdon-les-Bains, District du Jura-Nord vaudois, Vaud, 1401, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "man_made": "Wetterkamera Yverdon-les-Bains",
+      "man_made": "Yverdon-les-Bains",
       "road": "Chemin du Buron",
       "city_district": "Yverdon-les-Bains",
       "town": "Yverdon-les-Bains",
@@ -20660,7 +20646,7 @@
     },
     "extratags": {
       "operator": "MeteoSchweiz",
-      "camera:type": "fixed",
+      "camera:type": "panning",
       "camera:mount": "pole",
       "surveillance": "webcam",
       "contact:webcam": "https://meteoschweiz.roundshot.com/yverdon-les-bains/#/",
@@ -20673,7 +20659,7 @@
       "6.6497849",
       "6.6498849"
     ],
-    "expires": 1689102868
+    "expires": 1690426860
   },
   "46.8170079,8.1776113": {
     "place_id": 342424474,
@@ -20809,7 +20795,7 @@
       "12.8628209",
       "12.8631035"
     ],
-    "expires": 1689117688
+    "expires": 1690365353
   },
   "46.8728766,6.3235646": {
     "place_id": 70535491,
@@ -21088,7 +21074,7 @@
       "6.3862491",
       "6.3864683"
     ],
-    "expires": 1689082148
+    "expires": 1690338511
   },
   "46.9508972,7.4605054": {
     "place_id": 159488572,
@@ -21520,17 +21506,17 @@
     "osm_id": 9974922377,
     "lat": "47.0232657",
     "lon": "7.3305038",
-    "display_name": "Wetterkamera Frienisberg, Bernstrasse, Frienisberg, Seedorf (BE), Verwaltungskreis Seeland, Verwaltungsregion Seeland, Bern/Berne, 3267, Schweiz/Suisse/Svizzera/Svizra",
+    "display_name": "Wetterkamera Frienisberg, Wislezesaumweg, Elemoos, Seedorf (BE), Verwaltungskreis Seeland, Verwaltungsregion Seeland, Bern/Berne, 3046, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "man_made": "Wetterkamera Frienisberg",
-      "road": "Bernstrasse",
-      "hamlet": "Frienisberg",
+      "road": "Wislezesaumweg",
+      "hamlet": "Elemoos",
       "village": "Seedorf (BE)",
       "county": "Verwaltungskreis Seeland",
       "state_district": "Verwaltungsregion Seeland",
       "state": "Bern/Berne",
       "ISO3166-2-lvl4": "CH-BE",
-      "postcode": "3267",
+      "postcode": "3046",
       "country": "Schweiz/Suisse/Svizzera/Svizra",
       "country_code": "ch"
     },
@@ -21550,7 +21536,7 @@
       "7.3304538",
       "7.3305538"
     ],
-    "expires": 1689111190
+    "expires": 1690286074
   },
   "47.0260217,6.9581735": {
     "place_id": 204692103,
@@ -21620,18 +21606,18 @@
       "9.5138293",
       "9.5139293"
     ],
-    "expires": 1689059025
+    "expires": 1690279465
   },
   "47.0484514,8.5520342": {
-    "place_id": 342427465,
+    "place_id": 129474399,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 10009304362,
-    "lat": "47.0484514",
-    "lon": "8.5520342",
-    "display_name": "Wetterkamera Goldau, Güterstrasse, Sonnegg, Oberarth, Goldau, Arth, Schwyz, 6410, Schweiz/Suisse/Svizzera/Svizra",
+    "osm_type": "way",
+    "osm_id": 108233038,
+    "lat": "47.048415250000005",
+    "lon": "8.552014843862512",
+    "display_name": "11, Güterstrasse, Sonnegg, Oberarth, Goldau, Arth, Schwyz, 6410, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "man_made": "Wetterkamera Goldau",
+      "house_number": "11",
       "road": "Güterstrasse",
       "neighbourhood": "Sonnegg",
       "suburb": "Oberarth",
@@ -21643,22 +21629,14 @@
       "country": "Schweiz/Suisse/Svizzera/Svizra",
       "country_code": "ch"
     },
-    "extratags": {
-      "operator": "MeteoSchweiz",
-      "camera:type": "fixed",
-      "camera:mount": "pole",
-      "surveillance": "webcam",
-      "contact:webcam": "https://meteoschweiz.roundshot.com/goldau/#/",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
+    "extratags": {},
     "boundingbox": [
-      "47.0484014",
-      "47.0485014",
-      "8.5519842",
-      "8.5520842"
+      "47.0483573",
+      "47.0484742",
+      "8.5518252",
+      "8.5522071"
     ],
-    "expires": 1689088676
+    "expires": 1690319867
   },
   "47.064038,15.4089618": {
     "place_id": 251934116,
@@ -21803,7 +21781,7 @@
       "9.602533",
       "9.602633"
     ],
-    "expires": 1689090675
+    "expires": 1690425387
   },
   "47.0819366,9.9257658": {
     "place_id": 226405871,
@@ -21947,7 +21925,7 @@
       "10.224033",
       "10.224133"
     ],
-    "expires": 1689075766
+    "expires": 1690301216
   },
   "47.1460347,9.4341263": {
     "place_id": 118121583,
@@ -22090,7 +22068,7 @@
       "10.1357301",
       "10.1358301"
     ],
-    "expires": 1689056304
+    "expires": 1690368508
   },
   "47.1666813,8.1605244": {
     "place_id": 189129653,
@@ -22391,9 +22369,9 @@
     "osm_id": 10009315312,
     "lat": "47.1819521",
     "lon": "7.6481638",
-    "display_name": "Wetterfahne Etziken, Oberdorfstrasse, Etziken, Bezirk Wasseramt, Amtei Bucheggberg-Wasseramt, Solothurn, 4554, Schweiz/Suisse/Svizzera/Svizra",
+    "display_name": "Etziken, Oberdorfstrasse, Etziken, Bezirk Wasseramt, Amtei Bucheggberg-Wasseramt, Solothurn, 4554, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "man_made": "Wetterfahne Etziken",
+      "man_made": "Etziken",
       "road": "Oberdorfstrasse",
       "village": "Etziken",
       "municipality": "Bezirk Wasseramt",
@@ -22406,7 +22384,7 @@
     },
     "extratags": {
       "operator": "MeteoSchweiz",
-      "camera:type": "fixed",
+      "camera:type": "panning",
       "camera:mount": "pole",
       "surveillance": "webcam",
       "contact:webcam": "https://meteoschweiz.roundshot.com/etziken/#/",
@@ -22419,7 +22397,7 @@
       "7.6481138",
       "7.6482138"
     ],
-    "expires": 1689128165
+    "expires": 1690419078
   },
   "47.1911145,18.4098773": {
     "place_id": 298503083,
@@ -22696,16 +22674,15 @@
     "expires": 1690158123
   },
   "47.256754,10.094002": {
-    "place_id": 176705621,
+    "place_id": 97750213,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 291536116,
-    "lat": "47.2567492",
-    "lon": "10.093938700000002",
-    "display_name": "Ortsfeuerwehr Schröcken, 114, Heimboden, Schröcken, Gemeinde Schröcken, Bezirk Bregenz, Vorarlberg, 6888, Österreich",
+    "osm_type": "node",
+    "osm_id": 9569388001,
+    "lat": "47.256754",
+    "lon": "10.094002",
+    "display_name": "Schröcken - Blick nach Nordwesten, Heimboden, Schröcken, Gemeinde Schröcken, Bezirk Bregenz, Vorarlberg, 6888, Österreich",
     "address": {
-      "amenity": "Ortsfeuerwehr Schröcken",
-      "house_number": "114",
+      "man_made": "Schröcken - Blick nach Nordwesten",
       "road": "Heimboden",
       "village": "Schröcken",
       "city": "Gemeinde Schröcken",
@@ -22717,16 +22694,23 @@
       "country_code": "at"
     },
     "extratags": {
-      "operator": "Ortsfeuerwehr Schröcken",
-      "at_bev:addr_date": "2017-10-01"
+      "ele": "1265",
+      "operator": "foto-webcam.eu",
+      "camera:type": "fixed",
+      "description": "Schröcken,Warth,Vorarlberg,Österreich",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/schroecken/",
+      "contact:website": "https://www.foto-webcam.eu/webcam/schroecken/",
+      "camera:direction": "310",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "47.2566519",
-      "47.2568465",
-      "10.0938034",
-      "10.094074"
+      "47.256704",
+      "47.256804",
+      "10.093952",
+      "10.094052"
     ],
-    "expires": 1689113081
+    "expires": 1690301923
   },
   "47.264004,9.827745": {
     "place_id": 98452364,
@@ -22839,7 +22823,7 @@
       "12.4937668",
       "12.5215334"
     ],
-    "expires": 1689079978
+    "expires": 1690276622
   },
   "47.2833282,9.4855139": {
     "place_id": 355760762,
@@ -23023,7 +23007,7 @@
       "9.879863",
       "9.879963"
     ],
-    "expires": 1689059530
+    "expires": 1690350818
   },
   "47.3101738,8.5075309": {
     "place_id": 112538045,
@@ -23089,7 +23073,7 @@
       "8.5270352",
       "8.5272631"
     ],
-    "expires": 1689138097
+    "expires": 1690323344
   },
   "47.3136846,11.4517434": {
     "place_id": 88542237,
@@ -23233,7 +23217,7 @@
       "12.8223279",
       "12.8224279"
     ],
-    "expires": 1689064941
+    "expires": 1690352908
   },
   "47.34574,10.025573": {
     "place_id": 97177019,
@@ -23675,7 +23659,7 @@
       "10.281629",
       "10.281729"
     ],
-    "expires": 1689121647
+    "expires": 1690287429
   },
   "47.4032,9.938801": {
     "place_id": 140775385,
@@ -23778,7 +23762,7 @@
       "19.0576356",
       "19.0577356"
     ],
-    "expires": 1689136214
+    "expires": 1690415519
   },
   "47.4138987,19.0587847": {
     "place_id": 68067818,
@@ -23893,7 +23877,7 @@
       "19.0612954",
       "19.0613954"
     ],
-    "expires": 1689118000
+    "expires": 1690398896
   },
   "47.4165541,19.061201": {
     "place_id": 13006631,
@@ -24086,7 +24070,7 @@
       "10.23203",
       "10.23213"
     ],
-    "expires": 1689062170
+    "expires": 1690364291
   },
   "47.4724925,-122.3337336": {
     "place_id": 153750028,
@@ -24303,7 +24287,7 @@
       "12.9715668",
       "12.9716668"
     ],
-    "expires": 1689070045
+    "expires": 1690390245
   },
   "47.4992221,-122.355289": {
     "place_id": 240581693,
@@ -25330,7 +25314,7 @@
       "10.6554883",
       "10.6566423"
     ],
-    "expires": 1689097007
+    "expires": 1690349559
   },
   "47.6120027,19.0647799": {
     "place_id": 137066373,
@@ -25819,7 +25803,7 @@
       "-122.1830864",
       "-122.179582"
     ],
-    "expires": 1689091183
+    "expires": 1690316213
   },
   "47.6923281,8.6131096": {
     "place_id": 341183907,
@@ -25859,15 +25843,16 @@
     "expires": 1689592789
   },
   "47.709428,11.1614203": {
-    "place_id": 97928916,
+    "place_id": 133970004,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9540418781,
-    "lat": "47.709428",
-    "lon": "11.1614203",
-    "display_name": "WETTERCAM / LIVECAM STAFFELSEE, Kirchtalstraße, Uffing am Staffelsee, Landkreis Garmisch-Partenkirchen, Bayern, 82449, Deutschland",
+    "osm_type": "way",
+    "osm_id": 122815556,
+    "lat": "47.7094706",
+    "lon": "11.1614574",
+    "display_name": "Seerestaurant Alpenblick, 30, Kirchtalstraße, Uffing am Staffelsee, Landkreis Garmisch-Partenkirchen, Bayern, 82449, Deutschland",
     "address": {
-      "man_made": "WETTERCAM / LIVECAM STAFFELSEE",
+      "amenity": "Seerestaurant Alpenblick",
+      "house_number": "30",
       "road": "Kirchtalstraße",
       "village": "Uffing am Staffelsee",
       "county": "Landkreis Garmisch-Partenkirchen",
@@ -25878,20 +25863,24 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://seerestaurant-alpenblick.de/de/livecam/",
-      "camera:direction": "180",
-      "surveillance:type": "camera",
-      "surveillance:zone": "lake"
+      "phone": "+49 8846 9300",
+      "cuisine": "bavarian",
+      "website": "https://seerestaurant-alpenblick.de/",
+      "biergarten": "yes",
+      "wheelchair": "yes",
+      "opening_hours": "We-Su 09:30-21:00",
+      "payment:coins": "yes",
+      "payment:notes": "yes",
+      "outdoor_seating": "yes",
+      "toilets:wheelchair": "yes"
     },
     "boundingbox": [
-      "47.709378",
-      "47.709478",
-      "11.1613703",
-      "11.1614703"
+      "47.7094171",
+      "47.7095241",
+      "11.1613349",
+      "11.1615799"
     ],
-    "expires": 1689118204
+    "expires": 1690304781
   },
   "47.7246269,-84.8121848": {
     "place_id": 95831926,
@@ -26032,10 +26021,10 @@
       "13.2536263",
       "13.2537375"
     ],
-    "expires": 1689134075
+    "expires": 1690313381
   },
   "47.8678774,13.2543572": {
-    "place_id": 45092858,
+    "place_id": 354815360,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 3822888000,
@@ -26043,7 +26032,7 @@
     "lon": "13.2543572",
     "display_name": "Wasenmoosloipe;Wasenmooslift;Langlaufen am Thalgauberg, Wasenmoosstraße, Wasenmoos, Thalgauberg, Thalgau, Bezirk Salzburg-Umgebung, Salzburg, 5303, Österreich",
     "address": {
-      "man_made": "Wasenmoosloipe;Wasenmooslift;Langlaufen am Thalgauberg",
+      "tourism": "Wasenmoosloipe;Wasenmooslift;Langlaufen am Thalgauberg",
       "road": "Wasenmoosstraße",
       "isolated_dwelling": "Wasenmoos",
       "suburb": "Thalgauberg",
@@ -26059,8 +26048,8 @@
       "ele": "790",
       "nordic": "yes",
       "amenity": "vending_machine",
-      "tourism": "information",
       "vending": "parking_tickets",
+      "man_made": "surveillance",
       "map_size": "site",
       "map_type": "scheme",
       "information": "map",
@@ -26073,7 +26062,7 @@
       "13.2543072",
       "13.2544072"
     ],
-    "expires": 1689082024
+    "expires": 1690376631
   },
   "47.8835422,1.8622846": {
     "place_id": 228606486,
@@ -26145,7 +26134,7 @@
       "2.0393134",
       "2.0403526"
     ],
-    "expires": 1689107991
+    "expires": 1690353394
   },
   "47.8978988,1.9093047": {
     "place_id": 91540765,
@@ -26276,7 +26265,7 @@
       "1.9056994",
       "1.9057994"
     ],
-    "expires": 1689061597
+    "expires": 1690400389
   },
   "47.9021109,1.9040301": {
     "place_id": 93577490,
@@ -26360,15 +26349,15 @@
     "expires": 1689606085
   },
   "47.9025932,1.9088877": {
-    "place_id": 364832503,
+    "place_id": 93994519,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 152119466,
-    "lat": "47.9026405",
-    "lon": "1.90928620384792",
-    "display_name": "1, Place de l'Étape, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45000, France",
+    "osm_type": "node",
+    "osm_id": 9107899874,
+    "lat": "47.9025932",
+    "lon": "1.9088877",
+    "display_name": "Hôtel Groslot, Place de l'Étape, Orléans, Loiret, Centre-Val de Loire, France métropolitaine, 45000, France",
     "address": {
-      "house_number": "1",
+      "man_made": "Hôtel Groslot",
       "square": "Place de l'Étape",
       "city": "Orléans",
       "municipality": "Orléans",
@@ -26382,16 +26371,20 @@
       "country_code": "fr"
     },
     "extratags": {
-      "height": "15",
-      "building:levels": "3"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.skaping.com/orleans/hotel-groslot",
+      "camera:direction": "270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "47.902535",
-      "47.902829",
-      "1.908851",
-      "1.90972"
+      "47.9025432",
+      "47.9026432",
+      "1.9088377",
+      "1.9089377"
     ],
-    "expires": 1689089461
+    "expires": 1690365440
   },
   "47.9114561,1.8218044": {
     "place_id": 254838456,
@@ -26429,7 +26422,7 @@
       "1.8212664",
       "1.822384"
     ],
-    "expires": 1689134731
+    "expires": 1690274027
   },
   "47.9121962,1.9434549": {
     "place_id": 232582368,
@@ -26571,7 +26564,7 @@
       "6.7685852",
       "6.7686852"
     ],
-    "expires": 1689059597
+    "expires": 1690340673
   },
   "47.9493824,6.7732038": {
     "place_id": 15639104,
@@ -26822,7 +26815,7 @@
       "8.0154892",
       "8.0159308"
     ],
-    "expires": 1689128860
+    "expires": 1690276315
   },
   "48.0654811,8.0156674": {
     "place_id": 110921892,
@@ -27012,6 +27005,7 @@
       "suburb": "KG Auhof",
       "city_district": "Hietzing",
       "city": "Wien",
+      "ISO3166-2-lvl4": "AT-9",
       "postcode": "1130",
       "country": "Österreich",
       "country_code": "at"
@@ -27029,7 +27023,7 @@
       "16.2120283",
       "16.2229933"
     ],
-    "expires": 1689060333
+    "expires": 1690380010
   },
   "48.2022459,8.3550592": {
     "place_id": 122108201,
@@ -27228,7 +27222,7 @@
       "8.1675974",
       "8.168064"
     ],
-    "expires": 1689126795
+    "expires": 1690310556
   },
   "48.3039614,10.1587751": {
     "place_id": 162421344,
@@ -27666,7 +27660,7 @@
       "9.9751693",
       "9.9752693"
     ],
-    "expires": 1689114146
+    "expires": 1690346450
   },
   "48.4038152,8.0151914": {
     "place_id": 189917161,
@@ -27947,7 +27941,7 @@
       "16.1522691",
       "16.158985"
     ],
-    "expires": 1689124293
+    "expires": 1690346201
   },
   "48.4652332,8.4120157": {
     "place_id": 144471843,
@@ -28021,15 +28015,14 @@
     "expires": 1689223039
   },
   "48.4663573,7.9368634": {
-    "place_id": 120426457,
+    "place_id": 59868143,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 58009716,
-    "lat": "48.466261200000005",
-    "lon": "7.936864446766561",
-    "display_name": "Hubert Burda Media Tower, 127, Hauptstraße, Offenburg, Verwaltungsgemeinschaft Offenburg, Ortenaukreis, Baden-Württemberg, 77652, Deutschland",
+    "osm_type": "node",
+    "osm_id": 5498518236,
+    "lat": "48.4663573",
+    "lon": "7.9368634",
+    "display_name": "127, Hauptstraße, Offenburg, Verwaltungsgemeinschaft Offenburg, Ortenaukreis, Baden-Württemberg, 77652, Deutschland",
     "address": {
-      "office": "Hubert Burda Media Tower",
       "house_number": "127",
       "road": "Hauptstraße",
       "town": "Offenburg",
@@ -28042,17 +28035,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "wikidata": "Q54970139",
-      "wikipedia": "de:Hubert Burda Media Tower",
-      "building:levels": "15"
+      "camera:type": "dome",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.webcam-offenburg.de/welcome_inside.jsp",
+      "camera:direction": "0",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "48.4660349",
-      "48.4663792",
-      "7.9367731",
-      "7.9369535"
+      "48.4663073",
+      "48.4664073",
+      "7.9368134",
+      "7.9369134"
     ],
-    "expires": 1689092463
+    "expires": 1690265978
   },
   "48.469671,7.941599": {
     "place_id": 178480522,
@@ -28081,7 +28078,7 @@
       "7.9412969",
       "7.9416033"
     ],
-    "expires": 1689111131
+    "expires": 1690386526
   },
   "48.4716693,8.3137512": {
     "place_id": 356198495,
@@ -28957,7 +28954,7 @@
       "8.1619098",
       "8.1620098"
     ],
-    "expires": 1689087405
+    "expires": 1690299484
   },
   "48.6143799,8.1285062": {
     "place_id": 96182124,
@@ -29231,7 +29228,7 @@
       "10.2128854",
       "10.2194375"
     ],
-    "expires": 1689056844
+    "expires": 1690314317
   },
   "48.6422894,8.1561611": {
     "place_id": 196496766,
@@ -29603,7 +29600,7 @@
       "2.3887835",
       "2.3891385"
     ],
-    "expires": 1689092376
+    "expires": 1690424875
   },
   "48.7094739,9.1378643": {
     "place_id": 39182443,
@@ -29682,7 +29679,7 @@
       "9.0868001",
       "9.0869001"
     ],
-    "expires": 1689063233
+    "expires": 1690309562
   },
   "48.7265986,9.067851": {
     "place_id": 75703906,
@@ -30130,7 +30127,7 @@
     "osm_id": 898036769,
     "lat": "48.8113777",
     "lon": "14.2580828",
-    "display_name": "25, Májová, Kladné, Kájov, okres Český Krumlov, Jihočeský kraj, Jihozápad, 382 21, Česko",
+    "display_name": "25, Májová, Kladné, Kájov, okres Český Krumlov, Jihozápad, 382 21, Česko",
     "address": {
       "house_number": "25",
       "road": "Májová",
@@ -30138,8 +30135,6 @@
       "village": "Kladné",
       "municipality": "okres Český Krumlov",
       "ISO3166-2-lvl7": "CZ-312",
-      "county": "Jihočeský kraj",
-      "ISO3166-2-lvl6": "CZ-31",
       "state": "Jihozápad",
       "postcode": "382 21",
       "country": "Česko",
@@ -30154,7 +30149,7 @@
       "14.2580328",
       "14.2581328"
     ],
-    "expires": 1689087035
+    "expires": 1690399975
   },
   "48.8133526,9.1681433": {
     "place_id": 44251194,
@@ -30437,7 +30432,7 @@
       "12.8518321",
       "12.8519321"
     ],
-    "expires": 1689123379
+    "expires": 1690426534
   },
   "48.9572199,8.4808999": {
     "place_id": 37876002,
@@ -31028,7 +31023,7 @@
       "10.4005335",
       "10.4006335"
     ],
-    "expires": 1689086114
+    "expires": 1690305382
   },
   "49.0691823,10.3209067": {
     "place_id": 181331956,
@@ -31347,7 +31342,7 @@
       "-122.9130617",
       "-122.9095522"
     ],
-    "expires": 1689100523
+    "expires": 1690276717
   },
   "49.2798175,-122.919425": {
     "place_id": 128043198,
@@ -31418,7 +31413,7 @@
       "8.8140842",
       "8.8147968"
     ],
-    "expires": 1689116885
+    "expires": 1690406331
   },
   "49.3334265,20.0922814": {
     "place_id": 352000112,
@@ -31772,7 +31767,7 @@
       "8.7088348",
       "8.7104076"
     ],
-    "expires": 1689090857
+    "expires": 1690344181
   },
   "49.4149758,8.7040512": {
     "place_id": 48795353,
@@ -31877,7 +31872,7 @@
       "17.0159231",
       "17.0160231"
     ],
-    "expires": 1689138717
+    "expires": 1690434838
   },
   "49.4717433,8.7587027": {
     "place_id": 164562914,
@@ -31911,7 +31906,7 @@
       "8.7586364",
       "8.7588595"
     ],
-    "expires": 1689069188
+    "expires": 1690272767
   },
   "49.5410653,15.3306596": {
     "place_id": 286126864,
@@ -32053,7 +32048,7 @@
       "25.6401088",
       "25.6402088"
     ],
-    "expires": 1689111127
+    "expires": 1690275219
   },
   "49.5551799,25.6397147": {
     "place_id": 92593110,
@@ -32090,7 +32085,7 @@
       "25.6396647",
       "25.6397647"
     ],
-    "expires": 1689133224
+    "expires": 1690285146
   },
   "49.7509759,31.4689261": {
     "place_id": 123231045,
@@ -32201,14 +32196,15 @@
     "expires": 1689164343
   },
   "49.7943928,9.9299773": {
-    "place_id": 212794412,
+    "place_id": 54465672,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 485654278,
-    "lat": "49.794296599999996",
-    "lon": "9.93011528351177",
-    "display_name": "24, Marktplatz, Würzburg Altstadt, Würzburg, Bayern, 97070, Deutschland",
+    "osm_type": "node",
+    "osm_id": 4784279285,
+    "lat": "49.7943928",
+    "lon": "9.9299773",
+    "display_name": "Unterer Markt, 24, Marktplatz, Würzburg Altstadt, Würzburg, Bayern, 97070, Deutschland",
     "address": {
+      "man_made": "Unterer Markt",
       "house_number": "24",
       "road": "Marktplatz",
       "suburb": "Würzburg Altstadt",
@@ -32220,17 +32216,23 @@
       "country_code": "de"
     },
     "extratags": {
-      "roof:shape": "hipped",
-      "roof:levels": "2",
-      "building:levels": "4"
+      "height": "25",
+      "website": "https://www.wuerzburger-markt.de/webcam.html",
+      "camera:type": "fixed",
+      "camera:angle": "30",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "camera:direction": "270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
     "boundingbox": [
-      "49.7941875",
-      "49.79443",
-      "9.9299723",
-      "9.9302417"
+      "49.7943428",
+      "49.7944428",
+      "9.9299273",
+      "9.9300273"
     ],
-    "expires": 1689125198
+    "expires": 1690398811
   },
   "49.7947854,9.9269104": {
     "place_id": 162975125,
@@ -32371,7 +32373,7 @@
       "6.887542",
       "6.8878824"
     ],
-    "expires": 1689115049
+    "expires": 1690404192
   },
   "49.89387,2.2954461": {
     "place_id": 138695048,
@@ -32412,15 +32414,15 @@
     "expires": 1690245624
   },
   "49.9249446,1.0701062": {
-    "place_id": 139972449,
+    "place_id": 89431652,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 149592203,
-    "lat": "49.924652300000005",
-    "lon": "1.0702340596774118",
-    "display_name": "Musée de Dieppe, Rue de Chastes, Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76200, France",
+    "osm_type": "node",
+    "osm_id": 8757843557,
+    "lat": "49.9249446",
+    "lon": "1.0701062",
+    "display_name": "Webcams de Dieppe - Château, Rue de Chastes, Dieppe, Seine-Maritime, Normandie, France métropolitaine, 76200, France",
     "address": {
-      "tourism": "Musée de Dieppe",
+      "man_made": "Webcams de Dieppe - Château",
       "road": "Rue de Chastes",
       "town": "Dieppe",
       "municipality": "Dieppe",
@@ -32434,22 +32436,20 @@
       "country_code": "fr"
     },
     "extratags": {
-      "fee": "yes",
-      "ref:mhs": "PA00100620",
-      "heritage": "2",
-      "wikipedia": "fr:Château de Dieppe",
-      "source:heritage": "Ministère de la Culture - 2022-12",
-      "subject:wikidata": "Q1011471",
-      "heritage:operator": "mhs",
-      "mhs:inscription_date": "1862"
+      "operator": "Webcams de Dieppe",
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.dieppe.fr/webcams/chateau",
+      "camera:direction": "23",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "49.9243353",
-      "49.9249673",
-      "1.0698542",
-      "1.0705962"
+      "49.9248946",
+      "49.9249946",
+      "1.0700562",
+      "1.0701562"
     ],
-    "expires": 1689097446
+    "expires": 1690290708
   },
   "49.9299382,1.0872227": {
     "place_id": 55725721,
@@ -32488,7 +32488,7 @@
       "1.0871727",
       "1.0872727"
     ],
-    "expires": 1689090406
+    "expires": 1690420975
   },
   "49.98413,11.6112357": {
     "place_id": 88026812,
@@ -32833,7 +32833,7 @@
       "10.9900436",
       "11.0005877"
     ],
-    "expires": 1689106992
+    "expires": 1690282859
   },
   "50.2447105,21.7753741": {
     "place_id": 362754142,
@@ -33071,7 +33071,7 @@
       "10.9435708",
       "10.9443029"
     ],
-    "expires": 1689092715
+    "expires": 1690398383
   },
   "50.2782722,10.9433846": {
     "place_id": 176858076,
@@ -33214,7 +33214,7 @@
       "7.6080354",
       "7.6092757"
     ],
-    "expires": 1689065215
+    "expires": 1690289078
   },
   "50.3534582,7.6010201": {
     "place_id": 110910672,
@@ -33437,7 +33437,7 @@
       "7.6107811",
       "7.6114549"
     ],
-    "expires": 1689104082
+    "expires": 1690290784
   },
   "50.3825964,7.5705232": {
     "place_id": 173207365,
@@ -33531,7 +33531,7 @@
       "11.0112332",
       "11.0114058"
     ],
-    "expires": 1689114271
+    "expires": 1690414304
   },
   "50.4186962,30.5929597": {
     "place_id": 80125219,
@@ -33778,7 +33778,7 @@
       "16.1880831",
       "16.1886429"
     ],
-    "expires": 1689054186
+    "expires": 1690426863
   },
   "50.4685741,16.201564": {
     "place_id": 112105709,
@@ -33839,7 +33839,7 @@
       "6.8808349",
       "6.8810573"
     ],
-    "expires": 1689137620
+    "expires": 1690280491
   },
   "50.5552794,6.2419246": {
     "place_id": 167814600,
@@ -34018,7 +34018,7 @@
       "4.6151032",
       "4.6152032"
     ],
-    "expires": 1689097803
+    "expires": 1690356447
   },
   "50.7273969,-1.1666039": {
     "place_id": 97396881,
@@ -34699,7 +34699,7 @@
       "4.3532306",
       "4.3536344"
     ],
-    "expires": 1689120754
+    "expires": 1690430472
   },
   "50.8533617,14.7061849": {
     "place_id": 121427695,
@@ -35290,7 +35290,7 @@
       "6.2234925",
       "6.2243392"
     ],
-    "expires": 1689110145
+    "expires": 1690433180
   },
   "51.0551347,6.2236122": {
     "place_id": 118119509,
@@ -35792,7 +35792,7 @@
       "5.9640951",
       "5.9641951"
     ],
-    "expires": 1689133439
+    "expires": 1690300424
   },
   "51.1843592,5.9628903": {
     "place_id": 92189972,
@@ -36292,7 +36292,7 @@
       "-0.1171167",
       "-0.1159748"
     ],
-    "expires": 1689131354
+    "expires": 1690371332
   },
   "51.5011654,-0.0235289": {
     "place_id": 191420116,
@@ -37003,7 +37003,7 @@
       "9.9946325",
       "9.9947531"
     ],
-    "expires": 1689082083
+    "expires": 1690343524
   },
   "51.7075974,5.056186": {
     "place_id": 92903553,
@@ -37149,7 +37149,7 @@
       "8.7400369",
       "8.7408494"
     ],
-    "expires": 1689100354
+    "expires": 1690333586
   },
   "51.7171869,8.754402": {
     "place_id": 179865199,
@@ -37178,7 +37178,7 @@
       "8.7542652",
       "8.7547771"
     ],
-    "expires": 1689081840
+    "expires": 1690311874
   },
   "51.7174008,8.7530882": {
     "place_id": 7797644,
@@ -37321,7 +37321,7 @@
       "8.7548844",
       "8.7554706"
     ],
-    "expires": 1689090671
+    "expires": 1690278025
   },
   "51.7202725,8.7351461": {
     "place_id": 299323089,
@@ -37426,7 +37426,7 @@
       "3.8518701",
       "3.8519701"
     ],
-    "expires": 1689113925
+    "expires": 1690268502
   },
   "51.7599105,3.856145": {
     "place_id": 46025104,
@@ -37457,7 +37457,7 @@
       "3.8560437",
       "3.8561437"
     ],
-    "expires": 1689104597
+    "expires": 1690389362
   },
   "51.7603717,8.675847": {
     "place_id": 171781311,
@@ -37571,7 +37571,7 @@
       "4.6484602",
       "4.6491198"
     ],
-    "expires": 1689072424
+    "expires": 1690426751
   },
   "51.7797401,3.8792965": {
     "place_id": 175962461,
@@ -37933,7 +37933,7 @@
       "4.6174974",
       "4.6253729"
     ],
-    "expires": 1689065443
+    "expires": 1690313114
   },
   "51.8336987,4.9435486": {
     "place_id": 194206720,
@@ -38207,7 +38207,7 @@
       "4.0509417",
       "4.0510417"
     ],
-    "expires": 1689131656
+    "expires": 1690289978
   },
   "51.8762508,5.98926": {
     "place_id": 91734989,
@@ -38276,7 +38276,7 @@
       "4.5378339",
       "4.538213"
     ],
-    "expires": 1689113189
+    "expires": 1690384864
   },
   "51.901135,13.0599591": {
     "place_id": 85606472,
@@ -38385,7 +38385,7 @@
       "4.4840997",
       "4.4841997"
     ],
-    "expires": 1689071319
+    "expires": 1690346682
   },
   "51.9047294,4.4843675": {
     "place_id": 79893799,
@@ -38573,15 +38573,15 @@
     "expires": 1690092246
   },
   "51.9119179,4.4295848": {
-    "place_id": 83886952,
+    "place_id": 119545692,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8420127842,
-    "lat": "51.9119179",
-    "lon": "4.4295848",
-    "display_name": "Life stream 24/7 LabHotel, Marconistraat, Mathenesse, Delfshaven, Rotterdam, Zuid-Holland, Nederland, 3029 AE, Nederland",
+    "osm_type": "way",
+    "osm_id": 54081417,
+    "lat": "51.91215925",
+    "lon": "4.429667426766081",
+    "display_name": "Rotterdam Science Tower, Marconistraat, Mathenesse, Delfshaven, Rotterdam, Zuid-Holland, Nederland, 3029 AE, Nederland",
     "address": {
-      "man_made": "Life stream 24/7 LabHotel",
+      "building": "Rotterdam Science Tower",
       "road": "Marconistraat",
       "industrial": "Mathenesse",
       "suburb": "Delfshaven",
@@ -38594,20 +38594,22 @@
       "country_code": "nl"
     },
     "extratags": {
-      "operator": "LabHotel",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "http://media.streampartner.nl/player.php?url=c5yvsyr1x3lt05294w95",
-      "camera:direction": "190",
-      "surveillance:type": "camera"
+      "image": "https://images.mapillary.com/419uhpSKkPI7i137NavxAn/thumb-2048.jpg",
+      "height": "92",
+      "ref:bag": "599100000649440",
+      "website": "http://www.rotterdamsciencetower.nl",
+      "mapillary": "1108597219549752",
+      "start_date": "1979",
+      "source:date": "2014-03-24",
+      "building:levels": "21"
     },
     "boundingbox": [
-      "51.9118679",
-      "51.9119679",
-      "4.4295348",
-      "4.4296348"
+      "51.9118631",
+      "51.9123254",
+      "4.4293977",
+      "4.4299613"
     ],
-    "expires": 1689065070
+    "expires": 1690304806
   },
   "51.9120784,4.5196141": {
     "place_id": 4372092,
@@ -38800,7 +38802,7 @@
       "9.8836058",
       "9.8899499"
     ],
-    "expires": 1689069565
+    "expires": 1690322218
   },
   "51.934586,6.6004175": {
     "place_id": 92818371,
@@ -38837,7 +38839,7 @@
       "6.6003675",
       "6.6004675"
     ],
-    "expires": 1689119149
+    "expires": 1690352714
   },
   "51.9352316,8.8794053": {
     "place_id": 19423165,
@@ -38912,17 +38914,17 @@
     "expires": 1689287811
   },
   "51.936511,22.3869418": {
-    "place_id": 55064884,
+    "place_id": 147189907,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 4838197320,
-    "lat": "51.936511",
-    "lon": "22.3869418",
-    "display_name": "Kamera Online City System Security, Przechodnia, Osiedle Bronisława Chącińskiego, Łuków, powiat łukowski, województwo lubelskie, 21-400, Polska",
+    "osm_type": "way",
+    "osm_id": 176242580,
+    "lat": "51.936316500000004",
+    "lon": "22.386789521056592",
+    "display_name": "22A, Przemysłowa, Osiedle Leona Klimeckiego, Łuków, powiat łukowski, województwo lubelskie, 21-400, Polska",
     "address": {
-      "man_made": "Kamera Online City System Security",
-      "road": "Przechodnia",
-      "neighbourhood": "Osiedle Bronisława Chącińskiego",
+      "house_number": "22A",
+      "road": "Przemysłowa",
+      "neighbourhood": "Osiedle Leona Klimeckiego",
       "town": "Łuków",
       "county": "powiat łukowski",
       "state": "województwo lubelskie",
@@ -38932,20 +38934,15 @@
       "country_code": "pl"
     },
     "extratags": {
-      "camera:type": "panning",
-      "camera:mount": "wall",
-      "surveillance": "webcam",
-      "contact:webcam": "https://worldcam.live/pl/webcam/lukow",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
+      "building:levels": "3"
     },
     "boundingbox": [
-      "51.936461",
-      "51.936561",
-      "22.3868918",
-      "22.3869918"
+      "51.9361051",
+      "51.9365299",
+      "22.3864985",
+      "22.3872958"
     ],
-    "expires": 1689079653
+    "expires": 1690342003
   },
   "51.9438102,4.047526": {
     "place_id": 95210872,
@@ -39013,7 +39010,7 @@
       "4.0721504",
       "4.0722504"
     ],
-    "expires": 1689091306
+    "expires": 1690397403
   },
   "51.9460193,5.5739615": {
     "place_id": 92164307,
@@ -39293,7 +39290,7 @@
       "4.1125915",
       "4.1126915"
     ],
-    "expires": 1689108056
+    "expires": 1690293839
   },
   "51.981117,4.1114046": {
     "place_id": 114338676,
@@ -39519,7 +39516,7 @@
       "30.9705497",
       "30.9706497"
     ],
-    "expires": 1689056346
+    "expires": 1690304423
   },
   "52.1179672,23.8575745": {
     "place_id": 66798973,
@@ -39673,7 +39670,7 @@
       "-6.929554",
       "-6.9293639"
     ],
-    "expires": 1689106530
+    "expires": 1690401288
   },
   "52.1237712,-6.9295361": {
     "place_id": 124766058,
@@ -39909,7 +39906,7 @@
       "6.3903516",
       "6.3904516"
     ],
-    "expires": 1689133471
+    "expires": 1690310922
   },
   "52.1506654,6.2162778": {
     "place_id": 92329229,
@@ -40122,7 +40119,7 @@
       "6.3944833",
       "6.3945833"
     ],
-    "expires": 1689088659
+    "expires": 1690299055
   },
   "52.1869085,5.0851456": {
     "place_id": 95058924,
@@ -40566,7 +40563,7 @@
       "8.0412181",
       "8.0413181"
     ],
-    "expires": 1689108586
+    "expires": 1690348637
   },
   "52.2774529,8.0421383": {
     "place_id": 16956739,
@@ -40792,7 +40789,7 @@
       "23.783228",
       "23.7837308"
     ],
-    "expires": 1689100334
+    "expires": 1690426593
   },
   "52.3408969,4.8775444": {
     "place_id": 91328239,
@@ -41333,7 +41330,7 @@
       "10.4437178",
       "10.4438178"
     ],
-    "expires": 1689086382
+    "expires": 1690355742
   },
   "52.4477491,5.8354885": {
     "place_id": 46991399,
@@ -41519,15 +41516,16 @@
     "expires": 1689591382
   },
   "52.4672298,13.4597753": {
-    "place_id": 776625,
+    "place_id": 111528699,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 277837240,
-    "lat": "52.4672298",
-    "lon": "13.4597753",
-    "display_name": "Blick in Richtung Grenzallee / A100, Grenzallee, Weiße Siedlung, Neukölln, Berlin, 12057, Deutschland",
+    "osm_type": "way",
+    "osm_id": 25498295,
+    "lat": "52.467414000000005",
+    "lon": "13.460327740120647",
+    "display_name": "Leiser, 9-11, Grenzallee, Weiße Siedlung, Neukölln, Berlin, 12057, Deutschland",
     "address": {
-      "man_made": "Blick in Richtung Grenzallee / A100",
+      "building": "Leiser",
+      "house_number": "9-11",
       "road": "Grenzallee",
       "neighbourhood": "Weiße Siedlung",
       "suburb": "Neukölln",
@@ -41538,24 +41536,14 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {
-      "height": "15",
-      "website": "http://www.stadtentwicklung.berlin.de/bauen/strassenbau/a100_16_ba/de/webcam.shtml",
-      "operator": "1000eyes",
-      "camera:type": "fixed",
-      "camera:mount": "wall",
-      "surveillance": "webcam",
-      "camera:direction": "SW",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
+    "extratags": {},
     "boundingbox": [
-      "52.4671798",
-      "52.4672798",
-      "13.4597253",
-      "13.4598253"
+      "52.4670531",
+      "52.4678131",
+      "13.4597753",
+      "13.460934"
     ],
-    "expires": 1689071361
+    "expires": 1690281534
   },
   "52.4672527,13.4598076": {
     "place_id": 54156382,
@@ -41915,7 +41903,7 @@
       "13.4076839",
       "13.4077839"
     ],
-    "expires": 1689107869
+    "expires": 1690282126
   },
   "52.518476,13.3964213": {
     "place_id": 106710359,
@@ -42109,7 +42097,7 @@
       "24.4755278",
       "24.4755927"
     ],
-    "expires": 1689123677
+    "expires": 1690295270
   },
   "52.5540206,24.4756078": {
     "place_id": 281714808,
@@ -42960,7 +42948,7 @@
       "6.5865618",
       "6.5866618"
     ],
-    "expires": 1689061684
+    "expires": 1690390174
   },
   "53.2263496,6.5330264": {
     "place_id": 337375819,
@@ -43032,7 +43020,7 @@
       "5.0629496",
       "5.0630496"
     ],
-    "expires": 1689086872
+    "expires": 1690365022
   },
   "53.2964283,-6.1468368": {
     "place_id": 192786797,
@@ -43174,7 +43162,7 @@
       "-6.2607455",
       "-6.2606455"
     ],
-    "expires": 1689067134
+    "expires": 1690271139
   },
   "53.3662215,7.2053806": {
     "place_id": 50181055,
@@ -43207,7 +43195,7 @@
       "7.2053306",
       "7.2054306"
     ],
-    "expires": 1689104466
+    "expires": 1690275694
   },
   "53.3710875,10.5560897": {
     "place_id": 56059259,
@@ -43327,15 +43315,15 @@
     "expires": 1689997177
   },
   "53.4051184,6.2041453": {
-    "place_id": 96953313,
+    "place_id": 139763084,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9379560167,
-    "lat": "53.4051184",
-    "lon": "6.2041453",
-    "display_name": "Jachthaven Noordergat webcam, Noordergat, Lauwersoog, Het Hogeland, Groningen, Nederland, 9976 VR, Nederland",
+    "osm_type": "way",
+    "osm_id": 148271053,
+    "lat": "53.40541495",
+    "lon": "6.205050975225952",
+    "display_name": "Noordergat, Lauwersoog, Het Hogeland, Groningen, Nederland, 9976 VR, Nederland",
     "address": {
-      "man_made": "Jachthaven Noordergat webcam",
+      "leisure": "Noordergat",
       "road": "Noordergat",
       "village": "Lauwersoog",
       "municipality": "Het Hogeland",
@@ -43346,21 +43334,20 @@
       "country_code": "nl"
     },
     "extratags": {
-      "url": "https://www.noordergat.nl/webcam/index.php",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.noordergat.nl/webcam/index.php",
-      "camera:direction": "317",
-      "surveillance:type": "camera",
-      "surveillance:zone": "harbour"
+      "email": "havenmeester@noordergat1.nl",
+      "phone": "+31 519 349 040",
+      "website": "https://www.noordergat.nl/",
+      "seamark:name": "Noordergat",
+      "seamark:type": "harbour",
+      "seamark:harbour:category": "marina"
     },
     "boundingbox": [
-      "53.4050684",
-      "53.4051684",
-      "6.2040953",
-      "6.2041953"
+      "53.4043264",
+      "53.4069185",
+      "6.2021423",
+      "6.2078799"
     ],
-    "expires": 1689109988
+    "expires": 1690414416
   },
   "53.4051194,6.2041996": {
     "place_id": 139763084,
@@ -44232,7 +44219,7 @@
       "-1.082739",
       "-1.082639"
     ],
-    "expires": 1689059651
+    "expires": 1690382585
   },
   "53.9776608,9.1457825": {
     "place_id": 133660773,
@@ -44432,7 +44419,7 @@
       "8.856342",
       "8.8573159"
     ],
-    "expires": 1689109070
+    "expires": 1690361184
   },
   "54.1292051,8.8698737": {
     "place_id": 25713648,
@@ -45121,7 +45108,7 @@
       "16.0512691",
       "16.0513691"
     ],
-    "expires": 1689078568
+    "expires": 1690345881
   },
   "54.2942649,9.6798589": {
     "place_id": 40187189,
@@ -45264,7 +45251,7 @@
       "-3.0549706",
       "-3.0545847"
     ],
-    "expires": 1689132317
+    "expires": 1690343837
   },
   "54.4301883,10.1703489": {
     "place_id": 6140716,
@@ -45298,7 +45285,7 @@
       "10.1702989",
       "10.1703989"
     ],
-    "expires": 1689119861
+    "expires": 1690427620
   },
   "54.4389435,11.1971092": {
     "place_id": 119302315,
@@ -45488,7 +45475,7 @@
       "9.7715806",
       "9.7748628"
     ],
-    "expires": 1689063507
+    "expires": 1690339264
   },
   "54.9321049,-1.4687077": {
     "place_id": 114025887,
@@ -45909,7 +45896,7 @@
       "9.807544",
       "9.807644"
     ],
-    "expires": 1689070802
+    "expires": 1690322622
   },
   "56.2702745,9.872045": {
     "place_id": 117517089,
@@ -47053,7 +47040,7 @@
       "9.55698",
       "9.55708"
     ],
-    "expires": 1689135800
+    "expires": 1690324326
   },
   "59.2484582,9.6639377": {
     "place_id": 13703711,
@@ -47232,7 +47219,7 @@
       "11.6721483",
       "11.6722483"
     ],
-    "expires": 1689111102
+    "expires": 1690345836
   },
   "59.3308149,10.3789855": {
     "place_id": 13703822,
@@ -47269,7 +47256,7 @@
       "10.3789355",
       "10.3790355"
     ],
-    "expires": 1689068186
+    "expires": 1690375013
   },
   "59.3499443,10.8983637": {
     "place_id": 13575058,
@@ -47683,7 +47670,7 @@
       "10.1809938",
       "10.1810938"
     ],
-    "expires": 1689099533
+    "expires": 1690272718
   },
   "59.5872438,8.5850256": {
     "place_id": 13594036,
@@ -47790,7 +47777,7 @@
       "5.4847961",
       "5.4848961"
     ],
-    "expires": 1689109919
+    "expires": 1690340063
   },
   "59.7520379,5.354572": {
     "place_id": 13630299,
@@ -48084,6 +48071,7 @@
       "country_code": "ru"
     },
     "extratags": {
+      "roof:shape": "flat",
       "building:levels": "13"
     },
     "boundingbox": [
@@ -48092,7 +48080,7 @@
       "29.0689798",
       "29.0711317"
     ],
-    "expires": 1689073433
+    "expires": 1690349318
   },
   "59.9128061,5.4879673": {
     "place_id": 13584540,
@@ -48556,7 +48544,7 @@
       "5.367762",
       "5.367862"
     ],
-    "expires": 1689106019
+    "expires": 1690424811
   },
   "60.3413988,5.2479104": {
     "place_id": 13549700,
@@ -48913,7 +48901,7 @@
       "10.6431001",
       "10.6432001"
     ],
-    "expires": 1689062653
+    "expires": 1690266611
   },
   "60.4611711,5.3889676": {
     "place_id": 13740240,
@@ -49143,7 +49131,7 @@
       "11.2508674",
       "11.2509674"
     ],
-    "expires": 1689063656
+    "expires": 1690357337
   },
   "60.572475,9.112447": {
     "place_id": 13721533,
@@ -49667,7 +49655,7 @@
       "5.6842813",
       "5.6843813"
     ],
-    "expires": 1689076318
+    "expires": 1690379990
   },
   "60.9571855,11.4900789": {
     "place_id": 13662010,
@@ -50212,7 +50200,7 @@
       "23.7653079",
       "23.7654079"
     ],
-    "expires": 1689127593
+    "expires": 1690418862
   },
   "61.5111137,6.155912": {
     "place_id": 13727034,
@@ -50318,7 +50306,7 @@
       "11.004412",
       "11.004512"
     ],
-    "expires": 1689055495
+    "expires": 1690301627
   },
   "61.6673857,5.1948297": {
     "place_id": 13662153,
@@ -50771,7 +50759,7 @@
       "9.528222",
       "9.528322"
     ],
-    "expires": 1689135154
+    "expires": 1690349800
   },
   "62.4825785,10.3894506": {
     "place_id": 13630354,
@@ -51298,7 +51286,7 @@
       "9.861148",
       "9.861248"
     ],
-    "expires": 1689080752
+    "expires": 1690325628
   },
   "63.321933,10.312351": {
     "place_id": 13575002,
@@ -52498,7 +52486,7 @@
       "12.300763",
       "12.300863"
     ],
-    "expires": 1689074794
+    "expires": 1690303312
   },
   "64.4642645,11.4922785": {
     "place_id": 91961860,
@@ -53190,7 +53178,7 @@
       "17.9627473",
       "17.9628473"
     ],
-    "expires": 1689057094
+    "expires": 1690366097
   },
   "69.0916729,18.2972056": {
     "place_id": 13440840,
