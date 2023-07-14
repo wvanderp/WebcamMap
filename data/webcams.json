@@ -2415,7 +2415,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=111165"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=111165"
+    "url": "http://webkamera.vegvesen.no/kamera?id=111165",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 61.185017,
@@ -7972,7 +7975,7 @@
     "lastChanged": 1473737587000,
     "address": {
       "city": "Nienburg/Weser",
-      "county": "Stadtteil Nienburg",
+      "county": "Landkreis Nienburg/Weser",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -7996,7 +7999,7 @@
     "lastChanged": 1473737587000,
     "address": {
       "city": "Nienburg/Weser",
-      "county": "Stadtteil Nienburg",
+      "county": "Landkreis Nienburg/Weser",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -14071,7 +14074,6 @@
     "lastChanged": 1636043606000,
     "address": {
       "city": "Grevenbroich",
-      "county": "Rhein-Kreis Neuss",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
     },
@@ -25619,7 +25621,7 @@
     "osmType": "node",
     "lastChanged": 1681597418000,
     "address": {
-      "city": "Christchurch",
+      "city": "Papanui-Innes Community",
       "county": "Christchurch City",
       "state": "Canterbury",
       "country": "New Zealand"
@@ -27482,7 +27484,10 @@
       "surveillance:zone": "lock"
     },
     "operator": "StreamTime LIVE",
-    "url": "https://www.youtube.com/watch?v=KglFyCnp65Y"
+    "url": "https://www.youtube.com/watch?v=KglFyCnp65Y",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5170394,
@@ -32101,6 +32106,7 @@
     "osmType": "node",
     "lastChanged": 1643703853000,
     "address": {
+      "city": "Cala Vedella",
       "county": "Eivissa",
       "state": "Illes Balears",
       "country": "Spain"
@@ -32172,6 +32178,7 @@
     "osmType": "node",
     "lastChanged": 1643704465000,
     "address": {
+      "city": "Cala Vedella",
       "county": "Eivissa",
       "state": "Illes Balears",
       "country": "Spain"
@@ -39998,5 +40005,83 @@
     },
     "operator": "University of Utah",
     "url": "https://home.chpc.utah.edu/~u0790486/wxinfo/cgi-bin/uunet_camera_explorer.cgi?cam=BFLAT"
+  },
+  {
+    "lat": 48.5296132,
+    "lon": 11.5087379,
+    "osmID": 11043450199,
+    "user": "Stefano_1973",
+    "osmType": "node",
+    "lastChanged": 1689236230000,
+    "address": {
+      "city": "Pfaffenhofen an der Ilm",
+      "county": "Landkreis Pfaffenhofen an der Ilm",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "275",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pfaffenhofen.de/artikel/webcam-rathaus/",
+      "man_made": "surveillance",
+      "name": "Webcam Rathaus",
+      "source": "street",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://pfaffenhofen.de/artikel/webcam-rathaus/"
+  },
+  {
+    "lat": 48.5302037,
+    "lon": 11.5045903,
+    "osmID": 11043450200,
+    "user": "Stefano_1973",
+    "osmType": "node",
+    "lastChanged": 1689236230000,
+    "address": {
+      "city": "Pfaffenhofen an der Ilm",
+      "county": "Landkreis Pfaffenhofen an der Ilm",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "105",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pfaffenhofen.de/artikel/webcam-haus-der-begegnung/",
+      "man_made": "surveillance",
+      "name": "Webcam Haus der Begegnung",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://pfaffenhofen.de/artikel/webcam-haus-der-begegnung/"
+  },
+  {
+    "lat": 48.5378206,
+    "lon": 11.5102277,
+    "osmID": 11043450201,
+    "user": "Stefano_1973",
+    "osmType": "node",
+    "lastChanged": 1689236230000,
+    "address": {
+      "city": "Pfaffenhofen an der Ilm",
+      "county": "Landkreis Pfaffenhofen an der Ilm",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pfaffenhofen.de/artikel/webcam-freibad/",
+      "man_made": "surveillance",
+      "name": "Webcam Freibad",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://pfaffenhofen.de/artikel/webcam-freibad/"
   }
 ]
