@@ -564,7 +564,7 @@
       "148.4498261",
       "148.4499261"
     ],
-    "expires": 1689778048
+    "expires": 1690966878
   },
   "-35.9081251,148.4507994": {
     "place_id": 357200065,
@@ -7858,7 +7858,7 @@
       "-77.9294454",
       "-77.9176649"
     ],
-    "expires": 1689825698
+    "expires": 1690974358
   },
   "39.6518428,-77.8876158": {
     "place_id": 125686033,
@@ -7956,7 +7956,7 @@
       "-105.181529",
       "-105.181429"
     ],
-    "expires": 1689820485
+    "expires": 1690973584
   },
   "39.6568068,3.4408049": {
     "place_id": 21216238,
@@ -8332,7 +8332,7 @@
       "-79.0736998",
       "-79.0582254"
     ],
-    "expires": 1689829913
+    "expires": 1691077112
   },
   "39.6879835,-78.119144": {
     "place_id": 124705046,
@@ -9453,7 +9453,7 @@
       "-86.0269609",
       "-86.0268609"
     ],
-    "expires": 1689795454
+    "expires": 1691119700
   },
   "39.7999174,-86.033133": {
     "place_id": 19692574,
@@ -10278,7 +10278,7 @@
       "-73.9853672",
       "-73.9852672"
     ],
-    "expires": 1689756965
+    "expires": 1691123925
   },
   "40.7593332,-73.9853132": {
     "place_id": 83995860,
@@ -10427,16 +10427,14 @@
     "osm_id": 19334158,
     "lat": "41.143186706857506",
     "lon": "-80.15522152965195",
-    "display_name": "I 79, Grove City Premium Outlets, London, Springfield Township, Mercer County, Pennsylvania, 16127, United States",
+    "display_name": "I 79, London, Springfield Township, Mercer County, Pennsylvania, United States",
     "address": {
       "road": "I 79",
-      "retail": "Grove City Premium Outlets",
       "hamlet": "London",
       "village": "Springfield Township",
       "county": "Mercer County",
       "state": "Pennsylvania",
       "ISO3166-2-lvl4": "US-PA",
-      "postcode": "16127",
       "country": "United States",
       "country_code": "us"
     },
@@ -10448,7 +10446,8 @@
       "oneway": "yes",
       "bicycle": "no",
       "surface": "asphalt",
-      "maxspeed": "70 mph"
+      "maxspeed": "70 mph",
+      "source:maxspeed": "http://www.penndot.gov/Pages/all-news-details.aspx?newsid=221#.Vyfx8OQVSSo"
     },
     "boundingbox": [
       "41.0833626",
@@ -10456,7 +10455,7 @@
       "-80.1693152",
       "-80.1345082"
     ],
-    "expires": 1689764927
+    "expires": 1691110212
   },
   "41.1985987,-80.1599375": {
     "place_id": 84231019,
@@ -11017,7 +11016,7 @@
       "-81.4485603",
       "-81.4476171"
     ],
-    "expires": 1689755999
+    "expires": 1691103017
   },
   "41.5907772,-81.4490477": {
     "place_id": 288607674,
@@ -11090,7 +11089,7 @@
       "-81.4427981",
       "-81.4334972"
     ],
-    "expires": 1689800805
+    "expires": 1691030802
   },
   "41.6263367,-81.400233": {
     "place_id": 123779643,
@@ -11201,7 +11200,7 @@
       "-81.2401408",
       "-81.2385955"
     ],
-    "expires": 1689788424
+    "expires": 1690972718
   },
   "41.6626203,-81.2637727": {
     "place_id": 133350128,
@@ -11307,7 +11306,7 @@
       "-81.2369218",
       "-81.218579"
     ],
-    "expires": 1689750754
+    "expires": 1691082390
   },
   "41.6797611,-69.9570147": {
     "place_id": 366547527,
@@ -14740,15 +14739,15 @@
     "expires": 1690425579
   },
   "43.1588062,-77.5849772": {
-    "place_id": 119866262,
+    "place_id": 89276458,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 51907635,
-    "lat": "43.15865725",
-    "lon": "-77.58438958476809",
-    "display_name": "Village Gate Square, 274, North Goodman Street, Neighborhood Of The Arts, City of Rochester, Monroe County, New York, 14607, United States",
+    "osm_type": "node",
+    "osm_id": 8783080622,
+    "lat": "43.1588062",
+    "lon": "-77.5849772",
+    "display_name": "OS Cubed Webcam Rochester NY, 274, North Goodman Street, Neighborhood Of The Arts, City of Rochester, Monroe County, New York, 14607, United States",
     "address": {
-      "amenity": "Village Gate Square",
+      "man_made": "OS Cubed Webcam Rochester NY",
       "house_number": "274",
       "road": "North Goodman Street",
       "neighbourhood": "Neighborhood Of The Arts",
@@ -14761,16 +14760,20 @@
       "country_code": "us"
     },
     "extratags": {
-      "website": "http://www.villagegatesquare.com/",
-      "nysgissam:nysaddresspointid": "MONR258506"
+      "operator": "rocpic",
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "http://rocpic.com/webcams/os-cubed-rochester-ny.html",
+      "camera:direction": "269",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "43.1580798",
-      "43.1591973",
-      "-77.5852126",
-      "-77.5826542"
+      "43.1587562",
+      "43.1588562",
+      "-77.5850272",
+      "-77.5849272"
     ],
-    "expires": 1689751855
+    "expires": 1691121977
   },
   "43.1668255,-79.1902403": {
     "place_id": 241350130,
@@ -16979,7 +16982,7 @@
       "7.1323954",
       "7.1324954"
     ],
-    "expires": 1689785193
+    "expires": 1690998591
   },
   "45.5430633,10.7254746": {
     "place_id": 89112123,
@@ -19113,7 +19116,7 @@
       "-119.7282626",
       "-119.4228137"
     ],
-    "expires": 1689812231
+    "expires": 1691112047
   },
   "46.4797621,7.1396507": {
     "place_id": 348670782,
@@ -20467,17 +20470,16 @@
     "expires": 1690875208
   },
   "46.7797599,-92.0923977": {
-    "place_id": 144733681,
+    "place_id": 94609330,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 167029142,
-    "lat": "46.7798329",
-    "lon": "-92.09251699962513",
-    "display_name": "Lake Superior Maritime Visitor Center, 600, South Lake Avenue, Central Business District, Duluth, Saint Louis County, Minnesota, 55802, United States",
+    "osm_type": "node",
+    "osm_id": 9260034903,
+    "lat": "46.7797599",
+    "lon": "-92.0923977",
+    "display_name": "Duluth Aerial Lift Bridge Cam, The Lakewalk, Central Business District, Duluth, Saint Louis County, Minnesota, 55802, United States",
     "address": {
-      "tourism": "Lake Superior Maritime Visitor Center",
-      "house_number": "600",
-      "road": "South Lake Avenue",
+      "man_made": "Duluth Aerial Lift Bridge Cam",
+      "road": "The Lakewalk",
       "city_district": "Central Business District",
       "city": "Duluth",
       "county": "Saint Louis County",
@@ -20488,18 +20490,22 @@
       "country_code": "us"
     },
     "extratags": {
-      "phone": "+1 218-720-5260",
-      "website": "http://www.lsmma.com/",
-      "wikidata": "Q6477890",
-      "wikipedia": "en:Lake Superior Maritime Visitor Center"
+      "operator": "Duluth Harbor Cam",
+      "camera:type": "fixed",
+      "description": "This camera is located on the roof of the Lake Superior Maritime Visitor Center in Duluth, Minnesota. It focuses on the historic Duluth Aerial Lift Bridge.",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.youtube.com/watch?v=BzwWjdZXymc",
+      "camera:direction": "220",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
     },
     "boundingbox": [
-      "46.7796692",
-      "46.7799861",
-      "-92.0928726",
-      "-92.0921933"
+      "46.7797099",
+      "46.7798099",
+      "-92.0924477",
+      "-92.0923477"
     ],
-    "expires": 1689793627
+    "expires": 1691053469
   },
   "46.7797809,-92.0923328": {
     "place_id": 144733681,
@@ -21173,7 +21179,7 @@
       "7.4602943",
       "7.4606743"
     ],
-    "expires": 1689775427
+    "expires": 1691014759
   },
   "46.9571106,8.6758868": {
     "place_id": 180533669,
@@ -21526,7 +21532,7 @@
       "-91.6651541",
       "-91.6650541"
     ],
-    "expires": 1689765909
+    "expires": 1691120018
   },
   "47.0209877,8.7029383": {
     "place_id": 348127514,
@@ -21951,7 +21957,7 @@
       "9.1933107",
       "9.1934107"
     ],
-    "expires": 1689782419
+    "expires": 1691114402
   },
   "47.13442,10.224083": {
     "place_id": 97610485,
@@ -22097,7 +22103,7 @@
       "10.1830175",
       "10.1831175"
     ],
-    "expires": 1689794756
+    "expires": 1690996002
   },
   "47.165166,10.1357801": {
     "place_id": 58105479,
@@ -27552,7 +27558,7 @@
       "16.1840142",
       "16.1842941"
     ],
-    "expires": 1689800479
+    "expires": 1691117673
   },
   "48.3874313,16.1783022": {
     "place_id": 109930847,
@@ -35613,7 +35619,7 @@
       "7.8379281",
       "7.8380281"
     ],
-    "expires": 1689774975
+    "expires": 1691032984
   },
   "51.0965683,14.3912237": {
     "place_id": 347109607,
@@ -38834,7 +38840,7 @@
       "4.5196013",
       "4.5197013"
     ],
-    "expires": 1689791299
+    "expires": 1691001030
   },
   "51.912526,4.5385176": {
     "place_id": 81065315,
@@ -47245,7 +47251,7 @@
       "11.2072848",
       "11.2073848"
     ],
-    "expires": 1689769336
+    "expires": 1690980692
   },
   "59.1803454,10.2061295": {
     "place_id": 13511687,
@@ -51326,7 +51332,7 @@
       "9.8611672",
       "9.8612672"
     ],
-    "expires": 1689747206
+    "expires": 1691045728
   },
   "63.3155864,9.8613233": {
     "place_id": 92192147,
@@ -51443,7 +51449,7 @@
       "9.8612434",
       "9.8613434"
     ],
-    "expires": 1689784698
+    "expires": 1691025918
   },
   "63.3155975,9.8612656": {
     "place_id": 92396106,
@@ -52832,7 +52838,7 @@
       "13.112622",
       "13.112722"
     ],
-    "expires": 1689820909
+    "expires": 1691084552
   },
   "65.0758135,25.4714806": {
     "place_id": 347958939,
@@ -53818,6 +53824,40 @@
       "98.2936562"
     ],
     "expires": 1690474746
+  },
+  "7.8756113,98.2888161": {
+    "place_id": 372043359,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11054477475,
+    "lat": "7.8756113",
+    "lon": "98.2888161",
+    "display_name": "Phuket Live View - Patong, ถนนศิริรัตน์, กะรน, ตำบลป่าตอง, อำเภอกะทู้, จังหวัดภูเก็ต, 83150, ประเทศไทย",
+    "address": {
+      "man_made": "Phuket Live View - Patong",
+      "road": "ถนนศิริรัตน์",
+      "town": "กะรน",
+      "city": "ตำบลป่าตอง",
+      "county": "อำเภอกะทู้",
+      "state": "จังหวัดภูเก็ต",
+      "ISO3166-2-lvl4": "TH-83",
+      "postcode": "83150",
+      "country": "ประเทศไทย",
+      "country_code": "th"
+    },
+    "extratags": {
+      "surveillance": "webcam",
+      "contact:webcam": "https://open.ivideon.com/embed/v2/?server=200-540bc5e23ed26ac860c5936fd8ed922d&camera=0",
+      "camera:direction": "15",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "7.8755613",
+      "7.8756613",
+      "98.2887661",
+      "98.2888661"
+    ],
+    "expires": 1691068419
   },
   "70.0033836,20.8985446": {
     "place_id": 12873476,
