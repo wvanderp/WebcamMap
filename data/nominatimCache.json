@@ -2226,7 +2226,7 @@
       "-111.8243754",
       "-111.824369"
     ],
-    "expires": 1689839319
+    "expires": 1691084536
   },
   "33.2876619,-111.7557391": {
     "place_id": 204587694,
@@ -2896,15 +2896,15 @@
     "expires": 1690575698
   },
   "35.9896135,14.3286315": {
-    "place_id": 56159893,
+    "place_id": 201973209,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 5041978576,
-    "lat": "35.9896135",
-    "lon": "14.3286315",
-    "display_name": "Ċirkewwa - Terminal traghetti, ingresso veicoli, Triq il-Marfa, Iċ-Ċirkewwa, Il-Mellieħa, Tramuntana, MLH 1107, Malta",
+    "osm_type": "way",
+    "osm_id": 422021974,
+    "lat": "35.98852855",
+    "lon": "14.328854075820981",
+    "display_name": "Terminal tal-Ferry ta 'Ċirkewwa, Triq il-Marfa, Iċ-Ċirkewwa, Il-Mellieħa, Tramuntana, MLH 1107, Malta",
     "address": {
-      "man_made": "Ċirkewwa - Terminal traghetti, ingresso veicoli",
+      "amenity": "Terminal tal-Ferry ta 'Ċirkewwa",
       "road": "Triq il-Marfa",
       "suburb": "Iċ-Ċirkewwa",
       "village": "Il-Mellieħa",
@@ -2915,19 +2915,19 @@
       "country_code": "mt"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.skylinewebcams.com/it/webcam/malta/malta/traffic/traffic-cam10.html",
-      "camera:direction": "180",
-      "surveillance:type": "camera"
+      "ferry": "yes",
+      "wheelchair": "yes",
+      "description": "compleet changed waiting, bus buildings waiting for images",
+      "internet_access": "wlan",
+      "public_transport": "station"
     },
     "boundingbox": [
-      "35.9895635",
-      "35.9896635",
-      "14.3285815",
-      "14.3286815"
+      "35.9866577",
+      "35.9902061",
+      "14.3281459",
+      "14.329973"
     ],
-    "expires": 1689900939
+    "expires": 1691081558
   },
   "36.1427322,136.586882": {
     "place_id": 176819184,
@@ -4510,7 +4510,7 @@
       "-95.3069903",
       "-95.3068903"
     ],
-    "expires": 1689853173
+    "expires": 1691183907
   },
   "38.9771192,1.3078818": {
     "place_id": 181510838,
@@ -5336,6 +5336,8 @@
       "road": "Ma-4011",
       "town": "Felanich",
       "county": "Migjorn",
+      "archipelago": "Illes Balears",
+      "ISO3166-2-lvl6": "ES-PM",
       "state": "Illes Balears",
       "ISO3166-2-lvl4": "ES-IB",
       "postcode": "07200",
@@ -5351,7 +5353,7 @@
       "3.1683573",
       "3.188042"
     ],
-    "expires": 1689872179
+    "expires": 1691049865
   },
   "39.4869001,-79.106492": {
     "place_id": 306635102,
@@ -10733,7 +10735,7 @@
       "-81.5234313",
       "-81.5179178"
     ],
-    "expires": 1689880982
+    "expires": 1691087140
   },
   "41.4217309,-81.7102097": {
     "place_id": 293926277,
@@ -11340,7 +11342,7 @@
       "-69.9573492",
       "-69.9569223"
     ],
-    "expires": 1689869269
+    "expires": 1691196722
   },
   "41.6920793,-81.2031282": {
     "place_id": 271284142,
@@ -13014,7 +13016,7 @@
       "-83.0646305",
       "-83.0645305"
     ],
-    "expires": 1689913171
+    "expires": 1691168888
   },
   "42.3013317,-82.8988467": {
     "place_id": 51954757,
@@ -13676,7 +13678,7 @@
       "-82.3982573",
       "-82.3981573"
     ],
-    "expires": 1689906153
+    "expires": 1691155273
   },
   "42.988175,-82.404452": {
     "place_id": 51879843,
@@ -18413,7 +18415,7 @@
       "11.2443781",
       "11.2447238"
     ],
-    "expires": 1689880244
+    "expires": 1691166688
   },
   "46.1397175,7.9908328": {
     "place_id": 78668969,
@@ -19425,12 +19427,14 @@
     "osm_id": 4631801645,
     "lat": "46.5196878",
     "lon": "11.6388205",
-    "display_name": "Webcam Seiser Alm - Goldknopf, Joch, Salten-Schlern - Salto-Sciliar, Kastelruth - Castelrotto, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39040, Italia",
+    "display_name": "Webcam Seiser Alm - Goldknopf, Joch, Kastelruth - Castelrotto, Salten-Schlern - Salto-Sciliar, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39040, Italia",
     "address": {
       "man_made": "Webcam Seiser Alm - Goldknopf",
       "road": "Joch",
+      "city": "Kastelruth - Castelrotto",
       "municipality": "Salten-Schlern - Salto-Sciliar",
-      "county": "Kastelruth - Castelrotto",
+      "county": "Bolzano - Bozen",
+      "ISO3166-2-lvl6": "IT-BZ",
       "state": "Trentino-Alto Adige/Südtirol",
       "ISO3166-2-lvl4": "IT-32",
       "postcode": "39040",
@@ -19447,7 +19451,7 @@
       "11.6387705",
       "11.6388705"
     ],
-    "expires": 1689887379
+    "expires": 1691068771
   },
   "46.5230327,8.6504415": {
     "place_id": 342427128,
@@ -21815,7 +21819,7 @@
       "8.6496295",
       "8.6497295"
     ],
-    "expires": 1689896274
+    "expires": 1691193390
   },
   "47.072833,9.602583": {
     "place_id": 97570488,
@@ -28384,7 +28388,7 @@
       "9.5597762",
       "9.5600522"
     ],
-    "expires": 1689845179
+    "expires": 1691137903
   },
   "48.5212856,16.0849548": {
     "place_id": 170621680,
@@ -29437,7 +29441,7 @@
       "8.1560852",
       "8.1563072"
     ],
-    "expires": 1689889239
+    "expires": 1691207832
   },
   "48.6545543,8.2176383": {
     "place_id": 176245381,
@@ -32973,7 +32977,7 @@
       "8.7219855",
       "8.7220855"
     ],
-    "expires": 1689896359
+    "expires": 1691152960
   },
   "50.2300451,10.990467": {
     "place_id": 205389245,
@@ -36095,16 +36099,15 @@
     "expires": 1690433085
   },
   "51.2307084,4.4124174": {
-    "place_id": 132428975,
+    "place_id": 92348930,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 116481761,
-    "lat": "51.230715700000005",
-    "lon": "4.412138074385245",
-    "display_name": "London Tower, 56-60, Londenstraat, Eilandje, Antwerpen, 2000, België / Belgique / Belgien",
+    "osm_type": "node",
+    "osm_id": 8899103625,
+    "lat": "51.2307084",
+    "lon": "4.4124174",
+    "display_name": "ZNA Cadix bouw, Londenstraat, Eilandje, Antwerpen, Vlaanderen, 2000, België / Belgique / Belgien",
     "address": {
-      "building": "London Tower",
-      "house_number": "56-60",
+      "man_made": "ZNA Cadix bouw",
       "road": "Londenstraat",
       "neighbourhood": "Eilandje",
       "city_district": "Antwerpen",
@@ -36112,21 +36115,29 @@
       "county": "Antwerpen",
       "state": "Antwerpen",
       "ISO3166-2-lvl6": "BE-VAN",
+      "region": "Vlaanderen",
+      "ISO3166-2-lvl4": "BE-VLG",
       "postcode": "2000",
       "country": "België / Belgique / Belgien",
       "country_code": "be"
     },
     "extratags": {
-      "image": "https://photos.app.goo.gl/gGbx9C8ZkPhWgv1z8",
-      "building:levels": "25"
+      "operator": "WebCam.NL",
+      "camera:type": "fixed",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "https://webcam.nl/bouw/belgie/zna-cadix/",
+      "camera:direction": "60",
+      "surveillance:type": "camera",
+      "surveillance:zone": "construction"
     },
     "boundingbox": [
-      "51.2304866",
-      "51.2308177",
-      "4.4118155",
-      "4.4125304"
+      "51.2306584",
+      "51.2307584",
+      "4.4123674",
+      "4.4124674"
     ],
-    "expires": 1689835554
+    "expires": 1691135563
   },
   "51.2374164,-2.9447959": {
     "place_id": 87685986,
@@ -38444,7 +38455,7 @@
       "5.98921",
       "5.98931"
     ],
-    "expires": 1689858319
+    "expires": 1691174480
   },
   "51.8979969,4.537132": {
     "place_id": 367615632,
@@ -46412,7 +46423,7 @@
       "8.018145",
       "8.018245"
     ],
-    "expires": 1689915179
+    "expires": 1691196662
   },
   "58.1994062,8.1858973": {
     "place_id": 13457198,
@@ -54150,7 +54161,7 @@
       "-20.7880791",
       "-20.7879791"
     ],
-    "expires": 1689904849
+    "expires": 1691207910
   },
   "9.2960961,-1.8505305": {
     "place_id": 96408773,
