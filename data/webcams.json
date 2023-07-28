@@ -17773,9 +17773,9 @@
     "lat": 46.8828431,
     "lon": 17.4416311,
     "osmID": 6685147236,
-    "user": "ivóvíz",
+    "user": "kogutowicz-mano",
     "osmType": "node",
-    "lastChanged": 1643227705000,
+    "lastChanged": 1690486036000,
     "address": {
       "city": "Tapolca",
       "county": "Veszprém vármegye",
@@ -17785,8 +17785,7 @@
       "camera:direction": "270",
       "contact:webcam": "https://www.idokep.hu/webkamera/tapolcacam1",
       "man_made": "surveillance",
-      "name": "Tapolca Fő téri webkamera",
-      "note": "Bárki meg lehet nézni a webkamerát! ;)",
+      "note": "Bárki megnézheti a webkamerát! ;)",
       "start_date": "2019-08-05",
       "surveillance": "webcam",
       "surveillance:type": "webcam"
@@ -22833,7 +22832,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=Rg52lchwqM4"
+    "url": "https://www.youtube.com/watch?v=Rg52lchwqM4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 42.9941659,
@@ -23719,7 +23721,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Sankt Englmar",
+      "city": "Klinglbach",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -27281,7 +27283,7 @@
     "lastChanged": 1683016933000,
     "address": {
       "city": "Barsinghausen",
-      "county": "Redderse",
+      "county": "Region Hannover",
       "state": "Niedersachsen",
       "country": "Germany"
     },
@@ -29332,7 +29334,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=1101dd5c00fa0006005bfa36c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=1101dd5c00fa0006005bfa36c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.2769915,
@@ -31294,7 +31299,7 @@
     "osmType": "node",
     "lastChanged": 1643375506000,
     "address": {
-      "city": "Cala Agulla",
+      "city": "sa Pedruscada",
       "county": "Llevant",
       "state": "Illes Balears",
       "country": "Spain"
@@ -36289,7 +36294,7 @@
     "osmType": "node",
     "lastChanged": 1688032104000,
     "address": {
-      "city": "Villa",
+      "city": "Villaz",
       "county": "Hérens",
       "state": "Valais/Wallis",
       "country": "Switzerland"
