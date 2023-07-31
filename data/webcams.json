@@ -31,37 +31,6 @@
     "url": "http://www.zolln.de/"
   },
   {
-    "lat": 52.4672298,
-    "lon": 13.4597753,
-    "osmID": 277837240,
-    "user": "Elwood",
-    "osmType": "node",
-    "lastChanged": 1491327177000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "SW",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "height": "15",
-      "man_made": "surveillance",
-      "name": "Blick in Richtung Grenzallee / A100",
-      "operator": "1000eyes",
-      "ref": "Los 1",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town",
-      "website": "http://www.stadtentwicklung.berlin.de/bauen/strassenbau/a100_16_ba/de/webcam.shtml"
-    },
-    "operator": "1000eyes",
-    "url": "http://www.stadtentwicklung.berlin.de/bauen/strassenbau/a100_16_ba/de/webcam.shtml",
-    "lint": {
-      "duplicate": true
-    }
-  },
-  {
     "lat": 51.7997006,
     "lon": 10.6154496,
     "osmID": 292269439,
@@ -254,31 +223,12 @@
     "url": "http://spreewaldwetter.de/webcam_spreewaldhaus.html"
   },
   {
-    "lat": 52.4525192,
-    "lon": 13.5091773,
-    "osmID": 724485772,
-    "user": "Torti Ulle",
-    "osmType": "node",
-    "lastChanged": 1505905965000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "name": "Webcam Treptow OT Johannisthal",
-      "surveillance": "webcam",
-      "website": "http://www.johthal.de"
-    },
-    "url": "http://www.johthal.de"
-  },
-  {
     "lat": 52.5222444,
     "lon": 13.3765784,
     "osmID": 727611593,
-    "user": "ChrissW-R1",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1634902595000,
+    "lastChanged": 1690720400000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -292,7 +242,7 @@
       "description": "A view of Berlin Central Station, Spreebogen, Federal Press Conference",
       "description:de": "ein blick auf Berliner Hauptbahnhof, Spreebogen, Bundespressekonferenz",
       "man_made": "surveillance",
-      "name": "view from the SoftEd Systems offices",
+      "name": "Spreebogen Webcam  SoftEd Systems",
       "operator": "SoftEd Systems",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -307,7 +257,7 @@
     "osmID": 734962430,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690662988000,
+    "lastChanged": 1690719854000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -320,8 +270,8 @@
       "description:de": "Die Webcam befindet sich am Roten Rathaus, dem Amtssitz des Regierenden Bürgermeisters Berlin.",
       "image": "https://www.berlin.de/webcams/rathaus/webcam.jpg",
       "man_made": "surveillance",
-      "name": "Webcam am Roten Rathaus",
-      "name:en": "Webcam at the Rotes Rathaus",
+      "name": "Webcam Rotes Rathaus",
+      "name:en": "Webcam Rotes Rathaus",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -5875,7 +5825,10 @@
       "website": "https://www.hojoanaheim.com/take-a-tour/webcam"
     },
     "operator": "Howard Johnson Plaza Hotel",
-    "url": "https://www.youtube.com/watch?v=SNnfs6SdPJg"
+    "url": "https://www.youtube.com/watch?v=SNnfs6SdPJg",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 60.076422,
@@ -5932,6 +5885,27 @@
       "surveillance:zone": "artwork"
     },
     "url": "https://derbevoelkerung.de/webcam/"
+  },
+  {
+    "lat": 52.592633,
+    "lon": 13.262333,
+    "osmID": 1732698573,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690730162000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:website": "http://www.tegeler-segel-club.de",
+      "image": "http://www.tegeler-segel-club.de/webcam/tsc_webcam.jpg",
+      "man_made": "surveillance",
+      "name": "Tegeler See Webcam - Tegeler Segel-Club",
+      "surveillance": "webcam",
+      "website": "https://www.tegeler-segel-club.de/aktuell/tsc-webcam.html"
+    },
+    "url": "https://www.tegeler-segel-club.de/aktuell/tsc-webcam.html"
   },
   {
     "lat": 54.251336,
@@ -6955,32 +6929,6 @@
     },
     "operator": "Perisher",
     "url": "https://www.perisher.com.au/weather-cams/cams#Xfront"
-  },
-  {
-    "lat": 52.5207865,
-    "lon": 13.4095071,
-    "osmID": 2418372191,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1647856309000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:type": "fixed",
-      "contact:webcam": "https://tv-turm.de/en/virtual-tour/#",
-      "description": "Webcam mit Ausblick vom Berliner Fernsehturm",
-      "description:en": "Webcam with a view from the Berlin TV Tower",
-      "man_made": "surveillance",
-      "name": "TV-Turm Alexanderplatz",
-      "note:position": "irgendwo da oben wohl",
-      "source": "webpage",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "https://www.tv-turm.de/de/besuch-planen/webcam/"
-    },
-    "url": "https://tv-turm.de/en/virtual-tour/#"
   },
   {
     "lat": 47.2177585,
@@ -8075,51 +8023,6 @@
       "surveillance": "webcam"
     },
     "url": "http://www.cc-sulingen.de/index.php?option=com_wrapper&Itemid=70"
-  },
-  {
-    "lat": 52.5127757,
-    "lon": 13.3201328,
-    "osmID": 3006987966,
-    "user": "mahundt",
-    "osmType": "node",
-    "lastChanged": 1407596098000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "name": "Verkehrs-Webcam Ernst-Reuter-Platz",
-      "source": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024",
-      "surveillance": "webcam",
-      "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024",
-      "website": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024"
-    },
-    "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
-    "lat": 52.5127722,
-    "lon": 13.3200702,
-    "osmID": 3006990440,
-    "user": "mahundt",
-    "osmType": "node",
-    "lastChanged": 1407596253000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "man_made": "surveillance",
-      "name": "Verkehrs-Webcam Ernst-Reuter-Platz Richtung Westen",
-      "source": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20025",
-      "surveillance": "webcam",
-      "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20025",
-      "website": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20025"
-    },
-    "url": "http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20025"
   },
   {
     "lat": 53.892961,
@@ -13045,37 +12948,6 @@
     "url": "http://www.seiseralm.it/de/webcams/2-seis-am-schlern.html"
   },
   {
-    "lat": 52.4672527,
-    "lon": 13.4598076,
-    "osmID": 4775184803,
-    "user": "Elwood",
-    "osmType": "node",
-    "lastChanged": 1491327177000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "NW",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "height": "15",
-      "man_made": "surveillance",
-      "name": "Blick in Richtung Neuköllnische Allee",
-      "operator": "1000eyes",
-      "ref": "Los 1",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town",
-      "website": "http://www.stadtentwicklung.berlin.de/bauen/strassenbau/a100_16_ba/de/webcam.shtml"
-    },
-    "operator": "1000eyes",
-    "url": "http://www.stadtentwicklung.berlin.de/bauen/strassenbau/a100_16_ba/de/webcam.shtml",
-    "lint": {
-      "duplicate": true
-    }
-  },
-  {
     "lat": 49.7943928,
     "lon": 9.9299773,
     "osmID": 4784279285,
@@ -17039,6 +16911,57 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.appenzeller-seilbahnen.ch/webcam/rheintal/image.jpg"
+  },
+  {
+    "lat": 44.559638,
+    "lon": 6.079758,
+    "osmID": 6410382674,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690748651000,
+    "address": {
+      "city": "Gap",
+      "county": "Hautes-Alpes",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "addr:city": "Gap",
+      "contact:webcam": "https://fr.webcams.travel/webcam/1351011651-Weather-Gap-Place-Jean-Marcellin-Gap",
+      "image": "https://images.webcamgalore.com/25952-current-webcam-Gap.jpg",
+      "man_made": "surveillance",
+      "name": "Gap: Place Jean Marcellin Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area",
+      "website": "https://www.viewsurf.com/univers/ville/vue/7624-france-provence-alpes-cote-dazur-gap-place-jean-marcellin"
+    },
+    "url": "https://fr.webcams.travel/webcam/1351011651-Weather-Gap-Place-Jean-Marcellin-Gap"
+  },
+  {
+    "lat": 43.5520559,
+    "lon": 7.0150012,
+    "osmID": 6410397169,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690745769000,
+    "address": {
+      "city": "Cannes",
+      "county": "Alpes-Maritimes",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "addr:city": "Cannes",
+      "contact:webcam": "https://www.seecannes.com/webcams/croisette",
+      "image": "https://static.seetheworld.com/image_uploader/webcam/medium/cannes-panoramic-webcam.jpg",
+      "man_made": "surveillance",
+      "name": "Croisette & Harbour  Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "https://www.seecannes.com/webcams/croisette"
   },
   {
     "lat": 37.3891222,
@@ -29621,7 +29544,7 @@
     "osmID": 9190622563,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690662857000,
+    "lastChanged": 1690721512000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -29631,7 +29554,7 @@
       "contact:webcam": "https://www.berlin.de/webcams/4350926-4350835-rbb-fernsehzentrum.html",
       "image": "https://www.berlin.de/webcams/fsz/webcam.jpg",
       "man_made": "surveillance",
-      "name": "Webcam am RBB-Fernsehzentrum",
+      "name": "Webcam RBB-Fernsehzentrum",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -29643,7 +29566,7 @@
     "osmID": 9190626241,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690664050000,
+    "lastChanged": 1690729155000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -29655,9 +29578,9 @@
       "contact:webcam": "https://www.finanzen.de/webcam",
       "image": "https://webcam.finanzen.de/spreecam.jpg",
       "man_made": "surveillance",
-      "name": "finanzen.de bietet den Überblick",
-      "name:de": "finanzen.de bietet den Überblick",
-      "name:en": "finanzen.de provides an overview",
+      "name": "Oberbaumbrücke Webcam finanzen.de",
+      "name:en": "Oberbaumbrücke Webcam by finanzen.de",
+      "note": "The image without the timstamp (?xxxxx) https://webcam.finanzen.de/spreecam.jpg?xxxxxxxxx is intermittently 404 but comes back.",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -34355,32 +34278,6 @@
       "surveillance:zone": "street;water_spring"
     },
     "url": "https://www.youtube.com/watch?v=0aZaJNZEr-Y"
-  },
-  {
-    "lat": 52.4354922,
-    "lon": 13.4595674,
-    "osmID": 9816615985,
-    "user": "Supaplex030",
-    "osmType": "node",
-    "lastChanged": 1655195723000,
-    "address": {
-      "city": "Berlin",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:type": "fixed",
-      "check_date": "2022-06-14",
-      "contact:webcam": "https://www.vivantes.de/unternehmen/stadtnatur/turmfalken/turmfalken-webcam",
-      "description": "Zwei Turmfalken-Webcams aus verschiedenen Perspektiven im Nistplatz der Vögel in 40 Meter Höhe im Wasserturm.",
-      "height": "40",
-      "man_made": "surveillance",
-      "name": "Turmfalken-Webcam",
-      "operator": "Vivantes",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "operator": "Vivantes",
-    "url": "https://www.vivantes.de/unternehmen/stadtnatur/turmfalken/turmfalken-webcam"
   },
   {
     "lat": 59.8970004,
@@ -40205,7 +40102,7 @@
     "osmID": 11076112651,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690666294000,
+    "lastChanged": 1690720105000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -40214,6 +40111,7 @@
       "fixme": "Position was just guessed from the camera image",
       "image": "https://illustriertestadt.de/actual/actual_pic.jpg",
       "man_made": "surveillance",
+      "name": "Potsdamer Platz Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "website": "https://illustriertestadt.de/"
@@ -40226,13 +40124,14 @@
     "osmID": 11076134311,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690667951000,
+    "lastChanged": 1690720006000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
       "man_made": "surveillance",
+      "name": "Brandenburger Tor Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "website": "https://www.feratel.com/webcams/deutschland/berlin-hotel-adlon.html"
@@ -40245,7 +40144,7 @@
     "osmID": 11076164765,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690669707000,
+    "lastChanged": 1690720575000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -40254,10 +40153,193 @@
       "fixme": "Position was just guessed from the webcam image",
       "image": "https://www.webcam-profi.de/bilder/ca-immo/berlin/europaplatz/cam1/image.jpg",
       "man_made": "surveillance",
+      "name": "EuropaCity Webcam HBF",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "website": "https://europacity-berlin.de/webcams"
     },
     "url": "https://europacity-berlin.de/webcams"
+  },
+  {
+    "lat": 52.5370087,
+    "lon": 13.3600915,
+    "osmID": 11076935831,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690726896000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:website": "https://europacity-berlin.de/webcams/",
+      "image": "https://portal1915.webcam-profi.de/cam1/image.jpg",
+      "man_made": "surveillance",
+      "name": "Upbeat Eurocity Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://europacity-berlin.de/webcams/"
+  },
+  {
+    "lat": 52.5147439,
+    "lon": 13.338962,
+    "osmID": 11076974072,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690731395000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
+      "contact:youtube": "https://www.youtube.com/@Kohlbecker",
+      "man_made": "surveillance",
+      "name": "Tiergarten Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "http://www.berlin-tiergarten-verkehr.de"
+    },
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
+  },
+  {
+    "lat": 52.51485,
+    "lon": 13.3391471,
+    "osmID": 11076974073,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690731559000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.youtube.com/watch?v=jAL268T1lFw",
+      "contact:youtube": "https://www.youtube.com/@Kohlbecker",
+      "man_made": "surveillance",
+      "name": "Tiergarten Panorama Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "http://www.berlin-tiergarten-verkehr.de"
+    },
+    "url": "https://www.youtube.com/watch?v=jAL268T1lFw"
+  },
+  {
+    "lat": 52.4429418,
+    "lon": 13.3453634,
+    "osmID": 11077190984,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690732413000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "http://ice-b046.dyndns.org:65010/?id=1029",
+      "man_made": "surveillance",
+      "name": "Eisbahn Lankwitz Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://eisbahn-lankwitz.de"
+    },
+    "url": "http://ice-b046.dyndns.org:65010/?id=1029"
+  },
+  {
+    "lat": 53.4973417,
+    "lon": 13.9433806,
+    "osmID": 11077256765,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690735365000,
+    "address": {
+      "city": "Papendorf",
+      "county": "Vorpommern-Greifswald",
+      "state": "Mecklenburg-Vorpommern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "http://siko23.ddns3-instar.de:8081/",
+      "contact:website": "https://www.storchenhof-papendorf.de",
+      "description": "user/passwort: gast/gast    http://siko23.ddns3-instar.de:8081",
+      "man_made": "surveillance",
+      "name": "Storchennest Papendorf Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "wildlife",
+      "website": "https://www.storchenhof-papendorf.de/html/live_kamera.html",
+      "wikimedia_commons": "File:Papendorf - panoramio (4).jpg"
+    },
+    "url": "http://siko23.ddns3-instar.de:8081/"
+  },
+  {
+    "lat": 54.4798753,
+    "lon": 9.0041647,
+    "osmID": 11077299423,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690738050000,
+    "address": {
+      "city": "Husum",
+      "county": "Nordfriesland",
+      "state": "Schleswig-Holstein",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "image": "https://www.foto-webcam.eu/webcam/husum-dockkoog/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Husum Dockkoog Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.husum-tourismus.de/Service/Wetter-Webcams/Webcam-Badestelle-am-Dockkoog"
+    },
+    "url": "https://www.husum-tourismus.de/Service/Wetter-Webcams/Webcam-Badestelle-am-Dockkoog"
+  },
+  {
+    "lat": 43.5511046,
+    "lon": 7.0159258,
+    "osmID": 11077512651,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690748948000,
+    "address": {
+      "city": "Cannes",
+      "county": "Alpes-Maritimes",
+      "state": "Provence-Alpes-Côte d'Azur",
+      "country": "France"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/18150-france-provence-alpes-cote-dazur-cannes-filmpantiero",
+      "image": "https://images.webcamgalore.com/32834-current-webcam-Cannes.jpg",
+      "man_made": "surveillance",
+      "name": "Cannes Harbour Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.viewsurf.com/univers/plage/vue/18148-france-provence-alpes-cote-dazur-cannes-panoramique-hd"
+    },
+    "url": "https://www.viewsurf.com/univers/plage/vue/18150-france-provence-alpes-cote-dazur-cannes-filmpantiero"
+  },
+  {
+    "lat": 52.4683649,
+    "lon": 13.3898501,
+    "osmID": 11077609964,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690750718000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.spacesquad.de/livecam",
+      "image": "https://cam.spacesquad.de/images/live.jpg",
+      "man_made": "surveillance",
+      "name": "Tempelhofer Feld Webcam - Space Squad",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.spacesquad.de"
+    },
+    "url": "https://www.spacesquad.de/livecam"
   }
 ]
