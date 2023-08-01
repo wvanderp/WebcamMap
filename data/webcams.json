@@ -81,9 +81,9 @@
     "lat": 52.4585984,
     "lon": 13.3103323,
     "osmID": 338178874,
-    "user": "wvdp",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1667835757000,
+    "lastChanged": 1690819263000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -92,12 +92,16 @@
       "camera:direction": "0",
       "camera:type": "fixed",
       "contact:webcam": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam2_loop.php",
+      "contact:website": "https://wind.met.fu-berlin.de/wind/main.php",
+      "image": "https://wind.met.fu-berlin.de/loops/webcam/picam2_prod.jpg",
       "man_made": "surveillance",
-      "name": "berlin weather cam",
+      "name": "Steglitz Wetter Webcam FU Berlin Nord-West",
       "operator": "Institut für Meteorologie der Freien Universität Berlin",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "weather"
+      "surveillance:zone": "weather",
+      "website": "https://www.wind-berlin.de",
+      "wikimedia_commons": "File:Steglitz Schmidt-Ott-Straße Wasserturm.jpg"
     },
     "operator": "Institut für Meteorologie der Freien Universität Berlin",
     "url": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam2_loop.php"
@@ -12807,7 +12811,8 @@
     "osmType": "node",
     "lastChanged": 1485339411000,
     "address": {
-      "county": "Kastelruth - Castelrotto",
+      "city": "Kastelruth - Castelrotto",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -29035,7 +29040,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=30001ac501a600d60057fa36c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=30001ac501a600d60057fa36c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.416612,
@@ -39568,7 +39576,10 @@
       "surveillance:zone": "town",
       "website": "https://sibiu.ro/LiveOK/cam8.php"
     },
-    "url": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg"
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.7623458,
@@ -40341,5 +40352,78 @@
       "website": "https://www.spacesquad.de"
     },
     "url": "https://www.spacesquad.de/livecam"
+  },
+  {
+    "lat": 52.4462105,
+    "lon": 13.6500028,
+    "osmID": 11078990628,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690821406000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://wind.met.fu-berlin.de/wind/webcams/webcam_muggelsee_loop.php",
+      "image": "https://emon.igb-berlin.de/files/webcam/current.jpg",
+      "man_made": "surveillance",
+      "name": "Müggelsee Webcam FU Berlin",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://emon.igb-berlin.de/grosser_mueggelsee.html"
+    },
+    "url": "https://wind.met.fu-berlin.de/wind/webcams/webcam_muggelsee_loop.php"
+  },
+  {
+    "lat": 52.4584823,
+    "lon": 13.3104909,
+    "osmID": 11079008701,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690819054000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "fixed",
+      "contact:webcam": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam3_loop.php",
+      "contact:website": "https://wind.met.fu-berlin.de/wind/main.php",
+      "image": "https://wind.met.fu-berlin.de/loops/webcam/picam3_prod.jpg",
+      "man_made": "surveillance",
+      "name": "Steglitz Wetter Webcam FU Berlin Nord-Ost",
+      "operator": "Institut für Meteorologie der Freien Universität Berlin",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "weather",
+      "website": "https://www.wind-berlin.de",
+      "wikimedia_commons": "File:Steglitz Schmidt-Ott-Straße Wasserturm.jpg"
+    },
+    "operator": "Institut für Meteorologie der Freien Universität Berlin",
+    "url": "https://wind.met.fu-berlin.de/wind/webcams/webcam_picam3_loop.php"
+  },
+  {
+    "lat": 52.5228538,
+    "lon": 13.4124852,
+    "osmID": 11079337454,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690831151000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.youtube.com/watch?v=FVQ-g3ZH3ik",
+      "image": "https://ch-fra-n10.livespotting.com/vpu/ehlpzb4g/nkw9elfh.jpg",
+      "man_made": "surveillance",
+      "name": "Alexanderplatz Webcam Park Inn Radisson",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://livespotting.tv/deutschland/berlin/nkw9elfh"
+    },
+    "url": "https://www.youtube.com/watch?v=FVQ-g3ZH3ik"
   }
 ]
