@@ -2681,7 +2681,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100079"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100079"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100079",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.162637,
@@ -13908,7 +13911,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://martin-bochum.de/webcam_bo.php"
+    "url": "http://martin-bochum.de/webcam_bo.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.0891285,
@@ -25726,9 +25732,9 @@
     "lat": 52.3408969,
     "lon": 4.8775444,
     "osmID": 8898936663,
-    "user": "cEvLGWiQ",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1685480694000,
+    "lastChanged": 1690928924000,
     "address": {
       "city": "Amsterdam",
       "state": "Noord-Holland",
@@ -25739,6 +25745,7 @@
       "camera:mount": "roof",
       "camera:type": "fixed",
       "contact:webcam": "https://live.netcamviewer.nl/cbre-world-trade-CENTER-amsterdam-bouw/1166",
+      "contact:youtube": "https://www.youtube.com/watch?v=OG4S6NLh-jU",
       "fixme": "Offline???",
       "man_made": "surveillance",
       "name": "CBRE World Trade Center Amsterdam Bouw",
@@ -26483,9 +26490,9 @@
     "lat": 51.8260436,
     "lon": 5.3776027,
     "osmID": 8899335473,
-    "user": "wvdp",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1625609826000,
+    "lastChanged": 1690916621000,
     "address": {
       "city": "Varik",
       "state": "Gelderland",
@@ -26495,6 +26502,8 @@
       "camera:mount": "wall",
       "camera:type": "dome",
       "contact:webcam": "https://webcam.gelderland.nl/varik.html",
+      "contact:youtube": "https://www.youtube.com/watch?v=1heymODvGMo",
+      "image": "https://webcam.gelderland.nl/varik.jpg",
       "man_made": "surveillance",
       "name": "Waalpleisterplaats de Bol, Varik",
       "operator": "webcam.gelderland.nl",
@@ -26536,9 +26545,9 @@
     "lat": 52.372551,
     "lon": 4.8941161,
     "osmID": 8904844083,
-    "user": "wvdp",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1625762600000,
+    "lastChanged": 1690929108000,
     "address": {
       "city": "Amsterdam",
       "state": "Noord-Holland",
@@ -26549,7 +26558,9 @@
       "camera:mount": "wall",
       "camera:type": "panning",
       "contact:webcam": "https://webcam.nl/amsterdam/",
+      "contact:youtube": "https://www.youtube.com/watch?v=R3YNscjcJOk",
       "description": "moving camera on the dam square",
+      "image": "https://images.webcam.nl/dam01uur.jpg",
       "man_made": "surveillance",
       "name": "WebCam.NL - Dam Amsterdam",
       "operator": "WebCam.NL",
@@ -26591,9 +26602,9 @@
     "lat": 52.3828216,
     "lon": 4.907711,
     "osmID": 8904864983,
-    "user": "wvdp",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1625763302000,
+    "lastChanged": 1690917001000,
     "address": {
       "city": "Amsterdam",
       "state": "Noord-Holland",
@@ -26604,6 +26615,7 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://webcam.nl/amsterdam/sixhaven/",
+      "image": "https://images.webcam.nl/sixhaven01uur.jpg",
       "man_made": "surveillance",
       "name": "Sixhaven",
       "operator": "WebCam.NL",
@@ -29752,9 +29764,9 @@
     "lat": 52.1869085,
     "lon": 5.0851456,
     "osmID": 9207490686,
-    "user": "wvdp",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1635420479000,
+    "lastChanged": 1690915747000,
     "address": {
       "city": "Loosdrecht",
       "state": "Noord-Holland",
@@ -29765,6 +29777,7 @@
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://www.wsv-hetwittehuis.nl/webcam-live",
+      "contact:youtube": "https://www.youtube.com/watch?v=c8TPkIEfrY0",
       "man_made": "surveillance",
       "name": "webam WSV Het Witte Huis Loosdrecht",
       "surveillance": "webcam",
@@ -39576,10 +39589,7 @@
       "surveillance:zone": "town",
       "website": "https://sibiu.ro/LiveOK/cam8.php"
     },
-    "url": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam7.jpg"
   },
   {
     "lat": 45.7623458,
@@ -40135,17 +40145,21 @@
     "osmID": 11076134311,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690720006000,
+    "lastChanged": 1690901544000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://www.feratel.com/webcams/deutschland/berlin-hotel-adlon.html",
+      "image": "https://cs3.wettercomassets.com/thumbnails/variants/6101d5490b52e/1200_675.jpg",
       "man_made": "surveillance",
       "name": "Brandenburger Tor Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "website": "https://www.feratel.com/webcams/deutschland/berlin-hotel-adlon.html"
+      "surveillance:zone": "town",
+      "website": "https://www.feratel.com/webcams/"
     },
     "url": "https://www.feratel.com/webcams/deutschland/berlin-hotel-adlon.html"
   },
@@ -40172,6 +40186,78 @@
     "url": "https://europacity-berlin.de/webcams"
   },
   {
+    "lat": 52.5101339,
+    "lon": 13.2439596,
+    "osmID": 11076829587,
+    "user": "mueschel",
+    "osmType": "node",
+    "lastChanged": 1690915852000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
+      "contact:youtube": "https://www.youtube.com/@Haustechnik-Corbusierhaus",
+      "image": "https://images-webcams.windy.com/99/1360420099/current/full/1360420099.jpg",
+      "man_made": "surveillance",
+      "name": "Panorama Webcam Corbusierhaus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
+      "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
+    },
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
+  },
+  {
+    "lat": 52.5106188,
+    "lon": 13.2438389,
+    "osmID": 11076872914,
+    "user": "mueschel",
+    "osmType": "node",
+    "lastChanged": 1690915852000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.youtube.com/watch?v=NEuNyxNuJ78",
+      "contact:youtube": "https://www.youtube.com/@Haustechnik-Corbusierhaus",
+      "image": "https://images-webcams.windy.com/10/1346452210/current/full/1346452210.jpg",
+      "man_made": "surveillance",
+      "name": "Olympiastadion Webcam Corbusierhaus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
+      "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
+    },
+    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78"
+  },
+  {
+    "lat": 52.5105794,
+    "lon": 13.2441195,
+    "osmID": 11076909208,
+    "user": "mueschel",
+    "osmType": "node",
+    "lastChanged": 1690915852000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+      "contact:website": "https://turmfalken-corbusierhaus.berlin",
+      "contact:youtube": "https://www.youtube.com/@Haustechnik-Corbusierhaus",
+      "image": "https://i.ytimg.com/vi/2DMOgZSmuMc/maxresdefault.jpg",
+      "man_made": "surveillance",
+      "name": "Turmfalken Webcam Corbusierhaus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
+    },
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+  },
+  {
     "lat": 52.5370087,
     "lon": 13.3600915,
     "osmID": 11076935831,
@@ -40191,6 +40277,28 @@
       "surveillance:type": "camera"
     },
     "url": "https://europacity-berlin.de/webcams/"
+  },
+  {
+    "lat": 52.4435991,
+    "lon": 13.1769847,
+    "osmID": 11076954219,
+    "user": "mueschel",
+    "osmType": "node",
+    "lastChanged": 1690908143000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "contact:website": "https://www.byc.berlin",
+      "image": "https://www.byc.berlin/wp-content/uploads/webcam/final.jpg",
+      "man_made": "surveillance",
+      "name": "Wannsee Webcam Berliner-Yachtclub",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "url": "https://www.byc.berlin/byc-webcam"
+    },
+    "url": "https://www.byc.berlin/byc-webcam"
   },
   {
     "lat": 52.5147439,
@@ -40242,13 +40350,15 @@
     "osmID": 11077190984,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690732413000,
+    "lastChanged": 1690898234000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
       "contact:webcam": "http://ice-b046.dyndns.org:65010/?id=1029",
+      "description": "Additional mjpg stream http://ice-b046.dyndns.org:65010/mjpg/video.mjpg",
+      "image": "http://ice-b046.dyndns.org:65010/jpg/image.jpg",
       "man_made": "surveillance",
       "name": "Eisbahn Lankwitz Webcam",
       "surveillance": "webcam",
@@ -40425,5 +40535,108 @@
       "website": "https://livespotting.tv/deutschland/berlin/nkw9elfh"
     },
     "url": "https://www.youtube.com/watch?v=FVQ-g3ZH3ik"
+  },
+  {
+    "lat": 52.4435294,
+    "lon": 13.6763483,
+    "osmID": 11081168010,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690900268000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-110",
+      "camera:type": "panning",
+      "contact:webcam": "https://livespotting.tv/deutschland/berlin/cc225eef",
+      "contact:youtube": "https://www.youtube.com/watch?v=e8e_PG8mqGc",
+      "description": "History https://www.windy.com/de/-Webcams/Deutschland/Brandenburg/Sch%C3%B6neiche-bei-Berlin/Surf-und-Segelschule-M%C3%BCggelsee/webcams/1664294409",
+      "image": "https://cdn.livespotting.com/vpu/k4s2mr06/cc225eef.jpg",
+      "man_made": "surveillance",
+      "name": "Strandbad Müggelsee Webcam - Segelschule Müggelsee",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour",
+      "url": "https://images-webcams.windy.com/09/1664294409/current/full/1664294409.jpg",
+      "website": "https://www.alle-an-deck.de"
+    },
+    "url": "https://livespotting.tv/deutschland/berlin/cc225eef"
+  },
+  {
+    "lat": 52.5153553,
+    "lon": 13.3321311,
+    "osmID": 11081244851,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690901227000,
+    "address": {
+      "city": "Berlin",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://livespotting.tv/deutschland/berlin/w6wqy7il",
+      "contact:youtube": "https://www.youtube.com/watch?v=6Tk8Bt37k74",
+      "image": "https://ch-fra-n10.livespotting.com/vpu/h8ga2o1s/w6wqy7il.jpg",
+      "man_made": "surveillance",
+      "name": "KPM Hotel Panorama Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://livespotting.tv/deutschland/berlin/w6wqy7il"
+  },
+  {
+    "lat": 52.481489,
+    "lon": 12.4739863,
+    "osmID": 11081378286,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690905321000,
+    "address": {
+      "city": "Havelsee",
+      "county": "Potsdam-Mittelmark",
+      "state": "Brandenburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:website": "https://www.storchennest-fohrde.de/webcams",
+      "contact:youtube": "https://www.youtube.com/watch?v=ay6Hp7YLA9c",
+      "man_made": "surveillance",
+      "name": "Storchennest Fohrde Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "wildlife",
+      "website": "https://www.storchennest-fohrde.de/webcams/storchennester/"
+    },
+    "url": "https://www.storchennest-fohrde.de/webcams/storchennester/"
+  },
+  {
+    "lat": 53.4340452,
+    "lon": 5.7747761,
+    "osmID": 11081783036,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690918078000,
+    "address": {
+      "city": "Nes",
+      "state": "Fryslân",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "contact:webcam": "https://webcam.nl/ameland/veerboot/",
+      "contact:youtube": "https://www.youtube.com/watch?v=PbmJE6jGgJ0",
+      "image": "https://images.webcam.nl/veerboot01uur.jpg",
+      "man_made": "surveillance",
+      "name": "Ameland Nes Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://webcam.nl/ameland/veerboot/"
   }
 ]
