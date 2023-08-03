@@ -10380,6 +10380,68 @@
     "url": "https://tsftp.no/Trondheim/cam145_3_image.jpg"
   },
   {
+    "lat": 48.1366913,
+    "lon": 11.5768302,
+    "osmID": 4346166261,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690962474000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "45",
+      "camera:direction": "305",
+      "camera:features": "webcam",
+      "camera:mount": "tower",
+      "camera:type": "fixed",
+      "check_date": "2021-06-27",
+      "contact:webcam": "http://www.muenchen.de/sehenswuerdigkeiten/webcam.html",
+      "height": "45",
+      "image": "https://images-webcams.windy.com/69/1621036369/current/full/1621036369.jpg",
+      "man_made": "surveillance",
+      "name": "Marienplatz Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "http://www.muenchen.de/sehenswuerdigkeiten/webcam.html"
+  },
+  {
+    "lat": 48.137133,
+    "lon": 11.5764133,
+    "osmID": 4346168579,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690962589000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "45",
+      "camera:direction": "280",
+      "camera:features": "webcam",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "check_date": "2021-06-27",
+      "contact:webcam": "http://stories.ludwigbeck.de/webcam",
+      "height": "15",
+      "image": "https://www.ludwigbeck.de/media/webcam/webcam.jpg",
+      "man_made": "surveillance",
+      "name": "LUDWIG BECK - Webcam am Marienplatz in München",
+      "operator": "private",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "operator": "private",
+    "url": "http://stories.ludwigbeck.de/webcam"
+  },
+  {
     "lat": 63.4323457,
     "lon": 10.3675112,
     "osmID": 4347148906,
@@ -10865,6 +10927,35 @@
       "website": "https://www.jungfrau.ch/webcams"
     },
     "url": "https://maennlichen.roundshot.com/#/"
+  },
+  {
+    "lat": 48.0575086,
+    "lon": 11.5236204,
+    "osmID": 4517019801,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690974745000,
+    "address": {
+      "city": "Gartenstadt",
+      "county": "Landkreis München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "202",
+      "camera:mount": "window",
+      "camera:type": "fixed",
+      "check_date": "2023-08-02",
+      "contact:webcam": "https://www.juweliervehns.de/webcam",
+      "image": "https://alfred-briemle.de/vehns/pullach.jpg",
+      "man_made": "surveillance",
+      "name": "Pullach Webcam Juwelier Vehns",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town",
+      "website": "http://juweliervehns.de"
+    },
+    "url": "https://www.juweliervehns.de/webcam"
   },
   {
     "lat": 45.0255736,
@@ -16793,6 +16884,7 @@
     },
     "url": "https://igora.ru/about/web_cams/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -23904,6 +23996,36 @@
     "url": "https://nachtski.panomax.com/"
   },
   {
+    "lat": 48.3342632,
+    "lon": 11.6540651,
+    "osmID": 8678827720,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690982918000,
+    "address": {
+      "city": "Neufahrn bei Freising",
+      "county": "Landkreis Freising",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "40",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ssc-neufahrn.de/wetterwebcam/webcam/",
+      "image": "http://ssc.spdns.de:8088/cgi-bin/api.cgi?cmd=Snap&user=viewer&password=webviewer",
+      "man_made": "surveillance",
+      "name": "Mühlseen Webcam Segel Club Neufarn",
+      "operator": "Segel-Surf-Club Neufahrn e.V.",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area",
+      "url": "https://www.ssc-neufahrn.de/webcam/cam0.jpg",
+      "website": "https://www.ssc-neufahrn.de"
+    },
+    "operator": "Segel-Surf-Club Neufahrn e.V.",
+    "url": "https://www.ssc-neufahrn.de/wetterwebcam/webcam/"
+  },
+  {
     "lat": -28.1483161,
     "lon": 151.9453553,
     "osmID": 8690453895,
@@ -28522,7 +28644,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=2b015c7201f700b2005dd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=2b015c7201f700b2005dd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.5419985,
@@ -32826,6 +32951,60 @@
     "url": "https://i.centr.by/inforoads/en/dises/current/34"
   },
   {
+    "lat": 48.170295,
+    "lon": 11.247042,
+    "osmID": 9569387973,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690975052000,
+    "address": {
+      "city": "Fürstenfeldbruck",
+      "county": "Landkreis Fürstenfeldbruck",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "115",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/fuerstenfeld/current/1920.jpg",
+      "contact:website": "https://www.foto-webcam.eu/webcam/fuerstenfeld/",
+      "description": "Veranstaltungsforum Fürstenfeld - Blick zur Klosterkirche",
+      "ele": "530",
+      "man_made": "surveillance",
+      "name": "Fürstenfeld Klosterkirche Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/fuerstenfeld/current/1920.jpg"
+  },
+  {
+    "lat": 48.259159,
+    "lon": 11.435332,
+    "osmID": 9569387974,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690975249000,
+    "address": {
+      "city": "Dachau",
+      "county": "Landkreis Dachau",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "150",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/dachau/current/1920.jpg",
+      "contact:website": "https://www.foto-webcam.eu/webcam/dachau/",
+      "description": "Rathaus Dachau - Blick nach Südosten",
+      "ele": "495",
+      "man_made": "surveillance",
+      "name": "Rathaus Dachau Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/dachau/current/1920.jpg"
+  },
+  {
     "lat": 46.78261,
     "lon": 9.305091,
     "osmID": 9569387982,
@@ -34145,9 +34324,9 @@
     "lat": 48.0648242,
     "lon": 11.1963232,
     "osmID": 9749956021,
-    "user": "wvdp",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1680166935000,
+    "lastChanged": 1690976090000,
     "address": {
       "city": "Steinebach am Wörthsee",
       "county": "Landkreis Starnberg",
@@ -34159,10 +34338,11 @@
       "camera:direction": "250",
       "camera:type": "fixed",
       "contact:webcam": "http://www.foto-webcam.net/webcam/woerthsee/",
-      "description": "Die Kamera befindet sich im Ortsteil Steinebach in der Gemeinde Wörthsee an der Seepromenade.\nDer Blick zeigt nach Westen über den Wörthsee in Richtung Bachern. Der untere Teil des Kamerabildes wurde künstlich unscharf gemacht, so dass Einzelpersonen nich",
+      "description": "Gemeinde Wörthsee, Ortsteil Steinebach, an der Seepromenade. Der Blick zeigt nach Westen über den Wörthsee in Richtung Bachern.",
       "ele": "540",
+      "image": "https://www.foto-webcam.net/webcam/woerthsee/current/1200.jpg",
       "man_made": "surveillance",
-      "name": "Il Kiosko am Wörthsee, Blick Richtung Süd-Westen",
+      "name": "Wörthsee Webcam Il Kiosko",
       "operator": "foto-webcam.eu",
       "surveillance": "webcam",
       "surveillance:type": "camera"
@@ -34935,9 +35115,9 @@
     "lat": 48.0508801,
     "lon": 11.9689852,
     "osmID": 9893149837,
-    "user": "drlellinger",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1658058907000,
+    "lastChanged": 1690981963000,
     "address": {
       "city": "Grafing bei München",
       "county": "Landkreis Ebersberg",
@@ -34947,14 +35127,17 @@
     "osmTags": {
       "camera:direction": "90",
       "camera:type": "fixed",
-      "contact:webcam": "https://webcam-freibad.grafing.de:8889/mjpg/video.mjpg?videocodec=h264&streamprofile=webstream",
+      "contact:webcam": "https://webcam-freibad.grafing.de:8889",
       "description": "Eingang Freibad (Personen verpixelt)",
+      "image": "https://webcam-freibad.grafing.de:8889/jpg/image.jpg",
       "man_made": "surveillance",
+      "name": "Freibad Grafing Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "entrance"
+      "surveillance:zone": "entrance",
+      "url": "https://webcam-freibad.grafing.de:8889/mjpg/video.mjpg"
     },
-    "url": "https://webcam-freibad.grafing.de:8889/mjpg/video.mjpg?videocodec=h264&streamprofile=webstream",
+    "url": "https://webcam-freibad.grafing.de:8889",
     "lint": {
       "unavailable": true
     }
@@ -39822,6 +40005,33 @@
     "url": "https://www.narbonne.fr/webcam-port-narbonne-plage"
   },
   {
+    "lat": 48.1297699,
+    "lon": 11.5820511,
+    "osmID": 10975118770,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690980553000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/deutschesmuseum/",
+      "description": "Blick vom Museumsturm über die Isar nach Nordosten. Kamera: Canon EOS 2000 D + 18-55mm Kitobjektiv",
+      "image": "https://www.terra-hd.de/deutschesmuseum/img/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Deutsches Museum Webcam Nord Ost",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.terra-hd.de/deutschesmuseum/"
+  },
+  {
     "lat": 35.3488705,
     "lon": -97.4951101,
     "osmID": 10981040160,
@@ -40638,5 +40848,215 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://webcam.nl/ameland/veerboot/"
+  },
+  {
+    "lat": 47.6128199,
+    "lon": 2.5218014,
+    "osmID": 11083068656,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690967790000,
+    "address": {
+      "city": "Coullons",
+      "county": "Loiret",
+      "state": "Centre-Val de Loire",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "-110",
+      "contact:webcam": "https://webcam.nl/frankrijk",
+      "contact:youtube": "https://www.youtube.com/watch?v=pOL0u6K4wLI",
+      "image": "https://images.webcam.nl/charme01uur.jpg",
+      "man_made": "surveillance",
+      "name": "Charme Theater Camp Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building",
+      "website": "https://charme.nl"
+    },
+    "url": "https://webcam.nl/frankrijk"
+  },
+  {
+    "lat": 48.1110548,
+    "lon": 11.4705273,
+    "osmID": 11083543000,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690978941000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/muenchen",
+      "description": "Blick zeigt nach Nordosten in die Münchner Innenstadt.  Kamera: Canon EOS1100D Spiegelreflex mit EF-S 18-55mm Objektiv",
+      "image": "https://www.foto-webcam.eu/webcam/muenchen/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Klinikum Großhadern Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/muenchen"
+  },
+  {
+    "lat": 48.1108315,
+    "lon": 11.4680946,
+    "osmID": 11083562614,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690979333000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/lmu-klinikum",
+      "description": "Der Blick zeigt nach Süden zur Alpenkette. Kamera: Nikon Z7II Volformat Systemkamera",
+      "image": "https://www.foto-webcam.eu/webcam/lmu-klinikum/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Alpenkette Webcam Klinikum Großhadern",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/lmu-klinikum"
+  },
+  {
+    "lat": 48.1303967,
+    "lon": 11.5807017,
+    "osmID": 11083580173,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690981185000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "130",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/deutschesmuseum3",
+      "description": "Blick vom Patentamt über das Deutsche Museum. Kamera: Canon EOS 2000 D + 10-22mm Weitwinkelobjektiv",
+      "image": "https://www.terra-hd.de/deutschesmuseum3/img/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Deutsches Museum Webcam Patentamt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
+    },
+    "url": "https://www.terra-hd.de/deutschesmuseum3"
+  },
+  {
+    "lat": 48.1297236,
+    "lon": 11.5820061,
+    "osmID": 11083587534,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690980553000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-120",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/deutschesmuseum2",
+      "description": "Blick vom Museumsturm über die Isar nach Südwesten. Kamera: Canon EOS 2000 D + 18-55mm Kitobjektiv",
+      "image": "https://www.terra-hd.de/deutschesmuseum2/img/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Deutsches Museum Webcam Süd West",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.terra-hd.de/deutschesmuseum2"
+  },
+  {
+    "lat": 48.1368144,
+    "lon": 11.5941627,
+    "osmID": 11083608595,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690983877000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bayern.landtag.de/service/webcam",
+      "image": "https://www.bayern.landtag.de/fileadmin/Bilder_Videos_Internet/Webcam/webcam.jpg",
+      "man_made": "surveillance",
+      "name": "Bayerischer Landtag Maximlianeum Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.bayern.landtag.de/service/webcam"
+  },
+  {
+    "lat": 48.1519531,
+    "lon": 11.5115427,
+    "osmID": 11083705729,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1690984371000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-120",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.kriemhild.de/en/weather-webcam",
+      "image": "http://cam.kriemhild.de/record/current.jpg",
+      "man_made": "surveillance",
+      "name": "Hotel Kriemhild Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.kriemhild.de/en/weather-webcam"
+  },
+  {
+    "lat": 47.66343,
+    "lon": 11.526458,
+    "osmID": 11084291797,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1691008625000,
+    "address": {
+      "city": "Lenggries",
+      "county": "Landkreis Bad Tölz-Wolfratshausen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "20",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.foto-webcam.eu/webcam/garland",
+      "description": "Bergstation Garland Sessellift am Brauneck bei Lenggries.\nDer Blick zeigt nach Norden. Kamera: Nikon D3200 mit Objektiv AF-S DX 18-55VR",
+      "image": "https://www.foto-webcam.eu/webcam/garland/current/1920.jpg",
+      "man_made": "surveillance",
+      "name": "Bergstation Brauneck Webcam",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.foto-webcam.eu/webcam/garland"
   }
 ]
