@@ -40530,7 +40530,10 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.51485,
@@ -41058,5 +41061,49 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.foto-webcam.eu/webcam/garland"
+  },
+  {
+    "lat": 53.5124716,
+    "lon": 9.965077,
+    "osmID": 11085164868,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1691050276000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "304",
+      "contact:webcam": "https://www.hcs-depot.de/PopUp/WebCamPopUp.aspx",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.hcs-depot.de/PopUp/WebCamPopUp.aspx"
+  },
+  {
+    "lat": 43.0024397,
+    "lon": -71.474911,
+    "osmID": 11086203448,
+    "user": "KnownToMap",
+    "osmType": "node",
+    "lastChanged": 1691082092000,
+    "address": {
+      "city": "Manchester",
+      "county": "Hillsborough County",
+      "state": "New Hampshire",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newengland511.org/tooltip/Cameras/72068F0523FD24DAC8E7E2B35F84C7AC09657ED7--5",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://newengland511.org/tooltip/Cameras/72068F0523FD24DAC8E7E2B35F84C7AC09657ED7--5"
   }
 ]
