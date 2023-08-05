@@ -2012,7 +2012,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=127264"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=127264"
+    "url": "http://webkamera.vegvesen.no/kamera?id=127264",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.3533141,
@@ -22820,7 +22823,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Brouwersdam cam",
-    "url": "https://www.youtube.com/watch?v=1y2qqyjnNRA"
+    "url": "https://www.youtube.com/watch?v=1y2qqyjnNRA",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 51.7532292,
@@ -28592,7 +28598,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=bc006c52008c00be005ed336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=bc006c52008c00be005ed336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.7141763,
@@ -40530,10 +40539,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -41105,5 +41111,32 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://newengland511.org/tooltip/Cameras/72068F0523FD24DAC8E7E2B35F84C7AC09657ED7--5"
+  },
+  {
+    "lat": 48.174342,
+    "lon": 11.5536113,
+    "osmID": 11089179479,
+    "user": "Mapillox",
+    "osmType": "node",
+    "lastChanged": 1691157802000,
+    "address": {
+      "city": "München",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "-110",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.feratel.com/webcams/deutschland/muenchen-olympiapark.html",
+      "description": "Schwenkt über Olympiapark und Stadion",
+      "image": "https://cams.tourispo.com/images/ecu/content/c_webcam/olympiastadion-muenchen-sued_n150298-40355-0_raw.jpg",
+      "man_made": "surveillance",
+      "name": "Olympiaturm Webcam Feratel",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "park",
+      "url": "https://images-webcams.windy.com/72/1556669272/current/full/1556669272.jpg"
+    },
+    "url": "https://www.feratel.com/webcams/deutschland/muenchen-olympiapark.html"
   }
 ]
