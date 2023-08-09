@@ -5603,7 +5603,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=186425"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=186425"
+    "url": "http://webkamera.vegvesen.no/kamera?id=186425",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.899003,
@@ -6038,7 +6041,10 @@
       "surveillance": "webcam",
       "website": "https://www.dietzenbach.de/index.phtml?mNavID=1799.1628&sNavID=1799.1628&La=1"
     },
-    "url": "http://webcam.dietzenbach.de/bilder/image.jpg"
+    "url": "http://webcam.dietzenbach.de/bilder/image.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.8231389,
@@ -31869,34 +31875,6 @@
     "url": "https://g0.ipcamlive.com/player/player.php?alias=calagat&autoplay=0%22"
   },
   {
-    "lat": 60.158677,
-    "lon": 24.7352659,
-    "osmID": 9458192160,
-    "user": "Muokkaaja",
-    "osmType": "node",
-    "lastChanged": 1643470626000,
-    "address": {
-      "city": "Espoo",
-      "county": "Uusimaa",
-      "country": "Finland"
-    },
-    "osmTags": {
-      "camera:direction": "50",
-      "camera:mount": "roof",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=LLFt5TkX0uQ",
-      "direction": "50",
-      "man_made": "surveillance",
-      "name": "Hotel Matts @ Matinkylä, Espoo - Live Street view",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "building",
-      "webcam": "yes",
-      "website": "https://www.youtube.com/watch?v=LLFt5TkX0uQ"
-    },
-    "url": "https://www.youtube.com/watch?v=LLFt5TkX0uQ"
-  },
-  {
     "lat": 49.4656939,
     "lon": 17.0160062,
     "osmID": 9463404747,
@@ -41280,5 +41258,53 @@
       "surveillance:zone": "park"
     },
     "url": "https://www.bergfex.ch/jeizinen-engersch-gampel/webcams/c11550/"
+  },
+  {
+    "lat": 47.5712087,
+    "lon": 12.9340682,
+    "osmID": 11098864825,
+    "user": "Marco Debus",
+    "osmType": "node",
+    "lastChanged": 1691477048000,
+    "address": {
+      "city": "Ramsau bei Berchtesgaden",
+      "county": "Landkreis Berchtesgadener Land",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/sommer/berchtesgaden/webcams/c10218/",
+      "man_made": "surveillance",
+      "name": "Webcam Watzmannhaus",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/sommer/berchtesgaden/webcams/c10218/"
+  },
+  {
+    "lat": 35.7079426,
+    "lon": 126.5857469,
+    "osmID": 11099052740,
+    "user": "adreamy",
+    "osmType": "node",
+    "lastChanged": 1691493426000,
+    "address": {
+      "city": "백련리",
+      "county": "부안군",
+      "country": "South Korea"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "contact:webcam": "http://smgcctv1.iptime.org:8841/5",
+      "direction": "320",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "http://smgcctv1.iptime.org:8841/5"
   }
 ]
