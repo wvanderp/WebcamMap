@@ -3146,7 +3146,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100117"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100117"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100117",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 58.2967172,
@@ -7439,7 +7442,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1200_13912_difsn_vifsn_hm-reinertshf-t_0.jpg"
+    "url": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1200_13912_difsn_vifsn_hm-reinertshf-t_0.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 54.1292051,
@@ -18181,8 +18187,7 @@
     "osmType": "node",
     "lastChanged": 1598421129000,
     "address": {
-      "city": "Sindelfingen",
-      "county": "Landkreis Böblingen",
+      "city": "Stuttgart",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -38208,12 +38213,12 @@
     "url": "https://cwwp2.dot.ca.gov/vm/loc/d9/us395lonepine4.htm"
   },
   {
-    "lat": 47.4024399,
+    "lat": 47.4024525,
     "lon": 11.5677091,
     "osmID": 10717826599,
-    "user": "Mapillox",
+    "user": "MichaelFS",
     "osmType": "node",
-    "lastChanged": 1691231324000,
+    "lastChanged": 1691594991000,
     "address": {
       "city": "Marktgemeinde Vomp",
       "county": "Bezirk Schwaz",
@@ -41115,7 +41120,7 @@
     "osmID": 11085164868,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1691050276000,
+    "lastChanged": 1691574058000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41124,6 +41129,7 @@
       "camera:direction": "304",
       "contact:webcam": "https://www.hcs-depot.de/PopUp/WebCamPopUp.aspx",
       "man_made": "surveillance",
+      "name": "HCS Container",
       "surveillance": "webcam"
     },
     "url": "https://www.hcs-depot.de/PopUp/WebCamPopUp.aspx"
@@ -41306,5 +41312,51 @@
       "surveillance:zone": "area"
     },
     "url": "http://smgcctv1.iptime.org:8841/5"
+  },
+  {
+    "lat": 53.5707181,
+    "lon": 10.0273299,
+    "osmID": 11101291487,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1691574727000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "contact:webcam": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+      "man_made": "surveillance",
+      "name": "Mundsburg Tower",
+      "surveillance": "webcam"
+    },
+    "url": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 53.5472376,
+    "lon": 9.9632122,
+    "osmID": 11101305662,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1691574058000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "90-180",
+      "contact:webcam": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+      "man_made": "surveillance",
+      "name": "Empire Riverside",
+      "surveillance": "webcam"
+    },
+    "url": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
