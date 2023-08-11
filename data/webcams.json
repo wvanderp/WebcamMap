@@ -23759,7 +23759,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Klinglbach",
+      "city": "Sankt Englmar",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -37178,7 +37178,7 @@
     "osmType": "node",
     "lastChanged": 1670164753000,
     "address": {
-      "city": "Eastleigh",
+      "city": "Southampton",
       "county": "Hampshire",
       "state": "England",
       "country": "United Kingdom"
@@ -40410,7 +40410,7 @@
     "osmID": 11076134311,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690901544000,
+    "lastChanged": 1691660309000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
@@ -40418,12 +40418,13 @@
     "osmTags": {
       "camera:type": "panning",
       "contact:webcam": "https://www.feratel.com/webcams/deutschland/berlin-hotel-adlon.html",
-      "image": "https://cs3.wettercomassets.com/thumbnails/variants/6101d5490b52e/1200_675.jpg",
+      "image": "https://images-webcams.windy.com/83/1666966383/current/full/1666966383.jpg",
       "man_made": "surveillance",
       "name": "Brandenburger Tor Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town",
+      "url": "https://windy.com/webcams/1666966383",
       "website": "https://www.feratel.com/webcams/"
     },
     "url": "https://www.feratel.com/webcams/deutschland/berlin-hotel-adlon.html"
@@ -41319,44 +41320,100 @@
     "osmID": 11101291487,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1691574727000,
+    "lastChanged": 1691646517000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
     },
     "osmTags": {
       "camera:direction": "200",
-      "contact:webcam": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+      "contact:webcam": "www.mundsburgtower.de/05_impressionen/webcam_popup.php",
       "man_made": "surveillance",
       "name": "Mundsburg Tower",
       "surveillance": "webcam"
     },
-    "url": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+    "url": "www.mundsburgtower.de/05_impressionen/webcam_popup.php",
     "lint": {
-      "duplicate": true
+      "invalidUrl": true
     }
   },
   {
-    "lat": 53.5472376,
-    "lon": 9.9632122,
-    "osmID": 11101305662,
+    "lat": 53.5458543,
+    "lon": 9.9530038,
+    "osmID": 11104144179,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1691574058000,
+    "lastChanged": 1691653565000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
     },
     "osmTags": {
-      "camera:direction": "90-180",
-      "contact:webcam": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
+      "camera:angle": "80",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/",
+      "height": "25",
       "man_made": "surveillance",
-      "name": "Empire Riverside",
-      "surveillance": "webcam"
+      "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
-    "url": "https://sts010.feratel.co.at/streams/stsstore005/1/03325_64d35874-d5d6Vid.mp4?dcsdesign=WTP_feratel.com",
-    "lint": {
-      "duplicate": true
-    }
+    "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+    "url": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/"
+  },
+  {
+    "lat": 53.5431365,
+    "lon": 9.9761673,
+    "osmID": 11104305544,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1691657739000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "80",
+      "camera:direction": "265",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.capsandiego.de/publicdata/webcam/hugesize.jpg",
+      "height": "25",
+      "man_made": "surveillance",
+      "operator": "Cap San Diego Betriebsgesellschaft mbH",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Cap San Diego Betriebsgesellschaft mbH",
+    "url": "https://www.capsandiego.de/publicdata/webcam/hugesize.jpg"
+  },
+  {
+    "lat": 53.5113535,
+    "lon": 9.730662,
+    "osmID": 11104307340,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1691658353000,
+    "address": {
+      "city": "Estebrügge",
+      "county": "Stade",
+      "state": "Niedersachsen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "http://www.webcam-estebridge.camera/",
+      "man_made": "surveillance",
+      "operator": "Fred Lang, Estebrügger Straße 101, 21635 Jork",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Fred Lang, Estebrügger Straße 101, 21635 Jork",
+    "url": "http://www.webcam-estebridge.camera/"
   }
 ]
