@@ -39731,7 +39731,10 @@
       "surveillance:zone": "town",
       "website": "https://sibiu.ro/LiveOK/cam2.php"
     },
-    "url": "https://www.sibiu.ro/webcamfeeds/webcam1.jpg"
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam1.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.7967478,
@@ -40736,23 +40739,25 @@
     "url": "https://www.spacesquad.de/livecam"
   },
   {
-    "lat": 52.4462105,
-    "lon": 13.6500028,
+    "lat": 52.4480284,
+    "lon": 13.6473474,
     "osmID": 11078990628,
     "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1690821406000,
+    "lastChanged": 1692005356000,
     "address": {
       "city": "Berlin",
       "country": "Germany"
     },
     "osmTags": {
       "contact:webcam": "https://wind.met.fu-berlin.de/wind/webcams/webcam_muggelsee_loop.php",
-      "image": "https://emon.igb-berlin.de/files/webcam/current.jpg",
+      "image": "https://emon.igb-berlin.de/files/webcam/current_mega_r.jpg",
+      "image:0": "https://emon.igb-berlin.de/files/webcam/current_mega_l.jpg",
       "man_made": "surveillance",
       "name": "Müggelsee Webcam FU Berlin",
       "surveillance": "webcam",
       "surveillance:type": "camera",
+      "url": "https://emon.igb-berlin.de/files/webcam/current.jpg",
       "website": "https://emon.igb-berlin.de/grosser_mueggelsee.html"
     },
     "url": "https://wind.met.fu-berlin.de/wind/webcams/webcam_muggelsee_loop.php"
@@ -41442,5 +41447,114 @@
       "surveillance:type": "camera"
     },
     "url": "http://kamera.chatachleb.sk:8080/"
+  },
+  {
+    "lat": 53.5140015,
+    "lon": 9.9764116,
+    "osmID": 11113752932,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692001906000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "10",
+      "camera:direction": "13.75",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.cmr-hamburg.de/webcam/current.jpg",
+      "height": "5",
+      "man_made": "surveillance",
+      "name": "CMR Container",
+      "operator": "CMR, Container Maintenance Repair Hamburg GmbH, Witts Weide 9 , 21107 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "CMR, Container Maintenance Repair Hamburg GmbH, Witts Weide 9 , 21107 Hamburg",
+    "url": "https://www.cmr-hamburg.de/webcam/current.jpg"
+  },
+  {
+    "lat": 53.5502344,
+    "lon": 9.9942917,
+    "osmID": 11113797095,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692003951000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "15",
+      "camera:direction": "319",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?",
+      "height": "30",
+      "man_made": "surveillance",
+      "operator": "Carlos Claussen & Partner, Mönckebergstraße 31, 20095 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Carlos Claussen & Partner, Mönckebergstraße 31, 20095 Hamburg",
+    "url": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?"
+  },
+  {
+    "lat": 53.5287618,
+    "lon": 10.0112218,
+    "osmID": 11113833967,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692005079000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "10",
+      "camera:direction": "308",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unikai.de/images/unikai/webcams/gate.jpg",
+      "height": "8",
+      "man_made": "surveillance",
+      "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+    "url": "https://unikai.de/images/unikai/webcams/gate.jpg"
+  },
+  {
+    "lat": 53.5348694,
+    "lon": 9.9939349,
+    "osmID": 11113835594,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692006473000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "10",
+      "camera:direction": "179",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unikai.de/images/unikai/webcams/portcam_1.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+    "url": "https://unikai.de/images/unikai/webcams/portcam_1.jpg"
   }
 ]
