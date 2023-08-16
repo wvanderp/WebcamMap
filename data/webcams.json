@@ -25545,7 +25545,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/759.jpg"
+    "url": "https://trafficnz.info/camera/759.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -43.559263,
@@ -41482,7 +41485,7 @@
     "osmID": 11113797095,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1692003951000,
+    "lastChanged": 1692087111000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41495,12 +41498,13 @@
       "contact:webcam": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?",
       "height": "30",
       "man_made": "surveillance",
-      "operator": "Carlos Claussen & Partner, Mönckebergstraße 31, 20095 Hamburg",
+      "name": "Rathausmarkt Hamburg",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "operator": "Carlos Claussen & Partner, Mönckebergstraße 31, 20095 Hamburg",
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
     "url": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?"
   },
   {
@@ -41531,12 +41535,12 @@
     "url": "https://unikai.de/images/unikai/webcams/gate.jpg"
   },
   {
-    "lat": 53.5348694,
-    "lon": 9.9939349,
+    "lat": 53.5348343,
+    "lon": 9.9940422,
     "osmID": 11113835594,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1692006473000,
+    "lastChanged": 1692091954000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41549,6 +41553,7 @@
       "contact:webcam": "https://unikai.de/images/unikai/webcams/portcam_1.jpg",
       "height": "10",
       "man_made": "surveillance",
+      "name": "Amerikahöft Unikai",
       "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -41556,5 +41561,91 @@
     },
     "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
     "url": "https://unikai.de/images/unikai/webcams/portcam_1.jpg"
+  },
+  {
+    "lat": 53.5639645,
+    "lon": 9.7514914,
+    "osmID": 11115780264,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692088592000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "3",
+      "camera:direction": "257",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/wittenbergen2/images/live.jpg",
+      "height": "30",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HH-Wittenbergen-Leuchtturm2.jpg",
+      "man_made": "surveillance",
+      "name": "Wittenbergen West",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/wittenbergen2/images/live.jpg"
+  },
+  {
+    "lat": 53.5639645,
+    "lon": 9.7515645,
+    "osmID": 11115780265,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692088592000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "3",
+      "camera:direction": "115",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/wittenbergen1/images/live.jpg",
+      "height": "30",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HH-Wittenbergen-Leuchtturm2.jpg",
+      "man_made": "surveillance",
+      "name": "Wittenbergen Ost",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/wittenbergen1/images/live.jpg"
+  },
+  {
+    "lat": 53.5314259,
+    "lon": 10.0003347,
+    "osmID": 11115965380,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1692091954000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "15",
+      "camera:direction": "205",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unikai.de/images/unikai/webcams/portcam_2.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "Hansahafen Unikai",
+      "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+    "url": "https://unikai.de/images/unikai/webcams/portcam_2.jpg"
   }
 ]
