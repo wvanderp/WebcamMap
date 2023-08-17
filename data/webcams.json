@@ -2161,7 +2161,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100111"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100111"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100111",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.178362,
@@ -2368,7 +2371,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=113087"
+    "url": "http://webkamera.vegvesen.no/kamera?id=113087",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 61.1696755,
@@ -29683,6 +29689,7 @@
     "address": {
       "city": "Jáchymov",
       "county": "Karlovarský kraj",
+      "state": "Severozápad",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -39734,10 +39741,7 @@
       "surveillance:zone": "town",
       "website": "https://sibiu.ro/LiveOK/cam2.php"
     },
-    "url": "https://www.sibiu.ro/webcamfeeds/webcam1.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.sibiu.ro/webcamfeeds/webcam1.jpg"
   },
   {
     "lat": 45.7967478,
@@ -40392,7 +40396,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://open.ivideon.com/embed/v2/?server=200-540bc5e23ed26ac860c5936fd8ed922d&camera=0"
+    "url": "https://open.ivideon.com/embed/v2/?server=200-540bc5e23ed26ac860c5936fd8ed922d&camera=0",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.5063228,
