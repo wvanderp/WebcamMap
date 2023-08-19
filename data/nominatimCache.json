@@ -136,11 +136,17 @@
   },
   "-28.1483161,151.9453553": {
     "place_id": 150269798,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 186295486,
     "lat": "-28.14902855",
     "lon": "151.94322804581208",
+    "class": "aeroway",
+    "type": "aerodrome",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "aeroway",
+    "name": "Warwick Airport",
     "display_name": "Warwick Airport, Gus Mauch Road, Massie, Southern Downs Regional, Queensland, Australia",
     "address": {
       "aeroway": "Warwick Airport",
@@ -161,7 +167,7 @@
       "151.9334836",
       "151.9529813"
     ],
-    "expires": 1692347479
+    "expires": 1693650442
   },
   "-3.3721572,38.5966014": {
     "place_id": 80917258,
@@ -2270,12 +2276,18 @@
     "expires": 1692835510
   },
   "33.283002,-111.8245161": {
-    "place_id": 204533162,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 436927611,
-    "lat": "33.2830084238732",
-    "lon": "-111.82437055912268",
+    "place_id": 357534562,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10687141562,
+    "lat": "33.283002",
+    "lon": "-111.8245161",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "South McQueen Road, Chandler, Maricopa County, Arizona, 85286, United States",
     "address": {
       "road": "South McQueen Road",
@@ -2288,19 +2300,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "lanes": "3",
-      "oneway": "yes",
-      "surface": "concrete",
-      "smoothness": "excellent",
-      "cycleway:right": "lane"
+      "operator": "Airzona Department of Transportation",
+      "camera:type": "panning",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://www.az511.gov/map/Cctv/469--14",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "33.2829731",
-      "33.2831181",
-      "-111.8243754",
-      "-111.824369"
+      "33.2829520",
+      "33.2830520",
+      "-111.8245661",
+      "-111.8244661"
     ],
-    "expires": 1692376578
+    "expires": 1693615144
   },
   "33.2876619,-111.7557391": {
     "place_id": 204587694,
@@ -3133,11 +3147,17 @@
   },
   "35.9896135,14.3286315": {
     "place_id": 56159893,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5041978576,
     "lat": "35.9896135",
     "lon": "14.3286315",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Ċirkewwa - Terminal traghetti, ingresso veicoli",
     "display_name": "Ċirkewwa - Terminal traghetti, ingresso veicoli, Triq il-Marfa, Iċ-Ċirkewwa, Il-Mellieħa, Tramuntana, MLH 1107, Malta",
     "address": {
       "man_made": "Ċirkewwa - Terminal traghetti, ingresso veicoli",
@@ -3163,7 +3183,7 @@
       "14.3285815",
       "14.3286815"
     ],
-    "expires": 1692420010
+    "expires": 1693605758
   },
   "36.1427322,136.586882": {
     "place_id": 59890880,
@@ -4744,11 +4764,17 @@
   },
   "38.9716718,-95.311449": {
     "place_id": 353105863,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10426220469,
     "lat": "38.9716718",
     "lon": "-95.311449",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "6th and Congressional",
     "display_name": "6th and Congressional, West 6th Street, Lawrence, Douglas County, Kansas, 66049, United States",
     "address": {
       "man_made": "6th and Congressional",
@@ -4773,10 +4799,10 @@
     "boundingbox": [
       "38.9716218",
       "38.9717218",
-      "-95.311499",
-      "-95.311399"
+      "-95.3114990",
+      "-95.3113990"
     ],
-    "expires": 1692366193
+    "expires": 1693600230
   },
   "38.9717066,-95.3208448": {
     "place_id": 353105862,
@@ -5714,16 +5740,22 @@
     "expires": 1692924304
   },
   "39.4554955,3.1874155": {
-    "place_id": 110681546,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 23293450,
-    "lat": "39.455681503459736",
-    "lon": "3.1875539341433665",
-    "display_name": "Ma-4011, Felanich, Migjorn, Illes Balears, 07200, España",
+    "place_id": 96686811,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9455472884,
+    "lat": "39.4554955",
+    "lon": "3.1874155",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Ma-4011, Felanitx, Migjorn, Illes Balears, 07200, España",
     "address": {
       "road": "Ma-4011",
-      "town": "Felanich",
+      "town": "Felanitx",
       "county": "Migjorn",
       "archipelago": "Illes Balears",
       "ISO3166-2-lvl6": "ES-PM",
@@ -5734,16 +5766,20 @@
       "country_code": "es"
     },
     "extratags": {
-      "lanes": "2",
-      "surface": "asphalt"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.ibred.es/avista/camara-san-salvador-felanitx/",
+      "camera:direction": "155",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "39.4545621",
-      "39.4710611",
-      "3.1683573",
-      "3.188042"
+      "39.4554455",
+      "39.4555455",
+      "3.1873655",
+      "3.1874655"
     ],
-    "expires": 1692359094
+    "expires": 1693620639
   },
   "39.4869001,-79.106492": {
     "place_id": 306635102,
@@ -7412,11 +7448,17 @@
   },
   "39.5657162,-104.9810453": {
     "place_id": 360451867,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10766682426,
     "lat": "39.5657162",
     "lon": "-104.9810453",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "MP 019.95",
     "display_name": "MP 019.95, C-470 Trail, Douglas County, Colorado, 80129, United States",
     "address": {
       "man_made": "MP 019.95",
@@ -7443,7 +7485,7 @@
       "-104.9810953",
       "-104.9809953"
     ],
-    "expires": 1692373108
+    "expires": 1693628272
   },
   "39.5657935,-104.9041247": {
     "place_id": 360448746,
@@ -9963,11 +10005,17 @@
   },
   "39.7991387,-86.0269109": {
     "place_id": 57137232,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5223454212,
     "lat": "39.7991387",
     "lon": "-86.0269109",
+    "class": "man_made",
+    "type": "mast",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "CAM - 088 A (Mile 89.8)",
     "display_name": "CAM - 088 A (Mile 89.8), I 70, Indianapolis, Marion County, Indiana, 46219, United States",
     "address": {
       "man_made": "CAM - 088 A (Mile 89.8)",
@@ -9997,7 +10045,7 @@
       "-86.0269609",
       "-86.0268609"
     ],
-    "expires": 1692413596
+    "expires": 1693618751
   },
   "39.7999174,-86.033133": {
     "place_id": 19692574,
@@ -11048,13 +11096,19 @@
     "expires": 1692639264
   },
   "41.1431596,-80.1554208": {
-    "place_id": 107562046,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 19334158,
-    "lat": "41.143186706857506",
-    "lon": "-80.15522152965195",
-    "display_name": "I 79, London, Springfield Township, Mercer County, Pennsylvania, United States",
+    "place_id": 55012739,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4913791298,
+    "lat": "41.1431596",
+    "lon": "-80.1554208",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "I 79, London, Springfield Township, Mercer County, Pennsylvania, 16127, United States",
     "address": {
       "road": "I 79",
       "hamlet": "London",
@@ -11062,27 +11116,27 @@
       "county": "Mercer County",
       "state": "Pennsylvania",
       "ISO3166-2-lvl4": "US-PA",
+      "postcode": "16127",
       "country": "United States",
       "country_code": "us"
     },
     "extratags": {
-      "hgv": "designated",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "2",
-      "oneway": "yes",
-      "bicycle": "no",
-      "surface": "asphalt",
-      "maxspeed": "70 mph",
-      "source:maxspeed": "http://www.penndot.gov/Pages/all-news-details.aspx?newsid=221#.Vyfx8OQVSSo"
+      "operator": "Pennsylvania Department of Transportation",
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://www.511pa.com/CameraListing.aspx",
+      "camera:direction": "20",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "41.0833626",
-      "41.1970554",
-      "-80.1693152",
-      "-80.1345082"
+      "41.1431096",
+      "41.1432096",
+      "-80.1554708",
+      "-80.1553708"
     ],
-    "expires": 1692343174
+    "expires": 1693545655
   },
   "41.1985987,-80.1599375": {
     "place_id": 84231019,
@@ -12607,11 +12661,17 @@
   },
   "42.0226611,-93.7244889": {
     "place_id": 70056175,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 6533530057,
     "lat": "42.0226611",
     "lon": "-93.7244889",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "AMTV11",
     "display_name": "AMTV11, US 30, Ames, Boone County, Iowa, 50012, United States",
     "address": {
       "man_made": "AMTV11",
@@ -12639,7 +12699,7 @@
       "-93.7245389",
       "-93.7244389"
     ],
-    "expires": 1692384463
+    "expires": 1693667342
   },
   "42.0230529,-93.7772423": {
     "place_id": 69275959,
@@ -14398,11 +14458,17 @@
   },
   "42.9877508,-82.3982073": {
     "place_id": 51713900,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4581219356,
     "lat": "42.9877508",
     "lon": "-82.3982073",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "402 near Christina St N",
     "display_name": "402 near Christina St N, Highway 402, Sarnia, Lambton County, Southwestern Ontario, Ontario, N7V 1X5, Canada",
     "address": {
       "man_made": "402 near Christina St N",
@@ -14430,7 +14496,7 @@
       "-82.3982573",
       "-82.3981573"
     ],
-    "expires": 1692348822
+    "expires": 1693713253
   },
   "42.988175,-82.404452": {
     "place_id": 51879843,
@@ -14793,12 +14859,18 @@
     "expires": 1692895955
   },
   "43.0024397,-71.474911": {
-    "place_id": 118217730,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 42721502,
-    "lat": "43.002563300794264",
-    "lon": "-71.47493014941884",
+    "place_id": 375488863,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11086203448,
+    "lat": "43.0024397",
+    "lon": "-71.474911",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Amoskeag Rotary, Manchester, Hillsborough County, New Hampshire, 03102, United States",
     "address": {
       "road": "Amoskeag Rotary",
@@ -14811,17 +14883,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "lanes": "2",
-      "oneway": "yes",
-      "surface": "asphalt"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://newengland511.org/tooltip/Cameras/72068F0523FD24DAC8E7E2B35F84C7AC09657ED7--5",
+      "camera:direction": "280",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "43.002561",
-      "43.0031249",
-      "-71.474945",
-      "-71.4741339"
+      "43.0023897",
+      "43.0024897",
+      "-71.4749610",
+      "-71.4748610"
     ],
-    "expires": 1692401126
+    "expires": 1693652908
   },
   "43.0398671,6.1098674": {
     "place_id": 365526564,
@@ -15559,15 +15635,21 @@
     "expires": 1692835433
   },
   "43.1588062,-77.5849772": {
-    "place_id": 89276458,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8783080622,
-    "lat": "43.1588062",
-    "lon": "-77.5849772",
-    "display_name": "OS Cubed Webcam Rochester NY, 274, North Goodman Street, Neighborhood Of The Arts, City of Rochester, Monroe County, New York, 14607, United States",
+    "place_id": 119866262,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 51907635,
+    "lat": "43.15865725",
+    "lon": "-77.58438958476809",
+    "class": "amenity",
+    "type": "marketplace",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "amenity",
+    "name": "Village Gate Square",
+    "display_name": "Village Gate Square, 274, North Goodman Street, Neighborhood Of The Arts, City of Rochester, Monroe County, New York, 14607, United States",
     "address": {
-      "man_made": "OS Cubed Webcam Rochester NY",
+      "amenity": "Village Gate Square",
       "house_number": "274",
       "road": "North Goodman Street",
       "neighbourhood": "Neighborhood Of The Arts",
@@ -15580,20 +15662,16 @@
       "country_code": "us"
     },
     "extratags": {
-      "operator": "rocpic",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "http://rocpic.com/webcams/os-cubed-rochester-ny.html",
-      "camera:direction": "269",
-      "surveillance:type": "camera"
+      "website": "http://www.villagegatesquare.com/",
+      "nysgissam:nysaddresspointid": "MONR258506"
     },
     "boundingbox": [
-      "43.1587562",
-      "43.1588562",
-      "-77.5850272",
-      "-77.5849272"
+      "43.1580798",
+      "43.1591973",
+      "-77.5852126",
+      "-77.5826542"
     ],
-    "expires": 1692365562
+    "expires": 1693641280
   },
   "43.1668255,-79.1902403": {
     "place_id": 241350130,
@@ -19165,11 +19243,17 @@
   },
   "46.056018,6.9950113": {
     "place_id": 170174280,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 261287833,
     "lat": "46.05601505",
     "lon": "6.9950342162605965",
+    "class": "amenity",
+    "type": "townhall",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "amenity",
+    "name": "",
     "display_name": "27, Le Gilliod, Moulin, Trient, Martigny, Valais/Wallis, 1929, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "house_number": "27",
@@ -19192,7 +19276,7 @@
       "6.9949129",
       "6.9951575"
     ],
-    "expires": 1692335866
+    "expires": 1693691485
   },
   "46.0669831,7.7786597": {
     "place_id": 79269352,
@@ -19410,16 +19494,21 @@
     "expires": 1692855266
   },
   "46.1298672,11.2444232": {
-    "place_id": 111915931,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 25348377,
-    "lat": "46.1298185",
-    "lon": "11.244549116865475",
-    "display_name": "Municipio, Via del Mercato, Gardizzola, Gnaghi, Miola, Baselga di Piné, Comunità Alta Valsugana e Bersntol, Provincia di Trento, Trentino-Alto Adige/Südtirol, 38042, Italia",
+    "place_id": 352934303,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10314255882,
+    "lat": "46.1298672",
+    "lon": "11.2444232",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Via Cesare Battisti, Gardizzola, Gnaghi, Miola, Baselga di Piné, Comunità Alta Valsugana e Bersntol, Provincia di Trento, Trentino-Alto Adige/Südtirol, 38042, Italia",
     "address": {
-      "amenity": "Municipio",
-      "road": "Via del Mercato",
+      "road": "Via Cesare Battisti",
       "neighbourhood": "Gardizzola",
       "isolated_dwelling": "Gnaghi",
       "village": "Miola",
@@ -19433,16 +19522,18 @@
       "country_code": "it"
     },
     "extratags": {
-      "building": "yes",
-      "wikidata": "Q113375517"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.comune.baselgadipine.tn.it/Novita/Avvisi/WebCam",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "46.1296922",
-      "46.1299263",
-      "11.2443781",
-      "11.2447238"
+      "46.1298172",
+      "46.1299172",
+      "11.2443732",
+      "11.2444732"
     ],
-    "expires": 1692350003
+    "expires": 1693567570
   },
   "46.1397175,7.9908328": {
     "place_id": 78668969,
@@ -20157,12 +20248,18 @@
     "expires": 1693073084
   },
   "46.4672635,-119.5414268": {
-    "place_id": 205116519,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 441868018,
-    "lat": "46.467093873875335",
-    "lon": "-119.54150677046198",
+    "place_id": 357537798,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10687351386,
+    "lat": "46.4672635",
+    "lon": "-119.5414268",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Vantage Highway, Benton County, Washington, United States",
     "address": {
       "road": "Vantage Highway",
@@ -20173,16 +20270,20 @@
       "country_code": "us"
     },
     "extratags": {
-      "maxspeed": "65 mph",
-      "maxspeed:hgv": "60 mph"
+      "camera:type": "dome",
+      "camera:mount": "mast",
+      "surveillance": "traffic",
+      "contact:webcam": "https://wsdot.com/Travel/Real-time/Map/?featuretype=camera&featureid=9034",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "46.3833184",
-      "46.5773502",
-      "-119.7282626",
-      "-119.4228137"
+      "46.4672135",
+      "46.4673135",
+      "-119.5414768",
+      "-119.5413768"
     ],
-    "expires": 1692360373
+    "expires": 1693593971
   },
   "46.4797621,7.1396507": {
     "place_id": 348670782,
@@ -20505,11 +20606,17 @@
   },
   "46.5196878,11.6388205": {
     "place_id": 52388076,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4631801645,
     "lat": "46.5196878",
     "lon": "11.6388205",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam Seiser Alm - Goldknopf",
     "display_name": "Webcam Seiser Alm - Goldknopf, Joch, Kastelruth - Castelrotto, Salten-Schlern - Salto-Sciliar, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39040, Italia",
     "address": {
       "man_made": "Webcam Seiser Alm - Goldknopf",
@@ -20534,7 +20641,7 @@
       "11.6387705",
       "11.6388705"
     ],
-    "expires": 1692355731
+    "expires": 1693647855
   },
   "46.5230327,8.6504415": {
     "place_id": 342427128,
@@ -22732,11 +22839,17 @@
   },
   "47.0153003,-91.6651041": {
     "place_id": 95972161,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9260053845,
     "lat": "47.0153003",
     "lon": "-91.6651041",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Two Harbors Boat Launch",
     "display_name": "Two Harbors Boat Launch, Lighthouse Point Road, Two Harbors, Lake County, Minnesota, 55616, United States",
     "address": {
       "man_made": "Two Harbors Boat Launch",
@@ -22765,7 +22878,7 @@
       "-91.6651541",
       "-91.6650541"
     ],
-    "expires": 1692391945
+    "expires": 1693708807
   },
   "47.0209877,8.7029383": {
     "place_id": 348127514,
@@ -23033,15 +23146,21 @@
     "expires": 1693448533
   },
   "47.067262,8.6496795": {
-    "place_id": 141086103,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 141086036,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 154411698,
     "lat": "47.067252499999995",
     "lon": "8.649735349999993",
+    "class": "amenity",
+    "type": "restaurant",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "amenity",
+    "name": "Berggasthaus Mostelberg",
     "display_name": "Berggasthaus Mostelberg, Rainstrasse, Mostel, Sattel, Schwyz, 6417, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "tourism": "Berggasthaus Mostelberg",
+      "amenity": "Berggasthaus Mostelberg",
       "road": "Rainstrasse",
       "residential": "Mostel",
       "village": "Sattel",
@@ -23052,14 +23171,14 @@
       "country": "Schweiz/Suisse/Svizzera/Svizra",
       "country_code": "ch"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "47.0671451",
       "47.0673599",
       "8.6495781",
       "8.6498926"
     ],
-    "expires": 1692383874
+    "expires": 1693680875
   },
   "47.072833,9.602583": {
     "place_id": 97570488,
@@ -24627,11 +24746,17 @@
   },
   "47.348075,10.216169": {
     "place_id": 96883522,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9569388008,
     "lat": "47.348075",
     "lon": "10.216169",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Fellhornbahn Gipfelstation - Oberstdorf - Blick nach Südosten",
     "display_name": "Fellhornbahn Gipfelstation - Oberstdorf - Blick nach Südosten, Zum Sportklettersteig, Oberstdorf, Landkreis Oberallgäu, Bayern, 87561, Deutschland",
     "address": {
       "man_made": "Fellhornbahn Gipfelstation - Oberstdorf - Blick nach Südosten",
@@ -24656,12 +24781,12 @@
       "surveillance:type": "camera"
     },
     "boundingbox": [
-      "47.348025",
-      "47.348125",
-      "10.216119",
-      "10.216219"
+      "47.3480250",
+      "47.3481250",
+      "10.2161190",
+      "10.2162190"
     ],
-    "expires": 1692409603
+    "expires": 1693613756
   },
   "47.3604921,10.4610483": {
     "place_id": 122636137,
@@ -25172,11 +25297,17 @@
   },
   "47.41246,11.128825": {
     "place_id": 98056729,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9569407630,
     "lat": "47.41246",
     "lon": "11.128825",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Meilerhütte - Wetterstein - Blick nach Nordwesten zur Zugspitze",
     "display_name": "Meilerhütte - Wetterstein - Blick nach Nordwesten zur Zugspitze, Schachentorsteig, Garmisch-Partenkirchen, Landkreis Garmisch-Partenkirchen, Bayern, 82467, Deutschland",
     "address": {
       "man_made": "Meilerhütte - Wetterstein - Blick nach Nordwesten zur Zugspitze",
@@ -25201,12 +25332,12 @@
       "surveillance:type": "camera"
     },
     "boundingbox": [
-      "47.41241",
-      "47.41251",
-      "11.128775",
-      "11.128875"
+      "47.4124100",
+      "47.4125100",
+      "11.1287750",
+      "11.1288750"
     ],
-    "expires": 1692410713
+    "expires": 1693580710
   },
   "47.4128334,19.0579978": {
     "place_id": 19363397,
@@ -29336,15 +29467,21 @@
     "expires": 1693419536
   },
   "48.174342,11.5536113": {
-    "place_id": 143778076,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 143778019,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 164084344,
     "lat": "48.174416300000004",
     "lon": "11.553740486940299",
+    "class": "man_made",
+    "type": "communications_tower",
+    "place_rank": 30,
+    "importance": 0.36103847567444125,
+    "addresstype": "man_made",
+    "name": "Olympiaturm",
     "display_name": "Olympiaturm, 7, Spiridon-Louis-Ring, Am Riesenfeld, Milbertshofen-Am Hart, München, Bayern, 80809, Deutschland",
     "address": {
-      "tourism": "Olympiaturm",
+      "man_made": "Olympiaturm",
       "house_number": "7",
       "road": "Spiridon-Louis-Ring",
       "quarter": "Am Riesenfeld",
@@ -29359,10 +29496,10 @@
     "extratags": {
       "email": "besucherservice@olympiapark.de",
       "height": "291",
+      "tourism": "attraction",
       "website": "https://www.olympiapark.de/en/the-olympic-park/park-overview/olympic-tower",
       "building": "yes",
       "heritage": "4",
-      "man_made": "communications_tower",
       "ref:BLfD": "D-1-62-000-7890",
       "wikidata": "Q599148",
       "wikipedia": "de:Olympiaturm",
@@ -29383,7 +29520,7 @@
       "11.5535248",
       "11.5539554"
     ],
-    "expires": 1692408957
+    "expires": 1693592344
   },
   "48.201695,16.2127752": {
     "place_id": 102931623,
@@ -29963,12 +30100,18 @@
     "expires": 1692638460
   },
   "48.3833392,16.1841113": {
-    "place_id": 272726191,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 879875861,
-    "lat": "48.38326340515543",
-    "lon": "16.184085953814037",
+    "place_id": 95929569,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9403373023,
+    "lat": "48.3833392",
+    "lon": "16.1841113",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Weinviertler Schnellstraße, Unterzögersdorf, Gemeinde Stockerau, Bezirk Korneuburg, Niederösterreich, 2000, Österreich",
     "address": {
       "road": "Weinviertler Schnellstraße",
@@ -29982,21 +30125,21 @@
       "country_code": "at"
     },
     "extratags": {
-      "toll": "yes",
-      "lanes": "3",
-      "layer": "1",
-      "oneway": "yes",
-      "maxspeed": "130",
-      "placement": "right_of:2",
-      "turn:lanes": "none|none|merge_to_left"
+      "camera:type": "fixed",
+      "description": "S3 - km 0,03",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "www.asfinag.at",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "48.3831938",
-      "48.3832874",
-      "16.1840142",
-      "16.1842941"
+      "48.3832892",
+      "48.3833892",
+      "16.1840613",
+      "16.1841613"
     ],
-    "expires": 1692421808
+    "expires": 1693650969
   },
   "48.3874313,16.1783022": {
     "place_id": 109930847,
@@ -30730,15 +30873,20 @@
     "expires": 1692669844
   },
   "48.500956,8.0275614": {
-    "place_id": 259648526,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 788311227,
-    "lat": "48.50117444999999",
-    "lon": "8.02775607062861",
-    "display_name": "Schloss Staufenberg, Schloß Staufenberg, Unterspring, Durbach, Verwaltungsgemeinschaft Offenburg, Ortenaukreis, Baden-Württemberg, 77770, Deutschland",
+    "place_id": 66017537,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6138803719,
+    "lat": "48.500956",
+    "lon": "8.0275614",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Schloß Staufenberg, Unterspring, Durbach, Verwaltungsgemeinschaft Offenburg, Ortenaukreis, Baden-Württemberg, 77770, Deutschland",
     "address": {
-      "historic": "Schloss Staufenberg",
       "road": "Schloß Staufenberg",
       "hamlet": "Unterspring",
       "village": "Durbach",
@@ -30751,23 +30899,20 @@
       "country_code": "de"
     },
     "extratags": {
-      "ele": "360",
-      "wall": "castle_wall",
-      "height": "5",
-      "barrier": "wall",
-      "website": "https://www.schloss-staufenberg.de/de/schloss-staufenberg/",
-      "material": "stone",
-      "wikidata": "Q1014076",
-      "wikipedia": "de:Burg Staufenberg (Schwarzwald)",
-      "castle_type": "stately"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.schloss-staufenberg.de/en/info-service/weather-webcam/",
+      "camera:direction": "270",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "48.5008958",
-      "48.501423",
-      "8.0271962",
-      "8.0282751"
+      "48.5009060",
+      "48.5010060",
+      "8.0275114",
+      "8.0276114"
     ],
-    "expires": 1692339896
+    "expires": 1693668385
   },
   "48.506791,16.0972389": {
     "place_id": 256614468,
@@ -30806,15 +30951,21 @@
     "expires": 1692630972
   },
   "48.5144277,9.5599804": {
-    "place_id": 97771906,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9520026297,
-    "lat": "48.5144277",
-    "lon": "9.5599804",
-    "display_name": "skilift donnstetten, 18, Böhringer Straße, Donnstetten, Römerstein, Landkreis Reutlingen, Baden-Württemberg, 72587, Deutschland",
+    "place_id": 194312363,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 378345649,
+    "lat": "48.5142373",
+    "lon": "9.55674240966292",
+    "class": "tourism",
+    "type": "attraction",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "tourism",
+    "name": "Bobbahn Donnstetten",
+    "display_name": "Bobbahn Donnstetten, 18, Böhringer Straße, Donnstetten, Römerstein, Landkreis Reutlingen, Baden-Württemberg, 72587, Deutschland",
     "address": {
-      "man_made": "skilift donnstetten",
+      "tourism": "Bobbahn Donnstetten",
       "house_number": "18",
       "road": "Böhringer Straße",
       "village": "Donnstetten",
@@ -30828,19 +30979,20 @@
       "country_code": "de"
     },
     "extratags": {
-      "surveillance": "webcam",
-      "contact:webcam": "https://skilift-donnstetten.de/webcam/webcam.php",
-      "camera:direction": "320",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "fax": "+49 7382 / 936676",
+      "phone": "+49 7382 / 609",
+      "website": "https://www.bobbahn-donnstetten.de/",
+      "operator": "Bobbahn & Skilifte Donnstetten GmbH",
+      "attraction": "summer_toboggan",
+      "opening_hours": "Apr-Oct We-Fr 13:00-18:00; Sa-Su 10:00-18:00; PH 10:00-18:00; Nov-Mar Sa,Su,PH 12:00-17:00"
     },
     "boundingbox": [
-      "48.5143777",
-      "48.5144777",
-      "9.5599304",
-      "9.5600304"
+      "48.5136470",
+      "48.5148609",
+      "9.5554486",
+      "9.5601451"
     ],
-    "expires": 1692388097
+    "expires": 1693619728
   },
   "48.5212856,16.0849548": {
     "place_id": 170621680,
@@ -47138,37 +47290,6 @@
     ],
     "expires": 1692865910
   },
-  "53.5124716,9.965077": {
-    "place_id": 140838455,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 148037847,
-    "lat": "53.51233786079615",
-    "lon": "9.965051143569369",
-    "display_name": "Neuhöfer Brückenstraße, Wilhelmsburg, Hamburg-Mitte, Hamburg, 21107, Deutschland",
-    "address": {
-      "road": "Neuhöfer Brückenstraße",
-      "suburb": "Wilhelmsburg",
-      "borough": "Hamburg-Mitte",
-      "city": "Hamburg",
-      "ISO3166-2-lvl4": "DE-HH",
-      "postcode": "21107",
-      "country": "Deutschland",
-      "country_code": "de"
-    },
-    "extratags": {
-      "bdouble": "yes",
-      "surface": "asphalt",
-      "lane_markings": "no"
-    },
-    "boundingbox": [
-      "53.5121832",
-      "53.5129138",
-      "9.9625412",
-      "9.9663616"
-    ],
-    "expires": 1692352154
-  },
   "53.5140015,9.9764116": {
     "place_id": 376410050,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -53494,11 +53615,17 @@
   },
   "60.5167544,30.2216833": {
     "place_id": 298764866,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 3486596,
     "lat": "60.5148597",
     "lon": "30.216431544896235",
+    "class": "leisure",
+    "type": "sports_centre",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "leisure",
+    "name": "Горнолыжный курорт «Игора»",
     "display_name": "Горнолыжный курорт «Игора», «Сортавала», Сосновское сельское поселение, Приозерский район, Ленинградская область, Северо-Западный федеральный округ, 188730, Россия",
     "address": {
       "leisure": "Горнолыжный курорт «Игора»",
@@ -53518,12 +53645,12 @@
       "website": "https://igora.ru/"
     },
     "boundingbox": [
-      "60.511216",
+      "60.5112160",
       "60.5185092",
       "30.1994633",
       "30.2318913"
     ],
-    "expires": 1692399980
+    "expires": 1693690232
   },
   "60.5546939,11.2509174": {
     "place_id": 13630875,
@@ -55497,11 +55624,17 @@
   },
   "63.3155844,9.8612172": {
     "place_id": 91332534,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8852438047,
     "lat": "63.3155844",
     "lon": "9.8612172",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Terna småbåthavn",
     "display_name": "Terna småbåthavn, Gammelosveien, Grønøra havn og industriområde, Hov, Thamshamn gard, Orkanger, Orkland, Trøndelag, 7300, Norge",
     "address": {
       "man_made": "Terna småbåthavn",
@@ -55532,7 +55665,7 @@
       "9.8611672",
       "9.8612672"
     ],
-    "expires": 1692338233
+    "expires": 1693681953
   },
   "63.3155864,9.8613233": {
     "place_id": 92192147,
@@ -57103,11 +57236,17 @@
   },
   "64.925851,13.112672": {
     "place_id": 13461056,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674901,
     "lat": "64.925851",
     "lon": "13.112672",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Namsskogan",
     "display_name": "Namsskogan, Namsskoganveien, Namstad, Brekkvasselv, Namsskogan, Trøndelag, 7896, Norge",
     "address": {
       "man_made": "Namsskogan",
@@ -57127,12 +57266,12 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "64.925801",
-      "64.925901",
-      "13.112622",
-      "13.112722"
+      "64.9258010",
+      "64.9259010",
+      "13.1126220",
+      "13.1127220"
     ],
-    "expires": 1692378372
+    "expires": 1693686957
   },
   "65.0758135,25.4714806": {
     "place_id": 347958939,
@@ -58473,11 +58612,17 @@
   },
   "74.3825129,-20.7880291": {
     "place_id": 99337332,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9850579489,
     "lat": "74.3825129",
     "lon": "-20.7880291",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Grönland / Freya Gletscher",
     "display_name": "Grönland / Freya Gletscher",
     "address": {
       "man_made": "Grönland / Freya Gletscher",
@@ -58499,7 +58644,7 @@
       "-20.7880791",
       "-20.7879791"
     ],
-    "expires": 1692363886
+    "expires": 1693589638
   },
   "9.2960961,-1.8505305": {
     "place_id": 96408773,
