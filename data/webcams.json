@@ -19629,7 +19629,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://camera.deckchair.com/novotel-canary-wharf-london-uk"
+    "url": "https://camera.deckchair.com/novotel-canary-wharf-london-uk",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.4220858,
@@ -25811,6 +25814,34 @@
     }
   },
   {
+    "lat": 50.2243162,
+    "lon": -121.581474,
+    "osmID": 8894975723,
+    "user": "eerib",
+    "osmType": "node",
+    "lastChanged": 1692502388000,
+    "address": {
+      "city": "Lytton",
+      "county": "Thompson-Nicola Regional District",
+      "state": "British Columbia",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.metcam.navcanada.ca/hb/player.jsp?id=46&cam=105&lang=e",
+      "height": "2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.metcam.navcanada.ca/hb/player.jsp?id=46&cam=105&lang=e",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 52.4155478,
     "lon": 4.8341493,
     "osmID": 8898871212,
@@ -27620,7 +27651,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
-    "url": "https://waterfrontmuseum.org/watch-live-ny-harbor-stream-waterfront-museum"
+    "url": "https://waterfrontmuseum.org/watch-live-ny-harbor-stream-waterfront-museum",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.1843592,
@@ -27896,7 +27930,7 @@
     "osmType": "node",
     "lastChanged": 1629324810000,
     "address": {
-      "city": "Hospental",
+      "city": "Andermatt",
       "county": "Korporation Ursern",
       "state": "Uri",
       "country": "Switzerland"
@@ -37288,7 +37322,7 @@
     "osmType": "node",
     "lastChanged": 1671353381000,
     "address": {
-      "city": "Tukwila",
+      "city": "SeaTac",
       "county": "King County",
       "state": "Washington",
       "country": "United States of America"
@@ -39029,7 +39063,7 @@
     "osmType": "node",
     "lastChanged": 1684835520000,
     "address": {
-      "city": "Himmelreich",
+      "city": "Lam",
       "county": "Landkreis Cham",
       "state": "Bayern",
       "country": "Germany"
@@ -41448,5 +41482,33 @@
     },
     "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
     "url": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?"
+  },
+  {
+    "lat": 50.2242503,
+    "lon": -121.5814513,
+    "osmID": 11129068660,
+    "user": "eerib",
+    "osmType": "node",
+    "lastChanged": 1692502388000,
+    "address": {
+      "city": "Lytton",
+      "county": "Thompson-Nicola Regional District",
+      "state": "British Columbia",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:direction": "170",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.metcam.navcanada.ca/hb/player.jsp?id=46&cam=105&lang=e",
+      "height": "2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.metcam.navcanada.ca/hb/player.jsp?id=46&cam=105&lang=e",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
