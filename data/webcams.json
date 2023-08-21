@@ -6601,7 +6601,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=99"
+    "url": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=99",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.9415352,
@@ -8669,9 +8672,9 @@
     "lat": 54.2942649,
     "lon": 9.6798589,
     "osmID": 3220967846,
-    "user": "bielebog",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1452639902000,
+    "lastChanged": 1692556020000,
     "address": {
       "city": "Rendsburg",
       "county": "Rendsburg-Eckernförde",
@@ -8679,17 +8682,17 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "110",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.canalcup-cam.de/cam1.php",
+      "contact:webcam": "https://canalcup-cam.de/drmg/cams/",
       "man_made": "surveillance",
-      "name": "Webcam of Rendsburg Bridge",
+      "name": "Webcam of Rendsburg Bridge - cam 2: Blick auf die Schwebefähre",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "website": "http://www.canalcup-cam.de/webcam/current.jpg"
+      "surveillance:type": "camera"
     },
-    "url": "http://www.canalcup-cam.de/cam1.php",
+    "url": "https://canalcup-cam.de/drmg/cams/",
     "lint": {
-      "unavailable": true
+      "duplicate": true
     }
   },
   {
@@ -14003,10 +14006,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://martin-bochum.de/webcam_bo.php",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://martin-bochum.de/webcam_bo.php"
   },
   {
     "lat": 51.0891285,
@@ -18413,7 +18413,7 @@
     "osmType": "node",
     "lastChanged": 1662380299000,
     "address": {
-      "city": "Bertsdorf-Hörnitz",
+      "city": "Hainewalde",
       "county": "Görlitz - Zhorjelc",
       "state": "Sachsen",
       "country": "Germany"
@@ -31031,7 +31031,7 @@
     "lastChanged": 1642599235000,
     "address": {
       "city": "Bühl",
-      "county": "Ortenaukreis",
+      "county": "Landkreis Rastatt",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -41507,6 +41507,60 @@
       "surveillance:type": "camera"
     },
     "url": "https://www.metcam.navcanada.ca/hb/player.jsp?id=46&cam=105&lang=e",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 54.2942711,
+    "lon": 9.6821267,
+    "osmID": 11132454461,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1692556020000,
+    "address": {
+      "city": "Rendsburg",
+      "county": "Rendsburg-Eckernförde",
+      "state": "Schleswig-Holstein",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "250",
+      "camera:type": "fixed",
+      "contact:webcam": "https://canalcup-cam.de/drmg/cams/",
+      "man_made": "surveillance",
+      "name": "Webcam of Rendsburg Bridge - cam 1: Blickrichtung Westen",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://canalcup-cam.de/drmg/cams/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 54.2946245,
+    "lon": 9.6783002,
+    "osmID": 11132454462,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1692556020000,
+    "address": {
+      "city": "Rendsburg",
+      "county": "Rendsburg-Eckernförde",
+      "state": "Schleswig-Holstein",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "110",
+      "camera:type": "fixed",
+      "contact:webcam": "https://canalcup-cam.de/drmg/cams/",
+      "man_made": "surveillance",
+      "name": "Webcam of Rendsburg Bridge - cam 3: Blickrichtung Osten",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://canalcup-cam.de/drmg/cams/",
     "lint": {
       "duplicate": true
     }
