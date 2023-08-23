@@ -8007,38 +8007,6 @@
     "url": "http://www.nienburg-in-bildern.de/index.php?bild=0"
   },
   {
-    "lat": 53.0781505,
-    "lon": 7.3948935,
-    "osmID": 2997621048,
-    "user": "wvdp",
-    "osmType": "node",
-    "lastChanged": 1679948388000,
-    "address": {
-      "city": "Papenburg",
-      "county": "Landkreis Emsland",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "285",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "http://www.schwanenapotheke-papenburg.de/webcam",
-      "description": "Blick von der Schwanen-Apotheke in die Stadtmitte. Rechts sehen Sie das Museumsschiff Friederike, links den Rathausvorplatz.",
-      "description:en": "View of the city center from the Schwanen pharmacy. On the right you can see the museum ship Friederike, on the left the town hall forecourt.",
-      "fixme": "the webcam is currently stuck in 2021",
-      "man_made": "surveillance",
-      "name": "Schwanen Apotheke webcam",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
-    "url": "http://www.schwanenapotheke-papenburg.de/webcam",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
     "lat": 52.6821988,
     "lon": 8.800448,
     "osmID": 2997649411,
@@ -8079,7 +8047,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://player.livespotting.com/?alias=PS_cab76&ch=LS_6862f"
+    "url": "https://player.livespotting.com/?alias=PS_cab76&ch=LS_6862f",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.9776608,
@@ -19450,7 +19421,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "http://verkehr.rlp.de/syncdata/cam/1360/thumb_640x480.jpg?"
+    "url": "http://verkehr.rlp.de/syncdata/cam/1360/thumb_640x480.jpg?",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.3617755,
@@ -24864,7 +24838,7 @@
     "osmID": 8841567944,
     "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1629794249000,
+    "lastChanged": 1692702975000,
     "address": {
       "city": "Seaford",
       "county": "East Sussex",
@@ -24875,7 +24849,7 @@
       "camera:direction": "210",
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "http://nsscseaford.ddns.net/view/viewer_index.shtml?id=530245",
+      "contact:webcam": "https://sailinginsussex.org/webcam/",
       "man_made": "surveillance",
       "name": "Newhaven and Seaford Sailing Club Webcam",
       "operator": "Newhaven and Seaford Sailing Club",
@@ -24884,10 +24858,7 @@
       "surveillance:zone": "beach"
     },
     "operator": "Newhaven and Seaford Sailing Club",
-    "url": "http://nsscseaford.ddns.net/view/viewer_index.shtml?id=530245",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://sailinginsussex.org/webcam/"
   },
   {
     "lat": 32.6809024,
@@ -27054,9 +27025,9 @@
     "lat": 48.4207101,
     "lon": 16.1597394,
     "osmID": 8911487045,
-    "user": "hlfan",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1641672085000,
+    "lastChanged": 1692703819000,
     "address": {
       "city": "Gemeinde Sierndorf",
       "county": "Bezirk Korneuburg",
@@ -27069,9 +27040,9 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.asfinag.at/verkehr-sicherheit/webcams?id=S003_004,720_0_00088393",
-      "description": "S3 - km 4,72",
       "height": "7",
       "man_made": "surveillance",
+      "name": "S3 bei Sierndorf, km 4,72",
       "operator": "ASFINAG",
       "surveillance": "traffic",
       "surveillance:type": "camera",
@@ -30655,7 +30626,7 @@
     "osmType": "node",
     "lastChanged": 1659949043000,
     "address": {
-      "city": "Gemeinde Wullersdorf",
+      "city": "Gemeinde Grabern",
       "county": "Bezirk Hollabrunn",
       "state": "Niederösterreich",
       "country": "Austria"
@@ -30707,9 +30678,9 @@
     "lat": 48.506791,
     "lon": 16.0972389,
     "osmID": 9403361707,
-    "user": "hlfan",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1641672085000,
+    "lastChanged": 1692703919000,
     "address": {
       "city": "Gemeinde Göllersdorf",
       "county": "Bezirk Hollabrunn",
@@ -30720,8 +30691,8 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.asfinag.at/verkehr-sicherheit/webcams?id=S003_016,380_0_00088413",
-      "description": "S3 - km 16,38",
       "man_made": "surveillance",
+      "name": "S3 bei Großstelzendorf, km 16,38",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -30782,71 +30753,12 @@
     }
   },
   {
-    "lat": 48.4984206,
-    "lon": 16.1055672,
-    "osmID": 9403373019,
-    "user": "hlfan",
-    "osmType": "node",
-    "lastChanged": 1641672085000,
-    "address": {
-      "city": "Gemeinde Göllersdorf",
-      "county": "Bezirk Hollabrunn",
-      "state": "Niederösterreich",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "camera:type": "fixed",
-      "contact:webcam": "www.asfinag.at",
-      "description": "S3 - km 15,25",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "www.asfinag.at",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true,
-      "invalidUrl": true
-    }
-  },
-  {
-    "lat": 48.4060926,
-    "lon": 16.1723657,
-    "osmID": 9403373021,
-    "user": "hlfan",
-    "osmType": "node",
-    "lastChanged": 1641672085000,
-    "address": {
-      "city": "Gemeinde Sierndorf",
-      "county": "Bezirk Korneuburg",
-      "state": "Niederösterreich",
-      "country": "Austria"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "www.asfinag.at",
-      "description": "S3 - km 2,8",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "www.asfinag.at",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true,
-      "invalidUrl": true
-    }
-  },
-  {
-    "lat": 48.3833392,
-    "lon": 16.1841113,
+    "lat": 48.3833615,
+    "lon": 16.1840757,
     "osmID": 9403373023,
-    "user": "hlfan",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1641672085000,
+    "lastChanged": 1692703568000,
     "address": {
       "city": "Gemeinde Stockerau",
       "county": "Bezirk Korneuburg",
@@ -30854,21 +30766,17 @@
       "country": "Austria"
     },
     "osmTags": {
+      "camera:direction": "150",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "www.asfinag.at",
-      "description": "S3 - km 0,03",
+      "contact:webcam": "https://www.asfinag.at/verkehr-sicherheit/webcams/?language=de&id=A022_029%2C500_0_00014883&tabActive=map",
       "man_made": "surveillance",
+      "name": "A22 bei Stockerau West, km 29,5",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "www.asfinag.at",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true,
-      "invalidUrl": true
-    }
+    "url": "https://www.asfinag.at/verkehr-sicherheit/webcams/?language=de&id=A022_029%2C500_0_00014883&tabActive=map"
   },
   {
     "lat": -33.7209427,
