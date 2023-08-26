@@ -3770,7 +3770,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=186437"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=186437"
+    "url": "http://webkamera.vegvesen.no/kamera?id=186437",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.7676924,
@@ -6813,7 +6816,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "http://www.die-stadtredaktion.de/webcam-heidelberg-blick-in-die-rheinebene/"
+    "url": "http://www.die-stadtredaktion.de/webcam-heidelberg-blick-in-die-rheinebene/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.3964802,
@@ -12925,9 +12931,9 @@
     "lat": 50.8463054,
     "lon": 4.3529973,
     "osmID": 4666307569,
-    "user": "Peter Maris",
+    "user": "cEvLGWiQ",
     "osmType": "node",
-    "lastChanged": 1650663507000,
+    "lastChanged": 1693000307000,
     "address": {
       "city": "Ville de Bruxelles - Stad Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
@@ -12936,7 +12942,7 @@
     "osmTags": {
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.brussels.be/webcam-grand-place",
+      "contact:webcam": "https://www.brussels.be/webcam-grand-place",
       "description": "The webcam at the Grand-Place of Brussels, with the City Hall at the left.",
       "description:es": "La cámara web en la Gran Plaza de Bruselas, con el ayuntamiento a la izquierda.",
       "man_made": "surveillance",
@@ -12951,7 +12957,7 @@
       "surveillance:zone": "area",
       "url:m3u8": "http://live.streamcloud.be/webbxl_live/_definst_/webcam.stream/playlist.m3u8"
     },
-    "url": "http://www.brussels.be/webcam-grand-place"
+    "url": "https://www.brussels.be/webcam-grand-place"
   },
   {
     "lat": 48.70736,
@@ -13451,7 +13457,7 @@
     "osmType": "node",
     "lastChanged": 1499435357000,
     "address": {
-      "city": "Pohlern",
+      "city": "Blumenstein",
       "county": "Verwaltungskreis Thun",
       "state": "Bern/Berne",
       "country": "Switzerland"
@@ -14453,7 +14459,7 @@
     "osmType": "node",
     "lastChanged": 1509741444000,
     "address": {
-      "city": "Eureka",
+      "city": "Wildwood",
       "county": "Saint Louis County",
       "state": "Missouri",
       "country": "United States of America"
@@ -15486,9 +15492,9 @@
     "lat": 50.8520565,
     "lon": 4.3533064,
     "osmID": 5614807641,
-    "user": "bxl-forever",
+    "user": "cEvLGWiQ",
     "osmType": "node",
-    "lastChanged": 1642075184000,
+    "lastChanged": 1693000302000,
     "address": {
       "city": "Ville de Bruxelles - Stad Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
@@ -15498,7 +15504,7 @@
       "camera:direction": "210",
       "camera:mount": "root",
       "camera:type": "fixed",
-      "contact:webcam": "http://www.bruxelles.be/webcam-place-de-brouckere",
+      "contact:webcam": "https://www.bruxelles.be/webcam-place-de-brouckere",
       "description": "The webcam is installed on the 5th floor of the Continental Hotel, where services of the City of Brussels are located.",
       "layer": "2",
       "level": "5",
@@ -15508,7 +15514,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "http://www.bruxelles.be/webcam-place-de-brouckere"
+    "url": "https://www.bruxelles.be/webcam-place-de-brouckere"
   },
   {
     "lat": 40.2733972,
@@ -19213,6 +19219,7 @@
     "lastChanged": 1593281579000,
     "address": {
       "city": "Mirkovice",
+      "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
     },
@@ -23722,7 +23729,7 @@
     "osmType": "node",
     "lastChanged": 1619517952000,
     "address": {
-      "city": "Sankt Englmar",
+      "city": "Klinglbach",
       "county": "Landkreis Straubing-Bogen",
       "state": "Bayern",
       "country": "Germany"
@@ -25697,7 +25704,7 @@
     "osmType": "node",
     "lastChanged": 1642204413000,
     "address": {
-      "city": "Papanui-Innes Community",
+      "city": "Christchurch",
       "county": "Christchurch City",
       "state": "Canterbury",
       "country": "New Zealand"
@@ -25729,7 +25736,7 @@
     "osmType": "node",
     "lastChanged": 1681597418000,
     "address": {
-      "city": "Papanui-Innes Community",
+      "city": "Christchurch",
       "county": "Christchurch City",
       "state": "Canterbury",
       "country": "New Zealand"
@@ -28435,7 +28442,7 @@
     "osmType": "node",
     "lastChanged": 1632584263000,
     "address": {
-      "county": "Allegany County",
+      "county": "Garrett County",
       "state": "Maryland",
       "country": "United States of America"
     },
@@ -29616,7 +29623,7 @@
     "osmType": "node",
     "lastChanged": 1632618868000,
     "address": {
-      "county": "Frederick County",
+      "county": "Carroll County",
       "state": "Maryland",
       "country": "United States of America"
     },
@@ -37280,7 +37287,7 @@
     "osmType": "node",
     "lastChanged": 1671440053000,
     "address": {
-      "city": "Fanano",
+      "city": "Sestola",
       "county": "Modena",
       "state": "Emilia-Romagna",
       "country": "Italy"
@@ -40084,7 +40091,7 @@
     "osmType": "node",
     "lastChanged": 1687968646000,
     "address": {
-      "city": "Jiřice",
+      "city": "Humpolec",
       "county": "Kraj Vysočina",
       "state": "Jihovýchod",
       "country": "Czech Republic"
