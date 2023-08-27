@@ -111,12 +111,18 @@
     "expires": 1693826696
   },
   "-28.0859656,153.4259152": {
-    "place_id": 350392785,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 41655771,
-    "lat": "-28.085978404534046",
-    "lon": "153.4258874373357",
+    "place_id": 96613068,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9398089998,
+    "lat": "-28.0859656",
+    "lon": "153.4259152",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Bermuda Street, Burleigh Waters, Gold Coast City, Queensland, 4220, Australia",
     "address": {
       "road": "Bermuda Street",
@@ -130,21 +136,21 @@
       "country_code": "au"
     },
     "extratags": {
-      "lanes": "2",
-      "oneway": "yes",
-      "bicycle": "yes",
-      "network": "AU:QLD:S",
-      "surface": "asphalt",
-      "maxspeed": "80",
-      "cycleway:left": "lane"
+      "camera:type": "fixed",
+      "camera:mount": "traffic_signals",
+      "surveillance": "traffic",
+      "contact:webcam": "https://qldtraffic.qld.gov.au/cameras.html",
+      "camera:direction": "330",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "-28.0860319",
-      "-28.0858736",
-      "153.4258391",
-      "153.4259114"
+      "-28.0860156",
+      "-28.0859156",
+      "153.4258652",
+      "153.4259652"
     ],
-    "expires": 1693034777
+    "expires": 1694367162
   },
   "-28.1483161,151.9453553": {
     "place_id": 150269798,
@@ -780,12 +786,18 @@
     "expires": 1693222201
   },
   "-36.3809748,148.3865515": {
-    "place_id": 263568789,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 263132413,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 813514010,
     "lat": "-36.380839800000004",
     "lon": "148.38622205700935",
+    "class": "emergency",
+    "type": "mountain_rescue",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "emergency",
+    "name": "Ski Patrol",
     "display_name": "Ski Patrol, Guthega Road, Guthega, Snowy Monaro Regional Council, New South Wales, 2624, Australia",
     "address": {
       "emergency": "Ski Patrol",
@@ -798,14 +810,14 @@
       "country": "Australia",
       "country_code": "au"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "-36.3808624",
       "-36.3808181",
       "148.3862032",
       "148.3862419"
     ],
-    "expires": 1693041047
+    "expires": 1694402223
   },
   "-36.3858533,148.3930181": {
     "place_id": 162502776,
@@ -887,16 +899,21 @@
     "expires": 1694193934
   },
   "-36.4020262,148.4147128": {
-    "place_id": 253819715,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 162271850,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 755013604,
-    "lat": "-36.40386418264063",
-    "lon": "148.41540897282158",
-    "display_name": "Kosciuszko Road, Smiggin Holes, Perisher Valley, Snowy Monaro Regional Council, New South Wales, 2624, Australia",
+    "osm_id": 231158830,
+    "lat": "-36.403996250000006",
+    "lon": "148.4135356530339",
+    "class": "amenity",
+    "type": "parking",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Kosciuszko Road, Perisher Valley, Snowy Monaro Regional Council, New South Wales, 2624, Australia",
     "address": {
       "road": "Kosciuszko Road",
-      "hamlet": "Smiggin Holes",
       "village": "Perisher Valley",
       "municipality": "Snowy Monaro Regional Council",
       "state": "New South Wales",
@@ -906,18 +923,15 @@
       "country_code": "au"
     },
     "extratags": {
-      "lanes": "2",
-      "surface": "asphalt",
-      "maxspeed": "80",
-      "maxspeed:conditional": "60 @ (Jun-Oct)"
+      "surface": "asphalt"
     },
     "boundingbox": [
-      "-36.4038883",
-      "-36.3944398",
-      "148.4153453",
-      "148.4271282"
+      "-36.4048662",
+      "-36.4031770",
+      "148.4120838",
+      "148.4152178"
     ],
-    "expires": 1693044482
+    "expires": 1694248343
   },
   "-36.4025073,148.4046009": {
     "place_id": 263310840,
@@ -1239,15 +1253,20 @@
     "expires": 1694182233
   },
   "-4.442774,39.536449": {
-    "place_id": 44626719,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 57154525,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 3765792090,
-    "lat": "-4.4428182",
-    "lon": "39.5364304",
-    "display_name": "The Sands at Chale Island, Island Road, Kwale, Coastal Kenya, Kenya",
+    "osm_id": 5115198551,
+    "lat": "-4.442774",
+    "lon": "39.536449",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Island Road, Kwale, Coastal Kenya, Kenya",
     "address": {
-      "tourism": "The Sands at Chale Island",
       "road": "Island Road",
       "state": "Kwale",
       "ISO3166-2-lvl4": "KE-19",
@@ -1255,14 +1274,22 @@
       "country": "Kenya",
       "country_code": "ke"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.chale-eye.com/",
+      "camera:direction": "45",
+      "surveillance:type": "camera",
+      "surveillance:zone": "beach"
+    },
     "boundingbox": [
-      "-4.4428682",
-      "-4.4427682",
-      "39.5363804",
-      "39.5364804"
+      "-4.4428240",
+      "-4.4427240",
+      "39.5363990",
+      "39.5364990"
     ],
-    "expires": 1693089975
+    "expires": 1694347097
   },
   "-40.5739727,-73.1360033": {
     "place_id": 84458427,
@@ -1505,23 +1532,30 @@
     "expires": 1693158577
   },
   "-43.4747918,172.6305362": {
-    "place_id": 91363068,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 92562397,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8894152444,
     "lat": "-43.4747918",
     "lon": "172.6305362",
-    "display_name": "SH74 Prestons Rd, Christchurch Northern Corridor, Redwood, Papanui-Innes Community, Christchurch City, Canterbury, 8051, New Zealand/Aotearoa",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "SH74 Prestons Rd",
+    "display_name": "SH74 Prestons Rd, Christchurch Northern Corridor, Redwood, Papanui-Innes Community, Christchurch, Christchurch City, Canterbury, 8051, New Zealand / Aotearoa",
     "address": {
       "man_made": "SH74 Prestons Rd",
       "road": "Christchurch Northern Corridor",
       "suburb": "Redwood",
-      "city": "Papanui-Innes Community",
+      "city_district": "Papanui-Innes Community",
+      "city": "Christchurch",
       "county": "Christchurch City",
       "state": "Canterbury",
       "ISO3166-2-lvl4": "NZ-CAN",
       "postcode": "8051",
-      "country": "New Zealand/Aotearoa",
+      "country": "New Zealand / Aotearoa",
       "country_code": "nz"
     },
     "extratags": {
@@ -1540,7 +1574,7 @@
       "172.6304862",
       "172.6305862"
     ],
-    "expires": 1693069256
+    "expires": 1694362632
   },
   "-43.485345,172.630821": {
     "place_id": 92632426,
@@ -1581,42 +1615,41 @@
     "expires": 1693148179
   },
   "-43.4865793,172.6286696": {
-    "place_id": 91591400,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8894152443,
-    "lat": "-43.4865793",
-    "lon": "172.6286696",
-    "display_name": "SH74 QEII Dr Roundabout South, Shared Path, Redwood, Papanui-Innes Community, Christchurch City, Canterbury, 8052, New Zealand/Aotearoa",
+    "place_id": 299027154,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 12810102,
+    "lat": "-43.48658775",
+    "lon": "172.62854449248698",
+    "class": "leisure",
+    "type": "garden",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "leisure",
+    "name": "",
+    "display_name": "Queen Elizabeth II Drive, Redwood, Papanui-Innes Community, Christchurch, Christchurch City, Canterbury, 8052, New Zealand / Aotearoa",
     "address": {
-      "man_made": "SH74 QEII Dr Roundabout South",
-      "road": "Shared Path",
+      "road": "Queen Elizabeth II Drive",
       "suburb": "Redwood",
-      "city": "Papanui-Innes Community",
+      "city_district": "Papanui-Innes Community",
+      "city": "Christchurch",
       "county": "Christchurch City",
       "state": "Canterbury",
       "ISO3166-2-lvl4": "NZ-CAN",
       "postcode": "8052",
-      "country": "New Zealand/Aotearoa",
+      "country": "New Zealand / Aotearoa",
       "country_code": "nz"
     },
     "extratags": {
-      "camera:type": "panning",
-      "description": "South along SH74 Queen Elizabeth II Dr northbound off-ramp",
-      "camera:mount": "pole",
-      "surveillance": "traffic",
-      "contact:webcam": "https://trafficnz.info/camera/782.jpg",
-      "camera:direction": "180",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
+      "garden:type": "landscaping"
     },
     "boundingbox": [
-      "-43.4866293",
-      "-43.4865293",
-      "172.6286196",
-      "172.6287196"
+      "-43.4874161",
+      "-43.4857233",
+      "172.6264406",
+      "172.6290280"
     ],
-    "expires": 1693039710
+    "expires": 1694256230
   },
   "-43.5307487,172.5678847": {
     "place_id": 91427215,
@@ -2681,15 +2714,20 @@
     "expires": 1693211359
   },
   "34.1665739,132.1787434": {
-    "place_id": 60759081,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 88349837,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 5603015832,
-    "lat": "34.1659696",
-    "lon": "132.1784362",
-    "display_name": "ﾊﾞｽ駐車場, 藤生停車場錦帯橋線, 岩国一丁目, 岩国市, 山口県, 741-0082, 日本",
+    "osm_id": 8649594633,
+    "lat": "34.1665739",
+    "lon": "132.1787434",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "藤生停車場錦帯橋線, 岩国一丁目, 岩国市, 山口県, 741-0082, 日本",
     "address": {
-      "tourism": "ﾊﾞｽ駐車場",
       "road": "藤生停車場錦帯橋線",
       "neighbourhood": "岩国一丁目",
       "city": "岩国市",
@@ -2699,22 +2737,36 @@
       "country": "日本",
       "country_code": "jp"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "panning",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "http://202.87.238.166/live/index.html?Language=0&ViewMode=pull",
+      "camera:direction": "320",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
     "boundingbox": [
-      "34.1659196",
-      "34.1660196",
-      "132.1783862",
-      "132.1784862"
+      "34.1665239",
+      "34.1666239",
+      "132.1786934",
+      "132.1787934"
     ],
-    "expires": 1693107955
+    "expires": 1694347377
   },
   "34.2629015,-116.950997": {
-    "place_id": 76442955,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 76461461,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 7223465096,
     "lat": "34.2629015",
     "lon": "-116.950997",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Big Bear Bald Eagle Cam",
     "display_name": "Big Bear Bald Eagle Cam, Pine Hill Drive, San Bernardino County, California, 92333, United States",
     "address": {
       "man_made": "Big Bear Bald Eagle Cam",
@@ -2740,10 +2792,10 @@
     "boundingbox": [
       "34.2628515",
       "34.2629515",
-      "-116.951047",
-      "-116.950947"
+      "-116.9510470",
+      "-116.9509470"
     ],
-    "expires": 1693097775
+    "expires": 1694350139
   },
   "34.7975444,131.1312332": {
     "place_id": 80354006,
@@ -2822,15 +2874,21 @@
     "expires": 1694222697
   },
   "35.1972767,-111.649242": {
-    "place_id": 154475623,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 203321195,
-    "lat": "35.1973507",
-    "lon": "-111.64930292815765",
-    "display_name": "Flagstaff Visitor Center, 1, East Route 66, Downtown Flagstaff, Flagstaff, Coconino County, Arizona, 86004, United States",
+    "place_id": 81274099,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8063949086,
+    "lat": "35.1972767",
+    "lon": "-111.649242",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Flagstaff, Arizona - West",
+    "display_name": "Flagstaff, Arizona - West, 1, East Route 66, Downtown Flagstaff, Flagstaff, Coconino County, Arizona, 86004, United States",
     "address": {
-      "tourism": "Flagstaff Visitor Center",
+      "man_made": "Flagstaff, Arizona - West",
       "house_number": "1",
       "road": "East Route 66",
       "neighbourhood": "Downtown Flagstaff",
@@ -2843,15 +2901,23 @@
       "country_code": "us"
     },
     "extratags": {
-      "information": "office"
+      "operator": "Virtual Railfan",
+      "camera:type": "dome",
+      "description": "Flagstaff, Arizona, in Northern Arizona, is located on the BNSF Railway's Seligman Subdivision at milepost 344.2.  The Seligman Sub is part of their Southern Transcon, the former Atchison, Topeka & Santa Fe Railway (AT&SF) mainline between Chicago and Los",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.youtube.com/watch?v=88qbtT74hJQ",
+      "camera:direction": "250",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "35.1972619",
-      "35.1974471",
-      "-111.6495044",
-      "-111.6491531"
+      "35.1972267",
+      "35.1973267",
+      "-111.6492920",
+      "-111.6491920"
     ],
-    "expires": 1693081117
+    "expires": 1694290244
   },
   "35.2488253,-82.208155": {
     "place_id": 81820848,
@@ -3947,17 +4013,23 @@
     "expires": 1694102418
   },
   "37.2274238,-80.4112287": {
-    "place_id": 119396758,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 54788999,
-    "lat": "37.2271805",
-    "lon": "-80.41117199556732",
-    "display_name": "Clay Court, South Main Street, Miller Addition, Blacksburg, Montgomery County, Virginia, 24063, United States",
+    "place_id": 17282573,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1916625046,
+    "lat": "37.2274238",
+    "lon": "-80.4112287",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Clay Street, Windsor Hills, Kessler Park, Blacksburg, Montgomery County, Virginia, 24063, United States",
     "address": {
-      "building": "Clay Court",
-      "road": "South Main Street",
-      "hamlet": "Miller Addition",
+      "road": "Clay Street",
+      "residential": "Windsor Hills",
+      "hamlet": "Kessler Park",
       "city": "Blacksburg",
       "county": "Montgomery County",
       "state": "Virginia",
@@ -3966,14 +4038,18 @@
       "country": "United States",
       "country_code": "us"
     },
-    "extratags": {},
+    "extratags": {
+      "website": "http://livefromtheburg.com/camera/",
+      "operator": "Colin Lord",
+      "surveillance": "webcam"
+    },
     "boundingbox": [
-      "37.2268367",
-      "37.2274873",
-      "-80.4115578",
-      "-80.4107869"
+      "37.2273738",
+      "37.2274738",
+      "-80.4112787",
+      "-80.4111787"
     ],
-    "expires": 1693054964
+    "expires": 1694274512
   },
   "37.2275052,-80.4200614": {
     "place_id": 17222667,
@@ -5282,14 +5358,21 @@
     "expires": 1693516157
   },
   "38.9144371,1.224931": {
-    "place_id": 273929090,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 889373020,
-    "lat": "38.91435057664977",
-    "lon": "1.2248630604655775",
-    "display_name": "Cala Vedella, Sant Josep de sa Talaia, Eivissa, Illes Balears, España",
+    "place_id": 96753008,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9465392117,
+    "lat": "38.9144371",
+    "lon": "1.224931",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Carrer Castelldefels, Cala Vedella, Sant Josep de sa Talaia, Eivissa, Illes Balears, España",
     "address": {
+      "road": "Carrer Castelldefels",
       "village": "Cala Vedella",
       "municipality": "Sant Josep de sa Talaia",
       "county": "Eivissa",
@@ -5300,14 +5383,21 @@
       "country": "España",
       "country_code": "es"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.skylinewebcams.com/es/webcam/espana/islas-baleares/ibiza/cala-vadella.html",
+      "camera:direction": "240",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "38.9139756",
-      "38.9144745",
-      "1.2246024",
-      "1.2251916"
+      "38.9143871",
+      "38.9144871",
+      "1.2248810",
+      "1.2249810"
     ],
-    "expires": 1693084727
+    "expires": 1694370248
   },
   "38.9716358,-95.3260584": {
     "place_id": 353105861,
@@ -5520,12 +5610,18 @@
     "expires": 1694172427
   },
   "39.0129118,1.5860206": {
-    "place_id": 258905338,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 784602721,
-    "lat": "39.012644",
-    "lon": "1.5851721",
+    "place_id": 96506261,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9465376226,
+    "lat": "39.0129118",
+    "lon": "1.5860206",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Carrer des Vedranell, Cala Llenya, Santa Eulària des Riu, Eivissa, Illes Balears, 07850, España",
     "address": {
       "road": "Carrer des Vedranell",
@@ -5538,14 +5634,21 @@
       "country": "España",
       "country_code": "es"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.guenthoer.de/ibiza/",
+      "camera:direction": "330",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "39.0120566",
-      "39.0139528",
-      "1.583611",
-      "1.5851721"
+      "39.0128618",
+      "39.0129618",
+      "1.5859706",
+      "1.5860706"
     ],
-    "expires": 1693068352
+    "expires": 1694409259
   },
   "39.0830042,-94.6066563": {
     "place_id": 44603721,
@@ -5798,12 +5901,18 @@
     "expires": 1694127727
   },
   "39.2769915,-77.3233063": {
-    "place_id": 293422796,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 1040498000,
-    "lat": "39.27714837104113",
-    "lon": "-77.32311876742415",
+    "place_id": 94200709,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9123010829,
+    "lat": "39.2769915",
+    "lon": "-77.3233063",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Eisenhower Memorial Highway, Hyattstown, Montgomery County, Maryland, United States",
     "address": {
       "road": "Eisenhower Memorial Highway",
@@ -5815,22 +5924,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "hgv": "designated",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "2",
-      "oneway": "yes",
-      "bicycle": "no",
-      "maxspeed": "65 mph",
-      "access_control": "full"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=2100d19c00cc00180053fa36c4235c0a",
+      "camera:direction": "20",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "39.2661647",
-      "39.2773826",
-      "-77.3233147",
-      "-77.3133142"
+      "39.2769415",
+      "39.2770415",
+      "-77.3233563",
+      "-77.3232563"
     ],
-    "expires": 1693066222
+    "expires": 1694304203
   },
   "39.2774532,-77.323643": {
     "place_id": 94545020,
@@ -6040,12 +6148,18 @@
     "expires": 1694203068
   },
   "39.3595689,-77.1665675": {
-    "place_id": 119575564,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 51378745,
-    "lat": "39.35942094715669",
-    "lon": "-77.16655122149457",
+    "place_id": 94882009,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9123337275,
+    "lat": "39.3595689",
+    "lon": "-77.1665675",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "I 70;US 40, Bennett Manor, Carroll County, Maryland, 21771, United States",
     "address": {
       "road": "I 70;US 40",
@@ -6058,23 +6172,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "hgv": "designated",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "3",
-      "layer": "1",
-      "oneway": "yes",
-      "bicycle": "no",
-      "maxspeed": "70 mph",
-      "access_control": "full"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=d101293e01510065005dd336c4235c0a",
+      "camera:direction": "100",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "39.3593922",
-      "39.359498",
-      "-77.1668125",
-      "-77.1658509"
+      "39.3595189",
+      "39.3596189",
+      "-77.1666175",
+      "-77.1665175"
     ],
-    "expires": 1693105489
+    "expires": 1694306204
   },
   "39.3595695,-77.1675735": {
     "place_id": 93923076,
@@ -6117,12 +6229,18 @@
     "expires": 1694238090
   },
   "39.3749673,-77.2286203": {
-    "place_id": 295218528,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 1040752362,
-    "lat": "39.37485975883426",
-    "lon": "-77.22865452912608",
+    "place_id": 94616714,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9123010828,
+    "lat": "39.3749673",
+    "lon": "-77.2286203",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "I 70;US 40, Green Valley, Frederick County, Maryland, 21174, United States",
     "address": {
       "road": "I 70;US 40",
@@ -6135,27 +6253,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "hgv": "designated",
-      "lit": "no",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "3",
-      "oneway": "yes",
-      "bicycle": "no",
-      "surface": "asphalt",
-      "maxspeed": "70 mph",
-      "sidewalk": "no",
-      "turn:lanes": "||through;slight_right",
-      "access_control": "full",
-      "destination:lanes": "||none;Libertytown;Hyattstown"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=1101dd5c00fa0006005bfa36c4235c0a",
+      "camera:direction": "280",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "39.3674429",
-      "39.3803413",
-      "-77.2529684",
-      "-77.1964312"
+      "39.3749173",
+      "39.3750173",
+      "-77.2286703",
+      "-77.2285703"
     ],
-    "expires": 1693064541
+    "expires": 1694244672
   },
   "39.39763,-77.4219065": {
     "place_id": 94570018,
@@ -9345,16 +9457,21 @@
     "expires": 1694137255
   },
   "39.6473193,2.7781853": {
-    "place_id": 179251172,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 304606737,
-    "lat": "39.64728315000001",
-    "lon": "2.778215011153394",
-    "display_name": "Ca s'Apotecari, plaça de la Vila, sa Vileta, Can Borralló, Santa Maria del Camí, Raiguer, Illes Balears, 07320, España",
+    "place_id": 96974836,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9465570430,
+    "lat": "39.6473193",
+    "lon": "2.7781853",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Carrer d'Olesa, sa Vileta, Can Borralló, Santa Maria del Camí, Raiguer, Illes Balears, 07320, España",
     "address": {
-      "tourism": "Ca s'Apotecari",
-      "road": "plaça de la Vila",
+      "road": "Carrer d'Olesa",
       "neighbourhood": "sa Vileta",
       "suburb": "Can Borralló",
       "town": "Santa Maria del Camí",
@@ -9368,21 +9485,20 @@
       "country_code": "es"
     },
     "extratags": {
-      "fee": "no",
-      "height": "8.5",
-      "smoking": "outside",
-      "operator": "Ajuntament de Santa Maria del Camí",
-      "wikidata": "Q31074672",
-      "wikipedia": "ca:Ca s'Apotecari",
-      "operator:type": "government"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "https://livecam-pro.com/mallorca-santa-maria-vistas.html",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "39.647202",
-      "39.6473591",
-      "2.7781021",
-      "2.778331"
+      "39.6472693",
+      "39.6473693",
+      "2.7781353",
+      "2.7782353"
     ],
-    "expires": 1693049415
+    "expires": 1694295845
   },
   "39.6483552,-78.7470639": {
     "place_id": 94456387,
@@ -9547,12 +9663,18 @@
     "expires": 1694153757
   },
   "39.6527037,-79.4391201": {
-    "place_id": 185357817,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 332381139,
-    "lat": "39.65256405263053",
-    "lon": "-79.43912183302714",
+    "place_id": 93615443,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9085058911,
+    "lat": "39.6527037",
+    "lon": "-79.4391201",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Noah Frazee Road, Locust Grove, Garrett County, Maryland, 21531, United States",
     "address": {
       "road": "Noah Frazee Road",
@@ -9564,14 +9686,22 @@
       "country": "United States",
       "country_code": "us"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=89006627008a00be005ed336c4235c0a",
+      "camera:direction": "45",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
     "boundingbox": [
-      "39.65256",
-      "39.6535079",
-      "-79.4596939",
-      "-79.4387955"
+      "39.6526537",
+      "39.6527537",
+      "-79.4391701",
+      "-79.4390701"
     ],
-    "expires": 1693092090
+    "expires": 1694342009
   },
   "39.6543977,-105.181479": {
     "place_id": 63792264,
@@ -10182,12 +10312,18 @@
     "expires": 1693219465
   },
   "39.6929454,-79.2517406": {
-    "place_id": 144757839,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 166994743,
-    "lat": "39.69176828632411",
-    "lon": "-79.25244493189793",
+    "place_id": 94120843,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9122649086,
+    "lat": "39.6929454",
+    "lon": "-79.2517406",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "National Freeway, Garrett County, Maryland, United States",
     "address": {
       "road": "National Freeway",
@@ -10198,22 +10334,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "hgv": "designated",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "2",
-      "oneway": "yes",
-      "bicycle": "no",
-      "maxspeed": "70 mph",
-      "access_control": "full"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=0e0109d100f1003d00471536ea235d0a",
+      "camera:direction": "280",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "39.6905897",
-      "39.6984953",
-      "-79.2826606",
-      "-79.2506753"
+      "39.6928954",
+      "39.6929954",
+      "-79.2517906",
+      "-79.2516906"
     ],
-    "expires": 1693041627
+    "expires": 1694390698
   },
   "39.6945071,-79.3407287": {
     "place_id": 93835614,
@@ -10753,12 +10888,18 @@
     "expires": 1694236540
   },
   "39.7141763,-78.611563": {
-    "place_id": 145888590,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 169267026,
-    "lat": "39.714288687219174",
-    "lon": "-78.61156054935255",
+    "place_id": 94363951,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9122895405,
+    "lat": "39.7141763",
+    "lon": "-78.611563",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "National Freeway, Allegany County, Maryland, 21530, United States",
     "address": {
       "road": "National Freeway",
@@ -10770,22 +10911,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "hgv": "designated",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "2",
-      "oneway": "yes",
-      "bicycle": "no",
-      "maxspeed": "70 mph",
-      "access_control": "full"
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=f300e11b007e00c8005bd336c4235c0a",
+      "camera:direction": "60",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "39.704752",
-      "39.7142911",
-      "-78.6274413",
-      "-78.6112447"
+      "39.7141263",
+      "39.7142263",
+      "-78.6116130",
+      "-78.6115130"
     ],
-    "expires": 1693067652
+    "expires": 1694256745
   },
   "39.7149597,-78.2802551": {
     "place_id": 94580363,
@@ -10911,16 +11051,21 @@
     "expires": 1694077044
   },
   "39.7356484,3.2725984": {
-    "place_id": 267660814,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 839395384,
-    "lat": "39.735611750000004",
-    "lon": "3.272603366261068",
-    "display_name": "villa Català, Avinguda de Montferrutx, Montferrutx, Colònia de Sant Pere, Artà, Llevant, Illes Balears, 07579, España",
+    "place_id": 96865628,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9463523190,
+    "lat": "39.7356484",
+    "lon": "3.2725984",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Camí de s'Estanyol, Montferrutx, Colònia de Sant Pere, Artà, Llevant, Illes Balears, 07579, España",
     "address": {
-      "building": "villa Català",
-      "road": "Avinguda de Montferrutx",
+      "road": "Camí de s'Estanyol",
       "neighbourhood": "Montferrutx",
       "village": "Colònia de Sant Pere",
       "town": "Artà",
@@ -10933,14 +11078,20 @@
       "country": "España",
       "country_code": "es"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "dome",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.ibred.es/avista/camara-colonia-de-sant-pere/",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "39.7355066",
-      "39.7357222",
-      "3.2725495",
-      "3.2727999"
+      "39.7355984",
+      "39.7356984",
+      "3.2725484",
+      "3.2726484"
     ],
-    "expires": 1693027649
+    "expires": 1694314971
   },
   "39.7457773,3.4315972": {
     "place_id": 97002637,
@@ -11345,15 +11496,20 @@
     "expires": 1694125114
   },
   "39.7976743,2.691287": {
-    "place_id": 225755800,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 573738059,
-    "lat": "39.79774155",
-    "lon": "2.691523223653668",
-    "display_name": "oratori de Santa Caterina, plaça de Santa Caterina, Urbanització es Través, Port de Sóller, Sóller, Serra de Tramuntana, Illes Balears, 07108, España",
+    "place_id": 96510056,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9463434538,
+    "lat": "39.7976743",
+    "lon": "2.691287",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "plaça de Santa Caterina, Urbanització es Través, Port de Sóller, Sóller, Serra de Tramuntana, Illes Balears, 07108, España",
     "address": {
-      "building": "oratori de Santa Caterina",
       "road": "plaça de Santa Caterina",
       "neighbourhood": "Urbanització es Través",
       "village": "Port de Sóller",
@@ -11365,14 +11521,21 @@
       "country": "España",
       "country_code": "es"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.clubnauticsoller.es/imag/webcamHD.jpg",
+      "camera:direction": "330",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "39.7976307",
-      "39.7978851",
-      "2.6913131",
-      "2.6916371"
+      "39.7976243",
+      "39.7977243",
+      "2.6912370",
+      "2.6913370"
     ],
-    "expires": 1693064587
+    "expires": 1694387691
   },
   "39.7991387,-86.0269109": {
     "place_id": 57137232,
@@ -12007,12 +12170,18 @@
     "expires": 1694005381
   },
   "40.0291012,-92.4938428": {
-    "place_id": 40119284,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 41211120,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 3211647590,
     "lat": "40.0291012",
     "lon": "-92.4938428",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "La Plata East, Missouri, USA",
     "display_name": "La Plata East, Missouri, USA, West Cleveland Street, La Plata, Macon County, Missouri, 63549, United States",
     "address": {
       "man_made": "La Plata East, Missouri, USA",
@@ -12041,7 +12210,7 @@
       "-92.4938928",
       "-92.4937928"
     ],
-    "expires": 1693070919
+    "expires": 1694393063
   },
   "40.0299373,-92.4900252": {
     "place_id": 73332448,
@@ -12289,12 +12458,18 @@
     "expires": 1694048993
   },
   "40.6981536,-73.9942718": {
-    "place_id": 83996020,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 83943777,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8435194094,
     "lat": "40.6981536",
     "lon": "-73.9942718",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Brooklyn Bridge & Manhattan cam",
     "display_name": "Brooklyn Bridge & Manhattan cam, 111, Hicks Street, Brooklyn, Kings County, City of New York, New York, 11201, United States",
     "address": {
       "man_made": "Brooklyn Bridge & Manhattan cam",
@@ -12323,15 +12498,21 @@
       "-73.9943218",
       "-73.9942218"
     ],
-    "expires": 1693057086
+    "expires": 1694373936
   },
   "40.7563936,-73.9864196": {
-    "place_id": 85260722,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 84702561,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8435183091,
     "lat": "40.7563936",
     "lon": "-73.9864196",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Times Square North View",
     "display_name": "Times Square North View, Times Square, Theater District, Manhattan, New York County, City of New York, New York, 10036, United States",
     "address": {
       "man_made": "Times Square North View",
@@ -12360,7 +12541,7 @@
       "-73.9864696",
       "-73.9863696"
     ],
-    "expires": 1693077642
+    "expires": 1694392101
   },
   "40.759315,-73.9853172": {
     "place_id": 84163626,
@@ -12824,12 +13005,18 @@
     "expires": 1693840464
   },
   "41.4070696,14.6184241": {
-    "place_id": 99218612,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 336540491,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9865911819,
     "lat": "41.4070696",
     "lon": "14.6184241",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Sepino - Piazza",
     "display_name": "Sepino - Piazza, SP 94, Macchie di Sepino, Sepino, Campobasso, Molise, 86017, Italia",
     "address": {
       "man_made": "Sepino - Piazza",
@@ -12859,7 +13046,7 @@
       "14.6183741",
       "14.6184741"
     ],
-    "expires": 1693091823
+    "expires": 1694276097
   },
   "41.4091395,-81.5072076": {
     "place_id": 363344463,
@@ -13697,12 +13884,18 @@
     "expires": 1693284817
   },
   "41.7478824,14.5096201": {
-    "place_id": 100100760,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 336540493,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9865911821,
     "lat": "41.7478824",
     "lon": "14.5096201",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Salcito",
     "display_name": "Salcito, Via Garibaldi, Salcito, Campobasso, Molise, 86026, Italia",
     "address": {
       "man_made": "Salcito",
@@ -13731,7 +13924,7 @@
       "14.5095701",
       "14.5096701"
     ],
-    "expires": 1693095957
+    "expires": 1694255139
   },
   "41.7523857,-70.5926937": {
     "place_id": 367583836,
@@ -14226,12 +14419,18 @@
     "expires": 1694068735
   },
   "42.0148946,-93.6988024": {
-    "place_id": 69356514,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 69608394,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 6533530058,
     "lat": "42.0148946",
     "lon": "-93.6988024",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "AMTV12",
     "display_name": "AMTV12, Y Avenue, Boone County, Iowa, 50248, United States",
     "address": {
       "man_made": "AMTV12",
@@ -14258,7 +14457,7 @@
       "-93.6988524",
       "-93.6987524"
     ],
-    "expires": 1693101071
+    "expires": 1694286111
   },
   "42.0226611,-93.7244889": {
     "place_id": 70056175,
@@ -14510,12 +14709,18 @@
     "expires": 1694253020
   },
   "42.2329637,-82.9854323": {
-    "place_id": 52333394,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 52859775,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4606504535,
     "lat": "42.2329637",
     "lon": "-82.9854323",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Hwy 401 near Highway #3",
     "display_name": "Hwy 401 near Highway #3, Outer Drive, Tecumseh, Essex County, Southwestern Ontario, Ontario, N9G 3A4, Canada",
     "address": {
       "man_made": "Hwy 401 near Highway #3",
@@ -14542,7 +14747,7 @@
       "-82.9854823",
       "-82.9853823"
     ],
-    "expires": 1693103150
+    "expires": 1694252588
   },
   "42.2351641,-82.9834603": {
     "place_id": 52726044,
@@ -14752,12 +14957,18 @@
     "expires": 1694167987
   },
   "42.2506147,-82.9966289": {
-    "place_id": 52056033,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 53021316,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4610934633,
     "lat": "42.2506147",
     "lon": "-82.9966289",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Dougall Parkway near Howard Ave.",
     "display_name": "Dougall Parkway near Howard Ave., Dougall Parkway, South Windsor, Windsor, Southwestern Ontario, Ontario, N9G 1A4, Canada",
     "address": {
       "man_made": "Dougall Parkway near Howard Ave.",
@@ -14785,7 +14996,7 @@
       "-82.9966789",
       "-82.9965789"
     ],
-    "expires": 1693049327
+    "expires": 1694377120
   },
   "42.2511259,-83.0349882": {
     "place_id": 52172486,
@@ -15604,16 +15815,22 @@
     "expires": 1693921013
   },
   "42.3043172,-83.0656698": {
-    "place_id": 299348263,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 9674137,
-    "lat": "42.305201350000004",
-    "lon": "-83.06649144027972",
-    "display_name": "University of Windsor, Rankin Avenue, Windsor, Southwestern Ontario, Ontario, N9B 1K3, Canada",
+    "place_id": 52757452,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4605768817,
+    "lat": "42.3043172",
+    "lon": "-83.0656698",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Patricia Road near Wyandotte Street",
+    "display_name": "Patricia Road near Wyandotte Street, Wyandotte Street West, Windsor, Southwestern Ontario, Ontario, N9B 1K3, Canada",
     "address": {
-      "amenity": "University of Windsor",
-      "road": "Rankin Avenue",
+      "man_made": "Patricia Road near Wyandotte Street",
+      "road": "Wyandotte Street West",
       "city": "Windsor",
       "county": "Windsor",
       "state_district": "Southwestern Ontario",
@@ -15624,23 +15841,33 @@
       "country_code": "ca"
     },
     "extratags": {
-      "wikidata": "Q2065769"
+      "operator": "City of Windsor",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "http://www.mto.gov.on.ca/english/traveller/compass/camera/pictures/LondonCamera/windsor/loc01.jpg",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "42.2959613",
-      "42.3106105",
-      "-83.0701688",
-      "-83.0591553"
+      "42.3042672",
+      "42.3043672",
+      "-83.0657198",
+      "-83.0656198"
     ],
-    "expires": 1693080600
+    "expires": 1694373432
   },
   "42.312457,-83.0336229": {
-    "place_id": 51926308,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 52799684,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4606504527,
     "lat": "42.312457",
     "lon": "-83.0336229",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Goyeau near Elliot",
     "display_name": "Goyeau near Elliot, Elliott Street East, Windsor, Southwestern Ontario, Ontario, N9A 1L7, Canada",
     "address": {
       "man_made": "Goyeau near Elliot",
@@ -15662,12 +15889,12 @@
       "surveillance:type": "camera"
     },
     "boundingbox": [
-      "42.312407",
-      "42.312507",
+      "42.3124070",
+      "42.3125070",
       "-83.0336729",
       "-83.0335729"
     ],
-    "expires": 1693041968
+    "expires": 1694315364
   },
   "42.3146978,-83.0348031": {
     "place_id": 52170855,
@@ -16661,15 +16888,20 @@
     "expires": 1693450938
   },
   "42.9941659,-78.9293439": {
-    "place_id": 3012510,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 86066164,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 369755674,
-    "lat": "42.9941409",
-    "lon": "-78.9296412",
-    "display_name": "17, Niagara Thruway, Town of Tonawanda, Erie County, New York, 14072, United States",
+    "osm_id": 8532773605,
+    "lat": "42.9941659",
+    "lon": "-78.9293439",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Niagara Thruway, Town of Tonawanda, Erie County, New York, 14072, United States",
     "address": {
-      "highway": "17",
       "road": "Niagara Thruway",
       "town": "Town of Tonawanda",
       "county": "Erie County",
@@ -16679,14 +16911,20 @@
       "country": "United States",
       "country_code": "us"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "traffic",
+      "contact:webcam": "https://www.511ny.org/map/Cctv/4ni01425u--30",
+      "camera:direction": "300",
+      "surveillance:type": "camera"
+    },
     "boundingbox": [
-      "42.9940909",
-      "42.9941909",
-      "-78.9296912",
-      "-78.9295912"
+      "42.9941159",
+      "42.9942159",
+      "-78.9293939",
+      "-78.9292939"
     ],
-    "expires": 1693094852
+    "expires": 1694326952
   },
   "42.9986074,-82.4263676": {
     "place_id": 95295931,
@@ -16951,12 +17189,18 @@
     "expires": 1693333159
   },
   "43.1154738,-79.1859623": {
-    "place_id": 51850682,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 53134041,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4605922175,
     "lat": "43.1154738",
     "lon": "-79.1859623",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Thorold Tunnel - Hwy58 at Davis Road",
     "display_name": "Thorold Tunnel - Hwy58 at Davis Road, Highway 58, Thorold, Niagara Region, Ontario, L2V 3Y5, Canada",
     "address": {
       "man_made": "Thorold Tunnel - Hwy58 at Davis Road",
@@ -16985,7 +17229,7 @@
       "-79.1860123",
       "-79.1859123"
     ],
-    "expires": 1693112795
+    "expires": 1694380843
   },
   "43.1157129,-79.1898993": {
     "place_id": 53029106,
@@ -17914,12 +18158,18 @@
     "expires": 1694041570
   },
   "43.1757574,-79.2851959": {
-    "place_id": 52935781,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 52926995,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4606247084,
     "lat": "43.1757574",
     "lon": "-79.2851959",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "406 S/B ramp to QEW Niagara",
     "display_name": "406 S/B ramp to QEW Niagara, South Service Road, St. Catharines, Niagara Region, Ontario, L2N 7M4, Canada",
     "address": {
       "man_made": "406 S/B ramp to QEW Niagara",
@@ -17945,7 +18195,7 @@
       "-79.2852459",
       "-79.2851459"
     ],
-    "expires": 1693105554
+    "expires": 1694406218
   },
   "43.1765499,-79.2494903": {
     "place_id": 52625518,
@@ -18109,16 +18359,22 @@
     "expires": 1694125456
   },
   "43.1838392,3.0040064": {
-    "place_id": 368629341,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 368802990,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 2532806,
     "lat": "43.18409135",
     "lon": "3.0038638278155743",
-    "display_name": "Palais des Archevêques, Rue Jean Jaurès, Bourg, Narbonne, Aude, Occitanie, France métropolitaine, 11100, France",
+    "class": "tourism",
+    "type": "attraction",
+    "place_rank": 30,
+    "importance": 0.2806663592762519,
+    "addresstype": "tourism",
+    "name": "Palais des Archevêques",
+    "display_name": "Palais des Archevêques, Place de l'Hôtel de Ville, Bourg, Narbonne, Aude, Occitanie, France métropolitaine, 11100, France",
     "address": {
-      "historic": "Palais des Archevêques",
-      "road": "Rue Jean Jaurès",
+      "tourism": "Palais des Archevêques",
+      "road": "Place de l'Hôtel de Ville",
       "quarter": "Bourg",
       "town": "Narbonne",
       "municipality": "Narbonne",
@@ -18132,8 +18388,8 @@
       "country_code": "fr"
     },
     "extratags": {
-      "tourism": "attraction",
       "building": "yes",
+      "historic": "castle",
       "wikidata": "Q2274963",
       "wikipedia": "fr:Palais des archevêques de Narbonne",
       "wheelchair": "no",
@@ -18145,7 +18401,7 @@
       "3.0033226",
       "3.0043892"
     ],
-    "expires": 1693037844
+    "expires": 1694322118
   },
   "43.2319199,-77.5412833": {
     "place_id": 89600427,
@@ -18265,16 +18521,20 @@
     "expires": 1694005676
   },
   "43.4363808,-1.5963759": {
-    "place_id": 50572205,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 79106250,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 4485488192,
-    "lat": "43.4364071",
-    "lon": "-1.5964021",
-    "display_name": "Anaia, 9, Rue de la Plage, Lapurdi, Bidart, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64210, France",
+    "osm_id": 7589548136,
+    "lat": "43.4363808",
+    "lon": "-1.5963759",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Rue de la Plage, Lapurdi, Bidart, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64210, France",
     "address": {
-      "amenity": "Anaia",
-      "house_number": "9",
       "road": "Rue de la Plage",
       "subdivision": "Lapurdi",
       "village": "Bidart",
@@ -18289,19 +18549,21 @@
       "country_code": "fr"
     },
     "extratags": {
-      "phone": "+33 5 59 23 29 30",
-      "website": "https://restaurant-anaia.com/",
-      "wheelchair": "yes",
-      "indoor_seating": "yes",
-      "outdoor_seating": "yes"
+      "camera:type": "panning",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "https://webcam-hd.fr/webcam?id=147&camera=bidart-centre",
+      "camera:direction": "280",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "43.4363571",
-      "43.4364571",
-      "-1.5964521",
-      "-1.5963521"
+      "43.4363308",
+      "43.4364308",
+      "-1.5964259",
+      "-1.5963259"
     ],
-    "expires": 1693073563
+    "expires": 1694358650
   },
   "43.5511046,7.0159258": {
     "place_id": 373777133,
@@ -18563,15 +18825,20 @@
     "expires": 1693516602
   },
   "43.7772767,7.5099671": {
-    "place_id": 299448818,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 10708914,
-    "lat": "43.7763761",
-    "lon": "7.51026225893912",
-    "display_name": "Menton - Vieux Port, Quai de l'Impératrice Eugénie, Garavan, Menton, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, 06500, France",
+    "place_id": 268214539,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 842105677,
+    "lat": "43.7772033",
+    "lon": "7.510803009604281",
+    "class": "amenity",
+    "type": "parking",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Quai de l'Impératrice Eugénie, Garavan, Menton, Nice, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, 06500, France",
     "address": {
-      "leisure": "Menton - Vieux Port",
       "road": "Quai de l'Impératrice Eugénie",
       "suburb": "Garavan",
       "town": "Menton",
@@ -18585,17 +18852,14 @@
       "country": "France",
       "country_code": "fr"
     },
-    "extratags": {
-      "seamark:type": "harbour",
-      "seamark:harbour:category": "marina"
-    },
+    "extratags": null,
     "boundingbox": [
-      "43.775312",
-      "43.7772909",
-      "7.5086702",
-      "7.5122581"
+      "43.7770396",
+      "43.7773466",
+      "7.5097293",
+      "7.5110569"
     ],
-    "expires": 1693087191
+    "expires": 1694282496
   },
   "43.7968443,-79.1442516": {
     "place_id": 37516635,
@@ -19090,12 +19354,18 @@
     "expires": 1694308436
   },
   "43.8815143,5.8514148": {
-    "place_id": 350025538,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 350199342,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10242563643,
     "lat": "43.8815143",
     "lon": "5.8514148",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Villeneuve (D4096)",
     "display_name": "Villeneuve (D4096), D 4096, Les Quatre Tours, Les Faisses, Villeneuve, Forcalquier, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France métropolitaine, 04180, France",
     "address": {
       "man_made": "Villeneuve (D4096)",
@@ -19129,7 +19399,7 @@
       "5.8513648",
       "5.8514648"
     ],
-    "expires": 1693073417
+    "expires": 1694314397
   },
   "43.8964045,6.1289653": {
     "place_id": 350199341,
@@ -19225,12 +19495,18 @@
     "expires": 1694199719
   },
   "43.9027659,6.9363982": {
-    "place_id": 367217672,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 367390845,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10934474309,
     "lat": "43.9027659",
     "lon": "6.9363982",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Palis (D10)",
     "display_name": "Palis (D10), D 10, Saint-Pierre, Castellane, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France métropolitaine, 06260, France",
     "address": {
       "man_made": "Palis (D10)",
@@ -19262,7 +19538,7 @@
       "6.9363482",
       "6.9364482"
     ],
-    "expires": 1693097512
+    "expires": 1694263598
   },
   "43.982171,6.7589813": {
     "place_id": 357988884,
@@ -20166,12 +20442,18 @@
     "expires": 1694024026
   },
   "45.4440293,12.3252078": {
-    "place_id": 95916848,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 95199898,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9240130162,
     "lat": "45.4440293",
     "lon": "12.3252078",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Ponte delle Guglie Venice",
     "display_name": "Ponte delle Guglie Venice, Calle del Spezier, Cannaregio, Venezia-Murano-Burano, Mestre, Venezia, Veneto, 30170, Italia",
     "address": {
       "man_made": "Ponte delle Guglie Venice",
@@ -20201,7 +20483,7 @@
       "12.3251578",
       "12.3252578"
     ],
-    "expires": 1693042392
+    "expires": 1694272172
   },
   "45.4465718,8.6270209": {
     "place_id": 79488644,
@@ -20537,15 +20819,20 @@
     "expires": 1694230845
   },
   "45.7453021,11.6554747": {
-    "place_id": 13772895,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 1420903409,
-    "lat": "45.7457958",
-    "lon": "11.655548",
-    "display_name": "Caffè Centrale, Piazza degli Scacchi (Piazza Castello), Marostica, Colceresa, Vicenza, Veneto, 36063, Italia",
+    "place_id": 114606641,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 34660913,
+    "lat": "45.74551395",
+    "lon": "11.655299780705171",
+    "class": "highway",
+    "type": "pedestrian",
+    "place_rank": 26,
+    "importance": 0.26095814307697174,
+    "addresstype": "road",
+    "name": "Piazza degli Scacchi (Piazza Castello)",
+    "display_name": "Piazza degli Scacchi (Piazza Castello), Marostica, Colceresa, Vicenza, Veneto, Italia",
     "address": {
-      "amenity": "Caffè Centrale",
       "road": "Piazza degli Scacchi (Piazza Castello)",
       "town": "Marostica",
       "municipality": "Colceresa",
@@ -20553,18 +20840,23 @@
       "ISO3166-2-lvl6": "IT-VI",
       "state": "Veneto",
       "ISO3166-2-lvl4": "IT-34",
-      "postcode": "36063",
       "country": "Italia",
       "country_code": "it"
     },
-    "extratags": {},
+    "extratags": {
+      "lit": "yes",
+      "area": "yes",
+      "surface": "cobblestone",
+      "wikidata": "Q17640613",
+      "wikipedia": "it:Piazza degli Scacchi"
+    },
     "boundingbox": [
-      "45.7457458",
-      "45.7458458",
-      "11.655498",
-      "11.655598"
+      "45.7447185",
+      "45.7462135",
+      "11.6547807",
+      "11.6560781"
     ],
-    "expires": 1693076281
+    "expires": 1694359909
   },
   "45.746779,10.7997867": {
     "place_id": 87985588,
@@ -20902,15 +21194,21 @@
     "expires": 1694057557
   },
   "45.7975626,24.1521854": {
-    "place_id": 365575210,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 10895588213,
-    "lat": "45.7975626",
-    "lon": "24.1521854",
-    "display_name": "Camera 3, Piața Mare, Orașul de Sus, Centrul Istoric, Sibiu, 550163, România",
+    "place_id": 116604279,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 40253784,
+    "lat": "45.7976125",
+    "lon": "24.15213226537238",
+    "class": "man_made",
+    "type": "tower",
+    "place_rank": 30,
+    "importance": 0.2582184742933953,
+    "addresstype": "man_made",
+    "name": "Turnul Sfatului",
+    "display_name": "Turnul Sfatului, Piața Mare, Orașul de Sus, Centrul Istoric, Sibiu, 550163, România",
     "address": {
-      "man_made": "Camera 3",
+      "man_made": "Turnul Sfatului",
       "square": "Piața Mare",
       "neighbourhood": "Orașul de Sus",
       "suburb": "Centrul Istoric",
@@ -20922,20 +21220,22 @@
       "country_code": "ro"
     },
     "extratags": {
-      "website": "https://sibiu.ro/LiveOK/cam3.php",
-      "camera:mount": "building",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.sibiu.ro/webcamfeeds/webcam2.jpg",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
+      "level": "7",
+      "tourism": "attraction",
+      "building": "public",
+      "wikidata": "Q30675330",
+      "wikipedia": "ro:Turnul Sfatului din Sibiu",
+      "roof:shape": "onion",
+      "tower:type": "clock_tower",
+      "tower:construction": "tower"
     },
     "boundingbox": [
-      "45.7975126",
-      "45.7976126",
-      "24.1521354",
-      "24.1522354"
+      "45.7975458",
+      "45.7976796",
+      "24.1520192",
+      "24.1522453"
     ],
-    "expires": 1693105056
+    "expires": 1694345729
   },
   "45.7976623,24.1520671": {
     "place_id": 116604279,
@@ -21247,12 +21547,18 @@
     "expires": 1693816898
   },
   "45.8414733,8.970053": {
-    "place_id": 342420928,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 342595111,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10009137538,
     "lat": "45.8414733",
     "lon": "8.970053",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Novazzano",
     "display_name": "Novazzano, Via Rungéta, Boscherina, Novazzano, Circolo di Stabio, Distretto di Mendrisio, Ticino, 6883, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "man_made": "Novazzano",
@@ -21278,10 +21584,10 @@
     "boundingbox": [
       "45.8414233",
       "45.8415233",
-      "8.970003",
-      "8.970103"
+      "8.9700030",
+      "8.9701030"
     ],
-    "expires": 1693075084
+    "expires": 1694332011
   },
   "45.8595571,6.1440269": {
     "place_id": 197194985,
@@ -22649,15 +22955,20 @@
     "expires": 1694138725
   },
   "46.4343172,6.939162": {
-    "place_id": 354689598,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 1136002434,
-    "lat": "46.434212349999996",
-    "lon": "6.93951722338157",
-    "display_name": "Patinoire de Caux, Chemin de la Fôret, Caux, Montreux, District de la Riviera-Pays-d’Enhaut, Vaud, 1824, Schweiz/Suisse/Svizzera/Svizra",
+    "place_id": 354862550,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10589669571,
+    "lat": "46.4343172",
+    "lon": "6.939162",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Chemin de la Fôret, Caux, Montreux, District de la Riviera-Pays-d’Enhaut, Vaud, 1824, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
-      "leisure": "Patinoire de Caux",
       "road": "Chemin de la Fôret",
       "village": "Caux",
       "town": "Montreux",
@@ -22669,17 +22980,17 @@
       "country_code": "ch"
     },
     "extratags": {
-      "website": "https://www.ilovecaux.com/les-activites",
-      "seasonal": "yes",
-      "opening_hours": "We 14:00-18:00; Fr 17:00-22:00; Sa-Su 13:00-18:00; SH 13:00-18:00"
+      "direction": "145",
+      "surveillance": "webcam",
+      "contact:webcam": "https://briod.com/image_caux.jpg"
     },
     "boundingbox": [
-      "46.4340936",
-      "46.4343135",
-      "6.9391132",
-      "6.9399099"
+      "46.4342672",
+      "46.4343672",
+      "6.9391120",
+      "6.9392120"
     ],
-    "expires": 1693103345
+    "expires": 1694276402
   },
   "46.4347863,7.8620877": {
     "place_id": 78703716,
@@ -22762,12 +23073,18 @@
     "expires": 1694242308
   },
   "46.4599298,9.6565232": {
-    "place_id": 342426419,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 342600602,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10009243196,
     "lat": "46.4599298",
     "lon": "9.6565232",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Bivio",
     "display_name": "Bivio, Via Sett, Plaz, Bivio, Surses, Albula, Graubünden/Grischun/Grigioni, 7457, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "man_made": "Bivio",
@@ -22797,7 +23114,7 @@
       "9.6564732",
       "9.6565732"
     ],
-    "expires": 1693073084
+    "expires": 1694268632
   },
   "46.4672635,-119.5414268": {
     "place_id": 357537798,
@@ -23364,12 +23681,18 @@
     "expires": 1693317163
   },
   "46.5474908,7.9808233": {
-    "place_id": 51092537,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 51804341,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4487092642,
     "lat": "46.5474908",
     "lon": "7.9808233",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Panorama-Webcam Jungfraujoch",
     "display_name": "Panorama-Webcam Jungfraujoch, Discovery Tour, Fieschertal, Goms, Valais/Wallis, 3801, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "man_made": "Panorama-Webcam Jungfraujoch",
@@ -23398,7 +23721,7 @@
       "7.9807733",
       "7.9808733"
     ],
-    "expires": 1693090234
+    "expires": 1694292775
   },
   "46.5488465,11.5538049": {
     "place_id": 170338028,
@@ -23961,12 +24284,18 @@
     "expires": 1693917998
   },
   "46.701102,10.506797": {
-    "place_id": 140862516,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 140164331,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 153013724,
     "lat": "46.7011492",
     "lon": "10.506934589309564",
+    "class": "tourism",
+    "type": "hotel",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "tourism",
+    "name": "Watles",
     "display_name": "Watles, 49, Schlinig - Slingia, Mals - Malles Venosta, Vinschgau - Val Venosta, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39024, Italia",
     "address": {
       "tourism": "Watles",
@@ -23993,12 +24322,12 @@
       "internet_access:fee": "yes"
     },
     "boundingbox": [
-      "46.700876",
-      "46.701422",
+      "46.7008760",
+      "46.7014220",
       "10.5064847",
       "10.5073352"
     ],
-    "expires": 1693040473
+    "expires": 1694296432
   },
   "46.7065644,8.8534875": {
     "place_id": 341358569,
@@ -24570,12 +24899,18 @@
     "expires": 1694266688
   },
   "46.7808692,-92.1117017": {
-    "place_id": 95753743,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 94924207,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9260034911,
     "lat": "46.7808692",
     "lon": "-92.1117017",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Duluth Hillside Cam",
     "display_name": "Duluth Hillside Cam, West 3rd Street, Central Hillside, Duluth, Saint Louis County, Minnesota, 55806, United States",
     "address": {
       "man_made": "Duluth Hillside Cam",
@@ -24605,7 +24940,7 @@
       "-92.1117517",
       "-92.1116517"
     ],
-    "expires": 1693074151
+    "expires": 1694399981
   },
   "46.7809571,-92.1116131": {
     "place_id": 95712045,
@@ -26388,12 +26723,18 @@
     "expires": 1694110066
   },
   "47.1666813,8.1605244": {
-    "place_id": 341184125,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 341358368,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9977256140,
     "lat": "47.1666813",
     "lon": "8.1605244",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Schenkon",
     "display_name": "Schenkon, 4, Voremwald, Eich, Luzern, 6205, Schweiz/Suisse/Svizzera/Svizra",
     "address": {
       "man_made": "Schenkon",
@@ -26422,7 +26763,7 @@
       "8.1604744",
       "8.1605744"
     ],
-    "expires": 1693111481
+    "expires": 1694298252
   },
   "47.1691401,10.1639273": {
     "place_id": 58495974,
@@ -29560,12 +29901,18 @@
     "expires": 1694263586
   },
   "47.5445466,12.9726321": {
-    "place_id": 88274458,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 87949275,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8662560764,
     "lat": "47.5445466",
     "lon": "12.9726321",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam Fischerei St. Bartholomä",
     "display_name": "Webcam Fischerei St. Bartholomä, Rinnkendlsteig, St. Bartholomä, Schönau am Königssee, Landkreis Berchtesgadener Land, Bayern, 83471, Deutschland",
     "address": {
       "man_made": "Webcam Fischerei St. Bartholomä",
@@ -29596,7 +29943,7 @@
       "12.9725821",
       "12.9726821"
     ],
-    "expires": 1693051410
+    "expires": 1694253779
   },
   "47.545636,10.5589429": {
     "place_id": 87804072,
@@ -30339,15 +30686,21 @@
     "expires": 1693436747
   },
   "47.6153734,12.9765565": {
-    "place_id": 94463674,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9194547244,
-    "lat": "47.6153734",
-    "lon": "12.9765565",
-    "display_name": "Webcam Zechmeisterlehen, 35, Wahlstraße, Storchen, Oberschönau, Schönau am Königssee, Landkreis Berchtesgadener Land, Bayern, 83471, Deutschland",
+    "place_id": 130074441,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 110007742,
+    "lat": "47.615434449999995",
+    "lon": "12.976497866312101",
+    "class": "tourism",
+    "type": "hotel",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "tourism",
+    "name": "Zechmeisterlehen",
+    "display_name": "Zechmeisterlehen, 35, Wahlstraße, Storchen, Oberschönau, Schönau am Königssee, Landkreis Berchtesgadener Land, Bayern, 83471, Deutschland",
     "address": {
-      "man_made": "Webcam Zechmeisterlehen",
+      "tourism": "Zechmeisterlehen",
       "house_number": "35",
       "road": "Wahlstraße",
       "hamlet": "Storchen",
@@ -30360,21 +30713,18 @@
       "country_code": "de"
     },
     "extratags": {
-      "image": "https://stream02.blickfix.com/BI10CAM01/preview.jpg",
-      "video": "https://stream02.blickfix.com/BI10CAM01/timelapse.mp4",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.blickfix.com/webcams/livestream-webcam-in-schoenau-am-wellnesshotel-zechmeisterlehen",
-      "camera:direction": "150",
-      "surveillance:type": "camera"
+      "stars": "4",
+      "website": "https://www.zechmeisterlehen.de/",
+      "internet_access": "wlan",
+      "internet_access:fee": "yes"
     },
     "boundingbox": [
-      "47.6153234",
-      "47.6154234",
-      "12.9765065",
-      "12.9766065"
+      "47.6151469",
+      "47.6157123",
+      "12.9756027",
+      "12.9770175"
     ],
-    "expires": 1693035924
+    "expires": 1694404611
   },
   "47.6193978,10.4979739": {
     "place_id": 67378753,
@@ -30450,12 +30800,18 @@
     "expires": 1694170641
   },
   "47.6214635,19.046105": {
-    "place_id": 160015907,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 222936409,
-    "lat": "47.62150542401192",
-    "lon": "19.046031140142",
+    "place_id": 52925405,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4595333543,
+    "lat": "47.6214635",
+    "lon": "19.046105",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Pomázi út, Ófalu, Budakalász, Szentendrei járás, Pest vármegye, Közép-Magyarország, 2011, Magyarország",
     "address": {
       "road": "Pomázi út",
@@ -30470,26 +30826,20 @@
       "country_code": "hu"
     },
     "extratags": {
-      "lit": "yes",
-      "lanes": "3",
-      "oneway": "no",
-      "surface": "asphalt",
-      "maxspeed": "50",
-      "smoothness": "excellent",
-      "lanes:forward": "2",
-      "sidewalk:left": "no",
-      "lanes:backward": "1",
-      "sidewalk:right": "separate",
-      "turn:lanes:forward": "left|right",
-      "destination:forward": "Pomáz"
+      "camera:type": "fixed",
+      "camera:mount": "street_lamp",
+      "surveillance": "webcam",
+      "contact:webcam": "http://kamera.kozut.hu/mcs129/index.php",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "47.6214206",
-      "47.6215423",
-      "19.0459845",
-      "19.0460565"
+      "47.6214135",
+      "47.6215135",
+      "19.0460550",
+      "19.0461550"
     ],
-    "expires": 1693083213
+    "expires": 1694340550
   },
   "47.6247405,-122.5143401": {
     "place_id": 362789714,
@@ -30535,17 +30885,22 @@
     "expires": 1693465486
   },
   "47.6416159,10.5014296": {
-    "place_id": 110306817,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 24031482,
-    "lat": "47.64165891500465",
-    "lon": "10.501439459951165",
-    "display_name": "A 7, Maria Rain, Nesselwang, Oy-Mittelberg, Landkreis Oberallgäu, Bayern, 87466, Deutschland",
+    "place_id": 92824681,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9007029375,
+    "lat": "47.6416159",
+    "lon": "10.5014296",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "A 7, Maria-Rain, Oy-Mittelberg, Landkreis Oberallgäu, Bayern, 87466, Deutschland",
     "address": {
       "road": "A 7",
-      "hamlet": "Maria Rain",
-      "village": "Nesselwang",
+      "village": "Maria-Rain",
       "municipality": "Oy-Mittelberg",
       "county": "Landkreis Oberallgäu",
       "state": "Bayern",
@@ -30555,23 +30910,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "lit": "no",
-      "tmc": "DE:12247/12248",
-      "lanes": "2",
-      "layer": "1",
-      "oneway": "yes",
-      "bdouble": "yes",
-      "surface": "asphalt",
-      "maxspeed": "none",
-      "bridge:name": "Wertachtalbrücke"
+      "camera:type": "fixed",
+      "camera:mount": "mast",
+      "surveillance": "traffic",
+      "contact:webcam": "https://wcp.bayerninfo.de/bi/jpg/si_--a0007_1180_-2950_difsn_vifsn_wertachtalbruec_0.jpg",
+      "camera:direction": "96",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "47.6409636",
-      "47.6420017",
-      "10.50001",
-      "10.5049995"
+      "47.6415659",
+      "47.6416659",
+      "10.5013796",
+      "10.5014796"
     ],
-    "expires": 1693107587
+    "expires": 1694323954
   },
   "47.6460697,-3.2144609": {
     "place_id": 91709958,
@@ -30664,12 +31017,18 @@
     "expires": 1693756028
   },
   "47.6577783,10.4263977": {
-    "place_id": 100415084,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 4327116,
-    "lat": "47.65782660047039",
-    "lon": "10.426418976054666",
+    "place_id": 92788821,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9007029374,
+    "lat": "47.6577783",
+    "lon": "10.4263977",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "A 7, Oberzollhaus, Oy-Mittelberg, Landkreis Oberallgäu, Bayern, 87466, Deutschland",
     "address": {
       "road": "A 7",
@@ -30683,23 +31042,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "lit": "no",
-      "tmc": "DE:12248/60678",
-      "lanes": "2",
-      "layer": "1",
-      "oneway": "yes",
-      "bdouble": "yes",
-      "surface": "asphalt",
-      "maxspeed": "none",
-      "bridge:name": "Rottachtalbrücke"
+      "camera:type": "fixed",
+      "camera:mount": "mast",
+      "surveillance": "traffic",
+      "contact:webcam": "https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_1160_-6299_difsn_vifsn_---rottachtal-b_0.jpg",
+      "camera:direction": "111",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "47.6552394",
-      "47.6580497",
-      "10.4259125",
-      "10.434251"
+      "47.6577283",
+      "47.6578283",
+      "10.4263477",
+      "10.4264477"
     ],
-    "expires": 1693107687
+    "expires": 1694371083
   },
   "47.66343,11.526458": {
     "place_id": 375374341,
@@ -31884,16 +32241,21 @@
     "expires": 1694057067
   },
   "47.9515591,6.7530123": {
-    "place_id": 337810703,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 1078225807,
-    "lat": "47.950827700000005",
-    "lon": "6.752866461393597",
-    "display_name": "Base de Loisirs du Lac de la Moselotte, Rue des Saules, Saulxures-sur-Moselotte, Saint-Dié-des-Vosges, Vosges, Grand Est, France métropolitaine, 88290, France",
+    "place_id": 58017005,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5257246813,
+    "lat": "47.9515591",
+    "lon": "6.7530123",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Route des Amias, Saulxures-sur-Moselotte, Saint-Dié-des-Vosges, Vosges, Grand Est, France métropolitaine, 88290, France",
     "address": {
-      "leisure": "Base de Loisirs du Lac de la Moselotte",
-      "road": "Rue des Saules",
+      "road": "Route des Amias",
       "village": "Saulxures-sur-Moselotte",
       "municipality": "Saint-Dié-des-Vosges",
       "county": "Vosges",
@@ -31906,28 +32268,30 @@
       "country_code": "fr"
     },
     "extratags": {
-      "fax": "+33 3 29 24 58 31",
-      "fee": "yes",
-      "email": "contact@lac-moselotte.fr",
-      "phone": "+33 3 29 24 56 56",
-      "website": "https://www.lac-moselotte.fr/",
-      "opening_hours": "Jul-Aug 08:00-19:00"
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.saulxures-sur-moselotte.fr/fr/webcam/cam2"
     },
     "boundingbox": [
-      "47.948749",
-      "47.9529455",
-      "6.7473915",
-      "6.7572704"
+      "47.9515091",
+      "47.9516091",
+      "6.7529623",
+      "6.7530623"
     ],
-    "expires": 1693039842
+    "expires": 1694240272
   },
   "47.9740001,-84.7830929": {
-    "place_id": 94898976,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 95132463,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9193553917,
     "lat": "47.9740001",
     "lon": "-84.7830929",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Wawa Goose Cam",
     "display_name": "Wawa Goose Cam, 26, Mission Road, Wawa, Algoma District, Northeastern Ontario, Ontario, P0S 1K0, Canada",
     "address": {
       "man_made": "Wawa Goose Cam",
@@ -31957,7 +32321,7 @@
       "-84.7831429",
       "-84.7830429"
     ],
-    "expires": 1693090501
+    "expires": 1694296786
   },
   "48.0374702,7.0155512": {
     "place_id": 98571115,
@@ -32704,31 +33068,35 @@
     "expires": 1693471588
   },
   "48.1439153,13.5199834": {
-    "place_id": 112423114,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 111932986,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 28214182,
     "lat": "48.14290798131646",
     "lon": "13.518781379672726",
-    "display_name": "Senzenberg, Pattigham, Bezirk Ried im Innkreis, Oberösterreich, 4910, Österreich",
+    "class": "highway",
+    "type": "unclassified",
+    "place_rank": 26,
+    "importance": 0.10000999999999993,
+    "addresstype": "road",
+    "name": "",
+    "display_name": "Senzenberg, Pattigham, Bezirk Ried im Innkreis, 4910, Österreich",
     "address": {
       "hamlet": "Senzenberg",
       "village": "Pattigham",
       "county": "Bezirk Ried im Innkreis",
-      "state": "Oberösterreich",
-      "ISO3166-2-lvl4": "AT-4",
       "postcode": "4910",
       "country": "Österreich",
       "country_code": "at"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "48.1401836",
-      "48.146873",
+      "48.1468730",
       "13.5070567",
       "13.5199611"
     ],
-    "expires": 1693093164
+    "expires": 1694257461
   },
   "48.1519531,11.5115427": {
     "place_id": 375346178,
@@ -32916,16 +33284,23 @@
     "expires": 1694194225
   },
   "48.2022459,8.3550592": {
-    "place_id": 122108201,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 67254595,
-    "lat": "48.2017149",
-    "lon": "8.35532641733403",
-    "display_name": "Freibad Tennenbronn, Tannenweg, Tennenbronn, Schramberg, Verwaltungsgemeinschaft Schramberg, Landkreis Rottweil, Baden-Württemberg, 78144, Deutschland",
+    "place_id": 63383654,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5767431005,
+    "lat": "48.2022459",
+    "lon": "8.3550592",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Affentälestraße, Affentäle, Purpen, Tennenbronn, Schramberg, Verwaltungsgemeinschaft Schramberg, Landkreis Rottweil, Baden-Württemberg, 78144, Deutschland",
     "address": {
-      "leisure": "Freibad Tennenbronn",
-      "road": "Tannenweg",
+      "road": "Affentälestraße",
+      "neighbourhood": "Affentäle",
+      "hamlet": "Purpen",
       "city_district": "Tennenbronn",
       "town": "Schramberg",
       "municipality": "Verwaltungsgemeinschaft Schramberg",
@@ -32936,14 +33311,23 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": {
+      "operator": "Stadtwerke Schramberg",
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "operator:type": "private_for_profit",
+      "contact:webcam": "https://www.stadtwerke-schramberg.de/tools/webcams/index.php5?image=cameras/freibad/webcam_freibad.jpg&withWatermark=1&invertedWatermark=1&watermarkWidth=180&watermarkPadding=15",
+      "camera:direction": "168",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "48.2006986",
-      "48.2026335",
-      "8.3542529",
-      "8.3565501"
+      "48.2021959",
+      "48.2022959",
+      "8.3550092",
+      "8.3551092"
     ],
-    "expires": 1693047666
+    "expires": 1694317443
   },
   "48.2257261,8.3850916": {
     "place_id": 63078280,
@@ -33072,17 +33456,21 @@
     "expires": 1693509271
   },
   "48.2719166,9.8277982": {
-    "place_id": 274937538,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 896168155,
-    "lat": "48.27177225",
-    "lon": "9.828347141373243",
-    "display_name": "Mast Natursteine, 66, Rißstraße, Rißtissen, Ehingen (Donau), Gemeindeverwaltungsverband Ehingen (Donau), Alb-Donau-Kreis, Baden-Württemberg, 89584, Deutschland",
+    "place_id": 97373497,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9522236048,
+    "lat": "48.2719166",
+    "lon": "9.8277982",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Ersinger Straße, Rißtissen, Ehingen (Donau), Gemeindeverwaltungsverband Ehingen (Donau), Alb-Donau-Kreis, Baden-Württemberg, 89584, Deutschland",
     "address": {
-      "craft": "Mast Natursteine",
-      "house_number": "66",
-      "road": "Rißstraße",
+      "road": "Ersinger Straße",
       "village": "Rißtissen",
       "town": "Ehingen (Donau)",
       "municipality": "Gemeindeverwaltungsverband Ehingen (Donau)",
@@ -33094,20 +33482,26 @@
       "country_code": "de"
     },
     "extratags": {
-      "fax": "+49 7392 18911",
-      "email": "info@mast-natursteine.de",
-      "phone": "+49 7392 2131",
-      "website": "https://www.mast-natursteine.de/",
-      "operator": "Mast Steinmetzbetrieb GmbH & Co. KG",
-      "opening_hours": "Mo-Fr 8:00-12:00, 13:30-17:30; Sa 9:00-12:00"
+      "website": "https://www.rizzi-brunnen.de/index2.php",
+      "operator": "Schreiner GmbH",
+      "url:webcam": "https://sgmbhweb1.goip.de:8082/",
+      "camera:type": "fixed",
+      "camera:angle": "35",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "https://sgmbhweb1.goip.de:8082/",
+      "camera:features": "webcam",
+      "camera:direction": "10",
+      "camera:recording": "online_streaming",
+      "surveillance:zone": "fountain"
     },
     "boundingbox": [
-      "48.2714096",
-      "48.2721933",
-      "9.8278122",
-      "9.8289576"
+      "48.2718666",
+      "48.2719666",
+      "9.8277482",
+      "9.8278482"
     ],
-    "expires": 1693053832
+    "expires": 1694239106
   },
   "48.2825444,9.7264444": {
     "place_id": 48717752,
@@ -33269,17 +33663,22 @@
     "expires": 1694144274
   },
   "48.317734,11.6211525": {
-    "place_id": 262682793,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 802711105,
-    "lat": "48.3157231",
-    "lon": "11.620826501940149",
-    "display_name": "Autobahnkreuz Neufahrn, A 9, Eching, Landkreis Freising, Bayern, 85386, Deutschland",
+    "place_id": 79230620,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7721039058,
+    "lat": "48.317734",
+    "lon": "11.6211525",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "A 9, Günzenhausen, Eching, Landkreis Freising, Bayern, 85386, Deutschland",
     "address": {
-      "junction": "Autobahnkreuz Neufahrn",
       "road": "A 9",
-      "village": "Eching",
+      "village": "Günzenhausen",
       "county": "Landkreis Freising",
       "state": "Bayern",
       "ISO3166-2-lvl4": "DE-BY",
@@ -33288,19 +33687,21 @@
       "country_code": "de"
     },
     "extratags": {
-      "area": "yes",
-      "motorway": "yes",
-      "wikidata": "Q377299",
-      "wikipedia": "de:Autobahnkreuz Neufahrn",
-      "wikimedia_commons": "File:Autobahnkreuz Neufahrn.jpg"
+      "camera:type": "fixed",
+      "camera:mount": "bridge",
+      "surveillance": "traffic",
+      "contact:webcam": "https://www.bayerninfo.de/de/karte/?geo=48.31733,11.621282&zoom=16&incident=all&webcam=true",
+      "camera:direction": "300",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "48.308349",
-      "48.3230969",
-      "11.6124788",
-      "11.6296109"
+      "48.3176840",
+      "48.3177840",
+      "11.6211025",
+      "11.6212025"
     ],
-    "expires": 1693098450
+    "expires": 1694384764
   },
   "48.3272432,8.2859161": {
     "place_id": 150679235,
@@ -33385,12 +33786,18 @@
     "expires": 1693449757
   },
   "48.3395956,9.6045374": {
-    "place_id": 86927662,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 87505435,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8560843297,
     "lat": "48.3395956",
     "lon": "9.6045374",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Webcam: Schneckenhäule",
     "display_name": "Webcam: Schneckenhäule, K 7335, Tiefenhülen, Frankenhofen, Ehingen (Donau), Gemeindeverwaltungsverband Ehingen (Donau), Alb-Donau-Kreis, Baden-Württemberg, 89584, Deutschland",
     "address": {
       "man_made": "Webcam: Schneckenhäule",
@@ -33421,7 +33828,7 @@
       "9.6044874",
       "9.6045874"
     ],
-    "expires": 1693101770
+    "expires": 1694366836
   },
   "48.3414975,9.9406181": {
     "place_id": 87899257,
@@ -33830,48 +34237,19 @@
     ],
     "expires": 1694116629
   },
-  "48.4060926,16.1723657": {
-    "place_id": 118177933,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 47189989,
-    "lat": "48.40612707978418",
-    "lon": "16.172493077398414",
-    "display_name": "Weinviertler Schnellstraße, Katastralgemeinde Oberolberndorf, Gemeinde Sierndorf, Bezirk Korneuburg, Niederösterreich, 2011, Österreich",
-    "address": {
-      "road": "Weinviertler Schnellstraße",
-      "village": "Katastralgemeinde Oberolberndorf",
-      "city": "Gemeinde Sierndorf",
-      "county": "Bezirk Korneuburg",
-      "state": "Niederösterreich",
-      "ISO3166-2-lvl4": "AT-3",
-      "postcode": "2011",
-      "country": "Österreich",
-      "country_code": "at"
-    },
-    "extratags": {
-      "toll": "yes",
-      "lanes": "1",
-      "oneway": "yes",
-      "maxspeed": "100",
-      "shoulder": "yes",
-      "motorroad": "yes"
-    },
-    "boundingbox": [
-      "48.4045791",
-      "48.4121937",
-      "16.1700017",
-      "16.1729121"
-    ],
-    "expires": 1693113094
-  },
   "48.4157978,9.7907857": {
-    "place_id": 87999458,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 87330071,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8628023647,
     "lat": "48.4157978",
     "lon": "9.7907857",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam",
     "display_name": "Webcam, Mühlweg, Landsitzle, Blaubeuren, Gemeindeverwaltungsverband Blaubeuren, Alb-Donau-Kreis, Baden-Württemberg, 89143, Deutschland",
     "address": {
       "man_made": "Webcam",
@@ -33901,7 +34279,7 @@
       "9.7907357",
       "9.7908357"
     ],
-    "expires": 1693081737
+    "expires": 1694331828
   },
   "48.4160672,9.7837493": {
     "place_id": 87598166,
@@ -34664,12 +35042,18 @@
     "expires": 1694189121
   },
   "48.5302037,11.5045903": {
-    "place_id": 111790845,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 111725513,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 27069796,
     "lat": "48.530255249999996",
     "lon": "11.5044733307363",
+    "class": "historic",
+    "type": "school",
+    "place_rank": 30,
+    "importance": 0.09919352018435587,
+    "addresstype": "historic",
+    "name": "Haus der Begegnung",
     "display_name": "Haus der Begegnung, 47, Hauptplatz, Beamtenviertel, Weihern, Pfaffenhofen an der Ilm, Landkreis Pfaffenhofen an der Ilm, Bayern, 85276, Deutschland",
     "address": {
       "historic": "Haus der Begegnung",
@@ -34706,7 +35090,7 @@
       "11.5042609",
       "11.5046641"
     ],
-    "expires": 1693049795
+    "expires": 1694391646
   },
   "48.5317543,8.2170266": {
     "place_id": 66885987,
@@ -34793,12 +35177,18 @@
     "expires": 1694050049
   },
   "48.5378206,11.5102277": {
-    "place_id": 371386841,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 371560965,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 11043450201,
     "lat": "48.5378206",
     "lon": "11.5102277",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam Freibad",
     "display_name": "Webcam Freibad, Altenstadt, Sandkrippenfeld, Förnbach, Pfaffenhofen an der Ilm, Landkreis Pfaffenhofen an der Ilm, Bayern, 85276, Deutschland",
     "address": {
       "man_made": "Webcam Freibad",
@@ -34828,7 +35218,7 @@
       "11.5101777",
       "11.5102777"
     ],
-    "expires": 1693080755
+    "expires": 1694348851
   },
   "48.5444038,16.0795983": {
     "place_id": 81126852,
@@ -34874,12 +35264,18 @@
     "expires": 1693373291
   },
   "48.5561985,16.0642427": {
-    "place_id": 266686394,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 814511642,
-    "lat": "48.55623045318768",
-    "lon": "16.064332105291847",
+    "place_id": 81967160,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8075724353,
+    "lat": "48.5561985",
+    "lon": "16.0642427",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Weinviertler Schnellstraße, Gartenstadt, Hollabrunn, Gemeinde Hollabrunn, Bezirk Hollabrunn, Niederösterreich, 2020, Österreich",
     "address": {
       "road": "Weinviertler Schnellstraße",
@@ -34894,22 +35290,21 @@
       "country_code": "at"
     },
     "extratags": {
-      "toll": "yes",
-      "lanes": "1",
-      "width": "6",
-      "oneway": "yes",
-      "surface": "asphalt",
-      "maxspeed": "100",
-      "shoulder": "yes",
-      "motorroad": "yes"
+      "camera:type": "fixed",
+      "description": "S3 - km 22,7",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "www.asfinag.at",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "48.5551771",
-      "48.5566913",
-      "16.0641674",
-      "16.0648563"
+      "48.5561485",
+      "48.5562485",
+      "16.0641927",
+      "16.0642927"
     ],
-    "expires": 1693050867
+    "expires": 1694278844
   },
   "48.5613676,10.2934426": {
     "place_id": 86369798,
@@ -35491,15 +35886,20 @@
     "expires": 1693383000
   },
   "48.6181555,8.1259641": {
-    "place_id": 158387445,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 217000563,
-    "lat": "48.61805895",
-    "lon": "8.125932497893082",
-    "display_name": "27, Talstraße, Murberg, Sasbachwalden, Verwaltungsgemeinschaft Achern, Ortenaukreis, Baden-Württemberg, 77887, Deutschland",
+    "place_id": 96194334,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9430896987,
+    "lat": "48.6181555",
+    "lon": "8.1259641",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Talstraße, Murberg, Sasbachwalden, Verwaltungsgemeinschaft Achern, Ortenaukreis, Baden-Württemberg, 77887, Deutschland",
     "address": {
-      "house_number": "27",
       "road": "Talstraße",
       "hamlet": "Murberg",
       "village": "Sasbachwalden",
@@ -35511,14 +35911,21 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.blumen-weindorf-wetter.de/webcam2.htm",
+      "camera:direction": "315",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
     "boundingbox": [
-      "48.6179828",
-      "48.6181351",
-      "8.1258173",
-      "8.1260477"
+      "48.6181055",
+      "48.6182055",
+      "8.1259141",
+      "8.1260141"
     ],
-    "expires": 1693101504
+    "expires": 1694306034
   },
   "48.6245428,10.0670586": {
     "place_id": 87679817,
@@ -35804,15 +36211,20 @@
     "expires": 1693636438
   },
   "48.6545543,8.2176383": {
-    "place_id": 176245381,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 293433324,
-    "lat": "48.654514250000005",
-    "lon": "8.217666552752407",
-    "display_name": "Kunsteisbahn am Wiedenfelsen, Steinbruchstraße, Altschweier, Bühl, Vereinbarte Verwaltungsgemeinschaft Bühl, Landkreis Rastatt, Baden-Württemberg, 77815, Deutschland",
+    "place_id": 66733752,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6140642061,
+    "lat": "48.6545543",
+    "lon": "8.2176383",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Steinbruchstraße, Altschweier, Bühl, Vereinbarte Verwaltungsgemeinschaft Bühl, Landkreis Rastatt, Baden-Württemberg, 77815, Deutschland",
     "address": {
-      "building": "Kunsteisbahn am Wiedenfelsen",
       "road": "Steinbruchstraße",
       "city_district": "Altschweier",
       "town": "Bühl",
@@ -35825,17 +36237,20 @@
       "country_code": "de"
     },
     "extratags": {
-      "phone": "+49 7226 282",
-      "contact:webcam": "http://www.kunsteisbahn-wiedenfelsen.de/eisbahn/webcam.html",
-      "contact:website": "http://www.kunsteisbahn-wiedenfelsen.de/"
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://kunsteisbahn-wiedenfelsen.de/",
+      "camera:direction": "275",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
     "boundingbox": [
-      "48.6544571",
-      "48.6545713",
-      "8.2175768",
-      "8.2177563"
+      "48.6545043",
+      "48.6546043",
+      "8.2175883",
+      "8.2176883"
     ],
-    "expires": 1693069305
+    "expires": 1694362328
   },
   "48.6597001,8.2652947": {
     "place_id": 66308611,
@@ -36434,39 +36849,49 @@
     "expires": 1694167084
   },
   "48.7266031,9.0678574": {
-    "place_id": 261659781,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 802385368,
-    "lat": "48.7255253",
-    "lon": "9.067804399241703",
-    "display_name": "Autobahnkreuz Stuttgart, A 8, Rosental, Vaihingen, Stuttgart, Baden-Württemberg, 70569, Deutschland",
+    "place_id": 76061245,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7178712795,
+    "lat": "48.7266031",
+    "lon": "9.0678574",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "A831 AK Stuttgart FR Stuttgart-Vaihingen",
+    "display_name": "A831 AK Stuttgart FR Stuttgart-Vaihingen, A 8, Sindelfingen (Stadt), Sindelfingen, Landkreis Böblingen, Baden-Württemberg, 71065, Deutschland",
     "address": {
-      "junction": "Autobahnkreuz Stuttgart",
+      "man_made": "A831 AK Stuttgart FR Stuttgart-Vaihingen",
       "road": "A 8",
-      "suburb": "Rosental",
-      "city_district": "Vaihingen",
-      "city": "Stuttgart",
+      "city_district": "Sindelfingen (Stadt)",
+      "town": "Sindelfingen",
+      "county": "Landkreis Böblingen",
       "state": "Baden-Württemberg",
       "ISO3166-2-lvl4": "DE-BW",
-      "postcode": "70569",
+      "postcode": "71065",
       "country": "Deutschland",
       "country_code": "de"
     },
     "extratags": {
-      "area": "yes",
-      "motorway": "yes",
-      "wikidata": "Q785921",
-      "wikipedia": "de:Autobahnkreuz Stuttgart",
-      "wikimedia_commons": "File:Autobahnkreuz Stuttgart IMG 0400.jpg"
+      "height": "6",
+      "operator": "Straßenverkehrszentrale Baden-Württemberg",
+      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "surveillance": "webcam",
+      "contact:webcam": "https://verkehrsinfo-bw.de/kamera?id=K1",
+      "camera:direction": "70",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "48.7221457",
-      "48.7287162",
-      "9.0578708",
-      "9.0758134"
+      "48.7265531",
+      "48.7266531",
+      "9.0678074",
+      "9.0679074"
     ],
-    "expires": 1693089801
+    "expires": 1694240488
   },
   "48.7337787,9.0454294": {
     "place_id": 57166795,
@@ -36514,12 +36939,18 @@
     "expires": 1693391910
   },
   "48.7413376,9.0354588": {
-    "place_id": 75897306,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 75828131,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 7178646066,
     "lat": "48.7413376",
     "lon": "9.0354588",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "A8 Raststätte Sindelfinger Wald FR Karlsruhe (km 209.157/K8002)",
     "display_name": "A8 Raststätte Sindelfinger Wald FR Karlsruhe (km 209.157/K8002), A 8;A 81, Sindelfingen, Landkreis Böblingen, Baden-Württemberg, 71069, Deutschland",
     "address": {
       "man_made": "A8 Raststätte Sindelfinger Wald FR Karlsruhe (km 209.157/K8002)",
@@ -36549,7 +36980,7 @@
       "9.0354088",
       "9.0355088"
     ],
-    "expires": 1693091786
+    "expires": 1694282550
   },
   "48.7463703,9.9955906": {
     "place_id": 97140336,
@@ -38009,45 +38440,42 @@
     "expires": 1694272226
   },
   "49.181165,19.0494028": {
-    "place_id": 245256569,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 702306868,
-    "lat": "49.181115399999996",
-    "lon": "19.049210505477888",
-    "display_name": "Chata pod Chlebom, 198, Šútovo, okres Martin, Žilinský kraj, Stredné Slovensko, 038 54, Slovensko",
+    "place_id": 376330494,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11107444421,
+    "lat": "49.181165",
+    "lon": "19.0494028",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Zimná cesta, Šútovo, okres Martin, Žilinský kraj, Stredné Slovensko, Slovensko",
     "address": {
-      "tourism": "Chata pod Chlebom",
-      "house_number": "198",
+      "road": "Zimná cesta",
       "city_district": "Šútovo",
       "village": "Šútovo",
       "county": "okres Martin",
       "state": "Žilinský kraj",
       "ISO3166-2-lvl4": "SK-ZI",
       "region": "Stredné Slovensko",
-      "postcode": "038 54",
       "country": "Slovensko",
       "country_code": "sk"
     },
     "extratags": {
-      "ele": "1423",
-      "email": "chatapodchlebom@gmail.com",
-      "phone": "+421 905 861 042",
-      "website": "http://www.chatachleb.sk/",
-      "wikidata": "Q7076548",
-      "wikipedia": "sk:Chata pod Chlebom",
-      "description": "Rezervácie len mailom! Teplé nápoje a jedlo 7:00 - 22:00 hod.",
-      "contact:facebook": "https://www.facebook.com/groups/54401923850/",
-      "contact:instagram": "https://www.instagram.com/chatapodchlebom/",
-      "ref:minvskaddress": "37191693"
+      "surveillance": "webcam",
+      "contact:webcam": "http://kamera.chatachleb.sk:8080/",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "49.1810646",
-      "49.1812626",
-      "19.0490961",
-      "19.0494667"
+      "49.1811150",
+      "49.1812150",
+      "19.0493528",
+      "19.0494528"
     ],
-    "expires": 1693111082
+    "expires": 1694392603
   },
   "49.2166196,13.065593": {
     "place_id": 361198352,
@@ -38422,12 +38850,18 @@
     "expires": 1693957350
   },
   "49.3344953,20.091088": {
-    "place_id": 352000111,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 352173713,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10293296852,
     "lat": "49.3344953",
     "lon": "20.091088",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Olczan-SKI Zwyrtlik",
     "display_name": "Olczan-SKI Zwyrtlik, Wierch Olczański, Olczański Wierch, Bukowina Tatrzańska, gmina Bukowina Tatrzańska, powiat tatrzański, województwo małopolskie, 34-530, Polska",
     "address": {
       "man_made": "Olczan-SKI Zwyrtlik",
@@ -38452,10 +38886,10 @@
     "boundingbox": [
       "49.3344453",
       "49.3345453",
-      "20.091038",
-      "20.091138"
+      "20.0910380",
+      "20.0911380"
     ],
-    "expires": 1693047445
+    "expires": 1694407774
   },
   "49.3365063,20.0950833": {
     "place_id": 352173712,
@@ -38821,16 +39255,20 @@
     "expires": 1693830739
   },
   "49.4219465,8.7057734": {
-    "place_id": 151312497,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 193617602,
-    "lat": "49.421783399999995",
-    "lon": "8.705640844999998",
-    "display_name": "Waldschenke, 1, Auf dem Heiligenberg, Handschuhsheim, Heidelberg, Baden-Württemberg, 69121, Deutschland",
+    "place_id": 20257374,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2282060580,
+    "lat": "49.4219465",
+    "lon": "8.7057734",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Auf dem Heiligenberg, Handschuhsheim, Heidelberg, Baden-Württemberg, 69121, Deutschland",
     "address": {
-      "amenity": "Waldschenke",
-      "house_number": "1",
       "road": "Auf dem Heiligenberg",
       "city_district": "Handschuhsheim",
       "city": "Heidelberg",
@@ -38841,19 +39279,16 @@
       "country_code": "de"
     },
     "extratags": {
-      "cuisine": "german",
-      "website": "https://www.waldschenke-heidelberg.de/",
-      "building": "yes",
-      "opening_hours": "We-Su 11:30+",
-      "source:geometry": "HiRes aerial imagery"
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.waldschenke-heidelberg.de/#page2030"
     },
     "boundingbox": [
-      "49.4217203",
-      "49.4218642",
-      "8.7055251",
-      "8.7057652"
+      "49.4218965",
+      "49.4219965",
+      "8.7057234",
+      "8.7058234"
     ],
-    "expires": 1693074879
+    "expires": 1694318007
   },
   "49.4656939,17.0160062": {
     "place_id": 96690366,
@@ -38982,12 +39417,18 @@
     "expires": 1694214111
   },
   "49.5414349,15.3592032": {
-    "place_id": 130613922,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 130569944,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 111739652,
     "lat": "49.541509399999995",
     "lon": "15.359353388306424",
+    "class": "amenity",
+    "type": "place_of_worship",
+    "place_rank": 30,
+    "importance": 0.17814054651760589,
+    "addresstype": "amenity",
+    "name": "‎Kostel sv. Mikuláše",
     "display_name": "‎Kostel sv. Mikuláše, Horní náměstí, Humpolec, okres Pelhřimov, Kraj Vysočina, Jihovýchod, 396 01, Česko",
     "address": {
       "amenity": "‎Kostel sv. Mikuláše",
@@ -39016,19 +39457,25 @@
       "15.3590995",
       "15.3596691"
     ],
-    "expires": 1693101355
+    "expires": 1694281577
   },
   "49.5461116,9.1969725": {
-    "place_id": 129895529,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 109433078,
-    "lat": "49.5462574",
-    "lon": "9.196775215251176",
-    "display_name": "Golfclub Mudau e.V., Birkenweg, Mudau, Neckar-Odenwald-Kreis, Baden-Württemberg, 69427, Deutschland",
+    "place_id": 58333147,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5301347641,
+    "lat": "49.5461116",
+    "lon": "9.1969725",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Donebacher Straße, Donebach, Mudau, Neckar-Odenwald-Kreis, Baden-Württemberg, 69427, Deutschland",
     "address": {
-      "leisure": "Golfclub Mudau e.V.",
-      "road": "Birkenweg",
+      "road": "Donebacher Straße",
+      "village": "Donebach",
       "town": "Mudau",
       "county": "Neckar-Odenwald-Kreis",
       "state": "Baden-Württemberg",
@@ -39038,18 +39485,18 @@
       "country_code": "de"
     },
     "extratags": {
-      "email": "info@golfclub-mudau.de",
-      "phone": "+49 6284 8408",
-      "website": "http://www.golfclub-mudau.com/",
-      "operator": "Niklas Trumpfheller"
+      "website": "http://www.golfclub-mudau.com/golfanlage/webcam/",
+      "direction": "240",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "49.5399886",
-      "49.55258",
-      "9.1870184",
-      "9.2045125"
+      "49.5460616",
+      "49.5461616",
+      "9.1969225",
+      "9.1970225"
     ],
-    "expires": 1693080200
+    "expires": 1694355458
   },
   "49.5550911,25.6401588": {
     "place_id": 38367283,
@@ -39138,12 +39585,18 @@
     "expires": 1694120019
   },
   "49.7509759,31.4689261": {
-    "place_id": 7185764,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 7085884,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 896455168,
     "lat": "49.7509759",
     "lon": "31.4689261",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Веб-камера в центрі міста",
     "display_name": "Веб-камера в центрі міста, вулиця Шевченка, Канів, Канівська міська громада, Черкаський район, Черкаська область, 19000, Україна",
     "address": {
       "man_made": "Веб-камера в центрі міста",
@@ -39173,7 +39626,7 @@
       "31.4688761",
       "31.4689761"
     ],
-    "expires": 1693112488
+    "expires": 1694294449
   },
   "49.7532601,15.0203444": {
     "place_id": 274662291,
@@ -40139,17 +40592,22 @@
     "expires": 1694311591
   },
   "50.2463485,21.7830625": {
-    "place_id": 178162500,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 301945394,
-    "lat": "50.24618455",
-    "lon": "21.783106415127783",
-    "display_name": "Starostwo Powiatowe w Kolbuszowej, 10, 11 Listopada, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska",
+    "place_id": 353521567,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10543158985,
+    "lat": "50.2463485",
+    "lon": "21.7830625",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "10, Księdza Ludwika Ruczki, Kolbuszowa, gmina Kolbuszowa, powiat kolbuszowski, województwo podkarpackie, 36-100, Polska",
     "address": {
-      "office": "Starostwo Powiatowe w Kolbuszowej",
       "house_number": "10",
-      "road": "11 Listopada",
+      "road": "Księdza Ludwika Ruczki",
       "town": "Kolbuszowa",
       "municipality": "gmina Kolbuszowa",
       "county": "powiat kolbuszowski",
@@ -40160,37 +40618,38 @@
       "country_code": "pl"
     },
     "extratags": {
-      "fax": "17 227 15 23",
-      "email": "starostwo@kolbuszowski.pl",
-      "phone": "+48 17 744 57 71, +48 17 227 58 80",
-      "smoking": "no",
-      "website": "http://www.powiat.kolbuszowski.pl/",
-      "building": "public",
-      "government": "administrative",
-      "source:addr": "EMUiA (kolbuszowa.e-mapa.net)",
-      "opening_hours": "Mo 08:00-16:00; Tu-Fr 07:30-15:30",
-      "website:refugee:uk": "http://www.powiat.kolbuszowski.pl/download/gfx/kolbuszowa/pl/defaultstronaopisowa/223/1/1/ulotka_informacyjna_ua.pdf"
+      "camera:type": "fixed",
+      "camera:mount": "building",
+      "surveillance": "webcam",
+      "contact:webcam": "https://kolbuszowa.pl/kamery",
+      "camera:direction": "45",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "50.2459826",
-      "50.2463952",
-      "21.7823577",
-      "21.7833426"
+      "50.2462985",
+      "50.2463985",
+      "21.7830125",
+      "21.7831125"
     ],
-    "expires": 1693099734
+    "expires": 1694372843
   },
   "50.2579658,10.9644134": {
-    "place_id": 189809510,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 359569707,
-    "lat": "50.257839849999996",
-    "lon": "10.964494001315792",
-    "display_name": "Rathaus, 1, Markt, Coburg, Bayern, 96450, Deutschland",
+    "place_id": 49830744,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4344563902,
+    "lat": "50.2579658",
+    "lon": "10.9644134",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "1, Markt, Coburg, Bayern, 96450, Deutschland",
     "address": {
-      "amenity": "Rathaus",
       "house_number": "1",
-      "square": "Markt",
+      "road": "Markt",
       "town": "Coburg",
       "state": "Bayern",
       "ISO3166-2-lvl4": "DE-BY",
@@ -40199,26 +40658,16 @@
       "country_code": "de"
     },
     "extratags": {
-      "image": "https://commons.wikimedia.org/wiki/File:Coburg-Rathaus1.jpg",
-      "phone": "+49 9561 89-0",
-      "website": "https://www.coburg.de/",
-      "building": "yes",
-      "heritage": "4",
-      "ref:BLfD": "D-4-63-000-303",
-      "wikidata": "Q1104839",
-      "wikipedia": "de:Rathaus (Coburg)",
-      "wheelchair": "yes",
-      "heritage:operator": "BLfD",
-      "wikimedia_commons": "Category:Rathaus Coburg",
-      "wheelchair:description": "Grundriss \"http://gis.coburg.de/MedienExtern/Dokumente/Barrierefreiheit/Rathaus.jpg\" Barrierefreie Stadt Coburg \"http://gis.coburg.de/GeoportalCoburg/synserver?project=Stadtplan_Coburg&client=core&view=Barrierefreiheit&scale=5000&x=4426270&y=5569653\""
+      "website": "http://217.24.53.18/",
+      "surveillance": "webcam"
     },
     "boundingbox": [
-      "50.2576547",
-      "50.2580105",
-      "10.9641825",
-      "10.964716"
+      "50.2579158",
+      "50.2580158",
+      "10.9643634",
+      "10.9644634"
     ],
-    "expires": 1693074613
+    "expires": 1694374748
   },
   "50.2586706,10.9645925": {
     "place_id": 115551133,
@@ -40376,12 +40825,18 @@
     "expires": 1694091030
   },
   "50.2782722,10.9433846": {
-    "place_id": 176858076,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 296225224,
-    "lat": "50.276674436387395",
-    "lon": "10.943129180895463",
+    "place_id": 50459818,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4345531507,
+    "lat": "50.2782722",
+    "lon": "10.9433846",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "St 2205, Neuses bei Coburg, Neuses, Coburg, Bayern, 96450, Deutschland",
     "address": {
       "road": "St 2205",
@@ -40394,20 +40849,17 @@
       "country_code": "de"
     },
     "extratags": {
-      "lanes": "3",
-      "lanes:forward": "2",
-      "lanes:backward": "1",
-      "maxspeed:forward": "100",
-      "maxspeed:backward": "70",
-      "turn:lanes:forward": "left|through"
+      "website": "http://www.wwa-webcams.de/kc/s-gbs/s-gbs.jpg",
+      "description": "Blick auf den Goldbergsee",
+      "surveillance": "webcam"
     },
     "boundingbox": [
-      "50.2765905",
-      "50.2767211",
-      "10.9427565",
-      "10.9435708"
+      "50.2782222",
+      "50.2783222",
+      "10.9433346",
+      "10.9434346"
     ],
-    "expires": 1693069755
+    "expires": 1694251141
   },
   "50.3483644,11.0314931": {
     "place_id": 50399269,
@@ -41180,12 +41632,18 @@
     "expires": 1694315975
   },
   "50.4685741,16.201564": {
-    "place_id": 112105709,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 112549234,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 29148804,
     "lat": "50.4677826",
     "lon": "16.204934359191334",
+    "class": "aeroway",
+    "type": "aerodrome",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "aeroway",
+    "name": "Letiště Velké Poříčí",
     "display_name": "Letiště Velké Poříčí, K Letišti, Velké Poříčí, okres Náchod, Královéhradecký kraj, 549 32, Česko",
     "address": {
       "aeroway": "Letiště Velké Poříčí",
@@ -41200,14 +41658,14 @@
       "country": "Česko",
       "country_code": "cz"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "50.4669464",
       "50.4688278",
       "16.1985631",
       "16.2113144"
     ],
-    "expires": 1693077932
+    "expires": 1694301120
   },
   "50.5232857,6.880723": {
     "place_id": 5653088,
@@ -41548,15 +42006,21 @@
     "expires": 1694227855
   },
   "50.7791992,0.0793008": {
-    "place_id": 358046127,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 358218992,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 603970474,
     "lat": "50.7792103",
     "lon": "0.07977897724496011",
+    "class": "leisure",
+    "type": "marina",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "leisure",
+    "name": "Newhaven and Seaford Sailing Club",
     "display_name": "Newhaven and Seaford Sailing Club, Marine Parade, Seaford, Lewes, East Sussex, England, BN25 2QR, United Kingdom",
     "address": {
-      "club": "Newhaven and Seaford Sailing Club",
+      "leisure": "Newhaven and Seaford Sailing Club",
       "road": "Marine Parade",
       "suburb": "Seaford",
       "town": "Seaford",
@@ -41569,16 +42033,16 @@
       "country_code": "gb"
     },
     "extratags": {
-      "sport": "sailing",
-      "leisure": "marina"
+      "club": "sport",
+      "sport": "sailing"
     },
     "boundingbox": [
-      "50.778531",
-      "50.779831",
+      "50.7785310",
+      "50.7798310",
       "0.0788681",
       "0.0808454"
     ],
-    "expires": 1693075185
+    "expires": 1694279427
   },
   "50.7812727,-0.6758564": {
     "place_id": 113036273,
@@ -42147,12 +42611,18 @@
     "expires": 1693842957
   },
   "50.8484805,0.5205686": {
-    "place_id": 66077420,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 66307869,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 6139754934,
     "lat": "50.8484805",
     "lon": "0.5205686",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Amsterdam Shipwreck Webcam",
     "display_name": "Amsterdam Shipwreck Webcam, Bridge Way, Bulverhythe, Hastings, East Sussex, England, TN38 8AP, United Kingdom",
     "address": {
       "man_made": "Amsterdam Shipwreck Webcam",
@@ -42181,15 +42651,21 @@
       "0.5205186",
       "0.5206186"
     ],
-    "expires": 1693043952
+    "expires": 1694242213
   },
   "50.8494322,5.6941473": {
-    "place_id": 92722870,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 92371318,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8922850866,
     "lat": "50.8494322",
     "lon": "5.6941473",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Maasboulevard, Maastricht",
     "display_name": "Maasboulevard, Maastricht, Maastrichter Brugstraat, Binnenstad, Maastricht-Centrum, Maastricht, Limburg, Nederland, 6211 ET, Nederland",
     "address": {
       "man_made": "Maasboulevard, Maastricht",
@@ -42219,7 +42695,7 @@
       "5.6940973",
       "5.6941973"
     ],
-    "expires": 1693048100
+    "expires": 1694338070
   },
   "50.8520565,4.3533064": {
     "place_id": 61049088,
@@ -42434,16 +42910,23 @@
     "expires": 1694105479
   },
   "50.8816359,12.1320933": {
-    "place_id": 56257315,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 5045983508,
-    "lat": "50.8816359",
-    "lon": "12.1320933",
-    "display_name": "webcam Flugplatz Gera-Leumnitz, Ronneburger Straße, Gera, Thüringen, 07546, Deutschland",
+    "place_id": 225168997,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 572403516,
+    "lat": "50.8809951",
+    "lon": "12.134583034444386",
+    "class": "aeroway",
+    "type": "aerodrome",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "aeroway",
+    "name": "Flugplatz Gera-Leumnitz",
+    "display_name": "Flugplatz Gera-Leumnitz, Ronneburger Straße, Leumnitz, Gera, Thüringen, 07546, Deutschland",
     "address": {
-      "man_made": "webcam Flugplatz Gera-Leumnitz",
+      "aeroway": "Flugplatz Gera-Leumnitz",
       "road": "Ronneburger Straße",
+      "suburb": "Leumnitz",
       "town": "Gera",
       "state": "Thüringen",
       "ISO3166-2-lvl4": "DE-TH",
@@ -42452,20 +42935,22 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "panning",
-      "camera:mount": "tower",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.flugplatz-gera.de/webcam/",
-      "surveillance:type": "camera",
-      "surveillance:zone": "airport"
+      "ele": "309",
+      "is_in": "Leumnitz, Gera, Thüringen, Bundesrepublik Deutschland,Europe",
+      "operator": "C&L Systeme LFDU",
+      "wikidata": "Q1433602",
+      "wikipedia": "de:Flugplatz Gera-Leumnitz",
+      "opening_hours": "Apr-Sep: 09:00-19:00; Oct-Mar: 09:00-(sunset+00:30)",
+      "aerodrome:type": "airfield",
+      "contact:website": "https://www.flugplatz-gera.de"
     },
     "boundingbox": [
-      "50.8815859",
-      "50.8816859",
-      "12.1320433",
-      "12.1321433"
+      "50.8779288",
+      "50.8838712",
+      "12.1278426",
+      "12.1449770"
     ],
-    "expires": 1693072294
+    "expires": 1694359768
   },
   "50.8861802,4.7003569": {
     "place_id": 79004857,
@@ -42858,12 +43343,18 @@
     "expires": 1693234546
   },
   "50.9980663,5.8699701": {
-    "place_id": 94581681,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 94560498,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9207503693,
     "lat": "50.9980663",
     "lon": "5.8699701",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam Sittard Markt",
     "display_name": "Webcam Sittard Markt, Markt, Park Leyenbroek, Sittard, Sittard-Geleen, Limburg, Nederland, 6131 EK, Nederland",
     "address": {
       "man_made": "Webcam Sittard Markt",
@@ -42892,7 +43383,7 @@
       "5.8699201",
       "5.8700201"
     ],
-    "expires": 1693102371
+    "expires": 1694343053
   },
   "51.0292143,7.8423778": {
     "place_id": 129976352,
@@ -43014,15 +43505,20 @@
     "expires": 1693904847
   },
   "51.0753161,7.8402817": {
-    "place_id": 36182708,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 2975527542,
-    "lat": "51.0753161",
-    "lon": "7.8402817",
-    "display_name": "Webcam Olpe-Sondern Pension Stumpf, 7, Sonderner Straße, Sondern, Olpe, Kreis Olpe, Nordrhein-Westfalen, 57462, Deutschland",
+    "place_id": 184684646,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 326457385,
+    "lat": "51.07529425",
+    "lon": "7.840165431454325",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "7, Sonderner Straße, Sondern, Olpe, Kreis Olpe, Nordrhein-Westfalen, 57462, Deutschland",
     "address": {
-      "man_made": "Webcam Olpe-Sondern Pension Stumpf",
       "house_number": "7",
       "road": "Sonderner Straße",
       "village": "Sondern",
@@ -43034,18 +43530,14 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {
-      "url": "http://wettercam.pension-stumpf.de/images/stories/MOBOTIX/webcam/current.jpg",
-      "website": "http://wettercam.pension-stumpf.de/images/stories/MOBOTIX/webcam/current.jpg",
-      "surveillance": "webcam"
-    },
+    "extratags": null,
     "boundingbox": [
-      "51.0752661",
-      "51.0753661",
-      "7.8402317",
-      "7.8403317"
+      "51.0752404",
+      "51.0753749",
+      "7.8400328",
+      "7.8403012"
     ],
-    "expires": 1693077159
+    "expires": 1694283679
   },
   "51.0891285,6.589649": {
     "place_id": 57623473,
@@ -44082,35 +44574,45 @@
     "expires": 1694311220
   },
   "51.4763099,7.2161577": {
-    "place_id": 299161592,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 7942494,
-    "lat": "51.47665605",
-    "lon": "7.216530455081919",
-    "display_name": "Griesenbruch, Innenstadt, Bochum-Mitte, Bochum, Nordrhein-Westfalen, 44787, Deutschland",
+    "place_id": 188905783,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 353037283,
+    "lat": "51.4754435",
+    "lon": "7.214738289008937",
+    "class": "tourism",
+    "type": "attraction",
+    "place_rank": 30,
+    "importance": 0.2208608703737879,
+    "addresstype": "tourism",
+    "name": "Bermuda3eck",
+    "display_name": "Bermuda3eck, Kronenstraße, Ehrenfeld, Wiemelhausen, Bochum-Mitte, Bochum, Nordrhein-Westfalen, 44789, Deutschland",
     "address": {
-      "neighbourhood": "Griesenbruch",
-      "suburb": "Innenstadt",
+      "tourism": "Bermuda3eck",
+      "road": "Kronenstraße",
+      "neighbourhood": "Ehrenfeld",
+      "suburb": "Wiemelhausen",
       "borough": "Bochum-Mitte",
       "city": "Bochum",
       "state": "Nordrhein-Westfalen",
       "ISO3166-2-lvl4": "DE-NW",
-      "postcode": "44787",
+      "postcode": "44789",
       "country": "Deutschland",
       "country_code": "de"
     },
     "extratags": {
-      "lit": "yes",
-      "surface": "paving_stones"
+      "area": "yes",
+      "website": "https://www.bermuda3eck.de/",
+      "wikipedia": "de:Bermuda3eck",
+      "wheelchair": "limited"
     },
     "boundingbox": [
-      "51.4759257",
-      "51.4774107",
-      "7.2159447",
-      "7.2171242"
+      "51.4739107",
+      "51.4786102",
+      "7.2126403",
+      "7.2191199"
     ],
-    "expires": 1693095450
+    "expires": 1694306781
   },
   "51.500889,-0.116938": {
     "place_id": 113343129,
@@ -44395,16 +44897,23 @@
     "expires": 1693936434
   },
   "51.5044537,-0.0866245": {
-    "place_id": 245411635,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 702285118,
-    "lat": "51.5039477",
-    "lon": "-0.09196686087291611",
-    "display_name": "Roman Southwark, Great Dover Street, The Borough, London Borough of Southwark, London, Greater London, England, SE1 4XR, United Kingdom",
+    "place_id": 94827962,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9296297387,
+    "lat": "51.5044537",
+    "lon": "-0.0866245",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "The view from the Shard - East",
+    "display_name": "The view from the Shard - East, St. Thomas Street, Bermondsey Village, The Borough, London Borough of Southwark, London, Greater London, England, SE1 9GU, United Kingdom",
     "address": {
-      "historic": "Roman Southwark",
-      "road": "Great Dover Street",
+      "man_made": "The view from the Shard - East",
+      "road": "St. Thomas Street",
+      "quarter": "Bermondsey Village",
       "suburb": "The Borough",
       "city_district": "London Borough of Southwark",
       "ISO3166-2-lvl8": "GB-SWK",
@@ -44412,18 +44921,25 @@
       "state_district": "Greater London",
       "state": "England",
       "ISO3166-2-lvl4": "GB-ENG",
-      "postcode": "SE1 4XR",
+      "postcode": "SE1 9GU",
       "country": "United Kingdom",
       "country_code": "gb"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "camera:mount": "building",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.theviewfromtheshard.com/east-view/",
+      "camera:direction": "270",
+      "surveillance:type": "camera"
+    },
     "boundingbox": [
-      "51.5007496",
-      "51.5072237",
-      "-0.0973303",
-      "-0.0862909"
+      "51.5044037",
+      "51.5045037",
+      "-0.0866745",
+      "-0.0865745"
     ],
-    "expires": 1693098223
+    "expires": 1694348846
   },
   "51.5133218,3.7294359": {
     "place_id": 101842149,
@@ -44507,12 +45023,18 @@
     "expires": 1694310795
   },
   "51.576045,14.0113056": {
-    "place_id": 162640229,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 162161897,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 230952009,
     "lat": "51.576129050000006",
     "lon": "14.011157306444726",
+    "class": "leisure",
+    "type": "sports_centre",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "leisure",
+    "name": "Seesporthalle",
     "display_name": "Seesporthalle, Ilseradweg, Klein Räschen, Großräschen, Oberspreewald-Lausitz - Górne Błota-Łužyca, Brandenburg, 01983, Deutschland",
     "address": {
       "leisure": "Seesporthalle",
@@ -44526,14 +45048,14 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "51.5759924",
       "51.5762636",
       "14.0107698",
       "14.0115449"
     ],
-    "expires": 1693028540
+    "expires": 1694372938
   },
   "51.5778855,6.2366429": {
     "place_id": 347569262,
@@ -44777,29 +45299,43 @@
     "expires": 1694205204
   },
   "51.6716567,4.0833978": {
-    "place_id": 298767029,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 5274718,
-    "lat": "51.671427449999996",
-    "lon": "4.0829593129702015",
-    "display_name": "Bruinisse, Schouwen-Duiveland, Zeeland, Nederland",
+    "place_id": 80677890,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7817868313,
+    "lat": "51.6716567",
+    "lon": "4.0833978",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Jachthavenweg, Bruinisse, Schouwen-Duiveland, Zeeland, Nederland, 4311 NC, Nederland",
     "address": {
+      "road": "Jachthavenweg",
       "village": "Bruinisse",
       "municipality": "Schouwen-Duiveland",
       "state": "Zeeland",
       "ISO3166-2-lvl4": "NL-ZE",
       "country": "Nederland",
+      "postcode": "4311 NC",
       "country_code": "nl"
     },
-    "extratags": {},
+    "extratags": {
+      "operator": "jachthaven bruinisse",
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.jachthavenbruinisse.nl/onze-haven/webcam",
+      "surveillance:type": "camera"
+    },
     "boundingbox": [
-      "51.6710322",
-      "51.6718638",
-      "4.0822269",
-      "4.0839575"
+      "51.6716067",
+      "51.6717067",
+      "4.0833478",
+      "4.0834478"
     ],
-    "expires": 1693087193
+    "expires": 1694247540
   },
   "51.6783784,6.485777": {
     "place_id": 91716020,
@@ -45268,15 +45804,21 @@
     "expires": 1694228170
   },
   "51.7183292,8.9374824": {
-    "place_id": 22721619,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 2524198465,
-    "lat": "51.7183292",
-    "lon": "8.9374824",
-    "display_name": "Webcam Schwaney, Zur Wulwerkuhle, Schwaney, Altenbeken, Kreis Paderborn, Nordrhein-Westfalen, 33184, Deutschland",
+    "place_id": 166345666,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 245181936,
+    "lat": "51.7183383",
+    "lon": "8.9374954",
+    "class": "building",
+    "type": "residential",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "12, Zur Wulwerkuhle, Schwaney, Altenbeken, Kreis Paderborn, Nordrhein-Westfalen, 33184, Deutschland",
     "address": {
-      "man_made": "Webcam Schwaney",
+      "house_number": "12",
       "road": "Zur Wulwerkuhle",
       "suburb": "Schwaney",
       "village": "Schwaney",
@@ -45287,21 +45829,14 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {
-      "surveillance": "webcam",
-      "contact:webcam": "http://webcam.schwaney.de/current.jpg",
-      "camera:features": "webcam",
-      "camera:direction": "240",
-      "camera:recording": "yes",
-      "surveillance:type": "camera"
-    },
+    "extratags": null,
     "boundingbox": [
-      "51.7182792",
-      "51.7183792",
-      "8.9374324",
-      "8.9375324"
+      "51.7182602",
+      "51.7184164",
+      "8.9373865",
+      "8.9376043"
     ],
-    "expires": 1693098174
+    "expires": 1694366426
   },
   "51.7185327,8.755393": {
     "place_id": 41259005,
@@ -45879,12 +46414,18 @@
     "expires": 1693943417
   },
   "51.8195478,4.6711413": {
-    "place_id": 98132092,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 97751171,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9594030425,
     "lat": "51.8195478",
     "lon": "4.6711413",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam Dordrecht",
     "display_name": "Webcam Dordrecht, Merwekade, Dordrecht Centrum, Dordrecht, Zuid-Holland, Nederland, 3311 TB, Nederland",
     "address": {
       "man_made": "Webcam Dordrecht",
@@ -45910,7 +46451,7 @@
       "4.6710913",
       "4.6711913"
     ],
-    "expires": 1693081126
+    "expires": 1694315280
   },
   "51.8230069,4.1279953": {
     "place_id": 281817910,
@@ -46031,37 +46572,41 @@
     "expires": 1694091976
   },
   "51.8336987,4.9435486": {
-    "place_id": 194206720,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 378125545,
-    "lat": "51.8342665",
-    "lon": "4.943230160315018",
-    "display_name": "Carpoolplaats Avelingen West, Nieuwe Wolpherensedijk, Avelingen West, Gorinchem, Zuid-Holland, Nederland, 4202 LR, Nederland",
+    "place_id": 79948832,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7814757320,
+    "lat": "51.8337033",
+    "lon": "4.9435647",
+    "class": "man_made",
+    "type": "mast",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "A27, Avelingen West, Gorinchem, Zuid-Holland, Nederland, 4202 MN, Nederland",
     "address": {
-      "amenity": "Carpoolplaats Avelingen West",
-      "road": "Nieuwe Wolpherensedijk",
+      "road": "A27",
       "industrial": "Avelingen West",
       "city_district": "Gorinchem",
       "town": "Gorinchem",
       "state": "Zuid-Holland",
       "ISO3166-2-lvl4": "NL-ZH",
       "country": "Nederland",
-      "postcode": "4202 LR",
+      "postcode": "4202 MN",
       "country_code": "nl"
     },
     "extratags": {
-      "fee": "no",
-      "access": "yes",
-      "parking": "surface"
+      "tower:type": "communication",
+      "tower:construction": "lattice"
     },
     "boundingbox": [
-      "51.8335115",
-      "51.8349945",
-      "4.9430668",
-      "4.9435103"
+      "51.8336533",
+      "51.8337533",
+      "4.9435147",
+      "4.9436147"
     ],
-    "expires": 1693042096
+    "expires": 1694348784
   },
   "51.8597099,13.9517458": {
     "place_id": 5776678,
@@ -46925,15 +47470,20 @@
     "expires": 1693375398
   },
   "51.918697,4.2415122": {
-    "place_id": 27807597,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 16568065,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 2770633006,
-    "lat": "51.9186767",
-    "lon": "4.2415452",
-    "display_name": "3, Noordzee, Het Balkon, Maassluis, Zuid-Holland, Nederland, 3144 DB, Nederland",
+    "osm_id": 1827092246,
+    "lat": "51.9187054",
+    "lon": "4.2415131",
+    "class": "man_made",
+    "type": "tower",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Noordzee, Het Balkon, Maassluis, Zuid-Holland, Nederland, 3144 DB, Nederland",
     "address": {
-      "house_number": "3",
       "road": "Noordzee",
       "neighbourhood": "Het Balkon",
       "town": "Maassluis",
@@ -46943,14 +47493,16 @@
       "postcode": "3144 DB",
       "country_code": "nl"
     },
-    "extratags": {},
+    "extratags": {
+      "tower:type": "communication"
+    },
     "boundingbox": [
-      "51.9186267",
-      "51.9187267",
-      "4.2414952",
-      "4.2415952"
+      "51.9186554",
+      "51.9187554",
+      "4.2414631",
+      "4.2415631"
     ],
-    "expires": 1693038796
+    "expires": 1694317772
   },
   "51.9196485,4.4900724": {
     "place_id": 92400652,
@@ -49226,12 +49778,18 @@
     "expires": 1693962150
   },
   "52.2909352,9.5374289": {
-    "place_id": 92247379,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 92569794,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8954410567,
     "lat": "52.2909352",
     "lon": "9.5374289",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Webcam Modellfluggruppe Barsinghausen",
     "display_name": "Webcam Modellfluggruppe Barsinghausen, K 236, Redderse, Barsinghausen, Region Hannover, Niedersachsen, Deutschland",
     "address": {
       "man_made": "Webcam Modellfluggruppe Barsinghausen",
@@ -49259,7 +49817,7 @@
       "9.5373789",
       "9.5374789"
     ],
-    "expires": 1693049769
+    "expires": 1694310041
   },
   "52.3177955,8.0192775": {
     "place_id": 337175815,
@@ -49768,12 +50326,18 @@
     "expires": 1694175365
   },
   "52.4000564,23.8816098": {
-    "place_id": 214555977,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 494824915,
-    "lat": "52.40016522865196",
-    "lon": "23.881625681485588",
+    "place_id": 338336255,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 9902852510,
+    "lat": "52.4000564",
+    "lon": "23.8816098",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Р98, Рэчыцкі сельскі Савет, Камянецкі раён, Брэсцкая вобласць, 225051, Беларусь",
     "address": {
       "road": "Р98",
@@ -49786,18 +50350,19 @@
       "country_code": "by"
     },
     "extratags": {
-      "lanes": "2",
-      "surface": "asphalt",
-      "maxspeed": "90",
-      "maxaxleload": "10"
+      "mapillary": "662762911542093",
+      "surveillance": "webcam",
+      "contact:webcam": "https://on.windy.com/6p8gg",
+      "camera:direction": "90",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "52.3993647",
-      "52.4030993",
-      "23.8666829",
-      "23.8954711"
+      "52.4000064",
+      "52.4001064",
+      "23.8815598",
+      "23.8816598"
     ],
-    "expires": 1693088262
+    "expires": 1694370148
   },
   "52.400109,23.8816203": {
     "place_id": 214555977,
@@ -49877,12 +50442,18 @@
     "expires": 1693382208
   },
   "52.4155723,4.8341574": {
-    "place_id": 91327642,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 91850260,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8898871213,
     "lat": "52.4155723",
     "lon": "4.8341574",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Bouwcamera",
     "display_name": "Bouwcamera, Ankerweg, Hemhavens, Westpoort, Amsterdam, Noord-Holland, Nederland, 1041 AT, Nederland",
     "address": {
       "man_made": "Bouwcamera",
@@ -49913,7 +50484,7 @@
       "4.8341074",
       "4.8342074"
     ],
-    "expires": 1693061074
+    "expires": 1694294891
   },
   "52.4387747,10.4437678": {
     "place_id": 117754609,
@@ -51109,12 +51680,18 @@
     "expires": 1693247391
   },
   "52.5257222,13.3688005": {
-    "place_id": 299738399,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 298881318,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 13392159,
     "lat": "52.5254487",
     "lon": "13.368987558281562",
+    "class": "railway",
+    "type": "platform",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "railway",
+    "name": "Berlin Hauptbahnhof (Tief)",
     "display_name": "Berlin Hauptbahnhof (Tief), Invalidenstraße, Europacity, Moabit, Mitte, Berlin, 10557, Deutschland",
     "address": {
       "railway": "Berlin Hauptbahnhof (Tief)",
@@ -51145,7 +51722,7 @@
       "13.3678092",
       "13.3704283"
     ],
-    "expires": 1693047440
+    "expires": 1694342377
   },
   "52.5370087,13.3600915": {
     "place_id": 373702119,
@@ -51298,12 +51875,18 @@
     "expires": 1693242586
   },
   "52.6027128,0.3778365": {
-    "place_id": 55833395,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 56044677,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4964229266,
     "lat": "52.6027128",
     "lon": "0.3778365",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Downhamweb Webcam",
     "display_name": "Downhamweb Webcam, High Street, Downham Market, King's Lynn and West Norfolk, Norfolk, England, PE38 9DF, United Kingdom",
     "address": {
       "man_made": "Downhamweb Webcam",
@@ -51333,7 +51916,7 @@
       "0.3777865",
       "0.3778865"
     ],
-    "expires": 1693052460
+    "expires": 1694297867
   },
   "52.6220587,6.0407669": {
     "place_id": 91460792,
@@ -51498,15 +52081,21 @@
     "expires": 1694289768
   },
   "52.639203,9.2053566": {
-    "place_id": 36487957,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 2997595830,
-    "lat": "52.639203",
-    "lon": "9.2053566",
-    "display_name": "Lange Straße Mitte, 41, Lange Straße, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
+    "place_id": 161777720,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 228524844,
+    "lat": "52.63923",
+    "lon": "9.205221018046041",
+    "class": "building",
+    "type": "retail",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "building",
+    "name": "Patrizierhaus",
+    "display_name": "Patrizierhaus, 41, Lange Straße, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
     "address": {
-      "man_made": "Lange Straße Mitte",
+      "building": "Patrizierhaus",
       "house_number": "41",
       "road": "Lange Straße",
       "suburb": "Stadtteil Nienburg",
@@ -51519,16 +52108,17 @@
       "country_code": "de"
     },
     "extratags": {
-      "surveillance": "webcam",
-      "contact:webcam": "http://www.nienburg-in-bildern.de/index.php?bild=2"
+      "roof:shape": "gabled",
+      "start_date": "1541",
+      "building:levels": "3"
     },
     "boundingbox": [
-      "52.639153",
-      "52.639253",
-      "9.2053066",
-      "9.2054066"
+      "52.6391611",
+      "52.6393443",
+      "9.2049403",
+      "9.2053961"
     ],
-    "expires": 1693041743
+    "expires": 1694284219
   },
   "52.6395761,9.2033275": {
     "place_id": 36779308,
@@ -54166,12 +54756,18 @@
     "expires": 1694271836
   },
   "53.9776608,9.1457825": {
-    "place_id": 133660773,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 134145611,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 123380028,
     "lat": "53.977646750000005",
     "lon": "9.145797637870581",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "building",
+    "name": "",
     "display_name": "54, Hopen, Sankt Michaelisdonn, Burg-Sankt Michaelisdonn, Dithmarschen, Schleswig-Holstein, 25693, Deutschland",
     "address": {
       "house_number": "54",
@@ -54185,14 +54781,14 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "53.9775812",
       "53.9777121",
       "9.1454676",
       "9.1460174"
     ],
-    "expires": 1693027669
+    "expires": 1694264845
   },
   "54.0528399,-3.1706511": {
     "place_id": 59765409,
@@ -54394,15 +54990,22 @@
     "expires": 1694113274
   },
   "54.1292051,8.8698737": {
-    "place_id": 25713648,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 2719368315,
-    "lat": "54.1292051",
-    "lon": "8.8698737",
-    "display_name": "Life-WebCam Wohnmobilplatz Büsum am Hafen, Doktor-Martin-Bahr-Straße, Büsum, Büsum-Wesselburen, Dithmarschen, Schleswig-Holstein, 25761, Deutschland",
+    "place_id": 160477766,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 226559239,
+    "lat": "54.1294216",
+    "lon": "8.870195469048113",
+    "class": "tourism",
+    "type": "caravan_site",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "tourism",
+    "name": "Wohnmobilstellplatz Büsum Hafen",
+    "display_name": "Wohnmobilstellplatz Büsum Hafen, 5, Doktor-Martin-Bahr-Straße, Büsum, Büsum-Wesselburen, Dithmarschen, Schleswig-Holstein, 25761, Deutschland",
     "address": {
-      "man_made": "Life-WebCam Wohnmobilplatz Büsum am Hafen",
+      "tourism": "Wohnmobilstellplatz Büsum Hafen",
+      "house_number": "5",
       "road": "Doktor-Martin-Bahr-Straße",
       "town": "Büsum",
       "municipality": "Büsum-Wesselburen",
@@ -54414,20 +55017,24 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.wohnmobiluebernachtungsplatz.de/webcam.html",
-      "camera:direction": "55",
-      "surveillance:type": "camera",
-      "surveillance:zone": "trailer_park"
+      "fax": "+49 4834 2050",
+      "fee": "yes",
+      "phone": "+49 4834 9192",
+      "website": "https://www.wohnmobiluebernachtungsplatz.de/",
+      "capacity": "100",
+      "operator": "WMV-Büsum GbR",
+      "description": "Gebühr 13-15€ Saisonabhängig - incl. Toilettenentsorgung sowie Strom",
+      "power_supply": "yes",
+      "internet_access": "wlan",
+      "sanitary_dump_station": "yes"
     },
     "boundingbox": [
-      "54.1291551",
-      "54.1292551",
-      "8.8698237",
-      "8.8699237"
+      "54.1286075",
+      "54.1301525",
+      "8.8685863",
+      "8.8716725"
     ],
-    "expires": 1693079250
+    "expires": 1694344875
   },
   "54.1359335,10.6166399": {
     "place_id": 69796317,
@@ -54758,12 +55365,18 @@
     "expires": 1694077573
   },
   "54.1809512,7.8866367": {
-    "place_id": 170033175,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 167616787,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 253489422,
     "lat": "54.181055400000005",
     "lon": "7.886566463036897",
+    "class": "building",
+    "type": "apartments",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "building",
+    "name": "",
     "display_name": "301, Am Falm, Oberland, Helgoland, Kreis Pinneberg, Schleswig-Holstein, 27498, Deutschland",
     "address": {
       "house_number": "301",
@@ -54777,25 +55390,30 @@
       "country": "Deutschland",
       "country_code": "de"
     },
-    "extratags": {},
+    "extratags": null,
     "boundingbox": [
       "54.1808996",
       "54.1811274",
       "7.8864675",
       "7.8866898"
     ],
-    "expires": 1693104895
+    "expires": 1694330004
   },
   "54.1836152,27.812232": {
-    "place_id": 119262005,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 50884807,
-    "lat": "54.1843102",
-    "lon": "27.808159477308745",
-    "display_name": "Гарналыжны спартыўна-аздараўленчы комплекс \"Лагойск\", М3, Лагойскі сельскі Савет, Лагойскі раён, Мінская вобласць, 223141, Беларусь",
+    "place_id": 83250878,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8314793451,
+    "lat": "54.1836152",
+    "lon": "27.812232",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "М3, Лагойскі сельскі Савет, Лагойскі раён, Мінская вобласць, 223141, Беларусь",
     "address": {
-      "leisure": "Гарналыжны спартыўна-аздараўленчы комплекс \"Лагойск\"",
       "road": "М3",
       "city": "Лагойскі сельскі Савет",
       "county": "Лагойскі раён",
@@ -54805,14 +55423,20 @@
       "country": "Беларусь",
       "country_code": "by"
     },
-    "extratags": {},
+    "extratags": {
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "contact:webcam": "https://rtsp.me/embed/tSRnrT33/",
+      "camera:direction": "340",
+      "surveillance:type": "camera"
+    },
     "boundingbox": [
-      "54.1801082",
-      "54.1883871",
-      "27.803491",
-      "27.8134501"
+      "54.1835652",
+      "54.1836652",
+      "27.8121820",
+      "27.8122820"
     ],
-    "expires": 1693059619
+    "expires": 1694293034
   },
   "54.1866384,7.9139233": {
     "place_id": 142749892,
@@ -55486,17 +56110,23 @@
     "expires": 1694147229
   },
   "54.4389435,11.1971092": {
-    "place_id": 119302315,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 119654261,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 52167819,
     "lat": "54.43894275",
     "lon": "11.197159467043846",
+    "class": "amenity",
+    "type": "townhall",
+    "place_rank": 30,
+    "importance": 0.14778803910650132,
+    "addresstype": "amenity",
+    "name": "Rathaus der Stadt Fehmarn",
     "display_name": "Rathaus der Stadt Fehmarn, 1, Am Markt, Burg auf Fehmarn, Fehmarn, Ostholstein, Schleswig-Holstein, 23769, Deutschland",
     "address": {
       "amenity": "Rathaus der Stadt Fehmarn",
       "house_number": "1",
-      "square": "Am Markt",
+      "road": "Am Markt",
       "town": "Burg auf Fehmarn",
       "city": "Fehmarn",
       "county": "Ostholstein",
@@ -55519,11 +56149,11 @@
     },
     "boundingbox": [
       "54.4388469",
-      "54.439056",
+      "54.4390560",
       "11.1969325",
       "11.1974199"
     ],
-    "expires": 1693088012
+    "expires": 1694313714
   },
   "54.4425315,61.2671476": {
     "place_id": 134267350,
@@ -55800,12 +56430,18 @@
     "expires": 1694307548
   },
   "54.9418955,-1.4660786": {
-    "place_id": 242363350,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 686494623,
-    "lat": "54.941809864472965",
-    "lon": "-1.466059032446969",
+    "place_id": 91804913,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8839283211,
+    "lat": "54.9418955",
+    "lon": "-1.4660786",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
     "display_name": "Newcastle Road, Boldon Colliery, West Boldon, South Tyneside, Tyne and Wear, North East, England, NE36 0BQ, United Kingdom",
     "address": {
       "road": "Newcastle Road",
@@ -55822,16 +56458,19 @@
       "country_code": "gb"
     },
     "extratags": {
-      "oneway": "yes",
-      "maxspeed": "40 mph"
+      "camera:type": "dome",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://www.netrafficcams.co.uk/south-tyneside-a184-boldon-b1298-abingdon-way-business-park-roundabout",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "54.9417477",
-      "54.941926",
-      "-1.4662916",
-      "-1.4655829"
+      "54.9418455",
+      "54.9419455",
+      "-1.4661286",
+      "-1.4660286"
     ],
-    "expires": 1693069997
+    "expires": 1694385590
   },
   "54.9490695,-1.4619963": {
     "place_id": 91860431,
@@ -56075,15 +56714,20 @@
     "expires": 1693845785
   },
   "55.5557159,8.13503": {
-    "place_id": 86599864,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 93484842,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 8575964479,
-    "lat": "55.5556846",
-    "lon": "8.1350347",
-    "display_name": "Vores Verden, Blåvandvej, Oksby, Blåvand-Oksby, Varde Kommune, Region Syddanmark, 6857, Danmark",
+    "osm_id": 9073958650,
+    "lat": "55.5557215",
+    "lon": "8.1350028",
+    "class": "amenity",
+    "type": "atm",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Blåvandvej, Oksby, Blåvand-Oksby, Varde Kommune, Region Syddanmark, 6857, Danmark",
     "address": {
-      "shop": "Vores Verden",
       "road": "Blåvandvej",
       "residential": "Oksby",
       "village": "Blåvand-Oksby",
@@ -56095,18 +56739,18 @@
       "country_code": "dk"
     },
     "extratags": {
-      "phone": "+45 75 27 93 53",
-      "facebook": "https://facebook.com/vverden/",
-      "operator": "Blåvand Brugskunst A/S",
-      "opening_hours": "Jul-Aug Mo-Su 10:00-18:00; Sep-Jun Mo-Su 10:00-17:00"
+      "cash_in": "no",
+      "operator": "Euronet",
+      "wheelchair": "yes",
+      "opening_hours": "24/7"
     },
     "boundingbox": [
-      "55.5556346",
-      "55.5557346",
-      "8.1349847",
-      "8.1350847"
+      "55.5556715",
+      "55.5557715",
+      "8.1349528",
+      "8.1350528"
     ],
-    "expires": 1693077766
+    "expires": 1694362586
   },
   "55.6329153,-2.6823167": {
     "place_id": 82822773,
@@ -57062,12 +57706,18 @@
     "expires": 1693377396
   },
   "58.8946675,5.7116103": {
-    "place_id": 13586713,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13702256,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674229,
     "lat": "58.8946675",
     "lon": "5.7116103",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Forus, mot Sandnes",
     "display_name": "Forus, mot Sandnes, Motorveien, Gådeset, Hinna, Stavanger, Rogaland, 4035, Norge",
     "address": {
       "man_made": "Forus, mot Sandnes",
@@ -57096,7 +57746,7 @@
       "5.7115603",
       "5.7116603"
     ],
-    "expires": 1693036664
+    "expires": 1694249977
   },
   "58.8946942,5.7115905": {
     "place_id": 12492524,
@@ -57257,12 +57907,18 @@
     "expires": 1694130478
   },
   "59.061926,10.9833161": {
-    "place_id": 13252332,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13181325,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1354630613,
     "lat": "59.061926",
     "lon": "10.9833161",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Webkamera KJERRINGHOLMEN",
     "display_name": "Webkamera KJERRINGHOLMEN, Korshavn, Myra, Hvaler, Viken, Norge",
     "address": {
       "man_made": "Webkamera KJERRINGHOLMEN",
@@ -57280,12 +57936,12 @@
       "surveillance:type": "camera"
     },
     "boundingbox": [
-      "59.061876",
-      "59.061976",
+      "59.0618760",
+      "59.0619760",
       "10.9832661",
       "10.9833661"
     ],
-    "expires": 1693033531
+    "expires": 1694313508
   },
   "59.064084,9.942426": {
     "place_id": 13575434,
@@ -57650,12 +58306,18 @@
     "expires": 1694288366
   },
   "59.2733641,9.9277767": {
-    "place_id": 58315160,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 59391662,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5382957142,
     "lat": "59.2733641",
     "lon": "9.9277767",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Fv40 Rienlia",
     "display_name": "Fv40 Rienlia, Lågendalsveien, Rien, Larvik, Vestfold og Telemark, Norge",
     "address": {
       "man_made": "Fv40 Rienlia",
@@ -57683,7 +58345,7 @@
       "9.9277267",
       "9.9278267"
     ],
-    "expires": 1693102010
+    "expires": 1694248750
   },
   "59.2955,5.48923": {
     "place_id": 13725651,
@@ -57893,12 +58555,18 @@
     "expires": 1693724573
   },
   "59.3757216,11.3020271": {
-    "place_id": 13574942,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13653466,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417673865,
     "lat": "59.3757216",
     "lon": "11.3020271",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Gautestad",
     "display_name": "Gautestad, Sarpsborgveien, Kjenner, Rakkestad, Viken, 1890, Norge",
     "address": {
       "man_made": "Gautestad",
@@ -57922,7 +58590,7 @@
       "11.3019771",
       "11.3020771"
     ],
-    "expires": 1693059127
+    "expires": 1694262852
   },
   "59.4167374,24.7634708": {
     "place_id": 84013424,
@@ -58817,12 +59485,18 @@
     "expires": 1694166543
   },
   "59.937989,10.421": {
-    "place_id": 13592815,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13558015,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674482,
     "lat": "59.937989",
     "lon": "10.421",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Sollihøgda",
     "display_name": "Sollihøgda, Jomarveien, Hvile, Bærum, Viken, 1340, Norge",
     "address": {
       "man_made": "Sollihøgda",
@@ -58841,20 +59515,26 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "59.937939",
-      "59.938039",
-      "10.42095",
-      "10.42105"
+      "59.9379390",
+      "59.9380390",
+      "10.4209500",
+      "10.4210500"
     ],
-    "expires": 1693076806
+    "expires": 1694238335
   },
   "59.9704165,10.6491082": {
-    "place_id": 13196336,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13209849,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1329541658,
     "lat": "59.9704165",
     "lon": "10.6491082",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Utsikt fra Voksenlia",
     "display_name": "Utsikt fra Voksenlia, Jerpefaret, Grindbakken, Vestre Aker, Oslo, 0764, Norge",
     "address": {
       "man_made": "Utsikt fra Voksenlia",
@@ -58884,7 +59564,7 @@
       "10.6490582",
       "10.6491582"
     ],
-    "expires": 1693104543
+    "expires": 1694265568
   },
   "60.076422,10.6554247": {
     "place_id": 15213512,
@@ -59086,12 +59766,18 @@
     "expires": 1694289034
   },
   "60.2973819,5.3272393": {
-    "place_id": 13563241,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13661261,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417673922,
     "lat": "60.2973819",
     "lon": "5.3272393",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Rv580 Lagunen2 (36 moh - retning Bergen sentrum)",
     "display_name": "Rv580 Lagunen2 (36 moh - retning Bergen sentrum), Fanavegen, Rådal, Sørås, Ytrebygda, Bergen, Vestland, 5236, Norge",
     "address": {
       "man_made": "Rv580 Lagunen2 (36 moh - retning Bergen sentrum)",
@@ -59122,7 +59808,7 @@
       "5.3271893",
       "5.3272893"
     ],
-    "expires": 1693035798
+    "expires": 1694397748
   },
   "60.331024,5.299218": {
     "place_id": 13727194,
@@ -59243,12 +59929,18 @@
     "expires": 1694176837
   },
   "60.3413988,5.2479104": {
-    "place_id": 13549700,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13822181,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417673815,
     "lat": "60.3413988",
     "lon": "5.2479104",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Bjørgeveien",
     "display_name": "Bjørgeveien, Stordalen, Bjørndal, Fyllingsdalen, Bergen, Vestland, 5170, Norge",
     "address": {
       "man_made": "Bjørgeveien",
@@ -59277,7 +59969,7 @@
       "5.2478604",
       "5.2479604"
     ],
-    "expires": 1693062846
+    "expires": 1694306932
   },
   "60.3533141,5.3385246": {
     "place_id": 13511712,
@@ -59370,12 +60062,18 @@
     "expires": 1694046857
   },
   "60.357282,8.492364": {
-    "place_id": 13457184,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13507989,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417673903,
     "lat": "60.357282",
     "lon": "8.492364",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Dagali",
     "display_name": "Dagali, Dagalivegen, Torsetlia, Uvdal hyttegrend, Nore og Uvdal, Viken, Norge",
     "address": {
       "man_made": "Dagali",
@@ -59394,12 +60092,12 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "60.357232",
-      "60.357332",
-      "8.492314",
-      "8.492414"
+      "60.3572320",
+      "60.3573320",
+      "8.4923140",
+      "8.4924140"
     ],
-    "expires": 1693076973
+    "expires": 1694347748
   },
   "60.368051,7.505773": {
     "place_id": 13622712,
@@ -59734,37 +60432,45 @@
     "expires": 1693385081
   },
   "60.5151056,30.2206304": {
-    "place_id": 298764866,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 3486596,
-    "lat": "60.5148597",
-    "lon": "30.216431544896235",
-    "display_name": "Горнолыжный курорт «Игора», «Сортавала», Сосновское сельское поселение, Приозерский район, Ленинградская область, Северо-Западный федеральный округ, 188730, Россия",
+    "place_id": 67892885,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6324393343,
+    "lat": "60.5151056",
+    "lon": "30.2206304",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Озёрная улица, Платформа 69-й км, Сосновское сельское поселение, Приозерский район, Ленинградская область, Северо-Западный федеральный округ, 188730, РОССИЯ, РАЗВАЛИСЬ",
     "address": {
-      "leisure": "Горнолыжный курорт «Игора»",
-      "road": "«Сортавала»",
+      "road": "Озёрная улица",
+      "village": "Платформа 69-й км",
       "municipality": "Сосновское сельское поселение",
       "county": "Приозерский район",
       "state": "Ленинградская область",
       "ISO3166-2-lvl4": "RU-LEN",
       "region": "Северо-Западный федеральный округ",
       "postcode": "188730",
-      "country": "Россия",
+      "country": "РОССИЯ, РАЗВАЛИСЬ",
       "country_code": "ru"
     },
     "extratags": {
-      "phone": "+7 812 9600055",
-      "sport": "skiing",
-      "website": "https://igora.ru/"
+      "camera:type": "fixed",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "https://igora.ru/about/web_cams/",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "60.511216",
-      "60.5185092",
-      "30.1994633",
-      "30.2318913"
+      "60.5150556",
+      "60.5151556",
+      "30.2205804",
+      "30.2206804"
     ],
-    "expires": 1693027659
+    "expires": 1694336892
   },
   "60.5154517,30.2228197": {
     "place_id": 67827113,
@@ -60429,12 +61135,18 @@
     "expires": 1694266285
   },
   "60.931527,8.196569": {
-    "place_id": 13774507,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13663797,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674774,
     "lat": "60.931527",
     "lon": "8.196569",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Bjøberg",
     "display_name": "Bjøberg, Hemsedalsvegen, Hemsedal, Viken, Norge",
     "address": {
       "man_made": "Bjøberg",
@@ -60451,20 +61163,26 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "60.931477",
-      "60.931577",
-      "8.196519",
-      "8.196619"
+      "60.9314770",
+      "60.9315770",
+      "8.1965190",
+      "8.1966190"
     ],
-    "expires": 1693043083
+    "expires": 1694318964
   },
   "60.9415352,11.1912646": {
-    "place_id": 18134066,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 18427869,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 2073338256,
     "lat": "60.9415352",
     "lon": "11.1912646",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "STENFJELLHYTTA - UTSIKT MOT SØR-VEST",
     "display_name": "STENFJELLHYTTA - UTSIKT MOT SØR-VEST, Måsætervegen, Hamar, Innlandet, 2324, Norge",
     "address": {
       "man_made": "STENFJELLHYTTA - UTSIKT MOT SØR-VEST",
@@ -60489,7 +61207,7 @@
       "11.1912146",
       "11.1913146"
     ],
-    "expires": 1693081342
+    "expires": 1694265213
   },
   "60.9513296,5.6843313": {
     "place_id": 13805677,
@@ -60572,12 +61290,18 @@
     "expires": 1694089463
   },
   "61.0493993,7.5946429": {
-    "place_id": 13549521,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13945221,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674170,
     "lat": "61.0493993",
     "lon": "7.5946429",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "E16 Ljøsne (61 moh)",
     "display_name": "E16 Ljøsne (61 moh), Lærdalsvegen, Ljøsne, Lærdal, Vestland, Norge",
     "address": {
       "man_made": "E16 Ljøsne (61 moh)",
@@ -60605,7 +61329,7 @@
       "7.5945929",
       "7.5946929"
     ],
-    "expires": 1693043739
+    "expires": 1694370146
   },
   "61.073821,7.9560611": {
     "place_id": 13734178,
@@ -60883,38 +61607,44 @@
     "expires": 1694108152
   },
   "61.1796582,-149.971867": {
-    "place_id": 94969778,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 9203288257,
-    "lat": "61.1796582",
-    "lon": "-149.971867",
-    "display_name": "Lake Hood Seaplane Base, Anchorage, Alaska, USA, Enstrom Circle, Anchorage, Alaska, United States",
+    "place_id": 232810243,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 623719163,
+    "lat": "61.17932570000001",
+    "lon": "-149.97250828061772",
+    "class": "tourism",
+    "type": "museum",
+    "place_rank": 30,
+    "importance": 0.17814054651760589,
+    "addresstype": "tourism",
+    "name": "Alaska Aviation Museum",
+    "display_name": "Alaska Aviation Museum, Enstrom Circle, Anchorage, Alaska, 99530, United States",
     "address": {
-      "man_made": "Lake Hood Seaplane Base, Anchorage, Alaska, USA",
+      "tourism": "Alaska Aviation Museum",
       "road": "Enstrom Circle",
       "city": "Anchorage",
       "county": "Anchorage",
       "state": "Alaska",
       "ISO3166-2-lvl4": "US-AK",
+      "postcode": "99530",
       "country": "United States",
       "country_code": "us"
     },
     "extratags": {
-      "camera:type": "panning",
-      "camera:mount": "roof",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.youtube.com/watch?v=AQItp_RvMpM",
-      "surveillance:type": "camera",
-      "surveillance:zone": "airport"
+      "fee": "yes",
+      "website": "https://alaskaairmuseum.org/",
+      "wikidata": "Q428281",
+      "opening_hours": "Mo-Sa 10:00-17:00; Su 12:00-17:00",
+      "check_date:opening_hours": "2023-02-24"
     },
     "boundingbox": [
-      "61.1796082",
-      "61.1797082",
-      "-149.971917",
-      "-149.971817"
+      "61.1785064",
+      "61.1798089",
+      "-149.9732756",
+      "-149.9718073"
     ],
-    "expires": 1693095030
+    "expires": 1694238595
   },
   "61.185017,7.256911": {
     "place_id": 13822206,
@@ -60993,12 +61723,18 @@
     "expires": 1693274410
   },
   "61.291967,5.826541": {
-    "place_id": 13703655,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13788600,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674646,
     "lat": "61.291967",
     "lon": "5.826541",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Aarbergsdalen",
     "display_name": "Aarbergsdalen, Vadheimsvegen, Senneset, Sunnfjord, Vestland, 6973, Norge",
     "address": {
       "man_made": "Aarbergsdalen",
@@ -61017,12 +61753,12 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "61.291917",
-      "61.292017",
-      "5.826491",
-      "5.826591"
+      "61.2919170",
+      "61.2920170",
+      "5.8264910",
+      "5.8265910"
     ],
-    "expires": 1693045215
+    "expires": 1694382329
   },
   "61.325944,6.925151": {
     "place_id": 13866155,
@@ -61196,12 +61932,18 @@
     "expires": 1694194459
   },
   "61.565555,5.665082": {
-    "place_id": 13419386,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13799061,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674286,
     "lat": "61.565555",
     "lon": "5.665082",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Svarthumle",
     "display_name": "Svarthumle, Florøvegen, Svarthumla, Kinn, Vestland, Norge",
     "address": {
       "man_made": "Svarthumle",
@@ -61219,12 +61961,12 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "61.565505",
-      "61.565605",
-      "5.665032",
-      "5.665132"
+      "61.5655050",
+      "61.5656050",
+      "5.6650320",
+      "5.6651320"
     ],
-    "expires": 1693110533
+    "expires": 1694405628
   },
   "61.5746887,11.004462": {
     "place_id": 13886215,
@@ -61553,12 +62295,18 @@
     "expires": 1693380778
   },
   "62.0110898,7.3930339": {
-    "place_id": 13632355,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13862017,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674058,
     "lat": "62.0110898",
     "lon": "7.3930339",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Rv15 Breiddalen 1 (930 moh - retning Stryn)",
     "display_name": "Rv15 Breiddalen 1 (930 moh - retning Stryn), Skjåkvegen, Skjåk, Innlandet, Norge",
     "address": {
       "man_made": "Rv15 Breiddalen 1 (930 moh - retning Stryn)",
@@ -61585,15 +62333,21 @@
       "7.3929839",
       "7.3930839"
     ],
-    "expires": 1693090100
+    "expires": 1694391607
   },
   "62.112183,9.28488": {
-    "place_id": 13594101,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13853965,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674446,
     "lat": "62.112183",
     "lon": "9.28488",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Fokstugu",
     "display_name": "Fokstugu, Trondheimsvegen, Bjørkhol seter, Dovre, Innlandet, 2660, Norge",
     "address": {
       "man_made": "Fokstugu",
@@ -61612,12 +62366,12 @@
       "surveillance": "webcam"
     },
     "boundingbox": [
-      "62.112133",
-      "62.112233",
-      "9.28483",
-      "9.28493"
+      "62.1121330",
+      "62.1122330",
+      "9.2848300",
+      "9.2849300"
     ],
-    "expires": 1693051261
+    "expires": 1694339014
   },
   "62.1470992,8.6902757": {
     "place_id": 13549710,
@@ -61788,12 +62542,18 @@
     "expires": 1694078891
   },
   "62.4825785,10.3894506": {
-    "place_id": 13630354,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13849223,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674957,
     "lat": "62.4825785",
     "lon": "10.3894506",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "Kvikneskogen (692 moh Retning Trondelag)",
     "display_name": "Kvikneskogen (692 moh Retning Trondelag), Kvikneveien, Søndrestøa, Tynset, Innlandet, Norge",
     "address": {
       "man_made": "Kvikneskogen (692 moh Retning Trondelag)",
@@ -61821,7 +62581,7 @@
       "10.3894006",
       "10.3895006"
     ],
-    "expires": 1693094567
+    "expires": 1694263353
   },
   "62.6006185,9.7215365": {
     "place_id": 13849184,
@@ -61945,12 +62705,18 @@
     "expires": 1694154808
   },
   "63.1383909,10.2548906": {
-    "place_id": 13549955,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13653516,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674420,
     "lat": "63.1383909",
     "lon": "10.2548906",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "E6 Horg (42 moh - retning Trondheim)",
     "display_name": "E6 Horg (42 moh - retning Trondheim), Lundamovegen, Varegga boligfelt, Horghåggån, Lundamo, Melhus, Trøndelag, Norge",
     "address": {
       "man_made": "E6 Horg (42 moh - retning Trondheim)",
@@ -61979,7 +62745,7 @@
       "10.2548406",
       "10.2549406"
     ],
-    "expires": 1693069225
+    "expires": 1694392755
   },
   "63.3155683,9.861278": {
     "place_id": 92046755,
@@ -63048,12 +63814,18 @@
     "expires": 1694067026
   },
   "63.4408468,10.409747": {
-    "place_id": 49529165,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 50077432,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4346086245,
     "lat": "63.4408468",
     "lon": "10.409747",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Pirsenteret",
     "display_name": "Pirsenteret, Pir II, Brattøra, Midtbyen, Trondheim, Trøndelag, 7042, Norge",
     "address": {
       "man_made": "Pirsenteret",
@@ -63081,18 +63853,24 @@
     "boundingbox": [
       "63.4407968",
       "63.4408968",
-      "10.409697",
-      "10.409797"
+      "10.4096970",
+      "10.4097970"
     ],
-    "expires": 1693076009
+    "expires": 1694369471
   },
   "63.4408913,10.4098051": {
-    "place_id": 49483250,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 50033658,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4347194671,
     "lat": "63.4408913",
     "lon": "10.4098051",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Hurtigrutekaia",
     "display_name": "Hurtigrutekaia, Pir II, Brattøra, Midtbyen, Trondheim, Trøndelag, 7042, Norge",
     "address": {
       "man_made": "Hurtigrutekaia",
@@ -63124,7 +63902,7 @@
       "10.4097551",
       "10.4098551"
     ],
-    "expires": 1693065164
+    "expires": 1694277997
   },
   "63.4409407,10.4098377": {
     "place_id": 50279660,
@@ -63263,12 +64041,18 @@
     "expires": 1694073439
   },
   "63.441261,10.4107538": {
-    "place_id": 91641757,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 91627271,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8852411799,
     "lat": "63.441261",
     "lon": "10.4107538",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Transittkaia",
     "display_name": "Transittkaia, Pir II, Brattøra, Midtbyen, Trondheim, Trøndelag, 7042, Norge",
     "address": {
       "man_made": "Transittkaia",
@@ -63295,12 +64079,12 @@
       "surveillance:zone": "harbour"
     },
     "boundingbox": [
-      "63.441211",
-      "63.441311",
+      "63.4412110",
+      "63.4413110",
       "10.4107038",
       "10.4108038"
     ],
-    "expires": 1693110007
+    "expires": 1694248108
   },
   "63.4412903,10.4022738": {
     "place_id": 49199505,
@@ -64397,12 +65181,18 @@
     "expires": 1693352121
   },
   "68.6181915,17.6429954": {
-    "place_id": 13770270,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 13704791,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1417674247,
     "lat": "68.6181915",
     "lon": "17.6429954",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 9.999999994736442e-8,
+    "addresstype": "man_made",
+    "name": "E6 Øse (271moh - retning Bjerkvik)",
     "display_name": "E6 Øse (271moh - retning Bjerkvik), E 6, Øse hyttegrend, Øse, Gratangen, Troms og Finnmark, Norge",
     "address": {
       "man_made": "E6 Øse (271moh - retning Bjerkvik)",
@@ -64431,7 +65221,7 @@
       "17.6429454",
       "17.6430454"
     ],
-    "expires": 1693093150
+    "expires": 1694381294
   },
   "68.6267816,16.5926558": {
     "place_id": 13970140,
@@ -64940,12 +65730,18 @@
     "expires": 1694053518
   },
   "7.829258,98.2936062": {
-    "place_id": 84885440,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright",
+    "place_id": 83942275,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 8423095885,
     "lat": "7.829258",
     "lon": "98.2936062",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "Phuket Live View - Karon Beach",
     "display_name": "Phuket Live View - Karon Beach, ถนนประชานุเคราะห์, บ้านกะรน, กะรน, ตำบลกะรน, อำเภอเมืองภูเก็ต, จังหวัดภูเก็ต, 83100, ประเทศไทย",
     "address": {
       "man_made": "Phuket Live View - Karon Beach",
@@ -64967,12 +65763,12 @@
       "surveillance:type": "camera"
     },
     "boundingbox": [
-      "7.829208",
-      "7.829308",
+      "7.8292080",
+      "7.8293080",
       "98.2935562",
       "98.2936562"
     ],
-    "expires": 1693053855
+    "expires": 1694293595
   },
   "7.8756113,98.2888161": {
     "place_id": 372043359,
