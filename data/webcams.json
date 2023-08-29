@@ -6970,9 +6970,9 @@
     "lat": 47.2177585,
     "lon": 9.5051498,
     "osmID": 2426798937,
-    "user": "danli",
+    "user": "hanzlan",
     "osmType": "node",
-    "lastChanged": 1382464805000,
+    "lastChanged": 1693212733000,
     "address": {
       "city": "Bendern",
       "county": "Unterland",
@@ -6980,7 +6980,7 @@
     },
     "osmTags": {
       "contact:webcam": "http://www.grossabuent.li/livecam.html",
-      "name": "Großabünt.li",
+      "name": "Grossabünt.li",
       "surveillance": "webcam"
     },
     "url": "http://www.grossabuent.li/livecam.html"
@@ -37299,7 +37299,10 @@
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "http://www.appenninobianco.it/webcam/dettaglio_webcam_stazione/tutte/3"
+    "url": "http://www.appenninobianco.it/webcam/dettaglio_webcam_stazione/tutte/3",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.3365063,
@@ -41071,6 +41074,35 @@
     "url": "https://www.foto-webcam.eu/webcam/garland"
   },
   {
+    "lat": 53.5124716,
+    "lon": 9.965077,
+    "osmID": 11085164868,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210406000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "45",
+      "camera:direction": "304",
+      "camera:features": "webcam",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hcs-depot.de/PopUp/WebCamPopUp.aspx",
+      "height": "5",
+      "man_made": "surveillance",
+      "name": "HCS Container",
+      "operator": "HCS Hamburger Container Service GmbH, Neuhöfer Brückenstraße 43 - 51, 21107 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "HCS Hamburger Container Service GmbH, Neuhöfer Brückenstraße 43 - 51, 21107 Hamburg",
+    "url": "https://www.hcs-depot.de/PopUp/WebCamPopUp.aspx"
+  },
+  {
     "lat": 43.0024397,
     "lon": -71.474911,
     "osmID": 11086203448,
@@ -41253,6 +41285,32 @@
     }
   },
   {
+    "lat": 53.5192579,
+    "lon": 9.9438864,
+    "osmID": 11101333590,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "0-360",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.hafen-hamburg.de/de/webcams/neuhof/",
+      "height": "62",
+      "man_made": "surveillance",
+      "name": "ADM Silo",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.hafen-hamburg.de/de/webcams/neuhof/"
+  },
+  {
     "lat": 53.5458543,
     "lon": 9.9530038,
     "osmID": 11104144179,
@@ -41332,6 +41390,88 @@
     "url": "http://www.webcam-estebridge.camera/"
   },
   {
+    "lat": 53.5463511,
+    "lon": 9.9893269,
+    "osmID": 11104555519,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hamburg-webcam.com/webcam/images/image_1.jpg",
+      "height": "20",
+      "man_made": "surveillance",
+      "name": "Nicolaifleet, Hamburg Webcam",
+      "operator": "TRAVANTO Ferienwohnungen GmbH, Holzbrücke 7 D, 20459 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "TRAVANTO Ferienwohnungen GmbH, Holzbrücke 7 D, 20459 Hamburg",
+    "url": "https://www.hamburg-webcam.com/webcam/images/image_1.jpg"
+  },
+  {
+    "lat": 53.5292569,
+    "lon": 9.9987495,
+    "osmID": 11104620405,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "161",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://msbleichen.org/Cambild-2.jpg",
+      "man_made": "surveillance",
+      "name": "MS Bleichen Heckkamera",
+      "operator": "Freunde des Stückgutfrachters MS Bleichen e.V., Australiastraße, Schuppen 52A, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "webcam",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Freunde des Stückgutfrachters MS Bleichen e.V., Australiastraße, Schuppen 52A, 20457 Hamburg",
+    "url": "https://msbleichen.org/Cambild-2.jpg"
+  },
+  {
+    "lat": 53.5293246,
+    "lon": 9.9987186,
+    "osmID": 11104620407,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "337",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://msbleichen.org/Cambild.jpg",
+      "man_made": "surveillance",
+      "name": "MS Bleichen Bugkamera",
+      "operator": "Freunde des Stückgutfrachters MS Bleichen e.V., Australiastraße, Schuppen 52A, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "webcam",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Freunde des Stückgutfrachters MS Bleichen e.V., Australiastraße, Schuppen 52A, 20457 Hamburg",
+    "url": "https://msbleichen.org/Cambild.jpg"
+  },
+  {
     "lat": 49.181165,
     "lon": 19.0494028,
     "osmID": 11107444421,
@@ -41408,6 +41548,92 @@
     },
     "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
     "url": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?"
+  },
+  {
+    "lat": 53.5287618,
+    "lon": 10.0112218,
+    "osmID": 11113833967,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "10",
+      "camera:direction": "308",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unikai.de/images/unikai/webcams/gate.jpg",
+      "height": "8",
+      "man_made": "surveillance",
+      "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+    "url": "https://unikai.de/images/unikai/webcams/gate.jpg"
+  },
+  {
+    "lat": 53.5348343,
+    "lon": 9.9940422,
+    "osmID": 11113835594,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "10",
+      "camera:direction": "179",
+      "camera:features": "webcam",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unikai.de/images/unikai/webcams/portcam_1.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "Amerikahöft Unikai",
+      "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+    "url": "https://unikai.de/images/unikai/webcams/portcam_1.jpg"
+  },
+  {
+    "lat": 53.5314259,
+    "lon": 10.0003347,
+    "osmID": 11115965380,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693210346000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "15",
+      "camera:direction": "205",
+      "camera:features": "webcam",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://unikai.de/images/unikai/webcams/portcam_2.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "Hansahafen Unikai",
+      "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
+    "url": "https://unikai.de/images/unikai/webcams/portcam_2.jpg"
   },
   {
     "lat": 50.2242503,
