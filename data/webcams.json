@@ -2727,19 +2727,19 @@
     }
   },
   {
-    "lat": 60.368051,
-    "lon": 7.505773,
+    "lat": 60.3680847,
+    "lon": 7.5056572,
     "osmID": 1417674124,
-    "user": "Mathias Haugsbø",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1640650975000,
+    "lastChanged": 1693324871000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
       "ele": "1235",
-      "fixme": "position",
+      "fixme": "position;404",
       "man_made": "surveillance",
       "name": "Dyranut",
       "operator": "Statens vegvesen",
@@ -5567,18 +5567,18 @@
     }
   },
   {
-    "lat": 60.368051,
-    "lon": 7.505773,
+    "lat": 60.3680521,
+    "lon": 7.5057753,
     "osmID": 1417675016,
-    "user": "haakonst",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1314662578000,
+    "lastChanged": 1693324871000,
     "address": {
       "county": "Vestland",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "fixme": "position;404",
       "man_made": "surveillance",
       "name": "Dyranut temperatur",
       "note:no": "Temperatur for de siste 3 dagene",
@@ -8730,6 +8730,27 @@
     }
   },
   {
+    "lat": 53.5451007,
+    "lon": 9.9546675,
+    "osmID": 3281180297,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "check_date": "2023-03-01",
+      "contact:webcam": "https://u-434.de/webcam/webcam.jpg?",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://u-434.de/webcam/webcam.jpg?"
+  },
+  {
     "lat": 38.6797251,
     "lon": 15.8976891,
     "osmID": 3330370785,
@@ -9493,12 +9514,12 @@
     "url": "https://www.perisher.com.au/weather-cams/cams#Xguthega"
   },
   {
-    "lat": -36.4085783,
-    "lon": 148.3982759,
+    "lat": -36.4085803,
+    "lon": 148.3983343,
     "osmID": 4265426910,
-    "user": "supaluminal",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1466904554000,
+    "lastChanged": 1693324967000,
     "address": {
       "city": "Perisher Valley",
       "state": "New South Wales",
@@ -9506,10 +9527,13 @@
     },
     "osmTags": {
       "camera:direction": "350",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.perisher.com.au/weather-cams/cams#Xhappy",
+      "man_made": "surveillance",
       "name": "Happy Valley Webcam",
       "operator": "Perisher",
-      "surveillance": "webcam"
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     },
     "operator": "Perisher",
     "url": "https://www.perisher.com.au/weather-cams/cams#Xhappy"
@@ -13203,6 +13227,34 @@
       "surveillance:zone": "town"
     },
     "url": "https://worldcam.live/pl/webcam/lukow"
+  },
+  {
+    "lat": 53.5562573,
+    "lon": 9.9837561,
+    "osmID": 4847812458,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "5",
+      "camera:direction": "96",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/emporio_2/images/live.jpg",
+      "height": "98",
+      "man_made": "surveillance",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/emporio_2/images/live.jpg"
   },
   {
     "lat": -36.4126962,
@@ -29346,7 +29398,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=0800f82400b50086005bd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=0800f82400b50086005bd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.39763,
@@ -34892,7 +34947,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://vistalive.it/sepino-piazza/"
+    "url": "https://vistalive.it/sepino-piazza/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 41.7478824,
@@ -37299,10 +37357,7 @@
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "http://www.appenninobianco.it/webcam/dettaglio_webcam_stazione/tutte/3",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://www.appenninobianco.it/webcam/dettaglio_webcam_stazione/tutte/3"
   },
   {
     "lat": 49.3365063,
@@ -41285,12 +41340,42 @@
     }
   },
   {
-    "lat": 53.5192579,
-    "lon": 9.9438864,
+    "lat": 53.5707181,
+    "lon": 10.0273299,
+    "osmID": 11101291487,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "70",
+      "camera:direction": "200",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "www.mundsburgtower.de/05_impressionen/webcam_popup.php",
+      "height": "97",
+      "man_made": "surveillance",
+      "name": "Mundsburg Tower",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "www.mundsburgtower.de/05_impressionen/webcam_popup.php",
+    "lint": {
+      "invalidUrl": true
+    }
+  },
+  {
+    "lat": 53.5191303,
+    "lon": 9.9439253,
     "osmID": 11101333590,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693210346000,
+    "lastChanged": 1693298942000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41311,30 +41396,29 @@
     "url": "https://www.hafen-hamburg.de/de/webcams/neuhof/"
   },
   {
-    "lat": 53.5458543,
-    "lon": 9.9530038,
-    "osmID": 11104144179,
+    "lat": 53.5973187,
+    "lon": 10.0089743,
+    "osmID": 11101998395,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1691653565000,
+    "lastChanged": 1693300988000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
     },
     "osmTags": {
-      "camera:angle": "80",
+      "camera:direction": "0-360",
+      "camera:features": "webcam",
       "camera:mount": "roof",
-      "camera:type": "fixed",
-      "contact:webcam": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/",
-      "height": "25",
+      "camera:type": "panning",
+      "contact:webcam": "https://planetarium-hamburg.panomax.com",
       "man_made": "surveillance",
-      "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+      "name": "Planetarium Hamburg",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
-    "url": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/"
+    "url": "https://planetarium-hamburg.panomax.com"
   },
   {
     "lat": 53.5431365,
@@ -41342,7 +41426,7 @@
     "osmID": 11104305544,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1691657739000,
+    "lastChanged": 1693300988000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41362,32 +41446,6 @@
     },
     "operator": "Cap San Diego Betriebsgesellschaft mbH",
     "url": "https://www.capsandiego.de/publicdata/webcam/hugesize.jpg"
-  },
-  {
-    "lat": 53.5113535,
-    "lon": 9.730662,
-    "osmID": 11104307340,
-    "user": "Timo Beil",
-    "osmType": "node",
-    "lastChanged": 1691658353000,
-    "address": {
-      "city": "Estebrügge",
-      "county": "Stade",
-      "state": "Niedersachsen",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "180",
-      "camera:type": "fixed",
-      "contact:webcam": "http://www.webcam-estebridge.camera/",
-      "man_made": "surveillance",
-      "operator": "Fred Lang, Estebrügger Straße 101, 21635 Jork",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
-    "operator": "Fred Lang, Estebrügger Straße 101, 21635 Jork",
-    "url": "http://www.webcam-estebridge.camera/"
   },
   {
     "lat": 53.5463511,
@@ -41470,6 +41528,63 @@
     },
     "operator": "Freunde des Stückgutfrachters MS Bleichen e.V., Australiastraße, Schuppen 52A, 20457 Hamburg",
     "url": "https://msbleichen.org/Cambild.jpg"
+  },
+  {
+    "lat": 53.543013,
+    "lon": 9.9929412,
+    "osmID": 11104687644,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "0",
+      "camera:direction": "219",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://harbour-hall.de/webcampopup.html",
+      "height": "20",
+      "man_made": "surveillance",
+      "name": "Harbour-Hall",
+      "operator": "Beyer IT-Vertriebsberatung, Am Sandtorkai 56, 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Beyer IT-Vertriebsberatung, Am Sandtorkai 56, 20457 Hamburg",
+    "url": "https://harbour-hall.de/webcampopup.html"
+  },
+  {
+    "lat": 53.5481806,
+    "lon": 9.865211,
+    "osmID": 11105031100,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "5",
+      "camera:direction": "138",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.hafen-hamburg.de/de/webcams/webcam-teufelsbrueck/",
+      "fixme": "Position nur durch Peilung über Windanlage und Schornstein von Accelor Mittal geschätzt",
+      "man_made": "surveillance",
+      "operator": "Hafen Hamburg Marketing e.V. (HHM), Pickhuben 6 , 20457 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Hafen Hamburg Marketing e.V. (HHM), Pickhuben 6 , 20457 Hamburg",
+    "url": "https://www.hafen-hamburg.de/de/webcams/webcam-teufelsbrueck/"
   },
   {
     "lat": 49.181165,
@@ -41605,6 +41720,186 @@
     },
     "operator": "UNIKAI Lagerei- und Speditionsgesellschaft mbH, Dessauer Straße 10, 20457 Hamburg",
     "url": "https://unikai.de/images/unikai/webcams/portcam_1.jpg"
+  },
+  {
+    "lat": 53.5743176,
+    "lon": 9.6809667,
+    "osmID": 11115701966,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Wedel",
+      "county": "Kreis Pinneberg",
+      "state": "Schleswig-Holstein",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "0",
+      "camera:direction": "217",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/hyg_1/images/live.jpg?",
+      "height": "15",
+      "man_made": "surveillance",
+      "name": "Hamburger Yachthafen",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/hyg_1/images/live.jpg?"
+  },
+  {
+    "lat": 53.5704186,
+    "lon": 9.696494,
+    "osmID": 11115712785,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Wedel",
+      "county": "Kreis Pinneberg",
+      "state": "Schleswig-Holstein",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "0",
+      "camera:direction": "255",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://staticcam.solutionshosted.de/strand/current.jpg",
+      "height": "15",
+      "man_made": "surveillance",
+      "name": "Strandbad Wedel",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://staticcam.solutionshosted.de/strand/current.jpg"
+  },
+  {
+    "lat": 53.5438681,
+    "lon": 9.9166658,
+    "osmID": 11115725146,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "5",
+      "camera:direction": "0-360",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://cam.grassau.com/altona_2/images/live.jpg",
+      "height": "75",
+      "man_made": "surveillance",
+      "name": "Augustinum",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/altona_2/images/live.jpg"
+  },
+  {
+    "lat": 53.5481017,
+    "lon": 10.0015578,
+    "osmID": 11115735483,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "30",
+      "camera:direction": "212",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://staticcam.solutionshosted.de/chile/current.jpg?",
+      "height": "42",
+      "man_made": "surveillance",
+      "name": "Chilehaus Hamburg",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://staticcam.solutionshosted.de/chile/current.jpg?"
+  },
+  {
+    "lat": 53.5639645,
+    "lon": 9.7514914,
+    "osmID": 11115780264,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "3",
+      "camera:direction": "257",
+      "camera:features": "webcam",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/wittenbergen2/images/live.jpg",
+      "height": "30",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HH-Wittenbergen-Leuchtturm2.jpg",
+      "man_made": "surveillance",
+      "name": "Wittenbergen West",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/wittenbergen2/images/live.jpg"
+  },
+  {
+    "lat": 53.5639645,
+    "lon": 9.7515645,
+    "osmID": 11115780265,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693300988000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "3",
+      "camera:direction": "115",
+      "camera:features": "webcam",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cam.grassau.com/wittenbergen1/images/live.jpg",
+      "height": "30",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/HH-Wittenbergen-Leuchtturm2.jpg",
+      "man_made": "surveillance",
+      "name": "Wittenbergen Ost",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://cam.grassau.com/wittenbergen1/images/live.jpg"
   },
   {
     "lat": 53.5314259,
