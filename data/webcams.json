@@ -679,7 +679,10 @@
       "surveillance": "webcam",
       "website": "https://www.spiekeroog.de/spiekeroog-erleben/impressionen/webcams/rathaus.html"
     },
-    "url": "https://www.spiekeroog.de/spiekeroog-erleben/impressionen/webcams/rathaus.html"
+    "url": "https://www.spiekeroog.de/spiekeroog-erleben/impressionen/webcams/rathaus.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.7790453,
@@ -3978,7 +3981,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=197147"
+    "url": "http://webkamera.vegvesen.no/kamera?id=197147",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 60.5891934,
@@ -5472,7 +5478,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=109063"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109063"
+    "url": "http://webkamera.vegvesen.no/kamera?id=109063",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 68.5299953,
@@ -9933,7 +9942,10 @@
       "surveillance": "webcam",
       "website": "http://www.frankenblick.eu/webcam/partnercam-schalkau/"
     },
-    "url": "http://www.frankenblick.eu/webcam/partnercam-schalkau/"
+    "url": "http://www.frankenblick.eu/webcam/partnercam-schalkau/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.3483644,
@@ -17558,6 +17570,7 @@
     "osmType": "node",
     "lastChanged": 1560672325000,
     "address": {
+      "city": "Scheid",
       "county": "Landkreis Waldeck-Frankenberg",
       "state": "Hessen",
       "country": "Germany"
@@ -39063,7 +39076,6 @@
     "lastChanged": 1681280196000,
     "address": {
       "city": "Brisbane City",
-      "county": "Boondall",
       "state": "Queensland",
       "country": "Australia"
     },
@@ -41413,6 +41425,32 @@
       "surveillance:zone": "town"
     },
     "url": "https://planetarium-hamburg.panomax.com"
+  },
+  {
+    "lat": 53.5458543,
+    "lon": 9.9530038,
+    "osmID": 11104144179,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693813787000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "80",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/",
+      "height": "25",
+      "man_made": "surveillance",
+      "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+    "url": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/"
   },
   {
     "lat": 53.5431365,
