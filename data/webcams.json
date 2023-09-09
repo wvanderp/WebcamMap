@@ -418,7 +418,7 @@
     "osmType": "node",
     "lastChanged": 1527860878000,
     "address": {
-      "city": "Ottignies-Louvain-la-Neuve",
+      "city": "Louvain-la-Neuve",
       "county": "Nivelles",
       "state": "Brabant wallon",
       "country": "Belgium"
@@ -1680,7 +1680,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=113111"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=113111"
+    "url": "http://webkamera.vegvesen.no/kamera?id=113111",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 68.4597241,
@@ -8739,31 +8742,24 @@
     }
   },
   {
-    "lat": 53.5450951,
-    "lon": 9.954667,
+    "lat": 53.5451007,
+    "lon": 9.9546675,
     "osmID": 3281180297,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693895322000,
+    "lastChanged": 1693300988000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
     },
     "osmTags": {
-      "camera:angle": "15",
-      "camera:direction": "125",
-      "camera:mount": "pole",
       "camera:type": "fixed",
-      "check_date": "2023-09-05",
+      "check_date": "2023-03-01",
       "contact:webcam": "https://u-434.de/webcam/webcam.jpg?",
-      "height": "3",
       "man_made": "surveillance",
-      "operator": "U-Bootmuseum Hamburg GmbH",
       "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
+      "surveillance:type": "camera"
     },
-    "operator": "U-Bootmuseum Hamburg GmbH",
     "url": "https://u-434.de/webcam/webcam.jpg?"
   },
   {
@@ -8848,7 +8844,6 @@
     "lastChanged": 1639744405000,
     "address": {
       "city": "Paris",
-      "county": "Paris",
       "state": "Île-de-France",
       "country": "France"
     },
@@ -10978,9 +10973,9 @@
     "lat": 48.0575086,
     "lon": 11.5236204,
     "osmID": 4517019801,
-    "user": "Strubbl",
+    "user": "Mapillox",
     "osmType": "node",
-    "lastChanged": 1693943915000,
+    "lastChanged": 1690974745000,
     "address": {
       "city": "Gartenstadt",
       "county": "Landkreis München",
@@ -10999,7 +10994,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town",
-      "website": "https://www.juweliervehns.de/"
+      "website": "http://juweliervehns.de"
     },
     "url": "https://www.juweliervehns.de/webcam"
   },
@@ -12339,7 +12334,7 @@
     "osmType": "node",
     "lastChanged": 1485224391000,
     "address": {
-      "city": "Niagara-on-the-Lake",
+      "city": "St. Catharines",
       "county": "Niagara Region",
       "state": "Ontario",
       "country": "Canada"
@@ -16898,8 +16893,8 @@
     "osmType": "node",
     "lastChanged": 1552005489000,
     "address": {
-      "county": "ПYТИН КИНYЛ СТРАНY",
-      "state": "РОССИЯ, ИДИ НАХУЙ",
+      "county": "Приозерский район",
+      "state": "Ленинградская область",
       "country": "Russian Federation"
     },
     "osmTags": {
@@ -18074,6 +18069,7 @@
     "lastChanged": 1575751824000,
     "address": {
       "city": "Sønderborg",
+      "state": "Region Syddanmark",
       "country": "Denmark"
     },
     "osmTags": {
@@ -18526,6 +18522,7 @@
     "address": {
       "city": "Jablonné v Podještědí",
       "county": "Liberecký kraj",
+      "state": "Severovýchod",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -19251,6 +19248,7 @@
     "osmType": "node",
     "lastChanged": 1593108045000,
     "address": {
+      "state": "Region Midtjylland",
       "country": "Denmark"
     },
     "osmTags": {
@@ -19297,7 +19295,7 @@
     "osmType": "node",
     "lastChanged": 1593281579000,
     "address": {
-      "city": "Mirkovice",
+      "city": "Přísečná",
       "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
@@ -21037,7 +21035,7 @@
     "osmType": "node",
     "lastChanged": 1628415054000,
     "address": {
-      "city": "South Lakeland",
+      "city": "Coniston",
       "county": "Westmorland and Furness",
       "state": "England",
       "country": "United Kingdom"
@@ -23782,7 +23780,8 @@
     "osmType": "node",
     "lastChanged": 1619517474000,
     "address": {
-      "county": "Ahrntal - Valle Aurina",
+      "city": "Ahrntal - Valle Aurina",
+      "county": "Bolzano - Bozen",
       "state": "Trentino-Alto Adige/Südtirol",
       "country": "Italy"
     },
@@ -27908,7 +27907,7 @@
     "osmType": "node",
     "lastChanged": 1628969277000,
     "address": {
-      "city": "Hopferau",
+      "city": "Schraden",
       "county": "Landkreis Ostallgäu",
       "state": "Bayern",
       "country": "Germany"
@@ -28564,7 +28563,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=1d0031cf01c000a9005dd336c4235c0a"
+    "url": "https://chart.maryland.gov/video/video.php?feed=1d0031cf01c000a9005dd336c4235c0a",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.6450961,
@@ -29537,7 +29539,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://chart.maryland.gov/video/video.php?feed=7a00a1dc01250075004d823633235daa"
+    "url": "https://chart.maryland.gov/video/video.php?feed=7a00a1dc01250075004d823633235daa",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.2320073,
@@ -29630,6 +29635,7 @@
     "osmType": "node",
     "lastChanged": 1632618868000,
     "address": {
+      "city": "Germantown",
       "county": "Montgomery County",
       "state": "Maryland",
       "country": "United States of America"
@@ -30648,8 +30654,8 @@
     "osmType": "node",
     "lastChanged": 1641052144000,
     "address": {
-      "city": "ЧЕСТЬ РУССКОГО ОФИЦЕРА ХУЖЕ ГОВНА",
-      "state": "ПYТИН КИНYЛ СТРАНY",
+      "city": "Псков",
+      "state": "Псковская область",
       "country": "Russian Federation"
     },
     "osmTags": {
@@ -34571,9 +34577,9 @@
     "osmType": "node",
     "lastChanged": 1655658558000,
     "address": {
-      "city": "КАДЫЛОМ ПО ЕБАЛУ",
-      "county": "РОССИЯ ПОМОЙКА",
-      "state": "РОССИЯ, ИДИ НАХУЙ",
+      "city": "Сосновый Бор",
+      "county": "Сосновоборский городской округ",
+      "state": "Ленинградская область",
       "country": "Russian Federation"
     },
     "osmTags": {
@@ -36251,6 +36257,7 @@
     "address": {
       "city": "Jablonné v Podještědí",
       "county": "Liberecký kraj",
+      "state": "Severovýchod",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -38205,7 +38212,7 @@
     "lastChanged": 1677982606000,
     "address": {
       "city": "Lone Pine",
-      "county": "CAL Fire San Bernardino Unit",
+      "county": "Inyo County",
       "state": "California",
       "country": "United States of America"
     },
@@ -39129,10 +39136,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://neumarkt.panomax.com/wallersee",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://neumarkt.panomax.com/wallersee"
   },
   {
     "lat": 48.8113118,
@@ -41446,33 +41450,6 @@
     "url": "https://planetarium-hamburg.panomax.com"
   },
   {
-    "lat": 53.5458543,
-    "lon": 9.9530038,
-    "osmID": 11104144179,
-    "user": "Timo Beil",
-    "osmType": "node",
-    "lastChanged": 1693894731000,
-    "address": {
-      "city": "Hamburg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:angle": "80",
-      "camera:direction": "180",
-      "camera:mount": "roof",
-      "camera:type": "fixed",
-      "contact:webcam": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/",
-      "height": "25",
-      "man_made": "surveillance",
-      "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
-    "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
-    "url": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/"
-  },
-  {
     "lat": 53.5431365,
     "lon": 9.9761673,
     "osmID": 11104305544,
@@ -41689,12 +41666,12 @@
     "url": "https://www.hafen-hamburg.de/de/webcams/webcam-teufelsbrueck/"
   },
   {
-    "lat": 49.1811657,
-    "lon": 19.0493902,
+    "lat": 49.181165,
+    "lon": 19.0494028,
     "osmID": 11107444421,
     "user": "filip769",
     "osmType": "node",
-    "lastChanged": 1693924194000,
+    "lastChanged": 1691752342000,
     "address": {
       "city": "Šútovo",
       "county": "okres Martin",
@@ -41702,9 +41679,6 @@
       "country": "Slovakia"
     },
     "osmTags": {
-      "camera:direction": "170",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
       "contact:webcam": "http://kamera.chatachleb.sk:8080/",
       "man_made": "surveillance",
       "surveillance": "webcam",
@@ -41894,7 +41868,7 @@
     "osmID": 11115725146,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693897997000,
+    "lastChanged": 1693300988000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41905,7 +41879,7 @@
       "camera:features": "webcam",
       "camera:mount": "roof",
       "camera:type": "panning",
-      "contact:webcam": "https://cam.grassau.com/altona_2/player.html",
+      "contact:webcam": "https://cam.grassau.com/altona_2/images/live.jpg",
       "height": "75",
       "man_made": "surveillance",
       "name": "Augustinum",
@@ -41915,7 +41889,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
-    "url": "https://cam.grassau.com/altona_2/player.html"
+    "url": "https://cam.grassau.com/altona_2/images/live.jpg"
   },
   {
     "lat": 53.5481017,
@@ -42198,29 +42172,5 @@
     },
     "operator": "Feratel",
     "url": "https://www.feratel.com/webcams/deutschland/nuernberg.html"
-  },
-  {
-    "lat": 49.1809543,
-    "lon": 19.0495607,
-    "osmID": 11169748000,
-    "user": "filip769",
-    "osmType": "node",
-    "lastChanged": 1693924194000,
-    "address": {
-      "city": "Šútovo",
-      "county": "okres Martin",
-      "state": "Žilinský kraj",
-      "country": "Slovakia"
-    },
-    "osmTags": {
-      "camera:direction": "330",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://kamera.chatachleb.sk:8082/",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "http://kamera.chatachleb.sk:8082/"
   }
 ]
