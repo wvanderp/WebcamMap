@@ -8742,24 +8742,31 @@
     }
   },
   {
-    "lat": 53.5451007,
-    "lon": 9.9546675,
+    "lat": 53.5450951,
+    "lon": 9.954667,
     "osmID": 3281180297,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693300988000,
+    "lastChanged": 1693895322000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
     },
     "osmTags": {
+      "camera:angle": "15",
+      "camera:direction": "125",
+      "camera:mount": "pole",
       "camera:type": "fixed",
-      "check_date": "2023-03-01",
+      "check_date": "2023-09-05",
       "contact:webcam": "https://u-434.de/webcam/webcam.jpg?",
+      "height": "3",
       "man_made": "surveillance",
+      "operator": "U-Bootmuseum Hamburg GmbH",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
+    "operator": "U-Bootmuseum Hamburg GmbH",
     "url": "https://u-434.de/webcam/webcam.jpg?"
   },
   {
@@ -9947,10 +9954,7 @@
       "surveillance": "webcam",
       "website": "http://www.frankenblick.eu/webcam/partnercam-schalkau/"
     },
-    "url": "http://www.frankenblick.eu/webcam/partnercam-schalkau/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://www.frankenblick.eu/webcam/partnercam-schalkau/"
   },
   {
     "lat": 50.3483644,
@@ -10973,9 +10977,9 @@
     "lat": 48.0575086,
     "lon": 11.5236204,
     "osmID": 4517019801,
-    "user": "Mapillox",
+    "user": "Strubbl",
     "osmType": "node",
-    "lastChanged": 1690974745000,
+    "lastChanged": 1693943915000,
     "address": {
       "city": "Gartenstadt",
       "county": "Landkreis München",
@@ -10994,7 +10998,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "town",
-      "website": "http://juweliervehns.de"
+      "website": "https://www.juweliervehns.de/"
     },
     "url": "https://www.juweliervehns.de/webcam"
   },
@@ -17894,7 +17898,7 @@
     "osmType": "node",
     "lastChanged": 1647522935000,
     "address": {
-      "city": "Lohne",
+      "city": "Bad Sassendorf",
       "county": "Kreis Soest",
       "state": "Nordrhein-Westfalen",
       "country": "Germany"
@@ -18339,7 +18343,7 @@
     "osmType": "node",
     "lastChanged": 1635282547000,
     "address": {
-      "city": "Općina Pakoštane",
+      "city": "Drage",
       "county": "Zadarska županija",
       "country": "Croatia"
     },
@@ -20234,7 +20238,10 @@
       "surveillance:type": "camera"
     },
     "operator": "usgs",
-    "url": "https://www.usgs.gov/media/webcams/barker-reservoir-near-addicks-texas"
+    "url": "https://www.usgs.gov/media/webcams/barker-reservoir-near-addicks-texas",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.7599105,
@@ -21843,7 +21850,6 @@
     "lastChanged": 1647251257000,
     "address": {
       "city": "ตำบลกะรน",
-      "county": "อำเภอเมืองภูเก็ต",
       "state": "จังหวัดภูเก็ต",
       "country": "Thailand"
     },
@@ -22135,9 +22141,9 @@
     "lat": 36.1609566,
     "lon": -86.7777644,
     "osmID": 8435129226,
-    "user": "wvdp",
+    "user": "ArcticFox037",
     "osmType": "node",
-    "lastChanged": 1648293654000,
+    "lastChanged": 1694252420000,
     "address": {
       "city": "Nashville-Davidson",
       "county": "Davidson County",
@@ -22148,7 +22154,6 @@
       "camera:direction": "220",
       "camera:type": "fixed",
       "contact:webcam": "https://www.webcamtaxi.com/en/usa/tennessee/broadway-nashville.html#",
-      "description": "We thank Big Time Boots store and FOX17 WZTV for this view of Broadway, in the heart of downtown Nashville, the capital of the U.S. state of Tennessee.",
       "man_made": "surveillance",
       "name": "Broadway, Nashville",
       "surveillance": "webcam",
@@ -23595,7 +23600,7 @@
     "osmType": "node",
     "lastChanged": 1684073345000,
     "address": {
-      "city": "Schönau am Königssee",
+      "city": "Königssee",
       "county": "Landkreis Berchtesgadener Land",
       "state": "Bayern",
       "country": "Germany"
@@ -26910,6 +26915,7 @@
     "address": {
       "city": "Velké Poříčí",
       "county": "Královéhradecký kraj",
+      "state": "Severovýchod",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -26958,6 +26964,7 @@
     "address": {
       "city": "Velké Poříčí",
       "county": "Královéhradecký kraj",
+      "state": "Severovýchod",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -30121,7 +30128,7 @@
     "osmType": "node",
     "lastChanged": 1636539510000,
     "address": {
-      "city": "Mestre",
+      "city": "Venezia",
       "county": "Venezia",
       "state": "Veneto",
       "country": "Italy"
@@ -31066,7 +31073,7 @@
     "osmType": "node",
     "lastChanged": 1642602208000,
     "address": {
-      "city": "Achern",
+      "city": "Achern (Kernstadt)",
       "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
@@ -36235,6 +36242,7 @@
     "address": {
       "city": "Jablonné v Podještědí",
       "county": "Liberecký kraj",
+      "state": "Severovýchod",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -41450,6 +41458,33 @@
     "url": "https://planetarium-hamburg.panomax.com"
   },
   {
+    "lat": 53.5458543,
+    "lon": 9.9530038,
+    "osmID": 11104144179,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1693894731000,
+    "address": {
+      "city": "Hamburg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "80",
+      "camera:direction": "180",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/",
+      "height": "25",
+      "man_made": "surveillance",
+      "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Steffen Wossidlo GmbH & Co.KG, Fischmarkt 4-6, 22767 Hamburg",
+    "url": "https://zru4t97qr9.execute-api.eu-central-1.amazonaws.com/Prod/hello/"
+  },
+  {
     "lat": 53.5431365,
     "lon": 9.9761673,
     "osmID": 11104305544,
@@ -41666,12 +41701,12 @@
     "url": "https://www.hafen-hamburg.de/de/webcams/webcam-teufelsbrueck/"
   },
   {
-    "lat": 49.181165,
-    "lon": 19.0494028,
+    "lat": 49.1811657,
+    "lon": 19.0493902,
     "osmID": 11107444421,
     "user": "filip769",
     "osmType": "node",
-    "lastChanged": 1691752342000,
+    "lastChanged": 1693924194000,
     "address": {
       "city": "Šútovo",
       "county": "okres Martin",
@@ -41679,6 +41714,9 @@
       "country": "Slovakia"
     },
     "osmTags": {
+      "camera:direction": "170",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
       "contact:webcam": "http://kamera.chatachleb.sk:8080/",
       "man_made": "surveillance",
       "surveillance": "webcam",
@@ -41868,7 +41906,7 @@
     "osmID": 11115725146,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693300988000,
+    "lastChanged": 1693897997000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41879,7 +41917,7 @@
       "camera:features": "webcam",
       "camera:mount": "roof",
       "camera:type": "panning",
-      "contact:webcam": "https://cam.grassau.com/altona_2/images/live.jpg",
+      "contact:webcam": "https://cam.grassau.com/altona_2/player.html",
       "height": "75",
       "man_made": "surveillance",
       "name": "Augustinum",
@@ -41889,7 +41927,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
-    "url": "https://cam.grassau.com/altona_2/images/live.jpg"
+    "url": "https://cam.grassau.com/altona_2/player.html"
   },
   {
     "lat": 53.5481017,
@@ -42038,12 +42076,12 @@
     "url": "https://unikai.de/images/unikai/webcams/portcam_2.jpg"
   },
   {
-    "lat": 53.560159,
-    "lon": 10.1255254,
+    "lat": 53.5600812,
+    "lon": 10.125492,
     "osmID": 11121976896,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693554734000,
+    "lastChanged": 1694074579000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -42172,5 +42210,29 @@
     },
     "operator": "Feratel",
     "url": "https://www.feratel.com/webcams/deutschland/nuernberg.html"
+  },
+  {
+    "lat": 49.1809543,
+    "lon": 19.0495607,
+    "osmID": 11169748000,
+    "user": "filip769",
+    "osmType": "node",
+    "lastChanged": 1693924194000,
+    "address": {
+      "city": "Šútovo",
+      "county": "okres Martin",
+      "state": "Žilinský kraj",
+      "country": "Slovakia"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "http://kamera.chatachleb.sk:8082/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "http://kamera.chatachleb.sk:8082/"
   }
 ]
