@@ -1191,34 +1191,6 @@
     }
   },
   {
-    "lat": 62.27635,
-    "lon": 9.528272,
-    "osmID": 1417673799,
-    "user": "haakonst",
-    "osmType": "node",
-    "lastChanged": 1314662545000,
-    "address": {
-      "county": "Innlandet",
-      "country": "Norway"
-    },
-    "osmTags": {
-      "fixme": "position",
-      "man_made": "surveillance",
-      "name": "Hjerkinn, Grønbakken",
-      "operator": "Statens vegvesen",
-      "ref": "109026",
-      "source": "Statens vegvesen",
-      "source:url": "http://webkamera.vegvesen.no/metadata",
-      "surveillance": "webcam",
-      "url": "http://webkamera.vegvesen.no/kamera?id=109026"
-    },
-    "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=109026",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
     "lat": 59.1803454,
     "lon": 10.2061295,
     "osmID": 1417673808,
@@ -2878,7 +2850,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=209754"
+    "url": "http://webkamera.vegvesen.no/kamera?id=209754",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 69.4126116,
@@ -12996,7 +12971,7 @@
     "osmType": "node",
     "lastChanged": 1693000307000,
     "address": {
-      "city": "Ville de Bruxelles - Stad Brussel",
+      "city": "Bruxelles - Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
       "country": "Belgium"
     },
@@ -31335,7 +31310,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://stream2.banjarkab.go.id:8080/cctv/hls/simpangempatsekumpul.m3u8"
+    "url": "https://stream2.banjarkab.go.id:8080/cctv/hls/simpangempatsekumpul.m3u8",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.5570324,
