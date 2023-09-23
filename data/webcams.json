@@ -15567,7 +15567,7 @@
     "osmType": "node",
     "lastChanged": 1693000302000,
     "address": {
-      "city": "Ville de Bruxelles - Stad Brussel",
+      "city": "Bruxelles - Brussel",
       "county": "Brussel-Hoofdstad - Bruxelles-Capitale",
       "country": "Belgium"
     },
@@ -41777,7 +41777,7 @@
     "osmID": 11113797095,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1692087111000,
+    "lastChanged": 1695366880000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41787,7 +41787,7 @@
       "camera:direction": "319",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?",
+      "contact:webcam": "https://cam.grassau.com/rathausmarkt_hamburg/player.html",
       "height": "30",
       "man_made": "surveillance",
       "name": "Rathausmarkt Hamburg",
@@ -41797,7 +41797,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
-    "url": "https://cam.grassau.com/rathausmarkt_hamburg/images/live.jpg?"
+    "url": "https://cam.grassau.com/rathausmarkt_hamburg/player.html"
   },
   {
     "lat": 53.5287618,
@@ -41953,7 +41953,7 @@
     "osmID": 11115735483,
     "user": "Timo Beil",
     "osmType": "node",
-    "lastChanged": 1693300988000,
+    "lastChanged": 1695367193000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -41964,7 +41964,7 @@
       "camera:features": "webcam",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "https://staticcam.solutionshosted.de/chile/current.jpg?",
+      "contact:webcam": "https://www.schiffswiki.de/webcam/webcam6.php?id=21",
       "height": "42",
       "man_made": "surveillance",
       "name": "Chilehaus Hamburg",
@@ -41974,7 +41974,10 @@
       "surveillance:zone": "town"
     },
     "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
-    "url": "https://staticcam.solutionshosted.de/chile/current.jpg?"
+    "url": "https://www.schiffswiki.de/webcam/webcam6.php?id=21",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 53.5639645,
@@ -42277,5 +42280,40 @@
       "surveillance:zone": "street"
     },
     "url": "https://mdotjboss.state.mi.us/MiDrive/map?cameras=true&lat=42.87902&lon=-85.37156&zoom=15&id=2369"
+  },
+  {
+    "lat": 53.569006,
+    "lon": 9.702826,
+    "osmID": 11209645895,
+    "user": "Timo Beil",
+    "osmType": "node",
+    "lastChanged": 1695369710000,
+    "address": {
+      "city": "Wedel",
+      "county": "Kreis Pinneberg",
+      "state": "Schleswig-Holstein",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "3",
+      "camera:direction": "273,5",
+      "camera:features": "webcam",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.schiffswiki.de/webcam/webcam6.php?id=21",
+      "height": "20",
+      "image": "https://www.nuernbergluftbild.de/images/luftbild/1908240951.JPG",
+      "man_made": "surveillance",
+      "name": "Schulauer Fährhaus",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+    "url": "https://www.schiffswiki.de/webcam/webcam6.php?id=21",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
