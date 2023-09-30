@@ -933,7 +933,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=100107"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100107"
+    "url": "http://webkamera.vegvesen.no/kamera?id=100107",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.9704165,
@@ -20326,7 +20329,6 @@
     "lastChanged": 1647954168000,
     "address": {
       "county": "Voi",
-      "state": "Taita Taveta",
       "country": "Kenya"
     },
     "osmTags": {
@@ -24171,7 +24173,7 @@
     "osmType": "node",
     "lastChanged": 1635495766000,
     "address": {
-      "city": "Gemeinde Thaur",
+      "city": "Thaur",
       "county": "Bezirk Innsbruck-Land",
       "state": "Tirol",
       "country": "Austria"
@@ -37486,10 +37488,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://klette.info/fischcam/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://klette.info/fischcam/"
   },
   {
     "lat": 46.1298672,
@@ -38289,7 +38288,7 @@
     "osmType": "node",
     "lastChanged": 1678141087000,
     "address": {
-      "city": "Gemeinde Eben am Achensee",
+      "city": "Eben am Achensee",
       "county": "Bezirk Schwaz",
       "state": "Tirol",
       "country": "Austria"
@@ -42343,5 +42342,212 @@
       "surveillance:type": "camera"
     },
     "url": "https://flycam.panomax.com/poas-tieteenkatu18"
+  },
+  {
+    "lat": 47.2413987,
+    "lon": -122.3855738,
+    "osmID": 11227936501,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696016968000,
+    "address": {
+      "city": "Fife",
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/005vc13611.jpg",
+      "description": "I-5 at MP 136.1: Port of Tacoma I/C",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/005vc13611.jpg"
+  },
+  {
+    "lat": 47.2403004,
+    "lon": -122.3737205,
+    "osmID": 11227936502,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696016968000,
+    "address": {
+      "city": "Fife",
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/ORFlow/005vc13660.jpg",
+      "description": "I-5 at MP 136.6: Port of Tacoma Rd",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/ORFlow/005vc13660.jpg"
+  },
+  {
+    "lat": 47.2408379,
+    "lon": -122.3564055,
+    "osmID": 11227936503,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696016968000,
+    "address": {
+      "city": "Fife",
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/005vc13750.jpg",
+      "description": "I-5 at MP 137.5: 54th at Fife",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/005vc13750.jpg"
+  },
+  {
+    "lat": 47.2413579,
+    "lon": -122.3396942,
+    "osmID": 11227936504,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696016968000,
+    "address": {
+      "city": "Milton",
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "35",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/005vc13825.jpg",
+      "description": "I-5 at MP 138.2: South of 70th Ave",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/005vc13825.jpg"
+  },
+  {
+    "lat": 47.2431558,
+    "lon": -122.3414985,
+    "osmID": 11227936505,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696016968000,
+    "address": {
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/099vc00089.jpg",
+      "description": "SR 99: Wapato Way",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/099vc00089.jpg"
+  },
+  {
+    "lat": 47.2478276,
+    "lon": -122.3337728,
+    "osmID": 11227969126,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696017467000,
+    "address": {
+      "city": "Milton",
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/005vc13871.jpg",
+      "description": "I-5 at MP 138.7: North of 70th Ave. Camera Direction: North",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/005vc13871.jpg"
+  },
+  {
+    "lat": 47.2537931,
+    "lon": -122.3319097,
+    "osmID": 11227969127,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696017467000,
+    "address": {
+      "city": "Milton",
+      "county": "Pierce County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/005vc13951.jpg",
+      "description": "I-5 at MP 139.5: Pierce Co Line",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/nw/005vc13951.jpg"
+  },
+  {
+    "lat": 47.2649835,
+    "lon": -122.3214165,
+    "osmID": 11227969128,
+    "user": "Awoobis",
+    "osmType": "node",
+    "lastChanged": 1696017467000,
+    "address": {
+      "city": "Federal Way",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "fixme",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/005vc14016.jpg",
+      "description": "I-5 at MP 140.1: S 375th St",
+      "man_made": "surveillance",
+      "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/nw/005vc14016.jpg"
   }
 ]
