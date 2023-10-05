@@ -118,7 +118,7 @@
       "153.0751755",
       "153.0752755"
     ],
-    "expires": 1696407479
+    "expires": 1697696792
   },
   "-28.0859656,153.4259152": {
     "place_id": 55446552,
@@ -8363,7 +8363,7 @@
       "-104.9670080",
       "-104.9669080"
     ],
-    "expires": 1696454818
+    "expires": 1697704596
   },
   "39.5638663,2.6688967": {
     "place_id": 77720528,
@@ -9023,7 +9023,7 @@
       "2.6512435",
       "2.6513435"
     ],
-    "expires": 1696453913
+    "expires": 1697680725
   },
   "39.5786514,-105.142204": {
     "place_id": 317334436,
@@ -20926,7 +20926,7 @@
       "-73.5915464",
       "-73.5914464"
     ],
-    "expires": 1696422562
+    "expires": 1697706389
   },
   "45.5702259,6.8314943": {
     "place_id": 107421356,
@@ -21812,7 +21812,7 @@
       "6.6940578",
       "6.6941578"
     ],
-    "expires": 1696473602
+    "expires": 1697759083
   },
   "45.8414733,8.970053": {
     "place_id": 95758082,
@@ -22691,7 +22691,7 @@
       "14.2611818",
       "14.2613743"
     ],
-    "expires": 1696396713
+    "expires": 1697752049
   },
   "46.1870985,10.1985525": {
     "place_id": 94150230,
@@ -24791,21 +24791,21 @@
     "expires": 1696852451
   },
   "46.7255837,-2.3475929": {
-    "place_id": 279656550,
+    "place_id": 279657640,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8428392165,
-    "lat": "46.7255837",
-    "lon": "-2.3475929",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "way",
+    "osm_id": 151978699,
+    "lat": "46.72535535",
+    "lon": "-2.3474230437882655",
+    "class": "amenity",
+    "type": "ferry_terminal",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "Port de l'Île d'Yeu",
-    "display_name": "Port de l'Île d'Yeu, Quai Vernier, Gats Prompts, Port-Joinville, L'Île-d'Yeu, Les Sables-d'Olonne, Vendée, Pays de la Loire, France métropolitaine, 85350, France",
+    "addresstype": "amenity",
+    "name": "Gare Maritime",
+    "display_name": "Gare Maritime, Quai Vernier, Gats Prompts, Port-Joinville, L'Île-d'Yeu, Les Sables-d'Olonne, Vendée, Pays de la Loire, France métropolitaine, 85350, France",
     "address": {
-      "man_made": "Port de l'Île d'Yeu",
+      "amenity": "Gare Maritime",
       "road": "Quai Vernier",
       "hamlet": "Gats Prompts",
       "village": "Port-Joinville",
@@ -24821,21 +24821,23 @@
       "country_code": "fr"
     },
     "extratags": {
-      "operator": "Conseil départemental de la Vendée",
-      "camera:type": "panning",
-      "camera:mount": "pole",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/17600-france-pays-de-la-loire-lile-dyeu-le-port",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "ferry": "yes",
+      "level": "1",
+      "network": "Yeu Continent",
+      "building": "yes",
+      "operator": "Yeu Continent",
+      "wheelchair": "yes",
+      "internet_access": "wlan",
+      "public_transport": "station",
+      "internet_access:ssid": "Vendée Wifi"
     },
     "boundingbox": [
-      "46.7255337",
-      "46.7256337",
-      "-2.3476429",
-      "-2.3475429"
+      "46.7248345",
+      "46.7256505",
+      "-2.3476299",
+      "-2.3471255"
     ],
-    "expires": 1696438112
+    "expires": 1697659315
   },
   "46.7256239,-2.3474823": {
     "place_id": 279659696,
@@ -34247,7 +34249,7 @@
       "9.7263944",
       "9.7264944"
     ],
-    "expires": 1696412943
+    "expires": 1697756365
   },
   "48.2829063,8.167837": {
     "place_id": 136706322,
@@ -46366,6 +46368,46 @@
     ],
     "expires": 1696675982
   },
+  "51.7171015,8.7522485": {
+    "place_id": 369621460,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11239815984,
+    "lat": "51.7171015",
+    "lon": "8.7522485",
+    "class": "man_made",
+    "type": "surveillance",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "7, Marienplatz, Paderborn, Kreis Paderborn, Nordrhein-Westfalen, 33098, Deutschland",
+    "address": {
+      "house_number": "7",
+      "road": "Marienplatz",
+      "suburb": "Paderborn",
+      "city": "Paderborn",
+      "county": "Kreis Paderborn",
+      "state": "Nordrhein-Westfalen",
+      "ISO3166-2-lvl4": "DE-NW",
+      "postcode": "33098",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {
+      "website": "https://baucam332.panocloud.webcam/",
+      "surveillance": "webcam",
+      "camera:direction": "10",
+      "surveillance:type": "camera"
+    },
+    "boundingbox": [
+      "51.7170515",
+      "51.7171515",
+      "8.7521985",
+      "8.7522985"
+    ],
+    "expires": 1697665204
+  },
   "51.7171869,8.754402": {
     "place_id": 154583354,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -49735,7 +49777,7 @@
       "4.5033610",
       "4.5034610"
     ],
-    "expires": 1696440812
+    "expires": 1697774501
   },
   "52.1593812,4.5034306": {
     "place_id": 170688933,
@@ -52972,7 +53014,7 @@
       "9.2032775",
       "9.2033775"
     ],
-    "expires": 1696413493
+    "expires": 1697615408
   },
   "52.639688,9.2061923": {
     "place_id": 155877138,
@@ -53967,7 +54009,7 @@
       "-6.0678347",
       "-6.0677347"
     ],
-    "expires": 1696413938
+    "expires": 1697740854
   },
   "53.4051184,6.2041453": {
     "place_id": 164805869,
@@ -57361,7 +57403,7 @@
       "-1.3423563",
       "-1.3422211"
     ],
-    "expires": 1696444936
+    "expires": 1697692733
   },
   "54.2359288,-1.2103382": {
     "place_id": 268407091,
@@ -62872,7 +62914,7 @@
       "11.1172731",
       "11.1173731"
     ],
-    "expires": 1696456657
+    "expires": 1697721899
   },
   "60.899003,7.058579": {
     "place_id": 173846631,
