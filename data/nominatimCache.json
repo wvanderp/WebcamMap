@@ -230,7 +230,7 @@
       "38.5965514",
       "38.5966514"
     ],
-    "expires": 1697303599
+    "expires": 1698542695
   },
   "-3.4261706,114.8553672": {
     "place_id": 56068154,
@@ -1973,22 +1973,21 @@
     "expires": 1697894677
   },
   "10.6356234,-61.4117307": {
-    "place_id": 290906031,
+    "place_id": 290912377,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 699696709,
-    "lat": "10.63568565",
-    "lon": "-61.41181247302607",
-    "class": "leisure",
-    "type": "fitness_centre",
+    "osm_type": "node",
+    "osm_id": 7616397425,
+    "lat": "10.6356234",
+    "lon": "-61.4117307",
+    "class": "man_made",
+    "type": "surveillance",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "leisure",
-    "name": "Jungle Gym",
-    "display_name": "Jungle Gym, 50, Valsayn Branch Road, Valsayn, Tunapuna, Tunapuna-Piarco, 310401, Trinidad and Tobago",
+    "addresstype": "man_made",
+    "name": "TrafficTT Curepe Highway Camera",
+    "display_name": "TrafficTT Curepe Highway Camera, Valsayn Branch Road, Valsayn, Tunapuna, Tunapuna-Piarco, 310401, Trinidad and Tobago",
     "address": {
-      "leisure": "Jungle Gym",
-      "house_number": "50",
+      "man_made": "TrafficTT Curepe Highway Camera",
       "road": "Valsayn Branch Road",
       "suburb": "Valsayn",
       "town": "Tunapuna",
@@ -1999,16 +1998,20 @@
       "country_code": "tt"
     },
     "extratags": {
-      "layer": "1",
-      "building": "yes"
+      "camera:type": "panning",
+      "camera:mount": "pole",
+      "surveillance": "traffic",
+      "contact:webcam": "https://www.traffictt.com/camera/traffic-camera/north/curepe/kaydonna-flyover/",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "boundingbox": [
-      "10.6356214",
-      "10.6357510",
-      "-61.4118994",
-      "-61.4117261"
+      "10.6355734",
+      "10.6356734",
+      "-61.4117807",
+      "-61.4116807"
     ],
-    "expires": 1697300519
+    "expires": 1698610219
   },
   "10.6618896,-61.5232458": {
     "place_id": 290841507,
@@ -3093,7 +3096,7 @@
       "-82.2219353",
       "-82.2218353"
     ],
-    "expires": 1697345779
+    "expires": 1698566115
   },
   "35.2549201,-82.2429709": {
     "place_id": 327276922,
@@ -3412,7 +3415,7 @@
       "-82.6030455",
       "-82.6029455"
     ],
-    "expires": 1697286256
+    "expires": 1698485743
   },
   "35.5444973,-82.6037305": {
     "place_id": 327316162,
@@ -5558,7 +5561,7 @@
       "-95.3261084",
       "-95.3260084"
     ],
-    "expires": 1697321814
+    "expires": 1698589213
   },
   "38.9716718,-95.311449": {
     "place_id": 322352766,
@@ -5642,7 +5645,7 @@
       "-95.3208948",
       "-95.3207948"
     ],
-    "expires": 1697330877
+    "expires": 1698640979
   },
   "38.9717547,-95.3069403": {
     "place_id": 322349841,
@@ -9213,7 +9216,7 @@
       "-77.7367255",
       "-77.7366255"
     ],
-    "expires": 1697275547
+    "expires": 1698538101
   },
   "39.6094255,-105.153896": {
     "place_id": 317319324,
@@ -9757,7 +9760,7 @@
       "-77.9235294",
       "-77.9234294"
     ],
-    "expires": 1697264226
+    "expires": 1698476122
   },
   "39.6518428,-77.8876158": {
     "place_id": 5895009,
@@ -10289,7 +10292,7 @@
       "-78.4939176",
       "-78.4938176"
     ],
-    "expires": 1697280838
+    "expires": 1698499582
   },
   "39.6834392,-79.0715044": {
     "place_id": 5988759,
@@ -10609,7 +10612,7 @@
       "-78.6327473",
       "-78.6326473"
     ],
-    "expires": 1697271631
+    "expires": 1698555723
   },
   "39.701569,-77.7405347": {
     "place_id": 5896006,
@@ -11110,7 +11113,7 @@
       "-78.2803051",
       "-78.2802051"
     ],
-    "expires": 1697269946
+    "expires": 1698637052
   },
   "39.7200017,3.4566527": {
     "place_id": 77910923,
@@ -11490,7 +11493,7 @@
       "-86.1394784",
       "-86.1393784"
     ],
-    "expires": 1697331539
+    "expires": 1698634012
   },
   "39.7853713,-86.1394445": {
     "place_id": 324282146,
@@ -12276,7 +12279,7 @@
       "3.2112176",
       "3.2113176"
     ],
-    "expires": 1697326728
+    "expires": 1698571397
   },
   "40.0002179,15.3732544": {
     "place_id": 100448046,
@@ -12626,10 +12629,9 @@
     "importance": 0.00000999999999995449,
     "addresstype": "man_made",
     "name": "New York City Harbor, Waterfront Museum, Brooklyn NY USA",
-    "display_name": "New York City Harbor, Waterfront Museum, Brooklyn NY USA, 290, Conover Street, Red Hook, Brooklyn, Kings County, City of New York, New York, 11231, United States",
+    "display_name": "New York City Harbor, Waterfront Museum, Brooklyn NY USA, Conover Street, Red Hook, Brooklyn, Kings County, City of New York, New York, 11231, United States",
     "address": {
       "man_made": "New York City Harbor, Waterfront Museum, Brooklyn NY USA",
-      "house_number": "290",
       "road": "Conover Street",
       "neighbourhood": "Red Hook",
       "suburb": "Brooklyn",
@@ -12655,7 +12657,7 @@
       "-74.0184844",
       "-74.0183844"
     ],
-    "expires": 1697320892
+    "expires": 1698580947
   },
   "40.6979996,-73.9943408": {
     "place_id": 15281867,
@@ -12910,7 +12912,7 @@
       "-81.3876269",
       "-81.3875269"
     ],
-    "expires": 1697301202
+    "expires": 1698480670
   },
   "40.784809,-113.8298575": {
     "place_id": 315296461,
@@ -13454,7 +13456,7 @@
       "-81.5025403",
       "-81.5024403"
     ],
-    "expires": 1697320592
+    "expires": 1698557575
   },
   "41.4383958,14.5525596": {
     "place_id": 100139543,
@@ -13625,7 +13627,7 @@
       "14.5194572",
       "14.5195572"
     ],
-    "expires": 1697263919
+    "expires": 1698578946
   },
   "41.5197554,-81.4457111": {
     "place_id": 24873161,
@@ -13667,7 +13669,7 @@
       "-81.4457611",
       "-81.4456611"
     ],
-    "expires": 1697292312
+    "expires": 1698516163
   },
   "41.5747649,-81.4480223": {
     "place_id": 24712398,
@@ -13751,7 +13753,7 @@
       "-81.4490977",
       "-81.4489977"
     ],
-    "expires": 1697286390
+    "expires": 1698471158
   },
   "41.6017592,-81.4406259": {
     "place_id": 24799787,
@@ -13793,7 +13795,7 @@
       "-81.4406759",
       "-81.4405759"
     ],
-    "expires": 1697301580
+    "expires": 1698510531
   },
   "41.6263367,-81.400233": {
     "place_id": 24673129,
@@ -13919,7 +13921,7 @@
       "-81.2400152",
       "-81.2399152"
     ],
-    "expires": 1697307499
+    "expires": 1698619390
   },
   "41.6626203,-81.2637727": {
     "place_id": 24832451,
@@ -17393,7 +17395,7 @@
       "6.1229924",
       "6.1230924"
     ],
-    "expires": 1697267095
+    "expires": 1698496754
   },
   "43.0907111,-79.0731601": {
     "place_id": 7148204,
@@ -20554,21 +20556,21 @@
     "expires": 1697671245
   },
   "45.02618,14.5736158": {
-    "place_id": 99107202,
+    "place_id": 99140311,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 9334504028,
-    "lat": "45.0261894",
-    "lon": "14.5736206",
-    "class": "place",
-    "type": "house",
+    "osm_id": 3779265459,
+    "lat": "45.02618",
+    "lon": "14.5736158",
+    "class": "man_made",
+    "type": "surveillance",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "place",
-    "name": "",
-    "display_name": "1, Vela placa, Krk, Grad Krk, Primorsko-goranska županija, 51500, Hrvatska",
+    "addresstype": "man_made",
+    "name": "Webcam Krk Island – Vela Placa",
+    "display_name": "Webcam Krk Island – Vela Placa, Vela placa, Krk, Grad Krk, Primorsko-goranska županija, 51500, Hrvatska",
     "address": {
-      "house_number": "1",
+      "man_made": "Webcam Krk Island – Vela Placa",
       "road": "Vela placa",
       "town": "Krk",
       "municipality": "Grad Krk",
@@ -20579,15 +20581,22 @@
       "country_code": "hr"
     },
     "extratags": {
-      "entrance": "yes"
+      "operator": "Grad Krk",
+      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "surveillance": "webcam",
+      "contact:webcam": "https://www.whatsupcams.com/en/webcams/croatia/primorje-gorski-kotar/krk/webcam-krk-vela-placa/",
+      "camera:direction": "70",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
     "boundingbox": [
-      "45.0261394",
-      "45.0262394",
-      "14.5735706",
-      "14.5736706"
+      "45.0261300",
+      "45.0262300",
+      "14.5735658",
+      "14.5736658"
     ],
-    "expires": 1697304648
+    "expires": 1698613662
   },
   "45.0774398,-64.5780765": {
     "place_id": 19991248,
@@ -20801,7 +20810,7 @@
       "14.5446107",
       "14.5447107"
     ],
-    "expires": 1697317219
+    "expires": 1698477870
   },
   "45.3990724,-73.9591128": {
     "place_id": 21632603,
@@ -22164,7 +22173,7 @@
       "7.6988936",
       "7.6989936"
     ],
-    "expires": 1697278899
+    "expires": 1698602867
   },
   "46.0056329,-1.3908192": {
     "place_id": 281160551,
@@ -22328,21 +22337,21 @@
     "expires": 1697407128
   },
   "46.0354208,-1.3713553": {
-    "place_id": 281168744,
+    "place_id": 281174439,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8944783353,
-    "lat": "46.0354208",
-    "lon": "-1.3713553",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "way",
+    "osm_id": 72280624,
+    "lat": "46.03533215",
+    "lon": "-1.3714892774193106",
+    "class": "leisure",
+    "type": "sports_centre",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "Webcam Oléron - Saint-Denis YCO",
-    "display_name": "Webcam Oléron - Saint-Denis YCO, Quai Mathieu Cyprien Renaudin, Saint-Denis-d'Oléron, Rochefort, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17650, France",
+    "addresstype": "leisure",
+    "name": "Yacht Club d'Oléron",
+    "display_name": "Yacht Club d'Oléron, Quai Mathieu Cyprien Renaudin, Saint-Denis-d'Oléron, Rochefort, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17650, France",
     "address": {
-      "man_made": "Webcam Oléron - Saint-Denis YCO",
+      "leisure": "Yacht Club d'Oléron",
       "road": "Quai Mathieu Cyprien Renaudin",
       "village": "Saint-Denis-d'Oléron",
       "municipality": "Rochefort",
@@ -22356,21 +22365,17 @@
       "country_code": "fr"
     },
     "extratags": {
-      "camera:type": "panning",
-      "camera:mount": "wall",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.youtube.com/watch?v=rTGx9iYKV4Y",
-      "camera:direction": "180",
-      "surveillance:type": "camera",
-      "surveillance:zone": "beach"
+      "phone": "+33 5 46 47 93 64",
+      "sport": "sailing",
+      "building": "yes"
     },
     "boundingbox": [
-      "46.0353708",
-      "46.0354708",
-      "-1.3714053",
-      "-1.3713053"
+      "46.0351756",
+      "46.0355114",
+      "-1.3716594",
+      "-1.3713192"
     ],
-    "expires": 1697277595
+    "expires": 1698475534
   },
   "46.056018,6.9950113": {
     "place_id": 109641705,
@@ -22446,7 +22451,7 @@
       "7.7786097",
       "7.7787097"
     ],
-    "expires": 1697300405
+    "expires": 1698493989
   },
   "46.077239,6.840338": {
     "place_id": 109552255,
@@ -22996,7 +23001,7 @@
       "7.7228301",
       "7.7229301"
     ],
-    "expires": 1697333407
+    "expires": 1698601171
   },
   "46.3282029,7.7260323": {
     "place_id": 109684160,
@@ -23123,7 +23128,7 @@
       "7.6486309",
       "7.6487309"
     ],
-    "expires": 1697285595
+    "expires": 1698477706
   },
   "46.3717428,35.3698515": {
     "place_id": 213893081,
@@ -23255,7 +23260,7 @@
       "13.8485547",
       "13.8490424"
     ],
-    "expires": 1697339898
+    "expires": 1698610117
   },
   "46.3914225,9.6644948": {
     "place_id": 94150553,
@@ -23805,7 +23810,7 @@
       "10.8017030",
       "10.8018030"
     ],
-    "expires": 1697280852
+    "expires": 1698586858
   },
   "46.4945677,-1.791624": {
     "place_id": 281149261,
@@ -25318,7 +25323,7 @@
       "-92.0923828",
       "-92.0922828"
     ],
-    "expires": 1697279848
+    "expires": 1698594211
   },
   "46.7807448,-92.1114783": {
     "place_id": 29324678,
@@ -25496,7 +25501,7 @@
       "9.3050410",
       "9.3051410"
     ],
-    "expires": 1697262508
+    "expires": 1698634565
   },
   "46.7856503,6.6498349": {
     "place_id": 110214424,
@@ -26197,7 +26202,7 @@
       "9.5624978",
       "9.5625978"
     ],
-    "expires": 1697341054
+    "expires": 1698524867
   },
   "46.9792149,8.2562411": {
     "place_id": 94051539,
@@ -27814,7 +27819,7 @@
       "12.9940716",
       "12.9943284"
     ],
-    "expires": 1697325805
+    "expires": 1698631398
   },
   "47.2403004,-122.3737205": {
     "place_id": 369195898,
@@ -27855,7 +27860,7 @@
       "-122.3737705",
       "-122.3736705"
     ],
-    "expires": 1697336534
+    "expires": 1698564605
   },
   "47.2408379,-122.3564055": {
     "place_id": 369195899,
@@ -27896,7 +27901,7 @@
       "-122.3564555",
       "-122.3563555"
     ],
-    "expires": 1697326404
+    "expires": 1698564555
   },
   "47.2413579,-122.3396942": {
     "place_id": 369195900,
@@ -27937,7 +27942,7 @@
       "-122.3397442",
       "-122.3396442"
     ],
-    "expires": 1697290352
+    "expires": 1698577453
   },
   "47.2413987,-122.3855738": {
     "place_id": 369195897,
@@ -27979,7 +27984,7 @@
       "-122.3856238",
       "-122.3855238"
     ],
-    "expires": 1697333394
+    "expires": 1698640738
   },
   "47.2431558,-122.3414985": {
     "place_id": 369195901,
@@ -28019,7 +28024,7 @@
       "-122.3415485",
       "-122.3414485"
     ],
-    "expires": 1697263053
+    "expires": 1698571206
   },
   "47.2478276,-122.3337728": {
     "place_id": 369196244,
@@ -28307,7 +28312,7 @@
       "-122.3214665",
       "-122.3213665"
     ],
-    "expires": 1697335075
+    "expires": 1698532622
   },
   "47.2768009,12.482771": {
     "place_id": 90466268,
@@ -28735,7 +28740,7 @@
       "11.4516934",
       "11.4517934"
     ],
-    "expires": 1697315540
+    "expires": 1698562806
   },
   "47.314954,9.239525": {
     "place_id": 93569023,
@@ -29598,7 +29603,7 @@
       "19.0587347",
       "19.0588347"
     ],
-    "expires": 1697330608
+    "expires": 1698514395
   },
   "47.4165371,19.0611853": {
     "place_id": 87472533,
@@ -29937,7 +29942,7 @@
       "-122.3337836",
       "-122.3336836"
     ],
-    "expires": 1697304209
+    "expires": 1698571352
   },
   "47.47493,-122.3339545": {
     "place_id": 313294756,
@@ -31051,7 +31056,7 @@
       "-122.1860791",
       "-122.1859791"
     ],
-    "expires": 1697274760
+    "expires": 1698539048
   },
   "47.5654453,10.5615087": {
     "place_id": 91760253,
@@ -31902,7 +31907,7 @@
       "11.5264080",
       "11.5265080"
     ],
-    "expires": 1697276727
+    "expires": 1698595098
   },
   "47.6660683,11.1855095": {
     "place_id": 91282995,
@@ -32250,7 +32255,7 @@
       "-84.8122348",
       "-84.8121348"
     ],
-    "expires": 1697306649
+    "expires": 1698539111
   },
   "47.7804794,19.1305764": {
     "place_id": 87711584,
@@ -32292,7 +32297,7 @@
       "19.1305264",
       "19.1306264"
     ],
-    "expires": 1697332391
+    "expires": 1698505595
   },
   "47.8521707,1.9351644": {
     "place_id": 113248112,
@@ -32338,7 +32343,7 @@
       "1.9351144",
       "1.9352144"
     ],
-    "expires": 1697344893
+    "expires": 1698487142
   },
   "47.866742,13.2537193": {
     "place_id": 90942886,
@@ -32468,7 +32473,7 @@
       "1.8622346",
       "1.8623346"
     ],
-    "expires": 1697312892
+    "expires": 1698493588
   },
   "47.8974778,2.039763": {
     "place_id": 112204974,
@@ -32954,7 +32959,7 @@
       "1.9058804",
       "1.9072619"
     ],
-    "expires": 1697334503
+    "expires": 1698497677
   },
   "47.9489191,6.7686389": {
     "place_id": 111580692,
@@ -33163,7 +33168,7 @@
       "7.0155012",
       "7.0156012"
     ],
-    "expires": 1697317268
+    "expires": 1698534622
   },
   "48.0508801,11.9689852": {
     "place_id": 143463301,
@@ -33473,7 +33478,7 @@
       "8.8095919",
       "8.8096919"
     ],
-    "expires": 1697317113
+    "expires": 1698527237
   },
   "48.1024517,-4.3529817": {
     "place_id": 277340677,
@@ -33654,7 +33659,7 @@
       "11.5808670",
       "11.5853273"
     ],
-    "expires": 1697332654
+    "expires": 1698506689
   },
   "48.1297699,11.5820511": {
     "place_id": 143295123,
@@ -33705,21 +33710,21 @@
     "expires": 1697534154
   },
   "48.1303967,11.5807017": {
-    "place_id": 143250498,
+    "place_id": 143208913,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 11083580173,
-    "lat": "48.1303967",
-    "lon": "11.5807017",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "relation",
+    "osm_id": 11701898,
+    "lat": "48.13066535",
+    "lon": "11.58024825911724",
+    "class": "office",
+    "type": "government",
     "place_rank": 30,
-    "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "Deutsches Museum Webcam Patentamt",
-    "display_name": "Deutsches Museum Webcam Patentamt, 1, Bob-van-Benthem-Platz, Deutsches Museum, Ludwigsvorstadt-Isarvorstadt, München, Bayern, 80469, Deutschland",
+    "importance": 0.36786576807458427,
+    "addresstype": "office",
+    "name": "Europäisches Patentamt",
+    "display_name": "Europäisches Patentamt, 1, Bob-van-Benthem-Platz, Deutsches Museum, Ludwigsvorstadt-Isarvorstadt, München, Bayern, 80469, Deutschland",
     "address": {
-      "man_made": "Deutsches Museum Webcam Patentamt",
+      "office": "Europäisches Patentamt",
       "house_number": "1",
       "road": "Bob-van-Benthem-Platz",
       "suburb": "Deutsches Museum",
@@ -33732,23 +33737,27 @@
       "country_code": "de"
     },
     "extratags": {
-      "image": "https://www.terra-hd.de/deutschesmuseum3/img/current/1920.jpg",
-      "camera:type": "fixed",
-      "description": "Blick vom Patentamt über das Deutsche Museum. Kamera: Canon EOS 2000 D + 10-22mm Weitwinkelobjektiv",
-      "camera:mount": "building",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.terra-hd.de/deutschesmuseum3",
-      "camera:direction": "130",
-      "surveillance:type": "camera",
-      "surveillance:zone": "building"
+      "website": "https://www.epo.org/de/service-support/contact-us",
+      "building": "office",
+      "heritage": "4",
+      "ref:BLfD": "D-1-62-000-9006",
+      "wikidata": "Q7132151",
+      "wikipedia": "de:Europäische Patentorganisation",
+      "government": "patent_office",
+      "roof:shape": "flat",
+      "roof:levels": "1",
+      "building:levels": "11",
+      "internet_access": "wlan",
+      "heritage:operator": "BLfD",
+      "wikimedia_commons": "Category:European Patent Office (Bob-van-Benthem-Platz, Munich)"
     },
     "boundingbox": [
-      "48.1303467",
-      "48.1304467",
-      "11.5806517",
-      "11.5807517"
+      "48.1298363",
+      "48.1314989",
+      "11.5793592",
+      "11.5814104"
     ],
-    "expires": 1697275941
+    "expires": 1698626817
   },
   "48.1366913,11.5768302": {
     "place_id": 143402719,
@@ -33946,7 +33955,7 @@
       "11.5114860",
       "11.5116567"
     ],
-    "expires": 1697319897
+    "expires": 1698606814
   },
   "48.170295,11.247042": {
     "place_id": 142952474,
@@ -33987,7 +33996,7 @@
       "11.2464475",
       "11.2472086"
     ],
-    "expires": 1697286619
+    "expires": 1698639141
   },
   "48.174342,11.5536113": {
     "place_id": 143182766,
@@ -36016,7 +36025,7 @@
       "16.0795483",
       "16.0796483"
     ],
-    "expires": 1697338297
+    "expires": 1698525408
   },
   "48.5561985,16.0642427": {
     "place_id": 198505630,
@@ -36435,7 +36444,7 @@
       "8.2010672",
       "8.2011672"
     ],
-    "expires": 1697297744
+    "expires": 1698543841
   },
   "48.5990003,8.2010163": {
     "place_id": 138717670,
@@ -36478,7 +36487,7 @@
       "8.2009663",
       "8.2010663"
     ],
-    "expires": 1697278028
+    "expires": 1698642196
   },
   "48.608569,16.0794385": {
     "place_id": 198494772,
@@ -37350,7 +37359,7 @@
       "6.1804123",
       "6.1813626"
     ],
-    "expires": 1697322392
+    "expires": 1698546074
   },
   "48.70736,2.3888691": {
     "place_id": 114465064,
@@ -37696,7 +37705,7 @@
       "9.0453794",
       "9.0454794"
     ],
-    "expires": 1697313378
+    "expires": 1698517235
   },
   "48.7413376,9.0354588": {
     "place_id": 137439756,
@@ -40672,7 +40681,7 @@
       "15.8154718",
       "15.8155718"
     ],
-    "expires": 1697324515
+    "expires": 1698530979
   },
   "49.8772787,6.8875325": {
     "place_id": 134752360,
@@ -42104,7 +42113,7 @@
       "12.8835855",
       "12.8836855"
     ],
-    "expires": 1697312861
+    "expires": 1698500800
   },
   "50.4004775,11.0112832": {
     "place_id": 151499512,
@@ -42398,7 +42407,7 @@
       "16.1886635",
       "16.1887635"
     ],
-    "expires": 1697332605
+    "expires": 1698594094
   },
   "50.4616704,16.1885965": {
     "place_id": 194614711,
@@ -43238,7 +43247,7 @@
       "5.7255804",
       "5.7256804"
     ],
-    "expires": 1697298862
+    "expires": 1698601795
   },
   "50.8376251,0.4769531": {
     "place_id": 120603761,
@@ -45940,7 +45949,7 @@
       "14.0101633",
       "14.0109013"
     ],
-    "expires": 1697310586
+    "expires": 1698636573
   },
   "51.5979331,6.681226": {
     "place_id": 129289674,
@@ -46604,6 +46613,94 @@
       "8.9376043"
     ],
     "expires": 1697969573
+  },
+  "51.7184603,8.7526684": {
+    "place_id": 154549689,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 175018594,
+    "lat": "51.718462200000005",
+    "lon": "8.752649111991868",
+    "class": "tourism",
+    "type": "museum",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "tourism",
+    "name": "Stadtmuseum",
+    "display_name": "Stadtmuseum, 11, Am Abdinghof, Paderborn, Kreis Paderborn, Nordrhein-Westfalen, 33098, Deutschland",
+    "address": {
+      "tourism": "Stadtmuseum",
+      "house_number": "11",
+      "road": "Am Abdinghof",
+      "suburb": "Paderborn",
+      "city": "Paderborn",
+      "county": "Kreis Paderborn",
+      "state": "Nordrhein-Westfalen",
+      "ISO3166-2-lvl4": "DE-NW",
+      "postcode": "33098",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {
+      "fee": "yes",
+      "building": "government",
+      "wikidata": "Q53968318",
+      "start_date": "2017-10-09",
+      "wheelchair": "yes",
+      "opening_hours": "Tu-Su 10:00-18:00",
+      "roof:material": "roof_tiles"
+    },
+    "boundingbox": [
+      "51.7183366",
+      "51.7185729",
+      "8.7524225",
+      "8.7528487"
+    ],
+    "expires": 1698565050
+  },
+  "51.7184607,8.7526683": {
+    "place_id": 154549689,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 175018594,
+    "lat": "51.718462200000005",
+    "lon": "8.752649111991868",
+    "class": "tourism",
+    "type": "museum",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "tourism",
+    "name": "Stadtmuseum",
+    "display_name": "Stadtmuseum, 11, Am Abdinghof, Paderborn, Kreis Paderborn, Nordrhein-Westfalen, 33098, Deutschland",
+    "address": {
+      "tourism": "Stadtmuseum",
+      "house_number": "11",
+      "road": "Am Abdinghof",
+      "suburb": "Paderborn",
+      "city": "Paderborn",
+      "county": "Kreis Paderborn",
+      "state": "Nordrhein-Westfalen",
+      "ISO3166-2-lvl4": "DE-NW",
+      "postcode": "33098",
+      "country": "Deutschland",
+      "country_code": "de"
+    },
+    "extratags": {
+      "fee": "yes",
+      "building": "government",
+      "wikidata": "Q53968318",
+      "start_date": "2017-10-09",
+      "wheelchair": "yes",
+      "opening_hours": "Tu-Su 10:00-18:00",
+      "roof:material": "roof_tiles"
+    },
+    "boundingbox": [
+      "51.7183366",
+      "51.7185729",
+      "8.7524225",
+      "8.7528487"
+    ],
+    "expires": 1698475287
   },
   "51.7185327,8.755393": {
     "place_id": 154602516,
@@ -48172,7 +48269,7 @@
       "4.5196013",
       "4.5197013"
     ],
-    "expires": 1697307618
+    "expires": 1698547500
   },
   "51.912526,4.5385176": {
     "place_id": 124750630,
@@ -49268,7 +49365,7 @@
       "6.2154439",
       "6.2155439"
     ],
-    "expires": 1697262361
+    "expires": 1698637232
   },
   "52.1227223,6.2155506": {
     "place_id": 166556725,
@@ -51302,7 +51399,7 @@
       "4.8340993",
       "4.8341993"
     ],
-    "expires": 1697306200
+    "expires": 1698576677
   },
   "52.4155723,4.8341574": {
     "place_id": 169244615,
@@ -51471,7 +51568,7 @@
       "13.6762983",
       "13.6763983"
     ],
-    "expires": 1697263366
+    "expires": 1698481735
   },
   "52.4435991,13.1769847": {
     "place_id": 160259863,
@@ -51595,7 +51692,7 @@
       "13.6468256",
       "13.6517111"
     ],
-    "expires": 1697319515
+    "expires": 1698504619
   },
   "52.4482226,5.8338057": {
     "place_id": 167785257,
@@ -51722,7 +51819,7 @@
       "13.3102637",
       "13.3105784"
     ],
-    "expires": 1697336869
+    "expires": 1698491920
   },
   "52.4585984,13.3103323": {
     "place_id": 160131063,
@@ -51810,7 +51907,7 @@
       "13.3898001",
       "13.3899001"
     ],
-    "expires": 1697275155
+    "expires": 1698519054
   },
   "52.4732452,4.8199208": {
     "place_id": 169484017,
@@ -51851,7 +51948,7 @@
       "4.8127968",
       "4.8237277"
     ],
-    "expires": 1697261565
+    "expires": 1698541893
   },
   "52.481489,12.4739863": {
     "place_id": 159162244,
@@ -52062,7 +52159,7 @@
       "13.2436175",
       "13.2441536"
     ],
-    "expires": 1697279180
+    "expires": 1698487250
   },
   "52.5105794,13.2441195": {
     "place_id": 159339117,
@@ -53625,7 +53722,7 @@
       "6.5789797",
       "6.5790797"
     ],
-    "expires": 1697314431
+    "expires": 1698538873
   },
   "53.2080038,6.5815501": {
     "place_id": 165216160,
@@ -54219,7 +54316,7 @@
       "5.7747261",
       "5.7748261"
     ],
-    "expires": 1697331815
+    "expires": 1698558637
   },
   "53.4604,6.8225018": {
     "place_id": 164745034,
@@ -54656,7 +54753,7 @@
       "9.9939922",
       "9.9940922"
     ],
-    "expires": 1697326382
+    "expires": 1698511354
   },
   "53.543013,9.9929412": {
     "place_id": 157122404,
@@ -54704,7 +54801,7 @@
       "9.9928912",
       "9.9929912"
     ],
-    "expires": 1697285375
+    "expires": 1698520309
   },
   "53.5431365,9.9761673": {
     "place_id": 157126956,
@@ -54785,7 +54882,7 @@
       "9.9163625",
       "9.9169139"
     ],
-    "expires": 1697272136
+    "expires": 1698637711
   },
   "53.5450951,9.954667": {
     "place_id": 157071061,
@@ -55161,24 +55258,23 @@
       "9.9835987",
       "9.9836987"
     ],
-    "expires": 1697315365
+    "expires": 1698634319
   },
   "53.5562573,9.9837561": {
-    "place_id": 157177620,
+    "place_id": 157130827,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 25049526,
-    "lat": "53.5561478",
-    "lon": "9.983555634037586",
-    "class": "historic",
-    "type": "building",
+    "osm_type": "node",
+    "osm_id": 4847812458,
+    "lat": "53.5562573",
+    "lon": "9.9837561",
+    "class": "man_made",
+    "type": "surveillance",
     "place_rank": 30,
-    "importance": 0.23859140675544002,
-    "addresstype": "historic",
-    "name": "Emporio-Haus",
-    "display_name": "Emporio-Haus, Caffamacherreihe, Neustadt, Hamburg-Mitte, Hamburg, 20355, Deutschland",
+    "importance": 0.00000999999999995449,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Caffamacherreihe, Neustadt, Hamburg-Mitte, Hamburg, 20355, Deutschland",
     "address": {
-      "historic": "Emporio-Haus",
       "road": "Caffamacherreihe",
       "suburb": "Neustadt",
       "borough": "Hamburg-Mitte",
@@ -55189,23 +55285,25 @@
       "country_code": "de"
     },
     "extratags": {
-      "layer": "1",
-      "building": "commercial",
-      "wikidata": "Q1339402",
-      "architect": "Helmut Hentrich;Hubert Petschnigg",
-      "wikipedia": "de:Emporio-Hochhaus",
-      "memorial:ref": "1269",
-      "building:levels": "24",
-      "construction_year": "1961-1963",
-      "architect:wikidata": "Q105214;Q85541"
+      "height": "98",
+      "operator": "Grassau GmbH, Gerlindweg 29, 22559 Hamburg",
+      "camera:type": "fixed",
+      "camera:angle": "5",
+      "camera:mount": "roof",
+      "surveillance": "webcam",
+      "contact:webcam": "https://cam.grassau.com/emporio_2/images/live.jpg",
+      "camera:features": "webcam",
+      "camera:direction": "96",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
     },
     "boundingbox": [
-      "53.5558814",
-      "53.5564722",
-      "9.9830877",
-      "9.9840628"
+      "53.5562073",
+      "53.5563073",
+      "9.9837061",
+      "9.9838061"
     ],
-    "expires": 1697315712
+    "expires": 1698624325
   },
   "53.5600812,10.125492": {
     "place_id": 157780690,
@@ -55580,21 +55678,21 @@
     "expires": 1697398939
   },
   "53.5973187,10.0089743": {
-    "place_id": 157640501,
+    "place_id": 157705652,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 11101998395,
-    "lat": "53.5973187",
-    "lon": "10.0089743",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "way",
+    "osm_id": 316456276,
+    "lat": "53.59731295",
+    "lon": "10.008911273704664",
+    "class": "amenity",
+    "type": "planetarium",
     "place_rank": 30,
-    "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "Planetarium Hamburg",
-    "display_name": "Planetarium Hamburg, 1, Linnering, Winterhude, Hamburg-Nord, Hamburg, 22299, Deutschland",
+    "importance": 0.2844409508461066,
+    "addresstype": "amenity",
+    "name": "Planetarium",
+    "display_name": "Planetarium, 1, Linnering, Winterhude, Hamburg-Nord, Hamburg, 22299, Deutschland",
     "address": {
-      "man_made": "Planetarium Hamburg",
+      "amenity": "Planetarium",
       "house_number": "1",
       "road": "Linnering",
       "suburb": "Winterhude",
@@ -55606,22 +55704,38 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "panning",
-      "camera:mount": "roof",
-      "surveillance": "webcam",
-      "contact:webcam": "https://planetarium-hamburg.panomax.com",
-      "camera:features": "webcam",
-      "camera:direction": "0-360",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
+      "dog": "no",
+      "email": "info@planetarium-hamburg.de",
+      "image": "http://commons.wikimedia.org/wiki/File:Planetarium_im_Stadtpark_in_Hamburg-Winterhude_3.jpg",
+      "layer": "1",
+      "phone": "+49 40 428865210",
+      "height": "0",
+      "ref:dsa": "21233",
+      "website": "https://www.planetarium-hamburg.de/",
+      "building": "yes",
+      "heritage": "4",
+      "historic": "heritage",
+      "operator": "Freie und Hansestadt Hamburg, Kulturbehörde",
+      "wikidata": "Q961913",
+      "architect": "Oskar Menzel",
+      "wikipedia": "de:Planetarium Hamburg",
+      "start_date": "1913",
+      "wheelchair": "yes",
+      "description": "ehem. Wasserturm, 1929 zum Planetarium umgebaut",
+      "dsa:criteria": "Ensembleteil",
+      "opening_hours": "Tu 09:00-17:00; We,Th 09:00-21:00; Fr 09:00-22:00; Sa 12:00-22:00; PH,Su 10:00-20:00; Mo off",
+      "building:colour": "red",
+      "heritage:operator": "dsa",
+      "toilets:wheelchair": "yes",
+      "wheelchair:description": "Reservierung von Tickets für Rollstuhlfahrer bitte nur über die telefonische Hotline. Die Aussichtsplattform ist ebenfalls für Rollstuhlfahrer erreichbar."
     },
     "boundingbox": [
-      "53.5972687",
-      "53.5973687",
-      "10.0089243",
-      "10.0090243"
+      "53.5970687",
+      "53.5975672",
+      "10.0085426",
+      "10.0093187"
     ],
-    "expires": 1697300765
+    "expires": 1698496506
   },
   "53.617679,7.1516996": {
     "place_id": 164807234,
@@ -56937,44 +57051,41 @@
     "expires": 1697824153
   },
   "54.1431431,-4.4696732": {
-    "place_id": 269659230,
+    "place_id": 269647031,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 1967695417,
-    "lat": "54.1431431",
-    "lon": "-4.4696732",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "way",
+    "osm_id": 59321670,
+    "lat": "54.1430485",
+    "lon": "-4.469621720043314",
+    "class": "amenity",
+    "type": "studio",
     "place_rank": 30,
-    "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "",
-    "display_name": "Douglas Head, Douglas, Middle, IM1 5BW, Ellan Vannin / Isle of Man",
+    "importance": 0.2862449547378125,
+    "addresstype": "amenity",
+    "name": "Manx Radio",
+    "display_name": "Manx Radio, Douglas Head, Douglas, Medall / Middle, IM1 5BW, Ellan Vannin / Isle of Man",
     "address": {
+      "amenity": "Manx Radio",
       "road": "Douglas Head",
       "city": "Douglas",
-      "county": "Middle",
+      "county": "Medall / Middle",
       "postcode": "IM1 5BW",
       "country": "Ellan Vannin / Isle of Man",
       "country_code": "im"
     },
     "extratags": {
-      "url": "https://www.manxradio.com/webcams/",
-      "operator": "Manx Radio",
-      "camera:type": "fixed",
-      "surveillance": "webcam",
-      "contact:webcam": "https://s3-eu-west-1.amazonaws.com/mrwebcams/Bay.jpg",
-      "camera:direction": "345",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
+      "studio": "radio",
+      "website": "https://www.manxradio.com/",
+      "building": "yes",
+      "wikidata": "Q3365538"
     },
     "boundingbox": [
-      "54.1430931",
-      "54.1431931",
-      "-4.4697232",
-      "-4.4696232"
+      "54.1429364",
+      "54.1431431",
+      "-4.4698441",
+      "-4.4694015"
     ],
-    "expires": 1697339459
+    "expires": 1698633104
   },
   "54.1472705,-4.4769561": {
     "place_id": 269683809,
@@ -57535,12 +57646,12 @@
     "importance": 0.00000999999999995449,
     "addresstype": "man_made",
     "name": "",
-    "display_name": "Sulby Glen Road, Ballaskella, Lezayre, Ayre, Ellan Vannin / Isle of Man",
+    "display_name": "Sulby Glen Road, Ballaskella, Lezayre, Inver Ayre / Ayre, Ellan Vannin / Isle of Man",
     "address": {
       "road": "Sulby Glen Road",
       "hamlet": "Ballaskella",
       "city": "Lezayre",
-      "county": "Ayre",
+      "county": "Inver Ayre / Ayre",
       "country": "Ellan Vannin / Isle of Man",
       "country_code": "im"
     },
@@ -57558,7 +57669,7 @@
       "-4.4636694",
       "-4.4635694"
     ],
-    "expires": 1697263821
+    "expires": 1698496813
   },
   "54.251336,-4.463597": {
     "place_id": 269643871,
@@ -59522,6 +59633,7 @@
       "man_made": "E39 Forus 1 ( 14 moh - retning Stavanger)",
       "road": "E 39",
       "farm": "Lunde",
+      "city": "Sandnes",
       "municipality": "Sandnes",
       "county": "Rogaland",
       "ISO3166-2-lvl4": "NO-11",
@@ -59547,7 +59659,7 @@
       "5.7182844",
       "5.7183844"
     ],
-    "expires": 1697280842
+    "expires": 1698475650
   },
   "58.8946675,5.7116103": {
     "place_id": 172798379,
@@ -60786,7 +60898,7 @@
       "11.4551400",
       "11.4552400"
     ],
-    "expires": 1697275930
+    "expires": 1698475314
   },
   "59.5734881,10.1810438": {
     "place_id": 175651482,
@@ -61200,7 +61312,7 @@
       "29.0779472",
       "29.0780472"
     ],
-    "expires": 1697263445
+    "expires": 1698580836
   },
   "59.8970004,29.0772604": {
     "place_id": 182090173,
@@ -61787,7 +61899,7 @@
       "5.4961890",
       "5.4962890"
     ],
-    "expires": 1697286139
+    "expires": 1698564065
   },
   "60.339878,5.367812": {
     "place_id": 173703668,
@@ -62040,7 +62152,7 @@
       "7.5057253",
       "7.5058253"
     ],
-    "expires": 1697325889
+    "expires": 1698578557
   },
   "60.3680847,7.5056572": {
     "place_id": 173755987,
@@ -62166,7 +62278,7 @@
       "5.9909810",
       "5.9910810"
     ],
-    "expires": 1697292956
+    "expires": 1698538729
   },
   "60.3981843,5.6502519": {
     "place_id": 173700420,
@@ -62899,7 +63011,7 @@
       "5.6252240",
       "5.6253240"
     ],
-    "expires": 1697290455
+    "expires": 1698580695
   },
   "60.7854845,6.4996326": {
     "place_id": 173676637,
@@ -65112,7 +65224,7 @@
       "9.8611887",
       "9.8612887"
     ],
-    "expires": 1697298505
+    "expires": 1698585813
   },
   "63.3156074,9.861198": {
     "place_id": 177699667,
@@ -65236,7 +65348,7 @@
       "12.0365722",
       "12.0366722"
     ],
-    "expires": 1697303816
+    "expires": 1698513353
   },
   "63.342321,9.534312": {
     "place_id": 174468803,
@@ -66365,7 +66477,7 @@
       "11.4949560",
       "11.4950560"
     ],
-    "expires": 1697264130
+    "expires": 1698621266
   },
   "63.5083611,10.1336087": {
     "place_id": 174779193,
@@ -67363,7 +67475,7 @@
       "17.4770924",
       "17.4771924"
     ],
-    "expires": 1697279967
+    "expires": 1698507762
   },
   "69.0717421,17.9627973": {
     "place_id": 267171520,
@@ -67645,7 +67757,7 @@
       "20.3987132",
       "20.3988132"
     ],
-    "expires": 1697300203
+    "expires": 1698569399
   },
   "69.687434,30.004146": {
     "place_id": 266786501,
@@ -67884,7 +67996,7 @@
       "98.2887661",
       "98.2888661"
     ],
-    "expires": 1697300317
+    "expires": 1698606069
   },
   "70.0033836,20.8985446": {
     "place_id": 267293538,
@@ -68279,6 +68391,6 @@
       "-1.8505805",
       "-1.8504805"
     ],
-    "expires": 1697319542
+    "expires": 1698568120
   }
 }

@@ -4033,7 +4033,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=200063"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=200063"
+    "url": "http://webkamera.vegvesen.no/kamera?id=200063",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 59.9128061,
@@ -4980,6 +4983,7 @@
     "osmType": "node",
     "lastChanged": 1623417366000,
     "address": {
+      "city": "Sandnes",
       "county": "Rogaland",
       "country": "Norway"
     },
@@ -5979,7 +5983,7 @@
     "lastChanged": 1683138138000,
     "address": {
       "city": "Lezayre",
-      "county": "Ayre",
+      "county": "Inver Ayre / Ayre",
       "country": "Isle of Man"
     },
     "osmTags": {
@@ -6480,7 +6484,7 @@
     "lastChanged": 1682961807000,
     "address": {
       "city": "Douglas",
-      "county": "Middle",
+      "county": "Medall / Middle",
       "country": "Isle of Man"
     },
     "osmTags": {
@@ -42574,5 +42578,49 @@
       "website": "https://www.hornberg.de/webcam"
     },
     "url": "https://www.hornberg.de/webcam"
+  },
+  {
+    "lat": 51.7184607,
+    "lon": 8.7526683,
+    "osmID": 11262845626,
+    "user": "bielebog",
+    "osmType": "node",
+    "lastChanged": 1697297521000,
+    "address": {
+      "city": "Paderborn",
+      "county": "Kreis Paderborn",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "direction": "290",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://paderborn.it-wms.com/"
+    },
+    "url": "https://paderborn.it-wms.com/"
+  },
+  {
+    "lat": 51.7184603,
+    "lon": 8.7526684,
+    "osmID": 11262845627,
+    "user": "bielebog",
+    "osmType": "node",
+    "lastChanged": 1697297521000,
+    "address": {
+      "city": "Paderborn",
+      "county": "Kreis Paderborn",
+      "state": "Nordrhein-Westfalen",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "direction": "200",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://baucam331.panocloud.webcam/"
+    },
+    "url": "https://baucam331.panocloud.webcam/"
   }
 ]
