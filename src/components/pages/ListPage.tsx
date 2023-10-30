@@ -98,7 +98,7 @@ function ListPage() {
             >
                 <TileLayer
                     attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <UpdateMap />
                 {markers}
