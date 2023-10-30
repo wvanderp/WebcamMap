@@ -72,6 +72,15 @@
         // Any is used to mock some vars and it gives warnings about it that are unwanted
         "@typescript-eslint/no-explicit-any": "off"
       }
+    },
+    {
+      "files": [
+        "utils/**/*"
+      ],
+      "rules": {
+        // We don't need to check the compatibility of the node scripts
+        "compat/compat": "off"
+      }
     }
   ],
   "rules": {
@@ -83,7 +92,7 @@
       }
     ],
     "no-unused-vars": "off",
-    // Git fixes this issue by automatedly change the brake line type when pushing the local branches
+    // Git fixes this issue by automagically change the brake line type when pushing the local branches
     "linebreak-style": "off",
     "no-undef": "warn",
     // Underscores are used to denote private functions and variables

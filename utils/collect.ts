@@ -42,7 +42,7 @@ const getNominatimUrl = (
     lat: number, lon: number
 ) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1`;
 
-const overpassUrl = 'https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A%28%0A%20%20nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3B%0A%20%20nwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%0A%29%3B%0Aout%20meta%3B%0A';
+const overpassUrl = 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A%28%0A%20%20nwr%5B%22surveillance%22%3D%22traffic%22%5D%5B%22contact%3Awebcam%22%5D%3B%0A%20%20nwr%5B%22surveillance%22%3D%22webcam%22%5D%3B%0A%29%3B%0Aout%20meta%3B%0A';
 
 // maximum age of the cache in seconds
 // 2 weeks
