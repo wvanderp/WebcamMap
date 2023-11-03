@@ -6777,7 +6777,7 @@
       "-79.1065420",
       "-79.1064420"
     ],
-    "expires": 1698965239
+    "expires": 1700255650
   },
   "39.5227305,-104.867716": {
     "place_id": 316956320,
@@ -7309,7 +7309,7 @@
       "-105.0845070",
       "-105.0844070"
     ],
-    "expires": 1698905143
+    "expires": 1700245625
   },
   "39.5556052,-104.8715144": {
     "place_id": 316960603,
@@ -7685,7 +7685,7 @@
       "-104.8811887",
       "-104.8810887"
     ],
-    "expires": 1698928809
+    "expires": 1700218115
   },
   "39.5589115,-105.0063937": {
     "place_id": 317322466,
@@ -7848,7 +7848,7 @@
       "-105.0084232",
       "-105.0083232"
     ],
-    "expires": 1698936481
+    "expires": 1700267801
   },
   "39.5605814,-104.9417156": {
     "place_id": 316967941,
@@ -10355,7 +10355,7 @@
       "-78.1191940",
       "-78.1190940"
     ],
-    "expires": 1698963035
+    "expires": 1700140808
   },
   "39.6883065,-79.0921585": {
     "place_id": 5945165,
@@ -13752,7 +13752,7 @@
       "-81.4002830",
       "-81.4001830"
     ],
-    "expires": 1698928656
+    "expires": 1700131809
   },
   "41.6389161,14.5204221": {
     "place_id": 100332475,
@@ -24517,7 +24517,7 @@
       "8.5808634",
       "8.5809634"
     ],
-    "expires": 1698969650
+    "expires": 1700237643
   },
   "46.6509502,7.9093903": {
     "place_id": 78038008,
@@ -24815,21 +24815,21 @@
     "expires": 1699709026
   },
   "46.7255837,-2.3475929": {
-    "place_id": 279656550,
+    "place_id": 279657640,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 8428392165,
-    "lat": "46.7255837",
-    "lon": "-2.3475929",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "way",
+    "osm_id": 151978699,
+    "lat": "46.72539085",
+    "lon": "-2.3474396094425565",
+    "class": "amenity",
+    "type": "ferry_terminal",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "Port de l'Île d'Yeu",
-    "display_name": "Port de l'Île d'Yeu, Quai Vernier, Gats Prompts, Port-Joinville, L'Île-d'Yeu, Les Sables-d'Olonne, Vendée, Pays de la Loire, France métropolitaine, 85350, France",
+    "addresstype": "amenity",
+    "name": "Gare Maritime",
+    "display_name": "Gare Maritime, Quai Vernier, Gats Prompts, Port-Joinville, L'Île-d'Yeu, Les Sables-d'Olonne, Vendée, Pays de la Loire, France métropolitaine, 85350, France",
     "address": {
-      "man_made": "Port de l'Île d'Yeu",
+      "amenity": "Gare Maritime",
       "road": "Quai Vernier",
       "hamlet": "Gats Prompts",
       "village": "Port-Joinville",
@@ -24845,21 +24845,23 @@
       "country_code": "fr"
     },
     "extratags": {
-      "operator": "Conseil départemental de la Vendée",
-      "camera:type": "panning",
-      "camera:mount": "pole",
-      "surveillance": "webcam",
-      "contact:webcam": "https://www.viewsurf.com/univers/plage/vue/17600-france-pays-de-la-loire-lile-dyeu-le-port",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "ferry": "yes",
+      "network": "Yeu Continent",
+      "building": "yes",
+      "operator": "Yeu Continent",
+      "wheelchair": "yes",
+      "building:levels": "2",
+      "internet_access": "wlan",
+      "public_transport": "station",
+      "internet_access:ssid": "Vendée Wifi"
     },
     "boundingbox": [
-      "46.7255337",
-      "46.7256337",
-      "-2.3476429",
-      "-2.3475429"
+      "46.7248345",
+      "46.7256505",
+      "-2.3476299",
+      "-2.3471255"
     ],
-    "expires": 1698904188
+    "expires": 1700196233
   },
   "46.7256239,-2.3474823": {
     "place_id": 279659696,
@@ -26718,7 +26720,7 @@
       "8.6495781",
       "8.6498926"
     ],
-    "expires": 1698945773
+    "expires": 1700163823
   },
   "47.072833,9.602583": {
     "place_id": 93622719,
@@ -28836,7 +28838,7 @@
       "10.2161190",
       "10.2162190"
     ],
-    "expires": 1698920831
+    "expires": 1700276034
   },
   "47.3604921,10.4610483": {
     "place_id": 91595667,
@@ -30240,7 +30242,7 @@
       "8.7261251",
       "8.7284708"
     ],
-    "expires": 1698980153
+    "expires": 1700160807
   },
   "47.5146314,12.4371152": {
     "place_id": 90837746,
@@ -31708,7 +31710,7 @@
       "11.5174209",
       "11.5175209"
     ],
-    "expires": 1698930691
+    "expires": 1700181691
   },
   "47.6577783,10.4263977": {
     "place_id": 59592004,
@@ -38080,20 +38082,21 @@
     "expires": 1700043369
   },
   "48.8454831,13.1380119": {
-    "place_id": 143910725,
+    "place_id": 143874702,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 10556541177,
-    "lat": "48.8454831",
-    "lon": "13.1380119",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "way",
+    "osm_id": 225631481,
+    "lat": "48.84544265",
+    "lon": "13.138011958197023",
+    "class": "amenity",
+    "type": "townhall",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "",
-    "display_name": "28, Hauptstraße, Ranzing, Lalling, Lalling (VGem), Landkreis Deggendorf, Bayern, 94551, Deutschland",
+    "addresstype": "amenity",
+    "name": "Verwaltungsgemeinschaft Lalling",
+    "display_name": "Verwaltungsgemeinschaft Lalling, 28, Hauptstraße, Ranzing, Lalling, Lalling (VGem), Landkreis Deggendorf, Bayern, 94551, Deutschland",
     "address": {
+      "amenity": "Verwaltungsgemeinschaft Lalling",
       "house_number": "28",
       "road": "Hauptstraße",
       "village": "Ranzing",
@@ -38106,18 +38109,20 @@
       "country_code": "de"
     },
     "extratags": {
-      "camera:type": "panning",
-      "surveillance": "webcam",
-      "contact:webcam": "https://lalling.panomax.com/",
-      "surveillance:type": "camera"
+      "email": "poststelle@vgem-lalling.bayern.de",
+      "phone": "+49 9904 8312-0",
+      "website": "https://lalling.de/",
+      "building": "yes",
+      "wheelchair": "no",
+      "opening_hours": "Mo-We 08:15-12:00, Mo 13:15-16:00, We 13:15-18:00, Fr 08:15-12:15"
     },
     "boundingbox": [
-      "48.8454331",
-      "48.8455331",
-      "13.1379619",
-      "13.1380619"
+      "48.8453253",
+      "48.8455340",
+      "13.1378291",
+      "13.1381948"
     ],
-    "expires": 1698924795
+    "expires": 1700199019
   },
   "48.8752717,13.0234096": {
     "place_id": 143863326,
@@ -43794,7 +43799,7 @@
       "14.7046312",
       "14.7047312"
     ],
-    "expires": 1698931431
+    "expires": 1700197710
   },
   "50.8957601,14.8104274": {
     "place_id": 116758549,
@@ -46335,7 +46340,7 @@
       "8.7521985",
       "8.7522985"
     ],
-    "expires": 1698925539
+    "expires": 1700275621
   },
   "51.7171869,8.754402": {
     "place_id": 154583354,
@@ -46591,22 +46596,21 @@
     "expires": 1699504342
   },
   "51.7202725,8.7351461": {
-    "place_id": 154681112,
+    "place_id": 154736715,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 9519277,
-    "lat": "51.7206018",
-    "lon": "8.73643266009329",
+    "osm_type": "node",
+    "osm_id": 7993481732,
+    "lat": "51.7202725",
+    "lon": "8.7351461",
     "class": "man_made",
     "type": "surveillance",
     "place_rank": 30,
-    "importance": 0.24698155929085722,
+    "importance": 0.00000999999999995449,
     "addresstype": "man_made",
-    "name": "dSPACE",
-    "display_name": "dSPACE, Giefersstraße, Paderborn, Kreis Paderborn, Nordrhein-Westfalen, 33102, Deutschland",
+    "name": "",
+    "display_name": "Helene-Lange-Straße, Paderborn, Kreis Paderborn, Nordrhein-Westfalen, 33102, Deutschland",
     "address": {
-      "man_made": "dSPACE",
-      "road": "Giefersstraße",
+      "road": "Helene-Lange-Straße",
       "suburb": "Paderborn",
       "city": "Paderborn",
       "county": "Kreis Paderborn",
@@ -46617,20 +46621,20 @@
       "country_code": "de"
     },
     "extratags": {
-      "landuse": "commercial",
-      "website": "https://www.dspace.com/",
-      "operator": "dSPACE GmbH",
-      "wikidata": "Q5206167",
-      "wikipedia": "de:DSPACE (Unternehmen)",
-      "surveillance": "outdoor"
+      "website": "https://miete66b.it-wms.com/panorama.jpg",
+      "camera:type": "fixed",
+      "surveillance": "webcam",
+      "camera:features": "webcam",
+      "camera:direction": "280",
+      "surveillance:type": "camera"
     },
     "boundingbox": [
-      "51.7187706",
-      "51.7215569",
-      "8.7345324",
-      "8.7379164"
+      "51.7202225",
+      "51.7203225",
+      "8.7350961",
+      "8.7351961"
     ],
-    "expires": 1698946617
+    "expires": 1700134399
   },
   "51.7532292,3.8518209": {
     "place_id": 117761075,
@@ -47086,7 +47090,7 @@
       "10.6153073",
       "10.6156355"
     ],
-    "expires": 1698948553
+    "expires": 1700260453
   },
   "51.8018323,5.2580041": {
     "place_id": 125785279,
@@ -50960,7 +50964,7 @@
       "4.8940661",
       "4.8941661"
     ],
-    "expires": 1698955272
+    "expires": 1700260081
   },
   "52.3745928,4.8954254": {
     "place_id": 170161980,
@@ -52938,20 +52942,21 @@
     "expires": 1699357045
   },
   "52.6395761,9.2033275": {
-    "place_id": 155881321,
+    "place_id": 155879781,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 296001649,
-    "lat": "52.6395191",
-    "lon": "9.203273870636217",
-    "class": "building",
-    "type": "apartments",
+    "osm_type": "node",
+    "osm_id": 2997596337,
+    "lat": "52.6395761",
+    "lon": "9.2033275",
+    "class": "man_made",
+    "type": "surveillance",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "building",
-    "name": "",
-    "display_name": "19, Weserstraße, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
+    "addresstype": "man_made",
+    "name": "Wesertorbrücke",
+    "display_name": "Wesertorbrücke, 19, Weserstraße, Stadtteil Nienburg, Nienburg/Weser, Landkreis Nienburg/Weser, Niedersachsen, 31582, Deutschland",
     "address": {
+      "man_made": "Wesertorbrücke",
       "house_number": "19",
       "road": "Weserstraße",
       "suburb": "Stadtteil Nienburg",
@@ -52964,17 +52969,16 @@
       "country_code": "de"
     },
     "extratags": {
-      "roof:shape": "half-hipped",
-      "wheelchair": "no",
-      "building:levels": "1"
+      "surveillance": "webcam",
+      "contact:webcam": "http://www.nienburg-in-bildern.de/index.php?bild=0"
     },
     "boundingbox": [
-      "52.6394471",
-      "52.6395911",
-      "9.2031778",
-      "9.2033699"
+      "52.6395261",
+      "52.6396261",
+      "9.2032775",
+      "9.2033775"
     ],
-    "expires": 1698973904
+    "expires": 1700119129
   },
   "52.639688,9.2061923": {
     "place_id": 155877138,
@@ -53177,7 +53181,7 @@
       "24.3075577",
       "24.3076577"
     ],
-    "expires": 1698942837
+    "expires": 1700166380
   },
   "52.8442432,5.7111711": {
     "place_id": 167461319,
@@ -62419,22 +62423,22 @@
     "expires": 1699463398
   },
   "60.5167544,30.2216833": {
-    "place_id": 181592469,
+    "place_id": 181575883,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 6324393339,
-    "lat": "60.5167544",
-    "lon": "30.2216833",
-    "class": "man_made",
-    "type": "surveillance",
+    "osm_type": "relation",
+    "osm_id": 3486596,
+    "lat": "60.5148597",
+    "lon": "30.216431544896235",
+    "class": "leisure",
+    "type": "sports_centre",
     "place_rank": 30,
     "importance": 0.00000999999999995449,
-    "addresstype": "man_made",
-    "name": "",
-    "display_name": "Озёрная улица, Платформа 69-й км, Сосновское сельское поселение, Приозерский район, Ленинградская область, Северо-Западный федеральный округ, 188730, Россия",
+    "addresstype": "leisure",
+    "name": "Горнолыжный курорт «Игора»",
+    "display_name": "Горнолыжный курорт «Игора», Всесезонная улица, Сосновское сельское поселение, Приозерский район, Ленинградская область, Северо-Западный федеральный округ, 188730, Россия",
     "address": {
-      "road": "Озёрная улица",
-      "village": "Платформа 69-й км",
+      "leisure": "Горнолыжный курорт «Игора»",
+      "road": "Всесезонная улица",
       "municipality": "Сосновское сельское поселение",
       "county": "Приозерский район",
       "state": "Ленинградская область",
@@ -62445,19 +62449,17 @@
       "country_code": "ru"
     },
     "extratags": {
-      "camera:type": "fixed",
-      "camera:mount": "roof",
-      "surveillance": "webcam",
-      "contact:webcam": "https://igora.ru/about/web_cams/",
-      "surveillance:type": "camera"
+      "phone": "+7 812 9600055",
+      "sport": "skiing",
+      "website": "https://igora.ru/"
     },
     "boundingbox": [
-      "60.5167044",
-      "60.5168044",
-      "30.2216333",
-      "30.2217333"
+      "60.5112160",
+      "60.5185092",
+      "30.1994633",
+      "30.2318913"
     ],
-    "expires": 1698987395
+    "expires": 1700151798
   },
   "60.5546939,11.2509174": {
     "place_id": 174166427,
@@ -66071,7 +66073,7 @@
       "10.4022238",
       "10.4023238"
     ],
-    "expires": 1698931371
+    "expires": 1700149282
   },
   "63.441311,10.4108168": {
     "place_id": 142668136,
@@ -66201,7 +66203,7 @@
       "10.4031670",
       "10.4049134"
     ],
-    "expires": 1698919572
+    "expires": 1700112464
   },
   "63.449716,10.195416": {
     "place_id": 174714721,
@@ -67480,7 +67482,7 @@
       "19.2796047",
       "19.2797047"
     ],
-    "expires": 1698970018
+    "expires": 1700185356
   },
   "69.4126116,17.1530935": {
     "place_id": 267256118,
