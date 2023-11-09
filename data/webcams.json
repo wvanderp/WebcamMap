@@ -77,6 +77,33 @@
     "url": "http://portal.chmi.cz/files/portal/docs/meteo/kam/prohlizec.html?cam=dukovany"
   },
   {
+    "lat": 53.6759497,
+    "lon": 23.8283558,
+    "osmID": 320469735,
+    "user": "Prusaker",
+    "osmType": "node",
+    "lastChanged": 1699431449000,
+    "address": {
+      "city": "Гродна",
+      "state": "Гродзенская вобласць",
+      "country": "Belarus"
+    },
+    "osmTags": {
+      "camera:direction": "150",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newgrodno.by/webcamery-grodno/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://newgrodno.by/webcamery-grodno/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 52.4585984,
     "lon": 13.3103323,
     "osmID": 338178874,
@@ -417,7 +444,7 @@
     "osmType": "node",
     "lastChanged": 1527860878000,
     "address": {
-      "city": "Louvain-la-Neuve",
+      "city": "Ottignies-Louvain-la-Neuve",
       "county": "Nivelles",
       "state": "Brabant wallon",
       "country": "Belgium"
@@ -9314,7 +9341,6 @@
     "address": {
       "city": "Sankt Johann in Tirol",
       "county": "Bezirk Kitzbühel",
-      "state": "Tirol",
       "country": "Austria"
     },
     "osmTags": {
@@ -14868,7 +14894,6 @@
     "address": {
       "city": "Prägraten am Großvenediger",
       "county": "Bezirk Lienz",
-      "state": "Tirol",
       "country": "Austria"
     },
     "osmTags": {
@@ -18767,33 +18792,6 @@
     }
   },
   {
-    "lat": 53.675969,
-    "lon": 23.8281895,
-    "osmID": 7539091811,
-    "user": "4004",
-    "osmType": "node",
-    "lastChanged": 1589925223000,
-    "address": {
-      "city": "Гродна",
-      "state": "Гродзенская вобласць",
-      "country": "Belarus"
-    },
-    "osmTags": {
-      "camera:direction": "150",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://newgrodno.by/webcamery-grodno/",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://newgrodno.by/webcamery-grodno/",
-    "lint": {
-      "duplicate": true
-    }
-  },
-  {
     "lat": 46.1222101,
     "lon": 7.2121701,
     "osmID": 7556448143,
@@ -19300,6 +19298,7 @@
     "lastChanged": 1593281579000,
     "address": {
       "city": "Přísečná",
+      "county": "Jihočeský kraj",
       "state": "Jihozápad",
       "country": "Czech Republic"
     },
@@ -24063,7 +24062,6 @@
     "lastChanged": 1619642338000,
     "address": {
       "city": "Söll",
-      "state": "Tirol",
       "country": "Austria"
     },
     "osmTags": {
@@ -26722,7 +26720,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "webcam.gelderland.nl",
-    "url": "https://webcam.gelderland.nl/varik.html"
+    "url": "https://webcam.gelderland.nl/varik.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.4504331,
@@ -29884,7 +29885,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://youtu.be/3ZdNaAXAWq4"
+    "url": "https://youtu.be/3ZdNaAXAWq4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 47.6153734,
@@ -33511,7 +33515,6 @@
     "address": {
       "city": "St. Christoph",
       "county": "Bezirk Landeck",
-      "state": "Tirol",
       "country": "Austria"
     },
     "osmTags": {
@@ -33781,7 +33784,6 @@
     "address": {
       "city": "Kirchdorf in Tirol",
       "county": "Bezirk Kitzbühel",
-      "state": "Tirol",
       "country": "Austria"
     },
     "osmTags": {
@@ -36483,7 +36485,7 @@
     "osmType": "node",
     "lastChanged": 1688032104000,
     "address": {
-      "city": "Villaz",
+      "city": "Villa (Evolène)",
       "county": "Hérens",
       "state": "Valais/Wallis",
       "country": "Switzerland"
@@ -40568,7 +40570,10 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5362087,

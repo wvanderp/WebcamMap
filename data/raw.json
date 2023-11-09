@@ -67,6 +67,27 @@
   },
   {
     "type": "node",
+    "id": 320469735,
+    "lat": 53.6759497,
+    "lon": 23.8283558,
+    "timestamp": "2023-11-08T08:17:29Z",
+    "version": 9,
+    "changeset": 143768022,
+    "user": "Prusaker",
+    "uid": 2643755,
+    "tags": {
+      "camera:direction": "150",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newgrodno.by/webcamery-grodno/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 338178874,
     "lat": 52.4585984,
     "lon": 13.3103323,
@@ -7224,26 +7245,6 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 3237003327,
-    "lat": 47.8682033,
-    "lon": 1.7648884,
-    "timestamp": "2018-04-16T13:22:19Z",
-    "version": 2,
-    "changeset": 58137984,
-    "user": "Geodyn",
-    "uid": 2355908,
-    "tags": {
-      "camera:direction": "50",
-      "camera:mount": "street_lamp",
-      "camera:type": "fixed",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "street"
     }
   },
   {
@@ -16084,27 +16085,6 @@
     "uid": 456597,
     "tags": {
       "camera:direction": "140",
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://newgrodno.by/webcamery-grodno/",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 7539091811,
-    "lat": 53.675969,
-    "lon": 23.8281895,
-    "timestamp": "2020-05-19T21:53:43Z",
-    "version": 1,
-    "changeset": 85465233,
-    "user": "4004",
-    "uid": 456597,
-    "tags": {
-      "camera:direction": "150",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://newgrodno.by/webcamery-grodno/",
@@ -36673,6 +36653,77 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.verejnekamery.sk/inovec/",
       "ele": "1061",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11331465160,
+    "lat": 47.3605085,
+    "lon": 2.9181132,
+    "timestamp": "2023-11-07T16:43:15Z",
+    "version": 1,
+    "changeset": 143745091,
+    "user": "DF45",
+    "uid": 239546,
+    "tags": {
+      "image": "http://cam-aero.eu/raspicamaero/LFGH_AeroclubCosne",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11331466654,
+    "lat": 47.8979875,
+    "lon": 2.1620631,
+    "timestamp": "2023-11-07T16:46:58Z",
+    "version": 1,
+    "changeset": 143745231,
+    "user": "DF45",
+    "uid": 239546,
+    "tags": {
+      "camera:direction": "225",
+      "image": "https://webcam.orleans.aeroport.fr/cam_right.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11331484601,
+    "lat": 47.8980013,
+    "lon": 2.1620884,
+    "timestamp": "2023-11-07T16:49:47Z",
+    "version": 1,
+    "changeset": 143745361,
+    "user": "DF45",
+    "uid": 239546,
+    "tags": {
+      "camera:direction": "130",
+      "image": "https://webcam.orleans.aeroport.fr/cam_center.jpg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11331484602,
+    "lat": 47.898016,
+    "lon": 2.1621182,
+    "timestamp": "2023-11-07T16:49:47Z",
+    "version": 1,
+    "changeset": 143745361,
+    "user": "DF45",
+    "uid": 239546,
+    "tags": {
+      "camera:direction": "70",
+      "image": "https://webcam.orleans.aeroport.fr/cam_left.jpg?time=1699291044339",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera"
