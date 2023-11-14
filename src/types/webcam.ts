@@ -1,6 +1,7 @@
 export interface Webcam {
     lat: number;
     lon: number;
+    direction: number;
 
     osmID: number;
     user: string;

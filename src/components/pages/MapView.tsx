@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import "leaflet-rotatedmarker";
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -15,7 +16,7 @@ function MapView() {
             return null;
         }
         return (
-            <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
+            <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon} rotationAngle={webcam.direction-90} rotationOrigin={"center center"}>
                 <Popup>
                     <PopupContent webcam={webcam} />
                 </Popup>
