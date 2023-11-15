@@ -34,6 +34,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sonarjs": "^0.23.0",
     "eslint-plugin-unicorn": "^49.0.0",
+    "npm-run-all": "^4.1.5",
     "parcel": "^2.10.3",
     "process": "^0.11.10",
     "ts-node": "^10.9.1",
@@ -59,7 +60,8 @@
   "scripts": {
     "app": "parcel serve src/index.html",
     "build": "parcel build --no-source-maps --dist-dir ./build src/index.html",
-    "lint": "npm run tsc && eslint --ext ts,tsx,js src/ utils/",
+    "lint": "npm-run-all -c -s tsc eslint" ,
+    "eslint": "eslint --ext ts,tsx,js src/ utils/",
     "tsc": "tsc --noEmit",
     "collect": "ts-node -P tsconfig.update.json --files utils/collect.ts",
     "lintData": "ts-node utils/lint/",
