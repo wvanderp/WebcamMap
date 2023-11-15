@@ -4,6 +4,7 @@ import axios, { AxiosResponse } from 'axios';
 import fs from 'fs';
 import countries from 'i18n-iso-countries';
 import englishCountry from 'i18n-iso-countries/langs/en.json';
+import path from 'path';
 import { Webcam } from '../src/types/webcam';
 import getRandomInt from './lib/getRandomInt';
 import sleep from './lib/sleep';
@@ -42,13 +43,15 @@ const getNominatimUrl = (
     lat: number, lon: number
 ) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1`;
 
-const overpassUrl = 'https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A180%5D%3B%0A(%0A%20%20node%5B%22contact%3Awebcam%22%5D%3B%0A)%3B%0Aout%20meta%3B%0A';
+// overpass url
+const overpassBase = 'https://overpass-api.de/api/interpreter?data=';
+const query = fs.readFileSync(path.join(__dirname, '../overpassQuery.overpassql')).toString();
+
+const overpassUrl = `${overpassBase}${encodeURIComponent(query)}`;
 
 // maximum age of the cache in seconds
-// 2 weeks
-const nominatimMaxAge = 2 * 7 * 24 * 60 * 60;
-// max 1 day difference
-const aDay = 24 * 60 * 60;
+const nominatimMaxAge = 2 * 7 * 24 * 60 * 60; // 2 weeks
+const aDay = 24 * 60 * 60; // max 1 day difference
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
     const cacheKey = `${lat},${lon}`;
