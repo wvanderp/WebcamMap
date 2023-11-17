@@ -139,14 +139,14 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
         const nominatim = await queryNominatim(r.lat, r.lon);
 
-        let direction = parseInt(r.tags["camera:direction"]);
+        let direction = Number(r.tags["camera:direction"]);
         if (Number.isNaN(direction)) {
-            direction = parseInt(r.tags["direction"]);
+            direction = Number(r.tags["direction"]);
         }
         webcams.push({
             lat: r.lat,
             lon: r.lon,
-            direction: Number.isNaN(direction) ? 90 : direction, // point east by default
+            direction: Number.isNaN(direction) ? undefined : direction,
 
             osmID: r.id,
             user: r.user,

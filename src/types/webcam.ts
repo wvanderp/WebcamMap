@@ -1,7 +1,7 @@
 export interface Webcam {
     lat: number;
     lon: number;
-    direction: number;
+    direction?: number; // direction the camera is facing, in degrees
 
     osmID: number;
     user: string;
