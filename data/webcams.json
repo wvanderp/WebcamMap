@@ -12178,7 +12178,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "http://ott.tvsm.pl/portal/start.php?c=cam&id=33"
+    "url": "http://ott.tvsm.pl/portal/start.php?c=cam&id=33",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.5662974,
@@ -25557,7 +25560,7 @@
     "lat": 50.6817896,
     "lon": 4.4004789,
     "osmID": 5206826456,
-    "user": "Alevorus",
+    "user": "WineDeveloper",
     "osmType": "node",
     "lastChanged": 1650028923000,
     "address": {
@@ -50978,6 +50981,7 @@
     },
     "url": "https://cctv.banjarmasinkota.go.id/list",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -98342,10 +98346,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://youtu.be/3ZdNaAXAWq4",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/3ZdNaAXAWq4"
   },
   {
     "lat": 31.2431038,
@@ -118212,7 +118213,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4"
+    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2062747,
@@ -118237,10 +118241,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
   },
   {
     "lat": 52.5540186,
@@ -122626,6 +122627,7 @@
     },
     "url": "https://kolbuszowa.pl/kamery",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -124487,12 +124489,12 @@
     "url": "https://webtv.feratel.com/webtv/?design=v3&pg=A2CA5813-2332-446C-A7E6-3A5480304592&cam=5569&c0=0"
   },
   {
-    "lat": 47.2438622,
-    "lon": 11.7543778,
+    "lat": 47.2436363,
+    "lon": 11.7538553,
     "osmID": 10742072655,
-    "user": "Marco Debus",
+    "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1679076840000,
+    "lastChanged": 1700174593000,
     "address": {
       "city": "Fügenberg",
       "county": "Bezirk Schwaz",
@@ -125896,10 +125898,7 @@
       "website": "https://HaurakiGulfWeather.com"
     },
     "operator": "HaurakiGulfWeather",
-    "url": "https://youtu.be/pUnKgU3r1cI",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/pUnKgU3r1cI"
   },
   {
     "lat": -36.8354864,
@@ -125978,10 +125977,7 @@
       "website": "https://kyc.org.nz/kyc-predictwind-webcam"
     },
     "operator": "Kohimaramara Yacht Club",
-    "url": "https://youtu.be/OJM-EXLimuc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/OJM-EXLimuc"
   },
   {
     "lat": -36.7133299,
@@ -126886,10 +126882,7 @@
       "website": "https://ghyc.co.nz"
     },
     "operator": "Gulf Harbour Yacht Club",
-    "url": "https://youtu.be/EoPvHArYRQE",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/EoPvHArYRQE"
   },
   {
     "lat": 47.4449564,
@@ -129708,7 +129701,10 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=jAL268T1lFw"
+    "url": "https://www.youtube.com/watch?v=jAL268T1lFw",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.4429418,
@@ -134679,5 +134675,221 @@
       "surveillance:type": "camera"
     },
     "url": "https://halblech.panomax.com/"
+  },
+  {
+    "lat": 47.4618607,
+    "lon": 11.1861514,
+    "osmID": 11357125327,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700175203000,
+    "address": {
+      "city": "Elmau",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "contact:webcam": "https://schloss-elmau.panomax.com/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://schloss-elmau.panomax.com/"
+  },
+  {
+    "lat": 47.4718635,
+    "lon": 11.2125193,
+    "osmID": 11357125348,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700175296000,
+    "address": {
+      "city": "Krün",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "0 - 360",
+      "contact:webcam": "https://kranzbach.panomax.com/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://kranzbach.panomax.com/"
+  },
+  {
+    "lat": 47.3747326,
+    "lon": 11.9605776,
+    "osmID": 11357157462,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700174201000,
+    "address": {
+      "city": "Alpbach",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "0 - 360",
+      "contact:webcam": "https://alpbach.panomax.com/galtenberg",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://alpbach.panomax.com/galtenberg"
+  },
+  {
+    "lat": 47.4745113,
+    "lon": 11.1877968,
+    "osmID": 11357160551,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700175064000,
+    "address": {
+      "city": "Elmau",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "contact:webcam": "https://schloss-elmau.panomax.com/alm",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://schloss-elmau.panomax.com/alm"
+  },
+  {
+    "lat": 47.3027313,
+    "lon": 10.8569952,
+    "osmID": 11357165642,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700176380000,
+    "address": {
+      "city": "Nassereith",
+      "county": "Bezirk Imst",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "contact:webcam": "https://imst-nassereith.panomax.com/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://imst-nassereith.panomax.com/"
+  },
+  {
+    "lat": 47.2860207,
+    "lon": 10.7897121,
+    "osmID": 11357167451,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700176553000,
+    "address": {
+      "city": "Dollinger",
+      "county": "Bezirk Imst",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "225",
+      "contact:webcam": "https://imst-tarrenz.panomax.com/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://imst-tarrenz.panomax.com/"
+  },
+  {
+    "lat": 47.2476906,
+    "lon": 11.7579534,
+    "osmID": 11357167883,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700174718000,
+    "address": {
+      "city": "Fügenberg",
+      "county": "Bezirk Schwaz",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "0 - 360",
+      "contact:webcam": "https://hochfuegen.panomax.com/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://hochfuegen.panomax.com/"
+  },
+  {
+    "lat": 47.4789769,
+    "lon": 11.1206169,
+    "osmID": 11357187864,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700175586000,
+    "address": {
+      "city": "Garmisch-Partenkirchen",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "340",
+      "contact:webcam": "https://gapa.panomax.com/schanze",
+      "man_made": "surveillance",
+      "name": "Webcam Olympiaschanze",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://gapa.panomax.com/schanze"
+  },
+  {
+    "lat": 47.226152,
+    "lon": 11.0109165,
+    "osmID": 11357187865,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700176148000,
+    "address": {
+      "city": "Kühtai",
+      "county": "Bezirk Imst",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "0 - 360",
+      "contact:webcam": "https://kuehtai.panomax.com/kaiserbahn-winter",
+      "man_made": "surveillance",
+      "name": "Webcam Kaiserbahn",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://kuehtai.panomax.com/kaiserbahn-winter"
+  },
+  {
+    "lat": 47.2096783,
+    "lon": 11.0294315,
+    "osmID": 11357209775,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700176055000,
+    "address": {
+      "city": "Kühtai",
+      "county": "Bezirk Imst",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "0 - 360",
+      "contact:webcam": "https://kuehtai.panomax.com/wiesbergbahn-winter",
+      "man_made": "surveillance",
+      "name": "Webcam Wiesbergbahn",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://kuehtai.panomax.com/wiesbergbahn-winter"
   }
 ]
