@@ -37,6 +37,8 @@ This project uses the OpenStreetMap Logo by Ken Vermette which is licensed under
 
 This project also uses the "Icons8 flat integrated webcam" icon from the Icons8 library. These icons are available under the [MIT](https://opensource.org/licenses/MIT) license and available at Wikimedia Commons ([link](https://commons.wikimedia.org/wiki/File:Icons8_flat_integrated_webcam.svg)).
 
+The black directional webcam icon was created by Wikipedia user Waffle5522 and kindly placed in the public domain.
+
 ## Todos
 
 - Preview webcams
