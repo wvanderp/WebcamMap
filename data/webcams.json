@@ -539,9 +539,9 @@
     "lat": 47.9859903,
     "lon": 10.1795244,
     "osmID": 390490218,
-    "user": "Chrisssii",
+    "user": "osmMM038",
     "osmType": "node",
-    "lastChanged": 1562089250000,
+    "lastChanged": 1700252943000,
     "address": {
       "city": "Memmingen",
       "state": "Bayern",
@@ -551,6 +551,7 @@
       "camera:direction": "45",
       "camera:mount": "wall",
       "camera:type": "fixed",
+      "check_date": "2023-11-17",
       "contact:webcam": "https://www.memmingen.de/nc/goodies/webcam/st-martin-xl.html#c2729",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -14026,7 +14027,10 @@
       "name": "Hafen",
       "surveillance": "webcam"
     },
-    "url": "http://www.nienburg-in-bildern.de/index.php?bild=5"
+    "url": "http://www.nienburg-in-bildern.de/index.php?bild=5",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 52.639203,
@@ -48339,7 +48343,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_577"
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_577",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 35.2549201,
@@ -72445,7 +72452,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/247.jpg"
+    "url": "https://trafficnz.info/camera/247.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -37.789,
@@ -98862,7 +98872,10 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=9k_sg8rhsgk"
+    "url": "https://www.youtube.com/watch?v=9k_sg8rhsgk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.7797599,
@@ -99004,7 +99017,10 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=DzJb26edNjs"
+    "url": "https://www.youtube.com/watch?v=DzJb26edNjs",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.7807448,
@@ -118083,6 +118099,7 @@
     },
     "url": "https://www.youtube.com/watch?v=X-BGNeHLX58",
     "lint": {
+      "youtube": true,
       "duplicate": true
     }
   },
@@ -118213,10 +118230,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4"
   },
   {
     "lat": 53.2062747,
@@ -126882,7 +126896,10 @@
       "website": "https://ghyc.co.nz"
     },
     "operator": "Gulf Harbour Yacht Club",
-    "url": "https://youtu.be/EoPvHArYRQE"
+    "url": "https://youtu.be/EoPvHArYRQE",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 47.4449564,
@@ -128897,7 +128914,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "SlowTV",
-    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg"
+    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 50.1008734,
@@ -129586,7 +129606,10 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78"
+    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5105794,
@@ -129610,7 +129633,10 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5362087,
@@ -129676,10 +129702,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -134891,5 +134914,98 @@
       "surveillance:type": "camera"
     },
     "url": "https://kuehtai.panomax.com/wiesbergbahn-winter"
+  },
+  {
+    "lat": 47.7340891,
+    "lon": 11.8577539,
+    "osmID": 11358465600,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700237046000,
+    "address": {
+      "city": "Schliersee",
+      "county": "Landkreis Miesbach",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "170",
+      "contact:webcam": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c8817/",
+      "man_made": "surveillance",
+      "name": "Webcam Café Milchhäusl",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c8817/"
+  },
+  {
+    "lat": 47.6610591,
+    "lon": 11.8660672,
+    "osmID": 11358492427,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700238450000,
+    "address": {
+      "city": "Schliersee",
+      "county": "Landkreis Miesbach",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "80",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2595/",
+      "man_made": "surveillance",
+      "name": "Webcam Stümpflingabfahrt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2595/"
+  },
+  {
+    "lat": 47.6601561,
+    "lon": 11.8570534,
+    "osmID": 11358507980,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700237812000,
+    "address": {
+      "city": "Schliersee",
+      "county": "Landkreis Miesbach",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2592/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2592/"
+  },
+  {
+    "lat": 47.6600234,
+    "lon": 11.8572815,
+    "osmID": 11358507981,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1700237812000,
+    "address": {
+      "city": "Schliersee",
+      "county": "Landkreis Miesbach",
+      "state": "Bayern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2594/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2594/"
   }
 ]
