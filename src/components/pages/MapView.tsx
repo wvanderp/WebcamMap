@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
+import MarkerClusterGroup from 'react-leaflet-cluster';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -38,7 +39,9 @@ function MapView() {
                     url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <UpdateMap />
-                {markers}
+                <MarkerClusterGroup>
+                    {markers}
+                </MarkerClusterGroup>
             </MapContainer>
         </div>
     );
