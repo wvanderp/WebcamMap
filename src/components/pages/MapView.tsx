@@ -15,7 +15,7 @@ function MapView() {
         if (webcam === null) {
             return null;
         }
-        const rotationAngle = webcam.direction === undefined ? 0 : webcam.direction - 90
+        const rotationAngle = webcam.direction === undefined ? 0 : webcam.direction - 90;
         return (
             <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon} rotationAngle={rotationAngle} rotationOrigin={'center center'}>
                 <Popup>
