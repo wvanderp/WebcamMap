@@ -41,7 +41,7 @@ const nominatimCache = getNominatimCache();
 
 const getNominatimUrl = (
     lat: number, lon: number
-) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1`;
+) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1&accept-language=en`;
 
 // overpass url
 const overpassBase = 'https://overpass-api.de/api/interpreter?data=';

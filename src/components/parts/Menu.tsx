@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import webcamIcon from 'url:../../static/icon.svg';
 // @ts-expect-error svg files are not compatible with typescript
 import attribution from 'url:../../static/attribution.svg';
+// @ts-expect-error overpassql files are not compatible with typescript
+import query from 'bundle-text:../../../overpassQuery.overpassql';
 
 import useGlobalState from '../../state';
 
@@ -25,8 +27,8 @@ function Menu() {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-sm-8 col-md-7 py-4">
-                                <h4 className="text-white">About</h4>
-                                <p className="text-muted">
+                                <h4 className="white-text">About</h4>
+                                <p className="muted-text">
                                     This page displays all the webcams known to OpenStreetMap.
                                     {' '}
                                     Zoom in to see if your local town or city has a webcam.
@@ -58,17 +60,14 @@ function Menu() {
                             </div>
                             <div className="col-sm-4 offset-md-1 py-4">
                                 <h4 className="text-white">Links</h4>
-                                <ul className="list-unstyled">
+                                <ul className="list-unstyled muted-text">
                                     <li>
-                                        <a href="https://overpass-turbo.eu/s/15aA" className="text-white">
+                                        <a href={`https://overpass-turbo.eu/?Q=${encodeURI(query)}`}>
                                             The Overpass query used to create the data
                                         </a>
                                     </li>
-                                    <li className="text-muted">
-                                        <a
-                                            href="https://github.com/github-actions[bot]/WebcamMap"
-                                            className="text-white"
-                                        >
+                                    <li>
+                                        <a href="https://github.com/wvanderp/WebcamMap" >
                                             The source code is available on GitHub
                                         </a>
                                     </li>
@@ -80,7 +79,7 @@ function Menu() {
                                                     location.coordinates[0]}/${
                                                     location.coordinates[1]}`
                                             }
-                                            className="text-white"
+                                            className="muted-text"
                                         >
                                             <img
                                                 id={'osmAttribution'}
@@ -95,12 +94,12 @@ function Menu() {
                                 <h4 className="text-white">Sitemap</h4>
                                 <ul className="list-unstyled">
                                     <li>
-                                        <Link to="/webcams" className="text-white">
+                                        <Link to="/webcams" className="muted-text">
                                             All webcams
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to="/places" className="text-white">
+                                        <Link to="/places" className="muted-text">
                                             All places
                                         </Link>
                                     </li>
