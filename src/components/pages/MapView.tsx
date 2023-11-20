@@ -2,6 +2,7 @@ import * as React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
 import MarkerClusterGroup from 'react-leaflet-cluster';
+import L, { MarkerCluster } from 'leaflet';
 
 import MarkerIcon from '../parts/MarkerIcon';
 
@@ -10,6 +11,14 @@ import webcams from '../../../data/webcams.json';
 
 import PopupContent from '../parts/PopupContent';
 import UpdateMap from '../../utils/UpdateMap';
+
+const createClusterCustomIcon = function (cluster: MarkerCluster) {
+    return L.divIcon({
+        html: `<span>${cluster.getChildCount()}</span>`,
+        className: 'custom-marker-cluster',
+        iconSize: L.point(33, 33, true)
+    });
+};
 
 function MapView() {
     const markers = webcams.map((webcam: Webcam) => {
@@ -39,7 +48,9 @@ function MapView() {
                     url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                 />
                 <UpdateMap />
-                <MarkerClusterGroup>
+                <MarkerClusterGroup
+                    iconCreateFunction={createClusterCustomIcon}
+                >
                     {markers}
                 </MarkerClusterGroup>
             </MapContainer>
