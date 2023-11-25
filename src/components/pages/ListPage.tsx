@@ -3,12 +3,10 @@ import { useParams, Navigate } from 'react-router-dom';
 
 import chunk from 'lodash.chunk';
 
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';
 
 import { Col, Container, Row } from 'reactstrap';
-
-import MarkerIcon from '../parts/MarkerIcon';
 
 import webcams from '../../../data/webcams.json';
 import PopupContent from '../parts/PopupContent';
@@ -16,6 +14,7 @@ import { Webcam } from '../../types/webcam';
 import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
 
 import UpdateMap from '../../utils/UpdateMap';
+import WebcamMarker from '../parts/Marker';
 
 function ListPage() {
     const params = useParams();
@@ -57,13 +56,7 @@ function ListPage() {
         if (webcam === null) {
             return null;
         }
-        return (
-            <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
-                <Popup>
-                    <PopupContent webcam={webcam} />
-                </Popup>
-            </Marker>
-        );
+        return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
     });
 
     const webcamTiles = filteredWebcams.map((r) => (

@@ -1,16 +1,14 @@
 import * as React from 'react';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import L, { MarkerCluster } from 'leaflet';
 
-import MarkerIcon from '../parts/MarkerIcon';
-
 import { Webcam } from '../../types/webcam';
 import webcams from '../../../data/webcams.json';
 
-import PopupContent from '../parts/PopupContent';
 import UpdateMap from '../../utils/UpdateMap';
+import WebcamMarker from '../parts/Marker';
 
 const createClusterCustomIcon = (cluster: MarkerCluster) => L.divIcon({
     html: `<span>${cluster.getChildCount()}</span>`,
@@ -23,14 +21,7 @@ function MapView() {
         if (webcam === null) {
             return null;
         }
-        const rotationAngle = webcam.direction === undefined ? 0 : webcam.direction - 90;
-        return (
-            <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon} rotationAngle={rotationAngle} rotationOrigin={'center center'}>
-                <Popup>
-                    <PopupContent webcam={webcam} />
-                </Popup>
-            </Marker>
-        );
+        return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
     });
     document.title = 'CartoCams';
 

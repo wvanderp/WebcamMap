@@ -2,7 +2,8 @@ import * as React from 'react';
 
 import { useParams } from 'react-router';
 import { Navigate } from 'react-router-dom';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
+import 'leaflet-rotatedmarker';
 
 import { Col, Container, Row, Table } from 'reactstrap';
 
@@ -13,15 +14,13 @@ import osmIcon from 'url:../../static/osm.svg';
 // @ts-expect-error svg files are not compatible with typescript
 import playIcon from 'url:../../static/play.svg';
 
-import MarkerIcon from '../parts/MarkerIcon';
-
 import webcams from '../../../data/webcams.json';
-import PopupContent from '../parts/PopupContent';
 import { Webcam } from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
 import generateName from '../../utils/generateName';
 
 import UpdateMap from '../../utils/UpdateMap';
+import WebcamMarker from '../parts/Marker';
 
 function ListPage() {
     const { id } = useParams();
@@ -37,14 +36,7 @@ function ListPage() {
     }
 
     const webcam = filteredWebcams[0];
-
-    const marker = (
-        <Marker key={webcam.osmID} position={[webcam.lat, webcam.lon]} icon={MarkerIcon}>
-            <Popup>
-                <PopupContent webcam={webcam} />
-            </Popup>
-        </Marker>
-    );
+    const marker = (<WebcamMarker webcam={webcam} />);
 
     const pattern = /^((http|https|ftp):\/\/)/;
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
