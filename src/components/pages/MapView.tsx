@@ -12,13 +12,11 @@ import webcams from '../../../data/webcams.json';
 import PopupContent from '../parts/PopupContent';
 import UpdateMap from '../../utils/UpdateMap';
 
-const createClusterCustomIcon = function (cluster: MarkerCluster) {
-    return L.divIcon({
-        html: `<span>${cluster.getChildCount()}</span>`,
-        className: 'custom-marker-cluster',
-        iconSize: L.point(33, 33, true)
-    });
-};
+const createClusterCustomIcon = (cluster: MarkerCluster) => L.divIcon({
+    html: `<span>${cluster.getChildCount()}</span>`,
+    className: 'custom-marker-cluster',
+    iconSize: L.point(33, 33, true)
+});
 
 function MapView() {
     const markers = webcams.map((webcam: Webcam) => {
