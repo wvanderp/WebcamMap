@@ -19008,11 +19008,11 @@
     "id": 4666307569,
     "lat": 50.8463054,
     "lon": 4.3529973,
-    "timestamp": "2023-08-25T21:51:47Z",
-    "version": 8,
-    "changeset": 140390092,
-    "user": "cEvLGWiQ",
-    "uid": 5432507,
+    "timestamp": "2023-12-04T10:34:02Z",
+    "version": 9,
+    "changeset": 144749263,
+    "user": "RaphaelPasloin",
+    "uid": 7421884,
     "tags": {
       "camera:mount": "roof",
       "camera:type": "fixed",
@@ -19029,7 +19029,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area",
-      "url:m3u8": "http://live.streamcloud.be/webbxl_live/_definst_/webcam.stream/playlist.m3u8"
+      "url:m3u8": "https://stream.brucity.be/BXLCAM/CAM-GrandePlace.stream/chunklist_w865155746.m3u8"
     }
   },
   {
@@ -23084,11 +23084,11 @@
     "id": 5614807641,
     "lat": 50.8520565,
     "lon": 4.3533064,
-    "timestamp": "2023-08-25T21:51:42Z",
-    "version": 7,
-    "changeset": 140390092,
-    "user": "cEvLGWiQ",
-    "uid": 5432507,
+    "timestamp": "2023-12-04T10:39:06Z",
+    "version": 8,
+    "changeset": 144749414,
+    "user": "RaphaelPasloin",
+    "uid": 7421884,
     "tags": {
       "camera:direction": "210",
       "camera:mount": "root",
@@ -23101,7 +23101,8 @@
       "noname": "yes",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "area",
+      "url:m3u8": "https://stream.brucity.be/BXLCAM/CAM-DeBrouckere.stream/chunklist_w177438112.m3u8"
     }
   },
   {
@@ -104221,28 +104222,6 @@
   },
   {
     "type": "node",
-    "id": 10693976724,
-    "lat": 43.982171,
-    "lon": 6.7589813,
-    "timestamp": "2023-02-25T23:53:38Z",
-    "version": 1,
-    "changeset": 133025875,
-    "user": "Pa413",
-    "uid": 688484,
-    "tags": {
-      "camera:direction": "230",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.inforoutes06.fr/",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic",
-      "traffic_sign": "variable_message"
-    }
-  },
-  {
-    "type": "node",
     "id": 10696666033,
     "lat": 52.4387747,
     "lon": 10.4437678,
@@ -113128,14 +113107,16 @@
   {
     "type": "node",
     "id": 11348822061,
-    "lat": 47.6554305,
-    "lon": 11.3544176,
-    "timestamp": "2023-11-14T15:51:16Z",
-    "version": 1,
-    "changeset": 144016299,
-    "user": "martinst",
-    "uid": 132000,
+    "lat": 47.6553194,
+    "lon": 11.3538973,
+    "timestamp": "2023-12-04T18:08:17Z",
+    "version": 2,
+    "changeset": 144765054,
+    "user": "wogfar",
+    "uid": 10225704,
     "tags": {
+      "camera:direction": "190",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.addicted-sports.com/webcam/kochelsee/trimini/",
       "man_made": "surveillance",
       "surveillance:type": "camera"
@@ -113146,12 +113127,14 @@
     "id": 11348822062,
     "lat": 47.6146306,
     "lon": 11.3415738,
-    "timestamp": "2023-11-14T15:51:16Z",
-    "version": 1,
-    "changeset": 144016299,
-    "user": "martinst",
-    "uid": 132000,
+    "timestamp": "2023-12-04T18:12:57Z",
+    "version": 2,
+    "changeset": 144765201,
+    "user": "wogfar",
+    "uid": 10225704,
     "tags": {
+      "camera:direction": "170",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.addicted-sports.com/webcam/walchensee/urfeld/",
       "man_made": "surveillance",
       "surveillance:type": "camera"
@@ -114941,6 +114924,44 @@
     }
   },
   {
+    "type": "node",
+    "id": 11394675004,
+    "lat": 47.6851953,
+    "lon": 11.5621644,
+    "timestamp": "2023-12-04T18:28:42Z",
+    "version": 1,
+    "changeset": 144765642,
+    "user": "wogfar",
+    "uid": 10225704,
+    "tags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/lenggries2/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11394721070,
+    "lat": 47.6722302,
+    "lon": 11.5874233,
+    "timestamp": "2023-12-04T18:38:15Z",
+    "version": 1,
+    "changeset": 144765945,
+    "user": "wogfar",
+    "uid": 10225704,
+    "tags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/lenggries/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
     "type": "way",
     "id": 4842050,
     "timestamp": "2023-07-18T07:52:08Z",
@@ -115685,9 +115706,9 @@
   {
     "type": "way",
     "id": 103893232,
-    "timestamp": "2023-11-11T15:01:04Z",
-    "version": 9,
-    "changeset": 143903348,
+    "timestamp": "2023-12-04T17:31:25Z",
+    "version": 10,
+    "changeset": 144763896,
     "user": "Akebinko",
     "uid": 1903820,
     "center": {
@@ -115715,20 +115736,20 @@
       "addr:postcode": "6006",
       "addr:street": "Seeburgstrasse",
       "building": "hotel",
-      "contact:email": "welcome@hermitage-luzern.ch",
+      "contact:email": "welcome@hermitage.ch",
       "contact:fax": "+41 41 3758182",
       "contact:phone": "+41 41 3758181",
       "contact:webcam": "http://www.hermitage-luzern.ch/index.php?section=livecam",
-      "contact:website": "http://www.hermitage-luzern.ch",
-      "email": "welcome@hermitage-luzern.ch",
+      "contact:website": "https://www.hermitage.ch/",
+      "email": "welcome@hermitage.ch",
       "internet_access": "yes",
-      "name": "Seehotel Hermitage",
+      "name": "Hermitage",
       "phone": "+41 41 3758181",
       "rooms": "69",
       "source": "website",
       "stars": "4s",
       "tourism": "hotel",
-      "website": "https://www.hermitage-luzern.ch/de/Hotel",
+      "website": "https://www.hermitage.ch/",
       "wheelchair": "yes"
     }
   },

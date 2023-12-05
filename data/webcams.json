@@ -1667,8 +1667,8 @@
     "osmType": "node",
     "lastChanged": 1682342281000,
     "address": {
-      "city": "городской округ Псков",
-      "state": "Псковская область",
+      "city": "Pskov",
+      "state": "Pskov Oblast",
       "country": "Russian Federation"
     },
     "osmTags": {
@@ -17832,7 +17832,7 @@
     "address": {
       "city": "Oederan",
       "county": "Mittelsachsen",
-      "state": "Sachsen",
+      "state": "Saxony",
       "country": "Germany"
     },
     "osmTags": {
@@ -18696,7 +18696,7 @@
     "address": {
       "city": "Niederfüllbach",
       "county": "Landkreis Coburg",
-      "state": "Bayern",
+      "state": "Bavaria",
       "country": "Germany"
     },
     "osmTags": {
@@ -20823,6 +20823,7 @@
     },
     "url": "http://mammut.hu/galeria",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -22961,9 +22962,9 @@
     "lat": 50.8463054,
     "lon": 4.3529973,
     "osmID": 4666307569,
-    "user": "cEvLGWiQ",
+    "user": "RaphaelPasloin",
     "osmType": "node",
-    "lastChanged": 1693000307000,
+    "lastChanged": 1701686042000,
     "address": {
       "city": "Brussels",
       "county": "Brussels-Capital",
@@ -22985,7 +22986,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area",
-      "url:m3u8": "http://live.streamcloud.be/webbxl_live/_definst_/webcam.stream/playlist.m3u8"
+      "url:m3u8": "https://stream.brucity.be/BXLCAM/CAM-GrandePlace.stream/chunklist_w865155746.m3u8"
     },
     "url": "https://www.brussels.be/webcam-grand-place"
   },
@@ -27892,9 +27893,9 @@
     "lon": 4.3533064,
     "direction": 210,
     "osmID": 5614807641,
-    "user": "cEvLGWiQ",
+    "user": "RaphaelPasloin",
     "osmType": "node",
-    "lastChanged": 1693000302000,
+    "lastChanged": 1701686346000,
     "address": {
       "city": "Brussels",
       "county": "Brussels-Capital",
@@ -27912,7 +27913,8 @@
       "noname": "yes",
       "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:zone": "area",
+      "url:m3u8": "https://stream.brucity.be/BXLCAM/CAM-DeBrouckere.stream/chunklist_w177438112.m3u8"
     },
     "url": "https://www.bruxelles.be/webcam-place-de-brouckere"
   },
@@ -39119,7 +39121,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/413"
     },
-    "url": "https://pioupiou.com/fr/413"
+    "url": "https://pioupiou.com/fr/413",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 44.257243,
@@ -49400,7 +49405,7 @@
     "lastChanged": 1575751824000,
     "address": {
       "city": "Sønderborg",
-      "state": "Region Syddanmark",
+      "state": "Region of Southern Denmark",
       "country": "Denmark"
     },
     "osmTags": {
@@ -52896,8 +52901,8 @@
     "lastChanged": 1628414969000,
     "address": {
       "city": "Unterseen",
-      "county": "Verwaltungskreis Interlaken-Oberhasli",
-      "state": "Bern/Berne",
+      "county": "Interlaken-Oberhasli administrative district",
+      "state": "Bern",
       "country": "Switzerland"
     },
     "osmTags": {
@@ -54135,7 +54140,7 @@
     "osmType": "node",
     "lastChanged": 1596877715000,
     "address": {
-      "city": "Київ",
+      "city": "Kyiv",
       "country": "Ukraine"
     },
     "osmTags": {
@@ -55598,7 +55603,7 @@
     "lastChanged": 1637052367000,
     "address": {
       "city": "Hellevoetsluis",
-      "state": "Zuid-Holland",
+      "state": "South Holland",
       "country": "Netherlands"
     },
     "osmTags": {
@@ -60061,7 +60066,7 @@
     "lastChanged": 1611517349000,
     "address": {
       "city": "Budakalász",
-      "county": "Pest vármegye",
+      "county": "Pest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -72353,7 +72358,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/753.jpg"
+    "url": "https://trafficnz.info/camera/753.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -37.8733591,
@@ -85243,7 +85251,7 @@
     "lastChanged": 1625832200000,
     "address": {
       "city": "Rotterdam",
-      "state": "Zuid-Holland",
+      "state": "South Holland",
       "country": "Netherlands"
     },
     "osmTags": {
@@ -100459,10 +100467,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AQItp_RvMpM",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AQItp_RvMpM"
   },
   {
     "lat": 42.006281,
@@ -100700,10 +100705,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA"
   },
   {
     "lat": 45.1705914,
@@ -100815,10 +100817,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=BzwWjdZXymc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=BzwWjdZXymc"
   },
   {
     "lat": 46.7762001,
@@ -103077,7 +103076,7 @@
     "lastChanged": 1643374158000,
     "address": {
       "city": "Palma",
-      "state": "Illes Balears",
+      "state": "Balearic Islands",
       "country": "Spain"
     },
     "osmTags": {
@@ -103500,7 +103499,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://www.ibred.es/avista/camara-port-de-pollenca/"
+    "url": "https://www.ibred.es/avista/camara-port-de-pollenca/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.5907628,
@@ -104654,7 +104656,7 @@
     "osmType": "node",
     "lastChanged": 1677174105000,
     "address": {
-      "city": "Київ",
+      "city": "Kyiv",
       "country": "Ukraine"
     },
     "osmTags": {
@@ -113997,7 +113999,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "http://217.147.30.197:10090/video79.mjpg"
+    "url": "http://217.147.30.197:10090/video79.mjpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 55.7983539,
@@ -120669,7 +120674,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4"
+    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2062747,
@@ -122227,7 +122235,7 @@
     "lastChanged": 1669120807000,
     "address": {
       "city": "Bettingen",
-      "state": "Basel-Stadt",
+      "state": "Basel-City",
       "country": "Switzerland"
     },
     "osmTags": {
@@ -126272,33 +126280,6 @@
       "name": "Томатис Беларусь"
     },
     "url": "https://tomatis-belarus.by/"
-  },
-  {
-    "lat": 43.982171,
-    "lon": 6.7589813,
-    "direction": 230,
-    "osmID": 10693976724,
-    "user": "Pa413",
-    "osmType": "node",
-    "lastChanged": 1677369218000,
-    "address": {
-      "city": "Castellet-lès-Sausses",
-      "county": "Alpes-de-Haute-Provence",
-      "state": "Provence-Alpes-Côte d'Azur",
-      "country": "France"
-    },
-    "osmTags": {
-      "camera:direction": "230",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.inforoutes06.fr/",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic",
-      "traffic_sign": "variable_message"
-    },
-    "url": "https://www.inforoutes06.fr/"
   },
   {
     "lat": 52.4387747,
@@ -132212,7 +132193,10 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5106188,
@@ -132236,7 +132220,10 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78"
+    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5105794,
@@ -133137,7 +133124,7 @@
     "address": {
       "city": "Gampel-Bratsch",
       "county": "Leuk",
-      "state": "Valais/Wallis",
+      "state": "Wallis",
       "country": "Switzerland"
     },
     "osmTags": {
@@ -133790,8 +133777,8 @@
     "lastChanged": 1693924194000,
     "address": {
       "city": "Šútovo",
-      "county": "okres Martin",
-      "state": "Žilinský kraj",
+      "county": "District of Martin",
+      "state": "Region of Žilina",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -136841,12 +136828,13 @@
     "url": "https://oberammergau.panomax.com/hoernlebahn"
   },
   {
-    "lat": 47.6554305,
-    "lon": 11.3544176,
+    "lat": 47.6553194,
+    "lon": 11.3538973,
+    "direction": 190,
     "osmID": 11348822061,
-    "user": "martinst",
+    "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1699977076000,
+    "lastChanged": 1701713297000,
     "address": {
       "city": "Kochel am See",
       "county": "Landkreis Bad Tölz-Wolfratshausen",
@@ -136854,6 +136842,8 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "190",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.addicted-sports.com/webcam/kochelsee/trimini/",
       "man_made": "surveillance",
       "surveillance:type": "camera"
@@ -136863,10 +136853,11 @@
   {
     "lat": 47.6146306,
     "lon": 11.3415738,
+    "direction": 170,
     "osmID": 11348822062,
-    "user": "martinst",
+    "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1699977076000,
+    "lastChanged": 1701713577000,
     "address": {
       "city": "Kochel am See",
       "county": "Landkreis Bad Tölz-Wolfratshausen",
@@ -136874,6 +136865,8 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:direction": "170",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.addicted-sports.com/webcam/walchensee/urfeld/",
       "man_made": "surveillance",
       "surveillance:type": "camera"
@@ -139064,5 +139057,53 @@
       "surveillance:type": "camera"
     },
     "url": "https://rivadelgarda.panomax.com/bastione"
+  },
+  {
+    "lat": 47.6851953,
+    "lon": 11.5621644,
+    "direction": 90,
+    "osmID": 11394675004,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1701714522000,
+    "address": {
+      "city": "Lenggries",
+      "county": "Landkreis Bad Tölz-Wolfratshausen",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/lenggries2/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.terra-hd.de/lenggries2/"
+  },
+  {
+    "lat": 47.6722302,
+    "lon": 11.5874233,
+    "direction": 200,
+    "osmID": 11394721070,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1701715095000,
+    "address": {
+      "city": "Lenggries",
+      "county": "Landkreis Bad Tölz-Wolfratshausen",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.terra-hd.de/lenggries/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.terra-hd.de/lenggries/"
   }
 ]
