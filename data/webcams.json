@@ -31016,6 +31016,7 @@
     "osmType": "node",
     "lastChanged": 1552005489000,
     "address": {
+      "city": "Платформа 69-й км",
       "county": "Käkisalmi District",
       "state": "Leningrad oblast",
       "country": "Russian Federation"
@@ -38531,7 +38532,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/185"
     },
-    "url": "https://pioupiou.com/fr/185"
+    "url": "https://pioupiou.com/fr/185",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.31201,
@@ -100589,10 +100593,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk"
   },
   {
     "lat": 46.4982121,
@@ -106932,6 +106933,7 @@
     "address": {
       "city": "St. Christoph",
       "county": "Bezirk Landeck",
+      "state": "Tyrol",
       "country": "Austria"
     },
     "osmTags": {
@@ -120718,7 +120720,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5540186,
@@ -132253,7 +132258,10 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5362087,
@@ -137785,7 +137793,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE"
+    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 34.986779,
@@ -137806,7 +137817,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=v9rQqa_VTEY"
+    "url": "https://www.youtube.com/watch?v=v9rQqa_VTEY",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0039526,
@@ -137959,10 +137973,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs"
   },
   {
     "lat": 35.0284062,
@@ -139169,5 +139180,29 @@
       "surveillance:type": "camera"
     },
     "url": "https://www.bergfex.de/sudelfeld-bayrischzell/webcams/c9963/"
+  },
+  {
+    "lat": 47.702511,
+    "lon": 12.0124001,
+    "direction": 190,
+    "osmID": 11403143522,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1702040527000,
+    "address": {
+      "city": "Brannenburg",
+      "county": "Landkreis Miesbach",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "190",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/wendelstein-bayrischzell/webcams/c10597/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/wendelstein-bayrischzell/webcams/c10597/"
   }
 ]
