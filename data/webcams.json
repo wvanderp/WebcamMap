@@ -6632,7 +6632,10 @@
       "url": "http://webkamera.vegvesen.no/kamera?id=180854"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=180854"
+    "url": "http://webkamera.vegvesen.no/kamera?id=180854",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 63.449716,
@@ -37363,7 +37366,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/151"
     },
-    "url": "https://pioupiou.com/fr/151"
+    "url": "https://pioupiou.com/fr/151",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.208272,
@@ -74796,7 +74802,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/682.jpg"
+    "url": "https://trafficnz.info/camera/682.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -43.548018,
@@ -76604,7 +76613,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/293.jpg"
+    "url": "https://trafficnz.info/camera/293.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -43.4383122,
@@ -100845,7 +100857,10 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=BzwWjdZXymc"
+    "url": "https://www.youtube.com/watch?v=BzwWjdZXymc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.7762001,
@@ -120485,7 +120500,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=15AYqnLbmDM"
+    "url": "https://www.youtube.com/watch?v=15AYqnLbmDM",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2111057,
@@ -120540,7 +120558,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18"
+    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2113206,
@@ -120597,6 +120618,7 @@
     },
     "url": "https://www.youtube.com/watch?v=X-BGNeHLX58",
     "lint": {
+      "youtube": true,
       "duplicate": true
     }
   },
@@ -120651,7 +120673,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=WyOnl_hCXHo"
+    "url": "https://www.youtube.com/watch?v=WyOnl_hCXHo",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2041822,
@@ -120729,7 +120754,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5540186,
@@ -131535,7 +131563,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "SlowTV",
-    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg"
+    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 50.1008734,
@@ -132219,7 +132250,10 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5106188,
@@ -132243,7 +132277,10 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78"
+    "url": "https://www.youtube.com/watch?v=NEuNyxNuJ78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5105794,
@@ -132267,10 +132304,7 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
   },
   {
     "lat": 52.5362087,
@@ -137850,10 +137884,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
   },
   {
     "lat": 35.0007207,
@@ -137874,7 +137905,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.026937,
@@ -137934,7 +137968,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=wuC8wRvXock"
+    "url": "https://www.youtube.com/watch?v=wuC8wRvXock",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 34.9679245,
@@ -137955,7 +137992,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY"
+    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0186488,
@@ -138000,7 +138040,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g"
+    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.603769,
