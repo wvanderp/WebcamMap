@@ -3993,7 +3993,10 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://www1.eot.state.ma.us/cam_updated_images/41.jpg"
+    "url": "http://www1.eot.state.ma.us/cam_updated_images/41.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 42.69111,
@@ -11599,7 +11602,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "http://www.teleos.ru/project/camer/cam17"
+    "url": "http://www.teleos.ru/project/camer/cam17",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.0369487,
@@ -34821,9 +34827,9 @@
     "lat": 44.302868,
     "lon": 5.236276,
     "osmID": 6410901274,
-    "user": "Jim005",
+    "user": "Nemesuisse",
     "osmType": "node",
-    "lastChanged": 1555482128000,
+    "lastChanged": 1702414971000,
     "address": {
       "city": "Beauvoisin",
       "county": "Drôme",
@@ -34831,18 +34837,20 @@
       "country": "France"
     },
     "osmTags": {
-      "contact:webcam": "https://pioupiou.com/fr/129",
+      "contact:webcam": "https://balisemeteo.com/balise.php?idBalise=2129",
       "display:digital": "yes",
+      "ele": "863",
       "man_made": "monitoring_station",
       "monitoring:weather": "yes",
-      "name": "Pioupiou Robertini",
+      "name": "Balise Nyons Sud",
+      "owner": "http://www.ailesdesbronnies.com",
       "recording:automated": "yes",
       "recording:remote": "yes",
       "weather:anemometer": "yes",
       "weather:wind_vane": "yes",
-      "website": "https://pioupiou.com/fr/129"
+      "website": "https://balisemeteo.com/balise.php?idBalise=2129"
     },
-    "url": "https://pioupiou.com/fr/129"
+    "url": "https://balisemeteo.com/balise.php?idBalise=2129"
   },
   {
     "lat": 45.469996,
@@ -48602,6 +48610,31 @@
     },
     "operator": "Roundshot",
     "url": "https://nyon-tourisme.roundshot.com/"
+  },
+  {
+    "lat": 45.8779156,
+    "lon": 10.8554409,
+    "direction": 200,
+    "osmID": 6681225179,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1702384855000,
+    "address": {
+      "city": "Riva del Garda",
+      "county": "Provincia di Trento",
+      "state": "Trentino-Alto Adige/Südtirol",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:mount": "street_lamp",
+      "camera:type": "fixed",
+      "contact:webcam": "https://rivadelgarda.panomax.com/porto",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://rivadelgarda.panomax.com/porto"
   },
   {
     "lat": 46.4967313,
@@ -71694,7 +71727,10 @@
       "source": "GeoNet",
       "surveillance:type": "camera"
     },
-    "url": "http://images.geonet.org.nz/volcano/cameras/latest/whiteislandwestrim.jpg"
+    "url": "http://images.geonet.org.nz/volcano/cameras/latest/whiteislandwestrim.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -37.521796,
@@ -100857,10 +100893,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=BzwWjdZXymc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=BzwWjdZXymc"
   },
   {
     "lat": 46.7762001,
@@ -120500,10 +120533,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=15AYqnLbmDM",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=15AYqnLbmDM"
   },
   {
     "lat": 53.2111057,
@@ -120558,10 +120588,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18"
   },
   {
     "lat": 53.2113206,
@@ -120618,7 +120645,6 @@
     },
     "url": "https://www.youtube.com/watch?v=X-BGNeHLX58",
     "lint": {
-      "youtube": true,
       "duplicate": true
     }
   },
@@ -120673,10 +120699,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=WyOnl_hCXHo",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=WyOnl_hCXHo"
   },
   {
     "lat": 53.2041822,
@@ -120754,10 +120777,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
   },
   {
     "lat": 52.5540186,
@@ -132304,7 +132324,10 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5362087,
@@ -137884,7 +137907,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0007207,
@@ -137928,7 +137954,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A"
+    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0138107,
@@ -137948,7 +137977,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk"
+    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0050007,
@@ -139059,30 +139091,6 @@
     }
   },
   {
-    "lat": 45.8829397,
-    "lon": 10.8427716,
-    "direction": 200,
-    "osmID": 11390040453,
-    "user": "wogfar",
-    "osmType": "node",
-    "lastChanged": 1701534910000,
-    "address": {
-      "city": "Riva del Garda",
-      "county": "Provincia di Trento",
-      "state": "Trentino-Alto Adige/Südtirol",
-      "country": "Italy"
-    },
-    "osmTags": {
-      "camera:direction": "200",
-      "camera:type": "fixed",
-      "contact:webcam": "https://rivadelgarda.panomax.com/porto",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    },
-    "url": "https://rivadelgarda.panomax.com/porto"
-  },
-  {
     "lat": 45.8847003,
     "lon": 10.8361238,
     "direction": 120,
@@ -139253,5 +139261,55 @@
       "surveillance:type": "camera"
     },
     "url": "https://www.bergfex.de/wendelstein-bayrischzell/webcams/c10597/"
+  },
+  {
+    "lat": 47.7111171,
+    "lon": 11.8748319,
+    "direction": 200,
+    "osmID": 11413078644,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1702403409000,
+    "address": {
+      "city": "Schliersee",
+      "county": "Landkreis Miesbach",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c15710/",
+      "man_made": "surveillance",
+      "name": "Webcam Brecherspitzblick",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c15710/"
+  },
+  {
+    "lat": 47.6604377,
+    "lon": 11.8781662,
+    "direction": 290,
+    "osmID": 11413103839,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1702402809000,
+    "address": {
+      "city": "Schliersee",
+      "county": "Landkreis Miesbach",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c2593/",
+      "man_made": "surveillance",
+      "name": "Webcam Talstation Stümpflingbahn",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c2593/"
   }
 ]

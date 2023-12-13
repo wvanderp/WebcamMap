@@ -28819,22 +28819,24 @@
     "id": 6410901274,
     "lat": 44.302868,
     "lon": 5.236276,
-    "timestamp": "2019-04-17T06:22:08Z",
-    "version": 1,
-    "changeset": 69296180,
-    "user": "Jim005",
-    "uid": 8360634,
+    "timestamp": "2023-12-12T21:02:51Z",
+    "version": 2,
+    "changeset": 145053320,
+    "user": "Nemesuisse",
+    "uid": 9199873,
     "tags": {
-      "contact:webcam": "https://pioupiou.com/fr/129",
+      "contact:webcam": "https://balisemeteo.com/balise.php?idBalise=2129",
       "display:digital": "yes",
+      "ele": "863",
       "man_made": "monitoring_station",
       "monitoring:weather": "yes",
-      "name": "Pioupiou Robertini",
+      "name": "Balise Nyons Sud",
+      "owner": "http://www.ailesdesbronnies.com",
       "recording:automated": "yes",
       "recording:remote": "yes",
       "weather:anemometer": "yes",
       "weather:wind_vane": "yes",
-      "website": "https://pioupiou.com/fr/129"
+      "website": "https://balisemeteo.com/balise.php?idBalise=2129"
     }
   },
   {
@@ -40482,6 +40484,26 @@
       "name": "Nyon",
       "operator": "Roundshot",
       "surveillance": "public",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6681225179,
+    "lat": 45.8779156,
+    "lon": 10.8554409,
+    "timestamp": "2023-12-12T12:40:55Z",
+    "version": 3,
+    "changeset": 145036304,
+    "user": "wogfar",
+    "uid": 10225704,
+    "tags": {
+      "camera:direction": "200",
+      "camera:mount": "street_lamp",
+      "camera:type": "fixed",
+      "contact:webcam": "https://rivadelgarda.panomax.com/porto",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
       "surveillance:type": "camera"
     }
   },
@@ -114887,25 +114909,6 @@
   },
   {
     "type": "node",
-    "id": 11390040453,
-    "lat": 45.8829397,
-    "lon": 10.8427716,
-    "timestamp": "2023-12-02T16:35:10Z",
-    "version": 1,
-    "changeset": 144697485,
-    "user": "wogfar",
-    "uid": 10225704,
-    "tags": {
-      "camera:direction": "200",
-      "camera:type": "fixed",
-      "contact:webcam": "https://rivadelgarda.panomax.com/porto",
-      "man_made": "surveillance",
-      "surveillance": "webcam",
-      "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
     "id": 11390050224,
     "lat": 45.8847003,
     "lon": 10.8361238,
@@ -115031,6 +115034,46 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.bergfex.de/wendelstein-bayrischzell/webcams/c10597/",
       "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11413078644,
+    "lat": 47.7111171,
+    "lon": 11.8748319,
+    "timestamp": "2023-12-12T17:50:09Z",
+    "version": 1,
+    "changeset": 145047693,
+    "user": "wogfar",
+    "uid": 10225704,
+    "tags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c15710/",
+      "man_made": "surveillance",
+      "name": "Webcam Brecherspitzblick",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11413103839,
+    "lat": 47.6604377,
+    "lon": 11.8781662,
+    "timestamp": "2023-12-12T17:40:09Z",
+    "version": 1,
+    "changeset": 145047353,
+    "user": "wogfar",
+    "uid": 10225704,
+    "tags": {
+      "camera:direction": "290",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.bergfex.de/spitzingsee-tegernsee/webcams/c2593/",
+      "man_made": "surveillance",
+      "name": "Webcam Talstation Stümpflingbahn",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     }
