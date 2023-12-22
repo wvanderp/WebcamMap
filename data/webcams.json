@@ -1007,7 +1007,7 @@
     "osmType": "node",
     "lastChanged": 1636741029000,
     "address": {
-      "city": "Lübbenau/Spreewald",
+      "city": "Lübbenau (Spreewald)",
       "county": "Oberspreewald-Lausitz - Górne Błota-Łužyca",
       "state": "Brandenburg",
       "country": "Germany"
@@ -73991,7 +73991,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/238.jpg"
+    "url": "https://trafficnz.info/camera/238.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -37.801197,
@@ -100304,7 +100307,7 @@
     "lastChanged": 1634801116000,
     "address": {
       "city": "Elstra",
-      "county": "Bautzen",
+      "county": "Bautzen - Budyšin",
       "state": "Saxony",
       "country": "Germany"
     },
@@ -100606,10 +100609,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AQItp_RvMpM",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AQItp_RvMpM"
   },
   {
     "lat": 42.006281,
@@ -100713,10 +100713,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk"
   },
   {
     "lat": 46.4982121,
@@ -100847,7 +100844,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA"
+    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 45.1705914,
@@ -120632,7 +120632,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18"
+    "url": "https://www.youtube.com/watch?v=nlhg7Zppr18",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2113206,
@@ -128575,10 +128578,7 @@
       "website": "https://HaurakiGulfWeather.com"
     },
     "operator": "HaurakiGulfWeather",
-    "url": "https://youtu.be/pUnKgU3r1cI",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/pUnKgU3r1cI"
   },
   {
     "lat": -36.8354864,
@@ -132441,10 +132441,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -137902,10 +137899,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE"
   },
   {
     "lat": 34.986779,
@@ -137926,10 +137920,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=v9rQqa_VTEY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=v9rQqa_VTEY"
   },
   {
     "lat": 35.0039526,
@@ -137950,10 +137941,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
   },
   {
     "lat": 35.0007207,
@@ -137974,10 +137962,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
   },
   {
     "lat": 35.026937,
@@ -139392,7 +139377,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR"
+    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 51.590062,
@@ -140170,5 +140158,29 @@
       "surveillance:type": "camera"
     },
     "url": "https://webcam.kaiserlift.at/"
+  },
+  {
+    "lat": 51.4791947,
+    "lon": -3.1784501,
+    "direction": 295,
+    "osmID": 11439702482,
+    "user": "Joe-w",
+    "osmType": "node",
+    "lastChanged": 1703186736000,
+    "address": {
+      "city": "Cardiff",
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "camera:direction": "295",
+      "camera:mount": "wall",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.skylinewebcams.com/en/webcam/united-kingdom/wales/cardiff/cardiff.html"
+    },
+    "url": "https://www.skylinewebcams.com/en/webcam/united-kingdom/wales/cardiff/cardiff.html"
   }
 ]
