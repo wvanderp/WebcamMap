@@ -3850,7 +3850,7 @@
     "lastChanged": 1314038965000,
     "address": {
       "city": "Bourne",
-      "county": "Barnstable County",
+      "county": "Plymouth County",
       "state": "Massachusetts",
       "country": "United States of America"
     },
@@ -4085,7 +4085,10 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://www1.eot.state.ma.us/cam_updated_images/53.jpg"
+    "url": "http://www1.eot.state.ma.us/cam_updated_images/53.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 42.588518,
@@ -4615,7 +4618,6 @@
     "lastChanged": 1314038971000,
     "address": {
       "city": "Bourne",
-      "county": "Barnstable County",
       "state": "Massachusetts",
       "country": "United States of America"
     },
@@ -18355,9 +18357,9 @@
     "lon": 9.9752193,
     "direction": 90,
     "osmID": 4286441283,
-    "user": "NickNicky",
+    "user": "osm-tron",
     "osmType": "node",
-    "lastChanged": 1598345527000,
+    "lastChanged": 1703687690000,
     "address": {
       "city": "Ulm",
       "state": "Baden-Württemberg",
@@ -18365,8 +18367,8 @@
     },
     "osmTags": {
       "addr:city": "Ulm",
+      "camera:direction": "90",
       "contact:webcam": "http://www.verkehrsinfos.ulm.de/b28.html",
-      "direction": "90",
       "man_made": "surveillance",
       "name": "Webcam Blaubeurer Straße",
       "surveillance": "webcam",
@@ -36698,7 +36700,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/86"
     },
-    "url": "https://pioupiou.com/fr/86"
+    "url": "https://pioupiou.com/fr/86",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.366312,
@@ -88384,6 +88389,7 @@
     "address": {
       "city": "Lasberg",
       "county": "Bezirk Freistadt",
+      "state": "Upper Austria",
       "country": "Austria"
     },
     "osmTags": {
@@ -100426,7 +100432,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://youtu.be/3ZdNaAXAWq4"
+    "url": "https://youtu.be/3ZdNaAXAWq4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 31.2431038,
@@ -100634,10 +100643,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AQItp_RvMpM",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AQItp_RvMpM"
   },
   {
     "lat": 42.006281,
@@ -120714,7 +120720,6 @@
     },
     "url": "https://www.youtube.com/watch?v=X-BGNeHLX58",
     "lint": {
-      "youtube": true,
       "duplicate": true
     }
   },
@@ -120795,10 +120800,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=7Cg2BOM7XdY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=7Cg2BOM7XdY"
   },
   {
     "lat": 53.2080038,
@@ -120824,10 +120826,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4"
   },
   {
     "lat": 53.2062747,
@@ -120853,10 +120852,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
   },
   {
     "lat": 52.5540186,
@@ -131665,10 +131661,7 @@
       "surveillance:zone": "traffic"
     },
     "operator": "SlowTV",
-    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg"
   },
   {
     "lat": 50.1008734,
@@ -132352,10 +132345,7 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
   },
   {
     "lat": 52.5106188,
@@ -132406,7 +132396,10 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5362087,
@@ -132472,10 +132465,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -138008,10 +137998,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
   },
   {
     "lat": 35.026937,
@@ -138054,7 +138041,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk"
+    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0050007,
@@ -138074,7 +138064,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=wuC8wRvXock"
+    "url": "https://www.youtube.com/watch?v=wuC8wRvXock",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 34.9679245,
@@ -138095,7 +138088,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY"
+    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0186488,
@@ -138116,7 +138112,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs"
+    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0284062,
@@ -138137,7 +138136,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g"
+    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.603769,
@@ -139423,7 +139425,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR"
+    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 51.590062,
@@ -140251,12 +140256,12 @@
     "url": "https://www.meteocam.gr/TymfristosVillage"
   },
   {
-    "lat": 38.8915654,
-    "lon": 21.8814689,
+    "lat": 38.8914293,
+    "lon": 21.8814221,
     "osmID": 11443411992,
     "user": "Delta Evas GR",
     "osmType": "node",
-    "lastChanged": 1703251309000,
+    "lastChanged": 1703699327000,
     "address": {
       "city": "Municipal Unit of Tymfristos",
       "county": "Phthiotis Regional Unit",
