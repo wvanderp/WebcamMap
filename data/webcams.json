@@ -29356,7 +29356,7 @@
     "osmType": "node",
     "lastChanged": 1537975452000,
     "address": {
-      "city": "Lipnica Dolna",
+      "city": "Lipnica Murowana",
       "county": "Bochnia County",
       "state": "Lesser Poland Voivodeship",
       "country": "Poland"
@@ -37991,7 +37991,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/516"
     },
-    "url": "https://pioupiou.com/fr/516"
+    "url": "https://pioupiou.com/fr/516",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 44.515345,
@@ -38648,7 +38651,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/492"
     },
-    "url": "https://pioupiou.com/fr/492"
+    "url": "https://pioupiou.com/fr/492",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.197486,
@@ -50954,7 +50960,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.achdidaho.org/ATIS/CCTV/CCTV_553.jpg"
+    "url": "https://www.achdidaho.org/ATIS/CCTV/CCTV_553.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.5670821,
@@ -53041,9 +53050,9 @@
     "lat": 46.2070878,
     "lon": 6.6292181,
     "osmID": 7649022193,
-    "user": "Sept Carto",
+    "user": "déni",
     "osmType": "node",
-    "lastChanged": 1658918103000,
+    "lastChanged": 1703969816000,
     "address": {
       "city": "Saint-Jean-d'Aulps",
       "county": "Upper Savoy",
@@ -53051,12 +53060,12 @@
       "country": "France"
     },
     "osmTags": {
-      "camera:type": "fixed",
+      "camera:type": "dome",
       "contact:webcam": "https://www.skaping.com/rocdenfer",
       "man_made": "surveillance",
       "name": "Sommet des Têtes",
       "operator": "Domaine skiable du Roc d'Enfer",
-      "surveillance": "outdoor",
+      "surveillance": "webcam",
       "surveillance:type": "camera"
     },
     "operator": "Domaine skiable du Roc d'Enfer",
@@ -120458,6 +120467,7 @@
     "operator": "Seattle Department of Transportation",
     "url": "https://web6.seattle.gov/travelers/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -120863,10 +120873,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
   },
   {
     "lat": 52.5540186,
@@ -128647,10 +128654,7 @@
       "website": "https://HaurakiGulfWeather.com"
     },
     "operator": "HaurakiGulfWeather",
-    "url": "https://youtu.be/pUnKgU3r1cI",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/pUnKgU3r1cI"
   },
   {
     "lat": -36.8354864,
@@ -132385,10 +132389,7 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
   },
   {
     "lat": 52.5106188,
@@ -132439,10 +132440,7 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
   },
   {
     "lat": 52.5362087,
@@ -132508,10 +132506,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -137335,9 +137330,9 @@
     "lat": 48.1356037,
     "lon": 11.7055998,
     "osmID": 11351327271,
-    "user": "wogfar",
+    "user": "Strubbl",
     "osmType": "node",
-    "lastChanged": 1700060602000,
+    "lastChanged": 1703930095000,
     "address": {
       "city": "Munich",
       "state": "Bavaria",
@@ -137347,6 +137342,7 @@
       "camera:direction": "0 - 360",
       "contact:webcam": "https://messe-muenchen.panomax.com/",
       "man_made": "surveillance",
+      "name": "Messe München Messeturm Webcam",
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
@@ -137971,10 +137967,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE"
   },
   {
     "lat": 34.986779,
@@ -137995,10 +137988,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=v9rQqa_VTEY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=v9rQqa_VTEY"
   },
   {
     "lat": 35.0039526,
@@ -138019,10 +138009,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
   },
   {
     "lat": 35.0007207,
@@ -138043,10 +138030,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
   },
   {
     "lat": 35.026937,
@@ -138066,10 +138050,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A"
   },
   {
     "lat": 35.0138107,
@@ -138089,10 +138070,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk"
   },
   {
     "lat": 35.0050007,
@@ -138133,10 +138111,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY"
   },
   {
     "lat": 35.0186488,
@@ -138157,10 +138132,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs"
   },
   {
     "lat": 35.0284062,
@@ -138181,10 +138153,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g"
   },
   {
     "lat": 52.603769,
@@ -139470,10 +139439,7 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR"
   },
   {
     "lat": 51.590062,
@@ -140859,5 +140825,250 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.skaping.com/montriond/lac"
+  },
+  {
+    "lat": 54.3163163,
+    "lon": 13.0970754,
+    "direction": 30,
+    "osmID": 11468864758,
+    "user": "Strubbl",
+    "osmType": "node",
+    "lastChanged": 1703931988000,
+    "address": {
+      "city": "Stralsund",
+      "county": "Vorpommern-Rügen",
+      "state": "Mecklenburg-Vorpommern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "30",
+      "camera:type": "fixed",
+      "contact:webcam": "https://player.livespotting.com/?alias=28q26iun",
+      "man_made": "surveillance",
+      "note": "Position und Blickrichtung der Webcam geschätzt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour"
+    },
+    "url": "https://player.livespotting.com/?alias=28q26iun"
+  },
+  {
+    "lat": 54.3152831,
+    "lon": 13.0908529,
+    "osmID": 11468873911,
+    "user": "Strubbl",
+    "osmType": "node",
+    "lastChanged": 1703932501000,
+    "address": {
+      "city": "Stralsund",
+      "county": "Vorpommern-Rügen",
+      "state": "Mecklenburg-Vorpommern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "http://cam1.stralsund.de/local/viewer/cam_inner_v2.html",
+      "man_made": "surveillance",
+      "name": "Webcam Hansestadt Stralsund",
+      "note": "Positon geschätzt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "http://cam1.stralsund.de/local/viewer/cam_inner_v2.html"
+  },
+  {
+    "lat": 54.3077057,
+    "lon": 13.1098879,
+    "osmID": 11468887949,
+    "user": "Strubbl",
+    "osmType": "node",
+    "lastChanged": 1703932680000,
+    "address": {
+      "city": "Stralsund",
+      "county": "Vorpommern-Rügen",
+      "state": "Mecklenburg-Vorpommern",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "http://cam2.stralsund.de/local/viewer/cam_inner_v2.html",
+      "man_made": "surveillance",
+      "name": "Rügenbrücke",
+      "note": "Position geschätzt",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "http://cam2.stralsund.de/local/viewer/cam_inner_v2.html"
+  },
+  {
+    "lat": 43.0595065,
+    "lon": -1.9555792,
+    "osmID": 11470415911,
+    "user": "ACKZESIBLE",
+    "osmType": "node",
+    "lastChanged": 1703962186000,
+    "address": {
+      "city": "Larraun",
+      "county": "Larraun-Leitzaldea",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://administracionelectronica.navarra.es/AccesoFicheros/DownloadFile.aspx?CodigoCompleto=camarascarreteras@@@PAGOZELAI_A_15_134_450.JPG&random=78",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://administracionelectronica.navarra.es/AccesoFicheros/DownloadFile.aspx?CodigoCompleto=camarascarreteras@@@PAGOZELAI_A_15_134_450.JPG&random=78"
+  },
+  {
+    "lat": 46.2098645,
+    "lon": 6.5986926,
+    "osmID": 11470814045,
+    "user": "déni",
+    "osmType": "node",
+    "lastChanged": 1703969469000,
+    "address": {
+      "city": "Bellevaux",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://app.webcam-hd.com/vallee-d-aulps/col-des-follys",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://app.webcam-hd.com/vallee-d-aulps/col-des-follys"
+  },
+  {
+    "lat": 46.2146608,
+    "lon": 6.6316783,
+    "osmID": 11470825447,
+    "user": "déni",
+    "osmType": "node",
+    "lastChanged": 1703969092000,
+    "address": {
+      "city": "Saint-Jean-d'Aulps",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "90;270",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://app.webcam-hd.com/vallee-d-aulps/plateau-st-jean-d-aulps",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://app.webcam-hd.com/vallee-d-aulps/plateau-st-jean-d-aulps"
+  },
+  {
+    "lat": 46.2498347,
+    "lon": 6.5125967,
+    "osmID": 11470864511,
+    "user": "déni",
+    "osmType": "node",
+    "lastChanged": 1703971800000,
+    "address": {
+      "city": "Bellevaux",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "0;180",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://app.webcam-hd.com/hirmentaz/espace-nordique",
+      "man_made": "surveillance",
+      "name": "Hirmentaz, Espace Nordique",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://app.webcam-hd.com/hirmentaz/espace-nordique"
+  },
+  {
+    "lat": 46.2301064,
+    "lon": 6.4948598,
+    "osmID": 11470886449,
+    "user": "déni",
+    "osmType": "node",
+    "lastChanged": 1703970592000,
+    "address": {
+      "city": "Bellevaux",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "0;360",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://app.webcam-hd.com/hirmentaz/grand-site",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://app.webcam-hd.com/hirmentaz/grand-site"
+  },
+  {
+    "lat": 46.2444875,
+    "lon": 6.5023064,
+    "osmID": 11470913832,
+    "user": "déni",
+    "osmType": "node",
+    "lastChanged": 1703971225000,
+    "address": {
+      "city": "Bellevaux",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "0;180",
+      "camera:type": "panning",
+      "contact:webcam": "https://app.webcam-hd.com/hirmentaz/coeur-de-station",
+      "man_made": "surveillance",
+      "name": "Hirmentaz, Cœur de Station",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://app.webcam-hd.com/hirmentaz/coeur-de-station"
+  },
+  {
+    "lat": 46.2459505,
+    "lon": 6.5076125,
+    "osmID": 11470946097,
+    "user": "déni",
+    "osmType": "node",
+    "lastChanged": 1703971636000,
+    "address": {
+      "city": "Bellevaux",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://app.webcam-hd.com/hirmentaz/glisse-tranquille",
+      "man_made": "surveillance",
+      "name": "Hirmentaz, Glisse Tranquille",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://app.webcam-hd.com/hirmentaz/glisse-tranquille"
   }
 ]
