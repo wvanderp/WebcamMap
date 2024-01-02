@@ -3272,7 +3272,10 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://www1.eot.state.ma.us/cam_updated_images/219.jpg"
+    "url": "http://www1.eot.state.ma.us/cam_updated_images/219.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 42.341817,
@@ -14852,59 +14855,6 @@
     "url": "https://morgesregion.roundshot.com/"
   },
   {
-    "lat": 50.0982172,
-    "lon": 19.9622692,
-    "direction": 190,
-    "osmID": 3101640630,
-    "user": "Mateusz Konieczny",
-    "osmType": "node",
-    "lastChanged": 1667584017000,
-    "address": {
-      "city": "Krakow",
-      "state": "Lesser Poland Voivodeship",
-      "country": "Poland"
-    },
-    "osmTags": {
-      "camera:direction": "190",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://83.14.235.178/pogoda/obrazy/kam01D8_1_0.jpg",
-      "man_made": "surveillance",
-      "name": "29 Listopada / Kuźnicy k. Centrum",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "http://83.14.235.178/pogoda/obrazy/kam01D8_1_0.jpg"
-  },
-  {
-    "lat": 50.0972482,
-    "lon": 19.9621674,
-    "direction": 3,
-    "osmID": 3101654916,
-    "user": "Mateusz Konieczny",
-    "osmType": "node",
-    "lastChanged": 1667584017000,
-    "address": {
-      "city": "Krakow",
-      "state": "Lesser Poland Voivodeship",
-      "country": "Poland"
-    },
-    "osmTags": {
-      "camera:direction": "3",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "check_date": "2021-08-28",
-      "contact:webcam": "http://83.14.235.178/pogoda/obrazy/kam01D8_0_0.jpg",
-      "man_made": "surveillance",
-      "name": "29 Listopada / Kuźnicy k. Warszawa",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "http://83.14.235.178/pogoda/obrazy/kam01D8_0_0.jpg"
-  },
-  {
     "lat": 50.0974353,
     "lon": 19.971869,
     "direction": 240,
@@ -17031,66 +16981,6 @@
     },
     "operator": "New York State Thruway Authority",
     "url": "http://ftp.dot.ny.gov/ien/thruway/cctv/img3ml25296e.jpg"
-  },
-  {
-    "lat": 48.79923,
-    "lon": 9.2095024,
-    "direction": 290,
-    "osmID": 3748567925,
-    "user": "b-jazz-bot",
-    "osmType": "node",
-    "lastChanged": 1552045110000,
-    "address": {
-      "city": "Stuttgart",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "direction": "290",
-      "est_height": "8",
-      "man_made": "surveillance",
-      "name": "Webcam: B10/B14",
-      "operator": "Landeshauptstadt Stuttgart",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "construction",
-      "website": "https://www.stuttgart.de/rosensteintunnel/item/show/563414"
-    },
-    "operator": "Landeshauptstadt Stuttgart",
-    "url": "https://www.stuttgart.de/rosensteintunnel/item/show/563414",
-    "lint": {
-      "unavailable": true
-    }
-  },
-  {
-    "lat": 48.7992228,
-    "lon": 9.2095307,
-    "direction": 180,
-    "osmID": 3748567926,
-    "user": "b-jazz-bot",
-    "osmType": "node",
-    "lastChanged": 1552045111000,
-    "address": {
-      "city": "Stuttgart",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "direction": "180",
-      "est_height": "8",
-      "man_made": "surveillance",
-      "name": "Webcam: Cannstatter Straße",
-      "operator": "Landeshauptstadt Stuttgart",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "construction",
-      "website": "https://www.stuttgart.de/rosensteintunnel/item/show/563095"
-    },
-    "operator": "Landeshauptstadt Stuttgart",
-    "url": "https://www.stuttgart.de/rosensteintunnel/item/show/563095",
-    "lint": {
-      "unavailable": true
-    }
   },
   {
     "lat": 39.0830042,
@@ -27777,29 +27667,6 @@
       "surveillance:type": "camera"
     },
     "url": "http://www.nadmorski24.pl/kamery/1/debki-plaza.html"
-  },
-  {
-    "lat": 53.6760075,
-    "lon": 23.82965,
-    "osmID": 5520905623,
-    "user": "4004",
-    "osmType": "node",
-    "lastChanged": 1522609258000,
-    "address": {
-      "city": "Hrodna",
-      "state": "Hrodna Region",
-      "country": "Belarus"
-    },
-    "osmTags": {
-      "camera:direction": "250;350",
-      "camera:mount": "wall",
-      "contact:webcam": "http://s13.ru/vebkamera-grodno-2",
-      "man_made": "surveillance",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
-    },
-    "url": "http://s13.ru/vebkamera-grodno-2"
   },
   {
     "lat": 47.8644642,
@@ -73838,7 +73705,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/252.jpg"
+    "url": "https://trafficnz.info/camera/252.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -37.7498659,
@@ -100631,7 +100501,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://youtu.be/3ZdNaAXAWq4"
+    "url": "https://youtu.be/3ZdNaAXAWq4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 31.2431038,
@@ -100943,7 +100816,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk"
+    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.4982121,
@@ -101074,7 +100950,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA"
+    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 45.1705914,
@@ -101215,7 +101094,10 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=vCBaTTC7FHs"
+    "url": "https://www.youtube.com/watch?v=vCBaTTC7FHs",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.7809571,
@@ -101422,7 +101304,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "railway"
     },
-    "url": "https://www.youtube.com/watch?v=ENLa-KWr-AA"
+    "url": "https://www.youtube.com/watch?v=ENLa-KWr-AA",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.077239,
@@ -120997,7 +120882,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=7Cg2BOM7XdY"
+    "url": "https://www.youtube.com/watch?v=7Cg2BOM7XdY",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2080038,
@@ -131885,10 +131773,7 @@
       "surveillance:zone": "traffic"
     },
     "operator": "SlowTV",
-    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg"
   },
   {
     "lat": 50.1008734,
@@ -132571,7 +132456,10 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5106188,
@@ -132622,7 +132510,10 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5362087,
@@ -132688,7 +132579,10 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.51485,
@@ -132710,7 +132604,10 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=jAL268T1lFw"
+    "url": "https://www.youtube.com/watch?v=jAL268T1lFw",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.4429418,
@@ -138194,7 +138091,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0007207,
@@ -138215,7 +138115,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.026937,
@@ -141570,5 +141473,173 @@
       "surveillance:zone": "area"
     },
     "url": "https://agycam.ovh/"
+  },
+  {
+    "lat": 41.6296973,
+    "lon": 0.5525126,
+    "osmID": 11476215246,
+    "user": "Galifardeu",
+    "osmType": "node",
+    "lastChanged": 1704119069000,
+    "address": {
+      "city": "Lleida",
+      "county": "Segrià",
+      "state": "Catalonia",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "contact:webcam": "https://mct.gencat.cat/",
+      "man_made": "surveillance",
+      "operator": "Servei Català de Transit",
+      "operator:wikidata": "Q11949465",
+      "ref": "A-2 (Km 456.73)",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Servei Català de Transit",
+    "url": "https://mct.gencat.cat/"
+  },
+  {
+    "lat": 51.9058284,
+    "lon": 10.4278835,
+    "direction": 350,
+    "osmID": 11476957199,
+    "user": "bielebog",
+    "osmType": "node",
+    "lastChanged": 1704143015000,
+    "address": {
+      "city": "Goslar",
+      "county": "Landkreis Goslar",
+      "state": "Lower Saxony",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "direction": "350",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://webcams.goslar.de/schuhof.jpg"
+    },
+    "url": "https://webcams.goslar.de/schuhof.jpg"
+  },
+  {
+    "lat": 13.7047607,
+    "lon": 100.7385557,
+    "direction": 200,
+    "osmID": 11477215803,
+    "user": "DSST",
+    "osmType": "node",
+    "lastChanged": 1704155396000,
+    "address": {
+      "city": "Racha Thewa Subdistrict",
+      "county": "Racha Thewa Subdistrict Administrative Organization",
+      "state": "Samut Prakan Province",
+      "country": "Thailand"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hhblbikelane.com/bike-center-cam/",
+      "man_made": "surveillance",
+      "name": "KM_8",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.hhblbikelane.com/bike-center-cam/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 13.6540031,
+    "lon": 100.7228883,
+    "direction": 110,
+    "osmID": 11477221673,
+    "user": "DSST",
+    "osmType": "node",
+    "lastChanged": 1704155203000,
+    "address": {
+      "city": "Racha Thewa Subdistrict",
+      "county": "Racha Thewa Subdistrict Administrative Organization",
+      "state": "Samut Prakan Province",
+      "country": "Thailand"
+    },
+    "osmTags": {
+      "camera:direction": "110",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hhblbikelane.com/bike-center-cam/",
+      "man_made": "surveillance",
+      "name": "KM_12",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.hhblbikelane.com/bike-center-cam/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": -1.2421676,
+    "lon": 116.8888853,
+    "direction": 215,
+    "osmID": 11477253659,
+    "user": "simult4n",
+    "osmType": "node",
+    "lastChanged": 1704165784000,
+    "address": {
+      "city": "Balikpapan",
+      "state": "East Kalimantan",
+      "country": "Indonesia"
+    },
+    "osmTags": {
+      "camera:direction": "215",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "\"rstp://admin:Marktel12345@192.168.110.122/h264/ch4/main/av_stream\"",
+      "description": "Kamera PTZ Simpang Korpri",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "\"rstp://admin:Marktel12345@192.168.110.122/h264/ch4/main/av_stream\"",
+    "lint": {
+      "invalidUrl": true
+    }
+  },
+  {
+    "lat": -1.2399677,
+    "lon": 116.8733967,
+    "direction": 255,
+    "osmID": 11477664935,
+    "user": "simult4n",
+    "osmType": "node",
+    "lastChanged": 1704165899000,
+    "address": {
+      "city": "Balikpapan",
+      "state": "East Kalimantan",
+      "country": "Indonesia"
+    },
+    "osmTags": {
+      "camera:direction": "255",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "\"rstp://admin:Marktel12345@192.168.110.110/h264/ch4/main/av_stream\"",
+      "description": "Kamera PTZ Simpang Balikpapan Baru",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "\"rstp://admin:Marktel12345@192.168.110.110/h264/ch4/main/av_stream\"",
+    "lint": {
+      "invalidUrl": true
+    }
   }
 ]

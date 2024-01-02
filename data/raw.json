@@ -12142,51 +12142,6 @@
   },
   {
     "type": "node",
-    "id": 3101640630,
-    "lat": 50.0982172,
-    "lon": 19.9622692,
-    "timestamp": "2022-11-04T17:46:57Z",
-    "version": 4,
-    "changeset": 128494729,
-    "user": "Mateusz Konieczny",
-    "uid": 1722488,
-    "tags": {
-      "camera:direction": "190",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://83.14.235.178/pogoda/obrazy/kam01D8_1_0.jpg",
-      "man_made": "surveillance",
-      "name": "29 Listopada / Kuźnicy k. Centrum",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 3101654916,
-    "lat": 50.0972482,
-    "lon": 19.9621674,
-    "timestamp": "2022-11-04T17:46:57Z",
-    "version": 4,
-    "changeset": 128494729,
-    "user": "Mateusz Konieczny",
-    "uid": 1722488,
-    "tags": {
-      "camera:direction": "3",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "check_date": "2021-08-28",
-      "contact:webcam": "http://83.14.235.178/pogoda/obrazy/kam01D8_0_0.jpg",
-      "man_made": "surveillance",
-      "name": "29 Listopada / Kuźnicy k. Warszawa",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
     "id": 3101685529,
     "lat": 50.0974353,
     "lon": 19.971869,
@@ -13953,50 +13908,6 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 3748567925,
-    "lat": 48.79923,
-    "lon": 9.2095024,
-    "timestamp": "2019-03-08T11:38:30Z",
-    "version": 2,
-    "changeset": 67919155,
-    "user": "b-jazz-bot",
-    "uid": 9451067,
-    "tags": {
-      "direction": "290",
-      "est_height": "8",
-      "man_made": "surveillance",
-      "name": "Webcam: B10/B14",
-      "operator": "Landeshauptstadt Stuttgart",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "construction",
-      "website": "https://www.stuttgart.de/rosensteintunnel/item/show/563414"
-    }
-  },
-  {
-    "type": "node",
-    "id": 3748567926,
-    "lat": 48.7992228,
-    "lon": 9.2095307,
-    "timestamp": "2019-03-08T11:38:31Z",
-    "version": 2,
-    "changeset": 67919155,
-    "user": "b-jazz-bot",
-    "uid": 9451067,
-    "tags": {
-      "direction": "180",
-      "est_height": "8",
-      "man_made": "surveillance",
-      "name": "Webcam: Cannstatter Straße",
-      "operator": "Landeshauptstadt Stuttgart",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "construction",
-      "website": "https://www.stuttgart.de/rosensteintunnel/item/show/563095"
     }
   },
   {
@@ -22937,26 +22848,6 @@
       "contact:webcam": "http://www.nadmorski24.pl/kamery/1/debki-plaza.html",
       "man_made": "surveillance",
       "surveillance:type": "camera"
-    }
-  },
-  {
-    "type": "node",
-    "id": 5520905623,
-    "lat": 53.6760075,
-    "lon": 23.82965,
-    "timestamp": "2018-04-01T19:00:58Z",
-    "version": 1,
-    "changeset": 57720160,
-    "user": "4004",
-    "uid": 456597,
-    "tags": {
-      "camera:direction": "250;350",
-      "camera:mount": "wall",
-      "contact:webcam": "http://s13.ru/vebkamera-grodno-2",
-      "man_made": "surveillance",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera",
-      "surveillance:zone": "town"
     }
   },
   {
@@ -116860,6 +116751,134 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11476215246,
+    "lat": 41.6296973,
+    "lon": 0.5525126,
+    "timestamp": "2024-01-01T14:24:29Z",
+    "version": 1,
+    "changeset": 145763820,
+    "user": "Galifardeu",
+    "uid": 368660,
+    "tags": {
+      "camera:mount": "pole",
+      "contact:webcam": "https://mct.gencat.cat/",
+      "man_made": "surveillance",
+      "operator": "Servei Català de Transit",
+      "operator:wikidata": "Q11949465",
+      "ref": "A-2 (Km 456.73)",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11476957199,
+    "lat": 51.9058284,
+    "lon": 10.4278835,
+    "timestamp": "2024-01-01T21:03:35Z",
+    "version": 1,
+    "changeset": 145775882,
+    "user": "bielebog",
+    "uid": 29639,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "direction": "350",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://webcams.goslar.de/schuhof.jpg"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11477215803,
+    "lat": 13.7047607,
+    "lon": 100.7385557,
+    "timestamp": "2024-01-02T00:29:56Z",
+    "version": 1,
+    "changeset": 145780004,
+    "user": "DSST",
+    "uid": 1148358,
+    "tags": {
+      "camera:direction": "200",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hhblbikelane.com/bike-center-cam/",
+      "man_made": "surveillance",
+      "name": "KM_8",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11477221673,
+    "lat": 13.6540031,
+    "lon": 100.7228883,
+    "timestamp": "2024-01-02T00:26:43Z",
+    "version": 2,
+    "changeset": 145779961,
+    "user": "DSST",
+    "uid": 1148358,
+    "tags": {
+      "camera:direction": "110",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.hhblbikelane.com/bike-center-cam/",
+      "man_made": "surveillance",
+      "name": "KM_12",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11477253659,
+    "lat": -1.2421676,
+    "lon": 116.8888853,
+    "timestamp": "2024-01-02T03:23:04Z",
+    "version": 2,
+    "changeset": 145782455,
+    "user": "simult4n",
+    "uid": 20800613,
+    "tags": {
+      "camera:direction": "215",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "\"rstp://admin:Marktel12345@192.168.110.122/h264/ch4/main/av_stream\"",
+      "description": "Kamera PTZ Simpang Korpri",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11477664935,
+    "lat": -1.2399677,
+    "lon": 116.8733967,
+    "timestamp": "2024-01-02T03:24:59Z",
+    "version": 1,
+    "changeset": 145782484,
+    "user": "simult4n",
+    "uid": 20800613,
+    "tags": {
+      "camera:direction": "255",
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "\"rstp://admin:Marktel12345@192.168.110.110/h264/ch4/main/av_stream\"",
+      "description": "Kamera PTZ Simpang Balikpapan Baru",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
