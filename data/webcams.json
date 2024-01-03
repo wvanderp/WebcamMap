@@ -1892,10 +1892,11 @@
   {
     "lat": 54.0463235,
     "lon": 61.6286512,
+    "direction": 90,
     "osmID": 1248189106,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1704028246000,
+    "lastChanged": 1704206834000,
     "address": {
       "city": "Troitsk",
       "county": "Troitsk urban district",
@@ -1903,6 +1904,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "90",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:phone": "+7 800 2000747",
@@ -5241,6 +5243,7 @@
     "osmType": "node",
     "lastChanged": 1314662549000,
     "address": {
+      "city": "Larvik",
       "county": "Vestfold og Telemark",
       "country": "Norway"
     },
@@ -10711,6 +10714,26 @@
     "url": "https://s3-eu-west-1.amazonaws.com/mrwebcams/Bay.jpg"
   },
   {
+    "lat": 50.1046552,
+    "lon": 13.7274489,
+    "osmID": 1972571201,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704224977000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://cbcnet.cz/o-nas/kamera/",
+      "man_made": "surveillance",
+      "name": "CBC camera",
+      "surveillance": "webcam"
+    },
+    "url": "https://cbcnet.cz/o-nas/kamera/"
+  },
+  {
     "lat": -45.8668313,
     "lon": 170.4910587,
     "direction": 250,
@@ -10897,11 +10920,11 @@
   {
     "lat": 55.1606717,
     "lon": 61.3884351,
-    "direction": 109,
+    "direction": 150,
     "osmID": 2059453308,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1700044191000,
+    "lastChanged": 1704205673000,
     "address": {
       "city": "Chelyabinsk",
       "county": "Chelyabinsk",
@@ -10909,7 +10932,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
-      "camera:direction": "109",
+      "camera:direction": "150",
       "camera:features": "webcam",
       "camera:mount": "wall",
       "camera:type": "fixed",
@@ -15671,10 +15694,11 @@
   {
     "lat": 54.0831474,
     "lon": 61.5414896,
+    "direction": 0,
     "osmID": 3306263758,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1704028246000,
+    "lastChanged": 1704206324000,
     "address": {
       "city": "Troitsk",
       "county": "Troitsk urban district",
@@ -15682,6 +15706,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "0",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:phone": "+7 800 2000747",
@@ -17617,6 +17642,7 @@
     },
     "url": "3-5 Avenue Durand de Gros 12000 Rodez",
     "lint": {
+      "unavailable": true,
       "invalidUrl": true
     }
   },
@@ -23528,7 +23554,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "http://www.rnvl.ch/meteo/balise-de-jaman"
+    "url": "http://www.rnvl.ch/meteo/balise-de-jaman",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.431788,
@@ -34950,7 +34979,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/432"
     },
-    "url": "https://pioupiou.com/fr/432"
+    "url": "https://pioupiou.com/fr/432",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.624945,
@@ -50659,10 +50691,11 @@
   {
     "lat": 54.0795295,
     "lon": 61.5295409,
+    "direction": 190,
     "osmID": 7190304971,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1704028399000,
+    "lastChanged": 1704207107000,
     "address": {
       "city": "Troitsk",
       "county": "Troitsk urban district",
@@ -50670,6 +50703,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "190",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:phone": "+7 800 2000747",
@@ -50691,10 +50725,11 @@
   {
     "lat": 54.0882909,
     "lon": 61.5573272,
+    "direction": 140,
     "osmID": 7190304972,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1704028246000,
+    "lastChanged": 1704206324000,
     "address": {
       "city": "Troitsk",
       "county": "Troitsk urban district",
@@ -50702,6 +50737,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "140",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:phone": "+7 800 2000747",
@@ -50723,10 +50759,11 @@
   {
     "lat": 54.0849673,
     "lon": 61.5581466,
+    "direction": 20,
     "osmID": 7190304973,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1704028246000,
+    "lastChanged": 1704206324000,
     "address": {
       "city": "Troitsk",
       "county": "Troitsk urban district",
@@ -50734,6 +50771,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "20",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:phone": "+7 800 2000747",
@@ -50755,10 +50793,11 @@
   {
     "lat": 54.0801636,
     "lon": 61.5278886,
+    "direction": 50,
     "osmID": 7190304975,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1704028246000,
+    "lastChanged": 1704207031000,
     "address": {
       "city": "Troitsk",
       "county": "Troitsk urban district",
@@ -50766,6 +50805,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "50",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:phone": "+7 800 2000747",
@@ -73597,7 +73637,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/741.jpg"
+    "url": "https://trafficnz.info/camera/741.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -39.474114,
@@ -100816,10 +100859,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk"
   },
   {
     "lat": 46.4982121,
@@ -100950,10 +100990,7 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=HpZAez2oYsA"
   },
   {
     "lat": 45.1705914,
@@ -101094,10 +101131,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=vCBaTTC7FHs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=vCBaTTC7FHs"
   },
   {
     "lat": 46.7809571,
@@ -101304,10 +101338,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "railway"
     },
-    "url": "https://www.youtube.com/watch?v=ENLa-KWr-AA",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=ENLa-KWr-AA"
   },
   {
     "lat": 46.077239,
@@ -101646,7 +101677,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Lake County",
-    "url": "https://www.lakecountypassage.com/index.jsp"
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 51.0717973,
@@ -114903,7 +114937,10 @@
       "name": "Marys PetVilla",
       "surveillance:type": "camera"
     },
-    "url": "https://www.petvilla.co.nz/imagewebcam.php"
+    "url": "https://www.petvilla.co.nz/imagewebcam.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -41.2152768,
@@ -120882,10 +120919,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=7Cg2BOM7XdY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=7Cg2BOM7XdY"
   },
   {
     "lat": 53.2080038,
@@ -128285,7 +128319,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_650"
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_650",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -23.6635857,
@@ -132456,10 +132493,7 @@
       "url": "https://www.windy.com/de/-Webcams/Deutschland/Berlin/Olympic-Stadium/webcams/1346452210?52.511,13.239,17",
       "website": "https://haustechnik-corbusierhaus.info/Blick-auf-das-Olympiastadion/"
     },
-    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=LAJiFSw2ICc"
   },
   {
     "lat": 52.5106188,
@@ -132510,10 +132544,7 @@
       "surveillance:type": "camera",
       "website": "https://turmfalken-corbusierhaus.berlin/Kameras"
     },
-    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=2DMOgZSmuMc"
   },
   {
     "lat": 52.5362087,
@@ -132579,10 +132610,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -132604,10 +132632,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=jAL268T1lFw",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=jAL268T1lFw"
   },
   {
     "lat": 52.4429418,
@@ -136071,6 +136096,29 @@
     }
   },
   {
+    "lat": 55.1948994,
+    "lon": 61.3223268,
+    "osmID": 11279105722,
+    "user": "GPMapper",
+    "osmType": "node",
+    "lastChanged": 1704205596000,
+    "address": {
+      "city": "Chelyabinsk",
+      "county": "Chelyabinsk",
+      "state": "Chelyabinsk Oblast",
+      "country": "Russian Federation"
+    },
+    "osmTags": {
+      "camera:angle": "230",
+      "camera:features": "webcam",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:website": "https://www.is74.ru/interactive_map/streets_online/Komsomolsky-Voroshilova.php",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.is74.ru/interactive_map/streets_online/Komsomolsky-Voroshilova.php"
+  },
+  {
     "lat": 48.5439213,
     "lon": 8.9454915,
     "direction": 10,
@@ -137142,7 +137190,7 @@
     "osmID": 11350677105,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1700044191000,
+    "lastChanged": 1704205596000,
     "address": {
       "city": "Chelyabinsk",
       "county": "Chelyabinsk",
@@ -137150,6 +137198,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:angle": "230",
       "camera:features": "webcam",
       "camera:mount": "wall",
       "camera:type": "fixed",
@@ -137169,7 +137218,7 @@
     "osmID": 11350677106,
     "user": "GPMapper",
     "osmType": "node",
-    "lastChanged": 1700044191000,
+    "lastChanged": 1704205596000,
     "address": {
       "city": "Chelyabinsk",
       "county": "Chelyabinsk",
@@ -137177,6 +137226,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:angle": "230",
       "camera:features": "webcam",
       "camera:mount": "wall",
       "camera:type": "fixed",
@@ -138043,10 +138093,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=CO_ZjH6N7RE"
   },
   {
     "lat": 34.986779,
@@ -138091,10 +138138,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
   },
   {
     "lat": 35.0007207,
@@ -138115,10 +138159,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
   },
   {
     "lat": 35.026937,
@@ -138158,10 +138199,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=jqtsC5BYlIk"
   },
   {
     "lat": 35.0050007,
@@ -138247,10 +138285,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g"
   },
   {
     "lat": 52.603769,
@@ -139540,7 +139575,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR"
+    "url": "https://www.youtube.com/live/m3rVOob7oSs?si=FKnmIYUbielt7-nR",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 51.590062,
@@ -141640,6 +141678,284 @@
     "url": "\"rstp://admin:Marktel12345@192.168.110.110/h264/ch4/main/av_stream\"",
     "lint": {
       "invalidUrl": true
+    }
+  },
+  {
+    "lat": 48.0389519,
+    "lon": 14.4194574,
+    "direction": 5,
+    "osmID": 11478294609,
+    "user": "job",
+    "osmType": "node",
+    "lastChanged": 1704180476000,
+    "address": {
+      "city": "Steyr",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "5",
+      "camera:type": "fixed",
+      "contact:webcam": "https://ftp.steyr.at/magcam/StadtplatzCam.htm",
+      "man_made": "surveillance",
+      "operator": "Stadt Steyr",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Stadt Steyr",
+    "url": "https://ftp.steyr.at/magcam/StadtplatzCam.htm"
+  },
+  {
+    "lat": 55.1936294,
+    "lon": 61.3027909,
+    "osmID": 11478744959,
+    "user": "GPMapper",
+    "osmType": "node",
+    "lastChanged": 1704205596000,
+    "address": {
+      "city": "Chelyabinsk",
+      "county": "Chelyabinsk",
+      "state": "Chelyabinsk Oblast",
+      "country": "Russian Federation"
+    },
+    "osmTags": {
+      "camera:angle": "270",
+      "camera:features": "webcam",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=17126",
+      "man_made": "surveillance",
+      "name": "Комсомольский - Молдавская",
+      "name:ru": "Комсомольский - Молдавская",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=17126"
+  },
+  {
+    "lat": 55.1949905,
+    "lon": 61.3332501,
+    "osmID": 11478841449,
+    "user": "GPMapper",
+    "osmType": "node",
+    "lastChanged": 1704205596000,
+    "address": {
+      "city": "Chelyabinsk",
+      "county": "Chelyabinsk",
+      "state": "Chelyabinsk Oblast",
+      "country": "Russian Federation"
+    },
+    "osmTags": {
+      "camera:angle": "230",
+      "camera:features": "webcam",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=953",
+      "man_made": "surveillance",
+      "name": "Молодогвардейцев - Комсомольский",
+      "name:ru": "Молодогвардейцев - Комсомольский",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.is74.ru/interactive_map/streets_online/page.php?camId=953"
+  },
+  {
+    "lat": 42.1541415,
+    "lon": -88.1506477,
+    "osmID": 11481002651,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Cook County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.1569457,
+    "lon": -88.1506021,
+    "osmID": 11481002652,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Lake County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.16544,
+    "lon": -88.1559958,
+    "osmID": 11481002653,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "county": "Lake County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.1543363,
+    "lon": -88.1359805,
+    "osmID": 11481002654,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Lake County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.154355,
+    "lon": -88.1281276,
+    "osmID": 11481002655,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Lake County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.1475171,
+    "lon": -88.1214004,
+    "osmID": 11481002656,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Cook County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.161631,
+    "lon": -88.1362674,
+    "osmID": 11481002657,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Lake County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 42.1541747,
+    "lon": -88.102124,
+    "osmID": 11481002658,
+    "user": "Mark09",
+    "osmType": "node",
+    "lastChanged": 1704232685000,
+    "address": {
+      "city": "Barrington",
+      "county": "Lake County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lakecountypassage.com/index.jsp",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.lakecountypassage.com/index.jsp",
+    "lint": {
+      "duplicate": true
     }
   }
 ]
