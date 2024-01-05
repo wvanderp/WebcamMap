@@ -10716,10 +10716,11 @@
   {
     "lat": 50.1046552,
     "lon": 13.7274489,
+    "direction": 105,
     "osmID": 1972571201,
     "user": "MC79",
     "osmType": "node",
-    "lastChanged": 1704224977000,
+    "lastChanged": 1704356318000,
     "address": {
       "city": "Rakovník",
       "state": "Central Bohemia",
@@ -10727,6 +10728,7 @@
     },
     "osmTags": {
       "contact:webcam": "https://cbcnet.cz/o-nas/kamera/",
+      "direction": "105",
       "man_made": "surveillance",
       "name": "CBC camera",
       "surveillance": "webcam"
@@ -40823,7 +40825,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/131"
     },
-    "url": "https://pioupiou.com/fr/131"
+    "url": "https://pioupiou.com/fr/131",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.754705,
@@ -72827,7 +72832,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/608.jpg"
+    "url": "https://trafficnz.info/camera/608.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -44.1875543,
@@ -91724,7 +91732,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Stadt Wien",
-    "url": "https://dyn2.verkehrsauskunft.at/webcams/1628346856_itscam5.jpg"
+    "url": "https://dyn2.verkehrsauskunft.at/webcams/1628346856_itscam5.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.2164213,
@@ -100553,10 +100564,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://youtu.be/3ZdNaAXAWq4",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://youtu.be/3ZdNaAXAWq4"
   },
   {
     "lat": 31.2431038,
@@ -101229,10 +101237,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=DzJb26edNjs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=DzJb26edNjs"
   },
   {
     "lat": 46.7807448,
@@ -121009,7 +121014,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=swA3cddVy78"
+    "url": "https://www.youtube.com/watch?v=swA3cddVy78",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.5540186,
@@ -130925,7 +130933,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/822.jpg"
+    "url": "https://trafficnz.info/camera/822.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -36.7434263,
@@ -131848,7 +131859,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "SlowTV",
-    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg"
+    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 50.1008734,
@@ -132654,10 +132668,7 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
   },
   {
     "lat": 52.51485,
@@ -138241,10 +138252,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A"
   },
   {
     "lat": 35.0138107,
@@ -138287,7 +138295,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=wuC8wRvXock"
+    "url": "https://www.youtube.com/watch?v=wuC8wRvXock",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 34.9679245,
@@ -138332,7 +138343,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs"
+    "url": "https://www.youtube.com/watch?v=Op-lf2NRMzs",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0284062,
@@ -138353,7 +138367,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g"
+    "url": "https://www.youtube.com/watch?v=KHglGodzQ9g",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.603769,
@@ -142204,5 +142221,224 @@
       "surveillance:type": "camera"
     },
     "url": "https://app.webcam-hd.com/la-rosiere/traversette"
+  },
+  {
+    "lat": 50.1025023,
+    "lon": 13.729437,
+    "direction": 15,
+    "osmID": 11485659350,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://kamera.hrych.cz/?kamera=rakovnikprostranstvi",
+      "direction": "15",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://kamera.hrych.cz/?kamera=rakovnikprostranstvi"
+  },
+  {
+    "lat": 50.1024182,
+    "lon": 13.7291738,
+    "direction": 15,
+    "osmID": 11485659351,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://kamera.hrych.cz/?kamera=rakovniknasekyre",
+      "direction": "15",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://kamera.hrych.cz/?kamera=rakovniknasekyre"
+  },
+  {
+    "lat": 50.1032403,
+    "lon": 13.7258186,
+    "direction": 15,
+    "osmID": 11485659352,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://kamera.hrych.cz/?kamera=rakovniksixtovo",
+      "direction": "15",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://kamera.hrych.cz/?kamera=rakovniksixtovo"
+  },
+  {
+    "lat": 50.1032096,
+    "lon": 13.725824,
+    "direction": 90,
+    "osmID": 11485659353,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://kamera.hrych.cz/?kamera=rakovnikcslegii",
+      "direction": "90",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://kamera.hrych.cz/?kamera=rakovnikcslegii"
+  },
+  {
+    "lat": 50.1031888,
+    "lon": 13.7258116,
+    "direction": 140,
+    "osmID": 11485659354,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://kamera.hrych.cz/?kamera=rakovnikottova",
+      "direction": "140",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "https://kamera.hrych.cz/?kamera=rakovnikottova"
+  },
+  {
+    "lat": 50.0958457,
+    "lon": 13.6554753,
+    "direction": 340,
+    "osmID": 11485659355,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Hostokryje",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "http://www.ameteo.net/webkamera.html",
+      "direction": "340",
+      "man_made": "surveillance",
+      "surveillance": "webcam"
+    },
+    "url": "http://www.ameteo.net/webkamera.html"
+  },
+  {
+    "lat": 50.0966689,
+    "lon": 13.6901576,
+    "direction": 145,
+    "osmID": 11485659356,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.ipcamlive.com/rakovnik",
+      "direction": "145",
+      "man_made": "surveillance",
+      "name": "LKRK",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.ipcamlive.com/rakovnik"
+  },
+  {
+    "lat": 50.0968322,
+    "lon": 13.6910043,
+    "direction": 220,
+    "osmID": 11485659357,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.idokep.hu/webkamera/meteopress7",
+      "direction": "220",
+      "man_made": "surveillance",
+      "name": "Letiště - SW",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.idokep.hu/webkamera/meteopress7"
+  },
+  {
+    "lat": 50.0968476,
+    "lon": 13.6909887,
+    "direction": 305,
+    "osmID": 11485659358,
+    "user": "MC79",
+    "osmType": "node",
+    "lastChanged": 1704356318000,
+    "address": {
+      "city": "Rakovník",
+      "state": "Central Bohemia",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.idokep.hu/webkamera/meteopress14",
+      "direction": "305",
+      "man_made": "surveillance",
+      "name": "Letiště - NW",
+      "surveillance": "webcam"
+    },
+    "url": "https://www.idokep.hu/webkamera/meteopress14"
+  },
+  {
+    "lat": 47.5583204,
+    "lon": -122.0864781,
+    "osmID": 11488962356,
+    "user": "lijer22",
+    "osmType": "node",
+    "lastChanged": 1704403799000,
+    "address": {
+      "city": "Issaquah",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/090vc01446.jpg",
+      "man_made": "surveillance",
+      "operator": "Washington State Department of Transportation",
+      "operator:wikidata": "Q834834",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Washington State Department of Transportation",
+    "url": "https://images.wsdot.wa.gov/nw/090vc01446.jpg"
   }
 ]
