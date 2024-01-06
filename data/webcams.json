@@ -7814,7 +7814,7 @@
     "osmType": "node",
     "lastChanged": 1314662567000,
     "address": {
-      "county": "Viken",
+      "county": "Akershus",
       "country": "Norway"
     },
     "osmTags": {
@@ -41536,7 +41536,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/506"
     },
-    "url": "https://pioupiou.com/fr/506"
+    "url": "https://pioupiou.com/fr/506",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.106664,
@@ -69545,6 +69548,7 @@
     "osmType": "node",
     "lastChanged": 1621994494000,
     "address": {
+      "city": "日光市",
       "country": "Japan"
     },
     "osmTags": {
@@ -75348,7 +75352,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/671.jpg"
+    "url": "https://trafficnz.info/camera/671.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -43.5443127,
@@ -100564,7 +100571,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "object"
     },
-    "url": "https://youtu.be/3ZdNaAXAWq4"
+    "url": "https://youtu.be/3ZdNaAXAWq4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 31.2431038,
@@ -100876,7 +100886,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "airport"
     },
-    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk"
+    "url": "https://www.youtube.com/watch?v=AAlo3eCPVbk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 46.4982121,
@@ -120770,7 +120783,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=15AYqnLbmDM"
+    "url": "https://www.youtube.com/watch?v=15AYqnLbmDM",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2111057,
@@ -120909,7 +120925,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.youtube.com/watch?v=RTC1Dd1pXdE"
+    "url": "https://www.youtube.com/watch?v=RTC1Dd1pXdE",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2111325,
@@ -120936,7 +120955,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=WyOnl_hCXHo"
+    "url": "https://www.youtube.com/watch?v=WyOnl_hCXHo",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2041822,
@@ -120988,7 +121010,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "construction"
     },
-    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4"
+    "url": "https://www.youtube.com/watch?v=2-hhjFA5EA4",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 53.2062747,
@@ -132668,7 +132693,10 @@
       "surveillance:type": "camera",
       "website": "http://www.berlin-tiergarten-verkehr.de"
     },
-    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io"
+    "url": "https://www.youtube.com/watch?v=iEDMWm0G3Io",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 52.51485,
@@ -138252,7 +138280,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A"
+    "url": "https://www.youtube.com/watch?v=S6IkZhhwG4A",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0138107,
@@ -138319,10 +138350,7 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=pgqwfZj9HPY"
   },
   {
     "lat": 35.0186488,
@@ -142440,5 +142468,30 @@
     },
     "operator": "Washington State Department of Transportation",
     "url": "https://images.wsdot.wa.gov/nw/090vc01446.jpg"
+  },
+  {
+    "lat": 47.8942556,
+    "lon": 18.9814031,
+    "osmID": 11491774333,
+    "user": "salomvary",
+    "osmType": "node",
+    "lastChanged": 1704463693000,
+    "address": {
+      "city": "Szokolya",
+      "county": "Pest",
+      "country": "Hungary"
+    },
+    "osmTags": {
+      "camera:direction": "0, 90, 180, 270",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.idokep.hu/webkamera/kreterd_varhegy",
+      "man_made": "surveillance",
+      "name": "Királyrét - Várhegy Webkamera",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    },
+    "url": "https://www.idokep.hu/webkamera/kreterd_varhegy"
   }
 ]
