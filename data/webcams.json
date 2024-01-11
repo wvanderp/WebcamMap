@@ -27430,7 +27430,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Flugplatz Hamm",
-    "url": "https://flugplatz-hamm.de/lsc30/images/webcam/flugplatz_hamm_live.jpg"
+    "url": "https://flugplatz-hamm.de/lsc30/images/webcam/flugplatz_hamm_live.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.5530426,
@@ -80091,7 +80094,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/723.jpg"
+    "url": "https://trafficnz.info/camera/723.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -36.871997,
@@ -101285,10 +101291,7 @@
       "surveillance:zone": "harbour"
     },
     "operator": "Duluth Harbor Cam",
-    "url": "https://www.youtube.com/watch?v=DzJb26edNjs",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=DzJb26edNjs"
   },
   {
     "lat": 46.7807448,
@@ -104063,7 +104066,10 @@
       "webcam": "yes",
       "website": "https://www.youtube.com/watch?v=LLFt5TkX0uQ"
     },
-    "url": "https://www.youtube.com/watch?v=LLFt5TkX0uQ"
+    "url": "https://www.youtube.com/watch?v=LLFt5TkX0uQ",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 49.4823586,
@@ -131776,7 +131782,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "SlowTV",
-    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg"
+    "url": "https://www.youtube.com/watch?v=0jUGiYZKAMg",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 50.1008734,
@@ -138104,7 +138113,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk"
+    "url": "https://www.youtube.com/watch?v=PXg3ZXgMkGk",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.0007207,
@@ -138125,7 +138137,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc"
+    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 35.026937,
@@ -142722,5 +142737,31 @@
       "surveillance:type": "camera"
     },
     "url": "https://www.youtube.com/watch?v=yxGLGOh77ZU"
+  },
+  {
+    "lat": 47.4995707,
+    "lon": -122.27457,
+    "osmID": 11506859883,
+    "user": "goldfndr",
+    "osmType": "node",
+    "lastChanged": 1704922879000,
+    "address": {
+      "city": "Tukwila",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/005vc15735.jpg",
+      "man_made": "surveillance",
+      "operator": "Washington State Department of Transportation",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Washington State Department of Transportation",
+    "url": "https://images.wsdot.wa.gov/nw/005vc15735.jpg"
   }
 ]
