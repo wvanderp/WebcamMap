@@ -38,6 +38,7 @@ function MaintenancePage() {
     const [filters, setFilters] = useState({
         youtube: false,
         noName: false,
+        noDescription: false,
         me: false,
         fixme: false,
 
@@ -50,6 +51,7 @@ function MaintenancePage() {
     const webcamRow = webcams
         .filter((a: Webcam) => (filters.youtube ? a.url.includes('youtube') : true))
         .filter((a: Webcam) => (filters.noName ? !a.osmTags.name : true))
+        .filter((a: Webcam) => (filters.noDescription ? !a.osmTags.description : true))
         .filter((a: Webcam) => (filters.me ? a.user === 'wvdp' : true))
         .filter((a: Webcam) => (filters.fixme ? Object.keys(a.osmTags).map((key) => key.toLowerCase()).includes('fixme') : true))
 
@@ -84,6 +86,7 @@ function MaintenancePage() {
     const filterRow = [
         FilterButton({ filters, setFilter: setFilters, index: 'youtube', text: 'Youtube' }),
         FilterButton({ filters, setFilter: setFilters, index: 'noName', text: 'No Name' }),
+        FilterButton({ filters, setFilter: setFilters, index: 'noDescription', text: 'No Description' }),
         FilterButton({ filters, setFilter: setFilters, index: 'me', text: 'My Edits' }),
         FilterButton({ filters, setFilter: setFilters, index: 'fixme', text: 'Fixme' }),
 
@@ -95,10 +98,10 @@ function MaintenancePage() {
 
     return (
         <Container fluid>
-            <h1>Other things</h1>
+            <h1>Find errors to fix</h1>
             <Row>
                 <Col md={6}>
-                    filter:
+                    Filter:
                     {' '}
                     {stuffer(filterRow, ' | ')}
                 </Col>
