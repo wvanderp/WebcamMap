@@ -3,7 +3,7 @@
 import * as React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import {Link} from 'react-router-dom';
-import set from 'lodash.set';
+import _ from 'lodash';
 
 import webcams from '../../../data/webcams.json';
 
@@ -55,7 +55,7 @@ function ListComponents({tree, level = 0}: ListComponentsProps) {
 function PlaceSitemapPage() {
     // eslint-disable-next-line unicorn/prefer-object-from-entries, unicorn/no-array-reduce
     const tree = webcams.reduce(
-        (accumulator, value: Webcam) => set(
+        (accumulator, value: Webcam) => _.set(
             accumulator,
             [
                 value.address.country ?? 'unknown',

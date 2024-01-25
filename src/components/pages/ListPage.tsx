@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
-import chunk from 'lodash.chunk';
+import _ from 'lodash';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';
@@ -63,7 +63,7 @@ function ListPage() {
         <PopupContent key={r.osmID} webcam={r} />
     ));
 
-    const tableBody = chunk(webcamTiles, 4).map(
+    const tableBody = _.chunk(webcamTiles, 4).map(
         (r, index) => (
             // eslint-disable-next-line react/no-array-index-key
             <Row key={index}>
