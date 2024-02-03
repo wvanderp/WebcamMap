@@ -103275,9 +103275,9 @@
     "id": 10346410522,
     "lat": 49.4192119,
     "lon": 20.925401,
-    "timestamp": "2023-01-09T16:50:33Z",
-    "version": 1,
-    "changeset": 131064827,
+    "timestamp": "2024-02-02T13:32:16Z",
+    "version": 2,
+    "changeset": 146985553,
     "user": "Jakub Gawryl",
     "uid": 13423515,
     "tags": {
@@ -103285,7 +103285,8 @@
       "contact:webcam": "https://player.webcamera.pl/skywind_cam_449b41",
       "man_made": "surveillance",
       "name": "Jaworzyna Krynicka - dolna stacja",
-      "operator": "WebCamera",
+      "operator": "Jaworzyna Krynicka",
+      "owner": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
     }
@@ -103295,9 +103296,9 @@
     "id": 10346410523,
     "lat": 49.41793,
     "lon": 20.8961237,
-    "timestamp": "2023-01-09T16:50:33Z",
-    "version": 1,
-    "changeset": 131064827,
+    "timestamp": "2024-02-02T13:32:16Z",
+    "version": 2,
+    "changeset": 146985553,
     "user": "Jakub Gawryl",
     "uid": 13423515,
     "tags": {
@@ -103306,7 +103307,8 @@
       "contact:webcam": "https://player.webcamera.pl/skywind_cam_0136d4",
       "man_made": "surveillance",
       "name": "Jaworzyna Krynicka - trasa nr 3",
-      "operator": "WebCamera",
+      "operator": "Jaworzyna Krynicka",
+      "owner": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
     }
@@ -103316,9 +103318,9 @@
     "id": 10346410524,
     "lat": 49.4177882,
     "lon": 20.8956145,
-    "timestamp": "2023-01-09T16:50:33Z",
-    "version": 1,
-    "changeset": 131064827,
+    "timestamp": "2024-02-02T13:32:16Z",
+    "version": 2,
+    "changeset": 146985553,
     "user": "Jakub Gawryl",
     "uid": 13423515,
     "tags": {
@@ -103327,7 +103329,8 @@
       "contact:webcam": "https://player.webcamera.pl/skywind_cam_77d44a",
       "man_made": "surveillance",
       "name": "Jaworzyna Krynicka 1114 m n.p.m.",
-      "operator": "WebCamera",
+      "operator": "Jaworzyna Krynicka",
+      "owner": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
     }
@@ -103335,11 +103338,11 @@
   {
     "type": "node",
     "id": 10346410525,
-    "lat": 49.4179007,
-    "lon": 20.8957408,
-    "timestamp": "2023-01-09T16:50:33Z",
-    "version": 1,
-    "changeset": 131064827,
+    "lat": 49.417858,
+    "lon": 20.8957059,
+    "timestamp": "2024-02-02T13:32:16Z",
+    "version": 2,
+    "changeset": 146985553,
     "user": "Jakub Gawryl",
     "uid": 13423515,
     "tags": {
@@ -103348,7 +103351,8 @@
       "contact:webcam": "https://player.webcamera.pl/skywind_cam_0d9bf2",
       "man_made": "surveillance",
       "name": "Jaworzyna Krynicka - widok na Tatry",
-      "operator": "WebCamera",
+      "operator": "Jaworzyna Krynicka",
+      "owner": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
     }
@@ -119644,6 +119648,72 @@
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11578933353,
+    "lat": 49.4197999,
+    "lon": 20.8905206,
+    "timestamp": "2024-02-02T13:32:16Z",
+    "version": 1,
+    "changeset": 146985553,
+    "user": "Jakub Gawryl",
+    "uid": 13423515,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://player.webcamera.pl/skywind_cam_c222e9",
+      "man_made": "surveillance",
+      "name": "Jaworzyna Krynicka - rodzinna trasa 7",
+      "operator": "Jaworzyna Krynicka",
+      "owner": "WebCamera",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11580219016,
+    "lat": 47.5394796,
+    "lon": -122.1948284,
+    "timestamp": "2024-02-02T21:21:18Z",
+    "version": 1,
+    "changeset": 147001357,
+    "user": "goldfndr",
+    "uid": 7247,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/405vc00800.jpg",
+      "direction": "165",
+      "man_made": "surveillance",
+      "operator": "Washington State Department of Transportation",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11580219018,
+    "lat": 47.539486,
+    "lon": -122.1948312,
+    "timestamp": "2024-02-02T21:21:18Z",
+    "version": 1,
+    "changeset": 147001357,
+    "user": "goldfndr",
+    "uid": 7247,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/nw/405vc00800.jpg",
+      "direction": "345",
+      "man_made": "surveillance",
+      "operator": "Washington State Department of Transportation",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
