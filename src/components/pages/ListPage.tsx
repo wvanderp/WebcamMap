@@ -8,7 +8,6 @@ import { LatLngBoundsLiteral } from 'leaflet';
 
 import { Col, Container, Row } from 'reactstrap';
 
-import webcams from '../../../data/webcams.json';
 import PopupContent from '../parts/PopupContent';
 import { Webcam } from '../../types/webcam';
 import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
@@ -16,9 +15,14 @@ import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
 
+import webcamsData from '../../../data/webcams.json';
+
+// to enable typescript to understand the type of webcamsData
+const webcams = webcamsData as Webcam[];
+
 function ListPage() {
     const params = useParams();
-    // eslint-disable-next-line compat/compat
+
     const url = (new URL(window.location.href)).pathname;
 
     if (params.name === undefined) {

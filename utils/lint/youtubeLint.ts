@@ -5,11 +5,9 @@ import path from 'path';
 import youtubedl from 'youtube-dl-exec';
 
 import { Webcam } from '../../src/types/webcam';
+import sleep from '../lib/sleep';
 
 const webcamPath = path.join(__dirname, '../../data', './webcams.json');
-
-// eslint-disable-next-line compat/compat, no-promise-executor-return
-const delay = (ms: number) => new Promise((result) => setTimeout(result, ms));
 
 async function isGoodYTLink(url: string): Promise<boolean> {
     try {
@@ -53,7 +51,7 @@ export default async function lintYoutube() {
             youtube: isGood ? undefined : true
         };
     }
-    await delay(500);
+    await sleep(500);
 
     fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
 }

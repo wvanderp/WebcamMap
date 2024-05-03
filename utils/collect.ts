@@ -1,5 +1,6 @@
 /* eslint-disable unicorn/no-array-reduce */
 /* eslint-disable no-console */
+/* eslint-disable unicorn/no-process-exit */
 import axios, { AxiosResponse } from 'axios';
 import fs from 'fs';
 import countries from 'i18n-iso-countries';
@@ -22,6 +23,7 @@ const getNominatimCache = (): NominatimCache => {
         console.log('filtering out old nominatim responses');
         const filteredNominatim = Object.fromEntries(
             Object.entries(data).filter(
+                // filter out responses that are past their expiration date
                 (nominatim) => nominatim[1].expires && nominatim[1].expires > (Date.now() / 1000)
             )
         );
@@ -50,7 +52,7 @@ const query = fs.readFileSync(path.join(__dirname, '../overpassQuery.overpassql'
 const overpassUrl = `${overpassBase}${encodeURIComponent(query)}`;
 
 // maximum age of the cache in seconds
-const nominatimMaxAge = 2 * 7 * 24 * 60 * 60; // 2 weeks
+const nominatimMaxAge = 4 * 7 * 24 * 60 * 60; // 4 weeks
 const aDay = 24 * 60 * 60; // max 1 day difference
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
@@ -63,11 +65,16 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
     console.log(`reaching to nominatim for '${cacheKey}'`);
     const url = getNominatimUrl(lat, lon);
-    const { data, status } = await axios.get<NominatimResponse>(url);
 
-    if (status >= 400) {
-        throw new Error(`got a ${status} from nominatim for '${cacheKey}'`);
+    let response = {} as AxiosResponse<NominatimResponse>;
+    try {
+        response = await axios.get<NominatimResponse>(url);
+    } catch (error) {
+        console.log(error);
+        throw new Error('could not get nominatim');
     }
+
+    const { data } = response;
 
     nominatimCache[cacheKey] = {
         ...data,
@@ -109,6 +116,7 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
         throw new Error('did not find any webcams');
     }
 
+    console.log('Got overpass data');
     console.log(`found ${nodes.length} possible webcams`);
 
     const webcams: Webcam[] = [];
@@ -191,9 +199,12 @@ function exitHandler(options: unknown, error: unknown) {
         {}
     );
     fs.writeFileSync('./data/nominatimCache.json', JSON.stringify(nominatimCacheOrdered, null, 2));
-    console.log('errors?', options, error);
-    if (error) throw (error);
-    // eslint-disable-next-line unicorn/no-process-exit
+
+    if (error) {
+        console.error(error);
+        process.exit(1);
+    }
+
     process.exit();
 }
 
