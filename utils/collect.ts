@@ -52,7 +52,7 @@ const query = fs.readFileSync(path.join(__dirname, '../overpassQuery.overpassql'
 const overpassUrl = `${overpassBase}${encodeURIComponent(query)}`;
 
 // maximum age of the cache in seconds
-const nominatimMaxAge = 4 * 7 * 24 * 60 * 60; // 4 weeks
+const nominatimMaxAge = 6 * 7 * 24 * 60 * 60; // 6 weeks
 const aDay = 24 * 60 * 60; // max 1 day difference
 
 const queryNominatim = async (lat: number, lon: number): Promise<NominatimResponse> => {
@@ -67,8 +67,14 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     const url = getNominatimUrl(lat, lon);
 
     let response = {} as AxiosResponse<NominatimResponse>;
+    const axiosOptions = {
+        headers: {
+            'User-Agent': 'CartoCams-collector/1.0 (CartoCams.com)'
+        }
+    };
+
     try {
-        response = await axios.get<NominatimResponse>(url);
+        response = await axios.get<NominatimResponse>(url, axiosOptions);
     } catch (error) {
         console.log(error);
         throw new Error('could not get nominatim');
