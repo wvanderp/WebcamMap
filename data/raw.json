@@ -105442,18 +105442,18 @@
     "id": 10760064945,
     "lat": -23.6519432,
     "lon": -46.5111425,
-    "timestamp": "2023-06-29T03:11:26Z",
-    "version": 3,
-    "changeset": 137900747,
-    "user": "IgorEliezer",
-    "uid": 6833365,
+    "timestamp": "2024-05-20T00:33:56Z",
+    "version": 4,
+    "changeset": 151556435,
+    "user": "AjBelnuovo",
+    "uid": 1799626,
     "tags": {
       "camera:mount": "pole",
       "camera:type": "dome",
       "contact:webcam": "https://cameras.santoandre.sp.gov.br/coi03/ID_261",
       "image": "https://imgbox.com/SecmFi9y",
       "man_made": "surveillance",
-      "name": "Rua André Ramalho X Av. Dos Estados (ID 261)",
+      "name": "Rua André Ramalho X Avenida dos Estados (ID 261)",
       "source": "https://portais.santoandre.sp.gov.br/defesacivil/monitoramento-rios-e-corregos/",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -123864,16 +123864,19 @@
     "id": 11899219105,
     "lat": 42.9343156,
     "lon": -78.8650971,
-    "timestamp": "2024-05-12T19:28:55Z",
-    "version": 1,
-    "changeset": 151239575,
+    "timestamp": "2024-05-20T01:35:37Z",
+    "version": 2,
+    "changeset": 151557164,
     "user": "afuchs",
     "uid": 154293,
     "tags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
       "contact:webcam": "https://www.nittec.org/cameras/",
       "man_made": "surveillance",
       "surveillance": "traffic",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -124247,6 +124250,29 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera",
       "surveillance:zone": "public"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11917496228,
+    "lat": 55.7914484,
+    "lon": 8.2372484,
+    "timestamp": "2024-05-19T09:33:29Z",
+    "version": 1,
+    "changeset": 151525648,
+    "user": "dermapper",
+    "uid": 16805128,
+    "tags": {
+      "camera:angle": "15",
+      "camera:direction": "300",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "check_date": "2024-05-19",
+      "contact:webcam": "https://www.windy.com/webcams/1597825339?55.791,8.237,16,m:fd8agoT",
+      "man_made": "surveillance",
+      "surveillance": "weather",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
