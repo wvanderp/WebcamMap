@@ -1535,6 +1535,26 @@
   },
   {
     "type": "node",
+    "id": 1187183407,
+    "lat": 48.444978,
+    "lon": 1.483158,
+    "timestamp": "2024-06-09T14:40:47Z",
+    "version": 2,
+    "changeset": 152458015,
+    "user": "nanar28",
+    "uid": 21145370,
+    "tags": {
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "rue de Babylone 1",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public"
+    }
+  },
+  {
+    "type": "node",
     "id": 1192580167,
     "lat": 57.8191275,
     "lon": 28.2933235,
@@ -1683,13 +1703,13 @@
   {
     "type": "node",
     "id": 1226784800,
-    "lat": 53.7727999,
-    "lon": 7.6923907,
-    "timestamp": "2019-03-21T05:17:03Z",
-    "version": 4,
-    "changeset": 68361154,
-    "user": "b-jazz-bot",
-    "uid": 9451067,
+    "lat": 53.7727979,
+    "lon": 7.6923921,
+    "timestamp": "2024-06-09T11:06:43Z",
+    "version": 5,
+    "changeset": 152449578,
+    "user": "biwanti",
+    "uid": 21196926,
     "tags": {
       "man_made": "surveillance",
       "surveillance": "webcam",
@@ -48396,24 +48416,6 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 7847673041,
-    "lat": 47.6199123,
-    "lon": -122.3208739,
-    "timestamp": "2022-10-20T06:00:01Z",
-    "version": 2,
-    "changeset": 127819817,
-    "user": "wislander",
-    "uid": 384146,
-    "tags": {
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.seattle.gov/police/community-policing/red-light-cameras",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera"
     }
   },
   {
@@ -125690,6 +125692,75 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "public"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11967116448,
+    "lat": 46.8355053,
+    "lon": -121.7329158,
+    "timestamp": "2024-06-09T17:53:31Z",
+    "version": 1,
+    "changeset": 152465823,
+    "user": "pluton_od",
+    "uid": 2411240,
+    "tags": {
+      "camera:direction": "180",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nps.gov/media/webcam/view.htm?id=81B46411-1DD8-B71B-0B1CC218FB03772F",
+      "description": "Look south from Camp Muir, which perches on the side of Mount Rainier at an elevation of over 10,000 feet (3,000 meters). Updates every 5 minutes.",
+      "man_made": "surveillance",
+      "name": "Camp Muir",
+      "note": "location estimated",
+      "operator": "National Park Service",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11967116449,
+    "lat": 46.870675,
+    "lon": -121.7325616,
+    "timestamp": "2024-06-09T17:53:31Z",
+    "version": 1,
+    "changeset": 152465823,
+    "user": "pluton_od",
+    "uid": 2411240,
+    "tags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.nps.gov/media/webcam/view.htm?id=81B46438-1DD8-B71B-0BDDDE3FF288F323",
+      "description": "Enjoy a view of the summit from Camp Schurman, located on the east side of Mount Rainier!",
+      "man_made": "surveillance",
+      "name": "Camp Schurman",
+      "note": "location estimated",
+      "operator": "National Park Service",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    }
+  },
+  {
+    "type": "node",
+    "id": 11967116450,
+    "lat": 46.8355157,
+    "lon": -121.7328653,
+    "timestamp": "2024-06-09T17:53:31Z",
+    "version": 1,
+    "changeset": 152465823,
+    "user": "pluton_od",
+    "uid": 2411240,
+    "tags": {
+      "camera:direction": "90",
+      "camera:type": "fixed",
+      "contact:webcam": "https://nps.gov/media/webcam/view.htm?id=7E694512-03CE-2F70-6268044EFA517F8D",
+      "description": "Look east over Camp Muir, which perches on the side of Mount Rainier at an elevation of over 10,000 feet (3,000 meters). Updates every 5 minutes. NOTE: Connection can be intermittent.",
+      "man_made": "surveillance",
+      "name": "Camp Muir East",
+      "note": "location estimated",
+      "operator": "National Park Service",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
