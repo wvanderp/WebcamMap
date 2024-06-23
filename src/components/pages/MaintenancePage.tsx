@@ -69,6 +69,9 @@ function MaintenancePage() {
             <tr key={webcam.osmID}>
                 <td>{new Date(webcam.lastChanged).toISOString()}</td>
                 <td>
+                    {webcam.osmTags.name || 'no name'}
+                </td>
+                <td>
                     <a
                         href={`https://www.openstreetmap.org/node/${webcam.osmID}`}
                     >
@@ -77,12 +80,12 @@ function MaintenancePage() {
                     </a>
                 </td>
                 <td>
-                    <a
-                        href={`webcam/${webcam.osmID}`}
-                    >
-                        {`at cartocams ${webcam.osmID}`}
-
-                    </a>
+                    <a href={`https://www.google.com/search?q=${webcam.osmTags.name}`}>Google</a>
+                    {' '}
+                    <a href={`https://www.youtube.com/results?search_query=${webcam.osmTags.name}`}>Youtube</a>
+                    {' '}
+                    <a href={`https://www.windy.com/?${webcam.lat},${webcam.lon},16`}>Windy</a>
+                    {' '}
                 </td>
             </tr>
         ));
@@ -115,8 +118,9 @@ function MaintenancePage() {
                     <thead>
                         <tr>
                             <th>Time</th>
+                            <th>Name</th>
                             <th>webcam at osm</th>
-                            <th>webcam at cartocams</th>
+                            <th>Quick Maintenance</th>
                         </tr>
                     </thead>
                     <tbody>{webcamRow}</tbody>
