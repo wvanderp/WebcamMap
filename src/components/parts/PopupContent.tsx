@@ -3,10 +3,8 @@ import {PropsWithChildren} from 'react';
 
 import {Link} from 'react-router-dom';
 
-// @ts-expect-error  svg files are not compatible with typescript
-import playIcon from 'url:../../static/play.svg';
-// @ts-expect-error  svg files are not compatible with typescript
-import osmIcon from 'url:../../static/osm.svg';
+import PlayIcon from '../../static/play.svg?react';
+import OsmIcon from '../../static/osm.svg?react';
 
 import {Webcam} from '../../types/webcam';
 import AddressBreadCrumb from './AddressBreadCrumb';
@@ -36,18 +34,17 @@ function PopupContent(
                 target={'_blank'}
                 rel="noopener noreferrer"
             >
-                <img id={'osmLogo'} src={osmIcon} alt={'See the webcam on OSM'} title={'See the webcam on OSM'}/>
+                <OsmIcon id={'osmLogo'} aria-label={'See the webcam on OSM'} title={'See the webcam on OSM'}/>
             </a>
             <a
                 href={url}
                 target={'_blank'}
                 rel="noopener noreferrer"
             >
-                <img
+                <PlayIcon
                     id={'osmLogo'}
-                    src={playIcon}
+                    aria-label={'Play The Stream'}
                     title={'Play The Stream'}
-                    alt={'Play The Stream'}
                 />
             </a>
         </div>

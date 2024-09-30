@@ -1,12 +1,9 @@
 import * as React from 'react';
 import {Link} from 'react-router-dom';
 
-// @ts-expect-error svg files are not compatible with typescript
-import webcamIcon from 'url:../../static/icon.svg';
-// @ts-expect-error svg files are not compatible with typescript
-import attribution from 'url:../../static/attribution.svg';
-// @ts-expect-error overpassql files are not compatible with typescript
-import query from 'bundle-text:../../../overpassQuery.overpassql';
+import WebcamIcon from '../../static/icon.svg?react';
+import Attribution from '../../static/attribution.svg?react';
+import query from '../../../overpassQuery.overpassql?raw';
 
 import useGlobalState from '../../state';
 
@@ -17,7 +14,7 @@ function Menu() {
         <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand d-flex align-items-center">
-                    <img src={webcamIcon} alt={'Carto Cams'}/>
+                    <WebcamIcon aria-label={'Carto Cams'}/>
                     Carto Cams
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,10 +78,9 @@ function Menu() {
                                             }
                                             className="muted-text"
                                         >
-                                            <img
+                                            <Attribution
                                                 id={'osmAttribution'}
-                                                alt={'This map proudly uses data made by openstreetmap.org contributors'}
-                                                src={attribution}
+                                                aria-label={'This map proudly uses data made by openstreetmap.org contributors'}
                                             />
                                         </a>
                                     </li>

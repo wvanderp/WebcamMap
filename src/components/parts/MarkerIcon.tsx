@@ -1,7 +1,6 @@
 import {icon} from 'leaflet';
 
-// @ts-expect-error svg files are not compatible with typescript
-import webcamIcon from 'url:../../static/camera.svg';
+import webcamIcon from '../../static/camera.svg?url';
 
 const iconHeight = 16;
 const iconWidth = 32;

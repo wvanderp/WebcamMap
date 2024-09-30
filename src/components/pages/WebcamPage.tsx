@@ -9,10 +9,8 @@ import { Col, Container, Row, Table } from 'reactstrap';
 
 import '../../style/WebcamPage.sass';
 
-// @ts-expect-error svg files are not compatible with typescript
-import osmIcon from 'url:../../static/osm.svg';
-// @ts-expect-error svg files are not compatible with typescript
-import playIcon from 'url:../../static/play.svg';
+import OsmIcon from '../../static/osm.svg?react';
+import PlayIcon from '../../static/play.svg?react';
 
 import webcams from '../../../data/webcams.json';
 import { Webcam } from '../../types/webcam';
@@ -78,17 +76,16 @@ function ListPage() {
                             target={'_blank'}
                             rel="noopener noreferrer"
                         >
-                            <img id={'osmLogo'} src={osmIcon} alt={'OSM Entity'} />
+                            <OsmIcon id={'osmLogo'} aria-label={'OSM Entity'} />
                         </a>
                         <a
                             href={url}
                             target={'_blank'}
                             rel="noopener noreferrer"
                         >
-                            <img
+                            <PlayIcon
                                 id={'osmLogo'}
-                                src={playIcon}
-                                alt={'Play The Stream'}
+                                aria-label={'Play The Stream'}
                             />
                         </a>
                     </Col>
