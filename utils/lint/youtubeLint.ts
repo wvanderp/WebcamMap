@@ -9,6 +9,15 @@ import sleep from '../lib/sleep';
 
 const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
+const badYTindexPath = path.join(__dirname, '../../data', './YTIndex.json');
+
+function loadYTIndex(): Record<string, { last: number, bad: boolean }> {
+    if (fs.existsSync(badYTindexPath)) {
+        return JSON.parse(fs.readFileSync(badYTindexPath).toString());
+    }
+    return {};
+}
+
 async function isGoodYTLink(url: string): Promise<boolean> {
     try {
         const ytData = await youtubedl(url, {
@@ -17,8 +26,13 @@ async function isGoodYTLink(url: string): Promise<boolean> {
             callHome: false,
             noCheckCertificates: true,
             preferFreeFormats: true,
-            youtubeSkipDashManifest: true
+            youtubeSkipDashManifest: true,
+            addHeader: ['referer:youtube.com', 'user-agent:googlebot']
         });
+
+        if (typeof ytData === 'string') {
+            throw new TypeError(ytData);
+        }
 
         return ytData.is_live === true;
     } catch (error) {
@@ -41,10 +55,35 @@ export default async function lintYoutube() {
 
     const youtubeLinks = [...youtubeLinksFull, ...youtubeLinksShort];
 
-    for (const youtubeLink of youtubeLinks) {
+    // add all the youtube links to the index if they are not already there
+    const ytIndex = loadYTIndex();
+
+    for (const ytLink of youtubeLinks) {
+        if (!ytIndex[ytLink.url]) {
+            ytIndex[ytLink.url] = { last: 0, bad: false };
+        }
+    }
+
+    // remove all the youtube links from the index that are not in the list
+    for (const ytIndexKey of Object.keys(ytIndex)) {
+        if (!youtubeLinks.some((a) => a.url.includes(ytIndexKey.toString()))) {
+            delete ytIndex[ytIndexKey];
+        }
+    }
+
+    // select the youtube links that have not been checked in the last 30 days
+    const youtubeLinksToCheck = youtubeLinks.filter((a) => {
+        const lastCheck = ytIndex[a.url].last;
+        return (Date.now() - lastCheck) > 30 * 24 * 60 * 60 * 1000 || ytIndex[a.url].bad;
+    });
+
+    for (const youtubeLink of youtubeLinksToCheck) {
         console.log(`linting ${youtubeLink.url}`);
 
         const isGood = await isGoodYTLink(youtubeLink.url);
+
+        ytIndex[youtubeLink.url].last = Date.now();
+        ytIndex[youtubeLink.url].bad = !isGood;
 
         youtubeLink.lint = {
             ...youtubeLink.lint,

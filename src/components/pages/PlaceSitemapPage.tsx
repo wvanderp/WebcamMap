@@ -1,19 +1,26 @@
-/* eslint-disable unicorn/prefer-object-from-entries */
 // @ts-nocheck
-import * as React from 'react';
+/* eslint-disable unicorn/prefer-object-from-entries */
+import React from 'react';
 import {Col, Container, Row} from 'reactstrap';
 import {Link} from 'react-router-dom';
 import _ from 'lodash';
 
-import webcams from '../../../data/webcams.json';
+import webcams from '../../webcams';
 
 import {Webcam} from '../../types/webcam';
 import { encodeUrl } from '../../utils/encodeUrl';
 
+const levelLookup = {
+    0: 'country',
+    1: 'state',
+    2: 'county',
+    3: 'city'
+};
+
 interface ListComponentsProps{
     tree: Record<string, unknown> | Webcam,
     // eslint-disable-next-line react/require-default-props
-    level?: number
+    level?: keyof typeof levelLookup | 4
 }
 
 function ListComponents({tree, level = 0}: ListComponentsProps) {
@@ -24,13 +31,6 @@ function ListComponents({tree, level = 0}: ListComponentsProps) {
     if (level < 0 || level > 4) {
         return null;
     }
-
-    const levelLookup = {
-        0: 'country',
-        1: 'state',
-        2: 'county',
-        3: 'city'
-    };
 
     return (
         <span>

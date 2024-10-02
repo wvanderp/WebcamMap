@@ -1,11 +1,11 @@
-import * as React from 'react';
+import React from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import L, { MarkerCluster } from 'leaflet';
 
 import { Webcam } from '../../types/webcam';
-import webcams from '../../../data/webcams.json';
+import webcams from '../../webcams';
 
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';

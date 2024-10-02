@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import { useParams } from 'react-router';
 import { Navigate } from 'react-router-dom';
@@ -12,7 +12,7 @@ import '../../style/WebcamPage.sass';
 import OsmIcon from '../../static/osm.svg?react';
 import PlayIcon from '../../static/play.svg?react';
 
-import webcams from '../../../data/webcams.json';
+import webcams from '../../webcams';
 import { Webcam } from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
 import generateName from '../../utils/generateName';

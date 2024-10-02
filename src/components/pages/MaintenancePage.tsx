@@ -1,13 +1,9 @@
-import * as React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
 import { Webcam } from '../../types/webcam';
 
-import webcamsData from '../../../data/webcams.json';
-
-// to enable typescript to understand the type of webcamsData
-const webcams = webcamsData as Webcam[];
+import webcams from '../../webcams';
 
 // @ts-expect-error
 // eslint-disable-next-line react/prop-types

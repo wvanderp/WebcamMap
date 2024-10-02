@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { Marker, Popup } from 'react-leaflet';
 import PopupContent from './PopupContent';
 import { Webcam } from '../../types/webcam';

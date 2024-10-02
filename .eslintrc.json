@@ -181,8 +181,14 @@
     "jsx-a11y/click-events-have-key-events": "off",
     "unicorn/prefer-module": "off",
     "function-paren-newline": "off",
-    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
     "unicorn/prefer-top-level-await": "off",
-    "prefer-const": "error"
+    "prefer-const": "error",
+    "no-restricted-syntax": "off"
   }
 }

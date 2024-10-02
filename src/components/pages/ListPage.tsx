@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
 import _ from 'lodash';
@@ -15,10 +15,7 @@ import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
 
-import webcamsData from '../../../data/webcams.json';
-
-// to enable typescript to understand the type of webcamsData
-const webcams = webcamsData as Webcam[];
+import webcams from '../../webcams';
 
 function ListPage() {
     const params = useParams();
