@@ -13,13 +13,13 @@ import './style/main.sass';
 import Menu from './components/parts/Menu';
 import Loading from './components/parts/Loading';
 
-import FourOFour from './components/pages/FourOFour';
-import MapView from './components/pages/MapView';
-import ListPage from './components/pages/ListPage';
-import WebcamPage from './components/pages/WebcamPage';
-import PlaceSitemapPage from './components/pages/PlaceSitemapPage';
-import WebcamsSitemapPage from './components/pages/WebcamsSitemapPage';
-import MaintenancePage from './components/pages/MaintenancePage';
+const FourOFour = React.lazy(() => import('./components/pages/FourOFour'));
+const MapView = React.lazy(() => import('./components/pages/MapView'));
+const ListPage = React.lazy(() => import('./components/pages/ListPage'));
+const WebcamPage = React.lazy(() => import('./components/pages/WebcamPage'));
+const PlaceSitemapPage = React.lazy(() => import('./components/pages/PlaceSitemapPage'));
+const WebcamsSitemapPage = React.lazy(() => import('./components/pages/WebcamsSitemapPage'));
+const MaintenancePage = React.lazy(() => import('./components/pages/MaintenancePage'));
 
 const container = document.querySelector('#app');
 
@@ -31,24 +31,22 @@ const root = createRoot(container);
 
 root.render(
     <Router>
-        <Menu />
-        <Routes >
-            <Route path="/" element={<Suspense fallback={<Loading />}><MapView/></Suspense>} />
-
-            <Route path="/country/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
-            <Route path="/state/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
-            <Route path="/county/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
-            <Route path="/city/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
-
-            <Route path="/webcam/:id" element={<Suspense fallback={<Loading />}><WebcamPage/></Suspense>} />
-
-            <Route path="/webcams/" element={<Suspense fallback={<Loading />}><WebcamsSitemapPage/></Suspense>} />
-            <Route path="/places/" element={<Suspense fallback={<Loading />}><PlaceSitemapPage/></Suspense>} />
-            <Route path="/maintenance/" element={<Suspense fallback={<Loading />}><MaintenancePage/></Suspense>} />
-
-            <Route path="/404" element={<Suspense fallback={<Loading />}><FourOFour/></Suspense>} />
-            <Route path="*" element={<Suspense fallback={<Loading />}><FourOFour/></Suspense>} />
-        </Routes >
+        <Suspense fallback={<Loading />}>
+            <Menu />
+            <Routes>
+                <Route path="/" element={<MapView />} />
+                <Route path="/country/:name" element={<ListPage />} />
+                <Route path="/state/:name" element={<ListPage />} />
+                <Route path="/county/:name" element={<ListPage />} />
+                <Route path="/city/:name" element={<ListPage />} />
+                <Route path="/webcam/:id" element={<WebcamPage />} />
+                <Route path="/webcams/" element={<WebcamsSitemapPage />} />
+                <Route path="/places/" element={<PlaceSitemapPage />} />
+                <Route path="/maintenance/" element={<MaintenancePage />} />
+                <Route path="/404" element={<FourOFour />} />
+                <Route path="*" element={<FourOFour />} />
+            </Routes>
+        </Suspense>
     </Router>
 );
 
