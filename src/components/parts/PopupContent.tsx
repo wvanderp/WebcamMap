@@ -1,11 +1,10 @@
-import React, {PropsWithChildren} from 'react';
-
-import {Link} from 'react-router-dom';
+import React, { PropsWithChildren } from 'react';
+import { Link } from 'react-router-dom';
 
 import PlayIcon from '../../static/play.svg?react';
 import OsmIcon from '../../static/osm.svg?react';
 
-import {Webcam} from '../../types/webcam';
+import { Webcam } from '../../types/webcam';
 import AddressBreadCrumb from './AddressBreadCrumb';
 import generateName from '../../utils/generateName';
 
@@ -15,36 +14,31 @@ interface PopupContentProps {
     webcam: Webcam;
 }
 
-function PopupContent(
-    {webcam}: PropsWithChildren<PopupContentProps>
-) {
+function PopupContent({ webcam }: PropsWithChildren<PopupContentProps>) {
     const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
-
     const cardTitle = generateName(webcam);
 
     return (
-        <div id={'PopupContent'}>
-            <Link to={`/webcam/${webcam.osmID}`}><h1>{cardTitle}</h1></Link>
-            <br/>
-            <AddressBreadCrumb address={webcam.address}/>
-            <br/>
+        <div id="PopupContent">
+            <Link to={`/webcam/${webcam.osmID}`}>
+                <h1>{cardTitle}</h1>
+            </Link>
+            <br />
+            <AddressBreadCrumb address={webcam.address} />
+            <br />
             <a
                 href={`https://www.openstreetmap.org/${webcam.osmType}/${webcam.osmID}`}
-                target={'_blank'}
+                target="_blank"
                 rel="noopener noreferrer"
             >
-                <OsmIcon id={'osmLogo'} aria-label={'See the webcam on OSM'} title={'See the webcam on OSM'}/>
+                <OsmIcon id="buttonLogo" aria-label="See the webcam on OSM" title="See the webcam on OSM" />
             </a>
             <a
                 href={url}
-                target={'_blank'}
+                target="_blank"
                 rel="noopener noreferrer"
             >
-                <PlayIcon
-                    id={'osmLogo'}
-                    aria-label={'Play The Stream'}
-                    title={'Play The Stream'}
-                />
+                <PlayIcon id="buttonLogo" aria-label="Play the Stream" title="Play the Stream" />
             </a>
         </div>
     );

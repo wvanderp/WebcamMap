@@ -83,7 +83,6 @@ function ListPage() {
     document.title = `${name} - CartoCams`;
 
     // TODO: make this page fit the bounds every time it moves to a divert part. look at leaflet fitBounds function
-
     return (
         <div>
             <MapContainer

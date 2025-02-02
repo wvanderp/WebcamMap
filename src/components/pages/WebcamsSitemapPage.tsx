@@ -53,7 +53,6 @@ function WebcamsSitemapPage() {
     const pageNumbers: (number | '...')[] = [];
 
     // Determine start and end pages around the current page
-
     const paginationLookup = {
         1: [1, 2, 3, 4, '...', totalPages],
         2: [1, 2, 3, 4, '...', totalPages],

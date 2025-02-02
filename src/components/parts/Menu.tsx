@@ -14,7 +14,7 @@ function Menu() {
         <nav className="navbar navbar-dark bg-dark">
             <div className="container-fluid">
                 <Link to="/" className="navbar-brand d-flex align-items-center">
-                    <WebcamIcon aria-label={'Carto Cams'}/>
+                    <WebcamIcon aria-label={'Carto Cams'} id="logo"/>
                     Carto Cams
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ function Menu() {
                                     Zoom in to see if your local town or city has a webcam.
                                     <br/>
                                     <br/>
-                                    Are you missing a webcam? Please raise an issue on
+                                    Missing a webcam? Please raise an issue on
                                     {' '}
                                     <a
                                         href={`https://www.openstreetmap.org/note/new#map=${
@@ -43,7 +43,7 @@ function Menu() {
                                     </a>
                                     {', '}
                                     <a href={'https://github.com/wvanderp/WebcamMap/issues/new'}>
-                                        the project&apos;s Github Page
+                                        our GitHub Page
                                     </a>
                                     {', '}
                                     or learn how to add them yourself at
@@ -52,7 +52,7 @@ function Menu() {
                                     {'.'}
                                     <br/>
                                     <br/>
-                                    Do you have feedback? You can contact me via GitHub.
+                                    Have feedback? Contact us via GitHub.
                                 </p>
                             </div>
                             <div className="col-sm-4 offset-md-1 py-4">
@@ -80,7 +80,7 @@ function Menu() {
                                         >
                                             <Attribution
                                                 id={'osmAttribution'}
-                                                aria-label={'This map proudly uses data made by openstreetmap.org contributors'}
+                                                aria-label={'This map proudly uses data made by OpenStreetMap contributors'}
                                             />
                                         </a>
                                     </li>
@@ -91,12 +91,12 @@ function Menu() {
                                 <ul className="list-unstyled">
                                     <li>
                                         <Link to="/webcams" className="muted-text">
-                                            All webcams
+                                            All Webcams
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="/places" className="muted-text">
-                                            All places
+                                            All Places
                                         </Link>
                                     </li>
                                 </ul>

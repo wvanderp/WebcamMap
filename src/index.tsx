@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -11,6 +11,7 @@ import 'leaflet/dist/leaflet.css';
 import './style/main.sass';
 
 import Menu from './components/parts/Menu';
+import Loading from './components/parts/Loading';
 
 import FourOFour from './components/pages/FourOFour';
 import MapView from './components/pages/MapView';
@@ -32,21 +33,21 @@ root.render(
     <Router>
         <Menu />
         <Routes >
-            <Route path="/" element={<MapView/>} />
+            <Route path="/" element={<Suspense fallback={<Loading />}><MapView/></Suspense>} />
 
-            <Route path="/country/:name" element={<ListPage/>} />
-            <Route path="/state/:name" element={<ListPage/>} />
-            <Route path="/county/:name" element={<ListPage/>} />
-            <Route path="/city/:name" element={<ListPage/>} />
+            <Route path="/country/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
+            <Route path="/state/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
+            <Route path="/county/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
+            <Route path="/city/:name" element={<Suspense fallback={<Loading />}><ListPage/></Suspense>} />
 
-            <Route path="/webcam/:id" element={<WebcamPage/>} />
+            <Route path="/webcam/:id" element={<Suspense fallback={<Loading />}><WebcamPage/></Suspense>} />
 
-            <Route path="/webcams/" element={<WebcamsSitemapPage/>} />
-            <Route path="/places/" element={<PlaceSitemapPage/>} />
-            <Route path="/maintenance/" element={<MaintenancePage/>} />
+            <Route path="/webcams/" element={<Suspense fallback={<Loading />}><WebcamsSitemapPage/></Suspense>} />
+            <Route path="/places/" element={<Suspense fallback={<Loading />}><PlaceSitemapPage/></Suspense>} />
+            <Route path="/maintenance/" element={<Suspense fallback={<Loading />}><MaintenancePage/></Suspense>} />
 
-            <Route path="/404" element={<FourOFour/>} />
-            <Route path="*" element={<FourOFour/>} />
+            <Route path="/404" element={<Suspense fallback={<Loading />}><FourOFour/></Suspense>} />
+            <Route path="*" element={<Suspense fallback={<Loading />}><FourOFour/></Suspense>} />
         </Routes >
     </Router>
 );

@@ -20,7 +20,7 @@ import generateName from '../../utils/generateName';
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
 
-function ListPage() {
+function WebcamPage() {
     const { id } = useParams();
 
     if (id === undefined) {
@@ -56,7 +56,7 @@ function ListPage() {
             <MapContainer
                 center={[webcam.lat, webcam.lon]}
                 zoom={17}
-                id={'miniMap'}
+                id="miniMap"
             >
                 <TileLayer
                     attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -73,19 +73,19 @@ function ListPage() {
                     <Col md={6}>
                         <a
                             href={`https://www.openstreetmap.org/${webcam.osmType}/${webcam.osmID}`}
-                            target={'_blank'}
+                            target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <OsmIcon id={'osmLogo'} aria-label={'OSM Entity'} />
+                            <OsmIcon id="osmLogo" aria-label="OSM Entity" />
                         </a>
                         <a
                             href={url}
-                            target={'_blank'}
+                            target="_blank"
                             rel="noopener noreferrer"
                         >
                             <PlayIcon
-                                id={'osmLogo'}
-                                aria-label={'Play The Stream'}
+                                id="osmLogo"
+                                aria-label="Play The Stream"
                             />
                         </a>
                     </Col>
@@ -109,4 +109,4 @@ function ListPage() {
     );
 }
 
-export default ListPage;
+export default WebcamPage;

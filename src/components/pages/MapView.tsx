@@ -30,7 +30,7 @@ function MapView() {
             <MapContainer
                 center={[0, 0]}
                 zoom={2}
-                id={'map'}
+                id="map"
             >
                 <TileLayer
                     attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'

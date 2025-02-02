@@ -1,3 +1,3 @@
-paginate the webcam page because you can load it right now without crashing the browser
+Paginate the webcam page to prevent crashing the browser when loading all webcams at once.
 
-split the code into multipe chuncks
+Split the code into multiple chunks.
