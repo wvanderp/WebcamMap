@@ -58,7 +58,14 @@
     "react-router": "^7.1.5",
     "react-router-dom": "^7.1.5",
     "reactstrap": "^9.2.3",
-    "youtube-dl-exec": "^3.0.13"
+    "youtube-dl-exec": "^3.0.14"
+  },
+  "overrides": {
+    "react-leaflet-cluster": {
+      "react": "$react",
+      "react-dom": "$react-dom",
+      "react-leaflet": "$react-leaflet"
+    }
   },
   "scripts": {
     "app": "vite",
