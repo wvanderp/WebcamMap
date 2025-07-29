@@ -2,20 +2,37 @@ import React, { useState } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
 import { Webcam } from '../../types/webcam';
-
 import webcams from '../../webcams';
 
-// @ts-expect-error
-// eslint-disable-next-line react/prop-types
-function FilterButton({ filters, setFilter, index, text }) {
+type Filters = {
+    youtube: boolean;
+    noName: boolean;
+    noDescription: boolean;
+    me: boolean;
+    fixme: boolean;
+    unavailable: boolean;
+    badYoutube: boolean;
+    invalidUrl: boolean;
+    duplicate: boolean;
+};
+
+
+interface FilterButtonProps {
+    filters: Filters;
+    setFilter: React.Dispatch<React.SetStateAction<Filters>>;
+    index: keyof Filters;
+    text?: string;
+}
+
+function FilterButton({ filters, setFilter, index, text }: FilterButtonProps) {
     return (
         <span
             role="button"
             tabIndex={0}
-            onClick={() => setFilter({
-                ...filters,
-                [index]: !filters[index]
-            })}
+            onClick={() => setFilter(prev => ({
+                ...prev,
+                [index]: !prev[index]
+            }))}
             style={{ fontWeight: filters[index] ? 'bold' : 'normal' }}
         >
             {text || index}
@@ -24,7 +41,6 @@ function FilterButton({ filters, setFilter, index, text }) {
 }
 
 function stuffer<T, Y>(array: T[], element: Y): (T | Y)[] {
-    // eslint-disable-next-line unicorn/no-array-reduce
     return array.reduce<(T | Y)[]>(
         (collector, current, index, a) => (
             index < a.length - 1 ? [...collector, current, element] : [...collector, current]
@@ -35,7 +51,7 @@ function stuffer<T, Y>(array: T[], element: Y): (T | Y)[] {
 function MaintenancePage() {
     document.title = 'Maintenance - CartoCams';
 
-    const [filters, setFilters] = useState({
+    const [filters, setFilters] = useState<Filters>({
         youtube: false,
         noName: false,
         noDescription: false,

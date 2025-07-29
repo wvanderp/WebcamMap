@@ -66,12 +66,10 @@ function ListPage() {
 
     const tableBody = _.chunk(webcamTiles, 4).map(
         (r, index) => (
-            // eslint-disable-next-line react/no-array-index-key
             <Row key={index}>
                 {
                     r.map(
                         (t, index_) => (
-                            // eslint-disable-next-line react/no-array-index-key
                             <Col lg={3} md={6} sm={12} key={index_}>{t}</Col>
                         )
                     )

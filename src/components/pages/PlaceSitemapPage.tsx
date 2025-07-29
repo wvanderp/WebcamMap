@@ -53,7 +53,6 @@ function ListComponents({ tree, level = 0 }: ListComponentsProps) {
 }
 
 function PlaceSitemapPage() {
-    // eslint-disable-next-line unicorn/prefer-object-from-entries, unicorn/no-array-reduce
     const tree = webcams.reduce(
         (accumulator, value: Webcam) => _.set(
             accumulator,
