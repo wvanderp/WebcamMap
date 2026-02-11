@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-restricted-syntax */
 import fs from 'fs';
 import path from 'path';
 import youtubedl from 'youtube-dl-exec';
@@ -36,9 +34,9 @@ async function isGoodYTLink(url: string): Promise<boolean> {
 
         return ytData.is_live === true;
     } catch (error) {
-        // @ts-expect-error
+        // @ts-expect-error error type from youtube-dl-exec is not properly typed
         if (error.stderr) {
-            // @ts-expect-error
+            // @ts-expect-error error type from youtube-dl-exec is not properly typed
             console.error(error.stderr);
         } else {
             console.error(error);

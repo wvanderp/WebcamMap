@@ -1,6 +1,3 @@
-/* eslint-disable no-restricted-syntax */
-/* eslint-disable no-console */
-
 import fs from 'fs';
 import path from 'path';
 import { Webcam } from '../../src/types/webcam';

@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable no-restricted-syntax */
 import fs from 'fs';
 import path from 'path';
 import { Webcam } from '../../src/types/webcam';
@@ -19,7 +17,6 @@ export default function lintInvalidUrls() {
         }
 
         try {
-            // eslint-disable-next-line no-new
             new URL(webcam.url);
         } catch {
             console.log(`Webcam ${webcam.osmID} has an invalid url: ${webcam.url}`);

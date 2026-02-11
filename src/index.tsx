@@ -50,5 +50,4 @@ root.render(
     </Router>
 );
 
-// eslint-disable-next-line no-console
 console.log('welcome to the CartoCams');

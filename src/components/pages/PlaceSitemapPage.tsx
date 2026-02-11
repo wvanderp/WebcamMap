@@ -1,5 +1,3 @@
-// @ts-nocheck
-/* eslint-disable unicorn/prefer-object-from-entries */
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
@@ -19,8 +17,7 @@ const levelLookup = {
 
 interface ListComponentsProps {
     tree: Record<string, unknown> | Webcam,
-    // eslint-disable-next-line react/require-default-props
-    level?: keyof typeof levelLookup | 4
+    level?: 0 | 1 | 2 | 3 | 4
 }
 
 function ListComponents({ tree, level = 0 }: ListComponentsProps) {
@@ -43,7 +40,7 @@ function ListComponents({ tree, level = 0 }: ListComponentsProps) {
                                 : <li><Link to={`/${levelLookup[level]}/${encodeUrl(key)}`} replace>{key}</Link></li>
                         }
                         <ul>
-                            <ListComponents tree={value} level={level + 1} />
+                            <ListComponents tree={value as Record<string, unknown> | Webcam} level={(level + 1) as 0 | 1 | 2 | 3 | 4} />
                         </ul>
                     </span>
                 ))

@@ -38,6 +38,12 @@ export default defineConfig([globalIgnores(["**/dist", "**/.eslintrc.cjs"]), {
         parser: tsParser,
     },
 
+    settings: {
+        react: {
+            version: "detect",
+        },
+    },
+
     rules: {
         "react-refresh/only-export-components": "off",
         "react/jsx-uses-react": "error",
