@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
@@ -27,6 +27,16 @@ function chunkArray<T>(items: T[], size: number): T[][] {
 
 function ListPage() {
     const params = useParams();
+
+    const title = params.name === undefined
+        ? null
+        : `${decodeUrl(params.name)} - CartoCams`;
+
+    useEffect(() => {
+        if (title !== null) {
+            document.title = title;
+        }
+    }, [title]);
 
     const url = (new URL(window.location.href)).pathname;
 
@@ -85,8 +95,6 @@ function ListPage() {
             </Row>
         )
     );
-
-    document.title = `${name} - CartoCams`;
 
     // TODO: make this page fit the bounds every time it moves to a divert part. look at leaflet fitBounds function
     return (

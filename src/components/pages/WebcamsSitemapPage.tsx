@@ -15,23 +15,15 @@ function WebcamsSitemapPage() {
     const [searchParams, setSearchParams] = useSearchParams();
     const pageParameter = searchParams.get('page');
     const [currentPage, setCurrentPage] = useState(pageParameter ? Number.parseInt(pageParameter, 10) : 1);
+    const safeCurrentPage = Math.min(Math.max(currentPage, 1), totalPages);
 
     // Update the URL whenever the current page changes
     useEffect(() => {
-        setSearchParams({ page: currentPage.toString() });
-    }, [currentPage, setSearchParams]);
-
-    // Ensure currentPage stays within valid bounds
-    useEffect(() => {
-        if (currentPage < 1) {
-            setCurrentPage(1);
-        } else if (currentPage > totalPages) {
-            setCurrentPage(totalPages);
-        }
-    }, [currentPage, totalPages]);
+        setSearchParams({ page: safeCurrentPage.toString() });
+    }, [safeCurrentPage, setSearchParams]);
 
     // Calculate the indices for slicing the webcams array
-    const indexOfLastWebcam = currentPage * itemsPerPage;
+    const indexOfLastWebcam = safeCurrentPage * itemsPerPage;
     const indexOfFirstWebcam = indexOfLastWebcam - itemsPerPage;
     const currentWebcams = webcams.slice(indexOfFirstWebcam, indexOfLastWebcam);
 
@@ -42,11 +34,13 @@ function WebcamsSitemapPage() {
         </Col>
     ));
 
-    document.title = 'Webcam - CartoCams';
+    useEffect(() => {
+        document.title = 'Webcam - CartoCams';
+    }, []);
 
     // Function to handle page changes
     const handlePageChange = (pageNumber: number) => {
-        setCurrentPage(pageNumber);
+        setCurrentPage(Math.min(Math.max(pageNumber, 1), totalPages));
     };
 
     // Generate pagination items
@@ -62,10 +56,10 @@ function WebcamsSitemapPage() {
         [totalPages - 2]: [1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages]
     } as const;
 
-    if (paginationLookup[currentPage]) {
-        pageNumbers.push(...paginationLookup[currentPage]);
+    if (paginationLookup[safeCurrentPage]) {
+        pageNumbers.push(...paginationLookup[safeCurrentPage]);
     } else {
-        pageNumbers.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
+        pageNumbers.push(1, '...', safeCurrentPage - 1, safeCurrentPage, safeCurrentPage + 1, '...', totalPages);
     }
 
     const paginationItems = [];
@@ -79,7 +73,7 @@ function WebcamsSitemapPage() {
             );
         } else {
             paginationItems.push(
-                <PaginationItem key={pageNumber} active={pageNumber === currentPage}>
+                <PaginationItem key={pageNumber} active={pageNumber === safeCurrentPage}>
                     <PaginationLink onClick={() => handlePageChange(pageNumber)}>
                         {pageNumber}
                     </PaginationLink>
@@ -99,12 +93,12 @@ function WebcamsSitemapPage() {
             <Row>
                 <Col>
                     <Pagination aria-label="Webcam pagination">
-                        <PaginationItem disabled={currentPage <= 1}>
-                            <PaginationLink previous onClick={() => handlePageChange(currentPage - 1)} />
+                        <PaginationItem disabled={safeCurrentPage <= 1}>
+                            <PaginationLink previous onClick={() => handlePageChange(safeCurrentPage - 1)} />
                         </PaginationItem>
                         {paginationItems}
-                        <PaginationItem disabled={currentPage >= totalPages}>
-                            <PaginationLink next onClick={() => handlePageChange(currentPage + 1)} />
+                        <PaginationItem disabled={safeCurrentPage >= totalPages}>
+                            <PaginationLink next onClick={() => handlePageChange(safeCurrentPage + 1)} />
                         </PaginationItem>
                     </Pagination>
                 </Col>

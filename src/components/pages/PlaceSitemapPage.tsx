@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -86,7 +86,9 @@ function PlaceSitemapPage() {
         {} as Record<string, unknown>
     );
 
-    document.title = 'Places - CartoCams';
+    useEffect(() => {
+        document.title = 'Places - CartoCams';
+    }, []);
     return (
         <Container fluid>
             <Row>
