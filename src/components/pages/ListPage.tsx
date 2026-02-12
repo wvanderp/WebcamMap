@@ -9,6 +9,7 @@ import { Col, Container, Row } from 'reactstrap';
 import PopupContent from '../parts/PopupContent';
 import { Webcam } from '../../types/webcam';
 import { decodeUrl, encodeUrl } from '../../utils/encodeUrl';
+import { addBreadcrumb, setContext, setTag } from '../../sentry';
 
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
@@ -32,13 +33,35 @@ function ListPage() {
         ? null
         : `${decodeUrl(params.name)} - CartoCams`;
 
-    useEffect(() => {
-        if (title !== null) {
-            document.title = title;
-        }
-    }, [title]);
-
     const url = (new URL(window.location.href)).pathname;
+    const type = url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
+    const name = params.name ? decodeUrl(params.name) : '';
+
+    React.useEffect(() => {
+        if (title !== null && params.name) {
+            document.title = title;
+
+            // Track location list view
+            addBreadcrumb({
+                category: 'navigation',
+                message: `Viewed ${type} list: ${name}`,
+                level: 'info',
+                data: {
+                    locationType: type,
+                    locationName: name,
+                },
+            });
+
+            // Set context for better error debugging
+            setContext('location', {
+                type,
+                name,
+            });
+
+            // Set tags for filtering
+            setTag('location.type', type);
+        }
+    }, [title, type, name, params.name]);
 
     if (params.name === undefined) {
         return <Navigate to="/404" replace />;
@@ -47,9 +70,6 @@ function ListPage() {
     if (params.name.includes(' ')) {
         return <Navigate to={encodeUrl(decodeUrl(params.name))} replace />;
     }
-
-    const name = decodeUrl(params.name);
-    const type = url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
 
     if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
         return <Navigate to="/404" replace />;
@@ -82,12 +102,14 @@ function ListPage() {
         <PopupContent key={r.osmID} webcam={r} />
     ));
 
+<<<<<<< HEAD
     const tableBody = chunkArray(webcamTiles, 4).map(
         (r, index) => (
             <Row key={index}>
                 {
                     r.map(
-                        (t, index_) => (
+                        (t: React.ReactNode, index_: number) => (
+                            // eslint-disable-next-line react/no-array-index-key
                             <Col lg={3} md={6} sm={12} key={index_}>{t}</Col>
                         )
                     )

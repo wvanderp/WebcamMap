@@ -16,6 +16,7 @@ import webcams from '../../webcams';
 import { Webcam } from '../../types/webcam';
 import AddressBreadCrumb from '../parts/AddressBreadCrumb';
 import generateName from '../../utils/generateName';
+import { addBreadcrumb, setContext, setTag } from '../../sentry';
 
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
@@ -27,9 +28,35 @@ function WebcamPage() {
         ? undefined
         : webcams.find((item: Webcam) => item.osmID === Number.parseInt(id, 10));
 
-    useEffect(() => {
+    React.useEffect(() => {
         if (webcam !== undefined) {
             document.title = `${generateName(webcam)} - CartoCams`;
+
+            // Track webcam view in Sentry
+            addBreadcrumb({
+                category: 'navigation',
+                message: `Viewed webcam: ${generateName(webcam)}`,
+                level: 'info',
+                data: {
+                    webcamId: webcam.osmID,
+                    webcamType: webcam.osmType,
+                },
+            });
+
+            // Set context for better error debugging
+            setContext('webcam', {
+                id: webcam.osmID,
+                type: webcam.osmType,
+                name: generateName(webcam),
+                country: webcam.address.country,
+                lat: webcam.lat,
+                lon: webcam.lon,
+            });
+
+            // Set tags for filtering in Sentry
+            if (webcam.address.country) {
+                setTag('webcam.country', webcam.address.country);
+            }
         }
     }, [webcam]);
 

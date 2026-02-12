@@ -6,6 +6,7 @@ import L, { MarkerCluster } from 'leaflet';
 
 import { Webcam } from '../../types/webcam';
 import webcams from '../../webcams';
+import { addBreadcrumb, setTag } from '../../sentry';
 
 import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
@@ -23,8 +24,21 @@ function MapView() {
         }
         return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
     });
-    useEffect(() => {
+
+    React.useEffect(() => {
         document.title = 'CartoCams';
+
+        // Track map view
+        addBreadcrumb({
+            category: 'navigation',
+            message: 'Viewed main map',
+            level: 'info',
+            data: {
+                totalWebcams: webcams.length,
+            },
+        });
+
+        setTag('view', 'map');
     }, []);
 
     return (

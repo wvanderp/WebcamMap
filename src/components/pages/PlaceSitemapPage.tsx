@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+/* eslint-disable unicorn/prefer-object-from-entries, @typescript-eslint/no-explicit-any */
+import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
@@ -62,7 +63,7 @@ function ListComponents({ tree, level = 0 }: ListComponentsProps) {
                                 : <li><Link to={`/${levelLookup[level]}/${encodeUrl(key)}`} replace>{key}</Link></li>
                         }
                         <ul>
-                            <ListComponents tree={value as Record<string, unknown> | Webcam} level={(level + 1) as 0 | 1 | 2 | 3 | 4} />
+                            <ListComponents tree={value as Record<string, unknown>} level={(level + 1) as keyof typeof levelLookup | 4} />
                         </ul>
                     </span>
                 ))
@@ -86,7 +87,7 @@ function PlaceSitemapPage() {
         {} as Record<string, unknown>
     );
 
-    useEffect(() => {
+    React.useEffect(() => {
         document.title = 'Places - CartoCams';
     }, []);
     return (

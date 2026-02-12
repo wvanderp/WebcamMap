@@ -1,5 +1,5 @@
 import { fixupConfigRules } from "@eslint/compat";
-import reactRefresh from "eslint-plugin-react-refresh";
+// import reactRefresh from "eslint-plugin-react-refresh"; // Not installed
 import globals from "globals";
 import tsParser from "@typescript-eslint/parser";
 import path from "node:path";
@@ -31,7 +31,6 @@ export default [
   ),
   {
     plugins: {
-      "react-refresh": reactRefresh,
       unicorn: eslintPluginUnicorn,
     },
     languageOptions: {
@@ -52,6 +51,13 @@ export default [
       "react-refresh/only-export-components": "off",
       "react/jsx-uses-react": "error",
       "react/react-in-jsx-scope": "off",
+      "no-restricted-syntax": [
+        "error",
+        {
+          selector: "VariableDeclaration[kind='let']",
+          message: "let is not allowed, use const instead",
+        },
+      ],
     },
   },
 ];
