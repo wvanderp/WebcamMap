@@ -1,7 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-
-import _ from 'lodash';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';
@@ -17,8 +15,28 @@ import WebcamMarker from '../parts/Marker';
 
 import webcams from '../../webcams';
 
+function chunkArray<T>(items: T[], size: number): T[][] {
+    const chunks: T[][] = [];
+
+    for (let index = 0; index < items.length; index += size) {
+        chunks.push(items.slice(index, index + size));
+    }
+
+    return chunks;
+}
+
 function ListPage() {
     const params = useParams();
+
+    const title = params.name === undefined
+        ? null
+        : `${decodeUrl(params.name)} - CartoCams`;
+
+    useEffect(() => {
+        if (title !== null) {
+            document.title = title;
+        }
+    }, [title]);
 
     const url = (new URL(window.location.href)).pathname;
 
@@ -64,7 +82,7 @@ function ListPage() {
         <PopupContent key={r.osmID} webcam={r} />
     ));
 
-    const tableBody = _.chunk(webcamTiles, 4).map(
+    const tableBody = chunkArray(webcamTiles, 4).map(
         (r, index) => (
             <Row key={index}>
                 {
@@ -77,8 +95,6 @@ function ListPage() {
             </Row>
         )
     );
-
-    document.title = `${name} - CartoCams`;
 
     // TODO: make this page fit the bounds every time it moves to a divert part. look at leaflet fitBounds function
     return (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import { useParams } from 'react-router';
 import { Navigate } from 'react-router-dom';
@@ -23,17 +23,24 @@ import WebcamMarker from '../parts/Marker';
 function WebcamPage() {
     const { id } = useParams();
 
+    const webcam: Webcam | undefined = id === undefined
+        ? undefined
+        : webcams.find((item: Webcam) => item.osmID === Number.parseInt(id, 10));
+
+    useEffect(() => {
+        if (webcam !== undefined) {
+            document.title = `${generateName(webcam)} - CartoCams`;
+        }
+    }, [webcam]);
+
     if (id === undefined) {
         return <Navigate to="/404" replace />;
     }
 
-    const filteredWebcams: Webcam[] = webcams.filter((webcam: Webcam) => webcam.osmID === Number.parseInt(id, 10));
-
-    if (filteredWebcams.length !== 1) {
+    if (webcam === undefined) {
         return <Navigate to="/404" />;
     }
 
-    const webcam = filteredWebcams[0];
     const marker = (<WebcamMarker webcam={webcam} />);
 
     const pattern = /^((http|https|ftp):\/\/)/;
@@ -49,7 +56,6 @@ function WebcamPage() {
     );
 
     const cardTitle = generateName(webcam);
-    document.title = `${cardTitle} - CartoCams`;
 
     return (
         <div>

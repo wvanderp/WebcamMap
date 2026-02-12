@@ -1,6 +1,3 @@
-/* eslint-disable unicorn/no-array-reduce */
-/* eslint-disable no-console */
-/* eslint-disable no-restricted-syntax */
 import fs from 'fs';
 import path from 'path';
 import axios, { AxiosError } from 'axios';

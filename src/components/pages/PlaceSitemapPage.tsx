@@ -1,9 +1,6 @@
-// @ts-nocheck
-/* eslint-disable unicorn/prefer-object-from-entries */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import _ from 'lodash';
 
 import webcams from '../../webcams';
 
@@ -19,8 +16,30 @@ const levelLookup = {
 
 interface ListComponentsProps {
     tree: Record<string, unknown> | Webcam,
-    // eslint-disable-next-line react/require-default-props
-    level?: keyof typeof levelLookup | 4
+    level?: 0 | 1 | 2 | 3 | 4
+}
+
+function setNestedValue(target: Record<string, unknown>, path: string[], value: Webcam): Record<string, unknown> {
+    let current: Record<string, unknown> = target;
+
+    for (const [index, key] of path.entries()) {
+        const isLast = index === path.length - 1;
+
+        if (isLast) {
+            current[key] = value;
+            continue;
+        }
+
+        const nextValue = current[key];
+
+        if (typeof nextValue !== 'object' || nextValue === null || Array.isArray(nextValue) || 'osmID' in (nextValue as Record<string, unknown>)) {
+            current[key] = {};
+        }
+
+        current = current[key] as Record<string, unknown>;
+    }
+
+    return target;
 }
 
 function ListComponents({ tree, level = 0 }: ListComponentsProps) {
@@ -43,7 +62,7 @@ function ListComponents({ tree, level = 0 }: ListComponentsProps) {
                                 : <li><Link to={`/${levelLookup[level]}/${encodeUrl(key)}`} replace>{key}</Link></li>
                         }
                         <ul>
-                            <ListComponents tree={value} level={level + 1} />
+                            <ListComponents tree={value as Record<string, unknown> | Webcam} level={(level + 1) as 0 | 1 | 2 | 3 | 4} />
                         </ul>
                     </span>
                 ))
@@ -54,7 +73,7 @@ function ListComponents({ tree, level = 0 }: ListComponentsProps) {
 
 function PlaceSitemapPage() {
     const tree = webcams.reduce(
-        (accumulator, value: Webcam) => _.set(
+        (accumulator, value: Webcam) => setNestedValue(
             accumulator,
             [
                 value.address.country ?? 'unknown',
@@ -64,10 +83,12 @@ function PlaceSitemapPage() {
             ],
             value
         ),
-        {}
+        {} as Record<string, unknown>
     );
 
-    document.title = 'Places - CartoCams';
+    useEffect(() => {
+        document.title = 'Places - CartoCams';
+    }, []);
     return (
         <Container fluid>
             <Row>

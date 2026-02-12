@@ -1,6 +1,3 @@
-/* eslint-disable unicorn/no-array-reduce */
-/* eslint-disable no-console */
-/* eslint-disable unicorn/no-process-exit */
 import axios, { AxiosResponse } from 'axios';
 import fs from 'fs';
 import countries from 'i18n-iso-countries';
@@ -95,7 +92,6 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
     return nominatimCache[cacheKey];
 };
 
-// eslint-disable-next-line sonarjs/cognitive-complexity
 (async (): Promise<void> => {
     if (!fs.existsSync('./data/')) {
         fs.mkdirSync('./data/');
@@ -127,7 +123,6 @@ const queryNominatim = async (lat: number, lon: number): Promise<NominatimRespon
 
     const webcams: Webcam[] = [];
 
-    // eslint-disable-next-line no-restricted-syntax
     for (const r of nodes) {
         if (r.tags === undefined) {
             continue;
@@ -198,7 +193,6 @@ function exitHandler(options: unknown, error: unknown) {
     console.log('writing cache file');
     const nominatimCacheOrdered = Object.keys(nominatimCache).sort().reduce<NominatimCache>(
         (object, key) => {
-            // eslint-disable-next-line no-param-reassign
             object[key] = nominatimCache[key];
             return object;
         },

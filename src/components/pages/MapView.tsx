@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
 import MarkerClusterGroup from 'react-leaflet-cluster';
@@ -23,7 +23,9 @@ function MapView() {
         }
         return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
     });
-    document.title = 'CartoCams';
+    useEffect(() => {
+        document.title = 'CartoCams';
+    }, []);
 
     return (
         <div>
