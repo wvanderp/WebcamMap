@@ -24,17 +24,18 @@ interface FilterButtonProps {
     text?: string;
 }
 
-// @ts-expect-error Props not properly typed due to dynamic component usage
-// eslint-disable-next-line react/prop-types
-function FilterButton({ filters, setFilter, index, text }) {
+function FilterButton({ filters, setFilter, index, text }: FilterButtonProps) {
     return (
         <span
             role="button"
             tabIndex={0}
-            onClick={() => setFilter(prev => ({
-                ...prev,
-                [index]: !prev[index]
-            }))}
+            onClick={() => setFilter((prev: Filters) => {
+                const updated: Filters = {
+                    ...prev,
+                    [index]: !prev[index]
+                };
+                return updated;
+            })}
             style={{ fontWeight: filters[index] ? 'bold' : 'normal' }}
         >
             {text || index}

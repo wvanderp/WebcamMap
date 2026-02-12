@@ -1,4 +1,4 @@
-/* eslint-disable unicorn/prefer-object-from-entries, @typescript-eslint/no-explicit-any */
+/* eslint-disable unicorn/prefer-object-from-entries, @typescript-eslint/no-explicit-any, no-restricted-syntax */
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';

@@ -44,17 +44,6 @@ async function isGoodYTLink(url: string): Promise<boolean> {
       console.error(error);
     }
     return false;
-
-    return ytData.is_live === true;
-  } catch (error) {
-    // @ts-expect-error error type is unknown in catch block
-    if (error.stderr) {
-      // @ts-expect-error stderr property exists on error object
-      console.error(error.stderr);
-    } else {
-      console.error(error);
-    }
-    return false;
   }
 }
 

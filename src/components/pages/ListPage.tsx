@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
@@ -19,6 +19,7 @@ import webcams from '../../webcams';
 function chunkArray<T>(items: T[], size: number): T[][] {
     const chunks: T[][] = [];
 
+    // eslint-disable-next-line no-restricted-syntax
     for (let index = 0; index < items.length; index += size) {
         chunks.push(items.slice(index, index + size));
     }
@@ -102,7 +103,6 @@ function ListPage() {
         <PopupContent key={r.osmID} webcam={r} />
     ));
 
-<<<<<<< HEAD
     const tableBody = chunkArray(webcamTiles, 4).map(
         (r, index) => (
             <Row key={index}>

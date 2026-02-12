@@ -214,6 +214,8 @@ function exitHandler(options: unknown, error: unknown) {
     "./data/nominatimCache.json",
     JSON.stringify(nominatimCacheOrdered, null, 2),
   );
+
+  if (error) {
     console.error(error);
     process.exit(1);
   }
