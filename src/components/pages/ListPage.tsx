@@ -1,8 +1,6 @@
 import React from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 
-import _ from 'lodash';
-
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';
 
@@ -16,6 +14,16 @@ import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
 
 import webcams from '../../webcams';
+
+function chunkArray<T>(items: T[], size: number): T[][] {
+    const chunks: T[][] = [];
+
+    for (let index = 0; index < items.length; index += size) {
+        chunks.push(items.slice(index, index + size));
+    }
+
+    return chunks;
+}
 
 function ListPage() {
     const params = useParams();
@@ -64,7 +72,7 @@ function ListPage() {
         <PopupContent key={r.osmID} webcam={r} />
     ));
 
-    const tableBody = _.chunk(webcamTiles, 4).map(
+    const tableBody = chunkArray(webcamTiles, 4).map(
         (r, index) => (
             <Row key={index}>
                 {
