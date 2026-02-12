@@ -5,7 +5,9 @@ import { Navigate } from 'react-router-dom';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
 
-import { Col, Container, Row, Table } from 'reactstrap';
+import {
+	Col, Container, Row, Table
+} from 'reactstrap';
 
 import '../../style/WebcamPage.sass';
 
@@ -22,124 +24,124 @@ import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
 
 function WebcamPage() {
-    const { id } = useParams();
+	const { id } = useParams();
 
-    const webcam: Webcam | undefined = id === undefined
-        ? undefined
-        : webcams.find((item: Webcam) => item.osmID === Number.parseInt(id, 10));
+	const webcam: Webcam | undefined = id === undefined
+		? undefined
+		: webcams.find((item: Webcam) => item.osmID === Number.parseInt(id, 10));
 
-    React.useEffect(() => {
-        if (webcam !== undefined) {
-            document.title = `${generateName(webcam)} - CartoCams`;
+	React.useEffect(() => {
+		if (webcam !== undefined) {
+			document.title = `${generateName(webcam)} - CartoCams`;
 
-            // Track webcam view in Sentry
-            addBreadcrumb({
-                category: 'navigation',
-                message: `Viewed webcam: ${generateName(webcam)}`,
-                level: 'info',
-                data: {
-                    webcamId: webcam.osmID,
-                    webcamType: webcam.osmType,
-                },
-            });
+			// Track webcam view in Sentry
+			addBreadcrumb({
+				category: 'navigation',
+				message: `Viewed webcam: ${generateName(webcam)}`,
+				level: 'info',
+				data: {
+					webcamId: webcam.osmID,
+					webcamType: webcam.osmType
+				}
+			});
 
-            // Set context for better error debugging
-            setContext('webcam', {
-                id: webcam.osmID,
-                type: webcam.osmType,
-                name: generateName(webcam),
-                country: webcam.address.country,
-                lat: webcam.lat,
-                lon: webcam.lon,
-            });
+			// Set context for better error debugging
+			setContext('webcam', {
+				id: webcam.osmID,
+				type: webcam.osmType,
+				name: generateName(webcam),
+				country: webcam.address.country,
+				lat: webcam.lat,
+				lon: webcam.lon
+			});
 
-            // Set tags for filtering in Sentry
-            if (webcam.address.country) {
-                setTag('webcam.country', webcam.address.country);
-            }
-        }
-    }, [webcam]);
+			// Set tags for filtering in Sentry
+			if (webcam.address.country) {
+				setTag('webcam.country', webcam.address.country);
+			}
+		}
+	}, [webcam]);
 
-    if (id === undefined) {
-        return <Navigate to="/404" replace />;
-    }
+	if (id === undefined) {
+		return <Navigate to="/404" replace />;
+	}
 
-    if (webcam === undefined) {
-        return <Navigate to="/404" />;
-    }
+	if (webcam === undefined) {
+		return <Navigate to="/404" />;
+	}
 
-    const marker = (<WebcamMarker webcam={webcam} />);
+	const marker = (<WebcamMarker webcam={webcam} />);
 
-    const pattern = /^((http|https|ftp):\/\/)/;
-    const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
+	const pattern = /^((http|https|ftp):\/\/)/;
+	const url = pattern.test(webcam.url) ? webcam.url : `http://${webcam.url}`;
 
-    const tableBody = Object.entries(webcam.osmTags).map(
-        ([key, value]) => (
-            <tr key={`${key}-${value}`}>
-                <td>{key}</td>
-                <td>{value}</td>
-            </tr>
-        )
-    );
+	const tableBody = Object.entries(webcam.osmTags).map(
+		([key, value]) => (
+			<tr key={`${key}-${value}`}>
+				<td>{key}</td>
+				<td>{value}</td>
+			</tr>
+		)
+	);
 
-    const cardTitle = generateName(webcam);
+	const cardTitle = generateName(webcam);
 
-    return (
-        <div>
-            <MapContainer
-                center={[webcam.lat, webcam.lon]}
-                zoom={17}
-                id="miniMap"
-            >
-                <TileLayer
-                    attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <UpdateMap />
-                {marker}
-            </MapContainer>
-            <Container fluid>
-                <Row>
-                    <Col md={6}>
-                        <h1>{cardTitle}</h1>
-                    </Col>
-                    <Col md={6}>
-                        <a
-                            href={`https://www.openstreetmap.org/${webcam.osmType}/${webcam.osmID}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <OsmIcon id="osmLogo" aria-label="OSM Entity" />
-                        </a>
-                        <a
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <PlayIcon
-                                id="osmLogo"
-                                aria-label="Play The Stream"
-                            />
-                        </a>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md={12}>
-                        <AddressBreadCrumb address={webcam.address} />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md={12}>
-                        <Table>
-                            <tbody>
-                                {tableBody}
-                            </tbody>
-                        </Table>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    );
+	return (
+		<div>
+			<MapContainer
+				center={[webcam.lat, webcam.lon]}
+				zoom={17}
+				id="miniMap"
+			>
+				<TileLayer
+					attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+					url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+				/>
+				<UpdateMap />
+				{marker}
+			</MapContainer>
+			<Container fluid>
+				<Row>
+					<Col md={6}>
+						<h1>{cardTitle}</h1>
+					</Col>
+					<Col md={6}>
+						<a
+							href={`https://www.openstreetmap.org/${webcam.osmType}/${webcam.osmID}`}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<OsmIcon id="osmLogo" aria-label="OSM Entity" />
+						</a>
+						<a
+							href={url}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<PlayIcon
+								id="osmLogo"
+								aria-label="Play The Stream"
+							/>
+						</a>
+					</Col>
+				</Row>
+				<Row>
+					<Col md={12}>
+						<AddressBreadCrumb address={webcam.address} />
+					</Col>
+				</Row>
+				<Row>
+					<Col md={12}>
+						<Table>
+							<tbody>
+								{tableBody}
+							</tbody>
+						</Table>
+					</Col>
+				</Row>
+			</Container>
+		</div>
+	);
 }
 
 export default WebcamPage;

@@ -12,55 +12,55 @@ import UpdateMap from '../../utils/UpdateMap';
 import WebcamMarker from '../parts/Marker';
 
 const createClusterCustomIcon = (cluster: MarkerCluster) => L.divIcon({
-    html: `<span>${cluster.getChildCount()}</span>`,
-    className: 'custom-marker-cluster',
-    iconSize: L.point(33, 33, true)
+	html: `<span>${cluster.getChildCount()}</span>`,
+	className: 'custom-marker-cluster',
+	iconSize: L.point(33, 33, true)
 });
 
 function MapView() {
-    const markers = webcams.map((webcam: Webcam) => {
-        if (webcam === null) {
-            return null;
-        }
-        return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
-    });
+	const markers = webcams.map((webcam: Webcam) => {
+		if (webcam === null) {
+			return null;
+		}
+		return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
+	});
 
-    React.useEffect(() => {
-        document.title = 'CartoCams';
+	React.useEffect(() => {
+		document.title = 'CartoCams';
 
-        // Track map view
-        addBreadcrumb({
-            category: 'navigation',
-            message: 'Viewed main map',
-            level: 'info',
-            data: {
-                totalWebcams: webcams.length,
-            },
-        });
+		// Track map view
+		addBreadcrumb({
+			category: 'navigation',
+			message: 'Viewed main map',
+			level: 'info',
+			data: {
+				totalWebcams: webcams.length
+			}
+		});
 
-        setTag('view', 'map');
-    }, []);
+		setTag('view', 'map');
+	}, []);
 
-    return (
-        <div>
-            <MapContainer
-                center={[0, 0]}
-                zoom={2}
-                id="map"
-            >
-                <TileLayer
-                    attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <UpdateMap />
-                <MarkerClusterGroup
-                    iconCreateFunction={createClusterCustomIcon}
-                >
-                    {markers}
-                </MarkerClusterGroup>
-            </MapContainer>
-        </div>
-    );
+	return (
+		<div>
+			<MapContainer
+				center={[0, 0]}
+				zoom={2}
+				id="map"
+			>
+				<TileLayer
+					attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+					url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+				/>
+				<UpdateMap />
+				<MarkerClusterGroup
+					iconCreateFunction={createClusterCustomIcon}
+				>
+					{markers}
+				</MarkerClusterGroup>
+			</MapContainer>
+		</div>
+	);
 }
 
 export default MapView;

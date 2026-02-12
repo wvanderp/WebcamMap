@@ -8,10 +8,10 @@ interface defaultStateType{
 }
 
 const defaultState: defaultStateType = {
-    location: {
-        coordinates: [0, 0],
-        zoom: 2
-    }
+	location: {
+		coordinates: [0, 0],
+		zoom: 2
+	}
 };
 
 const { useGlobalState } = createGlobalState(defaultState);

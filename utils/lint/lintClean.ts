@@ -6,15 +6,16 @@ const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
 // clean out empty lint objects
 export default function lintClean() {
-    console.log('cleaning lint objects');
+	// eslint-disable-next-line no-console
+	console.log('cleaning lint objects');
 
-    const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
+	const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
 
-    for (const webcam of webcams) {
-        if (webcam.lint && Object.keys(webcam.lint).length === 0) {
-            delete webcam.lint;
-        }
-    }
+	for (const webcam of webcams) {
+		if (webcam.lint && Object.keys(webcam.lint).length === 0) {
+			delete webcam.lint;
+		}
+	}
 
-    fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
+	fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
 }

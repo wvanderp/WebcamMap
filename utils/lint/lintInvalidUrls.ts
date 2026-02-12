@@ -6,30 +6,33 @@ const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
 // mark links invalid if they are not valid urls
 export default function lintInvalidUrls() {
-    const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
+	const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
 
-    const invalidUrls: Webcam[] = [];
+	const invalidUrls: Webcam[] = [];
 
-    for (const webcam of webcams) {
-        if (webcam.url.length === 0) {
-            console.log(`Webcam ${webcam.osmID} has no url`);
-            invalidUrls.push(webcam);
-        }
+	for (const webcam of webcams) {
+		if (webcam.url.length === 0) {
+			// eslint-disable-next-line no-console
+			console.log(`Webcam ${webcam.osmID} has no url`);
+			invalidUrls.push(webcam);
+		}
 
-        try {
-            new URL(webcam.url);
-        } catch {
-            console.log(`Webcam ${webcam.osmID} has an invalid url: ${webcam.url}`);
-            invalidUrls.push(webcam);
-        }
-    }
+		try {
 
-    for (const webcam of invalidUrls) {
-        webcam.lint = {
-            ...webcam.lint,
-            invalidUrl: true
-        };
-    }
+			new URL(webcam.url);
+		} catch {
+			// eslint-disable-next-line no-console
+			console.log(`Webcam ${webcam.osmID} has an invalid url: ${webcam.url}`);
+			invalidUrls.push(webcam);
+		}
+	}
 
-    fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
+	for (const webcam of invalidUrls) {
+		webcam.lint = {
+			...webcam.lint,
+			invalidUrl: true
+		};
+	}
+
+	fs.writeFileSync(webcamPath, JSON.stringify(webcams, null, 2));
 }

@@ -15,18 +15,18 @@ import { Webcam } from '../../src/types/webcam';
 const webcamPath = path.join(__dirname, '../../data', './webcams.json');
 
 (async () => {
-    // format checking
-    const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
+	// format checking
+	const webcams = JSON.parse(fs.readFileSync(webcamPath).toString()) as Webcam[];
 
-    if (webcams.length === 0) {
-        throw new Error('webcams.json is empty');
-    }
+	if (webcams.length === 0) {
+		throw new Error('webcams.json is empty');
+	}
 
-    // data checking
-    await lintYoutube();
-    await lint404();
-    lintDuplicates();
-    lintInvalidUrls();
+	// data checking
+	await lintYoutube();
+	await lint404();
+	lintDuplicates();
+	lintInvalidUrls();
 
-    lintClean();
+	lintClean();
 })().catch((error) => { throw error; });

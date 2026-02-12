@@ -17,137 +17,133 @@ import WebcamMarker from '../parts/Marker';
 import webcams from '../../webcams';
 
 function chunkArray<T>(items: T[], size: number): T[][] {
-    const chunks: T[][] = [];
+	const chunks: T[][] = [];
 
-    // eslint-disable-next-line no-restricted-syntax
-    for (let index = 0; index < items.length; index += size) {
-        chunks.push(items.slice(index, index + size));
-    }
+	// eslint-disable-next-line no-restricted-syntax
+	for (let index = 0; index < items.length; index += size) {
+		chunks.push(items.slice(index, index + size));
+	}
 
-    return chunks;
+	return chunks;
 }
 
 function ListPage() {
-    const params = useParams();
+	const params = useParams();
 
-    const title = params.name === undefined
-        ? null
-        : `${decodeUrl(params.name)} - CartoCams`;
+	const title = params.name === undefined
+		? null
+		: `${decodeUrl(params.name)} - CartoCams`;
 
-    const url = (new URL(window.location.href)).pathname;
-    const type = url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
-    const name = params.name ? decodeUrl(params.name) : '';
+	const url = (new URL(window.location.href)).pathname;
+	const type = url.split('/')[1] as 'country' | 'state' | 'county' | 'city';
+	const name = params.name ? decodeUrl(params.name) : '';
 
-    React.useEffect(() => {
-        if (title !== null && params.name) {
-            document.title = title;
+	React.useEffect(() => {
+		if (title !== null && params.name) {
+			document.title = title;
 
-            // Track location list view
-            addBreadcrumb({
-                category: 'navigation',
-                message: `Viewed ${type} list: ${name}`,
-                level: 'info',
-                data: {
-                    locationType: type,
-                    locationName: name,
-                },
-            });
+			// Track location list view
+			addBreadcrumb({
+				category: 'navigation',
+				message: `Viewed ${type} list: ${name}`,
+				level: 'info',
+				data: {
+					locationType: type,
+					locationName: name
+				}
+			});
 
-            // Set context for better error debugging
-            setContext('location', {
-                type,
-                name,
-            });
+			// Set context for better error debugging
+			setContext('location', {
+				type,
+				name
+			});
 
-            // Set tags for filtering
-            setTag('location.type', type);
-        }
-    }, [title, type, name, params.name]);
+			// Set tags for filtering
+			setTag('location.type', type);
+		}
+	}, [title, type, name, params.name]);
 
-    if (params.name === undefined) {
-        return <Navigate to="/404" replace />;
-    }
+	if (params.name === undefined) {
+		return <Navigate to="/404" replace />;
+	}
 
-    if (params.name.includes(' ')) {
-        return <Navigate to={encodeUrl(decodeUrl(params.name))} replace />;
-    }
+	if (params.name.includes(' ')) {
+		return <Navigate to={encodeUrl(decodeUrl(params.name))} replace />;
+	}
 
-    if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
-        return <Navigate to="/404" replace />;
-    }
+	if (type !== 'country' && type !== 'state' && type !== 'county' && type !== 'city') {
+		return <Navigate to="/404" replace />;
+	}
 
-    const filteredWebcams: Webcam[] = webcams.filter(
-        (r: Webcam) => r.address[type]?.toLowerCase() === name.toLowerCase()
-    );
+	const filteredWebcams: Webcam[] = webcams.filter(
+		(r: Webcam) => r.address[type]?.toLowerCase() === name.toLowerCase()
+	);
 
-    if (filteredWebcams.length === 0) {
-        return <Navigate to="/404" replace />;
-    }
+	if (filteredWebcams.length === 0) {
+		return <Navigate to="/404" replace />;
+	}
 
-    const lats: Webcam['lat'][] = filteredWebcams.map((webcam) => webcam.lat);
-    const lons: Webcam['lon'][] = filteredWebcams.map((webcam) => webcam.lon);
+	const lats: Webcam['lat'][] = filteredWebcams.map((webcam) => webcam.lat);
+	const lons: Webcam['lon'][] = filteredWebcams.map((webcam) => webcam.lon);
 
-    const bounds: LatLngBoundsLiteral = [
-        [Math.max(...lats), Math.min(...lons)],
-        [Math.min(...lats), Math.max(...lons)]
-    ];
+	const bounds: LatLngBoundsLiteral = [
+		[Math.max(...lats), Math.min(...lons)],
+		[Math.min(...lats), Math.max(...lons)]
+	];
 
-    const markers = filteredWebcams.map((webcam) => {
-        if (webcam === null) {
-            return null;
-        }
-        return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
-    });
+	const markers = filteredWebcams.map((webcam) => {
+		if (webcam === null) {
+			return null;
+		}
+		return (<WebcamMarker key={webcam.osmID} webcam={webcam} />);
+	});
 
-    const webcamTiles = filteredWebcams.map((r) => (
-        <PopupContent key={r.osmID} webcam={r} />
-    ));
+	const tableBody = chunkArray(filteredWebcams, 4).map(
+		(chunk) => (
+			<Row key={chunk.map((w) => w.osmID).join('-')}>
+				{
+					chunk.map((webcam) => (
+						<Col lg={3} md={6} sm={12} key={webcam.osmID}>
+							<PopupContent webcam={webcam} />
+						</Col>
+					))
+				}
+			</Row>
+		)
+	);
 
-    const tableBody = chunkArray(webcamTiles, 4).map(
-        (r, index) => (
-            <Row key={index}>
-                {
-                    r.map(
-                        (t: React.ReactNode, index_: number) => (
-                            // eslint-disable-next-line react/no-array-index-key
-                            <Col lg={3} md={6} sm={12} key={index_}>{t}</Col>
-                        )
-                    )
-                }
-            </Row>
-        )
-    );
-
-    // TODO: make this page fit the bounds every time it moves to a divert part. look at leaflet fitBounds function
-    return (
-        <div>
-            <MapContainer
-                bounds={bounds}
-                id={'miniMap'}
-            >
-                <TileLayer
-                    attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
-                <UpdateMap />
-                {markers}
-            </MapContainer>
-            <Container fluid>
-                <Row>
-                    <Col md={6}>
-                        <h1>{name}</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Container fluid>
-                            {tableBody}
-                        </Container>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
-    );
+	// TODO: make this page fit the bounds every time it moves
+	// to a different part. Look at leaflet fitBounds function
+	return (
+		<div>
+			<MapContainer
+				bounds={bounds}
+				id="miniMap"
+			>
+				<TileLayer
+					attribution='&amp;copy <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
+					url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+				/>
+				<UpdateMap />
+				{markers}
+			</MapContainer>
+			<Container fluid>
+				<Row>
+					<Col md={6}>
+						<h1>{name}</h1>
+					</Col>
+				</Row>
+				<Row>
+					<Col>
+						<Container fluid>
+							{tableBody}
+						</Container>
+					</Col>
+				</Row>
+			</Container>
+		</div>
+	);
 }
 
 export default ListPage;
