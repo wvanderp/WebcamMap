@@ -80,7 +80,7 @@
     "eslint": "eslint src/ utils/",
     "tsc": "tsc --noEmit",
     "collect": "ts-node -P tsconfig.update.json --files utils/collect.ts",
-    "lintData": "ts-node utils/lint/",
+    "lintData": "ts-node -P tsconfig.update.json utils/lint/",
     "clean": "rimraf dist build node_modules/ && npm i"
   }
 }
