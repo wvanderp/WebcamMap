@@ -23,10 +23,8 @@ async function isGoodYTLink(url: string): Promise<boolean> {
 		const ytData = await youtubedl(url, {
 			dumpSingleJson: true,
 			noWarnings: true,
-			callHome: false,
 			noCheckCertificates: true,
 			preferFreeFormats: true,
-			youtubeSkipDashManifest: true,
 			addHeader: ['referer:youtube.com', 'user-agent:googlebot']
 		});
 

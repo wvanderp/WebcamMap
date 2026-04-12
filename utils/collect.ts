@@ -43,12 +43,66 @@ const nominatimCache = getNominatimCache();
 const getNominatimUrl = (lat: number, lon: number) => `https://nominatim.openstreetmap.org/reverse?lon=${lon}&lat=${lat}&format=json&extratags=1&accept-language=en`;
 
 // overpass url
-const overpassBase = 'https://overpass-api.de/api/interpreter?data=';
 const query = fs
 	.readFileSync(path.join(__dirname, '../overpassQuery.overpassql'))
 	.toString();
+const overpassEndpoints = [
+	'https://overpass-api.de/api/interpreter',
+	'https://overpass.kumi.systems/api/interpreter',
+	'https://lz4.overpass-api.de/api/interpreter'
+];
+const overpassMaxAttemptsPerEndpoint = 3;
 
-const overpassUrl = `${overpassBase}${encodeURIComponent(query)}`;
+const shouldRetryOverpassStatus = (status?: number) => [408, 429, 500, 502, 503, 504].includes(status ?? -1);
+
+const getOverpassRetryDelay = (attempt: number) => {
+	const baseDelay = 1000 * (2 ** (attempt - 1));
+	const jitter = getRandomInt(500, -500);
+	return Math.max(1000, baseDelay + jitter);
+};
+
+const fetchOverpassData = async (): Promise<OsmResponse> => {
+	for (const endpoint of overpassEndpoints) {
+		console.log(`Trying overpass endpoint: ${endpoint}`);
+
+		// eslint-disable-next-line no-restricted-syntax
+		for (let attempt = 1; attempt <= overpassMaxAttemptsPerEndpoint; attempt++) {
+			try {
+				const response = await axios.post<OsmResponse>(endpoint, query, {
+					headers: {
+						'Content-Type': 'text/plain',
+						'User-Agent': 'CartoCams-collector/1.0 (CartoCams.com)'
+					},
+					timeout: 240_000
+				});
+
+				if (response.status >= 400) {
+					throw new Error(`got a ${response.status} from overpass`);
+				}
+
+				return response.data;
+			} catch (error) {
+				const axiosError = axios.isAxiosError(error) ? error : undefined;
+				const status = axiosError?.response?.status;
+
+				if (attempt < overpassMaxAttemptsPerEndpoint && shouldRetryOverpassStatus(status)) {
+					const delay = getOverpassRetryDelay(attempt);
+					console.warn(
+						`Overpass request failed on ${endpoint} (attempt ${attempt}/${overpassMaxAttemptsPerEndpoint})${status ? `, status ${status}` : ''}. Retrying in ${delay}ms...`
+					);
+					await sleep(delay);
+					continue;
+				}
+
+				console.warn(
+					`Overpass request failed on ${endpoint} (attempt ${attempt}/${overpassMaxAttemptsPerEndpoint})${status ? `, status ${status}` : ''}.`
+				);
+			}
+		}
+	}
+
+	throw new Error('could not get overpass from any endpoint');
+};
 
 // maximum age of the cache in seconds
 const nominatimMaxAge = 6 * 7 * 24 * 60 * 60; // 6 weeks
@@ -89,7 +143,7 @@ const queryNominatim = async (
 		...data,
 		expires: Math.floor(
 			Date.now() / 1000
-        + getRandomInt(nominatimMaxAge + aDay, nominatimMaxAge - aDay)
+			+ getRandomInt(nominatimMaxAge + aDay, nominatimMaxAge - aDay)
 		)
 	};
 
@@ -103,20 +157,7 @@ const queryNominatim = async (
 	}
 
 	console.log('getting overpass');
-	const response = await (async () => {
-		try {
-			return await axios.get<OsmResponse>(overpassUrl);
-		} catch (error) {
-			console.log(error);
-			throw new Error('could not get overpass');
-		}
-	})();
-
-	if (response.status >= 400) {
-		throw new Error(`got a ${response.status} from overpass`);
-	}
-
-	const { data } = response;
+	const data = await fetchOverpassData();
 	const nodes = data.elements;
 
 	if (nodes === undefined) {
@@ -142,10 +183,10 @@ const queryNominatim = async (
 		}
 
 		const url = r.tags['contact:webcam']
-      ?? r.tags.url
-      ?? r.tags['url:webcam']
-      ?? r.tags.website
-      ?? r.tags['contact:website'];
+			?? r.tags.url
+			?? r.tags['url:webcam']
+			?? r.tags.website
+			?? r.tags['contact:website'];
 
 		if (url === undefined) {
 			continue;
@@ -171,9 +212,9 @@ const queryNominatim = async (
 
 			address: {
 				city:
-          nominatim.address.city
-          ?? nominatim.address.town
-          ?? nominatim.address.village,
+					nominatim.address.city
+					?? nominatim.address.town
+					?? nominatim.address.village,
 				county: nominatim.address.county,
 				state: nominatim.address.state,
 				country: countries.getName(
