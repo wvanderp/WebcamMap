@@ -63199,7 +63199,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://webcam.onde.net/cgi-bin/image.jpg"
+    "url": "http://webcam.onde.net/cgi-bin/image.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.5425254,
@@ -154620,10 +154623,7 @@
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "https://kamera.hrych.cz/?kamera=rakovnikottova",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://kamera.hrych.cz/?kamera=rakovnikottova"
   },
   {
     "lat": 50.0958457,
@@ -176314,8 +176314,8 @@
     "osmType": "node",
     "lastChanged": 1743456924000,
     "address": {
-      "city": "Boston",
-      "county": "Suffolk County",
+      "city": "Cambridge",
+      "county": "Middlesex County",
       "state": "Massachusetts",
       "country": "United States of America"
     },
@@ -246813,7 +246813,7 @@
     "lon": -79.9020852,
     "direction": 125,
     "osmID": 13374911779,
-    "user": "maschiken",
+    "user": "mаs",
     "osmType": "node",
     "lastChanged": 1765663374000,
     "address": {
@@ -272339,5 +272339,60 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://www.kandrive.gov/@-96.27492,37.63619,14?show=roadReports,constructionReports,trafficSpeeds,normalCameras,winterDriving,weatherRadar,stationsAlert,oversizeLoads#camera/2327/135170373"
+  },
+  {
+    "lat": 43.1816609,
+    "lon": -72.4632362,
+    "direction": 350,
+    "osmID": 14047334613,
+    "user": "owenwastaken",
+    "osmType": "node",
+    "lastChanged": 1784924448000,
+    "address": {
+      "city": "Rockingham",
+      "county": "Windham County",
+      "state": "Vermont",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newengland511.org/map/Cctv/954",
+      "man_made": "surveillance",
+      "mapillary": "934875677646103",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://newengland511.org/map/Cctv/954"
+  },
+  {
+    "lat": -33.7683204,
+    "lon": 150.9427315,
+    "direction": 210,
+    "osmID": 14047989704,
+    "user": "unwired-thyself-commuting",
+    "osmType": "node",
+    "lastChanged": 1784955731000,
+    "address": {
+      "city": "Sydney",
+      "state": "New South Wales",
+      "country": "Australia"
+    },
+    "osmTags": {
+      "camera:direction": "210",
+      "camera:mount": "traffic_signals",
+      "contact:webcam": "https://webcams.transport.nsw.gov.au/livetraffic-webcams/cameras/seven_hills_road_seven_hills.jpeg",
+      "man_made": "surveillance",
+      "operator": "Transport for NSW",
+      "operator:wikidata": "Q7834923",
+      "operator:wikipedia": "en:Transport for NSW",
+      "source:contact:webcam": "https://opendata.transport.nsw.gov.au/data/dataset/live-traffic-cameras",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Transport for NSW",
+    "url": "https://webcams.transport.nsw.gov.au/livetraffic-webcams/cameras/seven_hills_road_seven_hills.jpeg"
   }
 ]

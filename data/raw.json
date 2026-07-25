@@ -203274,7 +203274,7 @@
     "timestamp": "2025-12-13T22:02:54Z",
     "version": 1,
     "changeset": 175900439,
-    "user": "maschiken",
+    "user": "mаs",
     "uid": 23105947,
     "tags": {
       "camera:direction": "125",
@@ -224375,6 +224375,51 @@
       "contact:webcam": "https://www.kandrive.gov/@-96.27492,37.63619,14?show=roadReports,constructionReports,trafficSpeeds,normalCameras,winterDriving,weatherRadar,stationsAlert,oversizeLoads#camera/2327/135170373",
       "man_made": "surveillance",
       "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14047334613,
+    "lat": 43.1816609,
+    "lon": -72.4632362,
+    "timestamp": "2026-07-24T20:20:48Z",
+    "version": 1,
+    "changeset": 186316146,
+    "user": "owenwastaken",
+    "uid": 13813815,
+    "tags": {
+      "camera:direction": "350",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newengland511.org/map/Cctv/954",
+      "man_made": "surveillance",
+      "mapillary": "934875677646103",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14047989704,
+    "lat": -33.7683204,
+    "lon": 150.9427315,
+    "timestamp": "2026-07-25T05:02:11Z",
+    "version": 1,
+    "changeset": 186328593,
+    "user": "unwired-thyself-commuting",
+    "uid": 24065592,
+    "tags": {
+      "camera:direction": "210",
+      "camera:mount": "traffic_signals",
+      "contact:webcam": "https://webcams.transport.nsw.gov.au/livetraffic-webcams/cameras/seven_hills_road_seven_hills.jpeg",
+      "man_made": "surveillance",
+      "operator": "Transport for NSW",
+      "operator:wikidata": "Q7834923",
+      "operator:wikipedia": "en:Transport for NSW",
+      "source:contact:webcam": "https://opendata.transport.nsw.gov.au/data/dataset/live-traffic-cameras",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     }
