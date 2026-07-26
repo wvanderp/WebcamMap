@@ -26229,7 +26229,10 @@
       "name": "rochers de naye est",
       "surveillance:type": "camera"
     },
-    "url": "http://www.goldenpass.ch/fr/webcam-les-rochers-de-naye-est"
+    "url": "http://www.goldenpass.ch/fr/webcam-les-rochers-de-naye-est",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.4823961,
@@ -27196,6 +27199,30 @@
       "surveillance:type": "camera"
     },
     "url": "http://www.bognorregisbeach.co.uk/live"
+  },
+  {
+    "lat": 39.191705,
+    "lon": -94.6154191,
+    "osmID": 5016975042,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1784997121000,
+    "address": {
+      "city": "Kansas City",
+      "county": "Platte County",
+      "state": "Missouri",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "check_date": "2021-08-20",
+      "contact:webcam": "https://kcscout.net/",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://kcscout.net/"
   },
   {
     "lat": 46.5119714,
@@ -38943,7 +38970,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/261"
     },
-    "url": "https://pioupiou.com/fr/261"
+    "url": "https://pioupiou.com/fr/261",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 43.7374484,
@@ -69166,13 +69196,13 @@
     }
   },
   {
-    "lat": 47.8680318,
-    "lon": 8.0938098,
+    "lat": 47.8678951,
+    "lon": 8.0938809,
     "direction": 50,
     "osmID": 8130319484,
-    "user": "jeroenrozema74",
+    "user": "m_pix",
     "osmType": "node",
-    "lastChanged": 1614863791000,
+    "lastChanged": 1784985157000,
     "address": {
       "city": "Feldberg (Ort)",
       "county": "Landkreis Breisgau-Hochschwarzwald",
@@ -151161,7 +151191,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://webtv.feratel.com/webtv/?cam=4300"
+    "url": "https://webtv.feratel.com/webtv/?cam=4300",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.1924059,
@@ -211887,6 +211920,7 @@
     },
     "url": "https://www.utinform.hu/hu/map?d=0&n=1&l=abfc&v=18.79457,47.31411,16&p=webcamXmcs090",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
