@@ -18627,9 +18627,9 @@
     "lat": 54.7010061,
     "lon": 18.6767977,
     "osmID": 3529113102,
-    "user": "19567892",
+    "user": "rzymek",
     "osmType": "node",
-    "lastChanged": 1742804063000,
+    "lastChanged": 1785154330000,
     "address": {
       "city": "Jastarnia",
       "county": "Puck County",
@@ -18638,6 +18638,7 @@
     },
     "osmTags": {
       "camera:direction": "135-230",
+      "camera:type": "fixed",
       "contact:webcam": "https://lookcam.com/jastarnia",
       "contact:website": "https://jastarnia.pl/kamery",
       "man_made": "surveillance",
@@ -79966,6 +79967,63 @@
     }
   },
   {
+    "lat": 44.2772669,
+    "lon": 7.8145091,
+    "direction": 220,
+    "osmID": 8761624995,
+    "user": "george_glootey",
+    "osmType": "node",
+    "lastChanged": 1785144932000,
+    "address": {
+      "city": "Frabosa Soprana",
+      "county": "Cuneo",
+      "state": "Piedmont",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/watch?v=DXffBemFgHQ",
+      "direction": "220",
+      "man_made": "surveillance",
+      "name": "Webcam campo scuola Malanotte",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.youtube.com/watch?v=DXffBemFgHQ",
+    "lint": {
+      "youtube": true
+    }
+  },
+  {
+    "lat": 44.2841517,
+    "lon": 7.8070254,
+    "direction": 220,
+    "osmID": 8761624996,
+    "user": "george_glootey",
+    "osmType": "node",
+    "lastChanged": 1785144810000,
+    "address": {
+      "city": "Frabosa Soprana",
+      "county": "Cuneo",
+      "state": "Piedmont",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://frabosaski.it/assets/img/webcam/frabosa01.jpg",
+      "direction": "220",
+      "man_made": "surveillance",
+      "name": "Webcam campetto",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area",
+      "website": "https://frabosaski.it/assets/img/webcam/frabosa01.jpg"
+    },
+    "url": "https://frabosaski.it/assets/img/webcam/frabosa01.jpg"
+  },
+  {
     "lat": 59.5645043,
     "lon": 10.2670441,
     "direction": 220,
@@ -103337,7 +103395,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Stadt Wien",
-    "url": "https://dyn2.verkehrsauskunft.at/webcams/1628347476_itscam31.jpg"
+    "url": "https://dyn2.verkehrsauskunft.at/webcams/1628347476_itscam31.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.1848537,
@@ -211012,8 +211073,8 @@
     "osmType": "node",
     "lastChanged": 1741027356000,
     "address": {
-      "county": "Rich County",
-      "state": "Utah",
+      "county": "Bear Lake County",
+      "state": "Idaho",
       "country": "United States of America"
     },
     "osmTags": {
@@ -272430,5 +272491,56 @@
     },
     "operator": "Transport for NSW",
     "url": "https://webcams.transport.nsw.gov.au/livetraffic-webcams/cameras/seven_hills_road_seven_hills.jpeg"
+  },
+  {
+    "lat": 42.9633518,
+    "lon": -123.8475584,
+    "osmID": 14053198387,
+    "user": "Xanadu_Contractor",
+    "osmType": "node",
+    "lastChanged": 1785133666000,
+    "address": {
+      "county": "Coos County",
+      "state": "Oregon",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://tripcheck.com/RoadCams/cams/camsLDI/ORE42%20at%20Coos%20County%20Line_pid2502.JPG",
+      "man_made": "surveillance",
+      "name": "TripCheck",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://tripcheck.com/RoadCams/cams/camsLDI/ORE42%20at%20Coos%20County%20Line_pid2502.JPG"
+  },
+  {
+    "lat": 48.4081973,
+    "lon": 10.0010186,
+    "direction": 240,
+    "osmID": 14053678867,
+    "user": "notHeaveny",
+    "osmType": "node",
+    "lastChanged": 1785154279000,
+    "address": {
+      "city": "Ulm",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ulm.de/sonderseiten/webcams",
+      "direction": "260",
+      "man_made": "surveillance",
+      "manufacturer": "Mobotix",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.ulm.de/sonderseiten/webcams"
   }
 ]
