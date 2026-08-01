@@ -5441,7 +5441,10 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://www1.eot.state.ma.us/cam_updated_images/34.jpg"
+    "url": "http://www1.eot.state.ma.us/cam_updated_images/34.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 42.670576,
@@ -13844,7 +13847,7 @@
     "osmType": "node",
     "lastChanged": 1677881849000,
     "address": {
-      "city": "Ternopil",
+      "city": "Baikivtsi",
       "state": "Ternopil Oblast",
       "country": "Ukraine"
     },
@@ -67662,9 +67665,9 @@
     "lat": 50.0558562,
     "lon": 8.38108,
     "osmID": 8007844229,
-    "user": "Mah",
+    "user": "Zoroo",
     "osmType": "node",
-    "lastChanged": 1602710696000,
+    "lastChanged": 1785507019000,
     "address": {
       "city": "Wallau",
       "county": "Main-Taunus-Kreis",
@@ -67674,6 +67677,7 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "panning",
+      "check_date": "2026-07-31",
       "contact:webcam": "https://verkehrsservice.hessen.de/",
       "man_made": "surveillance",
       "note": "Kamera ist auf der Schilderbrücke drehbar montiert",
@@ -100939,7 +100943,10 @@
       "source": "Tasman District Council;Kaiteriteri Recreation Reserve",
       "surveillance:type": "camera"
     },
-    "url": "https://snapithd.com/static/kaiteriteri.jpg"
+    "url": "https://snapithd.com/static/kaiteriteri.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -40.546034,
@@ -128537,6 +128544,7 @@
     },
     "url": "https://trafficmap.bellevuewa.gov/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -147661,9 +147669,9 @@
     "lat": 47.2533795,
     "lon": -122.3325569,
     "osmID": 11227969127,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1743428135000,
+    "lastChanged": 1785514819000,
     "address": {
       "city": "Milton",
       "county": "Pierce County",
@@ -147677,6 +147685,9 @@
       "description": "I-5 at MP 139.5: Pierce Co Line",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
       "surveillance": "traffic",
       "surveillance:type": "camera",
@@ -147692,9 +147703,9 @@
     "lat": 47.2651292,
     "lon": -122.3217397,
     "osmID": 11227969128,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1747180373000,
+    "lastChanged": 1785514819000,
     "address": {
       "city": "Federal Way",
       "county": "King County",
@@ -147707,6 +147718,9 @@
       "description": "I-5 at MP 140.1: S 375th St",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "source": "https://wsdot.com/Travel/Real-time/Map/?featuretype=alert&featureid=539407",
       "surveillance": "traffic",
       "surveillance:type": "camera",
@@ -204280,7 +204294,7 @@
     "osmID": 12297009096,
     "user": "salisburymistake",
     "osmType": "node",
-    "lastChanged": 1730214823000,
+    "lastChanged": 1785526435000,
     "address": {
       "city": "Williamsville",
       "county": "Sangamon County",
@@ -204291,13 +204305,13 @@
       "camera:direction": "340",
       "camera:mount": "street_lamp",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=6h8UKg9Db2A",
+      "contact:webcam": "https://www.youtube.com/@WPLM217/streams",
       "man_made": "surveillance",
       "surveillance": "outdoor",
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://www.youtube.com/watch?v=6h8UKg9Db2A",
+    "url": "https://www.youtube.com/@WPLM217/streams",
     "lint": {
       "youtube": true
     }
@@ -269971,10 +269985,7 @@
       "man_made": "surveillance",
       "surveillance": "public"
     },
-    "url": "https://ftp.rodgau.de/webcam_rathaus.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://ftp.rodgau.de/webcam_rathaus.jpg"
   },
   {
     "lat": 47.0788522,
@@ -270599,9 +270610,9 @@
     "lat": 47.2571906,
     "lon": -122.3306389,
     "osmID": 13920122746,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1780923108000,
+    "lastChanged": 1785514819000,
     "address": {
       "city": "Milton",
       "county": "Pierce County",
@@ -270615,6 +270626,9 @@
       "fixme": "position",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -272570,5 +272584,79 @@
     },
     "operator": "National Park Service",
     "url": "https://www.nps.gov/subjects/air/webcams.htm?site=grpk"
+  },
+  {
+    "lat": 43.6641115,
+    "lon": -72.8308819,
+    "direction": 45,
+    "osmID": 14064500286,
+    "user": "owenwastaken",
+    "osmType": "node",
+    "lastChanged": 1785517052000,
+    "address": {
+      "city": "Killington",
+      "county": "Rutland County",
+      "state": "Vermont",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newengland511.org/map/Cctv/993",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://newengland511.org/map/Cctv/993"
+  },
+  {
+    "lat": 43.6641001,
+    "lon": -72.8309163,
+    "direction": 275,
+    "osmID": 14064500287,
+    "user": "owenwastaken",
+    "osmType": "node",
+    "lastChanged": 1785517052000,
+    "address": {
+      "city": "Killington",
+      "county": "Rutland County",
+      "state": "Vermont",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "275",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://newengland511.org/map/Cctv/1018",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://newengland511.org/map/Cctv/1018"
+  },
+  {
+    "lat": 47.631442,
+    "lon": 13.0032878,
+    "osmID": 14065110839,
+    "user": "Znaika",
+    "osmType": "node",
+    "lastChanged": 1785539900000,
+    "address": {
+      "city": "Berchtesgaden",
+      "county": "Landkreis Berchtesgadener Land",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://www.wetter.com/hd-live-webcams/deutschland/berchtesgaden-hotel-edelweiss/6095239815dff635e1425942/",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.wetter.com/hd-live-webcams/deutschland/berchtesgaden-hotel-edelweiss/6095239815dff635e1425942/"
   }
 ]
