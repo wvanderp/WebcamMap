@@ -65554,7 +65554,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "http://webcamhellevoetsluis.nl/"
+    "url": "http://webcamhellevoetsluis.nl/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.9155893,
@@ -70639,7 +70642,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://bmcb.club/webcam/recht.php"
+    "url": "https://bmcb.club/webcam/recht.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.7968585,
@@ -131440,7 +131446,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "watter,traffic"
     },
-    "url": "https://hls.all-sbor.net/hls/cam7/playlist.m3u8"
+    "url": "https://hls.all-sbor.net/hls/cam7/playlist.m3u8",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 54.7606756,
@@ -208077,7 +208086,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "town"
     },
-    "url": "http://webcam.anklam.de/view/viewer_index.shtml?id=7574"
+    "url": "http://webcam.anklam.de/view/viewer_index.shtml?id=7574",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.1725623,
@@ -213106,10 +213118,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://tripcheck.com/RoadCams/cams/ORE569WBatDeltaHwy_pid1613.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://tripcheck.com/RoadCams/cams/ORE569WBatDeltaHwy_pid1613.jpg"
   },
   {
     "lat": 40.4488085,
@@ -267556,6 +267565,83 @@
     "url": "https://live.black-mountain-bikepark.de/shared_access/webcam/berg_1/video.mp4"
   },
   {
+    "lat": 36.4326859,
+    "lon": -94.369031,
+    "direction": 165,
+    "osmID": 13743433802,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785707912000,
+    "address": {
+      "city": "Gravette",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "165",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48205&name=I-49%20at%20Gravette%20(Exit%20100)",
+      "direction": "0",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48205&name=I-49%20at%20Gravette%20(Exit%20100)"
+  },
+  {
+    "lat": 36.4647783,
+    "lon": -94.3782714,
+    "direction": 0,
+    "osmID": 13743436701,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785707912000,
+    "address": {
+      "city": "Gravette",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48206&name=I-49%20at%20Highlands%20Blvd%20(Exit%20102)",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48206&name=I-49%20at%20Highlands%20Blvd%20(Exit%20102)"
+  },
+  {
+    "lat": 36.4978557,
+    "lon": -94.3819381,
+    "direction": 155,
+    "osmID": 13743451501,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785707912000,
+    "address": {
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "155",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48207&name=I-49%20at%20Missouri%20State%20Line",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48207&name=I-49%20at%20Missouri%20State%20Line"
+  },
+  {
     "lat": 43.5328143,
     "lon": -5.6823484,
     "osmID": 13749325841,
@@ -272428,6 +272514,31 @@
     "url": "https://s9.nysdot.skyvdn.com/rtplive/R8_133/playlist.m3u8"
   },
   {
+    "lat": 40.0686746,
+    "lon": -75.3112327,
+    "osmID": 14039091002,
+    "user": "terminalpreppie",
+    "osmType": "node",
+    "lastChanged": 1785690709000,
+    "address": {
+      "city": "West Conshohocken",
+      "county": "Montgomery County",
+      "state": "Pennsylvania",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.511pa.com/cctv?start=0&length=10&filters%5B0%5D%5Bi%5D=2&filters%5B0%5D%5Bs%5D=Greater+Philadelphia&filters%5B1%5D%5Bi%5D=3&filters%5B1%5D%5Bs%5D=Montgomery&filters%5B2%5D%5Bi%5D=4&filters%5B2%5D%5Bs%5D=PA+23&order%5Bi",
+      "man_made": "surveillance",
+      "note": "this is PENNDOTs traffic camera",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.511pa.com/cctv?start=0&length=10&filters%5B0%5D%5Bi%5D=2&filters%5B0%5D%5Bs%5D=Greater+Philadelphia&filters%5B1%5D%5Bi%5D=3&filters%5B1%5D%5Bs%5D=Montgomery&filters%5B2%5D%5Bi%5D=4&filters%5B2%5D%5Bs%5D=PA+23&order%5Bi"
+  },
+  {
     "lat": 37.6370481,
     "lon": -96.2344337,
     "direction": 155,
@@ -272731,5 +272842,261 @@
     },
     "operator": "California Department of Transportation",
     "url": "https://cwwp2.dot.ca.gov/vm/loc/d9/us395northofsr141.htm"
+  },
+  {
+    "lat": 36.0461735,
+    "lon": -117.9468684,
+    "osmID": 14068765702,
+    "user": "beddy",
+    "osmType": "node",
+    "lastChanged": 1785688781000,
+    "address": {
+      "county": "Inyo County",
+      "state": "California",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://cwwp2.dot.ca.gov/vm/loc/d9/us395cosorestarea.htm",
+      "man_made": "surveillance",
+      "operator": "California Department of Transportation",
+      "operator:short": "Caltrans",
+      "operator:type": "government",
+      "operator:wikidata": "Q127743",
+      "surveillance": "traffic",
+      "website": "https://cwwp2.dot.ca.gov/vm/loc/d9/us395cosorestarea.htm"
+    },
+    "operator": "California Department of Transportation",
+    "url": "https://cwwp2.dot.ca.gov/vm/loc/d9/us395cosorestarea.htm"
+  },
+  {
+    "lat": 36.422577,
+    "lon": -94.3205432,
+    "direction": 260,
+    "osmID": 14069231869,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785707912000,
+    "address": {
+      "city": "Gravette",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "260",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48203&name=I-49%20at%20Centerton%20(Exit%2097)",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48203&name=I-49%20at%20Centerton%20(Exit%2097)"
+  },
+  {
+    "lat": 36.4168892,
+    "lon": -94.2318756,
+    "direction": 105,
+    "osmID": 14069231870,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785707912000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "105",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48201&name=I-49%20West%20of%20Bella%20Vista%20Interchange",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=48201&name=I-49%20West%20of%20Bella%20Vista%20Interchange"
+  },
+  {
+    "lat": 37.8422383,
+    "lon": -118.478415,
+    "osmID": 14069246706,
+    "user": "beddy",
+    "osmType": "node",
+    "lastChanged": 1785709104000,
+    "address": {
+      "county": "Mono County",
+      "state": "California",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://cwwp2.dot.ca.gov/vm/loc/d9/us6stateline.htm",
+      "man_made": "surveillance",
+      "operator": "California Department of Transportation",
+      "operator:short": "Caltrans",
+      "operator:type": "government",
+      "operator:wikidata": "Q127743",
+      "surveillance": "traffic",
+      "website": "https://cwwp2.dot.ca.gov/vm/loc/d9/us6stateline.htm"
+    },
+    "operator": "California Department of Transportation",
+    "url": "https://cwwp2.dot.ca.gov/vm/loc/d9/us6stateline.htm"
+  },
+  {
+    "lat": 36.41329,
+    "lon": -94.2137347,
+    "direction": 260,
+    "osmID": 14069590216,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785719713000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "260",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17982&name=I-49%20mm%2091.1%20at%20south%20of%20BV%20Interchange",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17982&name=I-49%20mm%2091.1%20at%20south%20of%20BV%20Interchange"
+  },
+  {
+    "lat": 36.4040869,
+    "lon": -94.1981071,
+    "direction": 95,
+    "osmID": 14069590217,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785719713000,
+    "address": {
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "95",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17954&name=I-49%20mm%2090.1%20at%20Slaughter%20Pen%20Rd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17954&name=I-49%20mm%2090.1%20at%20Slaughter%20Pen%20Rd"
+  },
+  {
+    "lat": 36.4011649,
+    "lon": -94.1864024,
+    "direction": 140,
+    "osmID": 14069590218,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785719713000,
+    "address": {
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17990&name=I-49%20mm%2089.4%20at%20J%20St",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17990&name=I-49%20mm%2089.4%20at%20J%20St"
+  },
+  {
+    "lat": 36.3987439,
+    "lon": -94.1838,
+    "direction": 165,
+    "osmID": 14069590219,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785719713000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "165",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17991&name=I-49%20mm%2089.2%20at%20south%20of%20J%20St.",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17991&name=I-49%20mm%2089.2%20at%20south%20of%20J%20St."
+  },
+  {
+    "lat": 36.3942606,
+    "lon": -94.1835847,
+    "direction": 180,
+    "osmID": 14069590220,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785719713000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17992&name=I-49%20mm%2088.9%20at%20Little%20Flock",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17992&name=I-49%20mm%2088.9%20at%20Little%20Flock"
+  },
+  {
+    "lat": 36.3890558,
+    "lon": -94.184095,
+    "direction": 145,
+    "osmID": 14069590221,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1785719713000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "145",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17851&name=I-49%20mm%2088.4%20at%20Tiger%20Blvd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17851&name=I-49%20mm%2088.4%20at%20Tiger%20Blvd"
   }
 ]
