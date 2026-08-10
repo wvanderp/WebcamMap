@@ -1162,7 +1162,7 @@
     "osmType": "node",
     "lastChanged": 1782441223000,
     "address": {
-      "city": "Donji Varoš",
+      "city": "Općina Stara Gradiška",
       "county": "Brod-Posavina County",
       "country": "Croatia"
     },
@@ -65962,36 +65962,6 @@
     }
   },
   {
-    "lat": 48.6162885,
-    "lon": 9.8469138,
-    "direction": 340,
-    "osmID": 7836765177,
-    "user": "NickNicky",
-    "osmType": "node",
-    "lastChanged": 1598345527000,
-    "address": {
-      "city": "Geislingen an der Steige",
-      "county": "Landkreis Göppingen",
-      "state": "Baden-Württemberg",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "340",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.evf.de/webcams/index.html",
-      "man_made": "surveillance",
-      "name": "Burgruine Helfenstein",
-      "operator": "Energieversorgung Filstal GmbH & Co. KG",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera"
-    },
-    "operator": "Energieversorgung Filstal GmbH & Co. KG",
-    "url": "https://www.evf.de/webcams/index.html",
-    "lint": {
-      "duplicate": true
-    }
-  },
-  {
     "lat": 48.6930703,
     "lon": 9.6420522,
     "direction": 50,
@@ -83795,7 +83765,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/228.jpg"
+    "url": "https://trafficnz.info/camera/228.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -41.231877,
@@ -131216,6 +131189,59 @@
     }
   },
   {
+    "lat": 47.7967583,
+    "lon": -122.4966764,
+    "osmID": 9789079518,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Kingston",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/104vc02466.jpg?a=1786307034786",
+      "man_made": "surveillance",
+      "mapillary": "5741530705887342",
+      "source:position": "Mapillary 2020-11-08",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public_transport",
+      "survey:date": "2020-11-08"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/104vc02466.jpg?a=1786307034786"
+  },
+  {
+    "lat": 47.7971216,
+    "lon": -122.495505,
+    "osmID": 9789084517,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Kingston",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/104vc02465.jpg?a=1786307111937",
+      "man_made": "surveillance",
+      "mapillary": "221470019435030",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "survey:date": "2020-03-28"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/104vc02465.jpg?a=1786307111937"
+  },
+  {
     "lat": 39.3109316,
     "lon": -76.6231143,
     "osmID": 9795962394,
@@ -133240,9 +133266,9 @@
     "lon": 3.0856887,
     "direction": 0,
     "osmID": 9935925585,
-    "user": "danv2",
+    "user": "Pierre Beyssac",
     "osmType": "node",
-    "lastChanged": 1659878406000,
+    "lastChanged": 1786302413000,
     "address": {
       "city": "Clermont-Ferrand",
       "county": "Puy-de-Dôme",
@@ -133253,6 +133279,7 @@
       "camera:direction": "0",
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "check_date": "2026-08-08",
       "contact:webcam": "https://clermont-ferrand.fr/webcam-place-de-la-victoire",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -143305,9 +143332,9 @@
     "lon": 11.5820511,
     "direction": 45,
     "osmID": 10975118770,
-    "user": "Mapillox",
+    "user": "Strubbl",
     "osmType": "node",
-    "lastChanged": 1690980553000,
+    "lastChanged": 1786288018000,
     "address": {
       "city": "Munich",
       "state": "Bavaria",
@@ -143319,7 +143346,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.terra-hd.de/deutschesmuseum/",
       "description": "Blick vom Museumsturm über die Isar nach Nordosten. Kamera: Canon EOS 2000 D + 18-55mm Kitobjektiv",
-      "image": "https://www.terra-hd.de/deutschesmuseum/img/current/1920.jpg",
+      "image": "https://terra-hd.com/deutschesmuseum/img/current/1920.jpg",
       "man_made": "surveillance",
       "name": "Deutsches Museum Webcam Nord Ost",
       "surveillance": "webcam",
@@ -145360,9 +145387,9 @@
     "lon": 11.5807017,
     "direction": 130,
     "osmID": 11083580173,
-    "user": "Mapillox",
+    "user": "Strubbl",
     "osmType": "node",
-    "lastChanged": 1690981185000,
+    "lastChanged": 1786287998000,
     "address": {
       "city": "Munich",
       "state": "Bavaria",
@@ -145374,7 +145401,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.terra-hd.de/deutschesmuseum3",
       "description": "Blick vom Patentamt über das Deutsche Museum. Kamera: Canon EOS 2000 D + 10-22mm Weitwinkelobjektiv",
-      "image": "https://www.terra-hd.de/deutschesmuseum3/img/current/1920.jpg",
+      "image": "https://terra-hd.com/deutschesmuseum3/img/current/1920.jpg",
       "man_made": "surveillance",
       "name": "Deutsches Museum Webcam Patentamt",
       "surveillance": "webcam",
@@ -145388,9 +145415,9 @@
     "lon": 11.5820061,
     "direction": -120,
     "osmID": 11083587534,
-    "user": "Mapillox",
+    "user": "Strubbl",
     "osmType": "node",
-    "lastChanged": 1690980553000,
+    "lastChanged": 1786288007000,
     "address": {
       "city": "Munich",
       "state": "Bavaria",
@@ -145402,7 +145429,7 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.terra-hd.de/deutschesmuseum2",
       "description": "Blick vom Museumsturm über die Isar nach Südwesten. Kamera: Canon EOS 2000 D + 18-55mm Kitobjektiv",
-      "image": "https://www.terra-hd.de/deutschesmuseum2/img/current/1920.jpg",
+      "image": "https://terra-hd.com/deutschesmuseum2/img/current/1920.jpg",
       "man_made": "surveillance",
       "name": "Deutsches Museum Webcam Süd West",
       "surveillance": "webcam",
@@ -206072,7 +206099,7 @@
     "lat": 56.2125164,
     "lon": 15.5938558,
     "osmID": 12412776180,
-    "user": "carlmarlid",
+    "user": "carlskroniten",
     "osmType": "node",
     "lastChanged": 1763998591000,
     "address": {
@@ -206096,7 +206123,7 @@
     "lat": 56.2125292,
     "lon": 15.5938244,
     "osmID": 12412776181,
-    "user": "carlmarlid",
+    "user": "carlskroniten",
     "osmType": "node",
     "lastChanged": 1763998591000,
     "address": {
@@ -243852,7 +243879,7 @@
     "lat": 56.2132261,
     "lon": 15.581552,
     "osmID": 13328333294,
-    "user": "carlmarlid",
+    "user": "carlskroniten",
     "osmType": "node",
     "lastChanged": 1763998591000,
     "address": {
@@ -243876,7 +243903,7 @@
     "lat": 56.2063106,
     "lon": 15.6419719,
     "osmID": 13328333295,
-    "user": "carlmarlid",
+    "user": "carlskroniten",
     "osmType": "node",
     "lastChanged": 1763998591000,
     "address": {
@@ -243900,7 +243927,7 @@
     "lat": 56.2063059,
     "lon": 15.6420044,
     "osmID": 13328333296,
-    "user": "carlmarlid",
+    "user": "carlskroniten",
     "osmType": "node",
     "lastChanged": 1763998591000,
     "address": {
@@ -243924,7 +243951,7 @@
     "lat": 56.2063083,
     "lon": 15.6419882,
     "osmID": 13328333297,
-    "user": "carlmarlid",
+    "user": "carlskroniten",
     "osmType": "node",
     "lastChanged": 1763998591000,
     "address": {
@@ -266914,14 +266941,14 @@
     "osmID": 13719612740,
     "user": "Oliverasd",
     "osmType": "node",
-    "lastChanged": 1775773255000,
+    "lastChanged": 1786307538000,
     "address": {
       "county": "Kitsap County",
       "state": "Washington",
       "country": "United States of America"
     },
     "osmTags": {
-      "camera:type": "fixed",
+      "camera:type": "panning",
       "contact:webcam": "https://images.wsdot.wa.gov/orflow/307vc00243.jpg?a=1775773145848",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -271298,7 +271325,7 @@
     "osmID": 13963421762,
     "user": "ChaoticOrangutan",
     "osmType": "node",
-    "lastChanged": 1782342152000,
+    "lastChanged": 1786333139000,
     "address": {
       "city": "Superior",
       "county": "Jefferson County",
@@ -271308,13 +271335,13 @@
     "osmTags": {
       "camera:direction": "210",
       "camera:mount": "traffic_signals",
-      "contact:webcam": "https://www.cotrip.org/camera/3662/@-105.16651,39.91037,17?show=normalCameras,roadWork,expressLanes,roadReports,weatherWarnings#camera/3661/3049775883",
+      "contact:webcam": "https://www.cotrip.org/camera/9131/@-105.16663,39.91012,17?show=roadWork,expressLanes,roadReports,trafficSpeeds,wazeReports",
       "man_made": "surveillance",
       "name": "CO-128 MP 004.20 EB at Indiana St",
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "https://www.cotrip.org/camera/3662/@-105.16651,39.91037,17?show=normalCameras,roadWork,expressLanes,roadReports,weatherWarnings#camera/3661/3049775883"
+    "url": "https://www.cotrip.org/camera/9131/@-105.16663,39.91012,17?show=roadWork,expressLanes,roadReports,trafficSpeeds,wazeReports"
   },
   {
     "lat": 39.9142206,
@@ -271323,7 +271350,7 @@
     "osmID": 13963421763,
     "user": "ChaoticOrangutan",
     "osmType": "node",
-    "lastChanged": 1785891137000,
+    "lastChanged": 1786333030000,
     "address": {
       "city": "Broomfield",
       "state": "Colorado",
@@ -271332,14 +271359,14 @@
     "osmTags": {
       "camera:direction": "240",
       "camera:mount": "traffic_signals",
-      "contact:webcam": "https://www.cotrip.org/camera/3662/@-105.16393,39.91413,15?show=normalCameras,roadWork,expressLanes,roadReports,weatherWarnings#camera/3663/1329029707",
+      "contact:webcam": "https://www.cotrip.org/camera/3662/@-105.1498,39.91598,15?show=normalCameras,roadWork,expressLanes,roadReports,weatherWarnings#camera/9133/1329029707",
       "man_made": "surveillance",
       "name": "CO-128 MP 005.35 EB at Eldorado Blvd",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.cotrip.org/camera/3662/@-105.16393,39.91413,15?show=normalCameras,roadWork,expressLanes,roadReports,weatherWarnings#camera/3663/1329029707"
+    "url": "https://www.cotrip.org/camera/3662/@-105.1498,39.91598,15?show=normalCameras,roadWork,expressLanes,roadReports,weatherWarnings#camera/9133/1329029707"
   },
   {
     "lat": 51.8499659,
@@ -273805,5 +273832,141 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://etraffic.dgt.es/camarasEtraffic/167989.jpg"
+  },
+  {
+    "lat": 47.8026645,
+    "lon": -122.5037493,
+    "osmID": 14084329711,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Kingston",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/104vc02390.jpg?a=1786307166171",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/104vc02390.jpg?a=1786307166171"
+  },
+  {
+    "lat": 47.8088189,
+    "lon": -122.5190726,
+    "osmID": 14084329712,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Kingston",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/104vc02314.jpg?a=1786307240264",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/104vc02314.jpg?a=1786307240264"
+  },
+  {
+    "lat": 47.8094764,
+    "lon": -122.5285228,
+    "osmID": 14084329713,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Kingston",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/wsf/kingston/fse/fse.jpg?a=1786307302308",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/wsf/kingston/fse/fse.jpg?a=1786307302308"
+  },
+  {
+    "lat": 47.8094717,
+    "lon": -122.5285907,
+    "osmID": 14084329714,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Kingston",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://images.wsdot.wa.gov/wsf/kingston/fsw/fsw.jpg?a=1786307378321",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/wsf/kingston/fsw/fsw.jpg?a=1786307378321"
+  },
+  {
+    "lat": 47.7140439,
+    "lon": -122.5710415,
+    "osmID": 14084329715,
+    "user": "Oliverasd",
+    "osmType": "node",
+    "lastChanged": 1786307538000,
+    "address": {
+      "city": "Port Madison Indian Reservation",
+      "county": "Kitsap County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://images.wsdot.wa.gov/orflow/305vc00719.jpg?a=1786307446967",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://images.wsdot.wa.gov/orflow/305vc00719.jpg?a=1786307446967"
+  },
+  {
+    "lat": 36.3617872,
+    "lon": -75.8291814,
+    "osmID": 14084663716,
+    "user": "Cody Schafer",
+    "osmType": "node",
+    "lastChanged": 1786326110000,
+    "address": {
+      "city": "Corolla",
+      "county": "Currituck County",
+      "state": "North Carolina",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "building",
+      "contact:webcam": "https://www.corollalightresort.com/soundsidecamera",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "outdoor"
+    },
+    "url": "https://www.corollalightresort.com/soundsidecamera"
   }
 ]
