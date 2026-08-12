@@ -31442,7 +31442,10 @@
       "surveillance": "webcam",
       "url": "http://ec.europa.eu/life"
     },
-    "url": "https://www.feratel.com/webcams/belgien/zonhoven-de-wijers.html"
+    "url": "https://www.feratel.com/webcams/belgien/zonhoven-de-wijers.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.1870985,
@@ -83765,10 +83768,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/228.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://trafficnz.info/camera/228.jpg"
   },
   {
     "lat": -41.231877,
@@ -234403,7 +234403,7 @@
     "osmID": 12996088659,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1786467463000,
     "address": {
       "city": "Segovia",
       "state": "Castile and León",
@@ -234411,6 +234411,7 @@
     },
     "osmTags": {
       "camera:direction": "205",
+      "camera:type": "fixed",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168009.jpg",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -273341,6 +273342,33 @@
       "surveillance:type": "camera"
     },
     "url": "https://nap246.eu/snapshot/weathercam.jpg"
+  },
+  {
+    "lat": 44.4561194,
+    "lon": -113.2413748,
+    "osmID": 14073855201,
+    "user": "CrayfishMc",
+    "osmType": "node",
+    "lastChanged": 1786460006000,
+    "address": {
+      "county": "Lemhi County",
+      "state": "Idaho",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.idaho.gov",
+      "description": "This is an ITD traffic & weather conditions camera installation",
+      "direction": "129;20",
+      "man_made": "surveillance",
+      "manufacturer": "unknown",
+      "manufacturer:wikidata": "Q108485435",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://511.idaho.gov"
   },
   {
     "lat": 39.6032887,

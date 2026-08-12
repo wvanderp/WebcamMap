@@ -193075,13 +193075,14 @@
     "id": 12996088659,
     "lat": 40.9086176,
     "lon": -4.1027849,
-    "timestamp": "2026-08-09T01:27:25Z",
-    "version": 2,
-    "changeset": 187158464,
+    "timestamp": "2026-08-11T16:57:43Z",
+    "version": 3,
+    "changeset": 187297615,
     "user": "Arturo Francisco Barbero",
     "uid": 12605644,
     "tags": {
       "camera:direction": "205",
+      "camera:type": "fixed",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168009.jpg",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -225186,6 +225187,30 @@
   },
   {
     "type": "node",
+    "id": 14073855201,
+    "lat": 44.4561194,
+    "lon": -113.2413748,
+    "timestamp": "2026-08-11T14:53:26Z",
+    "version": 4,
+    "changeset": 187290779,
+    "user": "CrayfishMc",
+    "uid": 24399206,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.idaho.gov",
+      "description": "This is an ITD traffic & weather conditions camera installation",
+      "direction": "129;20",
+      "man_made": "surveillance",
+      "manufacturer": "unknown",
+      "manufacturer:wikidata": "Q108485435",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 14073912701,
     "lat": 39.6032887,
     "lon": -119.2275735,
@@ -225699,6 +225724,25 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera",
       "surveillance:zone": "outdoor"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14088363786,
+    "lat": 48.6740184,
+    "lon": 1.4652604,
+    "timestamp": "2026-08-11T20:39:56Z",
+    "version": 1,
+    "changeset": 187307562,
+    "user": "ClairM",
+    "uid": 3168532,
+    "tags": {
+      "camera:direction": "240",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
     }
   },
   {
@@ -231035,11 +231079,11 @@
   {
     "type": "relation",
     "id": 6814689,
-    "timestamp": "2025-07-17T18:20:22Z",
-    "version": 23,
-    "changeset": 169074882,
-    "user": "Jrachi",
-    "uid": 2976645,
+    "timestamp": "2026-08-11T09:49:11Z",
+    "version": 25,
+    "changeset": 187274778,
+    "user": "3Pappa3",
+    "uid": 10672736,
     "center": {
       "lat": 46.2585589,
       "lon": 8.2063231
@@ -231186,6 +231230,21 @@
         "role": ""
       },
       {
+        "type": "node",
+        "ref": 3040859780,
+        "role": ""
+      },
+      {
+        "type": "node",
+        "ref": 14087137536,
+        "role": ""
+      },
+      {
+        "type": "node",
+        "ref": 14087137537,
+        "role": ""
+      },
+      {
         "type": "way",
         "ref": 299978772,
         "role": ""
@@ -231197,7 +231256,17 @@
       },
       {
         "type": "way",
-        "ref": 299978773,
+        "ref": 912728684,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 465409556,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 912393424,
         "role": ""
       },
       {
@@ -231357,11 +231426,6 @@
       },
       {
         "type": "way",
-        "ref": 904117166,
-        "role": ""
-      },
-      {
-        "type": "way",
         "ref": 872330617,
         "role": ""
       },
@@ -231388,16 +231452,6 @@
       {
         "type": "way",
         "ref": 907312322,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 465409556,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 912393424,
         "role": ""
       },
       {
@@ -231487,6 +231541,26 @@
       },
       {
         "type": "way",
+        "ref": 912393390,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 455723710,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 1088818447,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 1088818448,
+        "role": ""
+      },
+      {
+        "type": "way",
         "ref": 912393426,
         "role": ""
       },
@@ -231512,27 +231586,12 @@
       },
       {
         "type": "way",
-        "ref": 912393390,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 455723710,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 1088818447,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 1088818448,
-        "role": ""
-      },
-      {
-        "type": "way",
         "ref": 912393400,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 904117157,
         "role": ""
       },
       {
@@ -231543,16 +231602,6 @@
       {
         "type": "way",
         "ref": 912393401,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 1088818446,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 912393427,
         "role": ""
       },
       {
@@ -231592,32 +231641,12 @@
       },
       {
         "type": "way",
-        "ref": 912728682,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 912728684,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 912728685,
-        "role": ""
-      },
-      {
-        "type": "way",
         "ref": 912728688,
         "role": ""
       },
       {
         "type": "way",
         "ref": 912728687,
-        "role": ""
-      },
-      {
-        "type": "way",
-        "ref": 912728686,
         "role": ""
       },
       {
@@ -231703,6 +231732,16 @@
       {
         "type": "way",
         "ref": 915416519,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 1548786194,
+        "role": ""
+      },
+      {
+        "type": "way",
+        "ref": 912728682,
         "role": ""
       }
     ],
