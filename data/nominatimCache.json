@@ -27230,7 +27230,7 @@
       "-80.2244975",
       "-80.2243975"
     ],
-    "expires": 1786529268
+    "expires": 1790298766
   },
   "27.5612278,-99.4711583": {
     "place_id": 412429144,
@@ -261611,6 +261611,44 @@
     ],
     "expires": 1787844010
   },
+  "47.6448597,12.9856141": {
+    "place_id": 425162583,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 14074602710,
+    "lat": "47.6448859",
+    "lon": "12.9856144",
+    "class": "amenity",
+    "type": "dressing_room",
+    "place_rank": 30,
+    "importance": 0.00005102693217360216,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "85, Aschauerweiherstraße, Hochgartdörfl, Bischofswiesen, Landkreis Berchtesgadener Land, Bavaria, 83483, Germany",
+    "address": {
+      "house_number": "85",
+      "road": "Aschauerweiherstraße",
+      "hamlet": "Hochgartdörfl",
+      "village": "Bischofswiesen",
+      "county": "Landkreis Berchtesgadener Land",
+      "state": "Bavaria",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "83483",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": {
+      "access": "customers",
+      "wheelchair": "limited"
+    },
+    "boundingbox": [
+      "47.6448359",
+      "47.6449359",
+      "12.9855644",
+      "12.9856644"
+    ],
+    "expires": 1790212640
+  },
   "47.6448772,10.533051": {
     "place_id": 71085061,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -268726,7 +268764,7 @@
       "11.5556948",
       "11.5557948"
     ],
-    "expires": 1786588508
+    "expires": 1790198277
   },
   "47.7646875,8.819008": {
     "place_id": 71780944,
@@ -276564,7 +276602,7 @@
       "-122.1069069",
       "-122.1067896"
     ],
-    "expires": 1786594718
+    "expires": 1790285969
   },
   "48.0050415,-122.1069823": {
     "place_id": 377846183,
@@ -297798,21 +297836,20 @@
     "expires": 1788357134
   },
   "48.7638576,14.0299579": {
-    "place_id": 421512141,
+    "place_id": 421891574,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 13970693715,
-    "lat": "48.7639833",
-    "lon": "14.0302357",
-    "class": "amenity",
-    "type": "school",
+    "osm_type": "way",
+    "osm_id": 259250380,
+    "lat": "48.7639964",
+    "lon": "14.0302681",
+    "class": "building",
+    "type": "civic",
     "place_rank": 30,
     "importance": 0.000059755092698512514,
-    "addresstype": "amenity",
-    "name": "Základní škola Horní Planá",
-    "display_name": "Základní škola Horní Planá, 186, Jiráskova, Bližší Lhota, Horní Planá, okres Český Krumlov, South Bohemian Region, Southwest, 382 26, Czechia",
+    "addresstype": "building",
+    "name": "",
+    "display_name": "186, Jiráskova, Bližší Lhota, Horní Planá, okres Český Krumlov, South Bohemian Region, Southwest, 382 26, Czechia",
     "address": {
-      "amenity": "Základní škola Horní Planá",
       "house_number": "186",
       "road": "Jiráskova",
       "village": "Bližší Lhota",
@@ -297826,15 +297863,16 @@
       "country_code": "cz"
     },
     "extratags": {
-      "operator": "město Horní Planá"
+      "building:flats": "1",
+      "building:levels": "1"
     },
     "boundingbox": [
-      "48.7639333",
-      "48.7640333",
-      "14.0301857",
-      "14.0302857"
+      "48.7638093",
+      "48.7641575",
+      "14.0298823",
+      "14.0305887"
     ],
-    "expires": 1786569207
+    "expires": 1790242890
   },
   "48.7647992,8.2798968": {
     "place_id": 123967325,
@@ -316798,6 +316836,47 @@
       "12.4510211"
     ],
     "expires": 1787751183
+  },
+  "50.391066,12.8836489": {
+    "place_id": 131575443,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6201788797,
+    "lat": "50.3910797",
+    "lon": "12.8836832",
+    "class": "information",
+    "type": "guidepost",
+    "place_rank": 30,
+    "importance": 0.00006651331349655936,
+    "addresstype": "information",
+    "name": "Pod Špičákem",
+    "display_name": "Pod Špičákem, Jáchymovská spojka, Eduard, Jáchymov, okres Karlovy Vary, Karlovy Vary Region, 362 62, Czechia",
+    "address": {
+      "information": "Pod Špičákem",
+      "road": "Jáchymovská spojka",
+      "hamlet": "Eduard",
+      "village": "Jáchymov",
+      "district": "okres Karlovy Vary",
+      "ISO3166-2-lvl5": "CZ-412",
+      "region": "Karlovy Vary Region",
+      "ISO3166-2-lvl4": "CZ-41",
+      "postcode": "362 62",
+      "country": "Czechia",
+      "country_code": "cz"
+    },
+    "extratags": {
+      "ele": "996",
+      "ski": "yes",
+      "bicycle": "yes",
+      "operator": "cz:KČT"
+    },
+    "boundingbox": [
+      "50.3910297",
+      "50.3911297",
+      "12.8836332",
+      "12.8837332"
+    ],
+    "expires": 1790306221
   },
   "50.3910908,12.8836355": {
     "place_id": 131138762,
