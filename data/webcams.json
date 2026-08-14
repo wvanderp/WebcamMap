@@ -18376,6 +18376,26 @@
     "url": "https://www.idokep.hu/webkamera/nhh"
   },
   {
+    "lat": 43.378532,
+    "lon": -5.8637056,
+    "osmID": 3366677030,
+    "user": "Davileci",
+    "osmType": "node",
+    "lastChanged": 1786632144000,
+    "address": {
+      "city": "Oviedo",
+      "state": "Asturias",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.webcamsdeasturias.com/webcam.php?id=60",
+      "man_made": "surveillance",
+      "name": "Webcams de Asturias",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.webcamsdeasturias.com/webcam.php?id=60"
+  },
+  {
     "lat": 54.2942595,
     "lon": 9.6828172,
     "osmID": 3373300905,
@@ -140352,7 +140372,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi02/ID_078"
+    "url": "https://cameras.santoandre.sp.gov.br/coi02/ID_078",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -23.6099717,
@@ -228888,13 +228911,13 @@
     "url": "https://www.kelikamerat.info/kelikamerat/etela-pohjanmaa/ahtari/tie-18/vt18_inha/ahtariin/c1051502"
   },
   {
-    "lat": 47.5483165,
-    "lon": 19.1407079,
+    "lat": 47.548288,
+    "lon": 19.1406985,
     "direction": 315,
     "osmID": 12856214927,
-    "user": "Bence_",
+    "user": "infeeeee",
     "osmType": "node",
-    "lastChanged": 1747942283000,
+    "lastChanged": 1786627682000,
     "address": {
       "city": "Budapest",
       "country": "Hungary"
@@ -274019,5 +274042,32 @@
       "surveillance:zone": "outdoor"
     },
     "url": "https://www.corollalightresort.com/soundsidecamera"
+  },
+  {
+    "lat": 40.6429492,
+    "lon": -89.540716,
+    "osmID": 14093767990,
+    "user": "Closeapple",
+    "osmType": "node",
+    "lastChanged": 1786685745000,
+    "address": {
+      "city": "East Peoria",
+      "county": "Tazewell County",
+      "state": "Illinois",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://travelmidwest.com/showCamera?id=IL-IDOTD4-camera_225",
+      "man_made": "surveillance",
+      "name": "I-74 at Pinecrest Dr.",
+      "ref": "4225",
+      "support": "pole",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://travelmidwest.com/showCamera?id=IL-IDOTD4-camera_225"
   }
 ]
