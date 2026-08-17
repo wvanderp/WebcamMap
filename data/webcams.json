@@ -30331,7 +30331,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "http://www.utinform.hu/webkamerak/"
+    "url": "http://www.utinform.hu/webkamerak/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.749408,
@@ -248548,6 +248551,39 @@
     "url": "https://webcam.u-n.cz/kamera-prestice-static\","
   },
   {
+    "lat": 42.2347442,
+    "lon": -71.0284557,
+    "direction": 340,
+    "osmID": 13390445516,
+    "user": "MrChris223",
+    "osmType": "node",
+    "lastChanged": 1786864095000,
+    "address": {
+      "city": "Quincy",
+      "county": "Norfolk County",
+      "state": "Massachusetts",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "flocksafety.com",
+      "description": "Flock Safety Vehicle profiler and plate identifier.",
+      "direction": "75",
+      "man_made": "surveillance",
+      "name": "Flock ALPR Camera",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "flocksafety.com",
+    "lint": {
+      "duplicate": true,
+      "invalidUrl": true
+    }
+  },
+  {
     "lat": 47.5961272,
     "lon": -122.3200646,
     "osmID": 13391592756,
@@ -268591,6 +268627,7 @@
     "url": "flocksafety.com",
     "lint": {
       "unavailable": true,
+      "duplicate": true,
       "invalidUrl": true
     }
   },
