@@ -76349,6 +76349,7 @@
     "operator": "Brouwersdam cam",
     "url": "https://www.brouwersdam.nl/nl/brouwersdam/live-view.html",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -116253,7 +116254,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.030.html"
+    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.030.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 39.8979685,
@@ -129439,6 +129443,7 @@
     },
     "url": "https://trafficmap.bellevuewa.gov/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -166578,9 +166583,9 @@
     "lat": 47.3582137,
     "lon": -122.0700531,
     "osmID": 12048756245,
-    "user": "Lumikeiju",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1723578013000,
+    "lastChanged": 1786980320000,
     "address": {
       "city": "Covington",
       "county": "King County",
@@ -166597,6 +166602,7 @@
       "material": "metal",
       "operator": "Washington State Department of Transportation",
       "operator:short": "WSDOT",
+      "operator:type": "government",
       "operator:wikidata": "Q834834",
       "ref:US-WA:WSDOT": "SR516204SE",
       "surveillance": "public",
@@ -270997,33 +271003,6 @@
     "url": "https://solsteinhaus.at/webcam-live/"
   },
   {
-    "lat": 36.2186232,
-    "lon": -81.6836876,
-    "direction": 215,
-    "osmID": 13912396401,
-    "user": "howdyhooter",
-    "osmType": "node",
-    "lastChanged": 1784750742000,
-    "address": {
-      "city": "Boone",
-      "county": "Watauga County",
-      "state": "North Carolina",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "camera:mount": "building",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.resortcams.com/webcams/king-street-boone/",
-      "direction": "215",
-      "man_made": "surveillance",
-      "manufacturer:wikidata": "Q108485435",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "street"
-    },
-    "url": "https://www.resortcams.com/webcams/king-street-boone/"
-  },
-  {
     "lat": 47.2571906,
     "lon": -122.3306389,
     "osmID": 13920122746,
@@ -274250,5 +274229,34 @@
     "lint": {
       "youtube": true
     }
+  },
+  {
+    "lat": 47.7112125,
+    "lon": -117.0015114,
+    "direction": 315,
+    "osmID": 14101946199,
+    "user": "JoeBlowIdaho",
+    "osmType": "node",
+    "lastChanged": 1787012912000,
+    "address": {
+      "city": "Post Falls",
+      "county": "Kootenai County",
+      "state": "Idaho",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "315",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://deflock.org/",
+      "description": "Spy Cam",
+      "man_made": "surveillance",
+      "manufacturer": "Flock Safety",
+      "manufacturer:wikidata": "Q108485435",
+      "name": "FLOCK SAFETY",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://deflock.org/"
   }
 ]
