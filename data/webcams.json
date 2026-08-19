@@ -105251,13 +105251,13 @@
     "url": "https://itscameras.dot.state.oh.us/images/CLE/CLE218-L.jpg"
   },
   {
-    "lat": 40.3921323,
-    "lon": -91.3769954,
+    "lat": 40.3920062,
+    "lon": -91.3770276,
     "direction": 60,
     "osmID": 9004502760,
-    "user": "wvdp",
+    "user": "CraigPe",
     "osmType": "node",
-    "lastChanged": 1665736762000,
+    "lastChanged": 1787051544000,
     "address": {
       "city": "Keokuk",
       "county": "Lee County",
@@ -105266,18 +105266,20 @@
     },
     "osmTags": {
       "camera:direction": "60",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=KglFyCnp65Y",
-      "description": "Keokuk is the Geode Capitol of the World, and it’s located in southeast Iowa along the Mississippi River. Boats, history, recreation, entertainment, great eats – as well as spectacular views of Bald Eagles -- await you in Keokuk!",
+      "camera:mount": "gantry",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.youtube.com/watch?v=GXsEbZaj0bU",
+      "description": "The camera is mounted on what’s left of the original train/traffic bridge which spanned the Mississippi. With the completion of the new bridge, the Keokuk side of the old bridge was transformed into an Observation Deck.",
+      "location": "overhead",
       "man_made": "surveillance",
       "name": "Mississippi River Lock & Dam 19, Keokuk, IA, USA",
       "operator": "StreamTime LIVE",
-      "surveillance": "webcam",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "lock"
     },
     "operator": "StreamTime LIVE",
-    "url": "https://www.youtube.com/watch?v=KglFyCnp65Y",
+    "url": "https://www.youtube.com/watch?v=GXsEbZaj0bU",
     "lint": {
       "youtube": true
     }
@@ -136470,7 +136472,10 @@
       "surveillance:zone": "Beach"
     },
     "operator": "Ville de Royan",
-    "url": "https://www.royanatlantique.fr/webcam/royan-plage-de-pontaillac/"
+    "url": "https://www.royanatlantique.fr/webcam/royan-plage-de-pontaillac/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 49.3365063,
@@ -142794,7 +142799,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.flughafen-zuerich.ch/de/passagiere/erleben/erlebnisse/webcams/operation-center"
+    "url": "https://www.flughafen-zuerich.ch/de/passagiere/erleben/erlebnisse/webcams/operation-center",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.4666271,
@@ -152702,9 +152710,9 @@
     "lat": 43.0487998,
     "lon": -88.2253989,
     "osmID": 11432458513,
-    "user": "1998alexkane",
+    "user": "polystyrene",
     "osmType": "node",
-    "lastChanged": 1703001413000,
+    "lastChanged": 1787066262000,
     "address": {
       "city": "City of Pewaukee",
       "county": "Waukesha County",
@@ -152719,6 +152727,8 @@
       "man_made": "surveillance",
       "name": "I-94 at WIS 164",
       "operator": "Wisconsin Department of Transportation",
+      "operator:short": "WisDOT",
+      "operator:type": "government",
       "operator:wikidata": "Q8027162",
       "surveillance": "outdoor",
       "surveillance:type": "camera",
@@ -210374,9 +210384,9 @@
     "lat": 41.9986966,
     "lon": -111.8125847,
     "osmID": 12627527624,
-    "user": "clipmax",
+    "user": "CCMW",
     "osmType": "node",
-    "lastChanged": 1741029147000,
+    "lastChanged": 1787095044000,
     "address": {
       "city": "Lewiston",
       "county": "Cache County",
@@ -210394,7 +210404,7 @@
       "operator:type": "government",
       "operator:wikidata": "Q2506783",
       "ref": "US-91 @ UT/ID State Line / MP 45.27, CA",
-      "surveillance": "public",
+      "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic",
       "website": "https://udottraffic.utah.gov/"
@@ -237989,11 +237999,10 @@
   {
     "lat": 49.272322,
     "lon": -123.1857574,
-    "direction": 110,
     "osmID": 13168294438,
     "user": "Scope65432",
     "osmType": "node",
-    "lastChanged": 1758751879000,
+    "lastChanged": 1787095059000,
     "address": {
       "city": "Vancouver",
       "county": "Metro Vancouver Regional District",
@@ -238001,7 +238010,7 @@
       "country": "Canada"
     },
     "osmTags": {
-      "camera:direction": "110",
+      "camera:direction": "20;110;160;270",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://trafficcams.vancouver.ca/almaPtGrey.htm",
@@ -238017,11 +238026,10 @@
   {
     "lat": 49.2634471,
     "lon": -123.186081,
-    "direction": 90180270,
     "osmID": 13168313784,
     "user": "Scope65432",
     "osmType": "node",
-    "lastChanged": 1758751879000,
+    "lastChanged": 1787095059000,
     "address": {
       "city": "Vancouver",
       "county": "Metro Vancouver Regional District",
@@ -238029,7 +238037,7 @@
       "country": "Canada"
     },
     "osmTags": {
-      "camera:direction": "90180270",
+      "camera:direction": "20;90;160;270",
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "https://trafficcams.vancouver.ca/alma10.htm",
@@ -238048,7 +238056,7 @@
     "osmID": 13168331150,
     "user": "Scope65432",
     "osmType": "node",
-    "lastChanged": 1758751879000,
+    "lastChanged": 1787095243000,
     "address": {
       "city": "Vancouver",
       "county": "Metro Vancouver Regional District",
@@ -238060,8 +238068,10 @@
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "https://trafficcams.vancouver.ca/sasamat10.htm",
+      "direction": "0;90;180;270",
       "man_made": "surveillance",
       "operator": "City of Vancouver",
+      "operator:type": "government",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -238075,7 +238085,7 @@
     "osmID": 13168332984,
     "user": "Scope65432",
     "osmType": "node",
-    "lastChanged": 1758751879000,
+    "lastChanged": 1787095151000,
     "address": {
       "city": "Vancouver",
       "county": "Metro Vancouver Regional District",
@@ -238083,7 +238093,7 @@
       "country": "Canada"
     },
     "osmTags": {
-      "camera:direction": "0, 90, 180, 270",
+      "camera:direction": "0;90;180;270",
       "camera:mount": "pole",
       "camera:type": "panning",
       "contact:webcam": "https://trafficcams.vancouver.ca/blanca10.htm",
@@ -271798,6 +271808,35 @@
     }
   },
   {
+    "lat": 41.5560426,
+    "lon": -72.6417049,
+    "direction": 283,
+    "osmID": 13998463801,
+    "user": "Mrmancini24",
+    "osmType": "node",
+    "lastChanged": 1787082755000,
+    "address": {
+      "city": "Middletown",
+      "county": "Lower Connecticut River Valley Planning Region",
+      "state": "Connecticut",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://portal.ct.gov/lib/dot/documents/deng/170-3346/picture_of_typical_installation.jpg",
+      "direction": "283",
+      "man_made": "monitoring_station",
+      "monitoring:temperature": "yes",
+      "operator": "CTDOT",
+      "surveillance": "roadway_weather_information_system",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "CTDOT",
+    "url": "https://portal.ct.gov/lib/dot/documents/deng/170-3346/picture_of_typical_installation.jpg"
+  },
+  {
     "lat": 47.675111,
     "lon": -122.4082491,
     "direction": 250,
@@ -274258,5 +274297,28 @@
       "surveillance:zone": "street"
     },
     "url": "https://deflock.org/"
+  },
+  {
+    "lat": -34.5688375,
+    "lon": -70.9705824,
+    "osmID": 14104496621,
+    "user": "GustavoE",
+    "osmType": "node",
+    "lastChanged": 1787109172000,
+    "address": {
+      "city": "San Fernando",
+      "county": "Provincia de Colchagua",
+      "state": "O'Higgins Region",
+      "country": "Chile"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://aipchile.dgac.gob.cl/camara_ubicacion/show/designador/SCSD",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://aipchile.dgac.gob.cl/camara_ubicacion/show/designador/SCSD"
   }
 ]
