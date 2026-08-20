@@ -11558,17 +11558,18 @@
     "id": 2620921056,
     "lat": 51.5115846,
     "lon": 7.4671237,
-    "timestamp": "2020-07-03T10:12:49Z",
-    "version": 2,
-    "changeset": 87497208,
-    "user": "20180911",
-    "uid": 8808716,
+    "timestamp": "2026-08-19T11:46:15Z",
+    "version": 3,
+    "changeset": 187685531,
+    "user": "Tetzemann82",
+    "uid": 6807393,
     "tags": {
       "camera:angle": "down",
       "camera:direction": "255",
       "camera:features": "webcam",
       "camera:recording": "online_streaming",
       "camera:type": "fixed",
+      "check_date": "2026-08-19",
       "contact:webcam": "https://lamp01.dortmund.de/webcams/friedensplatz/current.jpg",
       "contact:webcam:type": "image",
       "interval": "00:00:02",
@@ -136407,11 +136408,11 @@
     "id": 12049969636,
     "lat": 47.9748323,
     "lon": -122.1028698,
-    "timestamp": "2024-08-13T19:40:13Z",
-    "version": 3,
-    "changeset": 155211898,
-    "user": "Lumikeiju",
-    "uid": 20996589,
+    "timestamp": "2026-08-19T19:35:43Z",
+    "version": 4,
+    "changeset": 187709545,
+    "user": "Omnific",
+    "uid": 1408522,
     "tags": {
       "camera:support": "pole",
       "camera:type": "panning",
@@ -136422,6 +136423,7 @@
       "material": "metal",
       "operator": "Washington State Department of Transportation",
       "operator:short": "WSDOT",
+      "operator:type": "government",
       "operator:wikidata": "Q834834",
       "ref:US-WA:WSDOT": "SR9SLkStevensRd",
       "surveillance": "public",
@@ -159722,35 +159724,6 @@
       "shef:location_id": "DALT2",
       "website": "https://waterdata.usgs.gov/monitoring-location/08057000",
       "website:1": "https://water.noaa.gov/gauges/dalt2"
-    }
-  },
-  {
-    "type": "node",
-    "id": 12101172568,
-    "lat": 33.3553933,
-    "lon": -97.0500093,
-    "timestamp": "2024-10-16T02:05:29Z",
-    "version": 5,
-    "changeset": 157944170,
-    "user": "quincylvania",
-    "uid": 4515353,
-    "tags": {
-      "contact:webcam": "https://apps.usgs.gov/hivis/camera/TX_Ray_Roberts_Lake_near_Pilot_Point",
-      "man_made": "monitoring_station",
-      "monitoring:precipitation": "yes",
-      "monitoring:water_level": "yes",
-      "monitoring:wind_direction": "yes",
-      "monitoring:wind_speed": "yes",
-      "name": "Ray Roberts Lake near Pilot Point",
-      "official_name": "Ray Roberts Lk nr Pilot Point, TX",
-      "operator": "United States Geological Survey",
-      "operator:short": "USGS",
-      "operator:type": "government",
-      "operator:wikidata": "Q193755",
-      "ref": "08051100",
-      "shef:location_id": "RRLT2",
-      "website": "https://waterdata.usgs.gov/monitoring-location/08051100",
-      "website:1": "https://water.noaa.gov/gauges/rrlt2"
     }
   },
   {
@@ -224954,6 +224927,27 @@
   },
   {
     "type": "node",
+    "id": 14060655601,
+    "lat": -28.0113287,
+    "lon": 153.4118054,
+    "timestamp": "2026-08-20T03:24:59Z",
+    "version": 3,
+    "changeset": 187720486,
+    "user": "Joel Koen",
+    "uid": 14811902,
+    "tags": {
+      "camera:direction": "167",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/bundall-ashmore-south.jpg",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 14062556532,
     "lat": 35.5871501,
     "lon": -83.0741614,
@@ -226009,6 +226003,93 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14105611362,
+    "lat": 43.194236,
+    "lon": -0.6053859,
+    "timestamp": "2026-08-19T15:56:38Z",
+    "version": 1,
+    "changeset": 187698514,
+    "user": "PSR123",
+    "uid": 23289139,
+    "tags": {
+      "camera:direction": "165",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "description": "Interphone video",
+      "ele": "2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14105611363,
+    "lat": 43.1941269,
+    "lon": -0.6051086,
+    "timestamp": "2026-08-19T15:56:38Z",
+    "version": 1,
+    "changeset": 187698514,
+    "user": "PSR123",
+    "uid": 23289139,
+    "tags": {
+      "camera:direction": "75",
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "description": "Interphone vidéo",
+      "ele": "2",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14105630494,
+    "lat": 45.8058119,
+    "lon": -108.599816,
+    "timestamp": "2026-08-19T16:15:07Z",
+    "version": 1,
+    "changeset": 187699402,
+    "user": "Justinvasquez",
+    "uid": 21945594,
+    "tags": {
+      "camera:direction": "5;165",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "camera:direction=165 camera:type=fixed surveillance:type=camera camera:mount=pole surveillance=traffic man_made=surveillance",
+      "man_made": "surveillance",
+      "name": "Zimmerman Trail Camera",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14106671439,
+    "lat": -28.1178336,
+    "lon": 153.4530775,
+    "timestamp": "2026-08-20T03:43:54Z",
+    "version": 1,
+    "changeset": 187720796,
+    "user": "Joel Koen",
+    "uid": 14811902,
+    "tags": {
+      "camera:direction": "325",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/Palm_Beach-M1_Exit_92-North.jpg",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -230773,6 +230854,45 @@
       "static_caravans": "yes",
       "tents": "yes",
       "tourism": "camp_site"
+    }
+  },
+  {
+    "type": "way",
+    "id": 1550939681,
+    "timestamp": "2026-08-20T00:05:20Z",
+    "version": 1,
+    "changeset": 187717409,
+    "user": "I W",
+    "uid": 24100304,
+    "center": {
+      "lat": 33.3551386,
+      "lon": -97.0497376
+    },
+    "nodes": [
+      12101172568,
+      14106527910,
+      14106527911,
+      14106527912,
+      12101172568
+    ],
+    "tags": {
+      "building": "yes",
+      "contact:webcam": "https://apps.usgs.gov/hivis/camera/TX_Ray_Roberts_Lake_near_Pilot_Point",
+      "man_made": "monitoring_station",
+      "monitoring:precipitation": "yes",
+      "monitoring:water_level": "yes",
+      "monitoring:wind_direction": "yes",
+      "monitoring:wind_speed": "yes",
+      "name": "Ray Roberts Lake near Pilot Point",
+      "official_name": "Ray Roberts Lk nr Pilot Point, TX",
+      "operator": "United States Geological Survey",
+      "operator:short": "USGS",
+      "operator:type": "government",
+      "operator:wikidata": "Q193755",
+      "ref": "08051100",
+      "shef:location_id": "RRLT2",
+      "website": "https://waterdata.usgs.gov/monitoring-location/08051100",
+      "website:1": "https://water.noaa.gov/gauges/rrlt2"
     }
   },
   {

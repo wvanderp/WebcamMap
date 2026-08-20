@@ -14438,9 +14438,9 @@
     "lon": 7.4671237,
     "direction": 255,
     "osmID": 2620921056,
-    "user": "20180911",
+    "user": "Tetzemann82",
     "osmType": "node",
-    "lastChanged": 1593771169000,
+    "lastChanged": 1787139975000,
     "address": {
       "city": "Dortmund",
       "state": "North Rhine-Westphalia",
@@ -14452,6 +14452,7 @@
       "camera:features": "webcam",
       "camera:recording": "online_streaming",
       "camera:type": "fixed",
+      "check_date": "2026-08-19",
       "contact:webcam": "https://lamp01.dortmund.de/webcams/friedensplatz/current.jpg",
       "contact:webcam:type": "image",
       "interval": "00:00:02",
@@ -147771,7 +147772,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://images.wsdot.wa.gov/orflow/099vc00089.jpg"
+    "url": "https://images.wsdot.wa.gov/orflow/099vc00089.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.2478276,
@@ -167226,9 +167230,9 @@
     "lat": 47.9748323,
     "lon": -122.1028698,
     "osmID": 12049969636,
-    "user": "Lumikeiju",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1723578013000,
+    "lastChanged": 1787168143000,
     "address": {
       "city": "Lake Stevens",
       "county": "Snohomish County",
@@ -167245,6 +167249,7 @@
       "material": "metal",
       "operator": "Washington State Department of Transportation",
       "operator:short": "WSDOT",
+      "operator:type": "government",
       "operator:wikidata": "Q834834",
       "ref:US-WA:WSDOT": "SR9SLkStevensRd",
       "surveillance": "public",
@@ -194203,40 +194208,6 @@
     "url": "https://apps.usgs.gov/hivis/camera/TX_Trinity_Rv_at_Dallas"
   },
   {
-    "lat": 33.3553933,
-    "lon": -97.0500093,
-    "osmID": 12101172568,
-    "user": "quincylvania",
-    "osmType": "node",
-    "lastChanged": 1729044329000,
-    "address": {
-      "city": "Denton",
-      "county": "Denton County",
-      "state": "Texas",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "contact:webcam": "https://apps.usgs.gov/hivis/camera/TX_Ray_Roberts_Lake_near_Pilot_Point",
-      "man_made": "monitoring_station",
-      "monitoring:precipitation": "yes",
-      "monitoring:water_level": "yes",
-      "monitoring:wind_direction": "yes",
-      "monitoring:wind_speed": "yes",
-      "name": "Ray Roberts Lake near Pilot Point",
-      "official_name": "Ray Roberts Lk nr Pilot Point, TX",
-      "operator": "United States Geological Survey",
-      "operator:short": "USGS",
-      "operator:type": "government",
-      "operator:wikidata": "Q193755",
-      "ref": "08051100",
-      "shef:location_id": "RRLT2",
-      "website": "https://waterdata.usgs.gov/monitoring-location/08051100",
-      "website:1": "https://water.noaa.gov/gauges/rrlt2"
-    },
-    "operator": "United States Geological Survey",
-    "url": "https://apps.usgs.gov/hivis/camera/TX_Ray_Roberts_Lake_near_Pilot_Point"
-  },
-  {
     "lat": 32.732353,
     "lon": -97.3589063,
     "osmID": 12101172583,
@@ -201156,7 +201127,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.drsc.si/kamere/KamSlike/Ratece/slike/Rat1_0001.jpg"
+    "url": "https://www.drsc.si/kamere/KamSlike/Ratece/slike/Rat1_0001.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.3468733,
@@ -241436,6 +241410,7 @@
     },
     "url": "https://smart.zilina.sk/traffic?filters%5B0%5D=camera",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -273083,6 +273058,31 @@
     "url": "https://www.ulm.de/sonderseiten/webcams"
   },
   {
+    "lat": -28.0113287,
+    "lon": 153.4118054,
+    "direction": 167,
+    "osmID": 14060655601,
+    "user": "Joel Koen",
+    "osmType": "node",
+    "lastChanged": 1787196299000,
+    "address": {
+      "city": "Gold Coast",
+      "state": "Queensland",
+      "country": "Australia"
+    },
+    "osmTags": {
+      "camera:direction": "167",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/bundall-ashmore-south.jpg",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/bundall-ashmore-south.jpg"
+  },
+  {
     "lat": 35.5871501,
     "lon": -83.0741614,
     "osmID": 14062556532,
@@ -274320,5 +274320,56 @@
       "surveillance:zone": "area"
     },
     "url": "https://aipchile.dgac.gob.cl/camara_ubicacion/show/designador/SCSD"
+  },
+  {
+    "lat": 45.8058119,
+    "lon": -108.599816,
+    "osmID": 14105630494,
+    "user": "Justinvasquez",
+    "osmType": "node",
+    "lastChanged": 1787156107000,
+    "address": {
+      "city": "Billings",
+      "county": "Yellowstone County",
+      "state": "Montana",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "5;165",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "camera:direction=165 camera:type=fixed surveillance:type=camera camera:mount=pole surveillance=traffic man_made=surveillance",
+      "man_made": "surveillance",
+      "name": "Zimmerman Trail Camera",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "camera:direction=165 camera:type=fixed surveillance:type=camera camera:mount=pole surveillance=traffic man_made=surveillance"
+  },
+  {
+    "lat": -28.1178336,
+    "lon": 153.4530775,
+    "direction": 325,
+    "osmID": 14106671439,
+    "user": "Joel Koen",
+    "osmType": "node",
+    "lastChanged": 1787197434000,
+    "address": {
+      "city": "Gold Coast",
+      "state": "Queensland",
+      "country": "Australia"
+    },
+    "osmTags": {
+      "camera:direction": "325",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/Palm_Beach-M1_Exit_92-North.jpg",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/Palm_Beach-M1_Exit_92-North.jpg"
   }
 ]
