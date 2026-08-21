@@ -3318,9 +3318,9 @@
     "lat": 42.369455,
     "lon": -71.064178,
     "osmID": 1408830361,
-    "user": "4b3eff",
+    "user": "Erhecatl",
     "osmType": "node",
-    "lastChanged": 1724009190000,
+    "lastChanged": 1787267076000,
     "address": {
       "city": "Boston",
       "county": "Suffolk County",
@@ -3329,6 +3329,7 @@
     },
     "osmTags": {
       "camera:features": "webcam",
+      "camera:type": "dome",
       "check_date": "2024-08-18",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/217.jpg",
       "description": "I-93 - Zakim Bridge, Boston",
@@ -127126,6 +127127,7 @@
     },
     "url": "https://trafficmap.bellevuewa.gov/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -274371,5 +274373,52 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://cameras.qldtraffic.qld.gov.au/Gold_Coast/Palm_Beach-M1_Exit_92-North.jpg"
+  },
+  {
+    "lat": 49.244506,
+    "lon": -123.0238107,
+    "osmID": 14108097737,
+    "user": "FreshlyTweezed",
+    "osmType": "node",
+    "lastChanged": 1787250667000,
+    "address": {
+      "city": "Vancouver",
+      "county": "Metro Vancouver Regional District",
+      "state": "British Columbia",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://trafficcams.vancouver.ca/boundary29.htm",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera"
+    },
+    "url": "https://trafficcams.vancouver.ca/boundary29.htm"
+  },
+  {
+    "lat": 41.8386147,
+    "lon": -111.8491849,
+    "osmID": 14108501770,
+    "user": "CCMW",
+    "osmType": "node",
+    "lastChanged": 1787266968000,
+    "address": {
+      "city": "Smithfield",
+      "county": "Cache County",
+      "state": "Utah",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://udottraffic.utah.gov/map",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://udottraffic.utah.gov/map"
   }
 ]
