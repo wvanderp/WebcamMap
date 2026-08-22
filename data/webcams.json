@@ -54199,9 +54199,9 @@
     "lat": 40.3943864,
     "lon": -3.6401306,
     "osmID": 6644237135,
-    "user": "geobytes",
+    "user": "mojitopt",
     "osmType": "node",
-    "lastChanged": 1772108678000,
+    "lastChanged": 1787375770000,
     "address": {
       "city": "Madrid",
       "state": "Community of Madrid",
@@ -54222,7 +54222,7 @@
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic",
-      "website": "http://informo.munimadrid.es"
+      "website": "http://informo.madrid.es"
     },
     "operator": "Ayuntamiento de Madrid",
     "url": "https://informo.madrid.es/cameras/Camara13304.jpg"
@@ -137213,7 +137213,7 @@
     "osmID": 10308258712,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1672908570000,
+    "lastChanged": 1787304089000,
     "address": {
       "city": "Białka Tatrzańska",
       "county": "Tatra County",
@@ -137225,7 +137225,9 @@
       "camera:type": "panning",
       "contact:webcam": "https://player.webcamera.pl/skywind_cam_772102",
       "man_made": "surveillance",
-      "name": "Kotelnica Białczańska - widok na stok",
+      "name": "Kotelnica Białczańska - Ski Slope View",
+      "name:en": "Kotelnica Białczańska - Ski Slope View",
+      "name:pl": "Kotelnica Białczańska - widok na stok",
       "operator": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
@@ -137239,7 +137241,7 @@
     "osmID": 10308258713,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1672908570000,
+    "lastChanged": 1787304089000,
     "address": {
       "city": "Białka Tatrzańska",
       "county": "Tatra County",
@@ -137252,6 +137254,7 @@
       "contact:webcam": "https://player.webcamera.pl/kotelnica_cam_0b240f",
       "man_made": "surveillance",
       "name": "Kotelnica Białczańska - Remiaszów",
+      "name:en": "Kotelnica Białczańska - Remiaszów",
       "operator": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
@@ -137265,7 +137268,7 @@
     "osmID": 10308258714,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1672908570000,
+    "lastChanged": 1787304089000,
     "address": {
       "city": "Groń",
       "county": "Tatra County",
@@ -137278,6 +137281,8 @@
       "contact:webcam": "https://player.webcamera.pl/kotelnica_cam_d105f8",
       "man_made": "surveillance",
       "name": "Kotelnica - Jankulakowski Wierch",
+      "name:en": "Kotelnica - Jankulakowski Wierch",
+      "name:pl": "Kotelnica - Jankulakowski Wierch",
       "operator": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
@@ -137291,7 +137296,7 @@
     "osmID": 10308258733,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1672908570000,
+    "lastChanged": 1787304089000,
     "address": {
       "city": "Białka Tatrzańska",
       "county": "Tatra County",
@@ -137304,6 +137309,8 @@
       "contact:webcam": "https://player.webcamera.pl/kotelnica_cam_ea8e3d",
       "man_made": "surveillance",
       "name": "Kotelnica -  Pasieka Express",
+      "name:en": "Kotelnica -  Pasieka Express",
+      "name:pl": "Kotelnica -  Pasieka Express",
       "operator": "WebCamera",
       "surveillance": "public",
       "surveillance:type": "camera"
@@ -137342,7 +137349,7 @@
     "osmID": 10310662542,
     "user": "Jakub Gawryl",
     "osmType": "node",
-    "lastChanged": 1673003869000,
+    "lastChanged": 1787304089000,
     "address": {
       "city": "Białka Tatrzańska",
       "county": "Tatra County",
@@ -137352,13 +137359,16 @@
     "osmTags": {
       "camera:mount": "wall",
       "camera:type": "fixed",
-      "contact:webcam": "https://ipcam.pl/stream/embed/_xtUP8nxtnLM2RKWn5cIS0P4F7L_F375lq-nG3JAZlpn4qETPMZeRA?autoplay=1",
+      "contact:webcam": "https://hornikowwierch.aztv.pl/hornikowwierch.php",
       "man_made": "surveillance",
-      "name": "Horników",
+      "name": "Horników Wierch - Ski Run View",
+      "name:en": "Horników Wierch - Ski Run View",
+      "name:pl": "Horników Wierch - widok na stok",
       "surveillance": "public",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
     },
-    "url": "https://ipcam.pl/stream/embed/_xtUP8nxtnLM2RKWn5cIS0P4F7L_F375lq-nG3JAZlpn4qETPMZeRA?autoplay=1"
+    "url": "https://hornikowwierch.aztv.pl/hornikowwierch.php"
   },
   {
     "lat": 53.744933,
@@ -141765,7 +141775,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_594"
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_594",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -23.6247126,
@@ -144145,11 +144158,11 @@
   {
     "lat": 49.6905713,
     "lon": 11.0048034,
-    "direction": 60,
+    "direction": 75,
     "osmID": 10989341880,
-    "user": "SpechTig",
+    "user": "Foonline",
     "osmType": "node",
-    "lastChanged": 1687174341000,
+    "lastChanged": 1787341706000,
     "address": {
       "city": "Heroldsbach",
       "county": "Landkreis Forchheim",
@@ -144158,18 +144171,19 @@
     },
     "osmTags": {
       "camera:angle": "45",
-      "camera:direction": "60",
+      "camera:direction": "75",
       "camera:mount": "tree",
       "camera:type": "fixed",
-      "contact:webcam": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.050.html",
       "ele": "15",
       "height": "5",
       "man_made": "surveillance",
-      "surveillance": "public",
+      "name": "Storchencam",
+      "surveillance": "webcam",
       "surveillance:type": "camera",
-      "surveillance:zone": "public"
+      "surveillance:zone": "public",
+      "website": "https://www.heroldsbach.de/unsere-gemeinde/herzlich-willkommen/storchencam"
     },
-    "url": "https://livecam-pro.com/fileadmin/templates/assets/_html/livecamX.050.html"
+    "url": "https://www.heroldsbach.de/unsere-gemeinde/herzlich-willkommen/storchencam"
   },
   {
     "lat": 59.4009293,
@@ -147774,10 +147788,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://images.wsdot.wa.gov/orflow/099vc00089.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://images.wsdot.wa.gov/orflow/099vc00089.jpg"
   },
   {
     "lat": 47.2478276,
@@ -236097,90 +236108,6 @@
     "url": "https://www.plzen.eu/o-meste/multimedia/webkamery"
   },
   {
-    "lat": 34.6475074,
-    "lon": 135.3868857,
-    "osmID": 13042911220,
-    "user": "K_Sakanoshita",
-    "osmType": "node",
-    "lastChanged": 1767184675000,
-    "address": {
-      "city": "Osaka",
-      "country": "Japan"
-    },
-    "osmTags": {
-      "camera:mount": "roof",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=V7tfOJqEK4k",
-      "historic:man_made": "surveillance",
-      "name": "万博会場ライブカメラ（EXPOホールエントランス付近）",
-      "name:en": "Expo Site Live Cameras(Near the entrance of EXPO Hall)",
-      "name:ja": "万博会場ライブカメラ（EXPOホールエントランス付近）",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
-    "url": "https://www.youtube.com/watch?v=V7tfOJqEK4k",
-    "lint": {
-      "youtube": true
-    }
-  },
-  {
-    "lat": 34.6480807,
-    "lon": 135.3830023,
-    "osmID": 13042911221,
-    "user": "K_Sakanoshita",
-    "osmType": "node",
-    "lastChanged": 1767184675000,
-    "address": {
-      "city": "Osaka",
-      "country": "Japan"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=RBAGwQr4LAg",
-      "historic:man_made": "surveillance",
-      "name": "万博会場ライブカメラ（シグネチャーパビリオン付近）",
-      "name:en": "Expo Site Live Cameras(near the Signature Pavilions)",
-      "name:ja": "万博会場ライブカメラ（シグネチャーパビリオン付近）",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
-    "url": "https://www.youtube.com/watch?v=RBAGwQr4LAg",
-    "lint": {
-      "youtube": true
-    }
-  },
-  {
-    "lat": 34.6499894,
-    "lon": 135.384577,
-    "osmID": 13042911222,
-    "user": "K_Sakanoshita",
-    "osmType": "node",
-    "lastChanged": 1767184675000,
-    "address": {
-      "city": "Osaka",
-      "country": "Japan"
-    },
-    "osmTags": {
-      "camera:mount": "wall",
-      "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=GWJb1g6Tw4g",
-      "historic:man_made": "surveillance",
-      "name": "万博会場ライブカメラ（光のひろば～静けさの森）",
-      "name:en": "Expo Site Live Cameras(Light Plaza to the Forest of Tranquility)",
-      "name:ja": "万博会場ライブカメラ（光のひろば～静けさの森）",
-      "surveillance": "webcam",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
-    "url": "https://www.youtube.com/watch?v=GWJb1g6Tw4g",
-    "lint": {
-      "youtube": true
-    }
-  },
-  {
     "lat": 59.3879965,
     "lon": 24.6836208,
     "direction": 195,
@@ -271405,7 +271332,7 @@
     "lon": -105.1545053,
     "direction": 285,
     "osmID": 13963414210,
-    "user": "ChaoticOrangutan",
+    "user": "ChaosOpossum",
     "osmType": "node",
     "lastChanged": 1782341877000,
     "address": {
@@ -271430,7 +271357,7 @@
     "lon": -105.1655488,
     "direction": 210,
     "osmID": 13963421762,
-    "user": "ChaoticOrangutan",
+    "user": "ChaosOpossum",
     "osmType": "node",
     "lastChanged": 1786333139000,
     "address": {
@@ -271455,7 +271382,7 @@
     "lon": -105.1459813,
     "direction": 240,
     "osmID": 13963421763,
-    "user": "ChaoticOrangutan",
+    "user": "ChaosOpossum",
     "osmType": "node",
     "lastChanged": 1786333030000,
     "address": {
@@ -271847,6 +271774,7 @@
     "osmType": "node",
     "lastChanged": 1783703215000,
     "address": {
+      "city": "Posudov",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -274420,5 +274348,95 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://udottraffic.utah.gov/map"
+  },
+  {
+    "lat": 49.3643515,
+    "lon": 20.0926924,
+    "direction": 88,
+    "osmID": 14109503247,
+    "user": "Jakub Gawryl",
+    "osmType": "node",
+    "lastChanged": 1787305436000,
+    "address": {
+      "city": "Białka Tatrzańska",
+      "county": "Tatra County",
+      "state": "Lesser Poland Voivodeship",
+      "country": "Poland"
+    },
+    "osmTags": {
+      "camera:direction": "88",
+      "camera:type": "fixed",
+      "contact:webcam": "https://imageserver.webcamera.pl/umiesc/kaniowka-stok",
+      "man_made": "surveillance",
+      "name": "Kaniówka - widok z górnej stacji",
+      "name:en": "Kaniówka - Top Station View",
+      "name:pl": "Kaniówka - widok z górnej stacji",
+      "operator": "WebCamera",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "operator": "WebCamera",
+    "url": "https://imageserver.webcamera.pl/umiesc/kaniowka-stok"
+  },
+  {
+    "lat": 49.3886668,
+    "lon": 20.0979838,
+    "osmID": 14109939545,
+    "user": "Jakub Gawryl",
+    "osmType": "node",
+    "lastChanged": 1787317848000,
+    "address": {
+      "city": "Białka Tatrzańska",
+      "county": "Tatra County",
+      "state": "Lesser Poland Voivodeship",
+      "country": "Poland"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://player.webcamera.pl/skywind_cam_6407df",
+      "man_made": "surveillance",
+      "name": "Bania - Panorama",
+      "name:en": "Bania - Panoramic View",
+      "name:pl": "Bania - Panorama",
+      "operator": "WebCamera",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "operator": "WebCamera",
+    "url": "https://player.webcamera.pl/skywind_cam_6407df"
+  },
+  {
+    "lat": 49.3887056,
+    "lon": 20.0987957,
+    "direction": 156,
+    "osmID": 14109939546,
+    "user": "Jakub Gawryl",
+    "osmType": "node",
+    "lastChanged": 1787317848000,
+    "address": {
+      "city": "Białka Tatrzańska",
+      "county": "Tatra County",
+      "state": "Lesser Poland Voivodeship",
+      "country": "Poland"
+    },
+    "osmTags": {
+      "camera:direction": "156",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://player.webcamera.pl/skywind_cam_4b0f1c",
+      "man_made": "surveillance",
+      "name": "Bania - Pasaż",
+      "name:en": "Bania Passage",
+      "name:pl": "Bania - Pasaż",
+      "operator": "WebCamera",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "operator": "WebCamera",
+    "url": "https://player.webcamera.pl/skywind_cam_4b0f1c"
   }
 ]
