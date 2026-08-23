@@ -4309,9 +4309,9 @@
     "lat": 42.3697455,
     "lon": -71.2697345,
     "osmID": 1408830538,
-    "user": "SomeoneElse_Revert",
+    "user": "ERF51",
     "osmType": "node",
-    "lastChanged": 1735902401000,
+    "lastChanged": 1787437278000,
     "address": {
       "city": "Waltham",
       "county": "Middlesex County",
@@ -4320,6 +4320,7 @@
     },
     "osmTags": {
       "camera:features": "webcam",
+      "camera:type": "dome",
       "check_date": "2024-06-17",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/15.jpg",
       "description": "I-95 at Rte 20 (Exit 26), Waltham",
@@ -21526,7 +21527,10 @@
       "surveillance:type": "camera",
       "website": "https://www.vlp-coburg.de/pilots/webcam"
     },
-    "url": "https://www.vlp-coburg.de/pilots/webcam"
+    "url": "https://www.vlp-coburg.de/pilots/webcam",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.2782722,
@@ -36436,12 +36440,12 @@
     }
   },
   {
-    "lat": 44.6998387,
-    "lon": 6.8660322,
+    "lat": 44.6999011,
+    "lon": 6.8659987,
     "osmID": 6410303314,
-    "user": "Lejun",
+    "user": "Patchi",
     "osmType": "node",
-    "lastChanged": 1742026368000,
+    "lastChanged": 1787389789000,
     "address": {
       "city": "Saint-Véran",
       "county": "Hautes-Alpes",
@@ -92342,7 +92346,10 @@
       "source": "Horizons Regional Council",
       "surveillance:type": "camera"
     },
-    "url": "http://www.horizons.govt.nz/HRC/media/Data/WebCam/Teachers_Coll_latest_photo.jpg"
+    "url": "http://www.horizons.govt.nz/HRC/media/Data/WebCam/Teachers_Coll_latest_photo.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -40.4914463,
@@ -228037,9 +228044,9 @@
     "lat": 45.0428654,
     "lon": 0.9818157,
     "osmID": 12822716224,
-    "user": "b-jazz-bot",
+    "user": "fabric",
     "osmType": "node",
-    "lastChanged": 1747862842000,
+    "lastChanged": 1787395186000,
     "address": {
       "city": "Rouffignac-Saint-Cernin-de-Reilhac",
       "county": "Dordogne",
@@ -228051,7 +228058,7 @@
       "brand": "Mondial Relay",
       "brand:wikidata": "Q3320547",
       "colour": "Blanc et Rose",
-      "name": "Locker 24/7 carrefour rouffignac",
+      "name": "Locker 24/7 Carrefour/ Bricojem Rouffignac saint cernin",
       "opening_hours": "24/7",
       "parcel_mail_in": "no",
       "parcel_pickup": "yes",
@@ -274438,5 +274445,31 @@
     },
     "operator": "WebCamera",
     "url": "https://player.webcamera.pl/skywind_cam_4b0f1c"
+  },
+  {
+    "lat": 43.6095105,
+    "lon": 3.881329,
+    "direction": 225,
+    "osmID": 14113005202,
+    "user": "Enzo3094",
+    "osmType": "node",
+    "lastChanged": 1787420988000,
+    "address": {
+      "city": "Montpellier",
+      "county": "Hérault",
+      "state": "Occitania",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "225",
+      "camera:mount": "roof",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pv.viewsurf.com/654/Place-de-la-Comedie",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://pv.viewsurf.com/654/Place-de-la-Comedie"
   }
 ]
