@@ -23045,6 +23045,7 @@
     "address": {
       "city": "Körösladány",
       "county": "Békés",
+      "state": "Great Plain and North",
       "country": "Hungary"
     },
     "osmTags": {
@@ -23305,6 +23306,7 @@
     "address": {
       "city": "Békéscsaba",
       "county": "Békés",
+      "state": "Great Plain and North",
       "country": "Hungary"
     },
     "osmTags": {
@@ -115730,6 +115732,7 @@
     "lastChanged": 1729685454000,
     "address": {
       "city": "České Budějovice",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -115758,6 +115761,7 @@
     "lastChanged": 1642853771000,
     "address": {
       "city": "České Budějovice",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -142335,6 +142339,34 @@
       "surveillance:zone": "harbour"
     },
     "url": "https://www.bridgeviewharbour.com/pages/weather"
+  },
+  {
+    "lat": 40.946927,
+    "lon": -4.1168644,
+    "osmID": 10893395555,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787572246000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "324;180",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824113409if_/https://streetcomplete.app/p/366533.jpg",
+      "man_made": "surveillance",
+      "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+      "operator:type": "government",
+      "operator:wikidata": "Q141124269;Q125301593",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+    "url": "https://web.archive.org/web/20260824113409if_/https://streetcomplete.app/p/366533.jpg"
   },
   {
     "lat": 45.7967531,
@@ -188623,7 +188655,7 @@
     "osmType": "node",
     "lastChanged": 1724714787000,
     "address": {
-      "county": "Pike County",
+      "county": "Scott County",
       "state": "Illinois",
       "country": "United States of America"
     },
@@ -259523,7 +259555,6 @@
     "osmType": "node",
     "lastChanged": 1769368580000,
     "address": {
-      "county": "Buskerud",
       "country": "Norway"
     },
     "osmTags": {
@@ -260101,35 +260132,6 @@
     "lint": {
       "duplicate": true
     }
-  },
-  {
-    "lat": 46.8608186,
-    "lon": -113.9854392,
-    "direction": 170,
-    "osmID": 13522650502,
-    "user": "Not-affiliated",
-    "osmType": "node",
-    "lastChanged": 1777475920000,
-    "address": {
-      "city": "Missoula",
-      "county": "Missoula County",
-      "state": "Montana",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "camera:direction": "170",
-      "camera:mount": "roof",
-      "camera:type": "panning",
-      "contact:webcam": "https://www.verkada.com/",
-      "direction": "145",
-      "man_made": "surveillance",
-      "manufacturer": "Verkada",
-      "manufacturer:wikidata": "Q106059747",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera",
-      "surveillance:zone": "campus"
-    },
-    "url": "https://www.verkada.com/"
   },
   {
     "lat": 48.173427,
@@ -273600,6 +273602,32 @@
     "url": "https://www.feratel.com/en/webcams/germany/saxony/rathen-oberrathen"
   },
   {
+    "lat": 40.9394492,
+    "lon": -4.1121264,
+    "osmID": 14081001483,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787575611000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "gantry",
+      "camera:type": "panning",
+      "contact:webcam": "https://web.archive.org/web/20260824123023if_/https://streetcomplete.app/p/366529.jpg",
+      "man_made": "surveillance",
+      "operator": "Ejército de Tierra",
+      "operator:wikidata": "Q1322103",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "operator": "Ejército de Tierra",
+    "url": "https://web.archive.org/web/20260824123023if_/https://streetcomplete.app/p/366529.jpg"
+  },
+  {
     "lat": 40.7098921,
     "lon": -4.1404123,
     "direction": 15,
@@ -274331,12 +274359,12 @@
     "url": "https://trafficcams.vancouver.ca/boundary29.htm"
   },
   {
-    "lat": 41.8386147,
-    "lon": -111.8491849,
+    "lat": 41.8386083,
+    "lon": -111.8491771,
     "osmID": 14108501770,
-    "user": "CCMW",
+    "user": "Xvtn",
     "osmType": "node",
-    "lastChanged": 1787266968000,
+    "lastChanged": 1787577040000,
     "address": {
       "city": "Smithfield",
       "county": "Cache County",
@@ -274348,10 +274376,15 @@
       "camera:type": "fixed",
       "contact:webcam": "https://udottraffic.utah.gov/map",
       "man_made": "surveillance",
+      "operator": "Utah Department of Transportation",
+      "operator:short": "UDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q2506783",
       "surveillance": "traffic",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "Utah Department of Transportation",
     "url": "https://udottraffic.utah.gov/map"
   },
   {
@@ -274445,6 +274478,37 @@
     "url": "https://player.webcamera.pl/skywind_cam_4b0f1c"
   },
   {
+    "lat": 40.9379381,
+    "lon": -4.1108612,
+    "direction": 350,
+    "osmID": 14112976350,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787591410000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:mount": "street_lamp",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824170553if_/https://streetcomplete.app/p/366527.jpg",
+      "man_made": "surveillance",
+      "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+      "operator:wikidata": "Q141124269;Q125301593",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+    "url": "https://web.archive.org/web/20260824170553if_/https://streetcomplete.app/p/366527.jpg",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 43.6095105,
     "lon": 3.881329,
     "direction": 225,
@@ -274469,5 +274533,197 @@
       "surveillance:zone": "town"
     },
     "url": "https://pv.viewsurf.com/654/Place-de-la-Comedie"
+  },
+  {
+    "lat": 40.9380281,
+    "lon": -4.1110862,
+    "osmID": 14118359345,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787575611000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://web.archive.org/web/20260824123339if_/https://streetcomplete.app/p/366528.jpg",
+      "man_made": "surveillance",
+      "operator": "Ejército de Tierra",
+      "operator:wikidata": "Q1322103",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "operator": "Ejército de Tierra",
+    "url": "https://web.archive.org/web/20260824123339if_/https://streetcomplete.app/p/366528.jpg"
+  },
+  {
+    "lat": 40.9405938,
+    "lon": -4.1127748,
+    "direction": 160,
+    "osmID": 14118360554,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787575611000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824122308if_/https://streetcomplete.app/p/366530.jpg",
+      "man_made": "surveillance",
+      "operator": "Ejército de Tierra",
+      "operator:wikidata": "Q1322103",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "operator": "Ejército de Tierra",
+    "url": "https://web.archive.org/web/20260824122308if_/https://streetcomplete.app/p/366530.jpg"
+  },
+  {
+    "lat": 40.9474193,
+    "lon": -4.1172549,
+    "direction": 180,
+    "osmID": 14118429492,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787572246000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824114900if_/https://streetcomplete.app/p/366536.jpg",
+      "man_made": "surveillance",
+      "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+      "operator:type": "government",
+      "operator:wikidata": "Q141124269;Q125301593",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+    "url": "https://web.archive.org/web/20260824114900if_/https://streetcomplete.app/p/366536.jpg"
+  },
+  {
+    "lat": 40.9475881,
+    "lon": -4.1166847,
+    "direction": 245,
+    "osmID": 14118441705,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787572246000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "245",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824114957/https://streetcomplete.app/p/366535.jpg",
+      "man_made": "surveillance",
+      "operator": "Eurostars Plaza Acueducto?",
+      "surveillance": "private",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "operator": "Eurostars Plaza Acueducto?",
+    "url": "https://web.archive.org/web/20260824114957/https://streetcomplete.app/p/366535.jpg"
+  },
+  {
+    "lat": 40.9470068,
+    "lon": -4.1156823,
+    "direction": 135,
+    "osmID": 14118472949,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787572246000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "135",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824113315if_/https://streetcomplete.app/p/366534.jpg",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://web.archive.org/web/20260824113315if_/https://streetcomplete.app/p/366534.jpg"
+  },
+  {
+    "lat": 40.946193,
+    "lon": -4.117604,
+    "direction": 345,
+    "osmID": 14118473894,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787572246000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "345",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://web.archive.org/web/20260824114125if_/https://streetcomplete.app/p/366532.jpg",
+      "man_made": "surveillance",
+      "operator": "Academia de Artillería",
+      "operator:wikidata": "Q5655771",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "entrance"
+    },
+    "operator": "Academia de Artillería",
+    "url": "https://web.archive.org/web/20260824114125if_/https://streetcomplete.app/p/366532.jpg"
+  },
+  {
+    "lat": 40.9379395,
+    "lon": -4.1108604,
+    "osmID": 14120371534,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1787591410000,
+    "address": {
+      "city": "Segovia",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "panning",
+      "contact:webcam": "https://web.archive.org/web/20260824170553if_/https://streetcomplete.app/p/366527.jpg",
+      "man_made": "surveillance",
+      "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+      "operator:wikidata": "Q141124269;Q125301593",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
+    "url": "https://web.archive.org/web/20260824170553if_/https://streetcomplete.app/p/366527.jpg",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
