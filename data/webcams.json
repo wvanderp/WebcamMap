@@ -151068,6 +151068,33 @@
     }
   },
   {
+    "lat": 40.5846632,
+    "lon": -73.957098,
+    "direction": 3660,
+    "osmID": 11366883931,
+    "user": "Dima gamer12",
+    "osmType": "node",
+    "lastChanged": 1788144983000,
+    "address": {
+      "city": "New York",
+      "county": "Kings County",
+      "state": "New York",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "3660",
+      "camera:mount": "ip_security_camera_-_active_deterrence_dome_camera_-_2_way_audio",
+      "camera:type": "fixed",
+      "collection_times:signed": "https://www.timeanddate.com/weather/mexico/cancun",
+      "contact:webcam": "https://www.earthcam.com/",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
+    },
+    "url": "https://www.earthcam.com/"
+  },
+  {
     "lat": 52.603769,
     "lon": 9.0964718,
     "direction": 270,
@@ -175684,7 +175711,6 @@
     "osmType": "node",
     "lastChanged": 1729179477000,
     "address": {
-      "city": "City of Schenectady",
       "county": "Schenectady County",
       "state": "New York",
       "country": "United States of America"
@@ -207670,6 +207696,7 @@
     "lastChanged": 1736606505000,
     "address": {
       "city": "Humpolec",
+      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -234638,13 +234665,13 @@
     "url": "https://www.stadtwerke-moessingen.de/de/Privatkunden/Baeder/Freibad-Moessingen/Webcam"
   },
   {
-    "lat": 40.9086176,
-    "lon": -4.1027849,
+    "lat": 40.9082569,
+    "lon": -4.1027506,
     "direction": 205,
     "osmID": 12996088659,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786467463000,
+    "lastChanged": 1788109423000,
     "address": {
       "city": "Segovia",
       "state": "Castile and León",
@@ -234652,13 +234679,17 @@
     },
     "osmTags": {
       "camera:direction": "205",
-      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168009.jpg",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "operator": "DGT",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "DGT",
     "url": "https://etraffic.dgt.es/camarasEtraffic/168009.jpg"
   },
   {
@@ -241289,6 +241320,7 @@
     },
     "url": "www.flockstafety.com",
     "lint": {
+      "unavailable": true,
       "invalidUrl": true
     }
   },
@@ -256339,9 +256371,9 @@
     "lat": 47.5056001,
     "lon": -122.2794519,
     "osmID": 13456084957,
-    "user": "goldfndr",
+    "user": "wislander",
     "osmType": "node",
-    "lastChanged": 1768399276000,
+    "lastChanged": 1788107637000,
     "address": {
       "city": "Tukwila",
       "county": "King County",
@@ -256354,6 +256386,9 @@
       "contact:webcam": "https://images.wsdot.wa.gov/nw/005vc15785.jpg",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -256903,9 +256938,9 @@
     "lat": 47.5080038,
     "lon": -122.2823862,
     "osmID": 13460998077,
-    "user": "goldfndr",
+    "user": "wislander",
     "osmType": "node",
-    "lastChanged": 1768591844000,
+    "lastChanged": 1788107637000,
     "address": {
       "city": "Tukwila",
       "county": "King County",
@@ -256918,6 +256953,9 @@
       "contact:webcam": "https://images.wsdot.wa.gov/nw/005vc15805.jpg",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -274208,90 +274246,142 @@
     "url": "https://etraffic.dgt.es/camarasEtraffic/169709.jpg"
   },
   {
-    "lat": 40.8711386,
-    "lon": -4.1226372,
+    "lat": 40.8698557,
+    "lon": -4.1228093,
+    "direction": 20,
     "osmID": 14081264882,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1788109423000,
     "address": {
-      "city": "Segovia",
+      "city": "Navas de Riofrío",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
+      "camera:direction": "20",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168014.jpg",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "operator": "DGT",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "DGT",
     "url": "https://etraffic.dgt.es/camarasEtraffic/168014.jpg"
   },
   {
-    "lat": 40.8427116,
-    "lon": -4.1458349,
+    "lat": 40.8420429,
+    "lon": -4.149441,
+    "direction": 210,
     "osmID": 14081264895,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1788109423000,
     "address": {
       "city": "La Losa",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
+      "camera:direction": "210",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168013.jpg",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "operator": "DGT",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "DGT",
     "url": "https://etraffic.dgt.es/camarasEtraffic/168013.jpg"
   },
   {
-    "lat": 40.8229756,
-    "lon": -4.1766053,
-    "direction": 285,
+    "lat": 40.8231962,
+    "lon": -4.1764533,
+    "direction": 225,
     "osmID": 14081264896,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1788109423000,
     "address": {
       "city": "Otero de Herreros",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
-      "camera:direction": "285",
+      "camera:direction": "225",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168012.jpg",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "operator": "DGT",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "DGT",
     "url": "https://etraffic.dgt.es/camarasEtraffic/168012.jpg"
   },
   {
-    "lat": 40.8215863,
-    "lon": -4.1832719,
+    "lat": 40.8218076,
+    "lon": -4.182536,
+    "direction": 85,
     "osmID": 14081264922,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1788109423000,
     "address": {
       "city": "Otero de Herreros",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
+      "camera:direction": "85",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168007.jpg",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "operator": "DGT",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "DGT",
     "url": "https://etraffic.dgt.es/camarasEtraffic/168007.jpg"
+  },
+  {
+    "lat": 40.7417739,
+    "lon": -4.2037869,
+    "osmID": 14081264952,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788109423000,
+    "address": {
+      "city": "El Espinar",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/168010.jpg",
+      "man_made": "surveillance",
+      "operator": "DGT",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "DGT",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/168010.jpg"
   },
   {
     "lat": 40.7271811,
@@ -275728,5 +275818,36 @@
     },
     "operator": "Oregon Department of Transportation",
     "url": "https://tripcheck.com/RoadCams/cams/I-5%20at%20Coburg%20SB_pid4437.jpg"
+  },
+  {
+    "lat": 44.6810427,
+    "lon": -123.0541191,
+    "osmID": 14134388005,
+    "user": "Adam850",
+    "osmType": "node",
+    "lastChanged": 1788067537000,
+    "address": {
+      "county": "Linn County",
+      "state": "Oregon",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://tripcheck.com/RoadCams/cams/NorthAlbany_pid1489.jpg",
+      "man_made": "surveillance",
+      "name": "I-5 at North Albany",
+      "official_name": "Camera I5 NB @ N Albany MP236.78",
+      "operator": "Oregon Department of Transportation",
+      "operator:short": "ODOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q4413096",
+      "ref": "4CA018",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Oregon Department of Transportation",
+    "url": "https://tripcheck.com/RoadCams/cams/NorthAlbany_pid1489.jpg"
   }
 ]
