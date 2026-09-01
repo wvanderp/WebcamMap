@@ -37472,12 +37472,13 @@
     "url": "https://fr.webcams.travel/webcam/1545334778-caraglio-vallera"
   },
   {
-    "lat": 44.7603869,
-    "lon": 7.0391461,
+    "lat": 44.7733484,
+    "lon": 7.0393898,
+    "direction": 180,
     "osmID": 6410382671,
-    "user": "Jim005",
+    "user": "casual-user",
     "osmType": "node",
-    "lastChanged": 1555860798000,
+    "lastChanged": 1788172808000,
     "address": {
       "city": "Bobbio Pellice",
       "county": "Turin",
@@ -37486,15 +37487,14 @@
     },
     "osmTags": {
       "addr:city": "Bobbio Pellice",
-      "contact:webcam": "https://fr.webcams.travel/webcam/1234345255-Weather-Conca-del-Pra-%28Val-Pellice%29-Bobbio-Pellice",
-      "image": "https://images.webcams.travel/thumbnail/1234345255.jpg",
+      "camera:direction": "180",
+      "contact:webcam": "https://www.rifugiojervis.it/webcam.aspx",
       "man_made": "surveillance",
-      "name": "Bobbio Pellice: Conca del Pra (Val Pellice)",
+      "name": "Webcam Conca del Prà",
       "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
+      "surveillance:type": "camera"
     },
-    "url": "https://fr.webcams.travel/webcam/1234345255-Weather-Conca-del-Pra-%28Val-Pellice%29-Bobbio-Pellice"
+    "url": "https://www.rifugiojervis.it/webcam.aspx"
   },
   {
     "lat": 44.3974107,
@@ -73320,9 +73320,9 @@
     "lat": 52.9549979,
     "lon": -1.1511971,
     "osmID": 8421082649,
-    "user": "Binky Bunny",
+    "user": "JG02",
     "osmType": "node",
-    "lastChanged": 1632420925000,
+    "lastChanged": 1788178029000,
     "address": {
       "city": "Nottingham",
       "state": "England",
@@ -73331,6 +73331,7 @@
     "osmTags": {
       "camera:mount": "street_lamp",
       "camera:type": "dome",
+      "check_date": "2026-08-31",
       "contact:webcam": "http://data.nottinghamtravelwise.org.uk/images93.jpg",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -74196,9 +74197,9 @@
     "lat": 53.012311,
     "lon": -1.186675,
     "osmID": 8423302181,
-    "user": "Binky Bunny",
+    "user": "Mousefad",
     "osmType": "node",
-    "lastChanged": 1632351595000,
+    "lastChanged": 1788166283000,
     "address": {
       "city": "Nottingham",
       "state": "England",
@@ -74207,6 +74208,7 @@
     "osmTags": {
       "camera:mount": "traffic_signals",
       "camera:type": "dome",
+      "check_date": "2026-08-31",
       "contact:webcam": "http://data.nottinghamtravelwise.org.uk/images128.jpg",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -80826,7 +80828,10 @@
       "surveillance": "traffic",
       "surveillance:type": "camera"
     },
-    "url": "https://www.netrafficcams.co.uk/south-tyneside-a184-boldon-b1298-abingdon-way-business-park-roundabout"
+    "url": "https://www.netrafficcams.co.uk/south-tyneside-a184-boldon-b1298-abingdon-way-business-park-roundabout",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 54.9490695,
@@ -115408,10 +115413,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "https://borkies.de/cam1/webcam_ddns2.php",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://borkies.de/cam1/webcam_ddns2.php"
   },
   {
     "lat": 48.6108867,
@@ -140476,10 +140478,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi02/ID_078",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://cameras.santoandre.sp.gov.br/coi02/ID_078"
   },
   {
     "lat": -23.6099717,
@@ -150782,7 +150781,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2592/"
+    "url": "https://www.bergfex.de/sommer/schliersee-neuhaus-spitzingsee/webcams/c2592/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.6600234,
@@ -151072,9 +151074,9 @@
     "lon": -73.957098,
     "direction": 3660,
     "osmID": 11366883931,
-    "user": "Dima gamer12",
+    "user": "user_5359",
     "osmType": "node",
-    "lastChanged": 1788144983000,
+    "lastChanged": 1788168416000,
     "address": {
       "city": "New York",
       "county": "Kings County",
@@ -229194,6 +229196,7 @@
     "lastChanged": 1747942283000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -273606,6 +273609,32 @@
     "user": "J@cket",
     "osmType": "node",
     "lastChanged": 1788017336000,
+    "address": {
+      "county": "Shenandoah County",
+      "state": "Virginia",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.vdot.virginia.gov/",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://511.vdot.virginia.gov/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 39.0127752,
+    "lon": -78.3629477,
+    "osmID": 14068737301,
+    "user": "J@cket",
+    "osmType": "node",
+    "lastChanged": 1788212245000,
     "address": {
       "county": "Shenandoah County",
       "state": "Virginia",
