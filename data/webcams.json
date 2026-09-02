@@ -115231,6 +115231,7 @@
     },
     "url": "?",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
@@ -151068,33 +151069,6 @@
     "lint": {
       "youtube": true
     }
-  },
-  {
-    "lat": 40.5846632,
-    "lon": -73.957098,
-    "direction": 3660,
-    "osmID": 11366883931,
-    "user": "user_5359",
-    "osmType": "node",
-    "lastChanged": 1788168416000,
-    "address": {
-      "city": "New York",
-      "county": "Kings County",
-      "state": "New York",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "camera:direction": "3660",
-      "camera:mount": "ip_security_camera_-_active_deterrence_dome_camera_-_2_way_audio",
-      "camera:type": "fixed",
-      "collection_times:signed": "https://www.timeanddate.com/weather/mexico/cancun",
-      "contact:webcam": "https://www.earthcam.com/",
-      "man_made": "surveillance",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "building"
-    },
-    "url": "https://www.earthcam.com/"
   },
   {
     "lat": 52.603769,
@@ -214909,12 +214883,12 @@
     "url": "https://www.ras.bz.it/de/webcams/rein-in-taufers/"
   },
   {
-    "lat": 46.8622011,
-    "lon": 11.2898469,
+    "lat": 46.8621387,
+    "lon": 11.2903941,
     "osmID": 12645820171,
-    "user": "HenningS",
+    "user": "josil",
     "osmType": "node",
-    "lastChanged": 1741457973000,
+    "lastChanged": 1788257593000,
     "address": {
       "city": "Ratschings - Racines",
       "county": "South Tyrol",
@@ -248628,6 +248602,7 @@
     "lastChanged": 1766160526000,
     "address": {
       "city": "Přeštice",
+      "state": "Plzeň Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -265370,7 +265345,6 @@
     "osmType": "node",
     "lastChanged": 1773784803000,
     "address": {
-      "county": "Buskerud",
       "country": "Norway"
     },
     "osmTags": {
@@ -275878,5 +275852,48 @@
     },
     "operator": "Oregon Department of Transportation",
     "url": "https://tripcheck.com/RoadCams/cams/NorthAlbany_pid1489.jpg"
+  },
+  {
+    "lat": 47.1074649,
+    "lon": -88.5524913,
+    "osmID": 14140516475,
+    "user": "ftgeib",
+    "osmType": "node",
+    "lastChanged": 1788286722000,
+    "address": {
+      "city": "Houghton",
+      "county": "Houghton County",
+      "state": "Michigan",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.mtu.edu/webcams/trail1/",
+      "man_made": "surveillance",
+      "surveillance:type": "camera"
+    },
+    "url": "https://www.mtu.edu/webcams/trail1/"
+  },
+  {
+    "lat": 45.2021962,
+    "lon": 5.7033876,
+    "direction": 180,
+    "osmID": 14140606289,
+    "user": "barley383",
+    "osmType": "node",
+    "lastChanged": 1788285268000,
+    "address": {
+      "city": "Grenoble",
+      "county": "Isère",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "contact:webcam": "https://g2elab-shiny.g2elab.grenoble-inp.fr/meteo-data/CamLive/cam1_Live.jpg",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera"
+    },
+    "url": "https://g2elab-shiny.g2elab.grenoble-inp.fr/meteo-data/CamLive/cam1_Live.jpg"
   }
 ]
