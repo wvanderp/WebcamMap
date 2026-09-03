@@ -323,9 +323,9 @@
     "lat": 47.4660357,
     "lon": 10.1050506,
     "osmID": 282834988,
-    "user": "5R-MFT",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1753703440000,
+    "lastChanged": 1788385776000,
     "address": {
       "city": "Balderschwang",
       "county": "Landkreis Oberallgäu",
@@ -338,7 +338,7 @@
       "addr:street": "Dorf",
       "charging_station": "yes",
       "check_date": "2024-10-05",
-      "contact:webcam": "www.hotel-hubertus.de/webcam",
+      "contact:webcam": "https://www.hotel-hubertus.de/webcam",
       "dog": "yes",
       "name": "Hubertus",
       "phone": "+49 8328 9200",
@@ -348,11 +348,7 @@
       "website": "https://www.hotel-hubertus.de/",
       "wheelchair": "yes"
     },
-    "url": "www.hotel-hubertus.de/webcam",
-    "lint": {
-      "unavailable": true,
-      "invalidUrl": true
-    }
+    "url": "https://www.hotel-hubertus.de/webcam"
   },
   {
     "lat": 51.7997006,
@@ -2048,7 +2044,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "http://web-online24.ru/cheboksary-web-camera-online-koltso-roshha"
+    "url": "http://web-online24.ru/cheboksary-web-camera-online-koltso-roshha",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.1740103,
@@ -26574,6 +26573,7 @@
     "operator": "South Perisher Ski Lodge",
     "url": "http://www.southperisher.org.au/cam/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -77979,37 +77979,6 @@
     },
     "operator": "上田ケーブルビジョン",
     "url": "http://live.ueda.ne.jp/otenki.html"
-  },
-  {
-    "lat": 36.381196,
-    "lon": 138.2708781,
-    "direction": 160,
-    "osmID": 8591734566,
-    "user": "tanasinnn",
-    "osmType": "node",
-    "lastChanged": 1617516270000,
-    "address": {
-      "city": "Ueda",
-      "country": "Japan"
-    },
-    "osmTags": {
-      "camera:direction": "160",
-      "camera:type": "fixed",
-      "contact:webcam": "上田市国分の道路カメラ",
-      "description": "信濃国分寺前の国道１８号",
-      "man_made": "surveillance",
-      "name": "上田市国分の道路カメラ",
-      "note": "道端の看板の上にある",
-      "operator": "上田ケーブルビジョン",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera"
-    },
-    "operator": "上田ケーブルビジョン",
-    "url": "上田市国分の道路カメラ",
-    "lint": {
-      "unavailable": true,
-      "invalidUrl": true
-    }
   },
   {
     "lat": 36.397447,
@@ -146225,9 +146194,9 @@
     "lon": 10.0273299,
     "direction": 200,
     "osmID": 11101291487,
-    "user": "Timo Beil",
+    "user": "wvdp",
     "osmType": "node",
-    "lastChanged": 1693300988000,
+    "lastChanged": 1788385685000,
     "address": {
       "city": "Hamburg",
       "country": "Germany"
@@ -146238,7 +146207,7 @@
       "camera:features": "webcam",
       "camera:mount": "roof",
       "camera:type": "fixed",
-      "contact:webcam": "www.mundsburgtower.de/05_impressionen/webcam_popup.php",
+      "contact:webcam": "http://www.mundsburgtower.de/05_impressionen/webcam_popup.php",
       "height": "97",
       "man_made": "surveillance",
       "name": "Mundsburg Tower",
@@ -146246,11 +146215,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "www.mundsburgtower.de/05_impressionen/webcam_popup.php",
-    "lint": {
-      "unavailable": true,
-      "invalidUrl": true
-    }
+    "url": "http://www.mundsburgtower.de/05_impressionen/webcam_popup.php"
   },
   {
     "lat": 53.5472376,
@@ -160006,39 +159971,6 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.sw-unna.de/privatkunden/webcam"
-  },
-  {
-    "lat": 51.2056079,
-    "lon": 12.30877,
-    "direction": 292,
-    "osmID": 11757892920,
-    "user": "Andelou",
-    "osmType": "node",
-    "lastChanged": 1711280744000,
-    "address": {
-      "city": "Zwenkau",
-      "county": "Landkreis Leipzig",
-      "state": "Saxony",
-      "country": "Germany"
-    },
-    "osmTags": {
-      "camera:direction": "292",
-      "camera:mount": "ceiling",
-      "camera:type": "dome",
-      "contact:webcam": "?",
-      "man_made": "surveillance",
-      "manufacturer": "?",
-      "name": "Historischer Grenzstein",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera",
-      "surveillance:zone": "entrance"
-    },
-    "url": "?",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true,
-      "invalidUrl": true
-    }
   },
   {
     "lat": 50.7620984,
@@ -204302,6 +204234,7 @@
     "lastChanged": 1729659826000,
     "address": {
       "city": "Jindřichův Hradec",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -212122,6 +212055,7 @@
     "address": {
       "city": "Martonvásár",
       "county": "Fejér",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -237558,9 +237492,9 @@
     "lat": 47.4495531,
     "lon": -122.2152205,
     "osmID": 13133622061,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1757510243000,
+    "lastChanged": 1788369768000,
     "address": {
       "city": "Renton",
       "county": "King County",
@@ -237573,6 +237507,9 @@
       "contact:webcam": "https://images.wsdot.wa.gov/nw/167vc02501.jpg",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -237639,9 +237576,9 @@
     "lat": 47.4406479,
     "lon": -122.2180625,
     "osmID": 13142560839,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1757855956000,
+    "lastChanged": 1788369768000,
     "address": {
       "city": "Kent",
       "county": "King County",
@@ -237653,6 +237590,9 @@
       "contact:webcam": "https://images.wsdot.wa.gov/nw/167vc02439.jpg",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -273140,6 +273080,37 @@
     "url": "https://www.ulm.de/sonderseiten/webcams"
   },
   {
+    "lat": 38.9939662,
+    "lon": -78.40203,
+    "direction": 64,
+    "osmID": 14057321201,
+    "user": "CSYoung",
+    "osmType": "node",
+    "lastChanged": 1788384236000,
+    "address": {
+      "county": "Shenandoah County",
+      "state": "Virginia",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.vdot.virginia.gov/",
+      "description": "VDOT camera 511",
+      "direction": "64",
+      "man_made": "surveillance",
+      "manufacturer": "Siemens",
+      "manufacturer:wikidata": "Q108485435",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://511.vdot.virginia.gov/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 39.0039206,
     "lon": -78.3121929,
     "osmID": 14057329001,
@@ -273594,6 +273565,36 @@
       "contact:webcam": "https://511.vdot.virginia.gov/",
       "man_made": "surveillance",
       "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://511.vdot.virginia.gov/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 39.0010306,
+    "lon": -78.3874892,
+    "direction": 224,
+    "osmID": 14068736902,
+    "user": "CSYoung",
+    "osmType": "node",
+    "lastChanged": 1788384236000,
+    "address": {
+      "county": "Shenandoah County",
+      "state": "Virginia",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.vdot.virginia.gov/",
+      "direction": "224",
+      "man_made": "surveillance",
+      "manufacturer": "Siemens",
+      "manufacturer:wikidata": "Q108485435",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
@@ -275895,5 +275896,30 @@
       "surveillance:type": "camera"
     },
     "url": "https://g2elab-shiny.g2elab.grenoble-inp.fr/meteo-data/CamLive/cam1_Live.jpg"
+  },
+  {
+    "lat": -33.3811066,
+    "lon": -70.6354838,
+    "direction": 360,
+    "osmID": 14143285792,
+    "user": "GustavoE",
+    "osmType": "node",
+    "lastChanged": 1788386317000,
+    "address": {
+      "city": "Santiago",
+      "county": "Provincia de Santiago",
+      "state": "Santiago Metropolitan Region",
+      "country": "Chile"
+    },
+    "osmTags": {
+      "camera:direction": "360",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pti-cameras.cl.tuv.com/camaras/10.57.6.222_Cam08/imagen.jpg",
+      "man_made": "surveillance",
+      "source": "https://pti-cameras.cl.tuv.com/",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://pti-cameras.cl.tuv.com/camaras/10.57.6.222_Cam08/imagen.jpg"
   }
 ]
