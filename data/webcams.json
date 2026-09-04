@@ -173785,6 +173785,7 @@
     "address": {
       "city": "Hőgyész",
       "county": "Tolna",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -205978,7 +205979,7 @@
     "osmType": "node",
     "lastChanged": 1733196534000,
     "address": {
-      "city": "Cipolletti",
+      "city": "Municipio de Cipolletti",
       "state": "Río Negro",
       "country": "Argentina"
     },
@@ -209130,10 +209131,7 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Oregon Department of Transportation",
-    "url": "https://tripcheck.com/RoadCams/cams/65th%20Ave%20at%20Sagert%20St_pid3971.JPG",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://tripcheck.com/RoadCams/cams/65th%20Ave%20at%20Sagert%20St_pid3971.JPG"
   },
   {
     "lat": 45.3812225,
@@ -212141,6 +212139,7 @@
     "address": {
       "city": "Martonvásár",
       "county": "Fejér",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -228994,6 +228993,7 @@
     "lastChanged": 1747942283000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -275921,5 +275921,62 @@
       "surveillance:type": "camera"
     },
     "url": "https://pti-cameras.cl.tuv.com/camaras/10.57.6.222_Cam08/imagen.jpg"
+  },
+  {
+    "lat": -33.4647387,
+    "lon": -70.6244725,
+    "direction": 50,
+    "osmID": 14145460795,
+    "user": "GustavoE",
+    "osmType": "node",
+    "lastChanged": 1788474730000,
+    "address": {
+      "city": "Santiago",
+      "county": "Provincia de Santiago",
+      "state": "Santiago Metropolitan Region",
+      "country": "Chile"
+    },
+    "osmTags": {
+      "camera:direction": "50",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/live/E9FK3QGdpqE?si=Qc4SP_64G-bd3ybp",
+      "man_made": "surveillance",
+      "source": "https://www.youtube.com/@SCLSkylineLive",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.youtube.com/live/E9FK3QGdpqE?si=Qc4SP_64G-bd3ybp",
+    "lint": {
+      "youtube": true
+    }
+  },
+  {
+    "lat": -33.4940073,
+    "lon": -70.5130385,
+    "direction": 300,
+    "osmID": 14145493467,
+    "user": "GustavoE",
+    "osmType": "node",
+    "lastChanged": 1788475402000,
+    "address": {
+      "city": "Santiago",
+      "county": "Provincia de Santiago",
+      "state": "Santiago Metropolitan Region",
+      "country": "Chile"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/channel/UCDMqTaUZsY3ElB4xWpO8tFA/streams",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://www.youtube.com/channel/UCDMqTaUZsY3ElB4xWpO8tFA/streams",
+    "lint": {
+      "youtube": true
+    }
   }
 ]
