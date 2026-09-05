@@ -44705,12 +44705,12 @@
     "url": "https://pioupiou.com/fr/618"
   },
   {
-    "lat": 47.11466,
-    "lon": 4.675767,
+    "lat": 47.1145377,
+    "lon": 4.6755819,
     "osmID": 6410901675,
-    "user": "Jim005",
+    "user": "acubens71",
     "osmType": "node",
-    "lastChanged": 1555482156000,
+    "lastChanged": 1788558909000,
     "address": {
       "city": "Bligny-sur-Ouche",
       "county": "Côte-d'Or",
@@ -68742,7 +68742,7 @@
     "lon": 7.9841061,
     "direction": 180,
     "osmID": 8075054377,
-    "user": "breitengrad",
+    "user": "doesbaddel",
     "osmType": "node",
     "lastChanged": 1770581570000,
     "address": {
@@ -141050,7 +141050,10 @@
       "website": "http://www.windsurf.co.nz/windsurf_cam_brownsbay.asp"
     },
     "operator": "Browns Bay Marine Centre / windsurf.co.nz",
-    "url": "http://windsurf.co.nz/webcams/brownsbay/brownsbay.jpg"
+    "url": "http://windsurf.co.nz/webcams/brownsbay/brownsbay.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -36.8601806,
@@ -176612,8 +176615,8 @@
     "osmType": "node",
     "lastChanged": 1743456924000,
     "address": {
-      "city": "Cambridge",
-      "county": "Middlesex County",
+      "city": "Boston",
+      "county": "Suffolk County",
       "state": "Massachusetts",
       "country": "United States of America"
     },
@@ -205947,7 +205950,7 @@
     "osmType": "node",
     "lastChanged": 1733196534000,
     "address": {
-      "city": "Cipolletti",
+      "city": "Municipio de Cipolletti",
       "state": "Río Negro",
       "country": "Argentina"
     },
@@ -211490,6 +211493,7 @@
     "address": {
       "city": "Ercsi",
       "county": "Fejér",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -228964,6 +228968,7 @@
     "lastChanged": 1747871924000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -240025,12 +240030,13 @@
     }
   },
   {
-    "lat": 42.7706092,
-    "lon": 132.8557493,
+    "lat": 42.7706624,
+    "lon": 132.8557573,
+    "direction": 210,
     "osmID": 13256816774,
     "user": "OSMthechallenger",
     "osmType": "node",
-    "lastChanged": 1784378713000,
+    "lastChanged": 1788565218000,
     "address": {
       "city": "Nakhodka",
       "county": "Находкинский городской округ",
@@ -240038,6 +240044,7 @@
       "country": "Russian Federation"
     },
     "osmTags": {
+      "camera:direction": "210",
       "contact:webcam": "https://camrealtime.ru/nahodka-veb-kamery/",
       "man_made": "surveillance",
       "name": "Камера на юго-запад",
@@ -240951,6 +240958,7 @@
     "address": {
       "city": "Szeged",
       "county": "Csongrád-Csanád",
+      "state": "Great Plain and North",
       "country": "Hungary"
     },
     "osmTags": {
@@ -275978,5 +275986,30 @@
     "lint": {
       "youtube": true
     }
+  },
+  {
+    "lat": 46.625628,
+    "lon": 12.2898944,
+    "direction": 115,
+    "osmID": 14151263835,
+    "user": "drlellinger",
+    "osmType": "node",
+    "lastChanged": 1788546420000,
+    "address": {
+      "city": "Auronzo di Cadore",
+      "county": "Belluno",
+      "state": "Veneto",
+      "country": "Italy"
+    },
+    "osmTags": {
+      "camera:direction": "115",
+      "camera:type": "fixed",
+      "contact:webcam": "https://api.scenaridigitali.com/media/tre-cime-lavaredo-langalm/image.jpg",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://api.scenaridigitali.com/media/tre-cime-lavaredo-langalm/image.jpg"
   }
 ]
