@@ -43266,7 +43266,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/348"
     },
-    "url": "https://pioupiou.com/fr/348"
+    "url": "https://pioupiou.com/fr/348",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.386409,
@@ -133634,6 +133637,42 @@
     "url": "https://geo.ladrome.fr/cameras/herbouilly/herbouilly.jpg"
   },
   {
+    "lat": 40.9970498,
+    "lon": -4.0746427,
+    "direction": 180,
+    "osmID": 9958947696,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "image": "https://web.archive.org/web/20260828185450if_/https://streetcomplete.app/p/367557.jpg",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 32.7827783,
     "lon": -79.8883684,
     "osmID": 9960686644,
@@ -167060,7 +167099,10 @@
       "website": "https://web.seattle.gov/Travelers/"
     },
     "operator": "Washington State Department of Transportation",
-    "url": "https://images.wsdot.wa.gov/nw/005vc19684.jpg"
+    "url": "https://images.wsdot.wa.gov/nw/005vc19684.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.0299239,
@@ -206070,6 +206112,7 @@
     "lastChanged": 1737294690000,
     "address": {
       "city": "Humpolec",
+      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -241272,6 +241315,7 @@
     },
     "url": "https://smart.zilina.sk/traffic?filters%5B0%5D=camera",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -249021,6 +249065,79 @@
     },
     "operator": "Pharmacie Hennequin",
     "url": "https://www.vitadomia.com/pharmacie-hennequin/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 40.9990027,
+    "lon": -4.0749184,
+    "osmID": 13398583954,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "345;210",
+      "camera:mount": "street_lamp",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "image": "https://web.archive.org/web/20251223203014if_/https://streetcomplete.app/p/321224.jpg",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Entrada Ctra. de La Higuera",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 40.9971247,
+    "lon": -4.0733486,
+    "direction": 200,
+    "osmID": 13398584036,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Fachada Ayuntamiento",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "building"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
     "lint": {
       "duplicate": true
     }
@@ -265741,7 +265858,7 @@
     "osmType": "node",
     "lastChanged": 1774052918000,
     "address": {
-      "city": "Haysport",
+      "city": "Port Edward",
       "county": "North Coast Regional District",
       "state": "British Columbia",
       "country": "Canada"
@@ -274097,32 +274214,6 @@
     "url": "https://www.feratel.com/en/webcams/germany/saxony/rathen-oberrathen"
   },
   {
-    "lat": 40.9394492,
-    "lon": -4.1121264,
-    "osmID": 14081001483,
-    "user": "Arturo Francisco Barbero",
-    "osmType": "node",
-    "lastChanged": 1787575611000,
-    "address": {
-      "city": "Segovia",
-      "state": "Castile and León",
-      "country": "Spain"
-    },
-    "osmTags": {
-      "camera:mount": "gantry",
-      "camera:type": "panning",
-      "contact:webcam": "https://web.archive.org/web/20260824123023if_/https://streetcomplete.app/p/366529.jpg",
-      "man_made": "surveillance",
-      "operator": "Ejército de Tierra",
-      "operator:wikidata": "Q1322103",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "entrance"
-    },
-    "operator": "Ejército de Tierra",
-    "url": "https://web.archive.org/web/20260824123023if_/https://streetcomplete.app/p/366529.jpg"
-  },
-  {
     "lat": 40.7098921,
     "lon": -4.1404123,
     "direction": 15,
@@ -275108,34 +275199,6 @@
     "url": "https://web.archive.org/web/20260824123339if_/https://streetcomplete.app/p/366528.jpg"
   },
   {
-    "lat": 40.9405938,
-    "lon": -4.1127748,
-    "direction": 160,
-    "osmID": 14118360554,
-    "user": "Arturo Francisco Barbero",
-    "osmType": "node",
-    "lastChanged": 1787575611000,
-    "address": {
-      "city": "Segovia",
-      "state": "Castile and León",
-      "country": "Spain"
-    },
-    "osmTags": {
-      "camera:direction": "160",
-      "camera:mount": "building",
-      "camera:type": "fixed",
-      "contact:webcam": "https://web.archive.org/web/20260824122308if_/https://streetcomplete.app/p/366530.jpg",
-      "man_made": "surveillance",
-      "operator": "Ejército de Tierra",
-      "operator:wikidata": "Q1322103",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera",
-      "surveillance:zone": "area"
-    },
-    "operator": "Ejército de Tierra",
-    "url": "https://web.archive.org/web/20260824122308if_/https://streetcomplete.app/p/366530.jpg"
-  },
-  {
     "lat": 40.9474193,
     "lon": -4.1172549,
     "direction": 180,
@@ -275217,13 +275280,13 @@
     "url": "https://web.archive.org/web/20260824113315if_/https://streetcomplete.app/p/366534.jpg"
   },
   {
-    "lat": 40.946193,
-    "lon": -4.117604,
+    "lat": 40.9461924,
+    "lon": -4.1176096,
     "direction": 345,
     "osmID": 14118473894,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1787572246000,
+    "lastChanged": 1788625732000,
     "address": {
       "city": "Segovia",
       "state": "Castile and León",
@@ -275720,6 +275783,80 @@
     "url": "https://vms.vigiamaismt.com.br/vms-web/login"
   },
   {
+    "lat": 40.9946654,
+    "lon": -4.0732167,
+    "osmID": 14132048140,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "55;200",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "image": "http://web.archive.org/web/20260828184140if_/https://streetcomplete.app/p/367551.jpg",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "note": "Mediante paneles solares. Su visión llega hasta la entrada al pueblo por la Calle Eras/Camino del Campo de la Ciguiñuela.",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 40.9959441,
+    "lon": -4.0746913,
+    "osmID": 14132048153,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "310;210",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "image": "http://web.archive.org/web/20260828184630if_/https://streetcomplete.app/p/367550.jpg",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Calle Segovia",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": -28.1225048,
     "lon": 153.4638717,
     "direction": 165,
@@ -275906,6 +276043,84 @@
     "url": "https://g2elab-shiny.g2elab.grenoble-inp.fr/meteo-data/CamLive/cam1_Live.jpg"
   },
   {
+    "lat": 40.999054,
+    "lon": -4.0776351,
+    "direction": 185,
+    "osmID": 14142284683,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "185",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "image": "https://web.archive.org/web/20260902130222if_/https://streetcomplete.app/p/368695.jpg",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Pádel Pista 1",
+      "note": "Puesto que apunta abajo, no pareciera que alcance a grabar la calzada de la Calle la Mata.",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 40.9986911,
+    "lon": -4.0778974,
+    "direction": 50,
+    "osmID": 14142284684,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "50",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "image": "https://web.archive.org/web/20260902130226if_/https://streetcomplete.app/p/368694.jpg",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Pádel Pista 2",
+      "note": "No graba la calzada de la Calle la Mata.",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": -33.3811066,
     "lon": -70.6354838,
     "direction": 360,
@@ -276011,5 +276226,742 @@
       "surveillance:zone": "area"
     },
     "url": "https://api.scenaridigitali.com/media/tre-cime-lavaredo-langalm/image.jpg"
+  },
+  {
+    "lat": 40.9970615,
+    "lon": -4.0746446,
+    "direction": 280,
+    "osmID": 14156088942,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 40.9968361,
+    "lon": -4.0738308,
+    "direction": 65,
+    "osmID": 14156088945,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "65",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Tienda",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 51.8069539,
+    "lon": -3.1946658,
+    "osmID": 14156166681,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Beaufort Hill",
+      "county": "Blaenau Gwent",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/a465camera2528.jpg",
+      "man_made": "surveillance",
+      "name": "A465 - Highest Point",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "2528",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/a465camera2528.jpg"
+  },
+  {
+    "lat": 51.6526542,
+    "lon": -3.3163362,
+    "osmID": 14156284907,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Abercynon",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8186.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Abercynon North",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8186",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8186.jpg"
+  },
+  {
+    "lat": 51.651984,
+    "lon": -3.3161404,
+    "osmID": 14156284908,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Abercynon",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8185.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Abercynon South",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8185",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8185.jpg"
+  },
+  {
+    "lat": 51.5297242,
+    "lon": -3.2520061,
+    "osmID": 14156284909,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Gwaelod-y-garth",
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8015.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Coryton",
+      "note": "Mounted on traffic sign",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8015",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8015.jpg"
+  },
+  {
+    "lat": 51.5290054,
+    "lon": -3.2504159,
+    "osmID": 14156284917,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Gwaelod-y-garth",
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8014.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Coryton",
+      "note": "Mounted on gantry",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8014",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8014.jpg"
+  },
+  {
+    "lat": 51.5339241,
+    "lon": -3.2558272,
+    "osmID": 14156284918,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Gwaelod-y-garth",
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8020.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Taff's Well South",
+      "note": "Mounted on gantry",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8020",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8020.jpg"
+  },
+  {
+    "lat": 51.5361968,
+    "lon": -3.2593282,
+    "osmID": 14156284924,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Gwaelod-y-garth",
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8024.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Taff's Well Junction",
+      "note": "Mounted on gantry",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8024",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8024.jpg"
+  },
+  {
+    "lat": 51.5412106,
+    "lon": -3.2610877,
+    "osmID": 14156284925,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Taffs Well",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8030.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Taff's Well North",
+      "note": "Mounted on gantry",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8030",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8030.jpg"
+  },
+  {
+    "lat": 51.5482555,
+    "lon": -3.2674285,
+    "osmID": 14156284928,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Upper Boat",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8039.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Taff's Well North 2",
+      "note": "Mounted on gantry",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8039",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8039.jpg"
+  },
+  {
+    "lat": 51.5459278,
+    "lon": -3.2660223,
+    "osmID": 14156284929,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Upper Boat",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8036.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Taff's Well Culvert",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8036",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8036.jpg"
+  },
+  {
+    "lat": 51.5511996,
+    "lon": -3.2694153,
+    "osmID": 14156284931,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Upper Boat",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8042.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Gwaelod Y Garth",
+      "note": "Mounted on matrix sign",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8042",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8042.jpg"
+  },
+  {
+    "lat": 51.5534748,
+    "lon": -3.2701157,
+    "osmID": 14156284940,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Upper Boat",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8045.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Nantgarw South Footbridge",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8045",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8045.jpg"
+  },
+  {
+    "lat": 51.5676773,
+    "lon": -3.2759146,
+    "osmID": 14156284947,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8062.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Treforest Industrial Estate South",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8062",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8062.jpg"
+  },
+  {
+    "lat": 51.5716802,
+    "lon": -3.2811208,
+    "osmID": 14156284949,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8069.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Treforest Industrial Estate North",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8069",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8069.jpg"
+  },
+  {
+    "lat": 51.5764344,
+    "lon": -3.2907526,
+    "osmID": 14156284950,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8077.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Upper Boat Junction",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8077",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8077.jpg"
+  },
+  {
+    "lat": 51.582407,
+    "lon": -3.3045238,
+    "osmID": 14156284951,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "http://members.traffic.wales/cctvimages/camera8089.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Upper Boat North",
+      "note": "mounted to traffic sign",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8089",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "http://members.traffic.wales/cctvimages/camera8089.jpg"
+  },
+  {
+    "lat": 51.5851345,
+    "lon": -3.3167466,
+    "osmID": 14156284952,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8098.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Glyntaff South",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8098",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8098.jpg"
+  },
+  {
+    "lat": 51.5279992,
+    "lon": -3.244919,
+    "osmID": 14156284953,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Cardiff",
+      "county": "Cardiff",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera4457.jpg",
+      "man_made": "surveillance",
+      "name": "A470 J32 Southbound Onslip",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "4457",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera4457.jpg"
+  },
+  {
+    "lat": 51.5948543,
+    "lon": -3.3231249,
+    "osmID": 14156284954,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8110.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Glyntaff Junction",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8110",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8110.jpg"
+  },
+  {
+    "lat": 51.6003629,
+    "lon": -3.3311909,
+    "osmID": 14156284955,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8118.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Pontypridd South Junction",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8118",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8118.jpg"
+  },
+  {
+    "lat": 51.6041372,
+    "lon": -3.335925,
+    "osmID": 14156284956,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8124.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Pontypridd North Junction",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8124",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8124.jpg"
+  },
+  {
+    "lat": 51.6078865,
+    "lon": -3.3318213,
+    "osmID": 14156284957,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "city": "Pontypridd",
+      "county": "Rhondda Cynon Taf",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera8129.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Cilfynydd",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "8129",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera8129.jpg"
+  },
+  {
+    "lat": 51.8723962,
+    "lon": -3.4799506,
+    "osmID": 14156284958,
+    "user": "kitsee",
+    "osmType": "node",
+    "lastChanged": 1788647233000,
+    "address": {
+      "county": "Powys",
+      "state": "Wales",
+      "country": "United Kingdom"
+    },
+    "osmTags": {
+      "contact:webcam": "https://members.traffic.wales/cctvimages/camera4001.jpg",
+      "man_made": "surveillance",
+      "name": "A470 Storey Arms",
+      "operator": "Traffic Wales",
+      "operator:wikidata": "Q76671997",
+      "ref": "4001",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Traffic Wales",
+    "url": "https://members.traffic.wales/cctvimages/camera4001.jpg"
+  },
+  {
+    "lat": 40.9971437,
+    "lon": -4.0745958,
+    "direction": 320,
+    "osmID": 14156356261,
+    "user": "Arturo Francisco Barbero",
+    "osmType": "node",
+    "lastChanged": 1788653416000,
+    "address": {
+      "city": "Espirdo",
+      "state": "Castile and León",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "camera:mount": "building",
+      "camera:type": "fixed",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
+      "internet_access:ssid": "CCTV_Espirdo",
+      "man_made": "surveillance",
+      "manufacturer": "TP-Link",
+      "manufacturer:wikidata": "Q1852050",
+      "name": "Iglesia",
+      "operator": "Ayuntamiento de Espirdo;Digital Audio",
+      "operator:wikidata": "Q126481145",
+      "source": "https://www.tp-link.com/es/vigi/case-study/ayuntamiento-de-espirdo-segovia-/",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Ayuntamiento de Espirdo;Digital Audio",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
