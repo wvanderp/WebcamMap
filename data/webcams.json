@@ -2231,6 +2231,34 @@
     }
   },
   {
+    "lat": 59.9118301,
+    "lon": 10.7329247,
+    "direction": 200,
+    "osmID": 1225877977,
+    "user": "theS1LV3R",
+    "osmType": "node",
+    "lastChanged": 1788709650000,
+    "address": {
+      "city": "Oslo",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "200",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.oslohavn.no/webcam/raadhusintranett.jpg",
+      "man_made": "surveillance",
+      "name": "Raadhuskaia",
+      "operator": "Oslo Havn",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour;street",
+      "url": "https://www.oslohavn.no/no/meny/webkamera/"
+    },
+    "operator": "Oslo Havn",
+    "url": "https://www.oslohavn.no/webcam/raadhusintranett.jpg"
+  },
+  {
     "lat": 53.7599279,
     "lon": 7.6718848,
     "osmID": 1226784789,
@@ -150895,9 +150923,9 @@
     "lon": 135.7799706,
     "direction": 205,
     "osmID": 11366266679,
-    "user": "wvdp",
+    "user": "naruton",
     "osmType": "node",
-    "lastChanged": 1721723937000,
+    "lastChanged": 1788749247000,
     "address": {
       "city": "Kyoto",
       "country": "Japan"
@@ -150906,7 +150934,7 @@
       "camera:direction": "205",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
+      "contact:webcam": "https://www.youtube.com/watch?v=niQh-vFZBs4",
       "man_made": "surveillance",
       "name": "ねねの道ライブ中継カメラ",
       "name:en": "Nene no michi (Nene Street), Kyoto Live camera",
@@ -150914,19 +150942,19 @@
       "surveillance:type": "camera",
       "surveillance:zone": "street"
     },
-    "url": "https://www.youtube.com/watch?v=Gxt3YCa2Phc",
+    "url": "https://www.youtube.com/watch?v=niQh-vFZBs4",
     "lint": {
       "youtube": true
     }
   },
   {
-    "lat": 35.026937,
-    "lon": 135.7952775,
+    "lat": 35.0269281,
+    "lon": 135.7952765,
     "direction": 330,
     "osmID": 11366266680,
-    "user": "naruton",
+    "user": "Wish_F",
     "osmType": "node",
-    "lastChanged": 1700574266000,
+    "lastChanged": 1788711338000,
     "address": {
       "city": "Kyoto",
       "country": "Japan"
@@ -211839,6 +211867,7 @@
     "lastChanged": 1740926492000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -212157,6 +212186,7 @@
     "address": {
       "city": "Martonvásár",
       "county": "Fejér",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -246052,7 +246082,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Florida Department of Transportation",
-    "url": "https://dis-se2.divas.cloud:8200/chan-9678_h/index.m3u8;https://fl511.com/map/Cctv/1136"
+    "url": "https://dis-se2.divas.cloud:8200/chan-9678_h/index.m3u8;https://fl511.com/map/Cctv/1136",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 27.9979106,
@@ -275333,6 +275366,7 @@
     "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
     "url": "https://web.archive.org/web/20260824170553if_/https://streetcomplete.app/p/366527.jpg",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -276963,5 +276997,61 @@
     "lint": {
       "duplicate": true
     }
+  },
+  {
+    "lat": 59.8997991,
+    "lon": 10.7220342,
+    "direction": 54,
+    "osmID": 14157769205,
+    "user": "theS1LV3R",
+    "osmType": "node",
+    "lastChanged": 1788709846000,
+    "address": {
+      "city": "Oslo",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "54",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.oslohavn.no/webcam/kavringen.jpg",
+      "man_made": "surveillance",
+      "name": "Kavringen",
+      "operator": "Oslo Havn",
+      "operator:wikidata": "Q1542098",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "url": "https://www.oslohavn.no/no/meny/webkamera/"
+    },
+    "operator": "Oslo Havn",
+    "url": "https://www.oslohavn.no/webcam/kavringen.jpg"
+  },
+  {
+    "lat": 59.9026648,
+    "lon": 10.7415762,
+    "direction": 264,
+    "osmID": 14157769206,
+    "user": "theS1LV3R",
+    "osmType": "node",
+    "lastChanged": 1788709107000,
+    "address": {
+      "city": "Oslo",
+      "country": "Norway"
+    },
+    "osmTags": {
+      "camera:direction": "264",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.oslohavn.no/webcam/vippetangen.jpg",
+      "man_made": "surveillance",
+      "name": "Vippetangen",
+      "operator": "Oslo Havn",
+      "operator:wikidata": "Q1542098",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "harbour",
+      "url": "https://www.oslohavn.no/no/meny/webkamera/"
+    },
+    "operator": "Oslo Havn",
+    "url": "https://www.oslohavn.no/webcam/vippetangen.jpg"
   }
 ]
