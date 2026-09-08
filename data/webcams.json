@@ -23215,6 +23215,7 @@
     "lastChanged": 1644617227000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -125001,9 +125002,9 @@
     "lat": 49.6515858,
     "lon": 8.6420771,
     "osmID": 9576654510,
-    "user": "Laci",
+    "user": "Mfrey0711",
     "osmType": "node",
-    "lastChanged": 1647222862000,
+    "lastChanged": 1788768784000,
     "address": {
       "city": "Heppenheim (Bergstraße)",
       "county": "Kreis Bergstraße",
@@ -125013,6 +125014,7 @@
     "osmTags": {
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "check_date": "2026-09-07",
       "contact:webcam": "http://erlebnispfadweinundstein.de/",
       "man_made": "surveillance",
       "name": "Steinkopf-Cam",
@@ -206164,6 +206166,7 @@
     "lastChanged": 1737294690000,
     "address": {
       "city": "Humpolec",
+      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -211892,6 +211895,7 @@
     "lastChanged": 1740927546000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -246544,7 +246548,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Florida Department of Transportation",
-    "url": "https://dis-se2.divas.cloud:8200/chan-6309_h/index.m3u8;https://fl511.com/map/Cctv/770"
+    "url": "https://dis-se2.divas.cloud:8200/chan-6309_h/index.m3u8;https://fl511.com/map/Cctv/770",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 28.035,
@@ -275206,6 +275213,38 @@
     "url": "https://pv.viewsurf.com/654/Place-de-la-Comedie"
   },
   {
+    "lat": 31.1916889,
+    "lon": 29.9169639,
+    "osmID": 14114229498,
+    "user": "AhmedMohamedAli",
+    "osmType": "node",
+    "lastChanged": 1788796463000,
+    "address": {
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "country": "Egypt"
+    },
+    "osmTags": {
+      "alt_name": "بطريركية الاقباط الارثوذكس",
+      "alt_name:ar": "بطريركية الاقباط الارثوذكس",
+      "alt_name:en": "Coptic Orthodox Patriarchate",
+      "amenity": "place_of_worship",
+      "contact:facebook": "https://www.facebook.com/KnystAlanbaAbraamZynAlabdyn",
+      "contact:webcam": "https://www.youtube.com/@saintabraamchurch-7482/streams",
+      "contact:youtube": "https://www.youtube.com/@saintabraamchurch-7482",
+      "name": "كنيسة القديس العظيم الانبا ابرام",
+      "name:ar": "كنيسة القديس العظيم الانبا ابرام",
+      "name:en": "The Great Saint Abraam Church",
+      "phone": "+20-3-4966442",
+      "religion": "christian"
+    },
+    "url": "https://www.youtube.com/@saintabraamchurch-7482/streams",
+    "lint": {
+      "youtube": true,
+      "duplicate": true
+    }
+  },
+  {
     "lat": 40.9380281,
     "lon": -4.1110862,
     "osmID": 14118359345,
@@ -275366,7 +275405,6 @@
     "operator": "Policía Local de Segovia;MasOrange;INNOVASUR",
     "url": "https://web.archive.org/web/20260824170553if_/https://streetcomplete.app/p/366527.jpg",
     "lint": {
-      "unavailable": true,
       "duplicate": true
     }
   },
@@ -277053,5 +277091,166 @@
     },
     "operator": "Oslo Havn",
     "url": "https://www.oslohavn.no/webcam/vippetangen.jpg"
+  },
+  {
+    "lat": 44.5609344,
+    "lon": -88.0530207,
+    "direction": 250,
+    "osmID": 14158936870,
+    "user": "marcos mazon",
+    "osmType": "node",
+    "lastChanged": 1788833498000,
+    "address": {
+      "city": "Howard",
+      "county": "Brown County",
+      "state": "Wisconsin",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "250",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511wi.gov/map#Camera",
+      "description": "Traffic camera @ Interstates 41 and 43, overlooking I-41 and a slip-road from I-43 NB.",
+      "man_made": "surveillance",
+      "operator": "Wisconsin Department of Transportation",
+      "operator:short": "WisDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q8027162",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Wisconsin Department of Transportation",
+    "url": "https://511wi.gov/map#Camera",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 44.5243114,
+    "lon": -88.0824345,
+    "direction": 25,
+    "osmID": 14158936871,
+    "user": "marcos mazon",
+    "osmType": "node",
+    "lastChanged": 1788833498000,
+    "address": {
+      "city": "Green Bay",
+      "county": "Brown County",
+      "state": "Wisconsin",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "25",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511wi.gov/map#Camera",
+      "description": "Traffic camera @ Interstate 41 and Mason Street, overlooking I-41/US-41.",
+      "man_made": "surveillance",
+      "operator": "Wisconsin Department of Transportation",
+      "operator:short": "WisDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q8027162",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Wisconsin Department of Transportation",
+    "url": "https://511wi.gov/map#Camera",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 44.5436712,
+    "lon": -88.0891048,
+    "direction": 270,
+    "osmID": 14158936872,
+    "user": "marcos mazon",
+    "osmType": "node",
+    "lastChanged": 1788833498000,
+    "address": {
+      "city": "Howard",
+      "county": "Brown County",
+      "state": "Wisconsin",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511wi.gov/map#Camera",
+      "description": "Traffic camera @ SR-29/32 and Packerland Drive, overlooking SR-29/32.",
+      "man_made": "surveillance",
+      "operator": "Wisconsin Department of Transportation",
+      "operator:short": "WisDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q8027162",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Wisconsin Department of Transportation",
+    "url": "https://511wi.gov/map#Camera",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 31.1917885,
+    "lon": 29.9172078,
+    "osmID": 14159600236,
+    "user": "AhmedMohamedAli",
+    "osmType": "node",
+    "lastChanged": 1788798757000,
+    "address": {
+      "city": "Alexandria",
+      "state": "Alexandria",
+      "country": "Egypt"
+    },
+    "osmTags": {
+      "amenity": "studio",
+      "contact:webcam": "https://www.youtube.com/@saintabraamchurch-7482/streams",
+      "name": "كاميرا مباشرة لكنيسة القديس العظيم الانبا ابرام",
+      "name:ar": "كاميرا مباشرة لكنيسة القديس العظيم الانبا ابرام",
+      "name:en": "The Great Saint Abraam Church Live Camera",
+      "studio": "television"
+    },
+    "url": "https://www.youtube.com/@saintabraamchurch-7482/streams",
+    "lint": {
+      "youtube": true,
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 30.3493447,
+    "lon": -97.526935,
+    "direction": 65,
+    "osmID": 14161706121,
+    "user": "TheFoolOnTheHill",
+    "osmType": "node",
+    "lastChanged": 1788836093000,
+    "address": {
+      "city": "Manor",
+      "county": "Travis County",
+      "state": "Texas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "65",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.flocksafety.com/",
+      "man_made": "surveillance",
+      "manufacturer": "Flock Safety",
+      "surveillance": "alpr",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.flocksafety.com/",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
