@@ -795,6 +795,8 @@
     "lastChanged": 1735783575000,
     "address": {
       "city": "Český Krumlov",
+      "county": "okres Český Krumlov",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -58571,7 +58573,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_593"
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_593",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.4848741,
@@ -107528,6 +107533,7 @@
     "lastChanged": 1730200286000,
     "address": {
       "city": "Higher Town",
+      "county": "Isles of Scilly",
       "state": "England",
       "country": "United Kingdom"
     },
@@ -153902,14 +153908,14 @@
     "url": "https://app.webcam-hd.com/hirmentaz/espace-nordique"
   },
   {
-    "lat": 46.2301064,
-    "lon": 6.4948598,
-    "osmID": 11470886449,
-    "user": "Lejun",
+    "lat": 46.2300974,
+    "lon": 6.4949095,
+    "osmID": 11470886447,
+    "user": "tartiflex",
     "osmType": "node",
-    "lastChanged": 1742026368000,
+    "lastChanged": 1788979472000,
     "address": {
-      "city": "Bellevaux",
+      "city": "Mégevette",
       "county": "Upper Savoy",
       "state": "Auvergne-Rhône-Alpes",
       "country": "France"
@@ -153919,9 +153925,9 @@
       "camera:mount": "roof",
       "camera:type": "panning",
       "contact:webcam": "https://app.webcam-hd.com/hirmentaz/grand-site",
-      "description": "Hirmentaz : grand site",
       "ele": "1600",
       "man_made": "surveillance",
+      "name": "Hirmentaz : Grand Site",
       "source:description": "MétéoFrance",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -167585,6 +167591,7 @@
     "lastChanged": 1748599695000,
     "address": {
       "city": "Košice",
+      "state": "Region of Košice",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -200212,7 +200219,7 @@
     "osmType": "node",
     "lastChanged": 1726313701000,
     "address": {
-      "city": "Stilfs - Stelvio",
+      "city": "Passo Stelvio - Stilfserjoch",
       "county": "Sondrio",
       "state": "Lombardy",
       "country": "Italy"
@@ -206204,6 +206211,7 @@
     "lastChanged": 1737294690000,
     "address": {
       "city": "Humpolec",
+      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -211766,6 +211774,7 @@
     },
     "url": "https://www.utinform.hu/hu/map?d=0&n=1&l=abfc&v=19.09327,47.36989,18&p=webcamXa018",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -211807,6 +211816,7 @@
     "lastChanged": 1740924485000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -212178,6 +212188,7 @@
     "address": {
       "city": "Martonvásár",
       "county": "Fejér",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -235375,6 +235386,37 @@
     "url": "https://ristmikud.tallinn.ee/last/cam119.jpg"
   },
   {
+    "lat": 46.3577662,
+    "lon": -94.2161255,
+    "direction": 200,
+    "osmID": 13018109105,
+    "user": "JoeHTech",
+    "osmType": "node",
+    "lastChanged": 1788939135000,
+    "address": {
+      "city": "Brainerd",
+      "county": "Crow Wing County",
+      "state": "Minnesota",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511mn.org/#camera/500788/1536782748",
+      "direction": "200",
+      "man_made": "surveillance",
+      "operator": "Minnesota Department of Transportation",
+      "operator:short": "MnDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q3315550",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Minnesota Department of Transportation",
+    "url": "https://511mn.org/#camera/500788/1536782748"
+  },
+  {
     "lat": 48.9686364,
     "lon": 8.8316837,
     "osmID": 13019841284,
@@ -236973,6 +237015,38 @@
     },
     "operator": "kystverket",
     "url": "https://portbatsfjord.kystnor.no/"
+  },
+  {
+    "lat": 46.3581884,
+    "lon": -94.2005673,
+    "direction": 220,
+    "osmID": 13097198152,
+    "user": "JoeHTech",
+    "osmType": "node",
+    "lastChanged": 1788939135000,
+    "address": {
+      "city": "Brainerd",
+      "county": "Crow Wing County",
+      "state": "Minnesota",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511mn.org/#camera/501049/1842661507",
+      "direction": "220",
+      "man_made": "surveillance",
+      "manufacturer:wikidata": "Q108485435",
+      "operator": "Minnesota Department of Transportation",
+      "operator:short": "MnDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q3315550",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Minnesota Department of Transportation",
+    "url": "https://511mn.org/#camera/501049/1842661507"
   },
   {
     "lat": 47.4593919,
@@ -241540,6 +241614,7 @@
     "lastChanged": 1763330055000,
     "address": {
       "city": "Žilina",
+      "state": "Region of Žilina",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -251852,6 +251927,7 @@
     "lastChanged": 1767288091000,
     "address": {
       "city": "Hradec Králové",
+      "state": "Hradec Králové Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -259761,9 +259837,9 @@
     "lat": 47.5484086,
     "lon": -122.3118275,
     "osmID": 13483768192,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1769349272000,
+    "lastChanged": 1788971784000,
     "address": {
       "city": "Seattle",
       "county": "King County",
@@ -259777,6 +259853,9 @@
       "layer": "2",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -274551,13 +274630,14 @@
     "osmID": 14081265085,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1789001355000,
     "address": {
       "city": "El Espinar",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167987.jpg",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -274674,7 +274754,7 @@
     "osmID": 14081265176,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1789001359000,
     "address": {
       "city": "El Espinar",
       "state": "Castile and León",
@@ -274683,6 +274763,7 @@
     "osmTags": {
       "camera:direction": "220",
       "camera:mount": "pole",
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167988.jpg",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -274697,13 +274778,14 @@
     "osmID": 14081265204,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1786238845000,
+    "lastChanged": 1789001362000,
     "address": {
       "city": "El Espinar",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
+      "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167989.jpg",
       "man_made": "surveillance",
       "surveillance": "traffic",
@@ -277322,5 +277404,35 @@
       "surveillance:zone": "public"
     },
     "url": "surveillance: type/camera"
+  },
+  {
+    "lat": 46.351708,
+    "lon": -94.2441101,
+    "direction": 320,
+    "osmID": 14165631208,
+    "user": "JoeHTech",
+    "osmType": "node",
+    "lastChanged": 1788939135000,
+    "address": {
+      "city": "Baxter",
+      "county": "Crow Wing County",
+      "state": "Minnesota",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511mn.org/#camera/500671/3116652104",
+      "man_made": "surveillance",
+      "operator": "Minnesota Department of Transportation",
+      "operator:short": "MnDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q3315550",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Minnesota Department of Transportation",
+    "url": "https://511mn.org/#camera/500671/3116652104"
   }
 ]
