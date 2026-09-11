@@ -2696,6 +2696,7 @@
     "address": {
       "city": "Barcs",
       "county": "Somogy",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -32075,6 +32076,7 @@
     "lastChanged": 1667032939000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -34463,6 +34465,7 @@
     "address": {
       "city": "Mezőberény",
       "county": "Békés",
+      "state": "Great Plain and North",
       "country": "Hungary"
     },
     "osmTags": {
@@ -52440,6 +52443,7 @@
     "address": {
       "city": "Körmend",
       "county": "Vas",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -63067,6 +63071,8 @@
     "lastChanged": 1593281579000,
     "address": {
       "city": "Chabičovice",
+      "county": "okres Český Krumlov",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -63557,10 +63563,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_580",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_580"
   },
   {
     "lat": 48.317734,
@@ -75411,7 +75414,6 @@
     "lastChanged": 1624268046000,
     "address": {
       "city": "New York",
-      "county": "Kings County",
       "state": "New York",
       "country": "United States of America"
     },
@@ -112047,6 +112049,7 @@
     "osmType": "node",
     "lastChanged": 1632594872000,
     "address": {
+      "city": "Knoxville",
       "county": "Frederick County",
       "state": "Maryland",
       "country": "United States of America"
@@ -241453,6 +241456,7 @@
     "lastChanged": 1763330055000,
     "address": {
       "city": "Žilina",
+      "state": "Region of Žilina",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -241587,6 +241591,7 @@
     "lastChanged": 1763330055000,
     "address": {
       "city": "Žilina",
+      "state": "Region of Žilina",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -241641,6 +241646,7 @@
     "lastChanged": 1763330055000,
     "address": {
       "city": "Žilina",
+      "state": "Region of Žilina",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -249209,7 +249215,7 @@
     "osmID": 13398583954,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -249219,7 +249225,7 @@
       "camera:direction": "345;210",
       "camera:mount": "street_lamp",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "image": "https://web.archive.org/web/20251223203014if_/https://streetcomplete.app/p/321224.jpg",
       "internet_access:ssid": "CCTV_Espirdo",
@@ -249235,7 +249241,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -249271,10 +249277,7 @@
       "surveillance:zone": "building"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
-    "lint": {
-      "duplicate": true
-    }
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public"
   },
   {
     "lat": 46.4719802,
@@ -262451,13 +262454,13 @@
     "url": "https://ohgo.com/se-ohio?lt=39.30147976184641&ln=-81.58156155266855&z=11&ls=incident,camera&id=camera-00000000000055"
   },
   {
-    "lat": 39.2193127,
-    "lon": -81.8063231,
+    "lat": 39.2191061,
+    "lon": -81.8065449,
     "direction": 15,
     "osmID": 13596517759,
-    "user": "FuckAI",
+    "user": "rdelach",
     "osmType": "node",
-    "lastChanged": 1771966597000,
+    "lastChanged": 1789092449000,
     "address": {
       "city": "Coolville",
       "county": "Athens County",
@@ -262467,12 +262470,13 @@
     "osmTags": {
       "camera:direction": "15",
       "camera:mount": "pole",
-      "camera:type": "panning",
+      "camera:type": "dome",
       "contact:webcam": "https://ohgo.com/se-ohio?lt=39.280754362909114&ln=-81.71477078118387&z=11&ls=incident,camera&id=camera-00000000001268",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "surveillance": "public",
       "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
+      "surveillance:zone": "traffic",
+      "temporary": "yes"
     },
     "url": "https://ohgo.com/se-ohio?lt=39.280754362909114&ln=-81.71477078118387&z=11&ls=incident,camera&id=camera-00000000001268"
   },
@@ -275961,7 +275965,7 @@
     "osmID": 14132048140,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -275971,7 +275975,7 @@
       "camera:direction": "55;200",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "image": "http://web.archive.org/web/20260828184140if_/https://streetcomplete.app/p/367551.jpg",
       "internet_access:ssid": "CCTV_Espirdo",
@@ -275987,7 +275991,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -275998,7 +276002,7 @@
     "osmID": 14132048153,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -276008,7 +276012,7 @@
       "camera:direction": "310;210",
       "camera:mount": "pole",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "image": "http://web.archive.org/web/20260828184630if_/https://streetcomplete.app/p/367550.jpg",
       "internet_access:ssid": "CCTV_Espirdo",
@@ -276024,7 +276028,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -276222,7 +276226,7 @@
     "osmID": 14142284683,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -276232,7 +276236,7 @@
       "camera:direction": "185",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "image": "https://web.archive.org/web/20260902130222if_/https://streetcomplete.app/p/368695.jpg",
       "internet_access:ssid": "CCTV_Espirdo",
@@ -276249,7 +276253,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -276261,7 +276265,7 @@
     "osmID": 14142284684,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -276271,7 +276275,7 @@
       "camera:direction": "50",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "image": "https://web.archive.org/web/20260902130226if_/https://streetcomplete.app/p/368694.jpg",
       "internet_access:ssid": "CCTV_Espirdo",
@@ -276288,7 +276292,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -276443,7 +276447,7 @@
     "osmID": 14156088945,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -276453,7 +276457,7 @@
       "camera:direction": "65",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "internet_access:ssid": "CCTV_Espirdo",
       "man_made": "surveillance",
@@ -276468,7 +276472,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -277107,7 +277111,7 @@
     "osmID": 14156356261,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1788653416000,
+    "lastChanged": 1789094034000,
     "address": {
       "city": "Espirdo",
       "state": "Castile and León",
@@ -277117,7 +277121,7 @@
       "camera:direction": "320",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+      "contact:webcam": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
       "description": "Modelo VIGI InSight S345-4G con IA para detectar y clasificar personas y vehículos, analiza eventos de seguridad. Manejo desde VIGI App.",
       "internet_access:ssid": "CCTV_Espirdo",
       "man_made": "surveillance",
@@ -277132,7 +277136,7 @@
       "surveillance:zone": "town"
     },
     "operator": "Ayuntamiento de Espirdo;Digital Audio",
-    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpgsurveillance=public",
+    "url": "https://static.tp-link.com/upload/case-study/VMS_Cloud_20260803104206d.jpg",
     "lint": {
       "duplicate": true
     }
@@ -277200,7 +277204,7 @@
     "osmID": 14158936870,
     "user": "marcos mazon",
     "osmType": "node",
-    "lastChanged": 1788833498000,
+    "lastChanged": 1789020134000,
     "address": {
       "city": "Howard",
       "county": "Brown County",
@@ -277218,7 +277222,7 @@
       "operator:short": "WisDOT",
       "operator:type": "government",
       "operator:wikidata": "Q8027162",
-      "surveillance": "public",
+      "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
