@@ -12933,6 +12933,7 @@
     "lastChanged": 1729530081000,
     "address": {
       "city": "České Budějovice",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -15623,7 +15624,7 @@
     "lastChanged": 1424284260000,
     "address": {
       "city": "Tarvisio / Tarvis / Trbiž",
-      "county": "Udine / Udin / Videm",
+      "county": "Udine",
       "state": "Friuli – Venezia Giulia",
       "country": "Italy"
     },
@@ -18583,7 +18584,7 @@
     "lastChanged": 1427357679000,
     "address": {
       "city": "Prato Carnico / Prât di Cjargne",
-      "county": "Udine / Udin / Videm",
+      "county": "Udine",
       "state": "Friuli – Venezia Giulia",
       "country": "Italy"
     },
@@ -104907,7 +104908,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Stadt Wien",
-    "url": "https://dyn2.verkehrsauskunft.at/itswebcamviewer/SingleScreen.aspx?camname=itscam52"
+    "url": "https://dyn2.verkehrsauskunft.at/itswebcamviewer/SingleScreen.aspx?camname=itscam52",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.1616214,
@@ -108063,7 +108067,7 @@
     "osmType": "node",
     "lastChanged": 1632308902000,
     "address": {
-      "city": "Rushcliffe",
+      "city": "Nottingham",
       "county": "Nottinghamshire",
       "state": "England",
       "country": "United Kingdom"
@@ -160150,9 +160154,9 @@
     "lat": 49.4746247,
     "lon": 22.3196052,
     "osmID": 11760249210,
-    "user": "b-jazz-bot",
+    "user": "Senihtu",
     "osmType": "node",
-    "lastChanged": 1778732626000,
+    "lastChanged": 1789148429000,
     "address": {
       "city": "Lesko",
       "county": "Lesko County",
@@ -160166,7 +160170,7 @@
       "email": "biuro@basen.lesko.pl",
       "man_made": "surveillance",
       "name": "Kamera live - Basen Aquarius Lesko",
-      "opening_hours": "Mo-Su 7:00-22:00",
+      "opening_hours": "Mo-Su 07:00-22:00",
       "phone": "+48 133070490",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -229474,6 +229478,7 @@
     "lastChanged": 1748496906000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -241564,6 +241569,7 @@
     "lastChanged": 1763330055000,
     "address": {
       "city": "Žilina",
+      "state": "Region of Žilina",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -277438,5 +277444,30 @@
     },
     "operator": "Minnesota Department of Transportation",
     "url": "https://511mn.org/#camera/500671/3116652104"
+  },
+  {
+    "lat": 44.5392753,
+    "lon": -68.416512,
+    "osmID": 14174342044,
+    "user": "alagahd",
+    "osmType": "node",
+    "lastChanged": 1789165961000,
+    "address": {
+      "city": "Ellsworth",
+      "county": "Hancock County",
+      "state": "Maine",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://www.lvt.com/retail-security",
+      "man_made": "surveillance",
+      "manufacturer": "LiveView Technologies",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "parking"
+    },
+    "url": "https://www.lvt.com/retail-security"
   }
 ]
