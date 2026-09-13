@@ -5435,9 +5435,9 @@
     "lat": 42.6275,
     "lon": -71.394353,
     "osmID": 1408830741,
-    "user": "ColonelThirtyTwo",
+    "user": "Liqueseous",
     "osmType": "node",
-    "lastChanged": 1748293454000,
+    "lastChanged": 1789227863000,
     "address": {
       "city": "Chelmsford",
       "county": "Middlesex County",
@@ -5446,7 +5446,8 @@
     },
     "osmTags": {
       "camera:features": "webcam",
-      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "check_date": "2025-05-25",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/48.jpg",
       "description": "Rte 3, south of Groton Rd, North Chelmsford",
@@ -5456,7 +5457,8 @@
       "refIMG:NW": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 48_NB.jpg",
       "refIMG:SE": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 48_SB.jpg",
       "surveillance": "outdoor",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "url": "http://www1.eot.state.ma.us/cam_updated_images/48.jpg",
     "lint": {
@@ -26744,7 +26746,7 @@
     "osmType": "node",
     "lastChanged": 1735062423000,
     "address": {
-      "city": "Springfield",
+      "city": "Eugene",
       "county": "Lane County",
       "state": "Oregon",
       "country": "United States of America"
@@ -27837,6 +27839,7 @@
     "lastChanged": 1698717909000,
     "address": {
       "city": "Nové Město nad Metují",
+      "state": "Hradec Králové Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -80740,7 +80743,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "area"
     },
-    "url": "http://webcam.g0uda.nl/webcam4.html"
+    "url": "http://webcam.g0uda.nl/webcam4.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.6737476,
@@ -95020,6 +95026,7 @@
     "lastChanged": 1625767554000,
     "address": {
       "city": "Velké Poříčí",
+      "state": "Hradec Králové Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -133619,9 +133626,9 @@
     "lon": 4.5129315,
     "direction": 126,
     "osmID": 9950435829,
-    "user": "setagllib",
+    "user": "Syl",
     "osmType": "node",
-    "lastChanged": 1774097622000,
+    "lastChanged": 1789275188000,
     "address": {
       "city": "Saint-Chamond",
       "county": "Loire",
@@ -133638,7 +133645,7 @@
       "panoramax": "f5d43f36-4163-42aa-8f18-690ecf10844d",
       "surveillance": "public",
       "surveillance:type": "camera",
-      "surveillance:zone": "Park"
+      "surveillance:zone": "park"
     },
     "url": "https://saint-chamond.fr/scripts/cam2.htm"
   },
@@ -141541,7 +141548,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi02/ID_065"
+    "url": "https://cameras.santoandre.sp.gov.br/coi02/ID_065",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.6247405,
@@ -156470,7 +156480,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.bergfex.at/gruenberg-obsteig/webcams/c9051/"
+    "url": "https://www.bergfex.at/gruenberg-obsteig/webcams/c9051/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 40.8232418,
@@ -207841,6 +207854,7 @@
     "lastChanged": 1737295124000,
     "address": {
       "city": "Humpolec",
+      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -269555,6 +269569,7 @@
     },
     "url": "man_made=surveillance surveillance:type=ALPR surveillance=public camera:type=fixed surveillance:zone=traffic manufacturer=Flock Safety manufacturer:wikidata=Q1084",
     "lint": {
+      "unavailable": true,
       "duplicate": true,
       "invalidUrl": true
     }
@@ -275329,7 +275344,7 @@
     "osmID": 14114229498,
     "user": "AhmedMohamedAli",
     "osmType": "node",
-    "lastChanged": 1788796463000,
+    "lastChanged": 1789260218000,
     "address": {
       "city": "Alexandria",
       "state": "Alexandria",
@@ -275346,6 +275361,7 @@
       "name": "كنيسة القديس العظيم الانبا ابرام",
       "name:ar": "كنيسة القديس العظيم الانبا ابرام",
       "name:en": "The Great Saint Abraam Church",
+      "opening_hours": "24/7",
       "phone": "+20-3-4966442",
       "religion": "christian"
     },
@@ -277335,13 +277351,13 @@
     }
   },
   {
-    "lat": 30.3492546,
-    "lon": -97.5269148,
+    "lat": 30.3493178,
+    "lon": -97.5268301,
     "direction": 65,
     "osmID": 14161706121,
     "user": "TheFoolOnTheHill",
     "osmType": "node",
-    "lastChanged": 1788925704000,
+    "lastChanged": 1789255518000,
     "address": {
       "city": "Manor",
       "county": "Travis County",
@@ -277353,10 +277369,11 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.flocksafety.com/",
+      "direction": "175",
       "man_made": "surveillance",
       "manufacturer": "Flock Safety",
       "surveillance": "alpr",
-      "surveillance:type": "camera",
+      "surveillance:type": "ALPR",
       "surveillance:zone": "traffic"
     },
     "url": "https://www.flocksafety.com/",

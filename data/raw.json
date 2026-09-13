@@ -4392,14 +4392,15 @@
     "id": 1408830741,
     "lat": 42.6275,
     "lon": -71.394353,
-    "timestamp": "2025-05-26T21:04:14Z",
-    "version": 3,
-    "changeset": 166798300,
-    "user": "ColonelThirtyTwo",
-    "uid": 21640875,
+    "timestamp": "2026-09-12T15:44:23Z",
+    "version": 4,
+    "changeset": 188922630,
+    "user": "Liqueseous",
+    "uid": 23475487,
     "tags": {
       "camera:features": "webcam",
-      "camera:type": "fixed",
+      "camera:mount": "pole",
+      "camera:type": "dome",
       "check_date": "2025-05-25",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/48.jpg",
       "description": "Rte 3, south of Groton Rd, North Chelmsford",
@@ -4409,7 +4410,8 @@
       "refIMG:NW": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 48_NB.jpg",
       "refIMG:SE": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 48_SB.jpg",
       "surveillance": "outdoor",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -108826,11 +108828,11 @@
     "id": 9950435829,
     "lat": 45.4760235,
     "lon": 4.5129315,
-    "timestamp": "2026-03-21T12:53:42Z",
-    "version": 2,
-    "changeset": 180206942,
-    "user": "setagllib",
-    "uid": 6338272,
+    "timestamp": "2026-09-13T04:53:08Z",
+    "version": 3,
+    "changeset": 188943688,
+    "user": "Syl",
+    "uid": 224440,
     "tags": {
       "camera:direction": "126",
       "camera:mount": "wall",
@@ -108841,7 +108843,7 @@
       "panoramax": "f5d43f36-4163-42aa-8f18-690ecf10844d",
       "surveillance": "public",
       "surveillance:type": "camera",
-      "surveillance:zone": "Park"
+      "surveillance:zone": "park"
     }
   },
   {
@@ -226765,9 +226767,9 @@
     "id": 14114229498,
     "lat": 31.1916889,
     "lon": 29.9169639,
-    "timestamp": "2026-09-07T15:54:23Z",
-    "version": 8,
-    "changeset": 188678383,
+    "timestamp": "2026-09-13T00:43:38Z",
+    "version": 9,
+    "changeset": 188940118,
     "user": "AhmedMohamedAli",
     "uid": 24369909,
     "tags": {
@@ -226781,6 +226783,7 @@
       "name": "كنيسة القديس العظيم الانبا ابرام",
       "name:ar": "كنيسة القديس العظيم الانبا ابرام",
       "name:en": "The Great Saint Abraam Church",
+      "opening_hours": "24/7",
       "phone": "+20-3-4966442",
       "religion": "christian"
     }
@@ -228445,11 +228448,11 @@
   {
     "type": "node",
     "id": 14161706121,
-    "lat": 30.3492546,
-    "lon": -97.5269148,
-    "timestamp": "2026-09-09T03:48:24Z",
-    "version": 2,
-    "changeset": 188751548,
+    "lat": 30.3493178,
+    "lon": -97.5268301,
+    "timestamp": "2026-09-12T23:25:18Z",
+    "version": 4,
+    "changeset": 188938631,
     "user": "TheFoolOnTheHill",
     "uid": 24356636,
     "tags": {
@@ -228457,10 +228460,11 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.flocksafety.com/",
+      "direction": "175",
       "man_made": "surveillance",
       "manufacturer": "Flock Safety",
       "surveillance": "alpr",
-      "surveillance:type": "camera",
+      "surveillance:type": "ALPR",
       "surveillance:zone": "traffic"
     }
   },
