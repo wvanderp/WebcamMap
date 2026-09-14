@@ -4405,22 +4405,22 @@
     "expires": 1791587449
   },
   "-34.9226999,138.6051092": {
-    "place_id": 19031598,
+    "place_id": 18991245,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 6389831985,
-    "lat": "-34.9226054",
-    "lon": "138.6051294",
-    "class": "shop",
-    "type": "optician",
+    "osm_id": 307039986,
+    "lat": "-34.9228210",
+    "lon": "138.6051046",
+    "class": "amenity",
+    "type": "fast_food",
     "place_rank": 30,
     "importance": 0.00007489051651784569,
-    "addresstype": "shop",
-    "name": "Bailey Nelson",
-    "display_name": "Bailey Nelson, 150-154, Rundle Mall, Adelaide, South Australia, 5000, Australia",
+    "addresstype": "amenity",
+    "name": "McDonald's",
+    "display_name": "McDonald's, 147, Rundle Mall, Adelaide, South Australia, 5000, Australia",
     "address": {
-      "shop": "Bailey Nelson",
-      "house_number": "150-154",
+      "amenity": "McDonald's",
+      "house_number": "147",
       "road": "Rundle Mall",
       "suburb": "Adelaide",
       "city": "Adelaide",
@@ -4430,14 +4430,28 @@
       "country": "Australia",
       "country_code": "au"
     },
-    "extratags": null,
+    "extratags": {
+      "cuisine": "burger",
+      "smoking": "no",
+      "website": "https://mcdonalds.com.au/",
+      "operator": "McDonald's",
+      "takeaway": "yes",
+      "wheelchair": "yes",
+      "drive_through": "no",
+      "brand:wikidata": "Q38076",
+      "indoor_seating": "yes",
+      "brand:wikipedia": "en:McDonald's",
+      "outdoor_seating": "no",
+      "opening_hours:signed": "no",
+      "check_date:opening_hours": "2022-11-15"
+    },
     "boundingbox": [
-      "-34.9226554",
-      "-34.9225554",
-      "138.6050794",
-      "138.6051794"
+      "-34.9228710",
+      "-34.9227710",
+      "138.6050546",
+      "138.6051546"
     ],
-    "expires": 1789321960
+    "expires": 1793066495
   },
   "-34.9227553,138.6067021": {
     "place_id": 19059323,
@@ -5156,7 +5170,7 @@
     "expires": 1792772220
   },
   "-36.3785575,148.4026577": {
-    "place_id": 20216316,
+    "place_id": 20434044,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 217593535,
@@ -5187,7 +5201,7 @@
       "148.4066206",
       "148.4078191"
     ],
-    "expires": 1789294375
+    "expires": 1793011016
   },
   "-36.3809748,148.3865515": {
     "place_id": 20111293,
@@ -9789,7 +9803,7 @@
     "expires": 1791292091
   },
   "-36.973,174.789": {
-    "place_id": 26387071,
+    "place_id": 26023112,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 323159692,
@@ -9827,7 +9841,7 @@
       "174.7887322",
       "174.7892571"
     ],
-    "expires": 1789279975
+    "expires": 1792921788
   },
   "-36.973,174.817": {
     "place_id": 26281273,
@@ -10675,7 +10689,7 @@
     "expires": 1791461295
   },
   "-37.021,174.91": {
-    "place_id": 26493391,
+    "place_id": 26771648,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 119980911,
@@ -10716,7 +10730,7 @@
       "174.9063660",
       "174.9101578"
     ],
-    "expires": 1789299715
+    "expires": 1792928219
   },
   "-37.028,174.91": {
     "place_id": 26676328,
@@ -12175,7 +12189,7 @@
     "expires": 1791482453
   },
   "-37.800974,175.318981": {
-    "place_id": 26650831,
+    "place_id": 26330970,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 26947662,
@@ -12207,6 +12221,8 @@
       "sidewalk": "left",
       "turn:lanes": "through|through",
       "destination": "Rotorua;Taupō",
+      "cycleway:left": "lane",
+      "cycleway:right": "no",
       "destination:ref": "SH 1C",
       "destination:symbol": "airport"
     },
@@ -12216,7 +12232,7 @@
       "175.3188318",
       "175.3191899"
     ],
-    "expires": 1789332365
+    "expires": 1792978998
   },
   "-37.801002,175.322447": {
     "place_id": 26648337,
@@ -13948,7 +13964,7 @@
     "expires": 1792022244
   },
   "-39.2396792,174.8069442": {
-    "place_id": 26919817,
+    "place_id": 26496712,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1146146992,
@@ -13980,7 +13996,7 @@
       "174.8067126",
       "174.8071371"
     ],
-    "expires": 1789350966
+    "expires": 1793025650
   },
   "-39.2640262,175.3925144": {
     "place_id": 26614526,
@@ -14846,7 +14862,7 @@
     "expires": 1792790151
   },
   "-39.5392774,176.8607038": {
-    "place_id": 26718435,
+    "place_id": 27051061,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1126399942,
@@ -14858,11 +14874,10 @@
     "importance": 0.00005955062180509678,
     "addresstype": "man_made",
     "name": "Meeanee Road Interchange",
-    "display_name": "Meeanee Road Interchange, Hawke's Bay Expressway (RoNS Project Stage 1), Ascot Park, Taradale, Napier City, Hawke's Bay, 4112, New Zealand",
+    "display_name": "Meeanee Road Interchange, Hawke's Bay Expressway, Taradale, Napier City, Hawke's Bay, 4112, New Zealand",
     "address": {
       "man_made": "Meeanee Road Interchange",
-      "road": "Hawke's Bay Expressway (RoNS Project Stage 1)",
-      "neighbourhood": "Ascot Park",
+      "road": "Hawke's Bay Expressway",
       "suburb": "Taradale",
       "city": "Napier City",
       "state": "Hawke's Bay",
@@ -14880,7 +14895,7 @@
       "176.8607066",
       "176.8609857"
     ],
-    "expires": 1789279643
+    "expires": 1793074069
   },
   "-39.5682672,175.2637207": {
     "place_id": 26741831,
@@ -18861,7 +18876,7 @@
     "expires": 1791527479
   },
   "-43.4080364,172.6450387": {
-    "place_id": 24673196,
+    "place_id": 24926854,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 998693167,
@@ -18894,7 +18909,7 @@
       "172.6442477",
       "172.6450221"
     ],
-    "expires": 1789346306
+    "expires": 1792973491
   },
   "-43.4151065,172.646915": {
     "place_id": 25024983,
@@ -19652,7 +19667,7 @@
     "expires": 1791549275
   },
   "-43.4684525,172.6175694": {
-    "place_id": 25079492,
+    "place_id": 25003449,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 530457005,
@@ -19693,7 +19708,7 @@
       "172.6175995",
       "172.6176351"
     ],
-    "expires": 1789339323
+    "expires": 1792911326
   },
   "-43.474,172.659": {
     "place_id": 25050131,
@@ -23955,7 +23970,7 @@
     "expires": 1791513144
   },
   "-44.290538,170.084533": {
-    "place_id": 24418998,
+    "place_id": 24115771,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 316619835,
@@ -23988,7 +24003,7 @@
       "170.0835786",
       "170.0847134"
     ],
-    "expires": 1789328732
+    "expires": 1793041256
   },
   "-44.381376,171.238707": {
     "place_id": 24320682,
@@ -30796,7 +30811,7 @@
     "expires": 1792882406
   },
   "30.2634207,-97.7588994": {
-    "place_id": 312978643,
+    "place_id": 316980086,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 383353212,
@@ -30832,7 +30847,7 @@
       "-97.7594660",
       "-97.7589430"
     ],
-    "expires": 1789295841
+    "expires": 1792951824
   },
   "30.2660501,-97.7396988": {
     "place_id": 315865216,
@@ -30954,21 +30969,20 @@
     "expires": 1792868597
   },
   "30.3332798,-97.702589": {
-    "place_id": 315536386,
+    "place_id": 315601704,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 3825420826,
-    "lat": "30.3333530",
-    "lon": "-97.7029590",
-    "class": "place",
-    "type": "house",
-    "place_rank": 30,
-    "importance": 0.00007494392309448413,
-    "addresstype": "place",
-    "name": "",
-    "display_name": "7211, North Interstate 35, St. Johns, Austin, Travis County, Texas, 78752, United States",
+    "osm_type": "way",
+    "osm_id": 436729066,
+    "lat": "30.3336229",
+    "lon": "-97.7031175",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.05340827725642783,
+    "addresstype": "road",
+    "name": "North Interstate 35",
+    "display_name": "North Interstate 35, St. Johns, Austin, Travis County, Texas, 78752, United States",
     "address": {
-      "house_number": "7211",
       "road": "North Interstate 35",
       "neighbourhood": "St. Johns",
       "city": "Austin",
@@ -30980,15 +30994,17 @@
       "country_code": "us"
     },
     "extratags": {
-      "coa:place_id": "128216"
+      "oneway": "yes",
+      "maxspeed": "55 mph",
+      "frontage_road": "yes"
     },
     "boundingbox": [
-      "30.3333030",
-      "30.3334030",
-      "-97.7030090",
-      "-97.7029090"
+      "30.3325917",
+      "30.3378367",
+      "-97.7037061",
+      "-97.7002033"
     ],
-    "expires": 1789354644
+    "expires": 1792916813
   },
   "30.3492546,-97.5269148": {
     "place_id": 316629117,
@@ -31023,6 +31039,40 @@
       "-97.5260920"
     ],
     "expires": 1792497331
+  },
+  "30.3492947,-97.5268408": {
+    "place_id": 316629117,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3860483562,
+    "lat": "30.3492460",
+    "lon": "-97.5261420",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.000054446478980651827,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "12801 1/2, East US Highway 290, Manor, Travis County, Texas, 78653, United States",
+    "address": {
+      "house_number": "12801 1/2",
+      "road": "East US Highway 290",
+      "town": "Manor",
+      "county": "Travis County",
+      "state": "Texas",
+      "ISO3166-2-lvl4": "US-TX",
+      "postcode": "78653",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "30.3491960",
+      "30.3492960",
+      "-97.5261920",
+      "-97.5260920"
+    ],
+    "expires": 1793047054
   },
   "30.3493178,-97.5268301": {
     "place_id": 315354359,
@@ -42607,7 +42657,7 @@
     "expires": 1791619738
   },
   "35.641937,-117.8826639": {
-    "place_id": 319757279,
+    "place_id": 320044752,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 118835827,
@@ -42647,7 +42697,7 @@
       "-117.8827970",
       "-117.8749778"
     ],
-    "expires": 1789316527
+    "expires": 1793050005
   },
   "35.6455475,-121.1893725": {
     "place_id": 420743384,
@@ -43039,7 +43089,7 @@
     "expires": 1791499994
   },
   "35.7234767,-117.8692581": {
-    "place_id": 320547097,
+    "place_id": 321772904,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 270031962,
@@ -43071,7 +43121,7 @@
       "-117.8717696",
       "-117.8682158"
     ],
-    "expires": 1789299138
+    "expires": 1793051084
   },
   "35.7578889,-78.6238233": {
     "place_id": 345153213,
@@ -44055,7 +44105,7 @@
     "expires": 1792818387
   },
   "35.9962981,-86.7879068": {
-    "place_id": 341117544,
+    "place_id": 342433132,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1303770463,
@@ -44095,7 +44145,7 @@
       "-86.7880857",
       "-86.7880022"
     ],
-    "expires": 1789301506
+    "expires": 1792989926
   },
   "35.9971895,138.1377749": {
     "place_id": 265457565,
@@ -44519,7 +44569,7 @@
     "expires": 1792030829
   },
   "36.0461735,-117.9468684": {
-    "place_id": 322327098,
+    "place_id": 320738550,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1013697450,
@@ -44552,7 +44602,7 @@
       "-117.9472400",
       "-117.9458306"
     ],
-    "expires": 1789307804
+    "expires": 1792951159
   },
   "36.0494444,-79.8552778": {
     "place_id": 417936018,
@@ -45437,7 +45487,7 @@
       "-81.4164102",
       "-81.4162431"
     ],
-    "expires": 1789295974
+    "expires": 1792951849
   },
   "36.2799657,138.0537778": {
     "place_id": 263142587,
@@ -45906,7 +45956,7 @@
       "-94.1980501",
       "-94.1690079"
     ],
-    "expires": 1789333586
+    "expires": 1792922506
   },
   "36.3954125,138.2494494": {
     "place_id": 263079961,
@@ -46275,7 +46325,7 @@
     "expires": 1791292308
   },
   "36.4029845,138.2455362": {
-    "place_id": 263253071,
+    "place_id": 263080373,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 260448927,
@@ -46310,7 +46360,7 @@
       "138.2455327",
       "138.2464500"
     ],
-    "expires": 1789355168
+    "expires": 1792935216
   },
   "36.40299,138.2455769": {
     "place_id": 263253071,
@@ -46519,7 +46569,7 @@
       "-94.1985746",
       "-94.1980501"
     ],
-    "expires": 1789310262
+    "expires": 1792930802
   },
   "36.4049707,138.2557946": {
     "place_id": 263035750,
@@ -46596,7 +46646,7 @@
     "expires": 1791557251
   },
   "36.41329,-94.2137347": {
-    "place_id": 336282124,
+    "place_id": 336090016,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1026000935,
@@ -46635,7 +46685,7 @@
       "-94.2155373",
       "-94.2114227"
     ],
-    "expires": 1789362908
+    "expires": 1792935318
   },
   "36.4168892,-94.2318756": {
     "place_id": 336863501,
@@ -46722,7 +46772,7 @@
     "expires": 1789432367
   },
   "36.4326859,-94.369031": {
-    "place_id": 334937364,
+    "place_id": 335607395,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 296371194,
@@ -46761,7 +46811,7 @@
       "-94.3696964",
       "-94.3688807"
     ],
-    "expires": 1789332247
+    "expires": 1793008949
   },
   "36.4460272,138.3357586": {
     "place_id": 260852115,
@@ -51824,7 +51874,7 @@
     "expires": 1792596909
   },
   "37.1226945,-113.6240118": {
-    "place_id": 323939220,
+    "place_id": 323485027,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 481460890,
@@ -51859,7 +51909,7 @@
       "-113.6245021",
       "-113.6239815"
     ],
-    "expires": 1789315290
+    "expires": 1792929131
   },
   "37.1235846,-113.5206554": {
     "place_id": 412801696,
@@ -52014,7 +52064,7 @@
       "-113.6022219",
       "-113.6018157"
     ],
-    "expires": 1789345891
+    "expires": 1793050309
   },
   "37.1258507,-113.6357547": {
     "place_id": 408164656,
@@ -54198,7 +54248,7 @@
     "expires": 1792759933
   },
   "37.1696531,-3.5958902": {
-    "place_id": 293291017,
+    "place_id": 293718667,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1492149069,
@@ -54218,7 +54268,7 @@
       "city_district": "Centro",
       "city": "Granada",
       "county": "Comarca de la Vega de Granada",
-      "province": "Granada",
+      "state_district": "Granada",
       "ISO3166-2-lvl6": "ES-GR",
       "state": "Andalusia",
       "ISO3166-2-lvl4": "ES-AN",
@@ -54236,7 +54286,7 @@
       "-3.5960031",
       "-3.5956922"
     ],
-    "expires": 1789339177
+    "expires": 1792937928
   },
   "37.1710722,-82.6361306": {
     "place_id": 336535660,
@@ -55548,7 +55598,7 @@
     "expires": 1792678850
   },
   "37.1868522,-3.6036684": {
-    "place_id": 296222527,
+    "place_id": 292038333,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 83533572,
@@ -55567,7 +55617,7 @@
       "city_district": "Beiro",
       "city": "Granada",
       "county": "Comarca de la Vega de Granada",
-      "province": "Granada",
+      "state_district": "Granada",
       "ISO3166-2-lvl6": "ES-GR",
       "state": "Andalusia",
       "ISO3166-2-lvl4": "ES-AN",
@@ -55585,7 +55635,7 @@
       "-3.6036770",
       "-3.6035770"
     ],
-    "expires": 1789319677
+    "expires": 1792956271
   },
   "37.1891433,-3.6215926": {
     "place_id": 295819723,
@@ -64293,7 +64343,7 @@
       "-90.7081287",
       "-90.7040705"
     ],
-    "expires": 1789343752
+    "expires": 1792955858
   },
   "38.502319,-90.7001626": {
     "place_id": 336504743,
@@ -73517,7 +73567,7 @@
     "expires": 1791918829
   },
   "39.5419985,-78.5927586": {
-    "place_id": 348780656,
+    "place_id": 349389969,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 290576590,
@@ -73551,7 +73601,7 @@
       "-78.6560754",
       "-78.5919897"
     ],
-    "expires": 1789349139
+    "expires": 1793017208
   },
   "39.5466667,-107.3308333": {
     "place_id": 386658114,
@@ -77599,7 +77649,7 @@
     "expires": 1792777950
   },
   "39.6879835,-78.119144": {
-    "place_id": 350159967,
+    "place_id": 351457434,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 88159498,
@@ -77637,7 +77687,7 @@
       "-78.1283099",
       "-78.1027406"
     ],
-    "expires": 1789342963
+    "expires": 1792912997
   },
   "39.6883065,-79.0921585": {
     "place_id": 348460414,
@@ -78426,7 +78476,7 @@
     "expires": 1791419895
   },
   "39.7149597,-78.2802551": {
-    "place_id": 350788675,
+    "place_id": 349933124,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 851277239,
@@ -78460,7 +78510,7 @@
       "-78.2813752",
       "-78.2801521"
     ],
-    "expires": 1789322780
+    "expires": 1792970815
   },
   "39.7155389,-89.7024444": {
     "place_id": 333590537,
@@ -84196,7 +84246,7 @@
     "expires": 1791519400
   },
   "40.0686746,-75.3112327": {
-    "place_id": 357698933,
+    "place_id": 358004722,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 179709609,
@@ -84237,7 +84287,7 @@
       "-75.3114388",
       "-75.3112356"
     ],
-    "expires": 1789311704
+    "expires": 1792969148
   },
   "40.0706655,-75.3096279": {
     "place_id": 362578979,
@@ -98789,7 +98839,7 @@
     "expires": 1791286137
   },
   "40.4349515,-3.6887257": {
-    "place_id": 293125480,
+    "place_id": 292442851,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 53321074,
@@ -98830,7 +98880,7 @@
       "-3.6889340",
       "-3.6885667"
     ],
-    "expires": 1789340139
+    "expires": 1792960401
   },
   "40.4349581,-3.674914": {
     "place_id": 417278294,
@@ -100113,7 +100163,7 @@
     "expires": 1791650103
   },
   "40.4422394,-3.7039587": {
-    "place_id": 293332011,
+    "place_id": 293631591,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 12945926913,
@@ -100144,7 +100194,7 @@
       "-3.7039517",
       "-3.7038517"
     ],
-    "expires": 1789321378
+    "expires": 1792975824
   },
   "40.4434928,-3.6673529": {
     "place_id": 293949780,
@@ -101632,8 +101682,8 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 44571136,
-    "lat": "40.4521639",
-    "lon": "-3.6904968",
+    "lat": "40.4521640",
+    "lon": "-3.6904970",
     "class": "highway",
     "type": "service",
     "place_rank": 27,
@@ -101668,7 +101718,7 @@
       "-3.6910360",
       "-3.6902886"
     ],
-    "expires": 1789317246
+    "expires": 1792977106
   },
   "40.4522503,-3.6675653": {
     "place_id": 293918143,
@@ -104371,7 +104421,7 @@
       "-3.6867394",
       "-3.6866394"
     ],
-    "expires": 1789282586
+    "expires": 1792968575
   },
   "40.4795327,-3.6852103": {
     "place_id": 293155926,
@@ -109119,6 +109169,46 @@
     ],
     "expires": 1791600372
   },
+  "40.7270941,-4.1964062": {
+    "place_id": 428108758,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1558651600,
+    "lat": "40.7272005",
+    "lon": "-4.1961925",
+    "class": "amenity",
+    "type": "parking",
+    "place_rank": 30,
+    "importance": 0.00005855268177305283,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Carretera de San Rafael a Segovia, Urbanización La Reserva, Sexmo de El Espinar, Comunidad de Ciudad y Tierra de Segovia, El Espinar, Segovia, Castile and León, 40410, Spain",
+    "address": {
+      "road": "Carretera de San Rafael a Segovia",
+      "neighbourhood": "Urbanización La Reserva",
+      "city_district": "Comunidad de Ciudad y Tierra de Segovia",
+      "town": "El Espinar",
+      "state_district": "Segovia",
+      "ISO3166-2-lvl6": "ES-SG",
+      "state": "Castile and León",
+      "ISO3166-2-lvl4": "ES-CL",
+      "postcode": "40410",
+      "country": "Spain",
+      "country_code": "es"
+    },
+    "extratags": {
+      "access": "permit",
+      "parking": "street_side",
+      "surface": "asphalt"
+    },
+    "boundingbox": [
+      "40.7271677",
+      "40.7272621",
+      "-4.1962403",
+      "-4.1961179"
+    ],
+    "expires": 1793057902
+  },
   "40.7271811,-4.1937136": {
     "place_id": 290256024,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -111787,7 +111877,7 @@
     "expires": 1789893435
   },
   "40.9144444,-74.2705556": {
-    "place_id": 357100307,
+    "place_id": 356935123,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 11745783,
@@ -111826,7 +111916,7 @@
       "-74.2710910",
       "-74.2703069"
     ],
-    "expires": 1789296120
+    "expires": 1792937719
   },
   "40.9175,-74.6641667": {
     "place_id": 358238308,
@@ -122755,7 +122845,7 @@
     "expires": 1792788108
   },
   "41.8024592,-72.5520051": {
-    "place_id": 355560649,
+    "place_id": 355020267,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 658614473,
@@ -122798,7 +122888,7 @@
       "-72.5521030",
       "-72.5458445"
     ],
-    "expires": 1789314589
+    "expires": 1792993293
   },
   "41.8025032,14.7930283": {
     "place_id": 80432183,
@@ -123085,12 +123175,12 @@
     "expires": 1792572087
   },
   "41.8107932,-72.5246934": {
-    "place_id": 354778409,
+    "place_id": 354962119,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 1101185140,
-    "lat": "41.8107243",
-    "lon": "-72.5246697",
+    "osm_id": 209692239,
+    "lat": "41.8106094",
+    "lon": "-72.5246299",
     "class": "highway",
     "type": "motorway",
     "place_rank": 26,
@@ -123109,25 +123199,21 @@
       "country_code": "us"
     },
     "extratags": {
-      "NHS": "Interstate",
-      "hgv": "designated",
-      "foot": "no",
-      "horse": "no",
-      "lanes": "3",
+      "hov": "designated",
+      "lanes": "1",
+      "noref": "yes",
       "noname": "yes",
       "oneway": "yes",
-      "bicycle": "no",
       "maxspeed": "65 mph",
-      "maxheight": "default",
-      "hgv:national_network": "yes"
+      "hov:minimum": "2"
     },
     "boundingbox": [
-      "41.8065061",
-      "41.8115972",
-      "-72.5343318",
-      "-72.5217582"
+      "41.8063851",
+      "41.8207611",
+      "-72.5343117",
+      "-72.5057669"
     ],
-    "expires": 1789316271
+    "expires": 1792961607
   },
   "41.8117203,-72.6641742": {
     "place_id": 356048142,
@@ -124622,7 +124708,7 @@
     "expires": 1791604896
   },
   "41.9033333,-74.8127778": {
-    "place_id": 397756078,
+    "place_id": 397224087,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 40118141,
@@ -124654,7 +124740,7 @@
       "-74.8127089",
       "-74.8126089"
     ],
-    "expires": 1789348732
+    "expires": 1793059095
   },
   "41.9052728,12.4683949": {
     "place_id": 80948242,
@@ -143471,7 +143557,7 @@
       "-82.2629094",
       "-82.2401995"
     ],
-    "expires": 1789289022
+    "expires": 1792914327
   },
   "42.99388,-82.2718056": {
     "place_id": 368580456,
@@ -152279,7 +152365,7 @@
       "-116.2117593",
       "-116.2113103"
     ],
-    "expires": 1789361768
+    "expires": 1793047927
   },
   "43.6171671,7.0745465": {
     "place_id": 82639286,
@@ -153832,7 +153918,7 @@
     "expires": 1792723889
   },
   "43.7374484,7.4272304": {
-    "place_id": 82283889,
+    "place_id": 82037593,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 8269572,
@@ -153870,7 +153956,7 @@
       "7.4269057",
       "7.4289689"
     ],
-    "expires": 1789323354
+    "expires": 1793059622
   },
   "43.7413889,-87.7521111": {
     "place_id": 368052056,
@@ -162856,7 +162942,7 @@
       "6.5721849",
       "6.5722849"
     ],
-    "expires": 1789323416
+    "expires": 1793060814
   },
   "44.468492,3.271873": {
     "place_id": 87391191,
@@ -166008,7 +166094,7 @@
     "expires": 1791595147
   },
   "44.6083,5.44194": {
-    "place_id": 87546979,
+    "place_id": 88409695,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 918414300,
@@ -166042,7 +166128,7 @@
       "5.4442379",
       "5.4447812"
     ],
-    "expires": 1789304844
+    "expires": 1792965175
   },
   "44.60921,5.541403": {
     "place_id": 88100647,
@@ -183799,7 +183885,7 @@
     "expires": 1791297960
   },
   "45.3934,6.10681": {
-    "place_id": 88971531,
+    "place_id": 88483521,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 13507084174,
@@ -183834,7 +183920,7 @@
       "6.1068960",
       "6.1069960"
     ],
-    "expires": 1789311992
+    "expires": 1792930583
   },
   "45.3966971,-122.7467682": {
     "place_id": 326329181,
@@ -190084,7 +190170,7 @@
     "expires": 1792803330
   },
   "45.759339,7.7637771": {
-    "place_id": 88460922,
+    "place_id": 88609388,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1293282414,
@@ -190119,7 +190205,7 @@
       "7.7638643",
       "7.7639643"
     ],
-    "expires": 1789345982
+    "expires": 1793075043
   },
   "45.761586,6.302347": {
     "place_id": 88828086,
@@ -200132,6 +200218,44 @@
     ],
     "expires": 1791544739
   },
+  "46.2336224,-63.1272353": {
+    "place_id": 286605422,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3958645088,
+    "lat": "46.2336720",
+    "lon": "-63.1272775",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00006100480659185195,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "111, Queen Street, Downtown, Charlottetown, Queens County, Prince Edward Island, C1A 4B3, Canada",
+    "address": {
+      "house_number": "111",
+      "road": "Queen Street",
+      "neighbourhood": "Downtown",
+      "city": "Charlottetown",
+      "county": "Queens County",
+      "state": "Prince Edward Island",
+      "ISO3166-2-lvl4": "CA-PE",
+      "postcode": "C1A 4B3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "access": "customers",
+      "entrance": "yes"
+    },
+    "boundingbox": [
+      "46.2336220",
+      "46.2337220",
+      "-63.1273275",
+      "-63.1272275"
+    ],
+    "expires": 1793020178
+  },
   "46.2336304,-63.1272359": {
     "place_id": 286961000,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -200179,6 +200303,44 @@
       "-63.1272293"
     ],
     "expires": 1791802408
+  },
+  "46.2336367,-63.1272312": {
+    "place_id": 288306460,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3958645088,
+    "lat": "46.2336720",
+    "lon": "-63.1272775",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00006100480659185195,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "111, Queen Street, Downtown, Charlottetown, Queens County, Prince Edward Island, C1A 4B3, Canada",
+    "address": {
+      "house_number": "111",
+      "road": "Queen Street",
+      "neighbourhood": "Downtown",
+      "city": "Charlottetown",
+      "county": "Queens County",
+      "state": "Prince Edward Island",
+      "ISO3166-2-lvl4": "CA-PE",
+      "postcode": "C1A 4B3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "access": "customers",
+      "entrance": "yes"
+    },
+    "boundingbox": [
+      "46.2336220",
+      "46.2337220",
+      "-63.1273275",
+      "-63.1272275"
+    ],
+    "expires": 1793015507
   },
   "46.2336401,-63.1272366": {
     "place_id": 286038820,
@@ -200297,6 +200459,43 @@
       "-63.1273371"
     ],
     "expires": 1791410007
+  },
+  "46.2362331,-63.1274025": {
+    "place_id": 427269481,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 14177320725,
+    "lat": "46.2362185",
+    "lon": "-63.1273717",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00006100480659185195,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "150, Kent Street, Downtown, Charlottetown, Queens County, Prince Edward Island, C1A 1P2, Canada",
+    "address": {
+      "house_number": "150",
+      "road": "Kent Street",
+      "neighbourhood": "Downtown",
+      "city": "Charlottetown",
+      "county": "Queens County",
+      "state": "Prince Edward Island",
+      "ISO3166-2-lvl4": "CA-PE",
+      "postcode": "C1A 1P2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "entrance": "main"
+    },
+    "boundingbox": [
+      "46.2361685",
+      "46.2362685",
+      "-63.1274217",
+      "-63.1273217"
+    ],
+    "expires": 1793026809
   },
   "46.2363983,-63.1248235": {
     "place_id": 285873826,
@@ -205450,7 +205649,7 @@
     "expires": 1791587088
   },
   "46.4562243,11.5218982": {
-    "place_id": 74156612,
+    "place_id": 74051666,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 220987929,
@@ -205483,7 +205682,7 @@
       "11.5217065",
       "11.5253495"
     ],
-    "expires": 1789340403
+    "expires": 1792933626
   },
   "46.459353,6.8430193": {
     "place_id": 90786270,
@@ -210194,7 +210393,7 @@
     "expires": 1791587930
   },
   "46.5560198,11.0442508": {
-    "place_id": 73952849,
+    "place_id": 74013953,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 9126229003,
@@ -210228,7 +210427,7 @@
       "11.0426743",
       "11.0427743"
     ],
-    "expires": 1789279792
+    "expires": 1792999827
   },
   "46.5570069,6.0119663": {
     "place_id": 92845607,
@@ -220002,7 +220201,7 @@
       "11.1545429",
       "11.1577304"
     ],
-    "expires": 1789356975
+    "expires": 1792974483
   },
   "46.8806732,9.2043101": {
     "place_id": 72756322,
@@ -222806,7 +223005,7 @@
     "expires": 1791589639
   },
   "46.9692387,17.9356714": {
-    "place_id": 66233182,
+    "place_id": 66177329,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 3458341686,
@@ -222829,6 +223028,7 @@
       "county": "Veszprém",
       "ISO3166-2-lvl6": "HU-VE",
       "region": "Central Transdanubia",
+      "state": "Transdanubia",
       "postcode": "8229",
       "country": "Hungary",
       "country_code": "hu"
@@ -222843,7 +223043,7 @@
       "17.9356995",
       "17.9357995"
     ],
-    "expires": 1789362508
+    "expires": 1792938581
   },
   "46.970051,5.874462": {
     "place_id": 91250518,
@@ -230844,7 +231044,7 @@
       "-1.7574729",
       "-1.7573729"
     ],
-    "expires": 1789310901
+    "expires": 1793014809
   },
   "47.2058185,-1.752134": {
     "place_id": 288052888,
@@ -231499,7 +231699,7 @@
     "expires": 1791391144
   },
   "47.2177585,9.5051498": {
-    "place_id": 73482291,
+    "place_id": 73440378,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 978812769,
@@ -231533,7 +231733,7 @@
       "9.5047769",
       "9.5051846"
     ],
-    "expires": 1789352792
+    "expires": 1792913666
   },
   "47.2219946,11.4266569": {
     "place_id": 70765352,
@@ -247653,21 +247853,21 @@
     "expires": 1791425202
   },
   "47.475758,5.357473": {
-    "place_id": 93435636,
+    "place_id": 94551271,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 572164185,
     "lat": "47.4776777",
     "lon": "5.3585436",
-    "class": "leisure",
-    "type": "sports_centre",
+    "class": "aeroway",
+    "type": "airstrip",
     "place_rank": 30,
     "importance": 0.00006582970931558735,
-    "addresstype": "leisure",
+    "addresstype": "aeroway",
     "name": "Base ULM de Dampierre-et-Flée",
     "display_name": "Base ULM de Dampierre-et-Flée, Route de Bourberain, Dampierre-et-Flée, Dijon, Côte-d'Or, Bourgogne – Franche-Comté, Metropolitan France, 21310, France",
     "address": {
-      "leisure": "Base ULM de Dampierre-et-Flée",
+      "aeroway": "Base ULM de Dampierre-et-Flée",
       "road": "Route de Bourberain",
       "village": "Dampierre-et-Flée",
       "municipality": "Dijon",
@@ -247682,7 +247882,7 @@
     },
     "extratags": {
       "sport": "ultralight_aviation",
-      "aeroway": "airstrip",
+      "leisure": "sports_centre",
       "local_ref": "LF2123"
     },
     "boundingbox": [
@@ -247691,7 +247891,7 @@
       "5.3569356",
       "5.3593496"
     ],
-    "expires": 1789350481
+    "expires": 1792918866
   },
   "47.4758081,19.0387126": {
     "place_id": 67029622,
@@ -250545,7 +250745,7 @@
     "expires": 1791640237
   },
   "47.5172463,10.4537816": {
-    "place_id": 71034928,
+    "place_id": 71109368,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 37003297,
@@ -250584,7 +250784,7 @@
       "10.4519938",
       "10.4538950"
     ],
-    "expires": 1789292485
+    "expires": 1793047471
   },
   "47.5173394,18.9965403": {
     "place_id": 66976319,
@@ -256028,7 +256228,7 @@
     "expires": 1791661481
   },
   "47.5717257,7.6870831": {
-    "place_id": 422402261,
+    "place_id": 422027590,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 138228792,
@@ -256068,7 +256268,7 @@
       "7.6868777",
       "7.6874221"
     ],
-    "expires": 1789345304
+    "expires": 1792939745
   },
   "47.5720101,-122.1693668": {
     "place_id": 323259008,
@@ -276077,7 +276277,7 @@
     "expires": 1792376160
   },
   "47.8680435,12.3975117": {
-    "place_id": 70295412,
+    "place_id": 71239963,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 6516166484,
@@ -276112,7 +276312,7 @@
       "12.3971950",
       "12.3972950"
     ],
-    "expires": 1789344679
+    "expires": 1792962265
   },
   "47.8729074,8.040789": {
     "place_id": 71705418,
@@ -286818,7 +287018,7 @@
     "expires": 1791348098
   },
   "48.1958859,16.3400347": {
-    "place_id": 188257177,
+    "place_id": 186911619,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 325140051,
@@ -286868,7 +287068,7 @@
       "16.3400019",
       "16.3401019"
     ],
-    "expires": 1789287736
+    "expires": 1792970796
   },
   "48.1958927,16.3400322": {
     "place_id": 186911619,
@@ -290626,7 +290826,7 @@
       "16.3663786",
       "16.3678968"
     ],
-    "expires": 1789295797
+    "expires": 1793026442
   },
   "48.2646746,16.4559604": {
     "place_id": 185231626,
@@ -291072,7 +291272,7 @@
     "expires": 1791565411
   },
   "48.2720164,14.2698235": {
-    "place_id": 129755378,
+    "place_id": 129000553,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 99241229,
@@ -291109,7 +291309,7 @@
       "14.2693228",
       "14.2697961"
     ],
-    "expires": 1789290380
+    "expires": 1793066200
   },
   "48.2720174,14.2698226": {
     "place_id": 130118013,
@@ -294567,7 +294767,7 @@
     "expires": 1791567075
   },
   "48.4567319,9.9612981": {
-    "place_id": 121446315,
+    "place_id": 121895739,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 5079925,
@@ -294605,7 +294805,7 @@
       "9.9587953",
       "9.9613525"
     ],
-    "expires": 1789340672
+    "expires": 1792996055
   },
   "48.4567354,9.9613848": {
     "place_id": 122330500,
@@ -296971,13 +297171,14 @@
     "importance": 0.000051298542763363356,
     "addresstype": "amenity",
     "name": "Rasthütte Seibelseckle",
-    "display_name": "Rasthütte Seibelseckle, 8, Ecklessträßle, Schwarzenberg, Seebach, Landkreis Freudenstadt, Baden-Württemberg, 77889, Germany",
+    "display_name": "Rasthütte Seibelseckle, 8, Schwarzwaldhochstraße, Seebach, GVV Kappelrodeck, Ortenaukreis, Baden-Württemberg, 77889, Germany",
     "address": {
       "amenity": "Rasthütte Seibelseckle",
       "house_number": "8",
-      "road": "Ecklessträßle",
-      "village": "Schwarzenberg",
-      "county": "Landkreis Freudenstadt",
+      "road": "Schwarzwaldhochstraße",
+      "village": "Seebach",
+      "municipality": "GVV Kappelrodeck",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "ISO3166-2-lvl4": "DE-BW",
       "postcode": "77889",
@@ -296991,7 +297192,10 @@
       "opening_hours": "May-Oct: 09:30-17:30; Nov-Apr: Mo-We,Fr-Su 09:30-17:30; Th off",
       "indoor_seating": "yes",
       "contact:website": "http://www.seibelseckle.de/rasthuette.php",
-      "outdoor_seating": "yes"
+      "outdoor_seating": "yes",
+      "drinking_water:refill": "yes",
+      "drinking_water:refill:network": "Refill Deutschland",
+      "drinking_water:refill:network:wikidata": "Q50302201"
     },
     "boundingbox": [
       "48.5962271",
@@ -296999,7 +297203,7 @@
       "8.2173582",
       "8.2174686"
     ],
-    "expires": 1789321768
+    "expires": 1792907117
   },
   "48.5966181,8.2011172": {
     "place_id": 123402959,
@@ -300731,7 +300935,7 @@
     "expires": 1791520417
   },
   "48.755884,3.283972": {
-    "place_id": 96767199,
+    "place_id": 96847412,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 594391638,
@@ -300769,7 +300973,7 @@
       "3.2710961",
       "3.2869613"
     ],
-    "expires": 1789308797
+    "expires": 1793018815
   },
   "48.7565871,8.4072977": {
     "place_id": 123830683,
@@ -310110,7 +310314,7 @@
     "expires": 1791268263
   },
   "49.3464,-0.71152": {
-    "place_id": 283111196,
+    "place_id": 283484489,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 11955091162,
@@ -310145,7 +310349,7 @@
       "-0.7115614",
       "-0.7114614"
     ],
-    "expires": 1789297741
+    "expires": 1793050938
   },
   "49.3478842,6.1661603": {
     "place_id": 118869912,
@@ -313104,7 +313308,7 @@
     "expires": 1791346002
   },
   "49.5549985,25.647688": {
-    "place_id": 191092245,
+    "place_id": 190895477,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 161039595,
@@ -313140,7 +313344,7 @@
       "25.6475960",
       "25.6480618"
     ],
-    "expires": 1789277778
+    "expires": 1792984008
   },
   "49.5550911,25.6401588": {
     "place_id": 191034239,
@@ -317055,7 +317259,7 @@
     "expires": 1791346476
   },
   "50.0974353,19.971869": {
-    "place_id": 184161358,
+    "place_id": 184646837,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 2628617640,
@@ -317086,7 +317290,7 @@
       "19.9718280",
       "19.9719280"
     ],
-    "expires": 1789327396
+    "expires": 1793068697
   },
   "50.0974379,19.9718729": {
     "place_id": 184161358,
@@ -320446,7 +320650,7 @@
     "expires": 1791519057
   },
   "50.4203733,30.596209": {
-    "place_id": 191960325,
+    "place_id": 189602945,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 7511915858,
@@ -320463,7 +320667,7 @@
       "house_number": "29-Б",
       "road": "Berezniakivska Street",
       "suburb": "Berezniaky",
-      "borough": "Dniprovskyi district",
+      "city_district": "Dniprovskyi district",
       "city": "Kyiv",
       "ISO3166-2-lvl4": "UA-30",
       "postcode": "02098",
@@ -320477,7 +320681,7 @@
       "30.5962079",
       "30.5963079"
     ],
-    "expires": 1789354089
+    "expires": 1793045352
   },
   "50.4210762,12.972059": {
     "place_id": 131749718,
@@ -324307,7 +324511,7 @@
     "expires": 1789543193
   },
   "50.7791992,0.0793008": {
-    "place_id": 99869518,
+    "place_id": 101375533,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10699391418,
@@ -324335,7 +324539,7 @@
     },
     "extratags": {
       "level": "1",
-      "fhrs:id": "173612",
+      "fhrs:id": "1830405",
       "operator": "Papachinos Limited",
       "fhrs:local_authority_id": "PI/000026335"
     },
@@ -324345,7 +324549,7 @@
       "0.0793098",
       "0.0794098"
     ],
-    "expires": 1789336936
+    "expires": 1793047346
   },
   "50.7805506,13.4389703": {
     "place_id": 132577815,
@@ -326560,7 +326764,7 @@
     "expires": 1791548045
   },
   "50.9229391,6.9668885": {
-    "place_id": 116438260,
+    "place_id": 117037285,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 40291094,
@@ -326602,7 +326806,7 @@
       "6.9667598",
       "6.9669380"
     ],
-    "expires": 1789289217
+    "expires": 1792934608
   },
   "50.9277673,7.8928125": {
     "place_id": 115254333,
@@ -331952,7 +332156,7 @@
     "expires": 1791581491
   },
   "51.4889012,-0.096253": {
-    "place_id": 281521561,
+    "place_id": 280188137,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5085317320,
@@ -331980,7 +332184,7 @@
       "country_code": "gb"
     },
     "extratags": {
-      "check_date": "2024-08-07",
+      "check_date": "2026-08-15",
       "brand:wikidata": "Q3888718",
       "brand:wikipedia": "en:Paddy Power"
     },
@@ -331990,7 +332194,7 @@
       "-0.0963521",
       "-0.0962521"
     ],
-    "expires": 1789336584
+    "expires": 1793005019
   },
   "51.4892392,8.0580909": {
     "place_id": 139411756,
@@ -339162,7 +339366,7 @@
     "expires": 1791552019
   },
   "52.1869085,5.0851456": {
-    "place_id": 155852068,
+    "place_id": 155471543,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 2865572508,
@@ -339194,7 +339398,7 @@
       "5.0851889",
       "5.0852889"
     ],
-    "expires": 1789334730
+    "expires": 1792941839
   },
   "52.1874892,9.0802654": {
     "place_id": 141206334,
@@ -340378,7 +340582,7 @@
     "expires": 1792023574
   },
   "52.360278,5.6196254": {
-    "place_id": 154074423,
+    "place_id": 154135312,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 7647318,
@@ -340422,7 +340626,7 @@
       "5.6186259",
       "5.6219082"
     ],
-    "expires": 1789277173
+    "expires": 1793056328
   },
   "52.3608341,23.4103301": {
     "place_id": 178838419,
@@ -340679,7 +340883,7 @@
       "4.8974156",
       "4.8975156"
     ],
-    "expires": 1789356464
+    "expires": 1793022862
   },
   "52.3801641,13.0319311": {
     "place_id": 145736603,
@@ -344378,7 +344582,7 @@
       "-1.1874623",
       "-1.1870739"
     ],
-    "expires": 1789278186
+    "expires": 1793028343
   },
   "52.9072909,-1.1443144": {
     "place_id": 278638057,
@@ -346563,7 +346767,7 @@
       "-1.1402169",
       "-1.1401405"
     ],
-    "expires": 1789320477
+    "expires": 1793070606
   },
   "52.9482509,-1.1817764": {
     "place_id": 279484639,
@@ -349092,7 +349296,7 @@
     "expires": 1791559324
   },
   "52.9862023,-1.2022647": {
-    "place_id": 278534259,
+    "place_id": 278473359,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 29220302,
@@ -349133,7 +349337,7 @@
       "-1.2028416",
       "-1.2019362"
     ],
-    "expires": 1789310433
+    "expires": 1792968409
   },
   "52.9868769,-1.2040781": {
     "place_id": 279507893,
@@ -349622,7 +349826,7 @@
     "expires": 1791674292
   },
   "52.9954028,-1.137859": {
-    "place_id": 278754466,
+    "place_id": 279440223,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1121631385,
@@ -349664,7 +349868,7 @@
       "-1.1379281",
       "-1.1378734"
     ],
-    "expires": 1789345155
+    "expires": 1792915114
   },
   "52.9992663,-1.1380706": {
     "place_id": 279208263,
@@ -353913,7 +354117,7 @@
     "expires": 1791521443
   },
   "53.3027529,-1.1367228": {
-    "place_id": 277774806,
+    "place_id": 277559831,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 876629405,
@@ -353957,7 +354161,7 @@
       "-1.1370895",
       "-1.1365547"
     ],
-    "expires": 1789287803
+    "expires": 1793036263
   },
   "53.3028933,-1.1080331": {
     "place_id": 280158890,
@@ -365323,7 +365527,7 @@
     "expires": 1791471402
   },
   "54.921468,9.7605502": {
-    "place_id": 150083905,
+    "place_id": 149847951,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 176393053,
@@ -365365,7 +365569,7 @@
       "9.7585461",
       "9.7611549"
     ],
-    "expires": 1789309141
+    "expires": 1792913042
   },
   "54.9226661,9.7716971": {
     "place_id": 149748859,
@@ -368245,7 +368449,7 @@
       "101.5992125",
       "101.6006638"
     ],
-    "expires": 1789338708
+    "expires": 1792915609
   },
   "56.1996415,-131.5083622": {
     "place_id": 379435385,
@@ -369002,7 +369206,7 @@
     "expires": 1792644015
   },
   "56.2829808,44.035535": {
-    "place_id": 199095944,
+    "place_id": 198079106,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 16051659,
@@ -369037,7 +369241,7 @@
       "44.0352720",
       "44.0356063"
     ],
-    "expires": 1789309431
+    "expires": 1792981753
   },
   "56.3007325,44.0790707": {
     "place_id": 199153815,
@@ -383415,7 +383619,7 @@
     "expires": 1791289626
   },
   "59.482251,11.744564": {
-    "place_id": 162275836,
+    "place_id": 162320942,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 167249122,
@@ -383446,7 +383650,7 @@
       "11.7440005",
       "11.7446788"
     ],
-    "expires": 1789313310
+    "expires": 1793023380
   },
   "59.4908084,24.8802045": {
     "place_id": 170301920,

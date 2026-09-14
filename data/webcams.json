@@ -12796,8 +12796,8 @@
     "osmType": "node",
     "lastChanged": 1781876132000,
     "address": {
-      "city": "Schwarzenberg",
-      "county": "Landkreis Freudenstadt",
+      "city": "Seebach",
+      "county": "Ortenaukreis",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -21119,9 +21119,9 @@
     "lat": 49.4149688,
     "lon": 8.7045032,
     "osmID": 4286598633,
-    "user": "whb",
+    "user": "Niiepce",
     "osmType": "node",
-    "lastChanged": 1743707988000,
+    "lastChanged": 1789340339000,
     "address": {
       "city": "Heidelberg",
       "state": "Baden-Württemberg",
@@ -67388,6 +67388,7 @@
     "address": {
       "city": "Csopak",
       "county": "Veszprém",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -76493,7 +76494,6 @@
     "operator": "Brouwersdam cam",
     "url": "https://www.brouwersdam.nl/nl/brouwersdam/live-view.html",
     "lint": {
-      "unavailable": true,
       "duplicate": true
     }
   },
@@ -101952,7 +101952,8 @@
     },
     "url": "https://youtu.be/l5o7WdZQaQI",
     "lint": {
-      "youtube": true
+      "youtube": true,
+      "unavailable": true
     }
   },
   {
@@ -105914,12 +105915,12 @@
     }
   },
   {
-    "lat": 46.2336401,
-    "lon": -63.1272366,
+    "lat": 46.2336367,
+    "lon": -63.1272312,
     "osmID": 9015619818,
-    "user": "Peter Rukavina",
+    "user": "na111",
     "osmType": "node",
-    "lastChanged": 1629243214000,
+    "lastChanged": 1789347053000,
     "address": {
       "city": "Charlottetown",
       "county": "Queens County",
@@ -105940,12 +105941,12 @@
     }
   },
   {
-    "lat": 46.2336304,
-    "lon": -63.1272359,
+    "lat": 46.2336224,
+    "lon": -63.1272353,
     "osmID": 9015619819,
-    "user": "Peter Rukavina",
+    "user": "na111",
     "osmType": "node",
-    "lastChanged": 1629243214000,
+    "lastChanged": 1789347053000,
     "address": {
       "city": "Charlottetown",
       "county": "Queens County",
@@ -105993,12 +105994,12 @@
     }
   },
   {
-    "lat": 46.2362289,
-    "lon": -63.127394,
+    "lat": 46.2362331,
+    "lon": -63.1274025,
     "osmID": 9015619845,
-    "user": "Peter Rukavina",
+    "user": "na111",
     "osmType": "node",
-    "lastChanged": 1629243214000,
+    "lastChanged": 1789279011000,
     "address": {
       "city": "Charlottetown",
       "county": "Queens County",
@@ -158239,7 +158240,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://webtv.feratel.com/webtv/?cam=5665"
+    "url": "https://webtv.feratel.com/webtv/?cam=5665",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.5114557,
@@ -219406,6 +219410,7 @@
     "operator": "Département de l'Isère",
     "url": "https://www.itinisere.fr/fr/infos-route/140/TrafficInfo",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -274798,25 +274803,32 @@
     "url": "https://etraffic.dgt.es/camarasEtraffic/167988.jpg"
   },
   {
-    "lat": 40.7272249,
-    "lon": -4.1964222,
+    "lat": 40.7270941,
+    "lon": -4.1964062,
+    "direction": 25,
     "osmID": 14081265204,
     "user": "Arturo Francisco Barbero",
     "osmType": "node",
-    "lastChanged": 1789001362000,
+    "lastChanged": 1789347503000,
     "address": {
       "city": "El Espinar",
       "state": "Castile and León",
       "country": "Spain"
     },
     "osmTags": {
+      "camera:direction": "25",
+      "camera:mount": "pole",
       "camera:type": "dome",
       "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167989.jpg",
       "man_made": "surveillance",
-      "surveillance": "traffic",
+      "operator": "DGT",
+      "operator:type": "government",
+      "operator:wikidata": "Q33109408",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "operator": "DGT",
     "url": "https://etraffic.dgt.es/camarasEtraffic/167989.jpg"
   },
   {
@@ -275452,31 +275464,6 @@
     },
     "operator": "Eurostars Plaza Acueducto?",
     "url": "https://web.archive.org/web/20260824114957/https://streetcomplete.app/p/366535.jpg"
-  },
-  {
-    "lat": 40.9470068,
-    "lon": -4.1156823,
-    "direction": 135,
-    "osmID": 14118472949,
-    "user": "Arturo Francisco Barbero",
-    "osmType": "node",
-    "lastChanged": 1787572246000,
-    "address": {
-      "city": "Segovia",
-      "state": "Castile and León",
-      "country": "Spain"
-    },
-    "osmTags": {
-      "camera:direction": "135",
-      "camera:mount": "building",
-      "camera:type": "fixed",
-      "contact:webcam": "https://web.archive.org/web/20260824113315if_/https://streetcomplete.app/p/366534.jpg",
-      "man_made": "surveillance",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "street"
-    },
-    "url": "https://web.archive.org/web/20260824113315if_/https://streetcomplete.app/p/366534.jpg"
   },
   {
     "lat": 40.9461924,
@@ -277351,13 +277338,13 @@
     }
   },
   {
-    "lat": 30.3493178,
-    "lon": -97.5268301,
+    "lat": 30.3492947,
+    "lon": -97.5268408,
     "direction": 65,
     "osmID": 14161706121,
     "user": "TheFoolOnTheHill",
     "osmType": "node",
-    "lastChanged": 1789255518000,
+    "lastChanged": 1789306861000,
     "address": {
       "city": "Manor",
       "county": "Travis County",
@@ -277369,7 +277356,7 @@
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.flocksafety.com/",
-      "direction": "175",
+      "direction": "110",
       "man_made": "surveillance",
       "manufacturer": "Flock Safety",
       "surveillance": "alpr",
