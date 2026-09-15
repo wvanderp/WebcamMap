@@ -58581,10 +58581,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_593",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_593"
   },
   {
     "lat": 46.4848741,
@@ -101952,8 +101949,7 @@
     },
     "url": "https://youtu.be/l5o7WdZQaQI",
     "lint": {
-      "youtube": true,
-      "unavailable": true
+      "youtube": true
     }
   },
   {
@@ -126767,6 +126763,7 @@
     },
     "url": "https://trafficmap.bellevuewa.gov/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -144701,7 +144698,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficnz.info/camera/824.jpg"
+    "url": "https://trafficnz.info/camera/824.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -36.5177894,
@@ -277473,5 +277473,182 @@
       "surveillance:zone": "parking"
     },
     "url": "https://www.lvt.com/retail-security"
+  },
+  {
+    "lat": 29.6491605,
+    "lon": -82.333979,
+    "osmID": 14182264140,
+    "user": "Connor Kress",
+    "osmType": "node",
+    "lastChanged": 1789449432000,
+    "address": {
+      "city": "Gainesville",
+      "county": "Alachua County",
+      "state": "Florida",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "www.zedcor.com",
+      "description": "Camera on MobileyeZ Solar Surveillance Tower",
+      "man_made": "surveillance",
+      "manufacturer": "Zedcor Security",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    },
+    "url": "www.zedcor.com",
+    "lint": {
+      "duplicate": true,
+      "invalidUrl": true
+    }
+  },
+  {
+    "lat": 29.649157,
+    "lon": -82.3339767,
+    "osmID": 14182264141,
+    "user": "Connor Kress",
+    "osmType": "node",
+    "lastChanged": 1789449432000,
+    "address": {
+      "city": "Gainesville",
+      "county": "Alachua County",
+      "state": "Florida",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "www.zedcor.com",
+      "description": "Camera on MobileyeZ Solar Surveillance Tower",
+      "man_made": "surveillance",
+      "manufacturer": "Zedcor Security",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    },
+    "url": "www.zedcor.com",
+    "lint": {
+      "duplicate": true,
+      "invalidUrl": true
+    }
+  },
+  {
+    "lat": 29.6491575,
+    "lon": -82.3339825,
+    "osmID": 14182264142,
+    "user": "Connor Kress",
+    "osmType": "node",
+    "lastChanged": 1789449432000,
+    "address": {
+      "city": "Gainesville",
+      "county": "Alachua County",
+      "state": "Florida",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "www.zedcor.com",
+      "description": "Camera on MobileyeZ Solar Surveillance Tower",
+      "man_made": "surveillance",
+      "manufacturer": "Zedcor Security",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    },
+    "url": "www.zedcor.com",
+    "lint": {
+      "duplicate": true,
+      "invalidUrl": true
+    }
+  },
+  {
+    "lat": 29.6491383,
+    "lon": -82.3339962,
+    "direction": 90,
+    "osmID": 14182264146,
+    "user": "Connor Kress",
+    "osmType": "node",
+    "lastChanged": 1789449432000,
+    "address": {
+      "city": "Gainesville",
+      "county": "Alachua County",
+      "state": "Florida",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://ecam.com/",
+      "description": "Camera on ECAM Mobile Surveillance Unit",
+      "man_made": "surveillance",
+      "manufacturer": "ECAM",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    },
+    "url": "https://ecam.com/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 29.6491364,
+    "lon": -82.3339982,
+    "direction": 150,
+    "osmID": 14182264147,
+    "user": "Connor Kress",
+    "osmType": "node",
+    "lastChanged": 1789449432000,
+    "address": {
+      "city": "Gainesville",
+      "county": "Alachua County",
+      "state": "Florida",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "150",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://ecam.com/",
+      "description": "Camera on ECAM Mobile Surveillance Unit",
+      "man_made": "surveillance",
+      "manufacturer": "ECAM",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    },
+    "url": "https://ecam.com/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 29.6491383,
+    "lon": -82.3340003,
+    "direction": 220,
+    "osmID": 14182264148,
+    "user": "Connor Kress",
+    "osmType": "node",
+    "lastChanged": 1789449432000,
+    "address": {
+      "city": "Gainesville",
+      "county": "Alachua County",
+      "state": "Florida",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "220",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://ecam.com/",
+      "description": "Camera on ECAM Mobile Surveillance Unit",
+      "man_made": "surveillance",
+      "manufacturer": "ECAM",
+      "surveillance": "public",
+      "surveillance:type": "camera"
+    },
+    "url": "https://ecam.com/",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
