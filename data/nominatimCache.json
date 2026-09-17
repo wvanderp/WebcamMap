@@ -8227,7 +8227,7 @@
     "expires": 1791628882
   },
   "-36.8584655,174.6529176": {
-    "place_id": 25822385,
+    "place_id": 26124338,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 15953915,
@@ -8239,10 +8239,10 @@
     "importance": 0.00007485084306091428,
     "addresstype": "junction",
     "name": "Te Atatū Interchange",
-    "display_name": "Te Atatū Interchange, Te Atatū Road, Te Atatū South, Henderson-Massey, Auckland, 0610, New Zealand",
+    "display_name": "Te Atatū Interchange, Te Atatū Shared Path, Te Atatū South, Henderson-Massey, Auckland, 0610, New Zealand",
     "address": {
       "junction": "Te Atatū Interchange",
-      "road": "Te Atatū Road",
+      "road": "Te Atatū Shared Path",
       "suburb": "Te Atatū South",
       "city": "Henderson-Massey",
       "state": "Auckland",
@@ -8261,7 +8261,7 @@
       "174.6471758",
       "174.6572805"
     ],
-    "expires": 1789610111
+    "expires": 1793268486
   },
   "-36.8595574,174.757263": {
     "place_id": 26180072,
@@ -50369,6 +50369,80 @@
     ],
     "expires": 1791495691
   },
+  "37.0884175,-113.5567845": {
+    "place_id": 413194766,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 10200553,
+    "lat": "37.0883780",
+    "lon": "-113.5570506",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1233, River Road, Bloomington Hills, St. George, Washington County, Utah, 84790, United States",
+    "address": {
+      "house_number": "1233",
+      "road": "River Road",
+      "suburb": "Bloomington Hills",
+      "city": "St. George",
+      "county": "Washington County",
+      "state": "Utah",
+      "ISO3166-2-lvl4": "US-UT",
+      "postcode": "84790",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "37.0883280",
+      "37.0884280",
+      "-113.5571006",
+      "-113.5570006"
+    ],
+    "expires": 1793249175
+  },
+  "37.0889082,-113.5573694": {
+    "place_id": 320802771,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 944726837,
+    "lat": "37.0887598",
+    "lon": "-113.5573678",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05339140077821008,
+    "addresstype": "road",
+    "name": "Riverside Drive",
+    "display_name": "Riverside Drive, Bloomington Hills, St. George, Washington County, Utah, 84790, United States",
+    "address": {
+      "road": "Riverside Drive",
+      "suburb": "Bloomington Hills",
+      "city": "St. George",
+      "county": "Washington County",
+      "state": "Utah",
+      "ISO3166-2-lvl4": "US-UT",
+      "postcode": "84790",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "lanes": "4",
+      "surface": "asphalt",
+      "maxspeed": "40 mph",
+      "smoothness": "excellent"
+    },
+    "boundingbox": [
+      "37.0885850",
+      "37.0887637",
+      "-113.5599627",
+      "-113.5569880"
+    ],
+    "expires": 1793279383
+  },
   "37.0889298,-113.5568155": {
     "place_id": 412813380,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -81389,14 +81463,14 @@
     "expires": 1791600476
   },
   "39.9105055,-105.1655488": {
-    "place_id": 330677671,
+    "place_id": 426428720,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1455064179,
     "lat": "39.9106547",
     "lon": "-105.1655927",
     "class": "highway",
-    "type": "trunk",
+    "type": "primary",
     "place_rank": 26,
     "importance": 0.05337333409628439,
     "addresstype": "road",
@@ -81427,17 +81501,17 @@
       "-105.1657263",
       "-105.1653129"
     ],
-    "expires": 1789621551
+    "expires": 1793198527
   },
   "39.9126829,-105.1545053": {
-    "place_id": 330371967,
+    "place_id": 426428723,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 1455062964,
+    "osm_id": 1549401026,
     "lat": "39.9127587",
     "lon": "-105.1545271",
     "class": "highway",
-    "type": "trunk",
+    "type": "primary",
     "place_rank": 26,
     "importance": 0.05337333409628439,
     "addresstype": "road",
@@ -81461,12 +81535,12 @@
       "maxspeed": "55 mph"
     },
     "boundingbox": [
-      "39.9127080",
-      "39.9134826",
-      "-105.1546925",
-      "-105.1496486"
+      "39.9127057",
+      "39.9129402",
+      "-105.1547014",
+      "-105.1538983"
     ],
-    "expires": 1789592810
+    "expires": 1793304675
   },
   "39.9142206,-105.1459813": {
     "place_id": 390422328,
@@ -87541,7 +87615,7 @@
     "expires": 1791827530
   },
   "40.2334976,-75.6598573": {
-    "place_id": 357517009,
+    "place_id": 356703285,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 963272751,
@@ -87579,7 +87653,7 @@
       "-75.6620900",
       "-75.6590475"
     ],
-    "expires": 1789545474
+    "expires": 1793176422
   },
   "40.2391736,-75.6584468": {
     "place_id": 357606395,
@@ -99898,6 +99972,40 @@
       "-3.6714287"
     ],
     "expires": 1791525550
+  },
+  "40.439426,-3.7262472": {
+    "place_id": 294838143,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 12676036880,
+    "lat": "40.4397041",
+    "lon": "-3.7259271",
+    "class": "amenity",
+    "type": "waste_basket",
+    "place_rank": 30,
+    "importance": 0.00008580834668493199,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Avenida de la Memoria, Ciudad Universitaria, Moncloa-Aravaca, Madrid, Community of Madrid, 28008, Spain",
+    "address": {
+      "road": "Avenida de la Memoria",
+      "neighbourhood": "Ciudad Universitaria",
+      "suburb": "Moncloa-Aravaca",
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "ISO3166-2-lvl4": "ES-MD",
+      "postcode": "28008",
+      "country": "Spain",
+      "country_code": "es"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "40.4396541",
+      "40.4397541",
+      "-3.7259771",
+      "-3.7258771"
+    ],
+    "expires": 1793212064
   },
   "40.4399926,-3.7265281": {
     "place_id": 293595751,
@@ -122235,7 +122343,7 @@
       "-72.6766518",
       "-72.6752607"
     ],
-    "expires": 1789617032
+    "expires": 1793319682
   },
   "41.76981,-72.6692878": {
     "place_id": 354776088,
@@ -146155,7 +146263,7 @@
     "expires": 1792900495
   },
   "43.102707,-77.4406757": {
-    "place_id": 352032968,
+    "place_id": 352105366,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 13563486605,
@@ -146190,7 +146298,7 @@
       "-77.4406930",
       "-77.4405930"
     ],
-    "expires": 1789583947
+    "expires": 1793200676
   },
   "43.1030334,-76.2078412": {
     "place_id": 352493273,
@@ -201945,7 +202053,7 @@
       "9.7417222",
       "9.7418222"
     ],
-    "expires": 1789536981
+    "expires": 1793185604
   },
   "46.3164321,6.1935267": {
     "place_id": 91185903,
@@ -324911,7 +325019,7 @@
     "expires": 1791597783
   },
   "50.7651046,6.0141557": {
-    "place_id": 116467632,
+    "place_id": 117335185,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 11435620439,
@@ -324943,7 +325051,7 @@
       "6.0141047",
       "6.0142047"
     ],
-    "expires": 1789543193
+    "expires": 1793248421
   },
   "50.7791992,0.0793008": {
     "place_id": 101375533,

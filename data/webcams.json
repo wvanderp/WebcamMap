@@ -41060,9 +41060,9 @@
     "lat": 45.659376,
     "lon": 3.17966,
     "osmID": 6410901541,
-    "user": "Jim005",
+    "user": "ThomR",
     "osmType": "node",
-    "lastChanged": 1555482137000,
+    "lastChanged": 1789549335000,
     "address": {
       "city": "Monton",
       "county": "Puy-de-Dôme",
@@ -41074,7 +41074,7 @@
       "display:digital": "yes",
       "man_made": "monitoring_station",
       "monitoring:weather": "yes",
-      "name": "CORENT décollage sud",
+      "name": "Corent décollage sud",
       "recording:automated": "yes",
       "recording:remote": "yes",
       "weather:anemometer": "yes",
@@ -53137,6 +53137,35 @@
       "surveillance:type": "camera"
     },
     "url": "http://www.ederseewetter.de/cam1/bringhausen2/bringhausencam2.jpg"
+  },
+  {
+    "lat": 40.439426,
+    "lon": -3.7262472,
+    "osmID": 6563723965,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1789568908000,
+    "address": {
+      "city": "Madrid",
+      "state": "Community of Madrid",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "check_date": "2026-09-14",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/867.jpg",
+      "man_made": "surveillance",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "operator:type": "government",
+      "ref": "603",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/867.jpg"
   },
   {
     "lat": 49.7574845,
@@ -92502,7 +92531,10 @@
       "source": "Horizons Regional Council",
       "surveillance:type": "camera"
     },
-    "url": "http://www.horizons.govt.nz/HRC/media/Data/WebCam/Hopelands_latest_photo.jpg"
+    "url": "http://www.horizons.govt.nz/HRC/media/Data/WebCam/Hopelands_latest_photo.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -40.472184,
@@ -147257,7 +147289,8 @@
     "operator": "NIWA",
     "url": "https://youtu.be/uJtu2UeUpR4",
     "lint": {
-      "youtube": true
+      "youtube": true,
+      "unavailable": true
     }
   },
   {
@@ -237876,9 +237909,9 @@
     "lat": 47.4282161,
     "lon": -122.2212363,
     "osmID": 13143157869,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1757877228000,
+    "lastChanged": 1789583690000,
     "address": {
       "city": "Kent",
       "county": "King County",
@@ -237891,6 +237924,9 @@
       "contact:webcam": "https://images.wsdot.wa.gov/nw/167vc02352.jpg",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -238982,9 +239018,9 @@
     "lat": 47.398547,
     "lon": -122.2276831,
     "osmID": 13196340146,
-    "user": "goldfndr",
+    "user": "Omnific",
     "osmType": "node",
-    "lastChanged": 1759691106000,
+    "lastChanged": 1789583690000,
     "address": {
       "city": "Kent",
       "county": "King County",
@@ -238997,6 +239033,9 @@
       "contact:webcam": "https://images.wsdot.wa.gov/nw/167vc02136.jpg",
       "man_made": "surveillance",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -268128,6 +268167,34 @@
     "url": "https://live.black-mountain-bikepark.de/shared_access/webcam/berg_1/video.mp4"
   },
   {
+    "lat": 37.0884175,
+    "lon": -113.5567845,
+    "direction": 320,
+    "osmID": 13740096935,
+    "user": "Varmint9371",
+    "osmType": "node",
+    "lastChanged": 1789597498000,
+    "address": {
+      "city": "St. George",
+      "county": "Washington County",
+      "state": "Utah",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "fixed",
+      "contact:webcam": "https://collisioncam.com/",
+      "direction": "320",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://collisioncam.com/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 36.4326859,
     "lon": -94.369031,
     "direction": 165,
@@ -276040,6 +276107,36 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://vms.vigiamaismt.com.br/vms-web/login"
+  },
+  {
+    "lat": 37.0889082,
+    "lon": -113.5573694,
+    "direction": 152,
+    "osmID": 14131672701,
+    "user": "Varmint9371",
+    "osmType": "node",
+    "lastChanged": 1789597498000,
+    "address": {
+      "city": "St. George",
+      "county": "Washington County",
+      "state": "Utah",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://collisioncam.com/",
+      "direction": "152",
+      "man_made": "surveillance",
+      "manufacturer:wikidata": "Q108485435",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://collisioncam.com/",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 40.9946654,
