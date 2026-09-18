@@ -36337,39 +36337,6 @@
     }
   },
   {
-    "lat": 44.7832687,
-    "lon": 6.8754072,
-    "osmID": 6410303307,
-    "user": "Syl",
-    "osmType": "node",
-    "lastChanged": 1648369640000,
-    "address": {
-      "city": "Aiguilles",
-      "county": "Hautes-Alpes",
-      "state": "Provence-Alpes-Côte d'Azur",
-      "country": "France"
-    },
-    "osmTags": {
-      "camera:angle": "20",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "http://inforoute.hautes-alpes.fr",
-      "man_made": "surveillance",
-      "name": "InfoRoute05.fr - Route d'accès Haut Queyras",
-      "operator": "InfoRoute05.fr",
-      "ref": "Route 05_PS947",
-      "source": "http://inforoute.hautes-alpes.fr",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "operator": "InfoRoute05.fr",
-    "url": "http://inforoute.hautes-alpes.fr",
-    "lint": {
-      "duplicate": true
-    }
-  },
-  {
     "lat": 44.5429,
     "lon": 6.4934,
     "osmID": 6410303308,
@@ -127899,6 +127866,7 @@
     },
     "url": "https://trafficmap.bellevuewa.gov/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -147289,8 +147257,7 @@
     "operator": "NIWA",
     "url": "https://youtu.be/uJtu2UeUpR4",
     "lint": {
-      "youtube": true,
-      "unavailable": true
+      "youtube": true
     }
   },
   {
@@ -228163,6 +228130,7 @@
     "lastChanged": 1782367196000,
     "address": {
       "city": "Kvilda",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -273330,6 +273298,35 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://s9.nysdot.skyvdn.com/rtplive/R8_133/playlist.m3u8"
+  },
+  {
+    "lat": 40.5912615,
+    "lon": -73.954345,
+    "direction": 360,
+    "osmID": 14027820902,
+    "user": "Belén Chicaiza designer",
+    "osmType": "node",
+    "lastChanged": 1789699921000,
+    "address": {
+      "city": "New York",
+      "state": "New York",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "brand": "Flock Safety",
+      "brand:wikidata": "Q108485435",
+      "camera:direction": "360",
+      "camera:mount": "traffic_signals",
+      "camera:type": "fixed",
+      "check_date": "2026-09-17",
+      "contact:webcam": "https://www.earthcam.com/",
+      "direction": "360",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "public_transport_platform"
+    },
+    "url": "https://www.earthcam.com/"
   },
   {
     "lat": 40.0686746,
