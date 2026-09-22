@@ -3915,13 +3915,14 @@
     "id": 1408830634,
     "lat": 42.632159,
     "lon": -71.406333,
-    "timestamp": "2025-05-26T21:04:14Z",
-    "version": 4,
-    "changeset": 166798300,
-    "user": "ColonelThirtyTwo",
-    "uid": 21640875,
+    "timestamp": "2026-09-21T20:52:08Z",
+    "version": 5,
+    "changeset": 189368548,
+    "user": "Liqueseous",
+    "uid": 23475487,
     "tags": {
       "camera:features": "webcam",
+      "camera:mount": "pole",
       "camera:type": "dome",
       "check_date": "2025-05-25",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/49.jpg",
@@ -3931,8 +3932,9 @@
       "refIMG:DIR": "NS",
       "refIMG:NW": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 49_NB.jpg",
       "refIMG:SE": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 49_SB.jpg",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera"
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -91758,27 +91760,6 @@
   },
   {
     "type": "node",
-    "id": 9122995790,
-    "lat": 39.416612,
-    "lon": -77.4348376,
-    "timestamp": "2021-09-25T19:30:28Z",
-    "version": 1,
-    "changeset": 111699520,
-    "user": "DUGA",
-    "uid": 10585023,
-    "tags": {
-      "camera:direction": "50",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=8cffcf8b00c500980058fa36c4235c0a",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
     "id": 9122995791,
     "lat": 39.4417032,
     "lon": -77.4043661,
@@ -112217,28 +112198,6 @@
       "contact:webcam": "https://gis2.lawrenceks.org/traffic/GEN_6th%20&%20%20Stoneridge.jpeg",
       "man_made": "surveillance",
       "name": "6th and Stoneridge",
-      "operator": "City of Lawrence",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    }
-  },
-  {
-    "type": "node",
-    "id": 10426220469,
-    "lat": 38.9716718,
-    "lon": -95.311449,
-    "timestamp": "2023-01-09T21:15:14Z",
-    "version": 1,
-    "changeset": 131077734,
-    "user": "mmapmaker",
-    "uid": 9241687,
-    "tags": {
-      "camera:mount": "pole",
-      "camera:type": "dome",
-      "contact:webcam": "https://gis2.lawrenceks.org/traffic/GEN_6th%20&%20Congressional.jpeg",
-      "man_made": "surveillance",
-      "name": "6th and Congressional",
       "operator": "City of Lawrence",
       "surveillance": "traffic",
       "surveillance:type": "camera",
@@ -225400,6 +225359,146 @@
   },
   {
     "type": "node",
+    "id": 14062642001,
+    "lat": 38.9571358,
+    "lon": -95.3071738,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14062757601,
+    "lat": 38.9716597,
+    "lon": -95.30318,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14062758402,
+    "lat": 38.9714049,
+    "lon": -95.2881627,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14062758801,
+    "lat": 38.9716447,
+    "lon": -95.2978142,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 4,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14062759802,
+    "lat": 38.971672,
+    "lon": -95.2703688,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14062761602,
+    "lat": 38.971663,
+    "lon": -95.273824,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14062770702,
+    "lat": 38.9715964,
+    "lon": -95.265155,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 14064500286,
     "lat": 43.6641115,
     "lon": -72.8308819,
@@ -225435,6 +225534,66 @@
       "contact:webcam": "https://newengland511.org/map/Cctv/1018",
       "man_made": "surveillance",
       "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14064659502,
+    "lat": 38.9733016,
+    "lon": -95.2547145,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14064663101,
+    "lat": 38.9730573,
+    "lon": -95.2510057,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14064665001,
+    "lat": 38.9730454,
+    "lon": -95.2474325,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     }
@@ -226623,6 +226782,846 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "beach"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097601901,
+    "lat": 38.9731044,
+    "lon": -95.2601735,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097607301,
+    "lat": 38.9680369,
+    "lon": -95.2603121,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097729202,
+    "lat": 38.9570741,
+    "lon": -95.260688,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097733902,
+    "lat": 38.9346009,
+    "lon": -95.2604013,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097734601,
+    "lat": 38.9501287,
+    "lon": -95.2603465,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097737801,
+    "lat": 38.9464148,
+    "lon": -95.2603808,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097738002,
+    "lat": 38.9428361,
+    "lon": -95.260337,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097738901,
+    "lat": 38.9385895,
+    "lon": -95.2606918,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097783601,
+    "lat": 38.964352,
+    "lon": -95.2603207,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097824301,
+    "lat": 38.973217,
+    "lon": -95.2361144,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097830602,
+    "lat": 38.9730109,
+    "lon": -95.2370506,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097830603,
+    "lat": 38.9732225,
+    "lon": -95.2382255,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097867301,
+    "lat": 38.9712086,
+    "lon": -95.2358706,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097870201,
+    "lat": 38.9693227,
+    "lon": -95.2358353,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14097888001,
+    "lat": 38.9638739,
+    "lon": -95.2358102,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098009001,
+    "lat": 38.9713037,
+    "lon": -95.3327005,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098009003,
+    "lat": 38.9717057,
+    "lon": -95.311303,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098034101,
+    "lat": 38.9716983,
+    "lon": -95.316368,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098038302,
+    "lat": 38.9427198,
+    "lon": -95.2360172,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098038501,
+    "lat": 38.9425583,
+    "lon": -95.2140642,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098039001,
+    "lat": 38.9425365,
+    "lon": -95.2235315,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098039002,
+    "lat": 38.9442247,
+    "lon": -95.279114,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098039004,
+    "lat": 38.9568926,
+    "lon": -95.2792087,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098039005,
+    "lat": 38.9501315,
+    "lon": -95.2510903,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098042201,
+    "lat": 38.9428305,
+    "lon": -95.2502334,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098043001,
+    "lat": 38.9500922,
+    "lon": -95.2557345,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098043701,
+    "lat": 38.9428341,
+    "lon": -95.2559498,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098043702,
+    "lat": 38.9425754,
+    "lon": -95.2696293,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098043703,
+    "lat": 38.9425048,
+    "lon": -95.279197,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098043901,
+    "lat": 38.9425776,
+    "lon": -95.2650839,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098045001,
+    "lat": 38.956898,
+    "lon": -95.2671756,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098047101,
+    "lat": 38.920652,
+    "lon": -95.2606865,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098047102,
+    "lat": 38.9228337,
+    "lon": -95.2603671,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098047103,
+    "lat": 38.9280337,
+    "lon": -95.2626759,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098047601,
+    "lat": 38.9283683,
+    "lon": -95.2603601,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098047602,
+    "lat": 38.9498521,
+    "lon": -95.2235557,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098048201,
+    "lat": 38.9279897,
+    "lon": -95.2576054,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098048501,
+    "lat": 38.9280557,
+    "lon": -95.255161,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098048502,
+    "lat": 38.9425141,
+    "lon": -95.283601,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098048504,
+    "lat": 38.9694639,
+    "lon": -95.2814247,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098050201,
+    "lat": 38.9425038,
+    "lon": -95.2976291,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14098051401,
+    "lat": 38.9641945,
+    "lon": -95.278776,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 2,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     }
   },
   {
@@ -228386,6 +229385,26 @@
   },
   {
     "type": "node",
+    "id": 14156324001,
+    "lat": 38.9428416,
+    "lon": -95.2051116,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 3,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 14156356261,
     "lat": 40.9971437,
     "lon": -4.0745958,
@@ -229069,6 +230088,152 @@
     }
   },
   {
+    "type": "node",
+    "id": 14203571720,
+    "lat": 52.0107455,
+    "lon": 4.7105795,
+    "timestamp": "2026-09-21T12:34:45Z",
+    "version": 1,
+    "changeset": 189346031,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "350",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcams.gouda.nl/webcam1.html",
+      "man_made": "surveillance",
+      "name": "Webcam stadhuis Gouda",
+      "operator": "gemeente Gouda",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "square"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14203586178,
+    "lat": 52.0256931,
+    "lon": 4.6640122,
+    "timestamp": "2026-09-21T12:40:57Z",
+    "version": 1,
+    "changeset": 189346409,
+    "user": "wvdp",
+    "uid": 436419,
+    "tags": {
+      "camera:direction": "205",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.rwsverkeersinfo.nl/cameras/23/a12-knooppunt-gouwe",
+      "man_made": "surveillance",
+      "name": "Verkeerscamera A12 t.h.v. knooppunt Gouwe",
+      "operator": "Rijkswaterstaat",
+      "operator:type": "government",
+      "operator:wikidata": "Q1408870",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14205320590,
+    "lat": 38.9427975,
+    "lon": -95.3074235,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 1,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14205320591,
+    "lat": 38.9425161,
+    "lon": -95.2883015,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 1,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14205320592,
+    "lat": 38.9428998,
+    "lon": -95.2467317,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 1,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14205320593,
+    "lat": 38.9427278,
+    "lon": -95.2416436,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 1,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14205320594,
+    "lat": 38.9247007,
+    "lon": -95.2603556,
+    "timestamp": "2026-09-22T00:43:39Z",
+    "version": 1,
+    "changeset": 189373969,
+    "user": "greatnameguys2472",
+    "uid": 14830995,
+    "tags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
     "type": "way",
     "id": 4842050,
     "timestamp": "2026-06-25T05:33:36Z",
@@ -229592,11 +230757,11 @@
   {
     "type": "way",
     "id": 46383865,
-    "timestamp": "2026-03-21T22:55:38Z",
-    "version": 14,
-    "changeset": 180229274,
-    "user": "dremdau",
-    "uid": 3244985,
+    "timestamp": "2026-09-22T00:24:37Z",
+    "version": 15,
+    "changeset": 189373586,
+    "user": "Decorator1",
+    "uid": 21263744,
     "center": {
       "lat": 61.018241,
       "lon": 25.5655687
@@ -229608,6 +230773,7 @@
       11503666120,
       592655597,
       592656721,
+      11503666231,
       589498884,
       589498886,
       589498887,
@@ -232231,11 +233397,11 @@
   {
     "type": "way",
     "id": 447743772,
-    "timestamp": "2023-02-12T14:16:58Z",
-    "version": 2,
-    "changeset": 132447516,
-    "user": "ma-rt-in",
-    "uid": 1431737,
+    "timestamp": "2026-09-21T17:34:50Z",
+    "version": 3,
+    "changeset": 189360961,
+    "user": "rasterfahndung",
+    "uid": 2655344,
     "center": {
       "lat": 50.0656772,
       "lon": 8.4837149
@@ -232270,6 +233436,7 @@
     "tags": {
       "amenity": "fire_station",
       "building": "fire_station",
+      "check_date": "2026-09-19",
       "contact:webcam": "https://www.feuerwehr-hattersheim.de/wir-ueber-uns/webcam/",
       "contact:website": "https://www.feuerwehr-hattersheim.de",
       "name": "Freiwillige Feuerwehr Hattersheim am Main",

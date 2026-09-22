@@ -4841,9 +4841,9 @@
     "lat": 42.632159,
     "lon": -71.406333,
     "osmID": 1408830634,
-    "user": "ColonelThirtyTwo",
+    "user": "Liqueseous",
     "osmType": "node",
-    "lastChanged": 1748293454000,
+    "lastChanged": 1790023928000,
     "address": {
       "city": "Chelmsford",
       "county": "Middlesex County",
@@ -4852,6 +4852,7 @@
     },
     "osmTags": {
       "camera:features": "webcam",
+      "camera:mount": "pole",
       "camera:type": "dome",
       "check_date": "2025-05-25",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/49.jpg",
@@ -4861,8 +4862,9 @@
       "refIMG:DIR": "NS",
       "refIMG:NW": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 49_NB.jpg",
       "refIMG:SE": "http://www1.eot.state.ma.us/images/static_direction_images/CAM 49_SB.jpg",
-      "surveillance": "outdoor",
-      "surveillance:type": "camera"
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
     },
     "url": "http://www1.eot.state.ma.us/cam_updated_images/49.jpg",
     "lint": {
@@ -23005,6 +23007,7 @@
     "lastChanged": 1778962729000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -112134,36 +112137,6 @@
     }
   },
   {
-    "lat": 39.416612,
-    "lon": -77.4348376,
-    "direction": 50,
-    "osmID": 9122995790,
-    "user": "DUGA",
-    "osmType": "node",
-    "lastChanged": 1632598228000,
-    "address": {
-      "city": "Frederick",
-      "county": "Frederick County",
-      "state": "Maryland",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "camera:direction": "50",
-      "camera:mount": "pole",
-      "camera:type": "fixed",
-      "contact:webcam": "https://chart.maryland.gov/video/video.php?feed=8cffcf8b00c500980058fa36c4235c0a",
-      "man_made": "surveillance",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://chart.maryland.gov/video/video.php?feed=8cffcf8b00c500980058fa36c4235c0a",
-    "lint": {
-      "unavailable": true,
-      "duplicate": true
-    }
-  },
-  {
     "lat": 39.4417032,
     "lon": -77.4043661,
     "direction": 50,
@@ -112189,8 +112162,7 @@
     },
     "url": "https://chart.maryland.gov/video/video.php?feed=8cffcf8b00c500980058fa36c4235c0a",
     "lint": {
-      "unavailable": true,
-      "duplicate": true
+      "unavailable": true
     }
   },
   {
@@ -137726,33 +137698,6 @@
     },
     "operator": "City of Lawrence",
     "url": "https://gis2.lawrenceks.org/traffic/GEN_6th%20&%20%20Stoneridge.jpeg"
-  },
-  {
-    "lat": 38.9716718,
-    "lon": -95.311449,
-    "osmID": 10426220469,
-    "user": "mmapmaker",
-    "osmType": "node",
-    "lastChanged": 1673298914000,
-    "address": {
-      "city": "Lawrence",
-      "county": "Douglas County",
-      "state": "Kansas",
-      "country": "United States of America"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "dome",
-      "contact:webcam": "https://gis2.lawrenceks.org/traffic/GEN_6th%20&%20Congressional.jpeg",
-      "man_made": "surveillance",
-      "name": "6th and Congressional",
-      "operator": "City of Lawrence",
-      "surveillance": "traffic",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "operator": "City of Lawrence",
-    "url": "https://gis2.lawrenceks.org/traffic/GEN_6th%20&%20Congressional.jpeg"
   },
   {
     "lat": 38.9717547,
@@ -209695,7 +209640,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Oregon Department of Transportation",
-    "url": "https://tripcheck.com/RoadCams/cams/Bull%20Mountain%20Rd%20at%20Peachtree%20Dr_pid4543.jpg"
+    "url": "https://tripcheck.com/RoadCams/cams/Bull%20Mountain%20Rd%20at%20Peachtree%20Dr_pid4543.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.362174,
@@ -252158,6 +252106,7 @@
     "operator": "Mairie de Fleurville",
     "url": "https://communedefleurville.e-monsite.com/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -273770,6 +273719,202 @@
     "url": "https://www.nps.gov/subjects/air/webcams.htm?site=grpk"
   },
   {
+    "lat": 38.9571358,
+    "lon": -95.3071738,
+    "osmID": 14062642001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9716597,
+    "lon": -95.30318,
+    "osmID": 14062757601,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9714049,
+    "lon": -95.2881627,
+    "osmID": 14062758402,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9716447,
+    "lon": -95.2978142,
+    "osmID": 14062758801,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.971672,
+    "lon": -95.2703688,
+    "osmID": 14062759802,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.971663,
+    "lon": -95.273824,
+    "osmID": 14062761602,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9715964,
+    "lon": -95.265155,
+    "osmID": 14062770702,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 43.6641115,
     "lon": -72.8308819,
     "direction": 45,
@@ -273819,6 +273964,90 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://newengland511.org/map/Cctv/1018"
+  },
+  {
+    "lat": 38.9733016,
+    "lon": -95.2547145,
+    "osmID": 14064659502,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9730573,
+    "lon": -95.2510057,
+    "osmID": 14064663101,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9730454,
+    "lon": -95.2474325,
+    "osmID": 14064665001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 47.631442,
@@ -275229,6 +275458,1182 @@
     "url": "https://www.youtube.com/@WestvoorneLive/live",
     "lint": {
       "youtube": true
+    }
+  },
+  {
+    "lat": 38.9731044,
+    "lon": -95.2601735,
+    "osmID": 14097601901,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9680369,
+    "lon": -95.2603121,
+    "osmID": 14097607301,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9570741,
+    "lon": -95.260688,
+    "osmID": 14097729202,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9346009,
+    "lon": -95.2604013,
+    "osmID": 14097733902,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9501287,
+    "lon": -95.2603465,
+    "osmID": 14097734601,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9464148,
+    "lon": -95.2603808,
+    "osmID": 14097737801,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9428361,
+    "lon": -95.260337,
+    "osmID": 14097738002,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9385895,
+    "lon": -95.2606918,
+    "osmID": 14097738901,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.964352,
+    "lon": -95.2603207,
+    "osmID": 14097783601,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.973217,
+    "lon": -95.2361144,
+    "osmID": 14097824301,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9730109,
+    "lon": -95.2370506,
+    "osmID": 14097830602,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9732225,
+    "lon": -95.2382255,
+    "osmID": 14097830603,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9712086,
+    "lon": -95.2358706,
+    "osmID": 14097867301,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9693227,
+    "lon": -95.2358353,
+    "osmID": 14097870201,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9638739,
+    "lon": -95.2358102,
+    "osmID": 14097888001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9713037,
+    "lon": -95.3327005,
+    "osmID": 14098009001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9717057,
+    "lon": -95.311303,
+    "osmID": 14098009003,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9716983,
+    "lon": -95.316368,
+    "osmID": 14098034101,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9427198,
+    "lon": -95.2360172,
+    "osmID": 14098038302,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425583,
+    "lon": -95.2140642,
+    "osmID": 14098038501,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425365,
+    "lon": -95.2235315,
+    "osmID": 14098039001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9442247,
+    "lon": -95.279114,
+    "osmID": 14098039002,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9568926,
+    "lon": -95.2792087,
+    "osmID": 14098039004,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9501315,
+    "lon": -95.2510903,
+    "osmID": 14098039005,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9428305,
+    "lon": -95.2502334,
+    "osmID": 14098042201,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9500922,
+    "lon": -95.2557345,
+    "osmID": 14098043001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9428341,
+    "lon": -95.2559498,
+    "osmID": 14098043701,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425754,
+    "lon": -95.2696293,
+    "osmID": 14098043702,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425048,
+    "lon": -95.279197,
+    "osmID": 14098043703,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425776,
+    "lon": -95.2650839,
+    "osmID": 14098043901,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.956898,
+    "lon": -95.2671756,
+    "osmID": 14098045001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.920652,
+    "lon": -95.2606865,
+    "osmID": 14098047101,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9228337,
+    "lon": -95.2603671,
+    "osmID": 14098047102,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9280337,
+    "lon": -95.2626759,
+    "osmID": 14098047103,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9283683,
+    "lon": -95.2603601,
+    "osmID": 14098047601,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9498521,
+    "lon": -95.2235557,
+    "osmID": 14098047602,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9279897,
+    "lon": -95.2576054,
+    "osmID": 14098048201,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9280557,
+    "lon": -95.255161,
+    "osmID": 14098048501,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425141,
+    "lon": -95.283601,
+    "osmID": 14098048502,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9694639,
+    "lon": -95.2814247,
+    "osmID": 14098048504,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425038,
+    "lon": -95.2976291,
+    "osmID": 14098050201,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9641945,
+    "lon": -95.278776,
+    "osmID": 14098051401,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
     }
   },
   {
@@ -277327,6 +278732,34 @@
     "url": "https://members.traffic.wales/cctvimages/camera4001.jpg"
   },
   {
+    "lat": 38.9428416,
+    "lon": -95.2051116,
+    "osmID": 14156324001,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 40.9971437,
     "lon": -4.0745958,
     "direction": 320,
@@ -278152,5 +279585,201 @@
     },
     "operator": "Aeródromo de Fuentemilanos",
     "url": "https://rtsp.me/embed/hd9Rd8r4/"
+  },
+  {
+    "lat": 52.0107455,
+    "lon": 4.7105795,
+    "direction": 350,
+    "osmID": 14203571720,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1789994085000,
+    "address": {
+      "city": "Gouda",
+      "state": "South Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:type": "fixed",
+      "contact:webcam": "https://webcams.gouda.nl/webcam1.html",
+      "man_made": "surveillance",
+      "name": "Webcam stadhuis Gouda",
+      "operator": "gemeente Gouda",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "square"
+    },
+    "operator": "gemeente Gouda",
+    "url": "https://webcams.gouda.nl/webcam1.html"
+  },
+  {
+    "lat": 52.0256931,
+    "lon": 4.6640122,
+    "direction": 205,
+    "osmID": 14203586178,
+    "user": "wvdp",
+    "osmType": "node",
+    "lastChanged": 1789994457000,
+    "address": {
+      "city": "Waddinxveen",
+      "state": "South Holland",
+      "country": "Netherlands"
+    },
+    "osmTags": {
+      "camera:direction": "205",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.rwsverkeersinfo.nl/cameras/23/a12-knooppunt-gouwe",
+      "man_made": "surveillance",
+      "name": "Verkeerscamera A12 t.h.v. knooppunt Gouwe",
+      "operator": "Rijkswaterstaat",
+      "operator:type": "government",
+      "operator:wikidata": "Q1408870",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Rijkswaterstaat",
+    "url": "https://www.rwsverkeersinfo.nl/cameras/23/a12-knooppunt-gouwe"
+  },
+  {
+    "lat": 38.9427975,
+    "lon": -95.3074235,
+    "osmID": 14205320590,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9425161,
+    "lon": -95.2883015,
+    "osmID": 14205320591,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9428998,
+    "lon": -95.2467317,
+    "osmID": 14205320592,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9427278,
+    "lon": -95.2416436,
+    "osmID": 14205320593,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 38.9247007,
+    "lon": -95.2603556,
+    "osmID": 14205320594,
+    "user": "greatnameguys2472",
+    "osmType": "node",
+    "lastChanged": 1790037819000,
+    "address": {
+      "city": "Lawrence",
+      "county": "Douglas County",
+      "state": "Kansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+      "man_made": "surveillance",
+      "operator": "City of Lawrence",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Lawrence",
+    "url": "https://lawrenceks.maps.arcgis.com/apps/instant/basic/index.html?appid=d7c108bb6a0c405aa50a3e8168102b75",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
