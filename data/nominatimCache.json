@@ -27385,21 +27385,20 @@
     "expires": 1792838551
   },
   "27.161178,-80.2248086": {
-    "place_id": 408106668,
+    "place_id": 305210348,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 465562168,
-    "lat": "27.1614094",
-    "lon": "-80.2244475",
-    "class": "place",
-    "type": "house",
-    "place_rank": 30,
-    "importance": 0.00000999999999995449,
-    "addresstype": "place",
-    "name": "",
-    "display_name": "3437, Southeast Federal Highway, Stuart, Martin County, Florida, 34997, United States",
+    "osm_id": 943264339,
+    "lat": "27.1614511",
+    "lon": "-80.2243675",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05336833524071104,
+    "addresstype": "road",
+    "name": "Southeast Federal Highway",
+    "display_name": "Southeast Federal Highway, Stuart, Martin County, Florida, 34997, United States",
     "address": {
-      "house_number": "3437",
       "road": "Southeast Federal Highway",
       "town": "Stuart",
       "county": "Martin County",
@@ -27409,14 +27408,23 @@
       "country": "United States",
       "country_code": "us"
     },
-    "extratags": null,
+    "extratags": {
+      "hgv": "yes",
+      "HFCS": "Urban Principal Arterial - Other",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "45 mph",
+      "old_ref:1945": "5",
+      "unsigned_ref": "SR 5"
+    },
     "boundingbox": [
-      "27.1613594",
-      "27.1614594",
-      "-80.2244975",
-      "-80.2243975"
+      "27.1548341",
+      "27.1622606",
+      "-80.2248696",
+      "-80.2202457"
     ],
-    "expires": 1790298766
+    "expires": 1793894932
   },
   "27.5612278,-99.4711583": {
     "place_id": 395788679,
@@ -110911,7 +110919,7 @@
     "expires": 1791365882
   },
   "40.6429492,-89.540716": {
-    "place_id": 370231140,
+    "place_id": 372679049,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1016658983,
@@ -110935,15 +110943,18 @@
       "country_code": "us"
     },
     "extratags": {
-      "oneway": "yes"
+      "lit": "yes",
+      "oneway": "yes",
+      "cycleway": "no",
+      "sidewalk": "no"
     },
     "boundingbox": [
-      "40.6412912",
+      "40.6413109",
       "40.6429335",
-      "-89.5410565",
+      "-89.5410306",
       "-89.5406146"
     ],
-    "expires": 1790278730
+    "expires": 1794022474
   },
   "40.6450402,-80.3216932": {
     "place_id": 370802021,
@@ -153416,7 +153427,7 @@
     "expires": 1791681754
   },
   "43.378532,-5.8637056": {
-    "place_id": 293025051,
+    "place_id": 292148417,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 605000127,
@@ -153434,7 +153445,7 @@
       "hamlet": "Casares",
       "city_district": "Naranco",
       "city": "Oviedo",
-      "province": "Asturias",
+      "state_district": "Asturias",
       "ISO3166-2-lvl6": "ES-O",
       "state": "Asturias",
       "ISO3166-2-lvl4": "ES-AS",
@@ -153457,7 +153468,7 @@
       "-5.8660340",
       "-5.8631992"
     ],
-    "expires": 1790260725
+    "expires": 1793877362
   },
   "43.3866184,4.8510277": {
     "place_id": 83033076,
@@ -189201,6 +189212,39 @@
       "14.2791254"
     ],
     "expires": 1791613164
+  },
+  "45.4882551,14.2786684": {
+    "place_id": 79780091,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2356183511,
+    "lat": "45.4873964",
+    "lon": "14.2791593",
+    "class": "amenity",
+    "type": "telephone",
+    "place_rank": 30,
+    "importance": 0.00005826123445482593,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "A7, Rupa, Općina Matulji, Primorje-Gorski Kotar County, 51214, Croatia",
+    "address": {
+      "road": "A7",
+      "city_district": "Rupa",
+      "village": "Općina Matulji",
+      "county": "Primorje-Gorski Kotar County",
+      "ISO3166-2-lvl4": "HR-08",
+      "postcode": "51214",
+      "country": "Croatia",
+      "country_code": "hr"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.4873464",
+      "45.4874464",
+      "14.2791093",
+      "14.2792093"
+    ],
+    "expires": 1793948390
   },
   "45.4882591,14.2786718": {
     "place_id": 79780091,
@@ -242994,6 +243038,41 @@
     ],
     "expires": 1791411397
   },
+  "47.3645589,7.3419116": {
+    "place_id": 93194836,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 375073442,
+    "lat": "47.3645638",
+    "lon": "7.3418931",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.00005711528191038403,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "1, Ruelle du Cheval-Blanc, Dos le Chavelier, Delémont, District de Delémont, Jura, 2800, Switzerland",
+    "address": {
+      "house_number": "1",
+      "road": "Ruelle du Cheval-Blanc",
+      "hamlet": "Dos le Chavelier",
+      "town": "Delémont",
+      "county": "District de Delémont",
+      "state": "Jura",
+      "ISO3166-2-lvl4": "CH-JU",
+      "postcode": "2800",
+      "country": "Switzerland",
+      "country_code": "ch"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "47.3645215",
+      "47.3646062",
+      "7.3418138",
+      "7.3419724"
+    ],
+    "expires": 1793947049
+  },
   "47.3655008,8.5472762": {
     "place_id": 72170848,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -264471,6 +264550,46 @@
     ],
     "expires": 1791892556
   },
+  "47.6152939,-122.1937414": {
+    "place_id": 324550262,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 4547854,
+    "lat": "47.6149068",
+    "lon": "-122.1940924",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00006192492561222275,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "555, 110th Avenue Northeast, Bellevue, King County, Washington, 98004, United States",
+    "address": {
+      "house_number": "555",
+      "road": "110th Avenue Northeast",
+      "city": "Bellevue",
+      "county": "King County",
+      "state": "Washington",
+      "ISO3166-2-lvl4": "US-WA",
+      "postcode": "98004",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "height": "102",
+      "building:part": "yes",
+      "building:levels": "25",
+      "building:material": "mirror",
+      "building:min_levels": "2"
+    },
+    "boundingbox": [
+      "47.6145725",
+      "47.6152350",
+      "-122.1943486",
+      "-122.1938289"
+    ],
+    "expires": 1793857109
+  },
   "47.6153734,12.9765565": {
     "place_id": 70235968,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -283331,7 +283450,7 @@
     "expires": 1791530244
   },
   "48.0049884,-122.1069754": {
-    "place_id": 376835064,
+    "place_id": 377846183,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1197232107,
@@ -283369,7 +283488,7 @@
       "-122.1069069",
       "-122.1067896"
     ],
-    "expires": 1790285969
+    "expires": 1793991514
   },
   "48.0076389,-122.1746449": {
     "place_id": 389322643,
@@ -304312,43 +304431,44 @@
     "expires": 1792050839
   },
   "48.7638576,14.0299579": {
-    "place_id": 421891574,
+    "place_id": 421887100,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 259250380,
-    "lat": "48.7639964",
-    "lon": "14.0302681",
-    "class": "building",
-    "type": "civic",
+    "osm_type": "node",
+    "osm_id": 13970693715,
+    "lat": "48.7639833",
+    "lon": "14.0302357",
+    "class": "amenity",
+    "type": "school",
     "place_rank": 30,
     "importance": 0.000059755092698512514,
-    "addresstype": "building",
-    "name": "",
-    "display_name": "186, Jiráskova, Bližší Lhota, Horní Planá, okres Český Krumlov, South Bohemian Region, Southwest, 382 26, Czechia",
+    "addresstype": "amenity",
+    "name": "Základní škola Horní Planá",
+    "display_name": "Základní škola Horní Planá, 186, Jiráskova, Bližší Lhota, Horní Planá, okres Český Krumlov, South Bohemian Region, Southwest, 382 26, Czechia",
     "address": {
+      "amenity": "Základní škola Horní Planá",
       "house_number": "186",
       "road": "Jiráskova",
       "village": "Bližší Lhota",
       "town": "Horní Planá",
-      "district": "okres Český Krumlov",
+      "county": "okres Český Krumlov",
       "ISO3166-2-lvl5": "CZ-312",
-      "region": "South Bohemian Region",
+      "state": "South Bohemian Region",
       "ISO3166-2-lvl4": "CZ-31",
+      "region": "Southwest",
       "postcode": "382 26",
       "country": "Czechia",
       "country_code": "cz"
     },
     "extratags": {
-      "building:flats": "1",
-      "building:levels": "1"
+      "operator": "město Horní Planá"
     },
     "boundingbox": [
-      "48.7638093",
-      "48.7641575",
-      "14.0298823",
-      "14.0305887"
+      "48.7639333",
+      "48.7640333",
+      "14.0301857",
+      "14.0302857"
     ],
-    "expires": 1790242890
+    "expires": 1793960271
   },
   "48.7647992,8.2798968": {
     "place_id": 123664980,
@@ -319856,6 +319976,49 @@
     ],
     "expires": 1791405094
   },
+  "50.060965,19.9364797": {
+    "place_id": 184309775,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10074052857,
+    "lat": "50.0609695",
+    "lon": "19.9364740",
+    "class": "amenity",
+    "type": "atm",
+    "place_rank": 30,
+    "importance": 0.00007936751354233642,
+    "addresstype": "amenity",
+    "name": "PKO BP",
+    "display_name": "PKO BP, Bracka, Old Town, Stare Miasto, Old Town, Krakow, Lesser Poland Voivodeship, 31-005, Poland",
+    "address": {
+      "amenity": "PKO BP",
+      "road": "Bracka",
+      "quarter": "Old Town",
+      "suburb": "Stare Miasto",
+      "city_district": "Old Town",
+      "city": "Krakow",
+      "state": "Lesser Poland Voivodeship",
+      "ISO3166-2-lvl4": "PL-12",
+      "postcode": "31-005",
+      "country": "Poland",
+      "country_code": "pl"
+    },
+    "extratags": {
+      "indoor": "no",
+      "cash_in": "no",
+      "operator": "PKO BP",
+      "check_date": "2026-09-24",
+      "brand:wikidata": "Q578832",
+      "operator:wikidata": "Q578832"
+    },
+    "boundingbox": [
+      "50.0609195",
+      "50.0610195",
+      "19.9364240",
+      "19.9365240"
+    ],
+    "expires": 1794000578
+  },
   "50.0609803,19.9364549": {
     "place_id": 183795876,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -323460,7 +323623,7 @@
     "expires": 1791474906
   },
   "50.391066,12.8836489": {
-    "place_id": 131575443,
+    "place_id": 131068350,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 6201788797,
@@ -323478,9 +323641,9 @@
       "road": "Jáchymovská spojka",
       "hamlet": "Eduard",
       "village": "Jáchymov",
-      "district": "okres Karlovy Vary",
+      "county": "okres Karlovy Vary",
       "ISO3166-2-lvl5": "CZ-412",
-      "region": "Karlovy Vary Region",
+      "state": "Karlovy Vary Region",
       "ISO3166-2-lvl4": "CZ-41",
       "postcode": "362 62",
       "country": "Czechia",
@@ -323498,7 +323661,7 @@
       "12.8836332",
       "12.8837332"
     ],
-    "expires": 1790306221
+    "expires": 1793983672
   },
   "50.4004761,11.0113061": {
     "place_id": 135593201,
