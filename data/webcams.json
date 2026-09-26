@@ -155723,7 +155723,10 @@
       "surveillance:zone": "town",
       "website": "https://www.vera.es/ciudad/index.php?page=webcams"
     },
-    "url": "https://zoneminder.vera.es/zm/cgi-bin/nph-zms?mode=jpeg&maxfps=15&buffer=1000&&monitor=6&user=www&pass=zoneminder"
+    "url": "https://zoneminder.vera.es/zm/cgi-bin/nph-zms?mode=jpeg&maxfps=15&buffer=1000&&monitor=6&user=www&pass=zoneminder",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 37.24667,
@@ -229173,6 +229176,7 @@
     "lastChanged": 1786627682000,
     "address": {
       "city": "Budapest",
+      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -271466,7 +271470,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://algotraffic.com/map"
+    "url": "https://algotraffic.com/map",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 47.2571906,
@@ -275436,6 +275443,37 @@
       "surveillance:zone": "outdoor"
     },
     "url": "https://www.corollalightresort.com/soundsidecamera"
+  },
+  {
+    "lat": 32.5846877,
+    "lon": -88.1875617,
+    "direction": 0,
+    "osmID": 14088752201,
+    "user": "RollTideRoll_asdfjkll",
+    "osmType": "node",
+    "lastChanged": 1790343818000,
+    "address": {
+      "city": "Livingston",
+      "county": "Sumter County",
+      "state": "Alabama",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://algotraffic.com/map",
+      "direction": "0",
+      "man_made": "surveillance",
+      "manufacturer": "Motorola Solutions",
+      "manufacturer:wikidata": "Q634815",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://algotraffic.com/map",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 40.6429492,
@@ -279965,5 +280003,36 @@
       "surveillance:zone": "outdoor"
     },
     "url": "https://juratourisme.roundshot.com/delemont-vieille-ville"
+  },
+  {
+    "lat": 32.5868578,
+    "lon": -88.1859117,
+    "direction": 0,
+    "osmID": 14214323425,
+    "user": "RollTideRoll_asdfjkll",
+    "osmType": "node",
+    "lastChanged": 1790343818000,
+    "address": {
+      "city": "Livingston",
+      "county": "Sumter County",
+      "state": "Alabama",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://algotraffic.com/map",
+      "direction": "0",
+      "man_made": "surveillance",
+      "manufacturer": "Motorola Solutions",
+      "manufacturer:wikidata": "Q634815",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://algotraffic.com/map",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
