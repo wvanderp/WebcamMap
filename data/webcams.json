@@ -21012,7 +21012,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Volkshochschule Ehingen",
-    "url": "https://www.ehingen.de/webcam"
+    "url": "https://www.ehingen.de/webcam",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.5776433,
@@ -58636,12 +58639,12 @@
     }
   },
   {
-    "lat": 48.8112871,
-    "lon": 14.3142391,
+    "lat": 48.8112845,
+    "lon": 14.3142317,
     "osmID": 7095821136,
-    "user": "Jiri Podhorecky",
+    "user": "comfyquiettree",
     "osmType": "node",
-    "lastChanged": 1764452761000,
+    "lastChanged": 1790433687000,
     "address": {
       "city": "Český Krumlov",
       "county": "okres Český Krumlov",
@@ -210772,9 +210775,9 @@
     "lon": -122.1758087,
     "direction": 300,
     "osmID": 12627865314,
-    "user": "Oddly specific",
+    "user": "watmildon",
     "osmType": "node",
-    "lastChanged": 1740808100000,
+    "lastChanged": 1790468440000,
     "address": {
       "city": "Kirkland",
       "county": "King County",
@@ -210783,6 +210786,7 @@
     },
     "osmTags": {
       "camera:direction": "300",
+      "camera:type": "dome",
       "contact:webcam": "https://its.kirklandwa.gov/CamView/124thStTotemLkPTZ.jpg",
       "man_made": "surveillance",
       "surveillance": "traffic",
