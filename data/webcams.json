@@ -10591,13 +10591,13 @@
     }
   },
   {
-    "lat": 42.8758115,
+    "lat": 42.8758108,
     "lon": 74.6057108,
     "direction": 310,
     "osmID": 1419030960,
-    "user": "solenoid jam",
+    "user": "Buraddo",
     "osmType": "node",
-    "lastChanged": 1697017480000,
+    "lastChanged": 1790508103000,
     "address": {
       "city": "Bishkek City",
       "country": "Kyrgyzstan"
@@ -68802,7 +68802,7 @@
     "lon": 7.9841061,
     "direction": 180,
     "osmID": 8075054377,
-    "user": "doesbaddel",
+    "user": "breitengrad",
     "osmType": "node",
     "lastChanged": 1770581570000,
     "address": {
@@ -92389,7 +92389,10 @@
       "source": "Horizons Regional Council",
       "surveillance:type": "camera"
     },
-    "url": "http://www.horizons.govt.nz/HRC/media/Data/WebCam/Oreore_latest_photo.jpg"
+    "url": "http://www.horizons.govt.nz/HRC/media/Data/WebCam/Oreore_latest_photo.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": -38.8400004,
@@ -93645,9 +93648,9 @@
     "lon": 14.2503123,
     "direction": 320,
     "osmID": 8903385149,
-    "user": "surveillance-mapper",
+    "user": "britischer_elch",
     "osmType": "node",
-    "lastChanged": 1625732592000,
+    "lastChanged": 1790525648000,
     "address": {
       "city": "Ansfelden",
       "county": "Bezirk Linz-Land",
@@ -93659,6 +93662,7 @@
       "camera:direction": "320",
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "check_date": "2026-09-19",
       "contact:webcam": "https://www.land-oberoesterreich.gv.at/webcam/a/613/KAM1",
       "description": "IR night vision | B139: Kremsdorf, Kreuzung B139/L1392, km 14,63",
       "height": "6",
@@ -93675,9 +93679,9 @@
     "lon": 14.2503149,
     "direction": 180,
     "osmID": 8903385150,
-    "user": "surveillance-mapper",
+    "user": "britischer_elch",
     "osmType": "node",
-    "lastChanged": 1625732592000,
+    "lastChanged": 1790525648000,
     "address": {
       "city": "Ansfelden",
       "county": "Bezirk Linz-Land",
@@ -93689,6 +93693,7 @@
       "camera:direction": "180",
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "check_date": "2026-09-19",
       "contact:webcam": "https://www.land-oberoesterreich.gv.at/webcam/a/613/KAM2",
       "description": "IR night vision | B139: Kremsdorf, Kreuzung B139/L1392, km 14,63",
       "height": "6",
@@ -104392,9 +104397,9 @@
     "lon": 16.3633909,
     "direction": 180,
     "osmID": 8989437156,
-    "user": "surveillance-mapper",
+    "user": "PolyShip",
     "osmType": "node",
-    "lastChanged": 1628412437000,
+    "lastChanged": 1790500097000,
     "address": {
       "city": "Vienna",
       "country": "Austria"
@@ -104403,6 +104408,7 @@
       "camera:direction": "180",
       "camera:mount": "street_lamp",
       "camera:type": "fixed",
+      "check_date": "2026-09-27",
       "contact:webcam": "https://dyn2.verkehrsauskunft.at/itswebcamviewer/SingleScreen.aspx?camname=itscam57",
       "description": "IR Night Vision",
       "height": "3",
@@ -127823,6 +127829,7 @@
     },
     "url": "https://trafficmap.bellevuewa.gov/",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -152323,7 +152330,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.lembeck.de/webcam-dorf2/dorf2_lembeckde.jpg"
+    "url": "https://www.lembeck.de/webcam-dorf2/dorf2_lembeckde.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.8762788,
@@ -277105,7 +277115,7 @@
     "osmID": 14114229498,
     "user": "AhmedMohamedAli",
     "osmType": "node",
-    "lastChanged": 1790137302000,
+    "lastChanged": 1790521268000,
     "address": {
       "city": "Alexandria",
       "state": "Alexandria",
@@ -277122,8 +277132,8 @@
       "name": "كنيسة القديس العظيم الانبا ابرام",
       "name:ar": "كنيسة القديس العظيم الانبا ابرام",
       "name:en": "The Great Saint Abraam Church",
-      "opening_hours": "Mo-Su",
-      "phone": "+20 3 4966442",
+      "opening_hours": "Mo,We-Th,Sa-Su 07:00-21:00; Tu 07:00-24:00; Fr 07:00-10:00",
+      "phone": "+20 3 4966442;+20 3 3902297",
       "religion": "christian"
     },
     "url": "https://www.youtube.com/@saintabraamchurch-7482/streams",
@@ -280038,5 +280048,28 @@
     "lint": {
       "duplicate": true
     }
+  },
+  {
+    "lat": 36.6290415,
+    "lon": -87.4341596,
+    "direction": 25,
+    "osmID": 14225244127,
+    "user": "ds531",
+    "osmType": "node",
+    "lastChanged": 1790548313000,
+    "address": {
+      "city": "Clarksville",
+      "county": "Montgomery County",
+      "state": "Tennessee",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "25",
+      "camera:type": "fixed",
+      "contact:webcam": "https://g1.ipcamlive.com/player/player.php?alias=6839cd98c0e23&skin=white&autoplay=1&mute=1&disableautofullscreen=1&disablevideofit=1&disableframecapture=1&disabletimelapseplayer=1&disabledownloadbutton=1&disableplaybackspeedbutton=1&disableuserpause=1",
+      "man_made": "surveillance",
+      "surveillance:type": "camera"
+    },
+    "url": "https://g1.ipcamlive.com/player/player.php?alias=6839cd98c0e23&skin=white&autoplay=1&mute=1&disableautofullscreen=1&disablevideofit=1&disableframecapture=1&disabletimelapseplayer=1&disabledownloadbutton=1&disableplaybackspeedbutton=1&disableuserpause=1"
   }
 ]
