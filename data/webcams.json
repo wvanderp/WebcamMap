@@ -21274,7 +21274,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "http://jugend-von-hier.de/webcam.jpg"
+    "url": "http://jugend-von-hier.de/webcam.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 56.0393146,
@@ -280071,5 +280074,31 @@
       "surveillance:type": "camera"
     },
     "url": "https://g1.ipcamlive.com/player/player.php?alias=6839cd98c0e23&skin=white&autoplay=1&mute=1&disableautofullscreen=1&disablevideofit=1&disableframecapture=1&disabletimelapseplayer=1&disabledownloadbutton=1&disableplaybackspeedbutton=1&disableuserpause=1"
+  },
+  {
+    "lat": 48.9723808,
+    "lon": 1.8488602,
+    "direction": 240,
+    "osmID": 14228806640,
+    "user": "Hydrel",
+    "osmType": "node",
+    "lastChanged": 1790647077000,
+    "address": {
+      "city": "Aubergenville",
+      "county": "Yvelines",
+      "state": "Ile-de-France",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "fixed",
+      "contact:webcam": "Q2C21",
+      "man_made": "surveillance",
+      "surveillance:type": "camera"
+    },
+    "url": "Q2C21",
+    "lint": {
+      "invalidUrl": true
+    }
   }
 ]
