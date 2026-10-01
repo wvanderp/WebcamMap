@@ -40135,7 +40135,10 @@
       "weather:wind_vane": "yes",
       "website": "https://pioupiou.com/fr/354"
     },
-    "url": "https://pioupiou.com/fr/354"
+    "url": "https://pioupiou.com/fr/354",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 44.016765,
@@ -142112,7 +142115,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_647"
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_647",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.8042117,
@@ -276841,7 +276847,6 @@
     "osmType": "node",
     "lastChanged": 1787197434000,
     "address": {
-      "city": "Gold Coast",
       "state": "Queensland",
       "country": "Australia"
     },
@@ -280044,5 +280049,83 @@
     "lint": {
       "invalidUrl": true
     }
+  },
+  {
+    "lat": 43.5272429,
+    "lon": 3.9325721,
+    "direction": 90,
+    "osmID": 14234521693,
+    "user": "Enzo3094",
+    "osmType": "node",
+    "lastChanged": 1790770808000,
+    "address": {
+      "city": "Palavas-les-Flots",
+      "county": "Hérault",
+      "state": "Occitania",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pv.viewsurf.com/1510/Palavas-rive-gauche",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://pv.viewsurf.com/1510/Palavas-rive-gauche"
+  },
+  {
+    "lat": 43.5272416,
+    "lon": 3.9325704,
+    "direction": 180,
+    "osmID": 14234718498,
+    "user": "Enzo3094",
+    "osmType": "node",
+    "lastChanged": 1790770808000,
+    "address": {
+      "city": "Palavas-les-Flots",
+      "county": "Hérault",
+      "state": "Occitania",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pv.viewsurf.com/2662/Palavas-rive-gauche-le-Lez",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://pv.viewsurf.com/2662/Palavas-rive-gauche-le-Lez"
+  },
+  {
+    "lat": 43.5251915,
+    "lon": 3.9296253,
+    "direction": 225,
+    "osmID": 14234757711,
+    "user": "Enzo3094",
+    "osmType": "node",
+    "lastChanged": 1790770123000,
+    "address": {
+      "city": "Palavas-les-Flots",
+      "county": "Hérault",
+      "state": "Occitania",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "225",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://pv.viewsurf.com/1512/Palavas-rive-droite",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://pv.viewsurf.com/1512/Palavas-rive-droite"
   }
 ]
