@@ -33039,20 +33039,21 @@
     "expires": 1791027381
   },
   "32.6046753,-85.4827371": {
-    "place_id": 343696864,
+    "place_id": 343176789,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 13594507866,
-    "lat": "32.6047172",
-    "lon": "-85.4827965",
-    "class": "amenity",
-    "type": "clock",
+    "osm_type": "relation",
+    "osm_id": 7102177,
+    "lat": "32.6047605",
+    "lon": "-85.4827906",
+    "class": "building",
+    "type": "university",
     "place_rank": 30,
     "importance": 0.0000621278706034488,
-    "addresstype": "amenity",
-    "name": "",
-    "display_name": "182, South College Street, Forestdale, Auburn, Lee County, Alabama, 36949, United States",
+    "addresstype": "building",
+    "name": "Samford Hall",
+    "display_name": "Samford Hall, 182, South College Street, Forestdale, Auburn, Lee County, Alabama, 36949, United States",
     "address": {
+      "building": "Samford Hall",
       "house_number": "182",
       "road": "South College Street",
       "hamlet": "Forestdale",
@@ -33065,23 +33066,18 @@
       "country_code": "us"
     },
     "extratags": {
-      "date": "no",
-      "faces": "4",
-      "indoor": "no",
-      "display": "analog",
-      "support": "wall",
-      "barometer": "no",
-      "hygrometer": "no",
-      "visibility": "area",
-      "thermometer": "no"
+      "wikidata": "Q7409314",
+      "wikipedia": "en:Samford Hall",
+      "start_date": "1888",
+      "building:levels": "4"
     },
     "boundingbox": [
-      "32.6046672",
-      "32.6047672",
-      "-85.4828465",
-      "-85.4827465"
+      "32.6044848",
+      "32.6049289",
+      "-85.4829328",
+      "-85.4826488"
     ],
-    "expires": 1790874794
+    "expires": 1794571417
   },
   "32.6047889,-96.6499889": {
     "place_id": 333382569,
@@ -40124,7 +40120,7 @@
     "expires": 1791600357
   },
   "34.7251593,-86.6464189": {
-    "place_id": 341828420,
+    "place_id": 341671631,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 416214493,
@@ -40168,7 +40164,7 @@
       "-86.6465615",
       "-86.6462374"
     ],
-    "expires": 1790918362
+    "expires": 1794576560
   },
   "34.7620565,135.9362911": {
     "place_id": 266381211,
@@ -73392,7 +73388,7 @@
     "expires": 1791660618
   },
   "39.27417,-103.4914886": {
-    "place_id": 419484396,
+    "place_id": 420417793,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 836943035,
@@ -73426,7 +73422,7 @@
       "-103.4913243",
       "-103.4913124"
     ],
-    "expires": 1790887563
+    "expires": 1794599472
   },
   "39.2769915,-77.3233063": {
     "place_id": 349620528,
@@ -93051,7 +93047,7 @@
       "-3.6593131",
       "-3.6540495"
     ],
-    "expires": 1790890811
+    "expires": 1794620825
   },
   "40.3685818,-3.6096943": {
     "place_id": 294773185,
@@ -93673,7 +93669,7 @@
     "expires": 1792707616
   },
   "40.3757601,-3.6531447": {
-    "place_id": 293114044,
+    "place_id": 289993851,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 41736266,
@@ -93709,7 +93705,7 @@
       "-3.6535416",
       "-3.6515514"
     ],
-    "expires": 1790838193
+    "expires": 1794571261
   },
   "40.3764982,-3.6596346": {
     "place_id": 291785954,
@@ -97245,7 +97241,7 @@
       "-3.6245334",
       "-3.6240243"
     ],
-    "expires": 1790897071
+    "expires": 1794576910
   },
   "40.4068821,-3.7462427": {
     "place_id": 293134536,
@@ -98811,10 +98807,10 @@
     "expires": 1792044266
   },
   "40.4183154,-3.610577": {
-    "place_id": 293507451,
+    "place_id": 293352536,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 4066506,
+    "osm_id": 4305460,
     "lat": "40.4181964",
     "lon": "-3.6106417",
     "class": "highway",
@@ -98836,15 +98832,17 @@
     },
     "extratags": {
       "lanes": "3",
+      "layer": "1",
+      "bridge": "yes",
       "junction": "roundabout"
     },
     "boundingbox": [
+      "40.4177822",
       "40.4181964",
-      "40.4182222",
-      "-3.6107060",
-      "-3.6106417"
+      "-3.6106417",
+      "-3.6104464"
     ],
-    "expires": 1790896306
+    "expires": 1794551642
   },
   "40.4184313,-3.6762665": {
     "place_id": 290521725,
@@ -115611,6 +115609,51 @@
     ],
     "expires": 1791580387
   },
+  "40.9488513,-4.1175564": {
+    "place_id": 291920923,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 4613162,
+    "lat": "40.9487775",
+    "lon": "-4.1174368",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.05339996719310289,
+    "addresstype": "road",
+    "name": "Cuesta de San Juan",
+    "display_name": "Cuesta de San Juan, Santa Columba, Sexmo de Segovia, La Albuera, Comunidad de Ciudad y Tierra de Segovia, Segovia, Castile and León, 40001, Spain",
+    "address": {
+      "road": "Cuesta de San Juan",
+      "neighbourhood": "Santa Columba",
+      "suburb": "La Albuera",
+      "city_district": "Comunidad de Ciudad y Tierra de Segovia",
+      "city": "Segovia",
+      "state_district": "Segovia",
+      "ISO3166-2-lvl6": "ES-SG",
+      "state": "Castile and León",
+      "ISO3166-2-lvl4": "ES-CL",
+      "postcode": "40001",
+      "country": "Spain",
+      "country_code": "es"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "2",
+      "surface": "sett",
+      "maxspeed": "50",
+      "smoothness": "intermediate",
+      "parking:both": "no",
+      "maxspeed:type": "ES:zone50"
+    },
+    "boundingbox": [
+      "40.9482027",
+      "40.9495615",
+      "-4.1177427",
+      "-4.1170316"
+    ],
+    "expires": 1794567508
+  },
   "40.9624837,-80.134721": {
     "place_id": 369479934,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -126736,40 +126779,6 @@
       "-111.8491569"
     ],
     "expires": 1791286375
-  },
-  "41.8386147,-111.8491849": {
-    "place_id": 417466352,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 1232465174,
-    "lat": "41.8389244",
-    "lon": "-111.8492580",
-    "class": "building",
-    "type": "house",
-    "place_rank": 30,
-    "importance": 0.00004448233768210907,
-    "addresstype": "building",
-    "name": "",
-    "display_name": "603, 100 North, Smithfield, Cache County, Utah, 84335, United States",
-    "address": {
-      "house_number": "603",
-      "road": "100 North",
-      "town": "Smithfield",
-      "county": "Cache County",
-      "state": "Utah",
-      "ISO3166-2-lvl4": "US-UT",
-      "postcode": "84335",
-      "country": "United States",
-      "country_code": "us"
-    },
-    "extratags": null,
-    "boundingbox": [
-      "41.8388424",
-      "41.8389752",
-      "-111.8493592",
-      "-111.8491569"
-    ],
-    "expires": 1790906667
   },
   "41.8394441,-96.7275324": {
     "place_id": 329717620,
@@ -194820,7 +194829,7 @@
       "-108.5999764",
       "-108.5996931"
     ],
-    "expires": 1790840048
+    "expires": 1794605412
   },
   "45.8077114,8.2521359": {
     "place_id": 75359971,
@@ -271301,7 +271310,7 @@
     "expires": 1791518130
   },
   "47.675111,-122.4082491": {
-    "place_id": 324391897,
+    "place_id": 322568202,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 2140513611,
@@ -271330,6 +271339,7 @@
     },
     "extratags": {
       "website": "https://ballardelks.org/",
+      "opening_hours": "Mo-Fr 10:00-15:00",
       "brand:wikidata": "Q2895789"
     },
     "boundingbox": [
@@ -271338,7 +271348,7 @@
       "-122.4082280",
       "-122.4081280"
     ],
-    "expires": 1790896128
+    "expires": 1794478636
   },
   "47.6769076,11.1994382": {
     "place_id": 70276664,
@@ -312027,7 +312037,7 @@
     "expires": 1792749846
   },
   "49.244506,-123.0238107": {
-    "place_id": 377039759,
+    "place_id": 376796238,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 58060304,
@@ -312070,7 +312080,7 @@
       "-123.0242767",
       "-123.0237477"
     ],
-    "expires": 1790894497
+    "expires": 1794566084
   },
   "49.2546429,19.0427654": {
     "place_id": 184373353,
@@ -363576,7 +363586,7 @@
       "15.5683167",
       "15.5684167"
     ],
-    "expires": 1790845705
+    "expires": 1794516659
   },
   "54.1776924,7.8896601": {
     "place_id": 151463540,
