@@ -13996,7 +13996,10 @@
       "name": "Grossabünt.li",
       "surveillance": "webcam"
     },
-    "url": "http://www.grossabuent.li/livecam.html"
+    "url": "http://www.grossabuent.li/livecam.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.0651038,
@@ -75841,9 +75844,9 @@
     "lat": 40.8395524,
     "lon": 14.2547231,
     "osmID": 8450007410,
-    "user": "Gior7",
+    "user": "baprischka",
     "osmType": "node",
-    "lastChanged": 1614098156000,
+    "lastChanged": 1791018751000,
     "address": {
       "city": "Naples",
       "county": "Naples",
@@ -75852,6 +75855,7 @@
     },
     "osmTags": {
       "camera:mount": "building",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.skylinewebcams.com/it/webcam/italia/campania/napoli/napoli-maschio-angioino.html",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -82296,7 +82300,10 @@
       "vending": "pork;egg;yoghurt;milk;Wachteleier"
     },
     "operator": "Köbi und Leandra Hagmann-Barmettler",
-    "url": "https://www.kamerasau.ch"
+    "url": "https://www.kamerasau.ch",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.1526079,
@@ -154923,7 +154930,10 @@
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "https://kamera.hrych.cz/?kamera=rakovniknasekyre"
+    "url": "https://kamera.hrych.cz/?kamera=rakovniknasekyre",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 50.1032403,
@@ -196567,9 +196577,9 @@
     "lon": -94.8790748,
     "direction": 145,
     "osmID": 12116238280,
-    "user": "wvdp",
+    "user": "x000111",
     "osmType": "node",
-    "lastChanged": 1727907725000,
+    "lastChanged": 1791038598000,
     "address": {
       "city": "Bemidji",
       "county": "Beltrami County",
@@ -196582,7 +196592,6 @@
       "camera:type": "fixed",
       "contact:webcam": "https://www.youtube.com/live/cpPEFYn1eKo?si=HcB7ZkqH_eTliO7L",
       "man_made": "surveillance",
-      "name": "Paul Bunyan and Babe the Blue Ox",
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "park"
@@ -272310,6 +272319,8 @@
     "lastChanged": 1783703215000,
     "address": {
       "city": "Posudov",
+      "county": "okres Český Krumlov",
+      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -277076,7 +277087,7 @@
     "osmID": 14114229498,
     "user": "AhmedMohamedAli",
     "osmType": "node",
-    "lastChanged": 1790521268000,
+    "lastChanged": 1791041628000,
     "address": {
       "city": "Alexandria",
       "state": "Alexandria",
@@ -277085,7 +277096,7 @@
     "osmTags": {
       "alt_name": "بطريركية الاقباط الارثوذكس",
       "alt_name:ar": "بطريركية الاقباط الارثوذكس",
-      "alt_name:en": "Coptic Orthodox Patriarchate",
+      "alt_name:en": "Coptic Orthodox Patriarchate;GSAC",
       "amenity": "place_of_worship",
       "contact:facebook": "https://www.facebook.com/KnystAlanbaAbraamZynAlabdyn",
       "contact:webcam": "https://www.youtube.com/@saintabraamchurch-7482/streams",
@@ -280166,5 +280177,317 @@
     },
     "operator": "InfoSegovia.com",
     "url": "https://www.ipcamlive.com/player/player.php?alias=6747645b2b3b7"
+  },
+  {
+    "lat": 36.3816578,
+    "lon": -94.1746726,
+    "direction": 290,
+    "osmID": 14247149243,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17874&name=I-49%20mm%2087.8%20at%20Central%20Ave",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17874&name=I-49%20mm%2087.8%20at%20Central%20Ave"
+  },
+  {
+    "lat": 36.3747145,
+    "lon": -94.168537,
+    "direction": 330,
+    "osmID": 14247149244,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "330",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17963&name=I-49%20mm%2087.2%20at%20Regen%20Hut%20Rd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17963&name=I-49%20mm%2087.2%20at%20Regen%20Hut%20Rd"
+  },
+  {
+    "lat": 36.3707754,
+    "lon": -94.1693488,
+    "direction": 350,
+    "osmID": 14247149245,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "350",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17779&name=I-49%20mm%2086.9%20at%20Battlefield%20Blvd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17779&name=I-49%20mm%2086.9%20at%20Battlefield%20Blvd"
+  },
+  {
+    "lat": 36.3639445,
+    "lon": -94.1765689,
+    "direction": 40,
+    "osmID": 14247149246,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "40",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17967&name=I-49%20mm%2086.3%20at%208th%20Street",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17967&name=I-49%20mm%2086.3%20at%208th%20Street"
+  },
+  {
+    "lat": 36.3568594,
+    "lon": -94.1786916,
+    "direction": 160,
+    "osmID": 14247149247,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17987&name=I-49%20mm%2085.9%20at%20SE%2014th%20St",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17987&name=I-49%20mm%2085.9%20at%20SE%2014th%20St"
+  },
+  {
+    "lat": 36.3342866,
+    "lon": -94.1842801,
+    "direction": 180,
+    "osmID": 14247149248,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Bentonville",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17974&name=I-49%20mm%2084.3%20at%20Walton%20Blvd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17974&name=I-49%20mm%2084.3%20at%20Walton%20Blvd"
+  },
+  {
+    "lat": 36.3144228,
+    "lon": -94.1848977,
+    "direction": 210,
+    "osmID": 14247149315,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Rogers",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "210",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17933&name=I-49%20mm%2082.9%20at%20New%20Hope%20Rd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17933&name=I-49%20mm%2082.9%20at%20New%20Hope%20Rd"
+  },
+  {
+    "lat": 36.3085212,
+    "lon": -94.1856266,
+    "direction": 10,
+    "osmID": 14247149316,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Rogers",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "10",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17857&name=I-49%20mm%2082.5%20at%20Embassy",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17857&name=I-49%20mm%2082.5%20at%20Embassy"
+  },
+  {
+    "lat": 36.2997668,
+    "lon": -94.1797792,
+    "direction": 340,
+    "osmID": 14247149317,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Rogers",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17870&name=I-49%20mm%2081.8%20at%20Whitaker%20Pkwy",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17870&name=I-49%20mm%2081.8%20at%20Whitaker%20Pkwy"
+  },
+  {
+    "lat": 36.2975233,
+    "lon": -94.1712582,
+    "direction": 280,
+    "osmID": 14247149318,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Rogers",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17841&name=I-49%20mm%2081.3%20at%20Bellview%20Rd",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17841&name=I-49%20mm%2081.3%20at%20Bellview%20Rd"
+  },
+  {
+    "lat": 36.2947711,
+    "lon": -94.165049,
+    "direction": 280,
+    "osmID": 14247149319,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Rogers",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "280",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17956&name=I-49%20mm%2080.9%20at%20Ajax%20Ave",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17956&name=I-49%20mm%2080.9%20at%20Ajax%20Ave"
+  },
+  {
+    "lat": 36.2826913,
+    "lon": -94.1554186,
+    "direction": 180,
+    "osmID": 14247149320,
+    "user": "rechlin",
+    "osmType": "node",
+    "lastChanged": 1791085491000,
+    "address": {
+      "city": "Rogers",
+      "county": "Benton County",
+      "state": "Arkansas",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17806&name=I-49%20mm%2080",
+      "man_made": "surveillance",
+      "surveillance": "camera",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17806&name=I-49%20mm%2080"
   }
 ]
