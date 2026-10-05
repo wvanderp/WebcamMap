@@ -20194,6 +20194,37 @@
     }
   },
   {
+    "lat": 50.6865792,
+    "lon": 8.2971682,
+    "osmID": 3912429004,
+    "user": "Herwescheluc",
+    "osmType": "node",
+    "lastChanged": 1791114327000,
+    "address": {
+      "city": "Herborn",
+      "county": "Lahn-Dill-Kreis",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "SE",
+      "camera:mount": "ceiling",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.herborn.de/verwaltung/service/webcams",
+      "electricity": "solar",
+      "man_made": "surveillance",
+      "operator": "Stadt Herborn",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Stadt Herborn",
+    "url": "https://www.herborn.de/verwaltung/service/webcams",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 49.6652967,
     "lon": 18.960941,
     "osmID": 3921504946,
@@ -59204,28 +59235,6 @@
       "surveillance:type": "camera"
     },
     "url": "https://zuerichtourismus.roundshot.com/stadthaus/"
-  },
-  {
-    "lat": 47.3655008,
-    "lon": 8.5472762,
-    "osmID": 7137105684,
-    "user": "Nathan van Elden",
-    "osmType": "node",
-    "lastChanged": 1765461239000,
-    "address": {
-      "city": "Zurich",
-      "county": "District Zurich",
-      "state": "Zurich",
-      "country": "Switzerland"
-    },
-    "osmTags": {
-      "check_date": "2025-12-11",
-      "contact:webcam": "https://nzz.roundshot.co/",
-      "man_made": "surveillance",
-      "surveillance": "public",
-      "surveillance:type": "camera"
-    },
-    "url": "https://nzz.roundshot.co/"
   },
   {
     "lat": 47.4173853,
@@ -109843,9 +109852,9 @@
     "lat": 53.0097292,
     "lon": -1.1999732,
     "osmID": 9115478146,
-    "user": "Binky Bunny",
+    "user": "Mousefad",
     "osmType": "node",
-    "lastChanged": 1632351886000,
+    "lastChanged": 1791116084000,
     "address": {
       "city": "Nottingham",
       "state": "England",
@@ -109854,6 +109863,7 @@
     "osmTags": {
       "camera:mount": "traffic_signals",
       "camera:type": "dome",
+      "check_date": "2026-10-04",
       "contact:webcam": "http://data.nottinghamtravelwise.org.uk/images215.jpg",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -115373,12 +115383,12 @@
   },
   {
     "lat": 54.1493986,
-    "lon": -2.3019407,
+    "lon": -2.3019406,
     "direction": 80,
     "osmID": 9429450580,
-    "user": "gurglypipe",
+    "user": "NorthYorkshire",
     "osmType": "node",
-    "lastChanged": 1751460279000,
+    "lastChanged": 1791136318000,
     "address": {
       "city": "Horton in Ribblesdale",
       "county": "North Yorkshire",
@@ -133802,6 +133812,38 @@
       "surveillance:type": "camera"
     },
     "url": "https://wunderthausen.de/webcam/Pastorenwiese.jpg"
+  },
+  {
+    "lat": 50.6832855,
+    "lon": 8.3033107,
+    "osmID": 9974213711,
+    "user": "Herwescheluc",
+    "osmType": "node",
+    "lastChanged": 1791147014000,
+    "address": {
+      "city": "Herborn",
+      "county": "Lahn-Dill-Kreis",
+      "state": "Hesse",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "245;200",
+      "camera:mount": "wall",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.herborn.de/verwaltung/service/webcams",
+      "count": "2",
+      "electricity": "solar",
+      "man_made": "surveillance",
+      "operator": "Stadt Herborn",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "Stadt Herborn",
+    "url": "https://www.herborn.de/verwaltung/service/webcams",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 47.37822,
@@ -273112,19 +273154,24 @@
     "lat": 37.7217672,
     "lon": -122.4769573,
     "osmID": 14026554653,
-    "user": "Dogman15",
+    "user": "jayaddison",
     "osmType": "node",
-    "lastChanged": 1784596489000,
+    "lastChanged": 1791145627000,
     "address": {
       "city": "San Francisco",
       "state": "California",
       "country": "United States of America"
     },
     "osmTags": {
+      "camera:direction": "WNW",
+      "camera:type": "fixed",
       "contact:webcam": "https://www.fogcam.org",
       "man_made": "surveillance",
       "name": "FogCam",
+      "start_date": "1994",
+      "surveillance": "outdoor",
       "surveillance:type": "camera",
+      "surveillance:zone": "weather",
       "wikidata": "Q129070692",
       "wikipedia": "en:FogCam"
     },
@@ -277087,7 +277134,7 @@
     "osmID": 14114229498,
     "user": "AhmedMohamedAli",
     "osmType": "node",
-    "lastChanged": 1791041628000,
+    "lastChanged": 1791099739000,
     "address": {
       "city": "Alexandria",
       "state": "Alexandria",
@@ -277096,7 +277143,7 @@
     "osmTags": {
       "alt_name": "بطريركية الاقباط الارثوذكس",
       "alt_name:ar": "بطريركية الاقباط الارثوذكس",
-      "alt_name:en": "Coptic Orthodox Patriarchate;GSAC",
+      "alt_name:en": "Coptic Orthodox Patriarchate",
       "amenity": "place_of_worship",
       "contact:facebook": "https://www.facebook.com/KnystAlanbaAbraamZynAlabdyn",
       "contact:webcam": "https://www.youtube.com/@saintabraamchurch-7482/streams",
@@ -277106,7 +277153,9 @@
       "name:en": "The Great Saint Abraam Church",
       "opening_hours": "Mo,We-Th,Sa-Su 07:00-21:00; Tu 07:00-24:00; Fr 07:00-10:00",
       "phone": "+20 3 4966442;+20 3 3902297",
-      "religion": "christian"
+      "religion": "christian",
+      "short_name": "GSAC;COP",
+      "short_name:en": "GSAC;COP"
     },
     "url": "https://www.youtube.com/@saintabraamchurch-7482/streams",
     "lint": {
