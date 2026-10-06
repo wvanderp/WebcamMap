@@ -105453,7 +105453,6 @@
     "lastChanged": 1655039157000,
     "address": {
       "city": "New York",
-      "county": "Kings County",
       "state": "New York",
       "country": "United States of America"
     },
@@ -122643,6 +122642,7 @@
     "osmType": "node",
     "lastChanged": 1646937420000,
     "address": {
+      "city": "Eppan an der Weinstraße - Appiano sulla Strada del Vino",
       "county": "South Tyrol",
       "state": "Trentino – Alto Adige/Südtirol",
       "country": "Italy"
@@ -123994,7 +123994,7 @@
     "osmType": "node",
     "lastChanged": 1646937420000,
     "address": {
-      "city": "Flattach",
+      "city": "Innerfragant",
       "county": "Bezirk Spittal an der Drau",
       "state": "Carinthia",
       "country": "Austria"
@@ -142143,34 +142143,6 @@
       "website": "https://webcam.deg.net/?a=showcam&w=showliveimage1&o=pla"
     },
     "url": "https://webcam.deg.net/?a=showcam&w=showliveimage1&o=pla"
-  },
-  {
-    "lat": -23.7119182,
-    "lon": -46.500406,
-    "osmID": 10840517088,
-    "user": "Sickeira",
-    "osmType": "node",
-    "lastChanged": 1682465584000,
-    "address": {
-      "city": "Santo André",
-      "state": "São Paulo",
-      "country": "Brazil"
-    },
-    "osmTags": {
-      "camera:mount": "pole",
-      "camera:type": "dome",
-      "contact:webcam": "https://cameras.santoandre.sp.gov.br/coi04/ID_647",
-      "man_made": "surveillance",
-      "name": "Estrada do Pedroso X Missionários (ID 647)",
-      "source": "https://portais.santoandre.sp.gov.br/defesacivil/monitoramento-rios-e-corregos/",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "public"
-    },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_647",
-    "lint": {
-      "unavailable": true
-    }
   },
   {
     "lat": 50.8042117,
@@ -188749,7 +188721,7 @@
     "osmType": "node",
     "lastChanged": 1724714787000,
     "address": {
-      "county": "Scott County",
+      "county": "Pike County",
       "state": "Illinois",
       "country": "United States of America"
     },
@@ -220707,7 +220679,10 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://retterhotelcam3.retter.at/cgi-bin/guestimage.html"
+    "url": "http://retterhotelcam3.retter.at/cgi-bin/guestimage.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 37.4818056,
@@ -279155,7 +279130,7 @@
     "osmID": 14159600236,
     "user": "AhmedMohamedAli",
     "osmType": "node",
-    "lastChanged": 1788798757000,
+    "lastChanged": 1791220344000,
     "address": {
       "city": "Alexandria",
       "state": "Alexandria",
@@ -279166,7 +279141,7 @@
       "contact:webcam": "https://www.youtube.com/@saintabraamchurch-7482/streams",
       "name": "كاميرا مباشرة لكنيسة القديس العظيم الانبا ابرام",
       "name:ar": "كاميرا مباشرة لكنيسة القديس العظيم الانبا ابرام",
-      "name:en": "The Great Saint Abraam Church Live Camera",
+      "name:en": "The Great Saint Abraam Church",
       "studio": "television"
     },
     "url": "https://www.youtube.com/@saintabraamchurch-7482/streams",
@@ -280538,5 +280513,29 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://arkansas.trafficcamarchive.com/browseDate.html?cameraId=17806&name=I-49%20mm%2080"
+  },
+  {
+    "lat": 46.2350296,
+    "lon": -63.1248498,
+    "osmID": 14253005805,
+    "user": "Peter Rukavina",
+    "osmType": "node",
+    "lastChanged": 1791224460000,
+    "address": {
+      "city": "Charlottetown",
+      "county": "Queens County",
+      "state": "Prince Edward Island",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://charlottetownpolice.ca/community-camera-program/",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "street"
+    },
+    "url": "https://charlottetownpolice.ca/community-camera-program/"
   }
 ]
