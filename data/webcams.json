@@ -15775,7 +15775,7 @@
     "osmType": "node",
     "lastChanged": 1665331075000,
     "address": {
-      "city": "Tarvisio / Tarvis / Trbiž",
+      "city": "Tarvisio",
       "county": "Udine",
       "state": "Friuli – Venezia Giulia",
       "country": "Italy"
@@ -20481,6 +20481,33 @@
     },
     "operator": "St. Johann Online",
     "url": "http://unternehmen.ortswaerme.info/webcams/wilder-kaiser/"
+  },
+  {
+    "lat": 50.7747379,
+    "lon": 6.0837601,
+    "direction": 330,
+    "osmID": 4076411209,
+    "user": "Undercovernutzer",
+    "osmType": "node",
+    "lastChanged": 1791781081000,
+    "address": {
+      "city": "Aachen",
+      "county": "Aachen (district)",
+      "state": "North Rhine-Westphalia",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "30",
+      "camera:direction": "330",
+      "contact:webcam": "https://dombauhuette-aachen.de/webcam/webcam-aussen/",
+      "ele": "30",
+      "height": "30",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "https://dombauhuette-aachen.de/webcam/webcam-aussen/"
   },
   {
     "lat": 53.7697013,
@@ -67416,7 +67443,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://onlinecamera.net/elo-webkamerak-csopak-strand"
+    "url": "https://onlinecamera.net/elo-webkamerak-csopak-strand",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.8011648,
@@ -82310,10 +82340,7 @@
       "vending": "pork;egg;yoghurt;milk;Wachteleier"
     },
     "operator": "Köbi und Leandra Hagmann-Barmettler",
-    "url": "https://www.kamerasau.ch",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.kamerasau.ch"
   },
   {
     "lat": 48.1526079,
@@ -99978,7 +100005,10 @@
       "surveillance:zone": "traffic"
     },
     "operator": "ASFINAG",
-    "url": "https://www.asfinag.at/verkehr-sicherheit/webcams?id=S003_000,600_X_00088385"
+    "url": "https://www.asfinag.at/verkehr-sicherheit/webcams?id=S003_000,600_X_00088385",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.9895658,
@@ -140441,7 +140471,7 @@
     "osmType": "node",
     "lastChanged": 1718119943000,
     "address": {
-      "city": "Pregny-Chambésy",
+      "city": "Chambésy",
       "state": "Geneva",
       "country": "Switzerland"
     },
@@ -149146,6 +149176,7 @@
     "lastChanged": 1732721445000,
     "address": {
       "city": "Dubodiel",
+      "county": "District of Trenčín",
       "country": "Slovakia"
     },
     "osmTags": {
@@ -175699,6 +175730,7 @@
     "osmType": "node",
     "lastChanged": 1729179477000,
     "address": {
+      "city": "City of Schenectady",
       "county": "Schenectady County",
       "state": "New York",
       "country": "United States of America"
@@ -196204,10 +196236,7 @@
       "surveillance:zone": "traffic"
     },
     "operator": "Oregon Department of Transportation",
-    "url": "https://tripcheck.com/roadcams/cams/I-405%20at%20Fremont%20Top_pid4795.jpg",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://tripcheck.com/roadcams/cams/I-405%20at%20Fremont%20Top_pid4795.jpg"
   },
   {
     "lat": 56.9457379,
@@ -273356,7 +273385,6 @@
     "lastChanged": 1784471326000,
     "address": {
       "city": "New York",
-      "county": "Kings County",
       "state": "New York",
       "country": "United States of America"
     },
