@@ -38551,34 +38551,6 @@
     "url": "https://fr.webcams.travel/webcam/1527246318-vinon-south-vinon-aerodrome-lfnf-"
   },
   {
-    "lat": 43.5950282,
-    "lon": 5.170186,
-    "osmID": 6410397180,
-    "user": "cOSMografix",
-    "osmType": "node",
-    "lastChanged": 1747944255000,
-    "address": {
-      "city": "Lançon-Provence",
-      "county": "Bouches-du-Rhône",
-      "state": "Provence-Alpes-Côte d'Azur",
-      "country": "France"
-    },
-    "osmTags": {
-      "addr:city": "Lançon-Provence",
-      "camera:mount": "pole",
-      "camera:type": "dome",
-      "check_date": "2024-05-04",
-      "contact:webcam": "https://fr.webcams.travel/webcam/1351010005-Weather-Lan%C3%A7on-Provence-Autoroute-A7-pr%C3%A8s-de-Lan%C3%A7on-vue-orient%C3%A9e-vers-Lyon-Lan%C3%A7on-Provence",
-      "image": "https://images.webcams.travel/thumbnail/1351010005.jpg",
-      "man_made": "surveillance",
-      "name": "Lançon-Provence: Autoroute A7 près de Lançon vue orientée vers Lyon",
-      "surveillance": "public",
-      "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
-    },
-    "url": "https://fr.webcams.travel/webcam/1351010005-Weather-Lan%C3%A7on-Provence-Autoroute-A7-pr%C3%A8s-de-Lan%C3%A7on-vue-orient%C3%A9e-vers-Lyon-Lan%C3%A7on-Provence"
-  },
-  {
     "lat": 44.0683523,
     "lon": 7.2563698,
     "osmID": 6410397181,
@@ -161858,7 +161830,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://webtv.feratel.com/webtv/?cam=5590"
+    "url": "https://webtv.feratel.com/webtv/?cam=5590",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.0311129,
@@ -164501,9 +164476,9 @@
     "lon": 12.8548141,
     "direction": 220,
     "osmID": 11955327324,
-    "user": "Hannes HP",
+    "user": "Marvin-D",
     "osmType": "node",
-    "lastChanged": 1717488009000,
+    "lastChanged": 1792333557000,
     "address": {
       "city": "Ramsau bei Berchtesgaden",
       "county": "Landkreis Berchtesgadener Land",
@@ -164512,9 +164487,11 @@
     },
     "osmTags": {
       "camera:direction": "220",
+      "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.ramsau.de/webcam-luitpoldweg.html",
       "man_made": "surveillance",
+      "surveillance": "public",
       "surveillance:type": "camera"
     },
     "url": "https://www.ramsau.de/webcam-luitpoldweg.html"
@@ -206179,7 +206156,6 @@
     "lastChanged": 1737294690000,
     "address": {
       "city": "Humpolec",
-      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -209840,13 +209816,13 @@
     "url": "https://m.hak.hr/cam.asp?id=755"
   },
   {
-    "lat": 45.3389506,
-    "lon": 14.4704296,
+    "lat": 45.3389512,
+    "lon": 14.4704293,
     "direction": 150,
     "osmID": 12601920631,
-    "user": "pehar_11",
+    "user": "Badojo",
     "osmType": "node",
-    "lastChanged": 1740001015000,
+    "lastChanged": 1792331769000,
     "address": {
       "city": "Grad Rijeka",
       "county": "Primorje-Gorski Kotar County",
@@ -209866,13 +209842,13 @@
     "url": "https://m.hak.hr/cam.asp?id=757&t=1740000205264"
   },
   {
-    "lat": 45.3389448,
-    "lon": 14.4704012,
+    "lat": 45.3389452,
+    "lon": 14.470401,
     "direction": 340,
     "osmID": 12601920632,
-    "user": "pehar_11",
+    "user": "Badojo",
     "osmType": "node",
-    "lastChanged": 1740001015000,
+    "lastChanged": 1792331769000,
     "address": {
       "city": "Grad Rijeka",
       "county": "Primorje-Gorski Kotar County",
@@ -212228,7 +212204,6 @@
     "address": {
       "city": "Martonvásár",
       "county": "Fejér",
-      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -278789,6 +278764,7 @@
     "osmType": "node",
     "lastChanged": 1789835636000,
     "address": {
+      "city": "Cardiff",
       "county": "Cardiff",
       "state": "Wales",
       "country": "United Kingdom"
@@ -281337,5 +281313,27 @@
       "surveillance:zone": "outdoor"
     },
     "url": "https://webcams.whakapapa.com/farwesttbar/latest.jpg"
+  },
+  {
+    "lat": 40.520571,
+    "lon": 21.2628097,
+    "osmID": 14295879786,
+    "user": "lykosakis",
+    "osmType": "node",
+    "lastChanged": 1792314460000,
+    "address": {
+      "city": "Kastoria",
+      "county": "Kastoria Regional Unit",
+      "state": "Western Macedonia",
+      "country": "Greece"
+    },
+    "osmTags": {
+      "camera:type": "panning",
+      "contact:webcam": "https://kastoria.gr/cam/",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://kastoria.gr/cam/"
   }
 ]
