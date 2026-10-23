@@ -32079,7 +32079,6 @@
     "lastChanged": 1667032939000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -52387,7 +52386,6 @@
     "address": {
       "city": "Körmend",
       "county": "Vas",
-      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -63018,8 +63016,6 @@
     "lastChanged": 1593281579000,
     "address": {
       "city": "Chabičovice",
-      "county": "okres Český Krumlov",
-      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -69483,7 +69479,10 @@
       "surveillance:zone": "view"
     },
     "operator": "The Three Shires Inn",
-    "url": "https://www.threeshiresinn.co.uk/webcam"
+    "url": "https://www.threeshiresinn.co.uk/webcam",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 61.0794604,
@@ -241617,7 +241616,6 @@
     "osmType": "node",
     "lastChanged": 1763330055000,
     "address": {
-      "city": "Žilina",
       "state": "Region of Žilina",
       "country": "Slovakia"
     },
@@ -252225,6 +252223,7 @@
     "lastChanged": 1767045636000,
     "address": {
       "city": "Hulín",
+      "state": "Zlín Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -272261,9 +272260,9 @@
     "lon": -71.0234036,
     "direction": 165,
     "osmID": 13992730803,
-    "user": "MrChris223",
+    "user": "david9039",
     "osmType": "node",
-    "lastChanged": 1786848994000,
+    "lastChanged": 1792699286000,
     "address": {
       "city": "Quincy",
       "county": "Norfolk County",
@@ -272280,10 +272279,13 @@
       "man_made": "surveillance",
       "manufacturer": "Flock Safety",
       "manufacturer:wikidata": "Q108485435",
-      "surveillance": "public",
-      "surveillance:type": "camera",
+      "name": "Flock Falcon",
+      "operator": "Quincy Police Department",
+      "surveillance": "traffic",
+      "surveillance:type": "ALPR",
       "surveillance:zone": "traffic"
     },
+    "operator": "Quincy Police Department",
     "url": "https://www.flocksafety.com/",
     "lint": {
       "duplicate": true
