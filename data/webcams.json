@@ -2696,7 +2696,6 @@
     "address": {
       "city": "Barcs",
       "county": "Somogy",
-      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -22786,13 +22785,13 @@
     "url": "https://winterthur.roundshot.com/roterturm/#/"
   },
   {
-    "lat": 41.3462587,
-    "lon": 13.4431849,
+    "lat": 41.3462934,
+    "lon": 13.4431923,
     "direction": 15,
     "osmID": 4405851188,
-    "user": "wvdp",
+    "user": "Odiug",
     "osmType": "node",
-    "lastChanged": 1646734941000,
+    "lastChanged": 1792752219000,
     "address": {
       "city": "Fondi",
       "county": "Latina",
@@ -26304,7 +26303,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.lembeck.de/webcam-dorf/dorfbrunnen_kirche_lembeckerde.jpg"
+    "url": "https://www.lembeck.de/webcam-dorf/dorfbrunnen_kirche_lembeckerde.jpg",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.4365698,
@@ -105410,10 +105412,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
-    "url": "https://waterfrontmuseum.org/watch-live-ny-harbor-stream-waterfront-museum",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://waterfrontmuseum.org/watch-live-ny-harbor-stream-waterfront-museum"
   },
   {
     "lat": 51.1843592,
@@ -114661,9 +114660,9 @@
     "lon": 6.6579819,
     "direction": 292,
     "osmID": 9384286679,
-    "user": "JM-TL",
+    "user": "smartias",
     "osmType": "node",
-    "lastChanged": 1641069336000,
+    "lastChanged": 1792764487000,
     "address": {
       "city": "Borkum",
       "county": "Landkreis Leer",
@@ -114676,6 +114675,7 @@
       "camera:mount": "pole",
       "camera:recording": "online_streaming",
       "camera:type": "panning",
+      "check_date": "2026-10-23",
       "contact:webcam": "https://www.ag-ems.de/ausfluege/webcam-borkum",
       "height": "18",
       "man_made": "surveillance",
@@ -116215,7 +116215,7 @@
     "osmType": "node",
     "lastChanged": 1643377894000,
     "address": {
-      "city": "Palma de Mallorca",
+      "city": "Palma",
       "county": "Palma",
       "state": "Balearic Islands",
       "country": "Spain"
@@ -229461,7 +229461,6 @@
     "lastChanged": 1748496906000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -281591,5 +281590,92 @@
       "surveillance:zone": "area"
     },
     "url": "https://cameracontroluk.com/client/riverside/timelapse.html"
+  },
+  {
+    "lat": 39.8046891,
+    "lon": -3.4785286,
+    "osmID": 14312920138,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1792767376000,
+    "address": {
+      "city": "La Guardia",
+      "state": "Castile-La Mancha",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167606.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "A-4 PK 80+1 D",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "ref": "477",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/167606.jpg"
+  },
+  {
+    "lat": 39.7635222,
+    "lon": -3.4812416,
+    "osmID": 14312920139,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1792767376000,
+    "address": {
+      "city": "La Guardia",
+      "state": "Castile-La Mancha",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167604.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "A-4 PK 85+0 C",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "ref": "478",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/167604.jpg"
+  },
+  {
+    "lat": 39.7253792,
+    "lon": -3.4917977,
+    "osmID": 14312920140,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1792767376000,
+    "address": {
+      "city": "El Romeral",
+      "state": "Castile-La Mancha",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167601.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "A-4 PK 89+36D",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "ref": "479",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/167601.jpg"
   }
 ]
