@@ -12939,7 +12939,7 @@
     "lastChanged": 1729530081000,
     "address": {
       "city": "České Budějovice",
-      "state": "South Bohemian Region",
+      "county": "okres České Budějovice",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -18546,7 +18546,7 @@
     "osmType": "node",
     "lastChanged": 1427357679000,
     "address": {
-      "city": "Prato Carnico / Prât di Cjargne",
+      "city": "Prato Carnico",
       "county": "Udine",
       "state": "Friuli – Venezia Giulia",
       "country": "Italy"
@@ -30205,7 +30205,7 @@
     "osmType": "node",
     "lastChanged": 1514635875000,
     "address": {
-      "city": "Dalaas",
+      "city": "Zürs",
       "county": "Bezirk Bludenz",
       "state": "Vorarlberg",
       "country": "Austria"
@@ -53281,6 +53281,31 @@
       "surveillance:zone": "area"
     },
     "url": "https://www.nps.gov/customcf/webcam/dsp_webcam_image.cfm?id=81B46802-1DD8-B71B-0B3B619C8C1D1A09"
+  },
+  {
+    "lat": 50.2071035,
+    "lon": 6.4237973,
+    "osmID": 6584692783,
+    "user": "unsurv-org",
+    "osmType": "node",
+    "lastChanged": 1792854958000,
+    "address": {
+      "city": "Prüm",
+      "county": "Eifelkreis Bitburg-Prüm",
+      "state": "Rhineland-Palatinate",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "wall",
+      "camera:type": "dome",
+      "check_date": "2025-11-07",
+      "contact:webcam": "http://hahnplatz.de/",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "url": "http://hahnplatz.de/"
   },
   {
     "lat": 40.3923575,
@@ -86331,6 +86356,7 @@
     "osmType": "node",
     "lastChanged": 1625466455000,
     "address": {
+      "city": "Rolleston",
       "county": "Selwyn District",
       "state": "Canterbury",
       "country": "New Zealand"
@@ -96867,9 +96893,9 @@
     "lon": 10.5830884,
     "direction": 342,
     "osmID": 8908146195,
-    "user": "surveillance-mapper",
+    "user": "schneeleopardchen",
     "osmType": "node",
-    "lastChanged": 1625864105000,
+    "lastChanged": 1792850841000,
     "address": {
       "city": "Forchach",
       "county": "Bezirk Reutte",
@@ -96881,6 +96907,7 @@
       "camera:direction": "342",
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "check_date": "2026-10-24",
       "contact:webcam": "https://webcams.tirol.gv.at/b198/aktuell/cam2.jpg",
       "description": "IR night vision | Forchach Rchtg. Reutte B198 km 60.7",
       "height": "6",
@@ -96897,9 +96924,9 @@
     "lon": 10.5830914,
     "direction": 187,
     "osmID": 8908146197,
-    "user": "surveillance-mapper",
+    "user": "schneeleopardchen",
     "osmType": "node",
-    "lastChanged": 1625864105000,
+    "lastChanged": 1792850841000,
     "address": {
       "city": "Forchach",
       "county": "Bezirk Reutte",
@@ -96911,6 +96938,7 @@
       "camera:direction": "187",
       "camera:mount": "pole",
       "camera:type": "fixed",
+      "check_date": "2026-10-24",
       "contact:webcam": "https://webcams.tirol.gv.at/b198/aktuell/cam3.jpg",
       "description": "IR night vision | Forchach Rchtg. Steeg B198 km 60.7",
       "height": "6",
@@ -108050,7 +108078,7 @@
     "osmType": "node",
     "lastChanged": 1632308902000,
     "address": {
-      "city": "Nottingham",
+      "city": "Rushcliffe",
       "county": "Nottinghamshire",
       "state": "England",
       "country": "United Kingdom"
@@ -138837,10 +138865,11 @@
   {
     "lat": 47.8835422,
     "lon": 1.8622846,
+    "direction": 165,
     "osmID": 10675875461,
-    "user": "Eric Bie",
+    "user": "joyclem",
     "osmType": "node",
-    "lastChanged": 1676713549000,
+    "lastChanged": 1792852443000,
     "address": {
       "city": "Saint-Pryvé-Saint-Mesmin",
       "county": "Loiret",
@@ -138848,6 +138877,7 @@
       "country": "France"
     },
     "osmTags": {
+      "camera:direction": "165",
       "camera:mount": "pole",
       "camera:type": "fixed",
       "contact:webcam": "https://www.orleans-metropole.fr/dechets/tri-et-dechetteries?eID=citeos-flux&cam=saint-pryve-ve",
@@ -207745,7 +207775,6 @@
     "lastChanged": 1737295124000,
     "address": {
       "city": "Humpolec",
-      "state": "Vysočina Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -281677,5 +281706,115 @@
     },
     "operator": "Dirección General de Tráfico",
     "url": "https://etraffic.dgt.es/camarasEtraffic/167601.jpg"
+  },
+  {
+    "lat": 39.9099558,
+    "lon": -3.4763495,
+    "osmID": 14314870041,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1792828825000,
+    "address": {
+      "city": "Ocaña",
+      "state": "Castile-La Mancha",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/748.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "A-4 PK 67+5 C",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "ref": "441",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/748.jpg"
+  },
+  {
+    "lat": 39.889731,
+    "lon": -3.471468,
+    "osmID": 14314870042,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1792828825000,
+    "address": {
+      "city": "Dosbarrios",
+      "state": "Castile-La Mancha",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167599.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "A-4 PK 69+8 D",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "ref": "475",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/167599.jpg"
+  },
+  {
+    "lat": 39.8485788,
+    "lon": -3.4726686,
+    "osmID": 14314870043,
+    "user": "mojitopt",
+    "osmType": "node",
+    "lastChanged": 1792828825000,
+    "address": {
+      "city": "Dosbarrios",
+      "state": "Castile-La Mancha",
+      "country": "Spain"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "panning",
+      "contact:webcam": "https://etraffic.dgt.es/camarasEtraffic/167605.jpg",
+      "height": "10",
+      "man_made": "surveillance",
+      "name": "A-4 PK 74+55 C",
+      "operator": "Dirección General de Tráfico",
+      "operator:short": "DGT",
+      "ref": "476",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "Dirección General de Tráfico",
+    "url": "https://etraffic.dgt.es/camarasEtraffic/167605.jpg"
+  },
+  {
+    "lat": 45.9036329,
+    "lon": 6.1445556,
+    "direction": 160,
+    "osmID": 14316862361,
+    "user": "user_2735",
+    "osmType": "node",
+    "lastChanged": 1792877587000,
+    "address": {
+      "city": "Annecy",
+      "county": "Upper Savoy",
+      "state": "Auvergne-Rhône-Alpes",
+      "country": "France"
+    },
+    "osmTags": {
+      "camera:direction": "160",
+      "contact:webcam": "https://app.webcam-hd.com/annecy-tourisme/annecy-lac",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://app.webcam-hd.com/annecy-tourisme/annecy-lac"
   }
 ]
