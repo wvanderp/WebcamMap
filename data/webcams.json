@@ -3114,9 +3114,9 @@
     "lat": 42.355307,
     "lon": -71.05114,
     "osmID": 1408830293,
-    "user": "massDOT",
+    "user": "bburky",
     "osmType": "node",
-    "lastChanged": 1314038950000,
+    "lastChanged": 1792949343000,
     "address": {
       "city": "Boston",
       "county": "Suffolk County",
@@ -3125,6 +3125,8 @@
     },
     "osmTags": {
       "camera:features": "webcam",
+      "camera:type": "fixed",
+      "check_date": "2026-10-25",
       "contact:webcam": "http://www1.eot.state.ma.us/cam_updated_images/223.jpg",
       "description": "Area near the I-93 NB tunnel entrance, Atlantic & Northern Aves., Boston\r\n",
       "man_made": "surveillance",
@@ -15634,7 +15636,7 @@
     "osmType": "node",
     "lastChanged": 1424284260000,
     "address": {
-      "city": "Tarvisio / Tarvis / Trbiž",
+      "city": "Tarvisio",
       "county": "Udine",
       "state": "Friuli – Venezia Giulia",
       "country": "Italy"
@@ -55772,12 +55774,12 @@
     "url": "https://informo.madrid.es/cameras/Camara15318.jpg"
   },
   {
-    "lat": 40.4837241,
-    "lon": -3.6480873,
+    "lat": 40.4837124,
+    "lon": -3.6480967,
     "osmID": 6700454230,
-    "user": "b-jazz-bot",
+    "user": "mojitopt",
     "osmType": "node",
-    "lastChanged": 1771390931000,
+    "lastChanged": 1792918384000,
     "address": {
       "city": "Madrid",
       "state": "Community of Madrid",
@@ -66047,9 +66049,9 @@
     "lat": 48.8056339,
     "lon": 9.5273312,
     "osmID": 7836549550,
-    "user": "NickNicky",
+    "user": "Cock Surveillance",
     "osmType": "node",
-    "lastChanged": 1697517240000,
+    "lastChanged": 1792934276000,
     "address": {
       "city": "Schorndorf",
       "county": "Rems-Murr-Kreis",
@@ -66057,9 +66059,11 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:angle": "25",
       "camera:direction": "south",
       "camera:type": "fixed",
       "contact:webcam": "https://www.schorndorf.de/tools/webcams/webcam/marktplatz.jpg",
+      "height": "10",
       "man_made": "surveillance",
       "name": "Schorndorf:Marktplatz",
       "surveillance": "public",
@@ -67357,7 +67361,6 @@
     "address": {
       "city": "Csopak",
       "county": "Veszprém",
-      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -87783,7 +87786,6 @@
     "osmType": "node",
     "lastChanged": 1661561520000,
     "address": {
-      "city": "Kaiapoi",
       "county": "Waimakariri District",
       "state": "Canterbury",
       "country": "New Zealand"
@@ -205796,9 +205798,9 @@
     "lat": 47.4663397,
     "lon": -121.9315058,
     "osmID": 12391441403,
-    "user": "numbs",
+    "user": "uint_nate",
     "osmType": "node",
-    "lastChanged": 1733164234000,
+    "lastChanged": 1792982677000,
     "address": {
       "county": "King County",
       "state": "Washington",
@@ -205809,8 +205811,10 @@
       "camera:type": "panning",
       "contact:webcam": "https://images.wsdot.wa.gov/nw/018vc02357.jpg",
       "man_made": "surveillance",
-      "name": "SR 18 TIGER MTN SUMMIT",
+      "name": "SR 18 Tiger Mountain Summit",
       "operator": "Washington State Department of Transportation",
+      "operator:short": "WSDOT",
+      "operator:type": "government",
       "operator:wikidata": "Q834834",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -236405,13 +236409,13 @@
     "url": "https://camera.acsaintdie.fr/hangar"
   },
   {
-    "lat": 38.4598066,
-    "lon": -109.8209098,
+    "lat": 38.4597972,
+    "lon": -109.8208713,
     "direction": 90,
     "osmID": 13031926760,
-    "user": "pluton_od",
+    "user": "tcarlisle",
     "osmType": "node",
-    "lastChanged": 1753720321000,
+    "lastChanged": 1792991043000,
     "address": {
       "county": "San Juan County",
       "state": "Utah",
@@ -281085,7 +281089,7 @@
     "osmID": 14268840822,
     "user": "Cock Surveillance",
     "osmType": "node",
-    "lastChanged": 1791573191000,
+    "lastChanged": 1792934295000,
     "address": {
       "city": "Schorndorf",
       "county": "Rems-Murr-Kreis",
@@ -281093,10 +281097,12 @@
       "country": "Germany"
     },
     "osmTags": {
+      "camera:angle": "30",
       "camera:direction": "270",
       "camera:mount": "wall",
       "camera:type": "fixed",
       "contact:webcam": "https://schorndorf.bau-kamera.eu/",
+      "height": "10",
       "man_made": "surveillance",
       "surveillance": "webcam",
       "surveillance:type": "camera",
@@ -281816,5 +281822,57 @@
       "surveillance:type": "camera"
     },
     "url": "https://app.webcam-hd.com/annecy-tourisme/annecy-lac"
+  },
+  {
+    "lat": 48.915541,
+    "lon": 13.0342327,
+    "osmID": 14317757969,
+    "user": "APneunzehn74",
+    "osmType": "node",
+    "lastChanged": 1792917286000,
+    "address": {
+      "city": "Bischofsmais",
+      "county": "Landkreis Regen",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "contact:webcam": "https://www.landshuter.haus/",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "outdoor"
+    },
+    "url": "https://www.landshuter.haus/",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 48.9158065,
+    "lon": 13.0346718,
+    "osmID": 14317757970,
+    "user": "APneunzehn74",
+    "osmType": "node",
+    "lastChanged": 1792917286000,
+    "address": {
+      "city": "Bischofsmais",
+      "county": "Landkreis Regen",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "contact:webcam": "https://www.landshuter.haus/",
+      "man_made": "surveillance",
+      "surveillance": "outdoor",
+      "surveillance:type": "camera",
+      "surveillance:zone": "outdoor"
+    },
+    "url": "https://www.landshuter.haus/",
+    "lint": {
+      "duplicate": true
+    }
   }
 ]
