@@ -52251,21 +52251,20 @@
     "expires": 1795223008
   },
   "37.0884175,-113.5567845": {
-    "place_id": 413194766,
+    "place_id": 322121087,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 10200553,
-    "lat": "37.0883780",
-    "lon": "-113.5570506",
-    "class": "place",
-    "type": "house",
-    "place_rank": 30,
-    "importance": 0.00000999999999995449,
-    "addresstype": "place",
-    "name": "",
-    "display_name": "1233, River Road, Bloomington Hills, St. George, Washington County, Utah, 84790, United States",
+    "osm_id": 944726836,
+    "lat": "37.0884055",
+    "lon": "-113.5569714",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.05339140077821008,
+    "addresstype": "primary",
+    "name": "River Road",
+    "display_name": "River Road, Bloomington Hills, St. George, Washington County, Utah, 84790, United States",
     "address": {
-      "house_number": "1233",
       "road": "River Road",
       "suburb": "Bloomington Hills",
       "city": "St. George",
@@ -52276,14 +52275,19 @@
       "country": "United States",
       "country_code": "us"
     },
-    "extratags": null,
+    "extratags": {
+      "lanes": "5",
+      "surface": "asphalt",
+      "maxspeed": "40 mph",
+      "smoothness": "excellent"
+    },
     "boundingbox": [
-      "37.0883280",
-      "37.0884280",
-      "-113.5571006",
-      "-113.5570006"
+      "37.0869078",
+      "37.0887637",
+      "-113.5569880",
+      "-113.5565598"
     ],
-    "expires": 1793249175
+    "expires": 1796856985
   },
   "37.0889082,-113.5573694": {
     "place_id": 320802771,
@@ -86803,7 +86807,7 @@
     "expires": 1796472455
   },
   "39.9105055,-105.1655488": {
-    "place_id": 426428720,
+    "place_id": 427366525,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1455064179,
@@ -86813,15 +86817,16 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.05337333409628439,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "CO 128",
-    "display_name": "CO 128, Superior, Jefferson County, Colorado, United States",
+    "display_name": "CO 128, Superior, Jefferson County, Colorado, 80021, United States",
     "address": {
       "road": "CO 128",
       "town": "Superior",
       "county": "Jefferson County",
       "state": "Colorado",
       "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80021",
       "country": "United States",
       "country_code": "us"
     },
@@ -86841,7 +86846,7 @@
       "-105.1657263",
       "-105.1653129"
     ],
-    "expires": 1793198527
+    "expires": 1796905042
   },
   "39.9126829,-105.1545053": {
     "place_id": 426428723,
@@ -93149,7 +93154,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.05337838330663001,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "West Schuylkill Road",
     "display_name": "West Schuylkill Road, Pottstown Landing, North Coventry Township, Chester County, Pennsylvania, 19465, United States",
     "address": {
@@ -93177,7 +93182,7 @@
       "-75.6620900",
       "-75.6590475"
     ],
-    "expires": 1793176422
+    "expires": 1796870548
   },
   "40.2391736,-75.6584468": {
     "place_id": 358355378,
@@ -105553,7 +105558,7 @@
     "expires": 1795230892
   },
   "40.439426,-3.7262472": {
-    "place_id": 294838143,
+    "place_id": 294277453,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 12676036880,
@@ -105584,7 +105589,7 @@
       "-3.7259771",
       "-3.7258771"
     ],
-    "expires": 1793212064
+    "expires": 1796907110
   },
   "40.4399926,-3.7265281": {
     "place_id": 293595751,
@@ -115695,7 +115700,7 @@
     "place_id": 392837225,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 157880543,
+    "osm_id": 15816607,
     "lat": "40.7523430",
     "lon": "-92.8623960",
     "class": "place",
@@ -115704,11 +115709,12 @@
     "importance": 0.00000999999999995449,
     "addresstype": "place",
     "name": "",
-    "display_name": "20101, IA 5, Centerville, Appanoose County, Iowa, 52544, United States",
+    "display_name": "20101, IA 5, Centerville, Vermillion Township, Appanoose County, Iowa, 52544, United States",
     "address": {
       "house_number": "20101",
       "road": "IA 5",
       "town": "Centerville",
+      "municipality": "Vermillion Township",
       "county": "Appanoose County",
       "state": "Iowa",
       "ISO3166-2-lvl4": "US-IA",
@@ -115723,7 +115729,7 @@
       "-92.8624460",
       "-92.8623460"
     ],
-    "expires": 1793219738
+    "expires": 1796927393
   },
   "40.7534858,-92.8613359": {
     "place_id": 372607874,
@@ -119369,27 +119375,27 @@
     "expires": 1795467161
   },
   "41.0183451,-74.4011997": {
-    "place_id": 357697373,
+    "place_id": 356767718,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 11720315,
-    "lat": "41.0179096",
-    "lon": "-74.4015139",
+    "osm_id": 28902125,
+    "lat": "41.0191438",
+    "lon": "-74.4009977",
     "class": "highway",
     "type": "trunk",
     "place_rank": 26,
-    "importance": 0.053379472800793436,
-    "addresstype": "road",
+    "importance": 0.05338177080949107,
+    "addresstype": "trunk",
     "name": "NJ 23",
-    "display_name": "NJ 23, Green Pond Junction, Kinnelon, Morris County, New Jersey, 07405, United States",
+    "display_name": "NJ 23, Smiths Mills, West Milford, Passaic County, New Jersey, 07480, United States",
     "address": {
       "road": "NJ 23",
-      "hamlet": "Green Pond Junction",
-      "village": "Kinnelon",
-      "county": "Morris County",
+      "hamlet": "Smiths Mills",
+      "town": "West Milford",
+      "county": "Passaic County",
       "state": "New Jersey",
       "ISO3166-2-lvl4": "US-NJ",
-      "postcode": "07405",
+      "postcode": "07480",
       "country": "United States",
       "country_code": "us"
     },
@@ -119403,12 +119409,12 @@
       "hgv:state_network": "yes"
     },
     "boundingbox": [
-      "41.0135580",
-      "41.0248730",
-      "-74.4089965",
-      "-74.3894716"
+      "41.0124362",
+      "41.0260151",
+      "-74.4081880",
+      "-74.3731747"
     ],
-    "expires": 1793180439
+    "expires": 1796962326
   },
   "41.0275,-74.24999": {
     "place_id": 357466404,
@@ -146875,7 +146881,7 @@
     "expires": 1795274833
   },
   "42.8749655,-0.5550469": {
-    "place_id": 290718788,
+    "place_id": 292275927,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 48614559,
@@ -146885,7 +146891,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.0533982673380636,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "Route Nationale",
     "display_name": "Route Nationale, Urdos, Oloron-Sainte-Marie, Pyrénées-Atlantiques, Nouvelle-Aquitaine, Metropolitan France, 64490, France",
     "address": {
@@ -146915,7 +146921,7 @@
       "-0.5575618",
       "-0.5549276"
     ],
-    "expires": 1793237045
+    "expires": 1796908808
   },
   "42.8752933,-77.2721565": {
     "place_id": 353498795,
@@ -151779,7 +151785,7 @@
       "-77.4406930",
       "-77.4405930"
     ],
-    "expires": 1793200676
+    "expires": 1796817479
   },
   "43.1030334,-76.2078412": {
     "place_id": 352583981,
@@ -175309,7 +175315,7 @@
     "expires": 1795444820
   },
   "44.8096551,-91.502886": {
-    "place_id": 417584694,
+    "place_id": 417209868,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1511912023,
@@ -175342,7 +175348,7 @@
       "-91.5028684",
       "-91.5007785"
     ],
-    "expires": 1793231742
+    "expires": 1796846520
   },
   "44.813404,1.101673": {
     "place_id": 86185447,
@@ -191963,6 +191969,49 @@
       "-91.2594779"
     ],
     "expires": 1795387832
+  },
+  "45.4527091,-66.3477883": {
+    "place_id": 362921388,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 249272983,
+    "lat": "45.4528071",
+    "lon": "-66.3475179",
+    "class": "highway",
+    "type": "motorway",
+    "place_rank": 26,
+    "importance": 0.0533433333333333,
+    "addresstype": "motorway",
+    "name": "Welsford Bypass",
+    "display_name": "Welsford Bypass, Welsford, Westfield Parish, Petersville Parish, Fundy Rural District, Queens County, New Brunswick, E5K 3Y7, Canada",
+    "address": {
+      "road": "Welsford Bypass",
+      "hamlet": "Welsford",
+      "suburb": "Welsford",
+      "city_district": "Westfield Parish",
+      "city": "Petersville Parish",
+      "county": "Fundy Rural District",
+      "state": "New Brunswick",
+      "ISO3166-2-lvl4": "CA-NB",
+      "postcode": "E5K 3Y7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "NHS": "yes",
+      "foot": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "bicycle": "yes",
+      "maxspeed": "100"
+    },
+    "boundingbox": [
+      "45.4008902",
+      "45.4551964",
+      "-66.3480056",
+      "-66.3105595"
+    ],
+    "expires": 1796884189
   },
   "45.4559246,-75.5800538": {
     "place_id": 363750556,
@@ -208607,7 +208656,7 @@
     "expires": 1795380501
   },
   "46.3085011,9.7418605": {
-    "place_id": 73974790,
+    "place_id": 73988459,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5088373387,
@@ -208642,7 +208691,7 @@
       "9.7417222",
       "9.7418222"
     ],
-    "expires": 1793185604
+    "expires": 1796907371
   },
   "46.3122366,9.7427665": {
     "place_id": 73745368,
@@ -333396,7 +333445,7 @@
       "6.0141047",
       "6.0142047"
     ],
-    "expires": 1793248421
+    "expires": 1796917645
   },
   "50.7747319,6.0838593": {
     "place_id": 117176413,
@@ -401551,7 +401600,7 @@
     "expires": 1795239099
   },
   "62.2426575,25.7475756": {
-    "place_id": 168613288,
+    "place_id": 168398113,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1056917727,
@@ -401587,7 +401636,7 @@
       "25.7475756",
       "25.7481030"
     ],
-    "expires": 1793233083
+    "expires": 1796867993
   },
   "62.260669,8.201148": {
     "place_id": 161066808,
