@@ -23209,13 +23209,13 @@
   {
     "type": "node",
     "id": 5173519234,
-    "lat": 48.3985504,
-    "lon": 9.9834652,
-    "timestamp": "2026-07-17T12:17:43Z",
-    "version": 4,
-    "changeset": 185902085,
-    "user": "oz42",
-    "uid": 20098342,
+    "lat": 48.3985507,
+    "lon": 9.9834648,
+    "timestamp": "2026-10-30T14:34:31Z",
+    "version": 5,
+    "changeset": 191241194,
+    "user": "filiore",
+    "uid": 22301001,
     "tags": {
       "camera:mount": "pole",
       "camera:type": "fixed",
@@ -66614,6 +66614,26 @@
       "surveillance": "webcam",
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
+    }
+  },
+  {
+    "type": "node",
+    "id": 8853447944,
+    "lat": 50.4129608,
+    "lon": 16.1218762,
+    "timestamp": "2026-10-30T09:55:41Z",
+    "version": 5,
+    "changeset": 191229522,
+    "user": "LEONpilot",
+    "uid": 24627959,
+    "tags": {
+      "aeroway": "aerodrome",
+      "contact:webcam": "https://www.aknachod.cz/webkamera_rwy_31/;https://www.aknachod.cz/rukav/",
+      "internet_access": "no",
+      "local_ref": "LKNACH",
+      "name": "Náchod",
+      "operator": "Aeroklub Náchod",
+      "website": "https://www.aknachod.cz/"
     }
   },
   {
@@ -230018,6 +230038,29 @@
   },
   {
     "type": "node",
+    "id": 14181643791,
+    "lat": 48.4012719,
+    "lon": 9.9875636,
+    "timestamp": "2026-10-30T14:34:31Z",
+    "version": 2,
+    "changeset": 191241194,
+    "user": "filiore",
+    "uid": 22301001,
+    "tags": {
+      "camera:angle": "13",
+      "camera:direction": "228",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ulm.de/sonderseiten/webcams",
+      "height": "6.92",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    }
+  },
+  {
+    "type": "node",
     "id": 14182264140,
     "lat": 29.6491605,
     "lon": -82.333979,
@@ -232067,6 +232110,46 @@
     }
   },
   {
+    "type": "node",
+    "id": 14333849533,
+    "lat": 48.3945795,
+    "lon": 9.9804446,
+    "timestamp": "2026-10-30T14:34:31Z",
+    "version": 1,
+    "changeset": 191241194,
+    "user": "filiore",
+    "uid": 22301001,
+    "tags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://time57674.timelapse.live-doku.tv/latest.php?breite=1200&showDateOnImage=true&camID=9",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    }
+  },
+  {
+    "type": "node",
+    "id": 14334269091,
+    "lat": 50.2173753,
+    "lon": 12.7754456,
+    "timestamp": "2026-10-30T16:52:53Z",
+    "version": 1,
+    "changeset": 191247072,
+    "user": "LEONpilot",
+    "uid": 24627959,
+    "tags": {
+      "contact:webcam": "https://lmkhory.cz/webcam/hory2",
+      "leisure": "pitch",
+      "name": "Modelářská plocha LMK Hory",
+      "operator": "LMK Hory",
+      "source": "lmkhory.cz (stránka Kde nás najdete: GPS) a mk02ostrov.wbs.cz (soutěže 2026)",
+      "sport": "model_aerodrome",
+      "website": "https://www.lmkhory.cz/"
+    }
+  },
+  {
     "type": "way",
     "id": 4842050,
     "timestamp": "2026-06-25T05:33:36Z",
@@ -232952,6 +233035,49 @@
   },
   {
     "type": "way",
+    "id": 80259774,
+    "timestamp": "2026-10-30T14:21:11Z",
+    "version": 4,
+    "changeset": 191240628,
+    "user": "LEONpilot",
+    "uid": 24627959,
+    "center": {
+      "lat": 49.1694454,
+      "lon": 17.5306571
+    },
+    "nodes": [
+      9592669264,
+      9592669265,
+      9592669266,
+      4118931378,
+      4118931262,
+      4118931260,
+      4118931261,
+      4118931267,
+      4118931268,
+      4118931269,
+      4118931280,
+      4118931491,
+      4118931496,
+      4118931505,
+      4118931527,
+      936770970,
+      4118931536,
+      9592669264
+    ],
+    "tags": {
+      "contact:webcam": "https://www.mdkpohorelice.cz/airport/",
+      "landuse": "grass",
+      "leisure": "pitch",
+      "name": "Modelářské letiště",
+      "operator": "MDK Pohořelice",
+      "source": "survey",
+      "sport": "model_aerodrome",
+      "website": "https://modelari.estranky.cz/"
+    }
+  },
+  {
+    "type": "way",
     "id": 81105358,
     "timestamp": "2021-05-03T16:34:50Z",
     "version": 14,
@@ -233692,6 +233818,51 @@
       "ref:vatin": "IT02698370034",
       "tents": "yes",
       "tourism": "camp_site"
+    }
+  },
+  {
+    "type": "way",
+    "id": 133287689,
+    "timestamp": "2026-10-30T07:16:46Z",
+    "version": 5,
+    "changeset": 191223988,
+    "user": "LEONpilot",
+    "uid": 24627959,
+    "center": {
+      "lat": 50.3638872,
+      "lon": 16.1114968
+    },
+    "nodes": [
+      1467147205,
+      1467147243,
+      1467147285,
+      1467147322,
+      1467147321,
+      1467147289,
+      1467147293,
+      1467147278,
+      1467147269,
+      7143296800,
+      1467147246,
+      1467147203,
+      1467147201,
+      7143296797,
+      1467147198,
+      1467147156,
+      1467147166,
+      7143296795,
+      1467147240,
+      1467147249,
+      7143296794,
+      1467147205
+    ],
+    "tags": {
+      "aeroway": "aerodrome",
+      "contact:webcam": "https://www.aknm.cz/kamery/",
+      "ele": "305",
+      "icao": "LKNM",
+      "name": "Letiště Nové Město",
+      "website": "https://aknm.cz/"
     }
   },
   {
@@ -234808,6 +234979,44 @@
       "contact:website": "http://www.kunsteisbahn-wiedenfelsen.de/",
       "name": "Kunsteisbahn am Wiedenfelsen",
       "phone": "+49 7226 282"
+    }
+  },
+  {
+    "type": "way",
+    "id": 302643043,
+    "timestamp": "2026-10-30T13:57:31Z",
+    "version": 8,
+    "changeset": 191239566,
+    "user": "LEONpilot",
+    "uid": 24627959,
+    "center": {
+      "lat": 49.0805655,
+      "lon": 16.3544016
+    },
+    "nodes": [
+      3068934372,
+      3068934352,
+      3068934346,
+      3068934336,
+      3068934370,
+      3068934377,
+      3068934384,
+      3068934390,
+      3068934394,
+      3068934396,
+      3068934398,
+      3068934395,
+      3068934393,
+      3068934381,
+      3068934372
+    ],
+    "tags": {
+      "contact:webcam": "https://live.czechheaven.cz/",
+      "leisure": "pitch",
+      "name": "Czech Heaven",
+      "sport": "model_aerodrome",
+      "surface": "grass",
+      "website": "https://www.czechheaven.cz/"
     }
   },
   {

@@ -28549,13 +28549,13 @@
     "url": "http://www.vmr.gov.ua/TransparentCity/Lists/Webcams/ShowContent.aspx?ID=8"
   },
   {
-    "lat": 48.3985504,
-    "lon": 9.9834652,
+    "lat": 48.3985507,
+    "lon": 9.9834648,
     "direction": 45,
     "osmID": 5173519234,
-    "user": "oz42",
+    "user": "filiore",
     "osmType": "node",
-    "lastChanged": 1784290663000,
+    "lastChanged": 1793370871000,
     "address": {
       "city": "Ulm",
       "state": "Baden-Württemberg",
@@ -81410,6 +81410,30 @@
       "surveillance:zone": "harbour"
     },
     "url": "http://tsftp.no/Trondheim/k13_30.jpg"
+  },
+  {
+    "lat": 50.4129608,
+    "lon": 16.1218762,
+    "osmID": 8853447944,
+    "user": "LEONpilot",
+    "osmType": "node",
+    "lastChanged": 1793354141000,
+    "address": {
+      "city": "Kramolna",
+      "state": "Hradec Králové Region",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "aeroway": "aerodrome",
+      "contact:webcam": "https://www.aknachod.cz/webkamera_rwy_31/;https://www.aknachod.cz/rukav/",
+      "internet_access": "no",
+      "local_ref": "LKNACH",
+      "name": "Náchod",
+      "operator": "Aeroklub Náchod",
+      "website": "https://www.aknachod.cz/"
+    },
+    "operator": "Aeroklub Náchod",
+    "url": "https://www.aknachod.cz/webkamera_rwy_31/;https://www.aknachod.cz/rukav/"
   },
   {
     "lat": 39.1980208,
@@ -273603,7 +273627,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://www.ulm.de/sonderseiten/webcams"
+    "url": "https://www.ulm.de/sonderseiten/webcams",
+    "lint": {
+      "duplicate": true
+    }
   },
   {
     "lat": 34.418219,
@@ -279526,6 +279553,36 @@
     "url": "https://www.lvt.com/retail-security"
   },
   {
+    "lat": 48.4012719,
+    "lon": 9.9875636,
+    "direction": 228,
+    "osmID": 14181643791,
+    "user": "filiore",
+    "osmType": "node",
+    "lastChanged": 1793370871000,
+    "address": {
+      "city": "Ulm",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:angle": "13",
+      "camera:direction": "228",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.ulm.de/sonderseiten/webcams",
+      "height": "6.92",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://www.ulm.de/sonderseiten/webcams",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 29.6491605,
     "lon": -82.333979,
     "osmID": 14182264140,
@@ -282081,5 +282138,53 @@
       "surveillance:zone": "traffic"
     },
     "url": "https://511.gnb.ca/map/Cctv/46?t=1793238165"
+  },
+  {
+    "lat": 48.3945795,
+    "lon": 9.9804446,
+    "osmID": 14333849533,
+    "user": "filiore",
+    "osmType": "node",
+    "lastChanged": 1793370871000,
+    "address": {
+      "city": "Ulm",
+      "state": "Baden-Württemberg",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://time57674.timelapse.live-doku.tv/latest.php?breite=1200&showDateOnImage=true&camID=9",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://time57674.timelapse.live-doku.tv/latest.php?breite=1200&showDateOnImage=true&camID=9"
+  },
+  {
+    "lat": 50.2173753,
+    "lon": 12.7754456,
+    "osmID": 14334269091,
+    "user": "LEONpilot",
+    "osmType": "node",
+    "lastChanged": 1793379173000,
+    "address": {
+      "city": "Hory",
+      "county": "okres Karlovy Vary",
+      "state": "Karlovy Vary Region",
+      "country": "Czech Republic"
+    },
+    "osmTags": {
+      "contact:webcam": "https://lmkhory.cz/webcam/hory2",
+      "leisure": "pitch",
+      "name": "Modelářská plocha LMK Hory",
+      "operator": "LMK Hory",
+      "source": "lmkhory.cz (stránka Kde nás najdete: GPS) a mk02ostrov.wbs.cz (soutěže 2026)",
+      "sport": "model_aerodrome",
+      "website": "https://www.lmkhory.cz/"
+    },
+    "operator": "LMK Hory",
+    "url": "https://lmkhory.cz/webcam/hory2"
   }
 ]
