@@ -13653,7 +13653,7 @@
     "osmID": 2362412613,
     "user": "brendan77",
     "osmType": "node",
-    "lastChanged": 1743027815000,
+    "lastChanged": 1793592618000,
     "address": {
       "county": "Summit County",
       "state": "Colorado",
@@ -13662,6 +13662,7 @@
     "osmTags": {
       "camera:direction": "175",
       "camera:type": "fixed",
+      "check_date": "2026-10-31",
       "contact:webcam": "https://player.brownrice.com/embed/keystoneriverrun",
       "man_made": "surveillance",
       "name": "River Run Webcam",
@@ -23301,7 +23302,10 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://nimbus.elte.hu/webcam.html"
+    "url": "http://nimbus.elte.hu/webcam.html",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.9551871,
@@ -62478,7 +62482,7 @@
     "osmType": "node",
     "lastChanged": 1793458354000,
     "address": {
-      "city": "Donji Varoš",
+      "city": "Stara Gradiška",
       "county": "Brod-Posavina County",
       "country": "Croatia"
     },
@@ -207446,7 +207450,7 @@
     "osmID": 12472677578,
     "user": "brendan77",
     "osmType": "node",
-    "lastChanged": 1761601173000,
+    "lastChanged": 1793592618000,
     "address": {
       "county": "Summit County",
       "state": "Colorado",
@@ -207455,7 +207459,7 @@
     "osmTags": {
       "camera:direction": "250",
       "camera:type": "fixed",
-      "check_date": "2025-10-26",
+      "check_date": "2026-10-31",
       "contact:webcam": "https://player.brownrice.com/embed/keystonedercum",
       "man_made": "surveillance",
       "name": "Summit House Webcam",
@@ -273581,6 +273585,28 @@
     "url": "https://webcams.transport.nsw.gov.au/livetraffic-webcams/cameras/seven_hills_road_seven_hills.jpeg"
   },
   {
+    "lat": 45.3962472,
+    "lon": -75.7608735,
+    "osmID": 14050021632,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance:type": "camera"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 42.9633518,
     "lon": -123.8475584,
     "osmID": 14053198387,
@@ -282190,5 +282216,396 @@
     },
     "operator": "LMK Hory",
     "url": "https://lmkhory.cz/webcam/hory2"
+  },
+  {
+    "lat": 45.3068333,
+    "lon": -75.7084298,
+    "osmID": 14337831682,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4660717,
+    "lon": -75.5424664,
+    "osmID": 14337831683,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2745461,
+    "lon": -75.8690476,
+    "osmID": 14337831684,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4520939,
+    "lon": -75.4772703,
+    "osmID": 14337831685,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3965182,
+    "lon": -75.7286269,
+    "osmID": 14337831686,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2709254,
+    "lon": -75.9746434,
+    "osmID": 14337831687,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4472848,
+    "lon": -75.6255731,
+    "osmID": 14337831688,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2876523,
+    "lon": -75.8677921,
+    "osmID": 14337831689,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4146821,
+    "lon": -75.6074871,
+    "osmID": 14337831690,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4114035,
+    "lon": -75.6873952,
+    "osmID": 14337831691,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3386517,
+    "lon": -75.9120265,
+    "osmID": 14337831692,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3097409,
+    "lon": -75.9178783,
+    "osmID": 14337831693,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3921464,
+    "lon": -75.7539548,
+    "osmID": 14337831694,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3584653,
+    "lon": -75.9367874,
+    "osmID": 14337831695,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4191867,
+    "lon": -75.6344833,
+    "osmID": 14337831696,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793520175000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": -33.3515334,
+    "lon": -70.3123895,
+    "direction": 45,
+    "osmID": 14339338733,
+    "user": "GustavoE",
+    "osmType": "node",
+    "lastChanged": 1793565122000,
+    "address": {
+      "county": "Provincia de Santiago",
+      "state": "Santiago Metropolitan Region",
+      "country": "Chile"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "fixed",
+      "contact:webcam": "https://www.youtube.com/@ElAlemanDeFarellones/streams",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "surveillance:zone": "area"
+    },
+    "url": "https://www.youtube.com/@ElAlemanDeFarellones/streams",
+    "lint": {
+      "youtube": true
+    }
   }
 ]
