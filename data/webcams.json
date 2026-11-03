@@ -133562,7 +133562,10 @@
       "surveillance:zone": "area"
     },
     "operator": "Stadt Kempen",
-    "url": "https://kempen.de/de/inhalt/webcam-amp-wetter/"
+    "url": "https://kempen.de/de/inhalt/webcam-amp-wetter/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 45.4760235,
@@ -154886,10 +154889,7 @@
       "man_made": "surveillance",
       "surveillance": "webcam"
     },
-    "url": "https://kamera.hrych.cz/?kamera=rakovniknasekyre",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://kamera.hrych.cz/?kamera=rakovniknasekyre"
   },
   {
     "lat": 50.1032403,
@@ -201502,7 +201502,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://webtv.feratel.com/webtv/?cam=6110"
+    "url": "https://webtv.feratel.com/webtv/?cam=6110",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 46.3337036,
@@ -249695,6 +249698,7 @@
     "operator": "Collège Victor Hugo",
     "url": "ttp://col71-victorhugo.ac-dijon.fr",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -282606,6 +282610,61 @@
     "url": "https://www.youtube.com/@ElAlemanDeFarellones/streams",
     "lint": {
       "youtube": true
+    }
+  },
+  {
+    "lat": 45.4508004,
+    "lon": -75.4820684,
+    "osmID": 14342153099,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793642081000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "description": "Brian Coburn & Tenth Line",
+      "man_made": "surveillance",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4114401,
+    "lon": -75.7056154,
+    "osmID": 14342153100,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793642081000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "description": "Bronson & Somerset",
+      "man_made": "surveillance",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
     }
   }
 ]
