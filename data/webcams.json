@@ -23036,7 +23036,6 @@
     "lastChanged": 1778962729000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -23302,10 +23301,7 @@
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "http://nimbus.elte.hu/webcam.html",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://nimbus.elte.hu/webcam.html"
   },
   {
     "lat": 47.9551871,
@@ -135762,6 +135758,34 @@
     "url": "https://inforoute.hautes-alpes.fr"
   },
   {
+    "lat": 47.523249,
+    "lon": -122.030712,
+    "osmID": 10167711860,
+    "user": "numbs",
+    "osmType": "node",
+    "lastChanged": 1793746884000,
+    "address": {
+      "city": "Issaquah",
+      "county": "King County",
+      "state": "Washington",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "panning",
+      "contact:webcam": "https://products.issaquahwa.gov/cams/2ndAve_IHS.jpg",
+      "man_made": "surveillance",
+      "operator": "City of Issaquah",
+      "operator:type": "government",
+      "operator:wikidata": "Q40251",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Issaquah",
+    "url": "https://products.issaquahwa.gov/cams/2ndAve_IHS.jpg"
+  },
+  {
     "lat": 51.1662789,
     "lon": 8.3308768,
     "direction": 240,
@@ -143484,7 +143508,7 @@
     "osmID": 10977329201,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732681157000,
+    "lastChanged": 1793747529000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143497,6 +143521,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/Maple12th_NW.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -143509,9 +143534,9 @@
     "lat": 47.5412743,
     "lon": -122.0577283,
     "osmID": 10977329202,
-    "user": "uint_nate",
+    "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1789787967000,
+    "lastChanged": 1793747529000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143525,6 +143550,7 @@
       "man_made": "surveillance",
       "name": "Newport/12th",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -143537,9 +143563,9 @@
     "lat": 47.5457212,
     "lon": -122.05766,
     "osmID": 10977329203,
-    "user": "uint_nate",
+    "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1789787967000,
+    "lastChanged": 1793747529000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143553,6 +143579,7 @@
       "man_made": "surveillance",
       "name": "Gilman/12th",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -143565,9 +143592,9 @@
     "lat": 47.5486206,
     "lon": -122.0614097,
     "osmID": 10977393845,
-    "user": "Lumikeiju",
+    "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1723578013000,
+    "lastChanged": 1793747966000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143584,6 +143611,7 @@
       "material": "metal",
       "operator": "Washington State Department of Transportation",
       "operator:short": "WSDOT",
+      "operator:type": "government",
       "operator:wikidata": "Q834834",
       "ref:US-WA:WSDOT": "I90SR900",
       "surveillance": "public",
@@ -143688,9 +143716,9 @@
     "lat": 47.5411023,
     "lon": -122.0613427,
     "osmID": 10977393849,
-    "user": "uint_nate",
+    "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1789934792000,
+    "lastChanged": 1793747529000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143704,6 +143732,7 @@
       "man_made": "surveillance",
       "name": "Newport/Transit",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -143718,7 +143747,7 @@
     "osmID": 10979332978,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1686854227000,
+    "lastChanged": 1793747529000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143731,6 +143760,8 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/Newport_WayMaple_NW.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
+      "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
@@ -143957,7 +143988,7 @@
     "osmID": 10981394579,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793745943000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143970,6 +144001,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/Highlands_DR_Blacknugget.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -143984,7 +144016,7 @@
     "osmID": 10981394580,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793745943000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -143997,6 +144029,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/IFCRBlk_Nugget_Rd.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -144040,7 +144073,7 @@
     "osmID": 10981394879,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793746193000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -144052,7 +144085,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://products.issaquahwa.gov/cams/Highland_D_Dr_9th.jpg",
       "man_made": "surveillance",
-      "name": "HIGHLANDS/DISCOVERY",
+      "name": "Highlands/Discovery",
       "operator": "City of Issaquah",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
@@ -144066,9 +144099,9 @@
     "lat": 47.5424574,
     "lon": -122.0203537,
     "osmID": 10981394880,
-    "user": "uint_nate",
+    "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1789787967000,
+    "lastChanged": 1793746193000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -144082,6 +144115,7 @@
       "man_made": "surveillance",
       "name": "9th/Federal",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -144096,7 +144130,7 @@
     "osmID": 10981394881,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793746193000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -144109,6 +144143,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/Park_9th.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -144123,7 +144158,7 @@
     "osmID": 10981394882,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793746193000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -144136,6 +144171,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/Park_Dr10th_Ave.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -144150,7 +144186,7 @@
     "osmID": 10981394883,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793746193000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -144163,6 +144199,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/HighlandsDr_9th_Lilac.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -144177,7 +144214,7 @@
     "osmID": 10981394884,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732682178000,
+    "lastChanged": 1793746243000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -144189,8 +144226,9 @@
       "camera:type": "panning",
       "contact:webcam": "https://products.issaquahwa.gov/cams/ParkDr_15thAve.jpg",
       "man_made": "surveillance",
-      "name": "PARK/15TH",
+      "name": "Park/15th",
       "operator": "City of Issaquah",
+      "operator:type": "government_facility-public",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -147981,7 +148019,7 @@
     "osmID": 11228160513,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732681157000,
+    "lastChanged": 1793746472000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -147994,6 +148032,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/ELSP_BlackNugget.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -148037,7 +148076,7 @@
     "osmID": 11228160515,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732681628000,
+    "lastChanged": 1793745827000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -148050,6 +148089,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/ELSPIFCR_NE.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -148148,7 +148188,7 @@
     "osmID": 11228220487,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1738869392000,
+    "lastChanged": 1793746472000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -148160,7 +148200,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://products.issaquahwa.gov/cams/SE_56thELSP_SE.jpg",
       "man_made": "surveillance",
-      "name": "ELSP/SE56TH",
+      "name": "East Lake Sammamish Parkway/Southeast 56th",
       "operator": "City of Issaquah",
       "operator:type": "government",
       "operator:wikidata": "Q40251",
@@ -148175,9 +148215,9 @@
     "lat": 47.5442427,
     "lon": -122.0501613,
     "osmID": 11228234040,
-    "user": "uint_nate",
+    "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1789787967000,
+    "lastChanged": 1793747529000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -148191,6 +148231,7 @@
       "man_made": "surveillance",
       "name": "Gilman Boulevard/Maple Street",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -205580,7 +205621,7 @@
     "osmID": 12377033539,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1732650012000,
+    "lastChanged": 1793746884000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -205593,6 +205634,7 @@
       "contact:webcam": "https://products.issaquahwa.gov/cams/Front2nd_SE.jpg",
       "man_made": "surveillance",
       "operator": "City of Issaquah",
+      "operator:type": "government",
       "operator:wikidata": "Q40251",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -205607,7 +205649,7 @@
     "osmID": 12377063561,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1738869297000,
+    "lastChanged": 1793747678000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -205619,7 +205661,7 @@
       "camera:type": "panning",
       "contact:webcam": "https://products.issaquahwa.gov/cams/NW_Samm12th_NW.jpg",
       "man_made": "surveillance",
-      "name": "NW SAMM/12TH",
+      "name": "Northwest Sammamish/12th",
       "operator": "City of Issaquah",
       "operator:type": "government",
       "operator:wikidata": "Q40251",
@@ -206038,7 +206080,7 @@
     "osmID": 12396712714,
     "user": "numbs",
     "osmType": "node",
-    "lastChanged": 1785979951000,
+    "lastChanged": 1793746604000,
     "address": {
       "city": "Issaquah",
       "county": "King County",
@@ -206056,7 +206098,7 @@
       "operator:wikidata": "Q7972267",
       "surveillance": "public",
       "surveillance:type": "camera",
-      "surveillance:zone": "traffic"
+      "surveillance:zone": "parking"
     },
     "operator": "Washington State Parks and Recreation Commission",
     "url": "https://biz.parks.wa.gov/webcams/LakeSamBL180.jpg"
@@ -275011,6 +275053,35 @@
     "url": "https://www.nvroads.com/map"
   },
   {
+    "lat": 45.4180479,
+    "lon": -75.7044622,
+    "osmID": 14077859888,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
     "lat": 43.3065745,
     "lon": -5.6919684,
     "direction": 50,
@@ -282662,6 +282733,415 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 27.8928306,
+    "lon": 86.8195904,
+    "osmID": 14344895876,
+    "user": "Hb-",
+    "osmType": "node",
+    "lastChanged": 1793710602000,
+    "address": {
+      "county": "Solukhumbu",
+      "state": "Koshi Province",
+      "country": "Nepal"
+    },
+    "osmTags": {
+      "contact:webcam": "https://www.webcamgalore.com/webcam/Nepal/Pheriche/36752.html",
+      "man_made": "surveillance",
+      "operator": "The Edelweiss Pheriche",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "town"
+    },
+    "operator": "The Edelweiss Pheriche",
+    "url": "https://www.webcamgalore.com/webcam/Nepal/Pheriche/36752.html"
+  },
+  {
+    "lat": 45.2179082,
+    "lon": -75.7158798,
+    "osmID": 14345506463,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "traffic_signals",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Bankfield & Prince of Wales",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3727604,
+    "lon": -75.6646543,
+    "osmID": 14345506464,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=374",
+      "man_made": "surveillance",
+      "name": "Bank & Alta Vista",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "url": "https://traffic.ottawa.ca/camera?id=374"
+  },
+  {
+    "lat": 45.4306646,
+    "lon": -75.6809394,
+    "osmID": 14345506465,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Chapel & Rideau",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2807555,
+    "lon": -75.9569078,
+    "osmID": 14345506466,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 near Carp Rd",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4306837,
+    "lon": -75.6873713,
+    "osmID": 14345506467,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "King Edward & York",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4697908,
+    "lon": -75.546699,
+    "osmID": 14345506468,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Highway 174 (West) at Jeanne D'Arc",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3833054,
+    "lon": -75.7395993,
+    "osmID": 14345506469,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Carling & Kirkwood (South)",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3969177,
+    "lon": -75.7266054,
+    "osmID": 14345506470,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Highway 417 (East) & Parkdale",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3742337,
+    "lon": -75.5971923,
+    "osmID": 14345506471,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Hawthorne & Hunt Club",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4237174,
+    "lon": -75.6864102,
+    "osmID": 14345506472,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Laurier & Transitway",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4287459,
+    "lon": -75.6854748,
+    "osmID": 14345506473,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "King Edward & Rideau",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2632929,
+    "lon": -75.7592031,
+    "osmID": 14345506474,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Chapman Mills & Strandherd",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2740212,
+    "lon": -75.738227,
+    "osmID": 14345506475,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793725792000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Longfields & Strandherd",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.269664,
+    "lon": -75.8580399,
+    "osmID": 14345970147,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793737965000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Eagleson & Terry Fox / Hope Side",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
     "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
     "lint": {
       "duplicate": true
