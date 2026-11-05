@@ -157249,7 +157249,10 @@
       "surveillance": "webcam",
       "surveillance:type": "camera"
     },
-    "url": "https://www.bergfex.at/hintertux/webcams/c18861/"
+    "url": "https://www.bergfex.at/hintertux/webcams/c18861/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.0768201,
@@ -157555,7 +157558,8 @@
     "operator": "Northern Transcon Railcams - Otter Tail Channel",
     "url": "https://www.youtube.com/watch?v=EKSqYhompCA",
     "lint": {
-      "youtube": true
+      "youtube": true,
+      "unavailable": true
     }
   },
   {
@@ -227965,7 +227969,7 @@
     "osmID": 12798444164,
     "user": "sannorra",
     "osmType": "node",
-    "lastChanged": 1793220405000,
+    "lastChanged": 1793783915000,
     "address": {
       "city": "České Budějovice",
       "county": "okres České Budějovice",
@@ -227974,13 +227978,13 @@
     },
     "osmTags": {
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=fBB25QXTQ-M",
+      "contact:webcam": "https://www.youtube.com/watch?v=_MYSgNkF6Os",
       "description": "Ostrov 3",
       "man_made": "surveillance",
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=fBB25QXTQ-M",
+    "url": "https://www.youtube.com/watch?v=_MYSgNkF6Os",
     "lint": {
       "youtube": true
     }
@@ -227991,7 +227995,7 @@
     "osmID": 12798444165,
     "user": "sannorra",
     "osmType": "node",
-    "lastChanged": 1793220405000,
+    "lastChanged": 1793783915000,
     "address": {
       "city": "České Budějovice",
       "state": "South Bohemian Region",
@@ -227999,13 +228003,13 @@
     },
     "osmTags": {
       "camera:type": "panning",
-      "contact:webcam": "https://www.youtube.com/watch?v=_MYSgNkF6Os",
+      "contact:webcam": "https://www.youtube.com/watch?v=fBB25QXTQ-M",
       "description": "Ostrov 1",
       "man_made": "surveillance",
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=_MYSgNkF6Os",
+    "url": "https://www.youtube.com/watch?v=fBB25QXTQ-M",
     "lint": {
       "youtube": true
     }
@@ -283135,6 +283139,426 @@
       "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
       "man_made": "surveillance",
       "name": "Eagleson & Terry Fox / Hope Side",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3089535,
+    "lon": -75.9156707,
+    "osmID": 14349644481,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Terry Fox & Didsbury / Roland Michener",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4834043,
+    "lon": -75.501107,
+    "osmID": 14349644482,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "St Joseph & Tenth Line",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2266061,
+    "lon": -75.6863814,
+    "osmID": 14349644483,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Bridge & Manotick Main",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.373479,
+    "lon": -75.7786658,
+    "osmID": 14349644484,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Richmond & New Orchard",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4253669,
+    "lon": -75.6933572,
+    "osmID": 14349644485,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Rideau & Sussex",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4746735,
+    "lon": -75.5177926,
+    "osmID": 14349644486,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Place d'Orleans & St. Joseph",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3753547,
+    "lon": -75.7073769,
+    "osmID": 14349644487,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Baseline/Heron & Prince of Wales",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3620473,
+    "lon": -75.7689645,
+    "osmID": 14349644488,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Highway 417 (West) & Woodroffe",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4117428,
+    "lon": -75.655865,
+    "osmID": 14349644489,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Alta Vista & Industrial",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.316255,
+    "lon": -75.633131,
+    "osmID": 14349644490,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Leitrim & 253m West of Gilligan",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4363227,
+    "lon": -75.6820967,
+    "osmID": 14349644491,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "St Patrick & Cobourg / Island Lodge",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.3454084,
+    "lon": -75.4436237,
+    "osmID": 14349644492,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Boundary & Thunder",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.4442697,
+    "lon": -75.532711,
+    "osmID": 14349644493,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Innes & Orleans",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2850332,
+    "lon": -75.8859651,
+    "osmID": 14349644494,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Terry Fox & Castlefrank / Abbott",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+    "lint": {
+      "duplicate": true
+    }
+  },
+  {
+    "lat": 45.2936678,
+    "lon": -75.7431102,
+    "osmID": 14349644495,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793811569000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations",
+      "man_made": "surveillance",
+      "name": "Fallowfield & Barrhaven Crossing",
       "operator": "City of Ottawa",
       "operator:wikidata": "Q5123850",
       "surveillance": "public",
