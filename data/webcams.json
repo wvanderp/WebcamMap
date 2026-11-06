@@ -34763,10 +34763,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "harbour"
     },
-    "url": "http://www.ycsablettes.org/index.php/la-webcam.html",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "http://www.ycsablettes.org/index.php/la-webcam.html"
   },
   {
     "lat": 43.1130253,
@@ -245803,7 +245800,10 @@
       "surveillance:type": "camera",
       "surveillance:zone": "traffic"
     },
-    "url": "https://trafficwatchni.com/twni/cameras/"
+    "url": "https://trafficwatchni.com/twni/cameras/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 47.2759574,
@@ -275057,6 +275057,62 @@
     "url": "https://www.nvroads.com/map"
   },
   {
+    "lat": 45.4162665,
+    "lon": -75.7087201,
+    "osmID": 14077838453,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=308",
+      "man_made": "surveillance",
+      "name": "Albert & Bronson",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=308"
+  },
+  {
+    "lat": 45.4232803,
+    "lon": -75.6946008,
+    "osmID": 14077838821,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=34",
+      "man_made": "surveillance",
+      "name": "Elgin & Queen",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=34"
+  },
+  {
     "lat": 45.4180479,
     "lon": -75.7044622,
     "osmID": 14077859888,
@@ -280651,6 +280707,34 @@
     "url": "https://pv.viewsurf.com/1512/Palavas-rive-droite"
   },
   {
+    "lat": 41.1174864,
+    "lon": -95.9349915,
+    "direction": 140,
+    "osmID": 14236068602,
+    "user": "SarahC65",
+    "osmType": "node",
+    "lastChanged": 1793899503000,
+    "address": {
+      "city": "Bellevue",
+      "county": "Sarpy County",
+      "state": "Nebraska",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "140",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.nebraska.gov/@-96.00212,41.12506,13?show=normalCameras#camera/578/1907269632",
+      "direction": "139",
+      "man_made": "surveillance",
+      "manufacturer:wikidata": "Q2347731",
+      "surveillance": "transportation",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://511.nebraska.gov/@-96.00212,41.12506,13?show=normalCameras#camera/578/1907269632"
+  },
+  {
     "lat": 40.9488513,
     "lon": -4.1175564,
     "direction": 155,
@@ -283570,5 +283654,226 @@
     "lint": {
       "duplicate": true
     }
+  },
+  {
+    "lat": 41.1037494,
+    "lon": -95.9301498,
+    "direction": 340,
+    "osmID": 14352828955,
+    "user": "SarahC65",
+    "osmType": "node",
+    "lastChanged": 1793900116000,
+    "address": {
+      "county": "Sarpy County",
+      "state": "Nebraska",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "340",
+      "camera:mount": "pole",
+      "camera:type": "fixed",
+      "contact:webcam": "https://511.nebraska.gov/@-95.94438,41.10377,15?show=normalCameras#camera/553/1907269632",
+      "man_made": "surveillance",
+      "surveillance": "transportation",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic"
+    },
+    "url": "https://511.nebraska.gov/@-95.94438,41.10377,15?show=normalCameras#camera/553/1907269632"
+  },
+  {
+    "lat": 45.3929892,
+    "lon": -75.662445,
+    "osmID": 14352902257,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=388",
+      "man_made": "surveillance",
+      "name": "Alta Vista & Pleasant Park",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=388"
+  },
+  {
+    "lat": 45.3051383,
+    "lon": -75.9114262,
+    "osmID": 14352902259,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=2032",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 near Terry Fox Drive",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=2032"
+  },
+  {
+    "lat": 45.410137,
+    "lon": -75.6886813,
+    "osmID": 14352902260,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=2022",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 near O'Connor St",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=2022"
+  },
+  {
+    "lat": 45.3665341,
+    "lon": -75.7793996,
+    "osmID": 14352902261,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=375",
+      "man_made": "surveillance",
+      "name": "Carling & Edgeworth",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=375"
+  },
+  {
+    "lat": 45.2784885,
+    "lon": -75.7800173,
+    "osmID": 14352902262,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=402",
+      "man_made": "surveillance",
+      "name": "Cedarview & Fallowfield",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=402"
+  },
+  {
+    "lat": 45.4117076,
+    "lon": -75.7158458,
+    "osmID": 14352902263,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=78",
+      "man_made": "surveillance",
+      "name": "Albert & Preston",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=78"
+  },
+  {
+    "lat": 45.3392259,
+    "lon": -75.7137693,
+    "osmID": 14352902264,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1793901915000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "pole",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=203",
+      "man_made": "surveillance",
+      "name": "Hunt Club & Lowes",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=203"
   }
 ]
