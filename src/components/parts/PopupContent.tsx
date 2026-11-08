@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 import PlayIcon from '../../static/play.svg?react';
 import OsmIcon from '../../static/osm.svg?react';

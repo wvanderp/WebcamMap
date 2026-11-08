@@ -5,7 +5,7 @@ import {
 	matchRoutes,
 	useLocation,
 	useNavigationType
-} from 'react-router-dom';
+} from 'react-router';
 
 /**
  * Get the app section from the URL for better error categorization
@@ -82,10 +82,8 @@ export function initializeSentry(): void {
 		replaysOnErrorSampleRate: 1.0, // 100% of sessions with errors
 
 		// Browser profiling sample rate
-		profilesSampleRate: 1.0,
+		profileSessionSampleRate: 1.0,
 
-		// Send default PII (personally identifiable information)
-		sendDefaultPii: false,
 
 		// Set the release version
 		release: import.meta.env.VITE_APP_VERSION || 'unknown',

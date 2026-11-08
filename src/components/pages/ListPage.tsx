@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, Navigate } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
 import { LatLngBoundsLiteral } from 'leaflet';

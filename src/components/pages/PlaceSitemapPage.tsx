@@ -1,7 +1,7 @@
 /* eslint-disable no-restricted-syntax */
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 import webcams from '../../webcams';
 

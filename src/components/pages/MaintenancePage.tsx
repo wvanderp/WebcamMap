@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 
 import { Webcam } from '../../types/webcam';
@@ -60,7 +60,9 @@ function stuffer<T, Y>(array: T[], element: Y): (T | Y)[] {
 }
 
 function MaintenancePage() {
-	document.title = 'Maintenance - CartoCams';
+	useEffect(() => {
+		document.title = 'Maintenance - CartoCams';
+	}, []);
 
 	const [filters, setFilters] = useState<Filters>({
 		youtube: false,

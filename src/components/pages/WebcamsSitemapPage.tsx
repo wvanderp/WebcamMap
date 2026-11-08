@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import {
 	Col, Container, Row, Pagination, PaginationItem, PaginationLink
 } from 'reactstrap';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router';
 
 import webcams from '../../webcams';
 import { Webcam } from '../../types/webcam';

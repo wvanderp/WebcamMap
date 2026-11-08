@@ -133,7 +133,7 @@ const queryNominatim = async (
 			return await axios.get<NominatimResponse>(url, axiosOptions);
 		} catch (error) {
 			console.log(error);
-			throw new Error('could not get nominatim');
+			throw new Error('could not get nominatim', { cause: error });
 		}
 	})();
 

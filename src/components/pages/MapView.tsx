@@ -2,6 +2,7 @@ import React from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet-rotatedmarker';
 import MarkerClusterGroup from 'react-leaflet-cluster';
+import 'leaflet.markercluster';
 import L, { MarkerCluster } from 'leaflet';
 
 import { Webcam } from '../../types/webcam';

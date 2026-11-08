@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 import { Webcam } from '../../types/webcam';
 import { encodeUrl } from '../../utils/encodeUrl';
