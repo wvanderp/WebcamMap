@@ -2116,7 +2116,7 @@
     "expires": 1795313843
   },
   "-28.0113287,153.4118054": {
-    "place_id": 28477048,
+    "place_id": 28324693,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 734929778,
@@ -2126,7 +2126,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.05340034561684592,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "Ashmore Road",
     "display_name": "Ashmore Road, Bundall, Gold Coast, Queensland, 4217, Australia",
     "address": {
@@ -2154,7 +2154,7 @@
       "153.4115089",
       "153.4118463"
     ],
-    "expires": 1794398251
+    "expires": 1798433803
   },
   "-28.048967,153.4357475": {
     "place_id": 28230527,
@@ -2276,7 +2276,7 @@
     "expires": 1795007860
   },
   "-28.1178336,153.4530775": {
-    "place_id": 28449500,
+    "place_id": 28244747,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1481272523,
@@ -2286,7 +2286,7 @@
     "type": "secondary",
     "place_rank": 26,
     "importance": 0.05340034561684592,
-    "addresstype": "road",
+    "addresstype": "secondary",
     "name": "Booningba Drive",
     "display_name": "Booningba Drive, Elanora, Queensland, 4221, Australia",
     "address": {
@@ -2310,7 +2310,7 @@
       "153.4528052",
       "153.4539381"
     ],
-    "expires": 1794390627
+    "expires": 1798337308
   },
   "-28.1225048,153.4638717": {
     "place_id": 28444495,
@@ -4329,7 +4329,7 @@
     "expires": 1795204704
   },
   "-34.5688375,-70.9705824": {
-    "place_id": 1285918,
+    "place_id": 1228001,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1072351180,
@@ -4341,16 +4341,17 @@
     "importance": 0.11734328469919902,
     "addresstype": "aeroway",
     "name": "Aeródromo San Fernando",
-    "display_name": "Aeródromo San Fernando, Caletera 5 Sur, Parque Industrial Tres, San Fernando, Provincia de Colchagua, O'Higgins Region, 3070116, Chile",
+    "display_name": "Aeródromo San Fernando, Caletera 5 Sur, Parque Industrial Tres, Angostura, San Fernando, Provincia de Colchagua, O'Higgins Region, 3071819, Chile",
     "address": {
       "aeroway": "Aeródromo San Fernando",
       "road": "Caletera 5 Sur",
       "neighbourhood": "Parque Industrial Tres",
+      "village": "Angostura",
       "city": "San Fernando",
       "county": "Provincia de Colchagua",
       "state": "O'Higgins Region",
       "ISO3166-2-lvl4": "CL-LI",
-      "postcode": "3070116",
+      "postcode": "3071819",
       "country": "Chile",
       "country_code": "cl"
     },
@@ -4363,7 +4364,7 @@
       "-70.9716958",
       "-70.9646040"
     ],
-    "expires": 1794322405
+    "expires": 1798409175
   },
   "-34.5906361,-58.382511": {
     "place_id": 17204097,
@@ -25214,7 +25215,7 @@
     "expires": 1796838190
   },
   "-45.8667668,170.5109461": {
-    "place_id": 24625456,
+    "place_id": 24212948,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5615994419,
@@ -25246,7 +25247,7 @@
       "170.5105894",
       "170.5106894"
     ],
-    "expires": 1794715724
+    "expires": 1798414774
   },
   "-45.8668215,170.4910738": {
     "place_id": 24422848,
@@ -33545,7 +33546,7 @@
     "expires": 1795131048
   },
   "32.603978,-85.48133": {
-    "place_id": 343728009,
+    "place_id": 340710533,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1298912615,
@@ -33582,24 +33583,23 @@
       "-85.4814965",
       "-85.4806293"
     ],
-    "expires": 1794576634
+    "expires": 1798431851
   },
   "32.6042526,-85.4851908": {
-    "place_id": 340712998,
+    "place_id": 343121457,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
-    "osm_id": 13591809975,
-    "lat": "32.6044047",
-    "lon": "-85.4851092",
+    "osm_id": 3340573036,
+    "lat": "32.6047866",
+    "lon": "-85.4853000",
     "class": "amenity",
-    "type": "fast_food",
+    "type": "drinking_water",
     "place_rank": 30,
     "importance": 0.0000621278706034488,
     "addresstype": "amenity",
-    "name": "Chicken Salad Chick",
-    "display_name": "Chicken Salad Chick, 282, Thach Concourse, Auburn, Lee County, Alabama, 36849, United States",
+    "name": "",
+    "display_name": "282, Thach Concourse, Auburn, Lee County, Alabama, 36849, United States",
     "address": {
-      "amenity": "Chicken Salad Chick",
       "house_number": "282",
       "road": "Thach Concourse",
       "city": "Auburn",
@@ -33611,45 +33611,32 @@
       "country_code": "us"
     },
     "extratags": {
-      "cuisine": "chicken",
-      "takeaway": "yes",
-      "check_date": "2026-02-23",
-      "wheelchair": "yes",
-      "payment:cash": "no",
-      "drive_through": "no",
-      "brand:wikidata": "Q19720749",
-      "internet_access": "no",
-      "outdoor_seating": "yes",
-      "payment:cash:USD": "yes",
-      "payment:campus_card": "yes",
-      "payment:contactless": "yes",
-      "payment:debit_cards": "yes",
-      "payment:credit_cards": "yes"
+      "fountain": "bubbler",
+      "check_date": "2026-02-26"
     },
     "boundingbox": [
-      "32.6043547",
-      "32.6044547",
-      "-85.4851592",
-      "-85.4850592"
+      "32.6047366",
+      "32.6048366",
+      "-85.4853500",
+      "-85.4852500"
     ],
-    "expires": 1794732175
+    "expires": 1798297362
   },
   "32.6046753,-85.4827371": {
-    "place_id": 343176789,
+    "place_id": 342463586,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "relation",
-    "osm_id": 7102177,
-    "lat": "32.6047605",
-    "lon": "-85.4827906",
-    "class": "building",
-    "type": "university",
+    "osm_type": "node",
+    "osm_id": 13594507866,
+    "lat": "32.6047172",
+    "lon": "-85.4827965",
+    "class": "amenity",
+    "type": "clock",
     "place_rank": 30,
     "importance": 0.0000621278706034488,
-    "addresstype": "building",
-    "name": "Samford Hall",
-    "display_name": "Samford Hall, 182, South College Street, Forestdale, Auburn, Lee County, Alabama, 36949, United States",
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "182, South College Street, Forestdale, Auburn, Lee County, Alabama, 36949, United States",
     "address": {
-      "building": "Samford Hall",
       "house_number": "182",
       "road": "South College Street",
       "hamlet": "Forestdale",
@@ -33662,18 +33649,23 @@
       "country_code": "us"
     },
     "extratags": {
-      "wikidata": "Q7409314",
-      "wikipedia": "en:Samford Hall",
-      "start_date": "1888",
-      "building:levels": "4"
+      "date": "no",
+      "faces": "4",
+      "indoor": "no",
+      "display": "analog",
+      "support": "wall",
+      "barometer": "no",
+      "hygrometer": "no",
+      "visibility": "area",
+      "thermometer": "no"
     },
     "boundingbox": [
-      "32.6044848",
-      "32.6049289",
-      "-85.4829328",
-      "-85.4826488"
+      "32.6046672",
+      "32.6047672",
+      "-85.4828465",
+      "-85.4827465"
     ],
-    "expires": 1794571417
+    "expires": 1798418391
   },
   "32.6047889,-96.6499889": {
     "place_id": 333964071,
@@ -41221,7 +41213,7 @@
     "expires": 1795205476
   },
   "34.7251593,-86.6464189": {
-    "place_id": 341671631,
+    "place_id": 343066311,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 416214493,
@@ -41265,7 +41257,7 @@
       "-86.6465615",
       "-86.6462374"
     ],
-    "expires": 1794576560
+    "expires": 1798447472
   },
   "34.7620565,135.9362911": {
     "place_id": 269087318,
@@ -44116,7 +44108,7 @@
     "expires": 1796434943
   },
   "35.5959862,-105.7754919": {
-    "place_id": 331349458,
+    "place_id": 331981153,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1059083774,
@@ -44147,7 +44139,7 @@
       "-105.7771981",
       "-105.7729396"
     ],
-    "expires": 1794261940
+    "expires": 1798378087
   },
   "35.6088889,-82.5780556": {
     "place_id": 341481719,
@@ -47185,7 +47177,7 @@
     "expires": 1795281679
   },
   "36.2826913,-94.1554186": {
-    "place_id": 335622796,
+    "place_id": 336782035,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 637655496,
@@ -47195,7 +47187,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.05339128328374148,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "I 49;US 62;US 71",
     "display_name": "I 49;US 62;US 71, Rogers, Benton County, Arkansas, 72758, United States",
     "address": {
@@ -47225,7 +47217,7 @@
       "-94.1628846",
       "-94.1499597"
     ],
-    "expires": 1794678551
+    "expires": 1798345163
   },
   "36.2879694,138.0813133": {
     "place_id": 263059172,
@@ -47263,7 +47255,7 @@
     "expires": 1794981597
   },
   "36.2947711,-94.165049": {
-    "place_id": 336027556,
+    "place_id": 335552569,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 1127304971,
@@ -47295,10 +47287,10 @@
       "-94.1649276",
       "-94.1648276"
     ],
-    "expires": 1794654635
+    "expires": 1798286033
   },
   "36.2975233,-94.1712582": {
-    "place_id": 336265657,
+    "place_id": 335933089,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 122486061,
@@ -47308,7 +47300,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.05339128328374148,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "I 49;US 62;US 71",
     "display_name": "I 49;US 62;US 71, Rogers, Benton County, Arkansas, 72758, United States",
     "address": {
@@ -47338,7 +47330,7 @@
       "-94.1724574",
       "-94.1631985"
     ],
-    "expires": 1794715102
+    "expires": 1798363446
   },
   "36.2997668,-94.1797792": {
     "place_id": 335538026,
@@ -47377,7 +47369,7 @@
     "expires": 1794759735
   },
   "36.3085212,-94.1856266": {
-    "place_id": 335446143,
+    "place_id": 336264768,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 224036076,
@@ -47389,9 +47381,9 @@
     "importance": 0.00005794995040813333,
     "addresstype": "amenity",
     "name": "",
-    "display_name": "Rife Medical Ln Sidepath, Rogers, Benton County, Arkansas, 72758, United States",
+    "display_name": "West Madison Avenue, Rogers, Benton County, Arkansas, 72758, United States",
     "address": {
-      "road": "Rife Medical Ln Sidepath",
+      "road": "West Madison Avenue",
       "city": "Rogers",
       "county": "Benton County",
       "state": "Arkansas",
@@ -47409,7 +47401,7 @@
       "-94.1872122",
       "-94.1841291"
     ],
-    "expires": 1794733200
+    "expires": 1798349819
   },
   "36.3144228,-94.1848977": {
     "place_id": 336689011,
@@ -47457,7 +47449,7 @@
     "expires": 1794763238
   },
   "36.3342866,-94.1842801": {
-    "place_id": 335046095,
+    "place_id": 336831698,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 70844028,
@@ -47467,7 +47459,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.05339128328374148,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "I 49;US 62;US 71",
     "display_name": "I 49;US 62;US 71, Bentonville, Benton County, Arkansas, 72716, United States",
     "address": {
@@ -47497,7 +47489,7 @@
       "-94.1851885",
       "-94.1836977"
     ],
-    "expires": 1794648833
+    "expires": 1798443628
   },
   "36.3500659,138.1562144": {
     "place_id": 263379277,
@@ -47570,7 +47562,7 @@
     "expires": 1795275116
   },
   "36.3568594,-94.1786916": {
-    "place_id": 333361809,
+    "place_id": 335623639,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1356111517,
@@ -47580,7 +47572,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053391611352712254,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "I 49;US 71",
     "display_name": "I 49;US 71, Bentonville, Benton County, Arkansas, 72716, United States",
     "address": {
@@ -47609,7 +47601,7 @@
       "-94.1782802",
       "-94.1775653"
     ],
-    "expires": 1794680883
+    "expires": 1798288928
   },
   "36.3606013,138.2179951": {
     "place_id": 263612540,
@@ -47954,7 +47946,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053391611352712254,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "I 49;US 71",
     "display_name": "I 49;US 71, Bentonville, Benton County, Arkansas, 72716, United States",
     "address": {
@@ -47983,7 +47975,7 @@
       "-94.1980471",
       "-94.1687683"
     ],
-    "expires": 1794701965
+    "expires": 1798370133
   },
   "36.3890558,-94.184095": {
     "place_id": 332973366,
@@ -49378,12 +49370,12 @@
     "expires": 1795208841
   },
   "36.6290415,-87.4341596": {
-    "place_id": 409660609,
+    "place_id": 399292370,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 19574997,
-    "lat": "36.6290442",
-    "lon": "-87.4341317",
+    "osm_id": 330843441,
+    "lat": "36.6290433",
+    "lon": "-87.4341328",
     "class": "place",
     "type": "house",
     "place_rank": 30,
@@ -49406,12 +49398,12 @@
     },
     "extratags": null,
     "boundingbox": [
-      "36.6289942",
-      "36.6290942",
-      "-87.4341817",
-      "-87.4340817"
+      "36.6289933",
+      "36.6290933",
+      "-87.4341828",
+      "-87.4340828"
     ],
-    "expires": 1794153588
+    "expires": 1798322761
   },
   "36.6461622,-121.8159496": {
     "place_id": 322656750,
@@ -49532,8 +49524,8 @@
   "36.671427,-78.2883892": {
     "place_id": 413474779,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "node",
-    "osm_id": 6322486305,
+    "osm_type": "way",
+    "osm_id": 132598141,
     "lat": "36.6714250",
     "lon": "-78.2883880",
     "class": "place",
@@ -49561,7 +49553,7 @@
       "-78.2884380",
       "-78.2883380"
     ],
-    "expires": 1794255924
+    "expires": 1798316798
   },
   "36.6798056,-75.984": {
     "place_id": 344880567,
@@ -60518,7 +60510,7 @@
     "expires": 1795123889
   },
   "37.5374603,-77.4757008": {
-    "place_id": 345159245,
+    "place_id": 345873074,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 236150618,
@@ -60550,7 +60542,7 @@
       "-77.4759151",
       "-77.4739142"
     ],
-    "expires": 1794392189
+    "expires": 1798358491
   },
   "37.5465346,-77.4541628": {
     "place_id": 346341886,
@@ -75599,7 +75591,7 @@
     "expires": 1795241180
   },
   "39.27417,-103.4914886": {
-    "place_id": 420417793,
+    "place_id": 433006881,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 836943035,
@@ -75609,7 +75601,7 @@
     "type": "secondary",
     "place_rank": 26,
     "importance": 0.05335803387502858,
-    "addresstype": "road",
+    "addresstype": "secondary",
     "name": "County Highway 109;County Road 31",
     "display_name": "County Highway 109;County Road 31, Lincoln County, Colorado, 80818, United States",
     "address": {
@@ -75633,7 +75625,7 @@
       "-103.4913243",
       "-103.4913124"
     ],
-    "expires": 1794599472
+    "expires": 1798421131
   },
   "39.2769915,-77.3233063": {
     "place_id": 348107949,
@@ -75766,7 +75758,7 @@
     "expires": 1795171316
   },
   "39.2821394,-103.2673741": {
-    "place_id": 329888846,
+    "place_id": 331134733,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 315345623,
@@ -75776,7 +75768,7 @@
     "type": "tertiary",
     "place_rank": 26,
     "importance": 0.05335803387502858,
-    "addresstype": "road",
+    "addresstype": "tertiary",
     "name": "County Highway 63;County Road 43",
     "display_name": "County Highway 63;County Road 43, Lincoln County, Colorado, 80804, United States",
     "address": {
@@ -75803,7 +75795,7 @@
       "-103.2674723",
       "-103.2674694"
     ],
-    "expires": 1794410469
+    "expires": 1798379049
   },
   "39.2848122,-81.648047": {
     "place_id": 340534737,
@@ -75848,7 +75840,7 @@
     "expires": 1795313931
   },
   "39.2929313,-102.8740441": {
-    "place_id": 422653852,
+    "place_id": 422279196,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 17075679,
@@ -75858,7 +75850,7 @@
     "type": "secondary",
     "place_rank": 26,
     "importance": 0.05335803387502858,
-    "addresstype": "road",
+    "addresstype": "secondary",
     "name": "US 24;CO 59",
     "display_name": "US 24;CO 59, Kit Carson County, Colorado, 80834, United States",
     "address": {
@@ -75885,7 +75877,7 @@
       "-102.8741551",
       "-102.8741508"
     ],
-    "expires": 1794325654
+    "expires": 1798400728
   },
   "39.2934285,-102.4281542": {
     "place_id": 330714807,
@@ -75924,7 +75916,7 @@
     "expires": 1797729104
   },
   "39.2941827,-102.5962779": {
-    "place_id": 330007490,
+    "place_id": 331180271,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 17074096,
@@ -75934,7 +75926,7 @@
     "type": "unclassified",
     "place_rank": 26,
     "importance": 0.05335803387502858,
-    "addresstype": "road",
+    "addresstype": "unclassified",
     "name": "Frontage Road",
     "display_name": "Frontage Road, Kit Carson County, Colorado, 80836, United States",
     "address": {
@@ -75956,10 +75948,10 @@
       "-102.6049857",
       "-102.5956290"
     ],
-    "expires": 1794547181
+    "expires": 1798314216
   },
   "39.2948476,-102.2790015": {
-    "place_id": 419376710,
+    "place_id": 420310064,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 142890900,
@@ -75969,7 +75961,7 @@
     "type": "trunk",
     "place_rank": 26,
     "importance": 0.05335933394369417,
-    "addresstype": "road",
+    "addresstype": "trunk",
     "name": "South Lincoln Street",
     "display_name": "South Lincoln Street, Burlington, Kit Carson County, Colorado, 80807, United States",
     "address": {
@@ -75998,7 +75990,7 @@
       "-102.2788096",
       "-102.2787232"
     ],
-    "expires": 1794363870
+    "expires": 1798346971
   },
   "39.3012495,-79.4167384": {
     "place_id": 401252271,
@@ -76035,7 +76027,7 @@
     "expires": 1795094559
   },
   "39.3025747,-102.2523853": {
-    "place_id": 329524898,
+    "place_id": 330677531,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 87917464,
@@ -76045,7 +76037,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.05338015182726784,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Dwight D. Eisenhower Highway",
     "display_name": "Dwight D. Eisenhower Highway, Burlington, Kit Carson County, Colorado, 80807, United States",
     "address": {
@@ -76076,7 +76068,7 @@
       "-102.2543884",
       "-102.2522736"
     ],
-    "expires": 1794153072
+    "expires": 1798282636
   },
   "39.3108333,-77.7185": {
     "place_id": 413425376,
@@ -77858,6 +77850,84 @@
     ],
     "expires": 1795383606
   },
+  "39.4733377,-106.052686": {
+    "place_id": 334815589,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 740976560,
+    "lat": "39.4740228",
+    "lon": "-106.0527847",
+    "class": "amenity",
+    "type": "parking",
+    "place_rank": 30,
+    "importance": 0.00005417792019526997,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Kings Crown Road, Breckenridge, Summit County, Colorado, 80424, United States",
+    "address": {
+      "road": "Kings Crown Road",
+      "town": "Breckenridge",
+      "county": "Summit County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80424",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "access": "customers",
+      "parking": "surface"
+    },
+    "boundingbox": [
+      "39.4734063",
+      "39.4742676",
+      "-106.0530028",
+      "-106.0524328"
+    ],
+    "expires": 1798295239
+  },
+  "39.4736186,-106.0512981": {
+    "place_id": 330975284,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 174300536,
+    "lat": "39.4737271",
+    "lon": "-106.0509801",
+    "class": "leisure",
+    "type": "resort",
+    "place_rank": 30,
+    "importance": 0.000026000610360830357,
+    "addresstype": "leisure",
+    "name": "Beaver Run Resort & Conference Center",
+    "display_name": "Beaver Run Resort & Conference Center, 620, Village Road, Breckenridge, Summit County, Colorado, 80424, United States",
+    "address": {
+      "leisure": "Beaver Run Resort & Conference Center",
+      "house_number": "620",
+      "road": "Village Road",
+      "town": "Breckenridge",
+      "county": "Summit County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80424",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "phone": "+1-970-453-6000",
+      "tourism": "hotel",
+      "website": "https://www.beaverrun.com/",
+      "building": "yes",
+      "description": "ski in/out hotel resort",
+      "building:levels": "4"
+    },
+    "boundingbox": [
+      "39.4734240",
+      "39.4740544",
+      "-106.0515665",
+      "-106.0504660"
+    ],
+    "expires": 1798291946
+  },
   "39.4760945,-106.0426526": {
     "place_id": 327609276,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -77946,6 +78016,90 @@
       "-3.5233856"
     ],
     "expires": 1795072530
+  },
+  "39.479639,-106.0460104": {
+    "place_id": 331259378,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 202320968,
+    "lat": "39.4796330",
+    "lon": "-106.0461128",
+    "class": "shop",
+    "type": "estate_agent",
+    "place_rank": 30,
+    "importance": 0.00005417792019526997,
+    "addresstype": "shop",
+    "name": "Breckenridge Associates Real Estate",
+    "display_name": "Breckenridge Associates Real Estate, 229, South Main Street, Breckenridge, Summit County, Colorado, 80424, United States",
+    "address": {
+      "shop": "Breckenridge Associates Real Estate",
+      "house_number": "229",
+      "road": "South Main Street",
+      "town": "Breckenridge",
+      "county": "Summit County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80424",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "building": "office",
+      "roof:shape": "gabled",
+      "roof:levels": "1",
+      "contact:email": "mail@breckenridgeassociates.com",
+      "contact:phone": "+1 970 453 2200",
+      "building:colour": "brown",
+      "building:levels": "1",
+      "contact:website": "http://www.breckenridgeassociates.com/",
+      "building:material": "wood"
+    },
+    "boundingbox": [
+      "39.4795675",
+      "39.4796842",
+      "-106.0462304",
+      "-106.0459903"
+    ],
+    "expires": 1798422039
+  },
+  "39.4814389,-106.068123": {
+    "place_id": 332218374,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11992325198,
+    "lat": "39.4813401",
+    "lon": "-106.0673927",
+    "class": "emergency",
+    "type": "defibrillator",
+    "place_rank": 30,
+    "importance": 0.000026000610360830357,
+    "addresstype": "emergency",
+    "name": "",
+    "display_name": "1627, Ski Hill Road, Breckenridge, Summit County, Colorado, 80424, United States",
+    "address": {
+      "house_number": "1627",
+      "road": "Ski Hill Road",
+      "town": "Breckenridge",
+      "county": "Summit County",
+      "state": "Colorado",
+      "ISO3166-2-lvl4": "US-CO",
+      "postcode": "80424",
+      "country": "United States",
+      "country_code": "us"
+    },
+    "extratags": {
+      "access": "permissive",
+      "indoor": "yes",
+      "check_date": "2024-06-19",
+      "defibrillator:location": "At the information desk between Ullr Cafe and the bathrooms. On the level even with the ski lifts"
+    },
+    "boundingbox": [
+      "39.4812901",
+      "39.4813901",
+      "-106.0674427",
+      "-106.0673427"
+    ],
+    "expires": 1798338707
   },
   "39.482255,-106.0937607": {
     "place_id": 332234269,
@@ -89215,7 +89369,7 @@
     "expires": 1795385247
   },
   "40.0312122,-83.0009161": {
-    "place_id": 370115443,
+    "place_id": 369601274,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 772075517,
@@ -89247,7 +89401,7 @@
       "-83.0006564",
       "-83.0005159"
     ],
-    "expires": 1794357899
+    "expires": 1798413901
   },
   "40.0312469,-111.7576206": {
     "place_id": 324925743,
@@ -95855,7 +96009,7 @@
     "expires": 1796344746
   },
   "40.3683772,-3.6582463": {
-    "place_id": 293248109,
+    "place_id": 290299788,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 334891942,
@@ -95865,7 +96019,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "M-40",
     "display_name": "M-40, El Pozo del Tío Raimundo, Entrevías, Vallecas, Madrid, Community of Madrid, 28018, Spain",
     "address": {
@@ -95892,7 +96046,7 @@
       "-3.6593131",
       "-3.6540495"
     ],
-    "expires": 1794620825
+    "expires": 1798358512
   },
   "40.3685818,-3.6096943": {
     "place_id": 293677783,
@@ -96503,21 +96657,22 @@
     "expires": 1796278512
   },
   "40.3757601,-3.6531447": {
-    "place_id": 289993851,
+    "place_id": 431749743,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 41736266,
-    "lat": "40.3757109",
-    "lon": "-3.6531422",
+    "osm_id": 1572423480,
+    "lat": "40.3757113",
+    "lon": "-3.6531423",
     "class": "highway",
     "type": "tertiary",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "tertiary",
     "name": "Camino del Pozo del Tío Raimundo",
-    "display_name": "Camino del Pozo del Tío Raimundo, Entrevías, Vallecas, Madrid, Community of Madrid, 28018, Spain",
+    "display_name": "Camino del Pozo del Tío Raimundo, El Pozo del Tío Raimundo, Entrevías, Vallecas, Madrid, Community of Madrid, 28018, Spain",
     "address": {
       "road": "Camino del Pozo del Tío Raimundo",
+      "neighbourhood": "El Pozo del Tío Raimundo",
       "quarter": "Entrevías",
       "suburb": "Vallecas",
       "city": "Madrid",
@@ -96529,17 +96684,16 @@
     },
     "extratags": {
       "layer": "1",
-      "bridge": "yes",
       "surface": "asphalt",
       "sidewalk": "yes"
     },
     "boundingbox": [
-      "40.3756952",
-      "40.3758514",
-      "-3.6535416",
-      "-3.6515514"
+      "40.3757068",
+      "40.3757202",
+      "-3.6532328",
+      "-3.6529610"
     ],
-    "expires": 1794571261
+    "expires": 1798396478
   },
   "40.3764982,-3.6596346": {
     "place_id": 291785954,
@@ -96811,7 +96965,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "M-40",
     "display_name": "M-40, Palomeras Sureste, Vallecas, Madrid, Community of Madrid, 28018, Spain",
     "address": {
@@ -96838,7 +96992,7 @@
       "-3.6439943",
       "-3.6355241"
     ],
-    "expires": 1794581754
+    "expires": 1798308166
   },
   "40.380664,-3.686439": {
     "place_id": 293057348,
@@ -97280,7 +97434,7 @@
     "expires": 1796136054
   },
   "40.385074,-3.6343517": {
-    "place_id": 290454896,
+    "place_id": 293058741,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 28947043,
@@ -97290,7 +97444,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "Avenida de la Albufera",
     "display_name": "Avenida de la Albufera, Palomeras Sureste, Vallecas, Madrid, Community of Madrid, 28031, Spain",
     "address": {
@@ -97326,7 +97480,7 @@
       "-3.6352661",
       "-3.6343801"
     ],
-    "expires": 1794354165
+    "expires": 1798400891
   },
   "40.3850882,-3.7176704": {
     "place_id": 291383519,
@@ -98027,24 +98181,23 @@
     "expires": 1795180217
   },
   "40.3920062,-91.3770276": {
-    "place_id": 426128654,
+    "place_id": 372716205,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
-    "osm_id": 1408794543,
-    "lat": "40.3969112",
-    "lon": "-91.3728900",
-    "class": "historic",
-    "type": "maritime",
-    "place_rank": 30,
-    "importance": 0.00005634927901116987,
-    "addresstype": "historic",
-    "name": "Lock & Dam No. 19 Historic District",
-    "display_name": "Lock & Dam No. 19 Historic District, North Water Street, Lock & Dam No. 19, Keokuk, Lee County, Iowa, 52632, United States",
+    "osm_id": 171187105,
+    "lat": "40.3920128",
+    "lon": "-91.3770259",
+    "class": "highway",
+    "type": "pedestrian",
+    "place_rank": 26,
+    "importance": 0.05337959487296861,
+    "addresstype": "pedestrian",
+    "name": "",
+    "display_name": "Lock & Dam No. 19, Keokuk, Jackson Township, Lee County, Iowa, 52632, United States",
     "address": {
-      "historic": "Lock & Dam No. 19 Historic District",
-      "road": "North Water Street",
       "industrial": "Lock & Dam No. 19",
       "town": "Keokuk",
+      "municipality": "Jackson Township",
       "county": "Lee County",
       "state": "Iowa",
       "ISO3166-2-lvl4": "US-IA",
@@ -98053,28 +98206,16 @@
       "country_code": "us"
     },
     "extratags": {
-      "area": "yes",
-      "boundary": "protected_area",
-      "heritage": "2",
-      "historic": "maritime",
-      "ref:nrhp": "04000179",
-      "source_ref": "https://catalog.archives.gov/id/28891315",
-      "start_date": "1870",
-      "nrhp:criteria": "A;C",
-      "protect_class": "22",
-      "protected_area": "historic_district",
-      "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
-      "protection_title": "U.S. Army Corps of Engineers",
-      "heritage:operator": "nrhp",
-      "nrhp:inscription_date": "2004-03-10"
+      "layer": "2",
+      "bridge": "yes"
     },
     "boundingbox": [
-      "40.3898085",
-      "40.4041917",
-      "-91.3782826",
-      "-91.3529852"
+      "40.3920088",
+      "40.3928146",
+      "-91.3787446",
+      "-91.3770098"
     ],
-    "expires": 1794375194
+    "expires": 1798337230
   },
   "40.3921323,-91.3769954": {
     "place_id": 374741014,
@@ -100096,7 +100237,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "",
     "display_name": "Horcajo, Moratalaz, Madrid, Community of Madrid, 28032, Spain",
     "address": {
@@ -100121,7 +100262,7 @@
       "-3.6245334",
       "-3.6240243"
     ],
-    "expires": 1794576910
+    "expires": 1798413239
   },
   "40.4068821,-3.7462427": {
     "place_id": 294749589,
@@ -100929,7 +101070,7 @@
     "expires": 1795150836
   },
   "40.4127535,-3.620896": {
-    "place_id": 293473126,
+    "place_id": 295181184,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 31508240,
@@ -100939,7 +101080,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "R-3",
     "display_name": "R-3, Horcajo, Moratalaz, Madrid, Community of Madrid, 28032, Spain",
     "address": {
@@ -100969,7 +101110,7 @@
       "-3.6209372",
       "-3.6197119"
     ],
-    "expires": 1794428653
+    "expires": 1798436099
   },
   "40.4128755,-3.6933977": {
     "place_id": 294430877,
@@ -101678,7 +101819,7 @@
     "expires": 1795843191
   },
   "40.4183154,-3.610577": {
-    "place_id": 293352536,
+    "place_id": 293858224,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 4305460,
@@ -101688,7 +101829,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "",
     "display_name": "Rosas, San Blas - Canillejas, Madrid, Community of Madrid, 28032, Spain",
     "address": {
@@ -101702,9 +101843,9 @@
       "country_code": "es"
     },
     "extratags": {
+      "foot": "no",
       "lanes": "3",
       "layer": "1",
-      "bridge": "yes",
       "junction": "roundabout"
     },
     "boundingbox": [
@@ -101713,7 +101854,7 @@
       "-3.6106417",
       "-3.6104464"
     ],
-    "expires": 1794551642
+    "expires": 1798447655
   },
   "40.4184313,-3.6762665": {
     "place_id": 293373347,
@@ -104002,17 +104143,17 @@
     "expires": 1794981282
   },
   "40.4304583,-3.5962459": {
-    "place_id": 291906455,
+    "place_id": 293263807,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 172398943,
-    "lat": "40.4303892",
-    "lon": "-3.5963054",
+    "lat": "40.4303904",
+    "lon": "-3.5963063",
     "class": "highway",
     "type": "primary",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "Rotonda de Arcentales",
     "display_name": "Rotonda de Arcentales, Rosas, San Blas - Canillejas, Madrid, Community of Madrid, 28022, Spain",
     "address": {
@@ -104033,12 +104174,12 @@
       "cycleway:right": "no"
     },
     "boundingbox": [
-      "40.4301294",
-      "40.4304342",
-      "-3.5963576",
-      "-3.5961570"
+      "40.4300615",
+      "40.4304651",
+      "-3.5964047",
+      "-3.5961525"
     ],
-    "expires": 1794672544
+    "expires": 1798393105
   },
   "40.4307119,-3.7164239": {
     "place_id": 293184419,
@@ -105774,7 +105915,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "M-40",
     "display_name": "M-40, Rosas, San Blas - Canillejas, Madrid, Community of Madrid, 28022, Spain",
     "address": {
@@ -105796,12 +105937,12 @@
       "ref:colour": "blue"
     },
     "boundingbox": [
-      "40.4366633",
+      "40.4364056",
       "40.4443023",
       "-3.5987505",
       "-3.5931140"
     ],
-    "expires": 1794700290
+    "expires": 1798282455
   },
   "40.4408205,-3.6569928": {
     "place_id": 293909862,
@@ -107956,7 +108097,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "M-12",
     "display_name": "M-12, Corralejos, Barajas, Madrid, Community of Madrid, 29043, Spain",
     "address": {
@@ -107986,7 +108127,7 @@
       "-3.6119055",
       "-3.6102587"
     ],
-    "expires": 1794712226
+    "expires": 1798383761
   },
   "40.4557328,-109.5382388": {
     "place_id": 327448470,
@@ -108711,7 +108852,7 @@
     "expires": 1795119743
   },
   "40.4625334,-3.6237182": {
-    "place_id": 293694286,
+    "place_id": 294642288,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 45314590,
@@ -108721,7 +108862,7 @@
     "type": "tertiary",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "tertiary",
     "name": "Glorieta de Praga",
     "display_name": "Glorieta de Praga, Piovera, Hortaleza, Madrid, Community of Madrid, 29043, Spain",
     "address": {
@@ -108749,7 +108890,7 @@
       "-3.6238535",
       "-3.6235897"
     ],
-    "expires": 1794658596
+    "expires": 1798419278
   },
   "40.4626571,-3.6353748": {
     "place_id": 291441775,
@@ -110216,7 +110357,7 @@
     "type": "residential",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "residential",
     "name": "Calle de Gregorio Sánchez Herráez",
     "display_name": "Calle de Gregorio Sánchez Herráez, Valdefuentes, Hortaleza, Madrid, Community of Madrid, 28033, Spain",
     "address": {
@@ -110244,10 +110385,10 @@
       "-3.6381698",
       "-3.6376774"
     ],
-    "expires": 1794712756
+    "expires": 1798344625
   },
   "40.4790072,-3.6402826": {
-    "place_id": 294481644,
+    "place_id": 291440304,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 305915982,
@@ -110257,7 +110398,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053419141680018274,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "M-40",
     "display_name": "M-40, Valdefuentes, Hortaleza, Madrid, Community of Madrid, 28033, Spain",
     "address": {
@@ -110284,7 +110425,7 @@
       "-3.6433750",
       "-3.6382359"
     ],
-    "expires": 1794676832
+    "expires": 1798417392
   },
   "40.4790255,-3.6912089": {
     "place_id": 293207847,
@@ -112639,7 +112780,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.0533946768902113,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "M-40",
     "display_name": "M-40, Valdefuentes, Hortaleza, Madrid, Community of Madrid, 28050, Spain",
     "address": {
@@ -112668,7 +112809,7 @@
       "-3.6571896",
       "-3.6545703"
     ],
-    "expires": 1794707197
+    "expires": 1798388847
   },
   "40.5100921,-3.6568597": {
     "place_id": 291730457,
@@ -113972,7 +114113,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.05337159151598379,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Beaver Valley Expressway",
     "display_name": "Beaver Valley Expressway, Center Township, Beaver County, Pennsylvania, 15009, United States",
     "address": {
@@ -114000,7 +114141,7 @@
       "-80.3250234",
       "-80.3201979"
     ],
-    "expires": 1794455783
+    "expires": 1798338428
   },
   "40.6452053,-74.016968": {
     "place_id": 354801761,
@@ -118254,7 +118395,7 @@
     "expires": 1796227305
   },
   "40.9482046,-74.0268384": {
-    "place_id": 419171038,
+    "place_id": 418237784,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 13879320938,
@@ -118287,7 +118428,7 @@
       "-74.0270008",
       "-74.0269008"
     ],
-    "expires": 1794407115
+    "expires": 1798366645
   },
   "40.9486617,-84.266049": {
     "place_id": 370793257,
@@ -118330,7 +118471,7 @@
     "expires": 1795197961
   },
   "40.9488513,-4.1175564": {
-    "place_id": 291920923,
+    "place_id": 292929005,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 4613162,
@@ -118340,7 +118481,7 @@
     "type": "tertiary",
     "place_rank": 26,
     "importance": 0.05339996719310289,
-    "addresstype": "road",
+    "addresstype": "tertiary",
     "name": "Cuesta de San Juan",
     "display_name": "Cuesta de San Juan, Santa Columba, Sexmo de Segovia, La Albuera, Comunidad de Ciudad y Tierra de Segovia, Segovia, Castile and León, 40001, Spain",
     "address": {
@@ -118349,7 +118490,7 @@
       "suburb": "La Albuera",
       "city_district": "Comunidad de Ciudad y Tierra de Segovia",
       "city": "Segovia",
-      "state_district": "Segovia",
+      "province": "Segovia",
       "ISO3166-2-lvl6": "ES-SG",
       "state": "Castile and León",
       "ISO3166-2-lvl4": "ES-CL",
@@ -118364,7 +118505,9 @@
       "maxspeed": "50",
       "smoothness": "intermediate",
       "parking:both": "no",
-      "maxspeed:type": "ES:zone50"
+      "cycleway:both": "no",
+      "maxspeed:type": "ES:zone50",
+      "sidewalk:both": "separate"
     },
     "boundingbox": [
       "40.9482027",
@@ -118372,7 +118515,7 @@
       "-4.1177427",
       "-4.1170316"
     ],
-    "expires": 1794567508
+    "expires": 1798307015
   },
   "40.9624837,-80.134721": {
     "place_id": 369660557,
@@ -119751,7 +119894,7 @@
     "type": "tertiary",
     "place_rank": 26,
     "importance": 0.05339133669031811,
-    "addresstype": "road",
+    "addresstype": "tertiary",
     "name": "M-136",
     "display_name": "M-136, Piñuécar-Gandullas, Community of Madrid, 28755, Spain",
     "address": {
@@ -119776,7 +119919,7 @@
       "-3.6106045",
       "-3.6103436"
     ],
-    "expires": 1794406607
+    "expires": 1798429065
   },
   "41.0636196,28.4061113": {
     "place_id": 59915359,
@@ -119938,7 +120081,7 @@
     "expires": 1797701698
   },
   "41.0766342,-3.6037484": {
-    "place_id": 293649466,
+    "place_id": 294161050,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 87134396,
@@ -119948,7 +120091,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053391528953994016,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Autovía del Norte",
     "display_name": "Autovía del Norte, Horcajo de la Sierra, Horcajo de la Sierra-Aoslos, Community of Madrid, 28755, Spain",
     "address": {
@@ -119976,7 +120119,7 @@
       "-3.6079860",
       "-3.6035282"
     ],
-    "expires": 1794474689
+    "expires": 1798363220
   },
   "41.0798029,28.3727262": {
     "place_id": 59880918,
@@ -120853,7 +120996,7 @@
     "expires": 1795347359
   },
   "41.1922092,-3.5849785": {
-    "place_id": 296595812,
+    "place_id": 293753644,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 45858919,
@@ -120863,7 +121006,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053390737010757576,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Autovía del Norte",
     "display_name": "Autovía del Norte, Ochavo de la Sierra y Castillejo, Villarejo, Comunidad de Villa y Tierra de Sepúlveda, Santo Tomé del Puerto, Segovia, Castile and León, 40591, Spain",
     "address": {
@@ -120872,7 +121015,7 @@
       "hamlet": "Villarejo",
       "city_district": "Comunidad de Villa y Tierra de Sepúlveda",
       "village": "Santo Tomé del Puerto",
-      "state_district": "Segovia",
+      "province": "Segovia",
       "ISO3166-2-lvl6": "ES-SG",
       "state": "Castile and León",
       "ISO3166-2-lvl4": "ES-CL",
@@ -120897,7 +121040,7 @@
       "-3.5848731",
       "-3.5800504"
     ],
-    "expires": 1794299312
+    "expires": 1798433615
   },
   "41.195379,-111.1140241": {
     "place_id": 325051053,
@@ -121640,7 +121783,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053391739528496185,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Autovía del Norte",
     "display_name": "Autovía del Norte, Ochavo de la Sierra y Castillejo, Comunidad de Villa y Tierra de Sepúlveda, Castillejo de Mesleón, Segovia, Castile and León, 40593, Spain",
     "address": {
@@ -121648,7 +121791,7 @@
       "neighbourhood": "Ochavo de la Sierra y Castillejo",
       "city_district": "Comunidad de Villa y Tierra de Sepúlveda",
       "village": "Castillejo de Mesleón",
-      "state_district": "Segovia",
+      "province": "Segovia",
       "ISO3166-2-lvl6": "ES-SG",
       "state": "Castile and León",
       "ISO3166-2-lvl4": "ES-CL",
@@ -121670,7 +121813,7 @@
       "-3.6051705",
       "-3.5923973"
     ],
-    "expires": 1794276414
+    "expires": 1798410594
   },
   "41.2876111,-73.7536389": {
     "place_id": 356149621,
@@ -122325,7 +122468,7 @@
     "expires": 1796516069
   },
   "41.3492994,-3.6407458": {
-    "place_id": 293685675,
+    "place_id": 292139032,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 46182732,
@@ -122335,7 +122478,7 @@
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.05339130159456775,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Autovía Madrid - Burgos",
     "display_name": "Autovía Madrid - Burgos, Ochavo de Bercimuel, Comunidad de Villa y Tierra de Sepúlveda, Boceguillas, Segovia, Castile and León, 40568, Spain",
     "address": {
@@ -122343,7 +122486,7 @@
       "neighbourhood": "Ochavo de Bercimuel",
       "city_district": "Comunidad de Villa y Tierra de Sepúlveda",
       "village": "Boceguillas",
-      "state_district": "Segovia",
+      "province": "Segovia",
       "ISO3166-2-lvl6": "ES-SG",
       "state": "Castile and León",
       "ISO3166-2-lvl4": "ES-CL",
@@ -122367,7 +122510,7 @@
       "-3.6451792",
       "-3.6386221"
     ],
-    "expires": 1794333308
+    "expires": 1798314330
   },
   "41.358,-73.6679722": {
     "place_id": 355414436,
@@ -124899,13 +125042,13 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 348799097,
-    "lat": "41.5559907",
-    "lon": "-72.6417390",
+    "lat": "41.5560161",
+    "lon": "-72.6417220",
     "class": "highway",
     "type": "motorway",
     "place_rank": 26,
     "importance": 0.053393604180971964,
-    "addresstype": "road",
+    "addresstype": "motorway",
     "name": "Chester Bowles Highway",
     "display_name": "Chester Bowles Highway, Metro South Historic District, South Farms, Middletown, Lower Connecticut River Valley Planning Region, Connecticut, 06459, United States",
     "address": {
@@ -124932,11 +125075,11 @@
     },
     "boundingbox": [
       "41.5547850",
-      "41.5575673",
-      "-72.6435147",
+      "41.5573318",
+      "-72.6432999",
       "-72.6374432"
     ],
-    "expires": 1794432950
+    "expires": 1798376124
   },
   "41.5747649,-81.4480223": {
     "place_id": 370823923,
@@ -130549,7 +130692,7 @@
       "hamlet": "Llafranc",
       "town": "Palafrugell",
       "county": "Lower Empordà",
-      "state_district": "Girona",
+      "province": "Girona",
       "ISO3166-2-lvl6": "ES-GI",
       "state": "Catalonia",
       "ISO3166-2-lvl4": "ES-CT",
@@ -130572,7 +130715,7 @@
       "3.1950647",
       "3.1951647"
     ],
-    "expires": 1794723567
+    "expires": 1798447196
   },
   "41.8959616,12.4718775": {
     "place_id": 80504339,
@@ -136443,7 +136586,7 @@
       "-71.0281009",
       "-71.0279388"
     ],
-    "expires": 1794162417
+    "expires": 1798399900
   },
   "42.2351641,-82.9834603": {
     "place_id": 370415944,
@@ -147216,7 +147359,7 @@
     "expires": 1795287058
   },
   "42.8758108,74.6057108": {
-    "place_id": 212983487,
+    "place_id": 214424628,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 50446904,
@@ -147251,7 +147394,7 @@
       "74.6044942",
       "74.6059043"
     ],
-    "expires": 1794141420
+    "expires": 1798342428
   },
   "42.8758115,74.6057108": {
     "place_id": 214213551,
@@ -157466,7 +157609,7 @@
     "expires": 1795126763
   },
   "43.5251915,3.9296253": {
-    "place_id": 428468546,
+    "place_id": 429032245,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 14228509615,
@@ -157502,7 +157645,7 @@
       "3.9295431",
       "3.9296431"
     ],
-    "expires": 1794537883
+    "expires": 1798425640
   },
   "43.52631,1.570601": {
     "place_id": 85632599,
@@ -157584,7 +157727,7 @@
       "3.9324006",
       "3.9325006"
     ],
-    "expires": 1794390567
+    "expires": 1798417829
   },
   "43.5272429,3.9325721": {
     "place_id": 84926584,
@@ -157628,7 +157771,7 @@
       "3.9324006",
       "3.9325006"
     ],
-    "expires": 1794495233
+    "expires": 1798376722
   },
   "43.528389,6.148224": {
     "place_id": 82892581,
@@ -158849,7 +158992,7 @@
     "expires": 1795031800
   },
   "43.6095105,3.881329": {
-    "place_id": 85241984,
+    "place_id": 85470164,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 11276033967,
@@ -158861,7 +159004,7 @@
     "importance": 0.0000741214618142522,
     "addresstype": "amenity",
     "name": "",
-    "display_name": "Tunnel de la Comédie, Comédie, Centre, Montpellier, Hérault, Occitania, Metropolitan France, 34000, France",
+    "display_name": "Tunnel de la Comédie, Comédie, Centre, Montpellier, Hérault, Occitania, Metropolitan France, 34062, France",
     "address": {
       "road": "Tunnel de la Comédie",
       "neighbourhood": "Comédie",
@@ -158873,7 +159016,7 @@
       "state": "Occitania",
       "ISO3166-2-lvl4": "FR-OCC",
       "region": "Metropolitan France",
-      "postcode": "34000",
+      "postcode": "34062",
       "country": "France",
       "country_code": "fr"
     },
@@ -158888,7 +159031,7 @@
       "3.8813361",
       "3.8814361"
     ],
-    "expires": 1794657155
+    "expires": 1798306953
   },
   "43.6162209,-116.2115191": {
     "place_id": 327626167,
@@ -166835,7 +166978,7 @@
     "expires": 1795416655
   },
   "44.2978685,10.2447117": {
-    "place_id": 76910925,
+    "place_id": 76985851,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 4525088499,
@@ -166869,7 +167012,7 @@
       "10.2446388",
       "10.2447388"
     ],
-    "expires": 1794655098
+    "expires": 1798282598
   },
   "44.2981459,10.2439509": {
     "place_id": 77363276,
@@ -169475,7 +169618,7 @@
     "expires": 1795283712
   },
   "44.4673713,-63.5826737": {
-    "place_id": 285983100,
+    "place_id": 284261321,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1226690788,
@@ -169500,14 +169643,16 @@
       "country": "Canada",
       "country_code": "ca"
     },
-    "extratags": null,
+    "extratags": {
+      "building": "yes"
+    },
     "boundingbox": [
       "44.4672491",
       "44.4674579",
       "-63.5824411",
       "-63.5822293"
     ],
-    "expires": 1794412363
+    "expires": 1798348341
   },
   "44.4681254,6.5720997": {
     "place_id": 88694280,
@@ -185357,7 +185502,7 @@
     "expires": 1795212204
   },
   "45.064318,5.267773": {
-    "place_id": 89225248,
+    "place_id": 89599822,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 24074921,
@@ -185367,7 +185512,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.053397054245822806,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "Route de Provence",
     "display_name": "Route de Provence, Saint-Just-de-Claix, Grenoble, Isère, Auvergne-Rhône-Alpes, Metropolitan France, 38680, France",
     "address": {
@@ -185396,7 +185541,7 @@
       "5.2675918",
       "5.2678396"
     ],
-    "expires": 1794138801
+    "expires": 1798390509
   },
   "45.066376,2.7653956": {
     "place_id": 87106052,
@@ -186947,7 +187092,7 @@
     "expires": 1795079616
   },
   "45.177106,5.494366": {
-    "place_id": 89525677,
+    "place_id": 89630139,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 4446061,
@@ -186957,7 +187102,7 @@
     "type": "tertiary",
     "place_rank": 26,
     "importance": 0.05339709086747536,
-    "addresstype": "road",
+    "addresstype": "tertiary",
     "name": "Tunnel des Écouges",
     "display_name": "Tunnel des Écouges, Rovon, Grenoble, Isère, Auvergne-Rhône-Alpes, Metropolitan France, 38470, France",
     "address": {
@@ -186981,6 +187126,7 @@
       "oneway": "no",
       "tunnel": "yes",
       "surface": "asphalt",
+      "maxspeed": "50",
       "shoulder": "no",
       "sidewalk": "no",
       "headlight": "no",
@@ -186995,7 +187141,7 @@
       "5.4927564",
       "5.4961533"
     ],
-    "expires": 1794173346
+    "expires": 1798402265
   },
   "45.1836111,-113.8952778": {
     "place_id": 327194366,
@@ -187602,7 +187748,7 @@
     "expires": 1794883705
   },
   "45.2455272,6.570946": {
-    "place_id": 88651233,
+    "place_id": 88902876,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1419481745,
@@ -187612,7 +187758,7 @@
     "type": "track",
     "place_rank": 26,
     "importance": 0.05339313420309755,
-    "addresstype": "road",
+    "addresstype": "track",
     "name": "Piste du Peyron",
     "display_name": "Piste du Peyron, Plan-Bouchet, Orelle, Saint-Jean-de-Maurienne, Savoy, Auvergne-Rhône-Alpes, Metropolitan France, 73140, France",
     "address": {
@@ -187638,7 +187784,51 @@
       "6.5702944",
       "6.5856810"
     ],
-    "expires": 1794528550
+    "expires": 1798444429
+  },
+  "45.2469974,-75.7111918": {
+    "place_id": 366176485,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 77258581,
+    "lat": "45.2469577",
+    "lon": "-75.7112035",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Rideau Valley Drive",
+    "display_name": "Rideau Valley Drive, Nepean, Rideau-Jock, Ottawa, Eastern Ontario, Ontario, K2J 5M8, Canada",
+    "address": {
+      "road": "Rideau Valley Drive",
+      "suburb": "Nepean",
+      "city_district": "Rideau-Jock",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2J 5M8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "3",
+      "surface": "asphalt",
+      "maxspeed": "70",
+      "sidewalk": "no",
+      "cycleway:both": "shoulder",
+      "lanes:forward": "1",
+      "lanes:backward": "2"
+    },
+    "boundingbox": [
+      "45.2469314",
+      "45.2469807",
+      "-75.7113401",
+      "-75.7111141"
+    ],
+    "expires": 1798397338
   },
   "45.2515406,14.577902": {
     "place_id": 79016311,
@@ -187934,6 +188124,134 @@
     ],
     "expires": 1795269162
   },
+  "45.2688669,-75.7347781": {
+    "place_id": 367341453,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5423386434,
+    "lat": "45.2689939",
+    "lon": "-75.7345622",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "785, Chapman Mills Drive, Chapman Mills, Barrhaven East, Nepean, Ottawa, Eastern Ontario, Ontario, K2J 0W7, Canada",
+    "address": {
+      "house_number": "785",
+      "road": "Chapman Mills Drive",
+      "neighbourhood": "Chapman Mills",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2J 0W7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.2689439",
+      "45.2690439",
+      "-75.7346122",
+      "-75.7345122"
+    ],
+    "expires": 1798346847
+  },
+  "45.2691893,-75.6998056": {
+    "place_id": 367312040,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 459805154,
+    "lat": "45.2691512",
+    "lon": "-75.6998156",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Earl Armstrong Road",
+    "display_name": "Earl Armstrong Road, Riverside South, Riverside South-Findlay Creek, Ottawa, Eastern Ontario, Ontario, K1V 2G2, Canada",
+    "address": {
+      "road": "Earl Armstrong Road",
+      "suburb": "Riverside South",
+      "city_district": "Riverside South-Findlay Creek",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1V 2G2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "bicycle": "yes",
+      "surface": "asphalt",
+      "maxspeed": "70",
+      "bus:lanes": "||designated",
+      "cycleway:left": "no",
+      "sidewalk:left": "no",
+      "cycleway:right": "lane",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.2690818",
+      "45.2691911",
+      "-75.6999736",
+      "-75.6995517"
+    ],
+    "expires": 1798421795
+  },
+  "45.2696245,-75.5940544": {
+    "place_id": 364343662,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 597399513,
+    "lat": "45.2695181",
+    "lon": "-75.5940079",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Mitch Owens Road",
+    "display_name": "Mitch Owens Road, Osgoode, Ottawa, Eastern Ontario, Ontario, K1X 1A8, Canada",
+    "address": {
+      "road": "Mitch Owens Road",
+      "city_district": "Osgoode",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1X 1A8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "3",
+      "surface": "asphalt",
+      "cycleway": "shoulder",
+      "maxspeed": "80",
+      "shoulder": "both",
+      "sidewalk": "no",
+      "lanes:forward": "2",
+      "lanes:backward": "1",
+      "turn:lanes:forward": "left|"
+    },
+    "boundingbox": [
+      "45.2680104",
+      "45.2696020",
+      "-75.5974581",
+      "-75.5938158"
+    ],
+    "expires": 1798356788
+  },
   "45.269664,-75.8580399": {
     "place_id": 363921581,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -188097,6 +188415,48 @@
       "-75.9670839"
     ],
     "expires": 1797195729
+  },
+  "45.2723873,-75.787356": {
+    "place_id": 362590177,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 76371288,
+    "lat": "45.2724306",
+    "lon": "-75.7873570",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Fallowfield Road",
+    "display_name": "Fallowfield Road, Barrhaven West, Nepean, Ottawa, Eastern Ontario, Ontario, K2J 6E5, Canada",
+    "address": {
+      "road": "Fallowfield Road",
+      "neighbourhood": "Barrhaven West",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2J 6E5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "80",
+      "sidewalk": "no",
+      "cycleway:right": "no"
+    },
+    "boundingbox": [
+      "45.2723799",
+      "45.2724320",
+      "-75.7882787",
+      "-75.7871968"
+    ],
+    "expires": 1798348090
   },
   "45.273546,5.640819": {
     "place_id": 89514375,
@@ -188439,8 +188799,44 @@
     ],
     "expires": 1797426559
   },
+  "45.2808251,-75.6669953": {
+    "place_id": 366768833,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 830087342,
+    "lat": "45.2810208",
+    "lon": "-75.6667196",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1423, Earl Armstrong Road, Riverside South, Riverside South-Findlay Creek, Ottawa, Eastern Ontario, Ontario, K1V 2V6, Canada",
+    "address": {
+      "house_number": "1423",
+      "road": "Earl Armstrong Road",
+      "suburb": "Riverside South",
+      "city_district": "Riverside South-Findlay Creek",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1V 2V6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.2809708",
+      "45.2810708",
+      "-75.6667696",
+      "-75.6666696"
+    ],
+    "expires": 1798388158
+  },
   "45.281047,5.541594": {
-    "place_id": 89309181,
+    "place_id": 89204759,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 13024312516,
@@ -188476,7 +188872,7 @@
       "5.5421520",
       "5.5422520"
     ],
-    "expires": 1794184137
+    "expires": 1798325795
   },
   "45.283594,6.314405": {
     "place_id": 88254004,
@@ -188673,6 +189069,54 @@
     ],
     "expires": 1797278184
   },
+  "45.287851,-75.7252881": {
+    "place_id": 365875723,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 223318550,
+    "lat": "45.2883860",
+    "lon": "-75.7251100",
+    "class": "amenity",
+    "type": "bank",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "Scotiabank",
+    "display_name": "Scotiabank, 3025, Woodroffe Avenue, Barrhaven East, Nepean, Ottawa, Eastern Ontario, Ontario, K2G 6H2, Canada",
+    "address": {
+      "amenity": "Scotiabank",
+      "house_number": "3025",
+      "road": "Woodroffe Avenue",
+      "neighbourhood": "Barrhaven East",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2G 6H2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "atm": "yes",
+      "fax": "+1-613-825-5919",
+      "phone": "+1-613-825-5922",
+      "website": "http://www.scotiabank.com/",
+      "building": "retail",
+      "wheelchair": "yes",
+      "opening_hours": "Mo-We 10:00-16:30; Th-Fr 10:00-19:00; Sa 09:00-15:00",
+      "brand:wikidata": "Q451476",
+      "brand:wikipedia": "en:Scotiabank",
+      "building:start_date": "2005..2007"
+    },
+    "boundingbox": [
+      "45.2882710",
+      "45.2885040",
+      "-75.7253000",
+      "-75.7249200"
+    ],
+    "expires": 1798431210
+  },
   "45.2883311,-75.7569449": {
     "place_id": 366763189,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -188718,6 +189162,87 @@
       "-75.7566829"
     ],
     "expires": 1797656370
+  },
+  "45.2888615,-75.9029644": {
+    "place_id": 366974236,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1341655904,
+    "lat": "45.2888063",
+    "lon": "-75.9029292",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Hazeldean Road",
+    "display_name": "Hazeldean Road, Stittsville, Ottawa, Eastern Ontario, Ontario, K2S 0P5, Canada",
+    "address": {
+      "road": "Hazeldean Road",
+      "city_district": "Stittsville",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2S 0P5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "cycleway:left": "no",
+      "sidewalk:left": "no",
+      "cycleway:right": "separate",
+      "sidewalk:right": "separate",
+      "shoulder:surface": "paved",
+      "shoulder:access:bicycle": "yes"
+    },
+    "boundingbox": [
+      "45.2887116",
+      "45.2891000",
+      "-75.9030803",
+      "-75.9024686"
+    ],
+    "expires": 1798369562
+  },
+  "45.2890388,-75.9202902": {
+    "place_id": 365374043,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 547367971,
+    "lat": "45.2890045",
+    "lon": "-75.9196036",
+    "class": "building",
+    "type": "terrace",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "1774, Maple Grove Road, Stittsville, Ottawa, Eastern Ontario, Ontario, K2S 0M4, Canada",
+    "address": {
+      "house_number": "1774",
+      "road": "Maple Grove Road",
+      "city_district": "Stittsville",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2S 0M4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.2889570",
+      "45.2890650",
+      "-75.9196810",
+      "-75.9195260"
+    ],
+    "expires": 1798399509
   },
   "45.2899722,5.7671091": {
     "place_id": 90058833,
@@ -188999,6 +189524,92 @@
     ],
     "expires": 1795224739
   },
+  "45.2985342,-75.7310527": {
+    "place_id": 368043474,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 459767983,
+    "lat": "45.2985838",
+    "lon": "-75.7310706",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Fallowfield Road",
+    "display_name": "Fallowfield Road, Knoxdale-Merivale, Nepean, Ottawa, Eastern Ontario, Ontario, K2J 4P5, Canada",
+    "address": {
+      "road": "Fallowfield Road",
+      "neighbourhood": "Knoxdale-Merivale",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2J 4P5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "cycleway": "no",
+      "maxspeed": "80",
+      "sidewalk": "no"
+    },
+    "boundingbox": [
+      "45.2985519",
+      "45.2987295",
+      "-75.7311590",
+      "-75.7306672"
+    ],
+    "expires": 1798402664
+  },
+  "45.3018363,-75.9075455": {
+    "place_id": 367678363,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 74113375,
+    "lat": "45.3019006",
+    "lon": "-75.9075940",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Palladium Drive",
+    "display_name": "Palladium Drive, Kanata, Kanata South, Ottawa, Eastern Ontario, Ontario, K2L 4A2, Canada",
+    "address": {
+      "road": "Palladium Drive",
+      "suburb": "Kanata",
+      "city_district": "Kanata South",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2L 4A2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "50",
+      "sidewalk": "right",
+      "turn:lanes": "left|left|through"
+    },
+    "boundingbox": [
+      "45.3015083",
+      "45.3019485",
+      "-75.9079507",
+      "-75.9075305"
+    ],
+    "expires": 1798303834
+  },
   "45.3031,5.90687": {
     "place_id": 89866218,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -189038,6 +189649,48 @@
       "5.9068782"
     ],
     "expires": 1795050271
+  },
+  "45.3038441,-75.876868": {
+    "place_id": 365894237,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 467420631,
+    "lat": "45.3039059",
+    "lon": "-75.8768931",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Hazeldean Road",
+    "display_name": "Hazeldean Road, Kanata, Kanata South, Ottawa, Eastern Ontario, Ontario, K2L 4C6, Canada",
+    "address": {
+      "road": "Hazeldean Road",
+      "suburb": "Kanata",
+      "city_district": "Kanata South",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2L 4C6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "5",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "sidewalk": "no",
+      "turn:lanes": "left|left|through|through|through"
+    },
+    "boundingbox": [
+      "45.3037833",
+      "45.3039484",
+      "-75.8771943",
+      "-75.8767887"
+    ],
+    "expires": 1798333017
   },
   "45.3051383,-75.9114262": {
     "place_id": 367066262,
@@ -189285,6 +189938,42 @@
     ],
     "expires": 1795144671
   },
+  "45.3107504,-75.9021535": {
+    "place_id": 365385667,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1340322274,
+    "lat": "45.3110509",
+    "lon": "-75.9023695",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Highway 417, Kanata North, Ottawa, Eastern Ontario, Ontario, K2K 3L8, Canada",
+    "address": {
+      "road": "Highway 417",
+      "city_district": "Kanata North",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2K 3L8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1"
+    },
+    "boundingbox": [
+      "45.3107459",
+      "45.3113624",
+      "-75.9029029",
+      "-75.9018386"
+    ],
+    "expires": 1798439650
+  },
   "45.3112648,14.5332118": {
     "place_id": 79269261,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -189326,6 +190015,42 @@
       "14.5340693"
     ],
     "expires": 1795029679
+  },
+  "45.3113824,-75.9027392": {
+    "place_id": 367460538,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1340322274,
+    "lat": "45.3110509",
+    "lon": "-75.9023695",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Kanata Avenue, Kanata North, Ottawa, Eastern Ontario, Ontario, K2L 4H8, Canada",
+    "address": {
+      "road": "Kanata Avenue",
+      "city_district": "Kanata North",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2L 4H8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1"
+    },
+    "boundingbox": [
+      "45.3107459",
+      "45.3113624",
+      "-75.9029029",
+      "-75.9018386"
+    ],
+    "expires": 1798371296
   },
   "45.3117665,14.5320992": {
     "place_id": 79232452,
@@ -189448,6 +190173,49 @@
     ],
     "expires": 1797441793
   },
+  "45.3173706,-75.7419795": {
+    "place_id": 366667453,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 458089268,
+    "lat": "45.3174002",
+    "lon": "-75.7419293",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Woodroffe Avenue",
+    "display_name": "Woodroffe Avenue, Knoxdale-Merivale, Nepean, Ottawa, Eastern Ontario, Ontario, K2E 5Z6, Canada",
+    "address": {
+      "road": "Woodroffe Avenue",
+      "neighbourhood": "Knoxdale-Merivale",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2E 5Z6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "80",
+      "sidewalk": "no",
+      "cycleway:right": "shoulder"
+    },
+    "boundingbox": [
+      "45.3171628",
+      "45.3226007",
+      "-75.7450685",
+      "-75.7417884"
+    ],
+    "expires": 1798410460
+  },
   "45.3173835,14.1730988": {
     "place_id": 79582495,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -189522,6 +190290,88 @@
     ],
     "expires": 1795301655
   },
+  "45.3203998,-75.5939699": {
+    "place_id": 366535828,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 106301339,
+    "lat": "45.3204468",
+    "lon": "-75.5939892",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "tertiary",
+    "name": "Findlay Creek Drive",
+    "display_name": "Findlay Creek Drive, Riverside South-Findlay Creek, Ottawa, Eastern Ontario, Ontario, K1T 0K8, Canada",
+    "address": {
+      "road": "Findlay Creek Drive",
+      "city_district": "Riverside South-Findlay Creek",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1T 0K8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "50",
+      "sidewalk": "right"
+    },
+    "boundingbox": [
+      "45.3197900",
+      "45.3205226",
+      "-75.5954563",
+      "-75.5937791"
+    ],
+    "expires": 1798407470
+  },
+  "45.3205552,-75.6237614": {
+    "place_id": 366637852,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 509355683,
+    "lat": "45.3205813",
+    "lon": "-75.6237210",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Albion Road",
+    "display_name": "Albion Road, Gloucester-Southgate, Ottawa, Eastern Ontario, Ontario, K1T 3V3, Canada",
+    "address": {
+      "road": "Albion Road",
+      "city_district": "Gloucester-Southgate",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1T 3V3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lit": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "80",
+      "sidewalk": "no"
+    },
+    "boundingbox": [
+      "45.3204288",
+      "45.3213101",
+      "-75.6242119",
+      "-75.6236309"
+    ],
+    "expires": 1798297924
+  },
   "45.3223243,-75.8332249": {
     "place_id": 363947937,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -189564,6 +190414,41 @@
       "-75.8332548"
     ],
     "expires": 1797638329
+  },
+  "45.3237505,-75.5958665": {
+    "place_id": 39932216,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 69180658,
+    "lat": "45.3237542",
+    "lon": "-75.5958457",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00000999999999995449,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "4732, Bank Street, Riverside South-Findlay Creek, Ottawa, Eastern Ontario, Ontario, K1T 3W7, Canada",
+    "address": {
+      "house_number": "4732",
+      "road": "Bank Street",
+      "city_district": "Riverside South-Findlay Creek",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1T 3W7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.3237042",
+      "45.3238042",
+      "-75.5958957",
+      "-75.5957957"
+    ],
+    "expires": 1798304692
   },
   "45.3243509,14.48962": {
     "place_id": 79005400,
@@ -189698,6 +190583,84 @@
     ],
     "expires": 1795108521
   },
+  "45.3293341,-75.6534967": {
+    "place_id": 366535788,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1334548160,
+    "lat": "45.3291585",
+    "lon": "-75.6535670",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Airport Parkway, Gloucester-Southgate, Ottawa, Eastern Ontario, Ontario, K1V 1S2, Canada",
+    "address": {
+      "road": "Airport Parkway",
+      "city_district": "Gloucester-Southgate",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1V 1S2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1"
+    },
+    "boundingbox": [
+      "45.3289778",
+      "45.3293357",
+      "-75.6539093",
+      "-75.6532324"
+    ],
+    "expires": 1798387381
+  },
+  "45.3300132,-75.7818724": {
+    "place_id": 365459927,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6307525496,
+    "lat": "45.3296590",
+    "lon": "-75.7818030",
+    "class": "amenity",
+    "type": "kindergarten",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "St. Mary's Daycare",
+    "display_name": "St. Mary's Daycare, 2, Canfield Road, Knoxdale-Merivale, Nepean, Ottawa, Eastern Ontario, Ontario, K2H 5T1, Canada",
+    "address": {
+      "amenity": "St. Mary's Daycare",
+      "house_number": "2",
+      "road": "Canfield Road",
+      "neighbourhood": "Knoxdale-Merivale",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2H 5T1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "phone": "+1-613-596-6279",
+      "website": "http://www.stmarysdaycare.ca",
+      "check_date": "2024-03-09",
+      "school:language": "english"
+    },
+    "boundingbox": [
+      "45.3296090",
+      "45.3297090",
+      "-75.7818530",
+      "-75.7817530"
+    ],
+    "expires": 1798377810
+  },
   "45.3338537,-93.6669098": {
     "place_id": 399992241,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -189731,6 +190694,52 @@
       "-93.6668647"
     ],
     "expires": 1795276506
+  },
+  "45.3340724,-75.7521522": {
+    "place_id": 366596886,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 471675747,
+    "lat": "45.3343686",
+    "lon": "-75.7517597",
+    "class": "amenity",
+    "type": "fuel",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "Esso",
+    "display_name": "Esso, 1545, Woodroffe Avenue, Tanglewood, Knoxdale-Merivale, Nepean, Ottawa, Eastern Ontario, Ontario, K2G 1W2, Canada",
+    "address": {
+      "amenity": "Esso",
+      "house_number": "1545",
+      "road": "Woodroffe Avenue",
+      "neighbourhood": "Tanglewood",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2G 1W2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "phone": "+1-613-226-6456",
+      "website": "https://www.esso.ca/en-ca/find-station/esso-nepean-on-esso-200302287",
+      "building": "roof",
+      "mapillary": "991278435014272",
+      "check_date": "2022-10-20",
+      "brand:wikidata": "Q867662",
+      "brand:wikipedia": "en:Esso",
+      "building:levels": "1"
+    },
+    "boundingbox": [
+      "45.3342800",
+      "45.3344550",
+      "-75.7519750",
+      "-75.7515550"
+    ],
+    "expires": 1798366597
   },
   "45.3341779,14.4584186": {
     "place_id": 79453150,
@@ -190323,6 +191332,41 @@
     ],
     "expires": 1795666051
   },
+  "45.3410473,-75.7883092": {
+    "place_id": 365289562,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 606547402,
+    "lat": "45.3411509",
+    "lon": "-75.7885528",
+    "class": "building",
+    "type": "terrace",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "2601, Baseline Road, College, Ottawa, Eastern Ontario, Ontario, K2H 7B3, Canada",
+    "address": {
+      "house_number": "2601",
+      "road": "Baseline Road",
+      "neighbourhood": "College",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2H 7B3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.3410944",
+      "45.3411943",
+      "-75.7886110",
+      "-75.7884946"
+    ],
+    "expires": 1798409533
+  },
   "45.3422555,14.4303625": {
     "place_id": 79544884,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -190529,6 +191573,97 @@
     ],
     "expires": 1797654255
   },
+  "45.3438849,-75.8152091": {
+    "place_id": 367703590,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 595281197,
+    "lat": "45.3439741",
+    "lon": "-75.8152262",
+    "class": "highway",
+    "type": "motorway",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "motorway",
+    "name": "Highway 417",
+    "display_name": "Highway 417, Bay, Nepean, Ottawa, Eastern Ontario, Ontario, K2B 7T2, Canada",
+    "address": {
+      "road": "Highway 417",
+      "neighbourhood": "Bay",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2B 7T2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "NHS": "yes",
+      "lit": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "110",
+      "nat_name": "Trans-Canada Highway",
+      "nat_name:en": "Trans-Canada Highway",
+      "nat_name:fr": "Route Transcanadienne",
+      "maxspeed:hgv": "105"
+    },
+    "boundingbox": [
+      "45.3436135",
+      "45.3442109",
+      "-75.8175364",
+      "-75.8141251"
+    ],
+    "expires": 1798451417
+  },
+  "45.3440123,-75.7293875": {
+    "place_id": 366498464,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 672588484,
+    "lat": "45.3442341",
+    "lon": "-75.7291842",
+    "class": "shop",
+    "type": "clothes",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "shop",
+    "name": "Mr. Big & Tall",
+    "display_name": "Mr. Big & Tall, 1719, Merivale Road, Knoxdale-Merivale, Nepean, Ottawa, Eastern Ontario, Ontario, K2G 3J8, Canada",
+    "address": {
+      "shop": "Mr. Big & Tall",
+      "house_number": "1719",
+      "road": "Merivale Road",
+      "neighbourhood": "Knoxdale-Merivale",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2G 3J8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "clothes": "men",
+      "building": "retail",
+      "mapillary": "1198789157224876",
+      "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 11:00-17:00",
+      "brand:wikidata": "Q132720946",
+      "building:colour": "beige",
+      "building:levels": "1"
+    },
+    "boundingbox": [
+      "45.3441164",
+      "45.3443517",
+      "-75.7293300",
+      "-75.7290384"
+    ],
+    "expires": 1798292155
+  },
   "45.3449421,14.4238108": {
     "place_id": 79183454,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -190691,6 +191826,87 @@
     ],
     "expires": 1797530330
   },
+  "45.3465346,-75.7009606": {
+    "place_id": 367946986,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 468415983,
+    "lat": "45.3467447",
+    "lon": "-75.7006384",
+    "class": "building",
+    "type": "civic",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "Serbian Community Centre",
+    "display_name": "Serbian Community Centre, 1989, Prince Of Wales Drive, Knoxdale-Merivale, Nepean, Ottawa, Eastern Ontario, Ontario, K2E 7A6, Canada",
+    "address": {
+      "building": "Serbian Community Centre",
+      "house_number": "1989",
+      "road": "Prince Of Wales Drive",
+      "neighbourhood": "Knoxdale-Merivale",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2E 7A6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "phone": "+1-613-738-8045"
+    },
+    "boundingbox": [
+      "45.3466005",
+      "45.3468889",
+      "-75.7008718",
+      "-75.7004051"
+    ],
+    "expires": 1798444124
+  },
+  "45.3479638,-75.803466": {
+    "place_id": 366210165,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 305216488,
+    "lat": "45.3480202",
+    "lon": "-75.8035210",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Richmond Road",
+    "display_name": "Richmond Road, Bay, Nepean, Ottawa, Eastern Ontario, Ontario, K2B 6M7, Canada",
+    "address": {
+      "road": "Richmond Road",
+      "neighbourhood": "Bay",
+      "suburb": "Nepean",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2B 6M7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "shoulder": "no",
+      "sidewalk": "no"
+    },
+    "boundingbox": [
+      "45.3478874",
+      "45.3480358",
+      "-75.8036570",
+      "-75.8035050"
+    ],
+    "expires": 1798321392
+  },
   "45.348233,14.3792142": {
     "place_id": 79335525,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -190782,6 +191998,51 @@
     ],
     "expires": 1797800044
   },
+  "45.3515213,-75.763224": {
+    "place_id": 366430722,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 303077630,
+    "lat": "45.3514575",
+    "lon": "-75.7631973",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Baseline Road",
+    "display_name": "Baseline Road, College, Ottawa, Eastern Ontario, Ontario, K2C 0C7, Canada",
+    "address": {
+      "road": "Baseline Road",
+      "neighbourhood": "College",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2C 0C7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "yes",
+      "lit": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "cycleway:left": "no",
+      "sidewalk:left": "no",
+      "cycleway:right": "lane",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.3513628",
+      "45.3514915",
+      "-75.7634165",
+      "-75.7631160"
+    ],
+    "expires": 1798356492
+  },
   "45.3515349,-122.6285445": {
     "place_id": 328909295,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -190827,6 +192088,94 @@
       "-122.6143680"
     ],
     "expires": 1795315059
+  },
+  "45.3515936,-75.6512329": {
+    "place_id": 364276706,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 538574991,
+    "lat": "45.3515430",
+    "lon": "-75.6512124",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Hunt Club Road",
+    "display_name": "Hunt Club Road, South Keys, Gloucester-Southgate, Ottawa, Eastern Ontario, Ontario, K1V 8S4, Canada",
+    "address": {
+      "road": "Hunt Club Road",
+      "suburb": "South Keys",
+      "city_district": "Gloucester-Southgate",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1V 8S4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "cycleway:left": "no",
+      "sidewalk:left": "no",
+      "cycleway:right": "lane",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.3514925",
+      "45.3516447",
+      "-75.6513376",
+      "-75.6509611"
+    ],
+    "expires": 1798442940
+  },
+  "45.3551779,-75.770677": {
+    "place_id": 367115868,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1122173958,
+    "lat": "45.3552060",
+    "lon": "-75.7706802",
+    "class": "highway",
+    "type": "cycleway",
+    "place_rank": 27,
+    "importance": 0.040087193865873186,
+    "addresstype": "road",
+    "name": "Pinecrest Creek Pathway",
+    "display_name": "Pinecrest Creek Pathway, College, Ottawa, Eastern Ontario, Ontario, K2C 2V8, Canada",
+    "address": {
+      "road": "Pinecrest Creek Pathway",
+      "neighbourhood": "College",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2C 2V8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "foot": "designated",
+      "horse": "no",
+      "bicycle": "designated",
+      "surface": "asphalt",
+      "segregated": "no",
+      "smoothness": "intermediate",
+      "winter_service": "yes",
+      "winter_service:quality": "good"
+    },
+    "boundingbox": [
+      "45.3527360",
+      "45.3552210",
+      "-75.7706834",
+      "-75.7669021"
+    ],
+    "expires": 1798392572
   },
   "45.3574388,-122.665029": {
     "place_id": 323374887,
@@ -190916,6 +192265,42 @@
     ],
     "expires": 1797297610
   },
+  "45.360613,-75.6878166": {
+    "place_id": 368135621,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 482916641,
+    "lat": "45.3599185",
+    "lon": "-75.6876462",
+    "class": "building",
+    "type": "detached",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "3181, Riverside Drive, Linton Park, River, Ottawa, Eastern Ontario, Ontario, K1V 8N8, Canada",
+    "address": {
+      "house_number": "3181",
+      "road": "Riverside Drive",
+      "residential": "Linton Park",
+      "city_district": "River",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1V 8N8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.3598320",
+      "45.3600100",
+      "-75.6878290",
+      "-75.6875130"
+    ],
+    "expires": 1798321889
+  },
   "45.3608146,-122.8562855": {
     "place_id": 326141393,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -190955,6 +192340,47 @@
       "-122.8561895"
     ],
     "expires": 1795189566
+  },
+  "45.3608275,-75.7679305": {
+    "place_id": 369132362,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 520357119,
+    "lat": "45.3607776",
+    "lon": "-75.7680197",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Woodroffe Avenue",
+    "display_name": "Woodroffe Avenue, College, Ottawa, Eastern Ontario, Ontario, K2C 2R8, Canada",
+    "address": {
+      "road": "Woodroffe Avenue",
+      "neighbourhood": "College",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2C 2R8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "50",
+      "sidewalk": "right"
+    },
+    "boundingbox": [
+      "45.3600354",
+      "45.3608991",
+      "-75.7680877",
+      "-75.7676046"
+    ],
+    "expires": 1798413835
   },
   "45.3620473,-75.7689645": {
     "place_id": 367694028,
@@ -191037,6 +192463,121 @@
       "-122.6101868"
     ],
     "expires": 1795352558
+  },
+  "45.364269,-75.7480821": {
+    "place_id": 367126843,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 474880791,
+    "lat": "45.3645545",
+    "lon": "-75.7478941",
+    "class": "building",
+    "type": "detached",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "1201, Maitland Avenue, Copeland Park, College, Ottawa, Eastern Ontario, Ontario, K2C 2G9, Canada",
+    "address": {
+      "house_number": "1201",
+      "road": "Maitland Avenue",
+      "neighbourhood": "Copeland Park",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2C 2G9",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.3644780",
+      "45.3646320",
+      "-75.7479940",
+      "-75.7477940"
+    ],
+    "expires": 1798407718
+  },
+  "45.3648877,-75.6197625": {
+    "place_id": 367046066,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 456359868,
+    "lat": "45.3649572",
+    "lon": "-75.6197910",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Hunt Club Road",
+    "display_name": "Hunt Club Road, Gloucester-Southgate, Ottawa, Eastern Ontario, Ontario, K1G 5R8, Canada",
+    "address": {
+      "road": "Hunt Club Road",
+      "city_district": "Gloucester-Southgate",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1G 5R8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "4",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "sidewalk": "no",
+      "turn:lanes": "left|left|none|none",
+      "cycleway:left": "no",
+      "cycleway:right": "lane"
+    },
+    "boundingbox": [
+      "45.3648253",
+      "45.3649879",
+      "-75.6201133",
+      "-75.6197160"
+    ],
+    "expires": 1798364858
+  },
+  "45.3650335,-75.7820273": {
+    "place_id": 428015799,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1557866931,
+    "lat": "45.3652302",
+    "lon": "-75.7820364",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Carling Avenue, Whitehaven, Bay, Ottawa, Eastern Ontario, Ontario, K2B 5L1, Canada",
+    "address": {
+      "road": "Carling Avenue",
+      "neighbourhood": "Whitehaven",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2B 5L1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1"
+    },
+    "boundingbox": [
+      "45.3649758",
+      "45.3654274",
+      "-75.7821996",
+      "-75.7818674"
+    ],
+    "expires": 1798326055
   },
   "45.3665072,-122.848053": {
     "place_id": 323254601,
@@ -191257,6 +192798,48 @@
       "-122.8059438"
     ],
     "expires": 1794978621
+  },
+  "45.3707153,-75.7813953": {
+    "place_id": 367163592,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1329663250,
+    "lat": "45.3706714",
+    "lon": "-75.7813514",
+    "class": "highway",
+    "type": "construction",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "construction",
+    "name": "Byron Avenue",
+    "display_name": "Byron Avenue, Woodpark, Bay, Ottawa, Eastern Ontario, Ontario, K2B 8E4, Canada",
+    "address": {
+      "road": "Byron Avenue",
+      "neighbourhood": "Woodpark",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2B 8E4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "50",
+      "sidewalk": "no",
+      "construction": "residential"
+    },
+    "boundingbox": [
+      "45.3703691",
+      "45.3720022",
+      "-75.7818679",
+      "-75.7801496"
+    ],
+    "expires": 1798311698
   },
   "45.3709032,-122.7958203": {
     "place_id": 324029188,
@@ -191599,6 +193182,50 @@
       "-122.7430571"
     ],
     "expires": 1795078156
+  },
+  "45.3757906,-75.7578096": {
+    "place_id": 367820902,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2443781328,
+    "lat": "45.3760635",
+    "lon": "-75.7580494",
+    "class": "leisure",
+    "type": "fitness_centre",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "leisure",
+    "name": "Anytime Fitness",
+    "display_name": "Anytime Fitness, 1867, Carling Avenue, McKellar Heights, Bay, Westboro, Ottawa, Eastern Ontario, Ontario, K2A 2M3, Canada",
+    "address": {
+      "leisure": "Anytime Fitness",
+      "house_number": "1867",
+      "road": "Carling Avenue",
+      "neighbourhood": "McKellar Heights",
+      "suburb": "Westboro",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2A 2M3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "website": "https://www.anytimefitness.com/gyms/3045/ottawa-on-k2a-1e5",
+      "mapillary": "823693405226539",
+      "check_date": "2022-11-18",
+      "opening_hours": "24/7",
+      "brand:wikidata": "Q4778364",
+      "brand:wikipedia": "en:Anytime Fitness"
+    },
+    "boundingbox": [
+      "45.3760135",
+      "45.3761135",
+      "-75.7580994",
+      "-75.7579994"
+    ],
+    "expires": 1798349573
   },
   "45.3778975,-75.6735178": {
     "place_id": 366491051,
@@ -192251,6 +193878,55 @@
     ],
     "expires": 1795033524
   },
+  "45.3860432,-75.737088": {
+    "place_id": 366273403,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 76691484,
+    "lat": "45.3861982",
+    "lon": "-75.7372314",
+    "class": "highway",
+    "type": "motorway",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "motorway",
+    "name": "Highway 417",
+    "display_name": "Highway 417, River, Ottawa, Eastern Ontario, Ontario, K1Y 2G5, Canada",
+    "address": {
+      "road": "Highway 417",
+      "city_district": "River",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Y 2G5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "NHS": "yes",
+      "lit": "yes",
+      "foot": "no",
+      "horse": "no",
+      "lanes": "5",
+      "oneway": "yes",
+      "bicycle": "no",
+      "surface": "asphalt",
+      "maxspeed": "100",
+      "nat_name": "Trans-Canada Highway",
+      "turn:lanes": "none|none|none|none|merge_to_left",
+      "nat_name:en": "Trans-Canada Highway",
+      "nat_name:fr": "Route Transcanadienne",
+      "transit:lanes": "continue|continue|continue|continue|end"
+    },
+    "boundingbox": [
+      "45.3855061",
+      "45.3872117",
+      "-75.7379878",
+      "-75.7361574"
+    ],
+    "expires": 1798298257
+  },
   "45.3868612,4.5964434": {
     "place_id": 89776050,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -192601,6 +194277,94 @@
     ],
     "expires": 1796632167
   },
+  "45.3946981,-75.6708951": {
+    "place_id": 367119513,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 76729060,
+    "lat": "45.3946692",
+    "lon": "-75.6708486",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Riverside Drive",
+    "display_name": "Riverside Drive, Applewood Acres, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1H 1A2, Canada",
+    "address": {
+      "road": "Riverside Drive",
+      "neighbourhood": "Applewood Acres",
+      "suburb": "Alta Vista",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1H 1A2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "sidewalk": "right",
+      "expressway": "yes"
+    },
+    "boundingbox": [
+      "45.3945388",
+      "45.3950343",
+      "-75.6709297",
+      "-75.6706215"
+    ],
+    "expires": 1798399945
+  },
+  "45.3949452,-75.7405614": {
+    "place_id": 362943852,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 539326799,
+    "lat": "45.3948780",
+    "lon": "-75.7405401",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "tertiary",
+    "name": "Byron Avenue",
+    "display_name": "Byron Avenue, Wellington Village, Westboro, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Y 0H3, Canada",
+    "address": {
+      "road": "Byron Avenue",
+      "neighbourhood": "Wellington Village",
+      "suburb": "Westboro",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Y 0H3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "no",
+      "lit": "yes",
+      "lanes": "2",
+      "surface": "asphalt",
+      "maxspeed": "50",
+      "parking:lane": "no_parking",
+      "sidewalk:both": "separate",
+      "parking:lane:both": "no_parking"
+    },
+    "boundingbox": [
+      "45.3948504",
+      "45.3959187",
+      "-75.7406269",
+      "-75.7373773"
+    ],
+    "expires": 1798382924
+  },
   "45.3962472,-75.7608735": {
     "place_id": 367232916,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -192639,6 +194403,46 @@
       "-75.7607369"
     ],
     "expires": 1797186923
+  },
+  "45.3963068,-75.6845227": {
+    "place_id": 367436424,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 681174696,
+    "lat": "45.3964206",
+    "lon": "-75.6846189",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.17283327415591612,
+    "addresstype": "man_made",
+    "name": "Bank Street Bridge",
+    "display_name": "Bank Street Bridge, Colonel By Drive, Rideau Gardens, Capital, Ottawa, Eastern Ontario, Ontario, K1S 0R4, Canada",
+    "address": {
+      "man_made": "Bank Street Bridge",
+      "road": "Colonel By Drive",
+      "neighbourhood": "Rideau Gardens",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 0R4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1",
+      "wikipedia": "en:Bank Street Bridge",
+      "bridge:structure": "arch"
+    },
+    "boundingbox": [
+      "45.3959568",
+      "45.3971655",
+      "-75.6851363",
+      "-75.6842659"
+    ],
+    "expires": 1798348947
   },
   "45.3965182,-75.7286269": {
     "place_id": 369171862,
@@ -192773,6 +194577,91 @@
     ],
     "expires": 1797394441
   },
+  "45.3973173,-75.7077358": {
+    "place_id": 366128980,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4136830796,
+    "lat": "45.3972826",
+    "lon": "-75.7078176",
+    "class": "highway",
+    "type": "bus_stop",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "highway",
+    "name": "Carling / Preston",
+    "display_name": "Carling / Preston, Trillium Pathway, Capital, Ottawa, Eastern Ontario, Ontario, K1S 2E7, Canada",
+    "address": {
+      "highway": "Carling / Preston",
+      "road": "Trillium Pathway",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 2E7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "bin": "yes",
+      "bus": "yes",
+      "lit": "no",
+      "bench": "yes",
+      "network": "OC Transpo",
+      "shelter": "yes",
+      "stop_id": "NB590",
+      "operator": "OC Transpo",
+      "tactile_paving": "no",
+      "network:wikidata": "Q3347525",
+      "public_transport": "platform",
+      "check_date:shelter": "2026-10-25"
+    },
+    "boundingbox": [
+      "45.3972326",
+      "45.3973326",
+      "-75.7078676",
+      "-75.7077676"
+    ],
+    "expires": 1798409337
+  },
+  "45.3973662,-75.7421548": {
+    "place_id": 366418921,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4721825600,
+    "lat": "45.3975620",
+    "lon": "-75.7423620",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "355, Island Park Drive, Wellington Village, Westboro, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Y 0B1, Canada",
+    "address": {
+      "house_number": "355",
+      "road": "Island Park Drive",
+      "neighbourhood": "Wellington Village",
+      "suburb": "Westboro",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Y 0B1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.3975120",
+      "45.3976120",
+      "-75.7424120",
+      "-75.7423120"
+    ],
+    "expires": 1798305459
+  },
   "45.3978262,-75.5932228": {
     "place_id": 366680215,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -192809,6 +194698,95 @@
       "-75.5923459"
     ],
     "expires": 1797627908
+  },
+  "45.398745,-75.6616741": {
+    "place_id": 367107621,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 456580304,
+    "lat": "45.3987419",
+    "lon": "-75.6616938",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "tertiary",
+    "name": "Alta Vista Drive",
+    "display_name": "Alta Vista Drive, Faircrest Heights, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1H 8M7, Canada",
+    "address": {
+      "road": "Alta Vista Drive",
+      "neighbourhood": "Faircrest Heights",
+      "suburb": "Alta Vista",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1H 8M7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "no",
+      "lcn": "yes",
+      "lit": "yes",
+      "lanes": "3",
+      "surface": "asphalt",
+      "cycleway": "lane",
+      "maxspeed": "50",
+      "sidewalk": "no",
+      "lanes:forward": "1",
+      "lanes:backward": "2",
+      "turn:lanes:backward": "left|"
+    },
+    "boundingbox": [
+      "45.3986477",
+      "45.3990543",
+      "-75.6617695",
+      "-75.6616789"
+    ],
+    "expires": 1798337223
+  },
+  "45.3987898,-75.7457262": {
+    "place_id": 367256706,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 380493562,
+    "lat": "45.3988115",
+    "lon": "-75.7454034",
+    "class": "building",
+    "type": "detached",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "293, Island Park Drive, Wellington Village, Westboro, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Z 6G6, Canada",
+    "address": {
+      "house_number": "293",
+      "road": "Island Park Drive",
+      "neighbourhood": "Wellington Village",
+      "suburb": "Westboro",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Z 6G6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "roof:shape": "gabled",
+      "building:levels": "2",
+      "building:material": "brick"
+    },
+    "boundingbox": [
+      "45.3987466",
+      "45.3988774",
+      "-75.7454923",
+      "-75.7453145"
+    ],
+    "expires": 1798429746
   },
   "45.3990724,-73.9591128": {
     "place_id": 365576773,
@@ -192851,6 +194829,166 @@
       "-73.9582796"
     ],
     "expires": 1795351146
+  },
+  "45.3992767,-75.6476293": {
+    "place_id": 366477172,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7373727468,
+    "lat": "45.3991522",
+    "lon": "-75.6476432",
+    "class": "amenity",
+    "type": "waste_basket",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Smyth Road, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1H 8L6, Canada",
+    "address": {
+      "road": "Smyth Road",
+      "suburb": "Alta Vista",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1H 8L6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.3991022",
+      "45.3992022",
+      "-75.6476932",
+      "-75.6475932"
+    ],
+    "expires": 1798416223
+  },
+  "45.3996074,-75.7320166": {
+    "place_id": 366405783,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7140262131,
+    "lat": "45.3995826",
+    "lon": "-75.7319838",
+    "class": "tourism",
+    "type": "artwork",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "tourism",
+    "name": "",
+    "display_name": "Holland Avenue, Wellington Village, Hintonburg, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Y 3A1, Canada",
+    "address": {
+      "road": "Holland Avenue",
+      "neighbourhood": "Wellington Village",
+      "suburb": "Hintonburg",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Y 3A1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "artwork_type": "sculpture"
+    },
+    "boundingbox": [
+      "45.3995326",
+      "45.3996326",
+      "-75.7320338",
+      "-75.7319338"
+    ],
+    "expires": 1798350628
+  },
+  "45.4007166,-75.7289977": {
+    "place_id": 366589478,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 154350198,
+    "lat": "45.4007172",
+    "lon": "-75.7285588",
+    "class": "building",
+    "type": "apartments",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "Wellington West Retirement Community",
+    "display_name": "Wellington West Retirement Community, 1166, Wellington Street West, Hintonburg Shopping Area, Hintonburg, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Y 2Z2, Canada",
+    "address": {
+      "building": "Wellington West Retirement Community",
+      "house_number": "1166",
+      "road": "Wellington Street West",
+      "commercial": "Hintonburg Shopping Area",
+      "suburb": "Hintonburg",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Y 2Z2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "website": "https://www.wellingtonwestretirement.com/",
+      "opening_date": "2021-09-01",
+      "building:levels": "11"
+    },
+    "boundingbox": [
+      "45.4004798",
+      "45.4009658",
+      "-75.7289554",
+      "-75.7281611"
+    ],
+    "expires": 1798401142
+  },
+  "45.4012107,-75.6997893": {
+    "place_id": 367347343,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 479507281,
+    "lat": "45.4015251",
+    "lon": "-75.7001611",
+    "class": "shop",
+    "type": "mobile_phone",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "shop",
+    "name": "Allo Allo Wireless",
+    "display_name": "Allo Allo Wireless, 738, Bronson Avenue, Capital, Ottawa, Eastern Ontario, Ontario, K1S 4G3, Canada",
+    "address": {
+      "shop": "Allo Allo Wireless",
+      "house_number": "738",
+      "road": "Bronson Avenue",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 4G3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "email": "info@alloallo.ca",
+      "phone": "+1 613-262-0684",
+      "website": "https://alloallo.ca/",
+      "building": "commercial",
+      "opening_hours": "Mo-Sa 10:00-20:00",
+      "building:levels": "2",
+      "contact:facebook": "alloallowireless",
+      "contact:instagram": "alloallowireless"
+    },
+    "boundingbox": [
+      "45.4014760",
+      "45.4015603",
+      "-75.7002090",
+      "-75.7001020"
+    ],
+    "expires": 1798291822
   },
   "45.4012582,-75.6240454": {
     "place_id": 368237249,
@@ -192931,6 +195069,131 @@
     ],
     "expires": 1795213099
   },
+  "45.4016824,-75.6877234": {
+    "place_id": 366463892,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7129589725,
+    "lat": "45.4016547",
+    "lon": "-75.6877511",
+    "class": "amenity",
+    "type": "bicycle_parking",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Fifth Avenue, The Glebe, Capital, Ottawa, Eastern Ontario, Ontario, K1S 3W1, Canada",
+    "address": {
+      "road": "Fifth Avenue",
+      "suburb": "The Glebe",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 3W1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "covered": "no",
+      "capacity": "5",
+      "mapillary": "829226024619265",
+      "bicycle_parking": "rack"
+    },
+    "boundingbox": [
+      "45.4016047",
+      "45.4017047",
+      "-75.6878011",
+      "-75.6877011"
+    ],
+    "expires": 1798302869
+  },
+  "45.403803,-75.6820058": {
+    "place_id": 367654506,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 115928475,
+    "lat": "45.4038427",
+    "lon": "-75.6819390",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Queen Elizabeth Driveway",
+    "display_name": "Queen Elizabeth Driveway, Rideau Gardens, Capital, Ottawa, Eastern Ontario, Ontario, K1S 5H6, Canada",
+    "address": {
+      "road": "Queen Elizabeth Driveway",
+      "neighbourhood": "Rideau Gardens",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 5H6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "no",
+      "lit": "yes",
+      "lanes": "2",
+      "surface": "asphalt",
+      "maxspeed": "40",
+      "sidewalk": "no"
+    },
+    "boundingbox": [
+      "45.3967980",
+      "45.4039337",
+      "-75.6835416",
+      "-75.6797744"
+    ],
+    "expires": 1798329870
+  },
+  "45.4044102,-75.6892956": {
+    "place_id": 367273978,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 238120478,
+    "lat": "45.4044575",
+    "lon": "-75.6894352",
+    "class": "shop",
+    "type": "jewelry",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "shop",
+    "name": "Goldart",
+    "display_name": "Goldart, 722, Bank Street, The Glebe, Capital, Ottawa, Eastern Ontario, Ontario, K1S 3V3, Canada",
+    "address": {
+      "shop": "Goldart",
+      "house_number": "722",
+      "road": "Bank Street",
+      "suburb": "The Glebe",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 3V3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "building": "retail",
+      "mapillary": "1429551657390827",
+      "building:colour": "red",
+      "building:levels": "3",
+      "building:material": "brick"
+    },
+    "boundingbox": [
+      "45.4043620",
+      "45.4045390",
+      "-75.6895620",
+      "-75.6893090"
+    ],
+    "expires": 1798387164
+  },
   "45.4063889,-91.2194444": {
     "place_id": 374115258,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -192965,6 +195228,89 @@
       "-91.2181997"
     ],
     "expires": 1795187884
+  },
+  "45.4065834,-75.7552678": {
+    "place_id": 365950699,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 9452800,
+    "lat": "45.4104366",
+    "lon": "-75.7606975",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.2733828520337679,
+    "addresstype": "man_made",
+    "name": "Champlain Bridge",
+    "display_name": "Champlain Bridge, Island Park Drive, Westboro, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K2B 5L7, Canada",
+    "address": {
+      "man_made": "Champlain Bridge",
+      "road": "Island Park Drive",
+      "suburb": "Westboro",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2B 5L7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1",
+      "wikidata": "Q3396496",
+      "wikipedia": "en:Champlain Bridge (Ottawa)",
+      "bridge:structure": "beam"
+    },
+    "boundingbox": [
+      "45.4045275",
+      "45.4122208",
+      "-75.7637732",
+      "-75.7547317"
+    ],
+    "expires": 1798288040
+  },
+  "45.4068271,-75.6273651": {
+    "place_id": 366526326,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 460695964,
+    "lat": "45.4067545",
+    "lon": "-75.6273399",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Innes Road",
+    "display_name": "Innes Road, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1G 3V4, Canada",
+    "address": {
+      "road": "Innes Road",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1G 3V4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "4",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "shoulder": "no",
+      "sidewalk": "no",
+      "turn:lanes": "left|left|through|through"
+    },
+    "boundingbox": [
+      "45.4067272",
+      "45.4069243",
+      "-75.6274185",
+      "-75.6268865"
+    ],
+    "expires": 1798392158
   },
   "45.4094161,-75.7397119": {
     "place_id": 367490638,
@@ -193013,6 +195359,100 @@
       "-75.7356590"
     ],
     "expires": 1797747114
+  },
+  "45.409471,-75.6919308": {
+    "place_id": 366337279,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5071951781,
+    "lat": "45.4094128",
+    "lon": "-75.6919126",
+    "class": "highway",
+    "type": "bus_stop",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "highway",
+    "name": "Bank / Catherine",
+    "display_name": "Bank / Catherine, Bank Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1S 5L7, Canada",
+    "address": {
+      "highway": "Bank / Catherine",
+      "road": "Bank Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 5L7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "bin": "no",
+      "bus": "yes",
+      "lit": "yes",
+      "bench": "no",
+      "network": "OC Transpo",
+      "shelter": "no",
+      "stop_id": "CH120",
+      "operator": "OC Transpo",
+      "mapillary": "796486104343050",
+      "check_date": "2026-05-03",
+      "check_date:bin": "2026-05-03",
+      "check_date:lit": "2026-05-03",
+      "tactile_paving": "no",
+      "network:wikidata": "Q3347525",
+      "public_transport": "platform",
+      "network:wikipedia": "en:OC Transpo",
+      "check_date:tactile_paving": "2026-05-03"
+    },
+    "boundingbox": [
+      "45.4093628",
+      "45.4094628",
+      "-75.6919626",
+      "-75.6918626"
+    ],
+    "expires": 1798338338
+  },
+  "45.4099021,-75.6783754": {
+    "place_id": 366368516,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7961528865,
+    "lat": "45.4100042",
+    "lon": "-75.6782471",
+    "class": "amenity",
+    "type": "cafe",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "Happy Goat Main Café",
+    "display_name": "Happy Goat Main Café, 145, Main Street, Old Ottawa East, Capital, Ottawa, Eastern Ontario, Ontario, K1S 1C1, Canada",
+    "address": {
+      "amenity": "Happy Goat Main Café",
+      "house_number": "145",
+      "road": "Main Street",
+      "suburb": "Old Ottawa East",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 1C1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "email": "main@happygoatcoffee.com",
+      "opening_hours": "Mo-Fr 07:30-20:00; Sa-Su 08:00-20:00"
+    },
+    "boundingbox": [
+      "45.4099542",
+      "45.4100542",
+      "-75.6782971",
+      "-75.6781971"
+    ],
+    "expires": 1798341278
   },
   "45.410137,-75.6886813": {
     "place_id": 364133021,
@@ -193100,6 +195540,55 @@
     ],
     "expires": 1797660135
   },
+  "45.4106246,-75.7290286": {
+    "place_id": 366135784,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 195127267,
+    "lat": "45.4106912",
+    "lon": "-75.7290439",
+    "class": "highway",
+    "type": "trunk",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "trunk",
+    "name": "Kichi Zībī Parkway",
+    "display_name": "Kichi Zībī Parkway, Tunney's Pasture, Hintonburg, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Y 4M2, Canada",
+    "address": {
+      "road": "Kichi Zībī Parkway",
+      "neighbourhood": "Tunney's Pasture",
+      "suburb": "Hintonburg",
+      "city_district": "Kitchissippi",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1Y 4M2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "no",
+      "foot": "no",
+      "lanes": "2",
+      "oneway": "yes",
+      "bicycle": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "shoulder": "no",
+      "sidewalk": "no",
+      "expressway": "yes",
+      "parking:both": "no",
+      "parking:both:restriction": "no_parking"
+    },
+    "boundingbox": [
+      "45.4104808",
+      "45.4115698",
+      "-75.7353338",
+      "-75.7288778"
+    ],
+    "expires": 1798398327
+  },
   "45.4111,6.61472": {
     "place_id": 88910616,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -193154,6 +195643,46 @@
     ],
     "expires": 1794998077
   },
+  "45.4113715,-75.6957531": {
+    "place_id": 367927736,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 264220230,
+    "lat": "45.4116789",
+    "lon": "-75.6958568",
+    "class": "building",
+    "type": "apartments",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "Centropolis",
+    "display_name": "Centropolis, 429, Kent Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K2P 2A8, Canada",
+    "address": {
+      "building": "Centropolis",
+      "house_number": "429",
+      "road": "Kent Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2P 2A8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "mapillary": "281063523709609",
+      "building:levels": "5"
+    },
+    "boundingbox": [
+      "45.4113963",
+      "45.4119199",
+      "-75.6960924",
+      "-75.6952309"
+    ],
+    "expires": 1798419740
+  },
   "45.4114035,-75.6873952": {
     "place_id": 364120568,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -193195,6 +195724,50 @@
       "-75.6873796"
     ],
     "expires": 1797148650
+  },
+  "45.4114126,-75.684143": {
+    "place_id": 366325299,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 362875043,
+    "lat": "45.4113968",
+    "lon": "-75.6840777",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "tertiary",
+    "name": "Queen Elizabeth Driveway",
+    "display_name": "Queen Elizabeth Driveway, Capital, Ottawa, Eastern Ontario, Ontario, K1S 1X3, Canada",
+    "address": {
+      "road": "Queen Elizabeth Driveway",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 1X3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "no",
+      "lit": "yes",
+      "lanes": "1",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "cycleway": "left",
+      "maxspeed": "40",
+      "sidewalk:left": "no",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.4113481",
+      "45.4117045",
+      "-75.6840895",
+      "-75.6840030"
+    ],
+    "expires": 1798445771
   },
   "45.4114401,-75.7056154": {
     "place_id": 362774577,
@@ -193239,6 +195812,49 @@
       "-75.7053863"
     ],
     "expires": 1797313275
+  },
+  "45.4116435,-75.6457387": {
+    "place_id": 366447103,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 621838618,
+    "lat": "45.4119830",
+    "lon": "-75.6459556",
+    "class": "amenity",
+    "type": "fast_food",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "Five Guys",
+    "display_name": "Five Guys, 525, Industrial Avenue, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1G 0Z1, Canada",
+    "address": {
+      "amenity": "Five Guys",
+      "house_number": "525",
+      "road": "Industrial Avenue",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1G 0Z1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "cuisine": "burger",
+      "building": "retail",
+      "takeaway": "yes",
+      "brand:wikidata": "Q1131810",
+      "brand:wikipedia": "en:Five Guys",
+      "building:levels": "1"
+    },
+    "boundingbox": [
+      "45.4118895",
+      "45.4120770",
+      "-75.6460115",
+      "-75.6459008"
+    ],
+    "expires": 1798433308
   },
   "45.4117076,-75.7158458": {
     "place_id": 363280764,
@@ -193319,6 +195935,81 @@
       "-75.6557171"
     ],
     "expires": 1797442718
+  },
+  "45.4122645,-75.693559": {
+    "place_id": 367467391,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 460440207,
+    "lat": "45.4123877",
+    "lon": "-75.6934231",
+    "class": "building",
+    "type": "commercial",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "433, Bank Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K2P 1Y8, Canada",
+    "address": {
+      "house_number": "433",
+      "road": "Bank Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2P 1Y8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "mapillary": "1667391026804677",
+      "building:levels": "2"
+    },
+    "boundingbox": [
+      "45.4122773",
+      "45.4124957",
+      "-75.6936224",
+      "-75.6932228"
+    ],
+    "expires": 1798279706
+  },
+  "45.412344,-75.6854027": {
+    "place_id": 366534339,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4764743719,
+    "lat": "45.4122280",
+    "lon": "-75.6849680",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "20, Catherine Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K2P 2E6, Canada",
+    "address": {
+      "house_number": "20",
+      "road": "Catherine Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K2P 2E6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.4121780",
+      "45.4122780",
+      "-75.6850180",
+      "-75.6849180"
+    ],
+    "expires": 1798388287
   },
   "45.4127324,-75.6799771": {
     "place_id": 367613695,
@@ -193444,6 +196135,43 @@
     ],
     "expires": 1797269468
   },
+  "45.4150695,-75.6428206": {
+    "place_id": 367619673,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 572762936,
+    "lat": "45.4150334",
+    "lon": "-75.6422911",
+    "class": "amenity",
+    "type": "parking",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Belfast Road, Eastway Gardens, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1G 0Z5, Canada",
+    "address": {
+      "road": "Belfast Road",
+      "neighbourhood": "Eastway Gardens",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1G 0Z5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "parking": "surface"
+    },
+    "boundingbox": [
+      "45.4148819",
+      "45.4154618",
+      "-75.6435004",
+      "-75.6419018"
+    ],
+    "expires": 1798321951
+  },
   "45.4156576,-122.8182959": {
     "place_id": 326995927,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -193485,6 +196213,85 @@
       "-122.8179230"
     ],
     "expires": 1795345997
+  },
+  "45.4157007,-75.7081325": {
+    "place_id": 367166342,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 244441498,
+    "lat": "45.4159901",
+    "lon": "-75.7081290",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "481, Slater Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1R 5B5, Canada",
+    "address": {
+      "house_number": "481",
+      "road": "Slater Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1R 5B5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.4158800",
+      "45.4160870",
+      "-75.7082315",
+      "-75.7079700"
+    ],
+    "expires": 1798336521
+  },
+  "45.4160737,-75.6567768": {
+    "place_id": 367299267,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 76443796,
+    "lat": "45.4160582",
+    "lon": "-75.6566782",
+    "class": "highway",
+    "type": "primary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "primary",
+    "name": "Riverside Drive",
+    "display_name": "Riverside Drive, Capital, Ottawa, Eastern Ontario, Ontario, K1K 4S3, Canada",
+    "address": {
+      "road": "Riverside Drive",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1K 4S3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "sidewalk": "right",
+      "expressway": "yes",
+      "turn:lanes": "left||"
+    },
+    "boundingbox": [
+      "45.4160404",
+      "45.4173735",
+      "-75.6566810",
+      "-75.6566264"
+    ],
+    "expires": 1798397554
   },
   "45.4161886,16.6289127": {
     "place_id": 65398941,
@@ -193642,6 +196449,45 @@
     ],
     "expires": 1795085681
   },
+  "45.4166012,-75.6791294": {
+    "place_id": 366520635,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 481367266,
+    "lat": "45.4166595",
+    "lon": "-75.6789820",
+    "class": "office",
+    "type": "association",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "office",
+    "name": "Electrical Contractors Association of Ottawa",
+    "display_name": "Electrical Contractors Association of Ottawa, 86, Greenfield Avenue, Old Ottawa East, Capital, Ottawa, Eastern Ontario, Ontario, K1S 1M7, Canada",
+    "address": {
+      "office": "Electrical Contractors Association of Ottawa",
+      "house_number": "86",
+      "road": "Greenfield Avenue",
+      "suburb": "Old Ottawa East",
+      "city_district": "Capital",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1S 1M7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "building": "yes"
+    },
+    "boundingbox": [
+      "45.4165800",
+      "45.4167310",
+      "-75.6790960",
+      "-75.6788680"
+    ],
+    "expires": 1798435723
+  },
   "45.4166643,-75.6024451": {
     "place_id": 365748368,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -193725,6 +196571,43 @@
       "-75.6918760"
     ],
     "expires": 1797680156
+  },
+  "45.4172419,-75.6567451": {
+    "place_id": 366445659,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 736516756,
+    "lat": "45.4176746",
+    "lon": "-75.6565981",
+    "class": "man_made",
+    "type": "bridge",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "man_made",
+    "name": "",
+    "display_name": "Riverside Drive, Alta Vista, Ottawa, Eastern Ontario, Ontario, K1K 4S3, Canada",
+    "address": {
+      "road": "Riverside Drive",
+      "city_district": "Alta Vista",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1K 4S3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "1",
+      "bridge:structure": "beam"
+    },
+    "boundingbox": [
+      "45.4171883",
+      "45.4180765",
+      "-75.6567867",
+      "-75.6564119"
+    ],
+    "expires": 1798430400
   },
   "45.417656,11.9329376": {
     "place_id": 74866741,
@@ -193889,6 +196772,87 @@
     ],
     "expires": 1797600796
   },
+  "45.4188264,-75.7049532": {
+    "place_id": 367028403,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 727349204,
+    "lat": "45.4188071",
+    "lon": "-75.7049765",
+    "class": "highway",
+    "type": "footway",
+    "place_rank": 27,
+    "importance": 0.040087193865873186,
+    "addresstype": "road",
+    "name": "Concourse Level",
+    "display_name": "Concourse Level, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1A 0N5, Canada",
+    "address": {
+      "road": "Concourse Level",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1A 0N5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "-2",
+      "level": "-2",
+      "tunnel": "yes",
+      "surface": "paving_stones"
+    },
+    "boundingbox": [
+      "45.4187259",
+      "45.4188090",
+      "-75.7049781",
+      "-75.7049082"
+    ],
+    "expires": 1798435249
+  },
+  "45.4189263,-75.6775845": {
+    "place_id": 367205705,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 456586441,
+    "lat": "45.4189473",
+    "lon": "-75.6775929",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Greenfield Avenue",
+    "display_name": "Greenfield Avenue, Sandy Hill, Rideau-Vanier, Ottawa, Eastern Ontario, Ontario, K1N 0A6, Canada",
+    "address": {
+      "road": "Greenfield Avenue",
+      "suburb": "Sandy Hill",
+      "city_district": "Rideau-Vanier",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1N 0A6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "1",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "50",
+      "sidewalk": "no"
+    },
+    "boundingbox": [
+      "45.4188835",
+      "45.4190071",
+      "-75.6777522",
+      "-75.6774414"
+    ],
+    "expires": 1798312991
+  },
   "45.4191867,-75.6344833": {
     "place_id": 362748045,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -193973,6 +196937,165 @@
       "-75.5956023"
     ],
     "expires": 1795108942
+  },
+  "45.4195618,-75.7029309": {
+    "place_id": 365625041,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 264181602,
+    "lat": "45.4192668",
+    "lon": "-75.7029347",
+    "class": "building",
+    "type": "office",
+    "place_rank": 30,
+    "importance": 0.19938740066310082,
+    "addresstype": "building",
+    "name": "Place de Ville, Tower B",
+    "display_name": "Place de Ville, Tower B, 112, Kent Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1R 7Y6, Canada",
+    "address": {
+      "building": "Place de Ville, Tower B",
+      "house_number": "112",
+      "road": "Kent Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1R 7Y6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "wikidata": "Q7200238",
+      "building:levels": "22"
+    },
+    "boundingbox": [
+      "45.4189713",
+      "45.4194984",
+      "-75.7032179",
+      "-75.7025958"
+    ],
+    "expires": 1798382010
+  },
+  "45.4205837,-75.717813": {
+    "place_id": 367894895,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 776836673,
+    "lat": "45.4205085",
+    "lon": "-75.7177859",
+    "class": "highway",
+    "type": "unclassified",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "unclassified",
+    "name": "Chaudière Private",
+    "display_name": "Chaudière Private, LeBreton Flats, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, J8X 2K1, Canada",
+    "address": {
+      "road": "Chaudière Private",
+      "neighbourhood": "LeBreton Flats",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "J8X 2K1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "2"
+    },
+    "boundingbox": [
+      "45.4203964",
+      "45.4207185",
+      "-75.7178636",
+      "-75.7166377"
+    ],
+    "expires": 1798396769
+  },
+  "45.4210047,-75.6932355": {
+    "place_id": 367350876,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5805874059,
+    "lat": "45.4208250",
+    "lon": "-75.6931610",
+    "class": "amenity",
+    "type": "grit_bin",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "38",
+    "display_name": "38, 140, Laurier Avenue West, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1P 5J4, Canada",
+    "address": {
+      "amenity": "38",
+      "house_number": "140",
+      "road": "Laurier Avenue West",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1P 5J4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "access": "yes",
+      "operator": "City of Ottawa",
+      "description": "Grit box located near Elgin and Laurier - S/W corner"
+    },
+    "boundingbox": [
+      "45.4207750",
+      "45.4208750",
+      "-75.6932110",
+      "-75.6931110"
+    ],
+    "expires": 1798414939
+  },
+  "45.4211327,-75.6957709": {
+    "place_id": 367373169,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 264225735,
+    "lat": "45.4213065",
+    "lon": "-75.6956970",
+    "class": "building",
+    "type": "commercial",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "81, Metcalfe Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1P 5G3, Canada",
+    "address": {
+      "house_number": "81",
+      "road": "Metcalfe Street",
+      "suburb": "Centretown",
+      "city_district": "Somerset",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1P 5G3",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "operator": "Colonnade Bridgeport",
+      "mapillary": "415504556463260",
+      "building:levels": "12"
+    },
+    "boundingbox": [
+      "45.4211630",
+      "45.4214416",
+      "-75.6958830",
+      "-75.6955020"
+    ],
+    "expires": 1798370521
   },
   "45.4218144,-75.7020983": {
     "place_id": 366963107,
@@ -194250,6 +197373,46 @@
     ],
     "expires": 1794996990
   },
+  "45.4253456,-75.6939644": {
+    "place_id": 365877411,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7326747485,
+    "lat": "45.4253701",
+    "lon": "-75.6939180",
+    "class": "amenity",
+    "type": "bicycle_parking",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Rideau Street, Byward Market, Lowertown, Rideau-Vanier, Ottawa, Eastern Ontario, Ontario, K1N 5W8, Canada",
+    "address": {
+      "road": "Rideau Street",
+      "neighbourhood": "Byward Market",
+      "suburb": "Lowertown",
+      "city_district": "Rideau-Vanier",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1N 5W8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "covered": "no",
+      "capacity": "2",
+      "bicycle_parking": "bollard"
+    },
+    "boundingbox": [
+      "45.4253201",
+      "45.4254201",
+      "-75.6939680",
+      "-75.6938680"
+    ],
+    "expires": 1798363319
+  },
   "45.4253669,-75.6933572": {
     "place_id": 368529806,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -194296,6 +197459,51 @@
     ],
     "expires": 1797474069
   },
+  "45.4254427,-75.6828524": {
+    "place_id": 366390136,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 6835963211,
+    "lat": "45.4251650",
+    "lon": "-75.6826350",
+    "class": "highway",
+    "type": "bus_stop",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "highway",
+    "name": "King Edward / Laurier",
+    "display_name": "King Edward / Laurier, 75, Laurier Avenue East, Sandy Hill, Rideau-Vanier, Ottawa, Eastern Ontario, Ontario, K1N 6N5, Canada",
+    "address": {
+      "highway": "King Edward / Laurier",
+      "house_number": "75",
+      "road": "Laurier Avenue East",
+      "suburb": "Sandy Hill",
+      "city_district": "Rideau-Vanier",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1N 6N5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "bus": "yes",
+      "network": "OC Transpo",
+      "stop_id": "CD215",
+      "operator": "OC Transpo",
+      "network:wikidata": "Q3347525",
+      "public_transport": "platform",
+      "network:wikipedia": "en:OC Transpo"
+    },
+    "boundingbox": [
+      "45.4251150",
+      "45.4252150",
+      "-75.6826850",
+      "-75.6825850"
+    ],
+    "expires": 1798362697
+  },
   "45.4258926,14.5656268": {
     "place_id": 79366274,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -194327,6 +197535,54 @@
       "14.5656856"
     ],
     "expires": 1795677732
+  },
+  "45.4260254,-75.6316783": {
+    "place_id": 366349521,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 76435165,
+    "lat": "45.4260893",
+    "lon": "-75.6317012",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Ogilvie Road",
+    "display_name": "Ogilvie Road, Cyrville, Gloucester, Beacon Hill-Cyrville, Ottawa, Eastern Ontario, Ontario, K1J 7P6, Canada",
+    "address": {
+      "road": "Ogilvie Road",
+      "neighbourhood": "Cyrville",
+      "suburb": "Gloucester",
+      "city_district": "Beacon Hill-Cyrville",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1J 7P6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lit": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "turn:lanes": "left||",
+      "cycleway:left": "no",
+      "sidewalk:left": "no",
+      "cycleway:right": "lane",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.4256468",
+      "45.4261135",
+      "-75.6329466",
+      "-75.6316336"
+    ],
+    "expires": 1798411118
   },
   "45.426215,14.5674104": {
     "place_id": 79197570,
@@ -194404,6 +197660,43 @@
       "-75.6312574"
     ],
     "expires": 1795106235
+  },
+  "45.4267954,-75.6880472": {
+    "place_id": 366159479,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 585009206,
+    "lat": "45.4266319",
+    "lon": "-75.6880218",
+    "class": "building",
+    "type": "yes",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "25, Waller Street, Byward Market, Lowertown, Rideau-Vanier, Ottawa, Eastern Ontario, Ontario, K1N 7G4, Canada",
+    "address": {
+      "house_number": "25",
+      "road": "Waller Street",
+      "neighbourhood": "Byward Market",
+      "suburb": "Lowertown",
+      "city_district": "Rideau-Vanier",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1N 7G4",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.4265829",
+      "45.4267641",
+      "-75.6881189",
+      "-75.6878221"
+    ],
+    "expires": 1798421638
   },
   "45.4280153,-75.6123992": {
     "place_id": 366588201,
@@ -194541,6 +197834,52 @@
     ],
     "expires": 1795249655
   },
+  "45.4303661,-75.5154327": {
+    "place_id": 367800531,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 469387969,
+    "lat": "45.4304330",
+    "lon": "-75.5154606",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "tertiary",
+    "name": "Renaud Road",
+    "display_name": "Renaud Road, Chapel Hill South, Orléans, Orléans South-Navan, Ottawa, Eastern Ontario, Ontario, K1W 0H2, Canada",
+    "address": {
+      "road": "Renaud Road",
+      "neighbourhood": "Chapel Hill South",
+      "suburb": "Orléans",
+      "city_district": "Orléans South-Navan",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1W 0H2",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "hgv": "no",
+      "lanes": "3",
+      "surface": "asphalt",
+      "cycleway": "shared_lane",
+      "maxspeed": "50",
+      "sidewalk": "left",
+      "lanes:forward": "1",
+      "lanes:backward": "2",
+      "turn:lanes:backward": "left|"
+    },
+    "boundingbox": [
+      "45.4303227",
+      "45.4305192",
+      "-75.5157215",
+      "-75.5152546"
+    ],
+    "expires": 1798320716
+  },
   "45.4306646,-75.6809394": {
     "place_id": 367132581,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -194621,6 +197960,41 @@
     ],
     "expires": 1797357383
   },
+  "45.4327411,-75.6422917": {
+    "place_id": 366365014,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 479756847,
+    "lat": "45.4328925",
+    "lon": "-75.6426624",
+    "class": "building",
+    "type": "commercial",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "building",
+    "name": "",
+    "display_name": "575, McArthur Avenue, Rideau-Rockcliffe, Ottawa, Eastern Ontario, Ontario, K1K 3A7, Canada",
+    "address": {
+      "house_number": "575",
+      "road": "McArthur Avenue",
+      "city_district": "Rideau-Rockcliffe",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1K 3A7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "45.4327760",
+      "45.4329540",
+      "-75.6427300",
+      "-75.6425840"
+    ],
+    "expires": 1798361335
+  },
   "45.4330918,-75.6701231": {
     "place_id": 364104698,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -194666,6 +198040,50 @@
     ],
     "expires": 1797800423
   },
+  "45.433602,-75.6073574": {
+    "place_id": 363176010,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 456549144,
+    "lat": "45.4334943",
+    "lon": "-75.6074576",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Blair Road",
+    "display_name": "Blair Road, Gloucester, Beacon Hill-Cyrville, Ottawa, Eastern Ontario, Ontario, K1J 0C5, Canada",
+    "address": {
+      "road": "Blair Road",
+      "suburb": "Gloucester",
+      "city_district": "Beacon Hill-Cyrville",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1J 0C5",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lit": "yes",
+      "lanes": "3",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "70",
+      "shoulder": "no",
+      "sidewalk:left": "no",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.4333991",
+      "45.4337817",
+      "-75.6077624",
+      "-75.6073553"
+    ],
+    "expires": 1798385999
+  },
   "45.4352136,-75.6088321": {
     "place_id": 367219347,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -194709,6 +198127,86 @@
       "-75.6085649"
     ],
     "expires": 1795387905
+  },
+  "45.4352389,-75.5435714": {
+    "place_id": 367518761,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 301009704,
+    "lat": "45.4352679",
+    "lon": "-75.5435918",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Blackburn Hamlet Bypass",
+    "display_name": "Blackburn Hamlet Bypass, Orléans South-Navan, Ottawa, Eastern Ontario, Ontario, K1W 1A1, Canada",
+    "address": {
+      "road": "Blackburn Hamlet Bypass",
+      "city_district": "Orléans South-Navan",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1W 1A1",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "80",
+      "sidewalk:left": "no",
+      "sidewalk:right": "separate"
+    },
+    "boundingbox": [
+      "45.4351269",
+      "45.4353118",
+      "-75.5437940",
+      "-75.5435293"
+    ],
+    "expires": 1798434762
+  },
+  "45.4361654,-75.6610985": {
+    "place_id": 366901879,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5931809916,
+    "lat": "45.4363755",
+    "lon": "-75.6611943",
+    "class": "office",
+    "type": "tax_advisor",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "office",
+    "name": "Liberty Tax",
+    "display_name": "Liberty Tax, 253, Montréal Road, Vanier, Rideau-Vanier, Ottawa, Eastern Ontario, Ontario, K1L 6C0, Canada",
+    "address": {
+      "office": "Liberty Tax",
+      "house_number": "253",
+      "road": "Montréal Road",
+      "suburb": "Vanier",
+      "city_district": "Rideau-Vanier",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1L 6C0",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "brand:wikidata": "Q6541978"
+    },
+    "boundingbox": [
+      "45.4363255",
+      "45.4364255",
+      "-75.6612443",
+      "-75.6611443"
+    ],
+    "expires": 1798451736
   },
   "45.4363227,-75.6820967": {
     "place_id": 366117085,
@@ -195279,6 +198777,51 @@
     ],
     "expires": 1797344372
   },
+  "45.4512916,-75.5158098": {
+    "place_id": 367405395,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 458053083,
+    "lat": "45.4513271",
+    "lon": "-75.5158239",
+    "class": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "secondary",
+    "name": "Innes Road",
+    "display_name": "Innes Road, Orléans Village - Châteauneuf, Orléans, Orléans West-Innes, Ottawa, Eastern Ontario, Ontario, K1W 0C8, Canada",
+    "address": {
+      "road": "Innes Road",
+      "neighbourhood": "Orléans Village - Châteauneuf",
+      "suburb": "Orléans",
+      "city_district": "Orléans West-Innes",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K1W 0C8",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "lcn": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "sidewalk": "separate",
+      "cycleway:left": "no",
+      "cycleway:right": "lane"
+    },
+    "boundingbox": [
+      "45.4504799",
+      "45.4514129",
+      "-75.5177418",
+      "-75.5155922"
+    ],
+    "expires": 1798327659
+  },
   "45.451984,10.6981667": {
     "place_id": 81164834,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -195452,6 +198995,46 @@
       "-66.3105595"
     ],
     "expires": 1796884189
+  },
+  "45.4555424,-75.5049108": {
+    "place_id": 367466595,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 472403839,
+    "lat": "45.4551949",
+    "lon": "-75.5051309",
+    "class": "amenity",
+    "type": "fuel",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "Mr Gas",
+    "display_name": "Mr Gas, 4042, Innes Road, Chapel Hill South, Orléans, Orléans South-Navan, Ottawa, Eastern Ontario, Ontario, K4A 3T9, Canada",
+    "address": {
+      "amenity": "Mr Gas",
+      "house_number": "4042",
+      "road": "Innes Road",
+      "neighbourhood": "Chapel Hill South",
+      "suburb": "Orléans",
+      "city_district": "Orléans South-Navan",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K4A 3T9",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "building": "roof"
+    },
+    "boundingbox": [
+      "45.4550732",
+      "45.4553010",
+      "-75.5053273",
+      "-75.5049345"
+    ],
+    "expires": 1798412952
   },
   "45.4559246,-75.5800538": {
     "place_id": 363750556,
@@ -195951,6 +199534,58 @@
       "5.7712890"
     ],
     "expires": 1795054802
+  },
+  "45.470811,-75.4543319": {
+    "place_id": 366460699,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 431799473,
+    "lat": "45.4711233",
+    "lon": "-75.4538549",
+    "class": "amenity",
+    "type": "fuel",
+    "place_rank": 30,
+    "importance": 0.00008719386587315202,
+    "addresstype": "amenity",
+    "name": "Esso",
+    "display_name": "Esso, 1985, Trim Road, Fallingbrook, Orléans, Orléans East-Cumberland, Ottawa, Eastern Ontario, Ontario, K4A 4R7, Canada",
+    "address": {
+      "amenity": "Esso",
+      "house_number": "1985",
+      "road": "Trim Road",
+      "neighbourhood": "Fallingbrook",
+      "suburb": "Orléans",
+      "city_district": "Orléans East-Cumberland",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K4A 4R7",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "layer": "0",
+      "phone": "+1-613-824-3501",
+      "website": "https://www.esso.ca/en-ca/find-station/esso-orleans-on-essocirclek-200330103",
+      "operator": "Esso",
+      "check_date": "2026-04-14",
+      "fuel:diesel": "yes",
+      "self_service": "yes",
+      "opening_hours": "24/7",
+      "brand:wikidata": "Q867662",
+      "fuel:octane_87": "yes",
+      "fuel:octane_89": "yes",
+      "fuel:octane_91": "yes",
+      "brand:wikipedia": "en:Esso"
+    },
+    "boundingbox": [
+      "45.4710327",
+      "45.4712139",
+      "-75.4540844",
+      "-75.4536253"
+    ],
+    "expires": 1798322215
   },
   "45.470852,10.53992": {
     "place_id": 74549186,
@@ -196699,6 +200334,52 @@
       "10.6086870"
     ],
     "expires": 1796581651
+  },
+  "45.4936995,-75.4812395": {
+    "place_id": 369504662,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 932667336,
+    "lat": "45.4937498",
+    "lon": "-75.4811608",
+    "class": "highway",
+    "type": "tertiary",
+    "place_rank": 26,
+    "importance": 0.053420527199206494,
+    "addresstype": "tertiary",
+    "name": "Trim Road",
+    "display_name": "Trim Road, Orléans, Orléans East-Cumberland, Ottawa, Eastern Ontario, Ontario, K4A 5B6, Canada",
+    "address": {
+      "road": "Trim Road",
+      "suburb": "Orléans",
+      "city_district": "Orléans East-Cumberland",
+      "city": "Ottawa",
+      "state_district": "Eastern Ontario",
+      "state": "Ontario",
+      "ISO3166-2-lvl4": "CA-ON",
+      "postcode": "K4A 5B6",
+      "country": "Canada",
+      "country_code": "ca"
+    },
+    "extratags": {
+      "bus": "designated",
+      "lcn": "yes",
+      "lit": "yes",
+      "lanes": "2",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "maxspeed": "60",
+      "sidewalk": "no",
+      "cycleway:right": "lane",
+      "destination:ref": "57"
+    },
+    "boundingbox": [
+      "45.4931555",
+      "45.4938535",
+      "-75.4812267",
+      "-75.4807980"
+    ],
+    "expires": 1798415636
   },
   "45.4939318,6.7343119": {
     "place_id": 88044914,
@@ -202024,7 +205705,7 @@
     "expires": 1795363776
   },
   "45.8058119,-108.599816": {
-    "place_id": 329621326,
+    "place_id": 328866755,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 871517863,
@@ -202034,7 +205715,7 @@
     "type": "primary",
     "place_rank": 26,
     "importance": 0.05336833524071104,
-    "addresstype": "road",
+    "addresstype": "primary",
     "name": "Zimmerman Trail",
     "display_name": "Zimmerman Trail, Billings, Yellowstone County, Montana, 59102, United States",
     "address": {
@@ -202056,7 +205737,7 @@
       "-108.5999764",
       "-108.5996931"
     ],
-    "expires": 1794605412
+    "expires": 1798348796
   },
   "45.8077114,8.2521359": {
     "place_id": 75399767,
@@ -219558,6 +223239,37 @@
       "6.8191505"
     ],
     "expires": 1795276056
+  },
+  "46.4974534,15.4944355": {
+    "place_id": 68759205,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 572488400,
+    "lat": "46.4974352",
+    "lon": "15.4943175",
+    "class": "aerialway",
+    "type": "station",
+    "place_rank": 30,
+    "importance": 0.000056852826733760854,
+    "addresstype": "aerialway",
+    "name": "",
+    "display_name": "929, Ruše, 2342, Slovenia",
+    "address": {
+      "road": "929",
+      "municipality": "Ruše",
+      "ISO3166-2-lvl8": "SI-108",
+      "postcode": "2342",
+      "country": "Slovenia",
+      "country_code": "si"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "46.4973852",
+      "46.4974852",
+      "15.4942675",
+      "15.4943675"
+    ],
+    "expires": 1798381301
   },
   "46.4980734,11.3551726": {
     "place_id": 74154918,
@@ -241674,7 +245386,7 @@
       "7.6597613",
       "7.6600073"
     ],
-    "expires": 1794643520
+    "expires": 1798314562
   },
   "47.1946797,11.3163585": {
     "place_id": 70599998,
@@ -244008,7 +247720,7 @@
     "expires": 1795136038
   },
   "47.2491568,9.3432249": {
-    "place_id": 73056794,
+    "place_id": 73290137,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 484334789,
@@ -244043,7 +247755,7 @@
       "9.3420175",
       "9.3432477"
     ],
-    "expires": 1794323882
+    "expires": 1798387198
   },
   "47.2494619,12.1180057": {
     "place_id": 69798291,
@@ -250462,6 +254174,94 @@
       "10.9044832"
     ],
     "expires": 1795110710
+  },
+  "47.3550582,10.1880249": {
+    "place_id": 432861780,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 88418803,
+    "lat": "47.3551531",
+    "lon": "10.1880553",
+    "class": "building",
+    "type": "farm",
+    "place_rank": 30,
+    "importance": 0.00005153658350495182,
+    "addresstype": "building",
+    "name": "Bannholzhof",
+    "display_name": "Bannholzhof, 20, Köpfleweg, Zwerwald, Riezlern, Mittelberg, Bezirk Bregenz, Vorarlberg, 6991, Austria",
+    "address": {
+      "building": "Bannholzhof",
+      "house_number": "20",
+      "road": "Köpfleweg",
+      "hamlet": "Zwerwald",
+      "village": "Riezlern",
+      "city": "Mittelberg",
+      "county": "Bezirk Bregenz",
+      "state": "Vorarlberg",
+      "ISO3166-2-lvl4": "AT-8",
+      "postcode": "6991",
+      "country": "Austria",
+      "country_code": "at"
+    },
+    "extratags": {
+      "height": "5",
+      "building": "farm",
+      "building:levels": "2"
+    },
+    "boundingbox": [
+      "47.3550303",
+      "47.3552727",
+      "10.1879160",
+      "10.1882284"
+    ],
+    "expires": 1798306709
+  },
+  "47.355173,10.1879498": {
+    "place_id": 432295584,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 8047379704,
+    "lat": "47.3551730",
+    "lon": "10.1879498",
+    "class": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 0.00005153658350495182,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "20, Köpfleweg, Zwerwald, Riezlern, Mittelberg, Bezirk Bregenz, Vorarlberg, 6991, Austria",
+    "address": {
+      "house_number": "20",
+      "road": "Köpfleweg",
+      "hamlet": "Zwerwald",
+      "village": "Riezlern",
+      "city": "Mittelberg",
+      "county": "Bezirk Bregenz",
+      "state": "Vorarlberg",
+      "ISO3166-2-lvl4": "AT-8",
+      "postcode": "6991",
+      "country": "Austria",
+      "country_code": "at"
+    },
+    "extratags": {
+      "website": "https://bannholzhof.at",
+      "man_made": "surveillance",
+      "camera:type": "fixed",
+      "camera:mount": "wall",
+      "manufacturer": "Ubiquiti",
+      "surveillance": "outdoor",
+      "contact:webcam": "https://webcam.bannholzhof.at/west.jpg",
+      "camera:direction": "290",
+      "surveillance:type": "camera",
+      "surveillance:zone": "outdoor"
+    },
+    "boundingbox": [
+      "47.3551230",
+      "47.3552230",
+      "10.1878998",
+      "10.1879998"
+    ],
+    "expires": 1798315126
   },
   "47.357668,-122.2970372": {
     "place_id": 324866762,
@@ -267951,7 +271751,7 @@
     "expires": 1795203786
   },
   "47.575867,13.0245645": {
-    "place_id": 69486308,
+    "place_id": 69824025,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 123144373,
@@ -267993,10 +271793,10 @@
       "13.0243208",
       "13.0246080"
     ],
-    "expires": 1794423647
+    "expires": 1798327920
   },
   "47.5759123,13.0245869": {
-    "place_id": 69737798,
+    "place_id": 69536556,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 123144373,
@@ -268038,7 +271838,7 @@
       "13.0243208",
       "13.0246080"
     ],
-    "expires": 1794364463
+    "expires": 1798436912
   },
   "47.5759927,-122.1399853": {
     "place_id": 322454797,
@@ -279156,7 +282956,7 @@
       "-122.4082280",
       "-122.4081280"
     ],
-    "expires": 1794478636
+    "expires": 1798315899
   },
   "47.6769076,11.1994382": {
     "place_id": 70091352,
@@ -280806,7 +284606,7 @@
     "expires": 1795546672
   },
   "47.7112125,-117.0015114": {
-    "place_id": 328594066,
+    "place_id": 327841517,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 6312142015,
@@ -280837,7 +284637,7 @@
       "-117.0014483",
       "-117.0013483"
     ],
-    "expires": 1794345748
+    "expires": 1798381616
   },
   "47.7112497,-122.1320721": {
     "place_id": 324256445,
@@ -281839,6 +285639,39 @@
       "-122.2436169"
     ],
     "expires": 1795816381
+  },
+  "47.7326971,12.6827884": {
+    "place_id": 70141900,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2984338500,
+    "lat": "47.7325064",
+    "lon": "12.6826902",
+    "class": "tourism",
+    "type": "viewpoint",
+    "place_rank": 30,
+    "importance": 0.00006140001525897639,
+    "addresstype": "tourism",
+    "name": "",
+    "display_name": "Lahnersteig, Ruhpolding, Landkreis Traunstein, Bavaria, 83324, Germany",
+    "address": {
+      "road": "Lahnersteig",
+      "village": "Ruhpolding",
+      "county": "Landkreis Traunstein",
+      "state": "Bavaria",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "83324",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": null,
+    "boundingbox": [
+      "47.7324564",
+      "47.7325564",
+      "12.6826402",
+      "12.6827402"
+    ],
+    "expires": 1798342190
   },
   "47.7328067,12.6847537": {
     "place_id": 70123084,
@@ -283781,6 +287614,43 @@
     ],
     "expires": 1795111367
   },
+  "47.7626273,12.5605984": {
+    "place_id": 69930380,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 12367590569,
+    "lat": "47.7627404",
+    "lon": "12.5607137",
+    "class": "amenity",
+    "type": "toilets",
+    "place_rank": 30,
+    "importance": 0.00005084229800865213,
+    "addresstype": "amenity",
+    "name": "",
+    "display_name": "Wasserwandlsteig, Hofalm, Bergen, Bergen (VGem), Landkreis Traunstein, Bavaria, 83346, Germany",
+    "address": {
+      "road": "Wasserwandlsteig",
+      "hamlet": "Hofalm",
+      "city": "Bergen",
+      "municipality": "Bergen (VGem)",
+      "county": "Landkreis Traunstein",
+      "state": "Bavaria",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "83346",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": {
+      "access": "customers"
+    },
+    "boundingbox": [
+      "47.7626904",
+      "47.7627904",
+      "12.5606637",
+      "12.5607637"
+    ],
+    "expires": 1798291865
+  },
   "47.7627036,12.5605695": {
     "place_id": 69674778,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -283817,6 +287687,53 @@
       "12.5607637"
     ],
     "expires": 1795116745
+  },
+  "47.7627132,12.5605579": {
+    "place_id": 70235976,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 101739205,
+    "lat": "47.7626871",
+    "lon": "12.5606898",
+    "class": "aerialway",
+    "type": "station",
+    "place_rank": 30,
+    "importance": 0.00005084229800865213,
+    "addresstype": "aerialway",
+    "name": "Hochfelln Seilbahnen Bergstation",
+    "display_name": "Hochfelln Seilbahnen Bergstation, Wasserwandlsteig, Hofalm, Bergen, Bergen (VGem), Landkreis Traunstein, Bavaria, 83346, Germany",
+    "address": {
+      "aerialway": "Hochfelln Seilbahnen Bergstation",
+      "road": "Wasserwandlsteig",
+      "hamlet": "Hofalm",
+      "city": "Bergen",
+      "municipality": "Bergen (VGem)",
+      "county": "Landkreis Traunstein",
+      "state": "Bavaria",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "83346",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": {
+      "ele": "1654",
+      "building": "service",
+      "wikidata": "Q1411775",
+      "wikipedia": "de:Hochfellnseilbahn",
+      "wheelchair": "limited",
+      "aerialway:access": "both",
+      "public_transport": "station",
+      "toilets:wheelchair": "no",
+      "wheelchair:description": "https://www.hochfellnseilbahn.de/barrierefrei-am-hochfelln",
+      "aerialway:summer:access": "both"
+    },
+    "boundingbox": [
+      "47.7626016",
+      "47.7627836",
+      "12.5605357",
+      "12.5608439"
+    ],
+    "expires": 1798295743
   },
   "47.7635362,11.5556109": {
     "place_id": 69787966,
@@ -283965,6 +287882,46 @@
     ],
     "expires": 1795224399
   },
+  "47.7685982,12.5685334": {
+    "place_id": 70420594,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 107582435,
+    "lat": "47.7686188",
+    "lon": "12.5684765",
+    "class": "amenity",
+    "type": "restaurant",
+    "place_rank": 30,
+    "importance": 0.00005084229800865213,
+    "addresstype": "amenity",
+    "name": "Bründlingalm",
+    "display_name": "Bründlingalm, Hochfellnweg, Bründlingalm, Bergen, Bergen (VGem), Landkreis Traunstein, Bavaria, 83346, Germany",
+    "address": {
+      "amenity": "Bründlingalm",
+      "road": "Hochfellnweg",
+      "hamlet": "Bründlingalm",
+      "city": "Bergen",
+      "municipality": "Bergen (VGem)",
+      "county": "Landkreis Traunstein",
+      "state": "Bavaria",
+      "ISO3166-2-lvl4": "DE-BY",
+      "postcode": "83346",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": {
+      "website": "https://www.bruendlingalm.de/",
+      "building": "yes",
+      "check_date": "2025-10-03"
+    },
+    "boundingbox": [
+      "47.7685593",
+      "47.7686742",
+      "12.5683901",
+      "12.5685604"
+    ],
+    "expires": 1798315968
+  },
   "47.7688879,-122.1890103": {
     "place_id": 327204276,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -284105,7 +288062,7 @@
     "type": "secondary",
     "place_rank": 26,
     "importance": 0.05337625925078199,
-    "addresstype": "road",
+    "addresstype": "secondary",
     "name": "Stottlemeyer Road Northeast",
     "display_name": "Stottlemeyer Road Northeast, Kitsap County, Washington, 98370, United States",
     "address": {
@@ -284127,7 +288084,7 @@
       "-122.6076287",
       "-122.6067710"
     ],
-    "expires": 1794124045
+    "expires": 1798325104
   },
   "47.776844,7.701002": {
     "place_id": 93275127,
@@ -291645,7 +295602,7 @@
     "expires": 1795120998
   },
   "48.0025885,15.1372993": {
-    "place_id": 129692390,
+    "place_id": 129509475,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 29923832,
@@ -291655,7 +295612,7 @@
     "type": "unclassified",
     "place_rank": 26,
     "importance": 0.05338449454489964,
-    "addresstype": "road",
+    "addresstype": "unclassified",
     "name": "",
     "display_name": "Vorderburgstall, Brandstatt, Katastralgemeinde Brandstatt, Scheibbs, Bezirk Scheibbs, Lower Austria, 3270, Austria",
     "address": {
@@ -291679,7 +295636,7 @@
       "15.1241225",
       "15.1388693"
     ],
-    "expires": 1794622647
+    "expires": 1798284676
   },
   "48.0030888,-122.1061691": {
     "place_id": 377955531,
@@ -310813,7 +314770,7 @@
     "expires": 1795144126
   },
   "48.6599768,14.1733581": {
-    "place_id": 422633038,
+    "place_id": 422073631,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 14006121364,
@@ -310825,16 +314782,15 @@
     "importance": 0.000059755092698512514,
     "addresstype": "amenity",
     "name": "Ranč U Tří Anč",
-    "display_name": "Ranč U Tří Anč, Singletrail Marta, Posudov, Frymburk, okres Český Krumlov, South Bohemian Region, Southwest, 382 79, Czechia",
+    "display_name": "Ranč U Tří Anč, Singletrail Marta, Posudov, Frymburk, okres Český Krumlov, South Bohemian Region, 382 79, Czechia",
     "address": {
       "amenity": "Ranč U Tří Anč",
       "road": "Singletrail Marta",
       "village": "Posudov",
-      "county": "okres Český Krumlov",
+      "district": "okres Český Krumlov",
       "ISO3166-2-lvl5": "CZ-312",
-      "state": "South Bohemian Region",
+      "region": "South Bohemian Region",
       "ISO3166-2-lvl4": "CZ-31",
-      "region": "Southwest",
       "postcode": "382 79",
       "country": "Czechia",
       "country_code": "cz"
@@ -310849,7 +314805,7 @@
       "14.1733484",
       "14.1734484"
     ],
-    "expires": 1794662592
+    "expires": 1798293025
   },
   "48.6703389,13.5132279": {
     "place_id": 128951500,
@@ -317030,7 +320986,7 @@
     "expires": 1795382573
   },
   "48.9723808,1.8488602": {
-    "place_id": 96492007,
+    "place_id": 96752946,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 2803664942,
@@ -317071,7 +321027,7 @@
       "1.8489503",
       "1.8490503"
     ],
-    "expires": 1794252222
+    "expires": 1798343621
   },
   "48.974112,5.512677": {
     "place_id": 119725183,
@@ -320924,7 +324880,7 @@
     "type": "secondary",
     "place_rank": 26,
     "importance": 0.05339417944609747,
-    "addresstype": "road",
+    "addresstype": "secondary",
     "name": "East 29th Avenue",
     "display_name": "East 29th Avenue, Renfrew-Collingwood, Vancouver, Metro Vancouver Regional District, British Columbia, V5R 1M5, Canada",
     "address": {
@@ -320957,7 +324913,7 @@
       "-123.0242767",
       "-123.0237477"
     ],
-    "expires": 1794566084
+    "expires": 1798423968
   },
   "49.2546429,19.0427654": {
     "place_id": 183802051,
@@ -321281,7 +325237,7 @@
     "expires": 1795231258
   },
   "49.2713213,-123.1022045": {
-    "place_id": 377032771,
+    "place_id": 378212940,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 36685492,
@@ -321291,11 +325247,12 @@
     "type": "secondary",
     "place_rank": 26,
     "importance": 0.053412030975814415,
-    "addresstype": "road",
+    "addresstype": "secondary",
     "name": "Quebec Street",
-    "display_name": "Quebec Street, Mount Pleasant, Vancouver, Metro Vancouver Regional District, British Columbia, V6A 0J9, Canada",
+    "display_name": "Quebec Street, Olympic Village, Mount Pleasant, Vancouver, Metro Vancouver Regional District, British Columbia, V6A 0J9, Canada",
     "address": {
       "road": "Quebec Street",
+      "neighbourhood": "Olympic Village",
       "suburb": "Mount Pleasant",
       "city": "Vancouver",
       "county": "Metro Vancouver Regional District",
@@ -321323,7 +325280,7 @@
       "-123.1023073",
       "-123.1021189"
     ],
-    "expires": 1794421403
+    "expires": 1798291146
   },
   "49.272322,-123.1857574": {
     "place_id": 378171587,
@@ -322979,7 +326936,7 @@
     "expires": 1795278019
   },
   "49.3643515,20.0926924": {
-    "place_id": 190142485,
+    "place_id": 189546138,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 10289947718,
@@ -323012,7 +326969,7 @@
       "20.0915386",
       "20.0916386"
     ],
-    "expires": 1794690380
+    "expires": 1798359707
   },
   "49.3668984,20.1047882": {
     "place_id": 189568319,
@@ -323397,7 +327354,7 @@
     "expires": 1795137306
   },
   "49.3886668,20.0979838": {
-    "place_id": 189540306,
+    "place_id": 189924659,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 1424239021,
@@ -323436,10 +327393,10 @@
       "20.0954326",
       "20.0989373"
     ],
-    "expires": 1794693910
+    "expires": 1798300783
   },
   "49.3887056,20.0987957": {
-    "place_id": 189378121,
+    "place_id": 189776804,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 2678729771,
@@ -323474,7 +327431,7 @@
       "20.0991681",
       "20.0992681"
     ],
-    "expires": 1794725982
+    "expires": 1798307894
   },
   "49.389912,0.276299": {
     "place_id": 99498863,
@@ -330528,7 +334485,7 @@
       "18.5046053",
       "18.5050451"
     ],
-    "expires": 1794412377
+    "expires": 1798320069
   },
   "50.1275561,14.4199758": {
     "place_id": 131413811,
@@ -337710,7 +341667,7 @@
     "expires": 1796194140
   },
   "50.7916877,15.7617496": {
-    "place_id": 381292481,
+    "place_id": 381446964,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 13727871022,
@@ -337747,7 +341704,7 @@
       "15.7616429",
       "15.7617429"
     ],
-    "expires": 1794558205
+    "expires": 1798298544
   },
   "50.8042117,16.3278808": {
     "place_id": 182979021,
@@ -343731,7 +347688,7 @@
     "expires": 1795134102
   },
   "51.2148745,14.1080476": {
-    "place_id": 133364557,
+    "place_id": 134127377,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 12603603352,
@@ -343765,7 +347722,7 @@
       "14.1079774",
       "14.1080774"
     ],
-    "expires": 1794720422
+    "expires": 1798352633
   },
   "51.2167552,51.3748941": {
     "place_id": 200693318,
@@ -350130,46 +354087,6 @@
     "expires": 1795505517
   },
   "51.8699907,4.0494959": {
-    "place_id": 107929650,
-    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
-    "osm_type": "way",
-    "osm_id": 50960020,
-    "lat": "51.8700310",
-    "lon": "4.0495372",
-    "class": "emergency",
-    "type": "lifeguard",
-    "place_rank": 30,
-    "importance": 0.00005000152590214416,
-    "addresstype": "emergency",
-    "name": "Reddingsbrigade Rockanje",
-    "display_name": "Reddingsbrigade Rockanje, Swinsedreef, Rockanje, Voorne aan Zee, South Holland, Netherlands, 3235 AR, Netherlands",
-    "address": {
-      "emergency": "Reddingsbrigade Rockanje",
-      "road": "Swinsedreef",
-      "village": "Rockanje",
-      "municipality": "Voorne aan Zee",
-      "state": "South Holland",
-      "ISO3166-2-lvl4": "NL-ZH",
-      "country": "Netherlands",
-      "postcode": "3235 AR",
-      "country_code": "nl"
-    },
-    "extratags": {
-      "ref:bag": "0614100000000042",
-      "website": "https://www.reddingsbrigaderockanje.nl/",
-      "building": "yes",
-      "lifeguard": "base",
-      "start_date": "2002"
-    },
-    "boundingbox": [
-      "51.8699625",
-      "51.8700998",
-      "4.0494326",
-      "4.0496416"
-    ],
-    "expires": 1794130375
-  },
-  "51.8700312,4.0494528": {
     "place_id": 107598247,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
@@ -350207,7 +354124,47 @@
       "4.0494326",
       "4.0496416"
     ],
-    "expires": 1794171585
+    "expires": 1798328231
+  },
+  "51.8700312,4.0494528": {
+    "place_id": 107929650,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 50960020,
+    "lat": "51.8700310",
+    "lon": "4.0495372",
+    "class": "emergency",
+    "type": "lifeguard",
+    "place_rank": 30,
+    "importance": 0.00005000152590214416,
+    "addresstype": "emergency",
+    "name": "Reddingsbrigade Rockanje",
+    "display_name": "Reddingsbrigade Rockanje, Swinsedreef, Rockanje, Voorne aan Zee, South Holland, Netherlands, 3235 AR, Netherlands",
+    "address": {
+      "emergency": "Reddingsbrigade Rockanje",
+      "road": "Swinsedreef",
+      "village": "Rockanje",
+      "municipality": "Voorne aan Zee",
+      "state": "South Holland",
+      "ISO3166-2-lvl4": "NL-ZH",
+      "country": "Netherlands",
+      "postcode": "3235 AR",
+      "country_code": "nl"
+    },
+    "extratags": {
+      "ref:bag": "0614100000000042",
+      "website": "https://www.reddingsbrigaderockanje.nl/",
+      "building": "yes",
+      "lifeguard": "base",
+      "start_date": "2002"
+    },
+    "boundingbox": [
+      "51.8699625",
+      "51.8700998",
+      "4.0494326",
+      "4.0496416"
+    ],
+    "expires": 1798376269
   },
   "51.8723962,-3.4799506": {
     "place_id": 280007321,
@@ -369123,6 +373080,80 @@
     ],
     "expires": 1795091872
   },
+  "53.5293952,9.9986708": {
+    "place_id": 142969910,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 12168907316,
+    "lat": "53.5291055",
+    "lon": "9.9984648",
+    "class": "information",
+    "type": "board",
+    "place_rank": 30,
+    "importance": 0.00008255359731436664,
+    "addresstype": "information",
+    "name": "Historische Hafenkrane",
+    "display_name": "Historische Hafenkrane, Australiastraße, Kleiner Grasbrook, Hamburg-Mitte, Hamburg, 20457, Germany",
+    "address": {
+      "information": "Historische Hafenkrane",
+      "road": "Australiastraße",
+      "suburb": "Kleiner Grasbrook",
+      "borough": "Hamburg-Mitte",
+      "city": "Hamburg",
+      "ISO3166-2-lvl4": "DE-HH",
+      "postcode": "20457",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": {
+      "tourism": "information",
+      "board_type": "history"
+    },
+    "boundingbox": [
+      "53.5290555",
+      "53.5291555",
+      "9.9984148",
+      "9.9985148"
+    ],
+    "expires": 1798424193
+  },
+  "53.5294645,9.9986266": {
+    "place_id": 143242444,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 12168907316,
+    "lat": "53.5291055",
+    "lon": "9.9984648",
+    "class": "information",
+    "type": "board",
+    "place_rank": 30,
+    "importance": 0.00008255359731436664,
+    "addresstype": "information",
+    "name": "Historische Hafenkrane",
+    "display_name": "Historische Hafenkrane, Australiastraße, Kleiner Grasbrook, Hamburg-Mitte, Hamburg, 20457, Germany",
+    "address": {
+      "information": "Historische Hafenkrane",
+      "road": "Australiastraße",
+      "suburb": "Kleiner Grasbrook",
+      "borough": "Hamburg-Mitte",
+      "city": "Hamburg",
+      "ISO3166-2-lvl4": "DE-HH",
+      "postcode": "20457",
+      "country": "Germany",
+      "country_code": "de"
+    },
+    "extratags": {
+      "tourism": "information",
+      "board_type": "history"
+    },
+    "boundingbox": [
+      "53.5290555",
+      "53.5291555",
+      "9.9984148",
+      "9.9985148"
+    ],
+    "expires": 1798346869
+  },
   "53.5314259,10.0003347": {
     "place_id": 142337491,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
@@ -373385,7 +377416,7 @@
     "expires": 1795375122
   },
   "54.1760419,15.5685279": {
-    "place_id": 148105336,
+    "place_id": 148118943,
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 3652691877,
@@ -373424,7 +377455,7 @@
       "15.5683167",
       "15.5684167"
     ],
-    "expires": 1794516659
+    "expires": 1798350579
   },
   "54.1776924,7.8896601": {
     "place_id": 150918410,
@@ -376199,6 +380230,42 @@
       "18.8000342"
     ],
     "expires": 1795356049
+  },
+  "54.608726,18.8008407": {
+    "place_id": 433236056,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 14371196872,
+    "lat": "54.6087383",
+    "lon": "18.8008999",
+    "class": "information",
+    "type": "guidepost",
+    "place_rank": 30,
+    "importance": 0.00005727244983592,
+    "addresstype": "information",
+    "name": "",
+    "display_name": "Generała Władysława Sikorskiego, Kolonia Rybacka, Hel, Puck County, Pomeranian Voivodeship, 84-150, Poland",
+    "address": {
+      "road": "Generała Władysława Sikorskiego",
+      "neighbourhood": "Kolonia Rybacka",
+      "town": "Hel",
+      "county": "Puck County",
+      "state": "Pomeranian Voivodeship",
+      "ISO3166-2-lvl4": "PL-22",
+      "postcode": "84-150",
+      "country": "Poland",
+      "country_code": "pl"
+    },
+    "extratags": {
+      "tourism": "information"
+    },
+    "boundingbox": [
+      "54.6086883",
+      "54.6087883",
+      "18.8008499",
+      "18.8009499"
+    ],
+    "expires": 1798433158
   },
   "54.6087307,18.8008367": {
     "place_id": 423294583,
