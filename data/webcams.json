@@ -26929,6 +26929,7 @@
     },
     "url": "http://www.511pa.com/Cameras.aspx",
     "lint": {
+      "unavailable": true,
       "duplicate": true
     }
   },
@@ -114643,7 +114644,10 @@
       "surveillance:zone": "town"
     },
     "operator": "CVJM",
-    "url": "https://www.gaestehaus-victoria.de/borkumer-webcam-auf-den-strand/"
+    "url": "https://www.gaestehaus-victoria.de/borkumer-webcam-auf-den-strand/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 53.5856369,
@@ -208663,7 +208667,7 @@
     "osmID": 12557753328,
     "user": "PinRPG",
     "osmType": "node",
-    "lastChanged": 1738710985000,
+    "lastChanged": 1794771125000,
     "address": {
       "city": "Ottawa",
       "state": "Ontario",
@@ -208675,6 +208679,7 @@
       "contact:webcam": "https://traffic.ottawa.ca/map/cameraWindow?id=252",
       "fixme": "Location not exact",
       "man_made": "surveillance",
+      "name": "Highway 174 east of Montreal",
       "operator": "City of Ottawa",
       "operator:wikidata": "Q5123850",
       "surveillance": "public",
@@ -228007,10 +228012,7 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=fBB25QXTQ-M",
-    "lint": {
-      "youtube": true
-    }
+    "url": "https://www.youtube.com/watch?v=fBB25QXTQ-M"
   },
   {
     "lat": 49.004694,
@@ -228309,7 +228311,10 @@
       "man_made": "surveillance",
       "surveillance:type": "camera"
     },
-    "url": "https://rubtsovskmv.ru/veb-kamera-ploshhad-im-lenina-svetomuzykalnyj-fontan/"
+    "url": "https://rubtsovskmv.ru/veb-kamera-ploshhad-im-lenina-svetomuzykalnyj-fontan/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.2510307,
@@ -273530,6 +273535,36 @@
     "url": "https://www.511pa.com/cctv?start=0&length=10&filters%5B0%5D%5Bi%5D=2&filters%5B0%5D%5Bs%5D=Greater+Philadelphia&filters%5B1%5D%5Bi%5D=3&filters%5B1%5D%5Bs%5D=Montgomery&filters%5B2%5D%5Bi%5D=4&filters%5B2%5D%5Bs%5D=PA+23&order%5Bi"
   },
   {
+    "lat": 45.4154316,
+    "lon": -75.6965399,
+    "osmID": 14039777556,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=64",
+      "indoor": "no",
+      "man_made": "surveillance",
+      "name": "Bank & Somerset",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "panoramax": "6df63077-e691-42d3-b800-d5487d54b00f",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=64"
+  },
+  {
     "lat": 37.6370481,
     "lon": -96.2344337,
     "direction": 155,
@@ -275222,6 +275257,34 @@
     "lint": {
       "duplicate": true
     }
+  },
+  {
+    "lat": 45.4194339,
+    "lon": -75.7076101,
+    "osmID": 14077894030,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "camera:mount": "street_lamp",
+      "camera:type": "dome",
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=180",
+      "man_made": "surveillance",
+      "name": "Bay & Wellington",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=180"
   },
   {
     "lat": 45.4218144,
@@ -287056,5 +287119,135 @@
       "surveillance:type": "camera"
     },
     "url": "https://terra-hd.com/bruendlingalm/"
+  },
+  {
+    "lat": 45.3328361,
+    "lon": -75.809056,
+    "osmID": 14381820415,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=266",
+      "man_made": "surveillance",
+      "name": "Baseline & Cedarview",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=266"
+  },
+  {
+    "lat": 45.4169184,
+    "lon": -75.70325,
+    "osmID": 14381820416,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=399",
+      "man_made": "surveillance",
+      "name": "Laurier & Lyon",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=399"
+  },
+  {
+    "lat": 45.4310147,
+    "lon": -75.6661516,
+    "osmID": 14381820418,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=371",
+      "man_made": "surveillance",
+      "name": "McArthur & Marguerite",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=371"
+  },
+  {
+    "lat": 45.3901099,
+    "lon": -75.6939606,
+    "osmID": 14381820419,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=171",
+      "man_made": "surveillance",
+      "name": "Bronson & Sunnyside",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=171"
+  },
+  {
+    "lat": 45.4187702,
+    "lon": -75.6472362,
+    "osmID": 14381820420,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1794771125000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=115",
+      "man_made": "surveillance",
+      "name": "Belfast & Tremblay",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=115"
   }
 ]
