@@ -2466,12 +2466,12 @@
     }
   },
   {
-    "lat": 53.7790028,
-    "lon": 7.6959058,
+    "lat": 53.7790022,
+    "lon": 7.6959078,
     "osmID": 1259626447,
-    "user": "KrilleOSM",
+    "user": "PM-Spiekeroog",
     "osmType": "node",
-    "lastChanged": 1702734026000,
+    "lastChanged": 1794834185000,
     "address": {
       "city": "Spiekeroog",
       "county": "Landkreis Wittmund",
@@ -8895,33 +8895,32 @@
     }
   },
   {
-    "lat": 69.687434,
-    "lon": 30.004146,
+    "lat": 69.6870886,
+    "lon": 30.001815,
+    "direction": 80,
     "osmID": 1417674465,
-    "user": "Komяpa",
+    "user": "Couldbethere",
     "osmType": "node",
-    "lastChanged": 1318228740000,
+    "lastChanged": 1794832731000,
     "address": {
       "city": "Hesseng",
       "county": "Finnmark",
       "country": "Norway"
     },
     "osmTags": {
-      "fixme": "position",
+      "direction": "80",
       "man_made": "surveillance",
-      "name": "Bjørkheim",
+      "name": "Kirkenes syd",
       "operator": "Statens vegvesen",
+      "operator:wikidata": "Q1468793",
       "ref": "100087",
       "source": "Statens vegvesen",
       "source:url": "http://webkamera.vegvesen.no/metadata",
       "surveillance": "webcam",
-      "website": "http://webkamera.vegvesen.no/kamera?id=100087"
+      "website": "https://kamera.atlas.vegvesen.no/api/images/2000004_1"
     },
     "operator": "Statens vegvesen",
-    "url": "http://webkamera.vegvesen.no/kamera?id=100087",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://kamera.atlas.vegvesen.no/api/images/2000004_1"
   },
   {
     "lat": 59.3499443,
@@ -27927,9 +27926,9 @@
     "lat": 44.5879485,
     "lon": 33.4788415,
     "osmID": 5075147853,
-    "user": "ded vadim",
+    "user": "SergeyLitvinov",
     "osmType": "node",
-    "lastChanged": 1634647107000,
+    "lastChanged": 1794871035000,
     "address": {
       "city": "Sevastopol",
       "state": "Sevastopol",
@@ -27937,7 +27936,7 @@
     },
     "osmTags": {
       "camera:type": "fixed",
-      "check_date": "2021-10-19",
+      "check_date": "2026-11-17",
       "contact:webcam": "http://crimea-media.ru/Web_Sevas_Studgorodok.html",
       "man_made": "surveillance",
       "surveillance": "public",
@@ -31630,7 +31629,6 @@
     "address": {
       "city": "Tirano",
       "county": "Sondrio",
-      "state": "Lombardy",
       "country": "Italy"
     },
     "osmTags": {
@@ -96599,7 +96597,10 @@
       "video": "https://www.youtube.com/watch?v=-sMrYcR9LZE"
     },
     "operator": "WebCam.NL",
-    "url": "https://webcam.nl/oostenrijk/"
+    "url": "https://webcam.nl/oostenrijk/",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 51.9196485,
@@ -105445,6 +105446,7 @@
     "lastChanged": 1655039157000,
     "address": {
       "city": "New York",
+      "county": "Kings County",
       "state": "New York",
       "country": "United States of America"
     },
@@ -114644,10 +114646,7 @@
       "surveillance:zone": "town"
     },
     "operator": "CVJM",
-    "url": "https://www.gaestehaus-victoria.de/borkumer-webcam-auf-den-strand/",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://www.gaestehaus-victoria.de/borkumer-webcam-auf-den-strand/"
   },
   {
     "lat": 53.5856369,
@@ -115880,7 +115879,7 @@
     "lastChanged": 1642853771000,
     "address": {
       "city": "České Budějovice",
-      "state": "South Bohemian Region",
+      "county": "okres České Budějovice",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -228012,7 +228011,10 @@
       "surveillance": "public",
       "surveillance:type": "camera"
     },
-    "url": "https://www.youtube.com/watch?v=fBB25QXTQ-M"
+    "url": "https://www.youtube.com/watch?v=fBB25QXTQ-M",
+    "lint": {
+      "youtube": true
+    }
   },
   {
     "lat": 49.004694,
@@ -265849,7 +265851,7 @@
     "lat": 45.4976045,
     "lon": 6.7726804,
     "osmID": 13650418167,
-    "user": "Matt_TCL",
+    "user": "ZertyMatt",
     "osmType": "node",
     "lastChanged": 1773601588000,
     "address": {
@@ -265871,7 +265873,7 @@
     "lat": 45.4915489,
     "lon": 6.6842385,
     "osmID": 13650489485,
-    "user": "Matt_TCL",
+    "user": "ZertyMatt",
     "osmType": "node",
     "lastChanged": 1773601686000,
     "address": {
@@ -265893,7 +265895,7 @@
     "lat": 45.4939318,
     "lon": 6.7343119,
     "osmID": 13650509811,
-    "user": "Matt_TCL",
+    "user": "ZertyMatt",
     "osmType": "node",
     "lastChanged": 1773601510000,
     "address": {
