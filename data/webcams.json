@@ -847,8 +847,6 @@
     "lastChanged": 1735784026000,
     "address": {
       "city": "Český Krumlov",
-      "county": "okres Český Krumlov",
-      "state": "South Bohemian Region",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -12793,7 +12791,10 @@
       "website": "https://www.leverkusen.de",
       "wheelchair": "yes"
     },
-    "url": "http://www.luminaden.de/webcam-leverkusen.php"
+    "url": "http://www.luminaden.de/webcam-leverkusen.php",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 48.5962271,
@@ -12918,7 +12919,7 @@
     "lastChanged": 1729530079000,
     "address": {
       "city": "České Budějovice",
-      "state": "South Bohemian Region",
+      "county": "okres České Budějovice",
       "country": "Czech Republic"
     },
     "osmTags": {
@@ -32062,7 +32063,6 @@
     "lastChanged": 1667032939000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -41007,7 +41007,7 @@
     "osmType": "node",
     "lastChanged": 1789549335000,
     "address": {
-      "city": "Monton",
+      "city": "Veyre-Monton",
       "county": "Puy-de-Dôme",
       "state": "Auvergne-Rhône-Alpes",
       "country": "France"
@@ -45796,7 +45796,7 @@
     "address": {
       "city": "Vagney",
       "county": "Vosges",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -59952,7 +59952,7 @@
     "osmType": "node",
     "lastChanged": 1745065820000,
     "address": {
-      "city": "Wallau",
+      "city": "Hofheim am Taunus",
       "county": "Main-Taunus-Kreis",
       "state": "Hesse",
       "country": "Germany"
@@ -67196,7 +67196,7 @@
     "osmType": "node",
     "lastChanged": 1657820245000,
     "address": {
-      "city": "Gosbach",
+      "city": "Bad Ditzenbach",
       "county": "Landkreis Göppingen",
       "state": "Baden-Württemberg",
       "country": "Germany"
@@ -70591,7 +70591,7 @@
     "osmType": "node",
     "lastChanged": 1611845526000,
     "address": {
-      "city": "Bihain",
+      "city": "Vielsalm",
       "county": "Bastogne",
       "state": "Luxembourg",
       "country": "Belgium"
@@ -101098,7 +101098,7 @@
     "osmType": "node",
     "lastChanged": 1691467985000,
     "address": {
-      "city": "Kaiteriteri",
+      "city": "Kaiteretere",
       "county": "Tasman District",
       "state": "Tasman",
       "country": "New Zealand"
@@ -121918,7 +121918,6 @@
     "osmType": "node",
     "lastChanged": 1646937420000,
     "address": {
-      "city": "Ramsau am Dachstein",
       "county": "Bezirk Liezen",
       "state": "Styria",
       "country": "Austria"
@@ -188719,7 +188718,7 @@
     "osmType": "node",
     "lastChanged": 1724714787000,
     "address": {
-      "county": "Pike County",
+      "county": "Scott County",
       "state": "Illinois",
       "country": "United States of America"
     },
@@ -202211,7 +202210,6 @@
     "lastChanged": 1727572886000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -260154,6 +260152,7 @@
     "osmType": "node",
     "lastChanged": 1769368580000,
     "address": {
+      "county": "Buskerud",
       "country": "Norway"
     },
     "osmTags": {
@@ -286241,15 +286240,16 @@
     "lat": 45.4122645,
     "lon": -75.693559,
     "osmID": 14368079395,
-    "user": "PinRPG",
+    "user": "sonalr",
     "osmType": "node",
-    "lastChanged": 1794422017000,
+    "lastChanged": 1794959414000,
     "address": {
       "city": "Ottawa",
       "state": "Ontario",
       "country": "Canada"
     },
     "osmTags": {
+      "camera:type": "dome",
       "contact:webcam": "https://traffic.ottawa.ca/camera?id=103",
       "man_made": "surveillance",
       "name": "Bank & Gladstone",
