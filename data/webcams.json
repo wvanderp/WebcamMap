@@ -927,6 +927,7 @@
     "lastChanged": 1758881758000,
     "address": {
       "city": "Baden-Baden",
+      "county": "Baden-Baden",
       "state": "Baden-Württemberg",
       "country": "Germany"
     },
@@ -57506,10 +57507,7 @@
       "surveillance:type": "camera",
       "surveillance:zone": "public"
     },
-    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_553",
-    "lint": {
-      "unavailable": true
-    }
+    "url": "https://cameras.santoandre.sp.gov.br/coi04/ID_553"
   },
   {
     "lat": 51.5798944,
@@ -113093,7 +113091,8 @@
     },
     "url": "https://www.youtube.com/watch?v=mi4S_KatJeo",
     "lint": {
-      "youtube": true
+      "youtube": true,
+      "unavailable": true
     }
   },
   {
@@ -139343,13 +139342,13 @@
     "url": "https://www.foto-webcam.org/webcam/wallberg/"
   },
   {
-    "lat": 47.4024525,
-    "lon": 11.5677091,
+    "lat": 47.4024973,
+    "lon": 11.5675965,
     "direction": 195,
     "osmID": 10717826599,
-    "user": "MichaelFS",
+    "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1691594991000,
+    "lastChanged": 1795613656000,
     "address": {
       "city": "Vomp",
       "county": "Bezirk Schwaz",
@@ -139422,13 +139421,13 @@
     "url": "https://alpenwelt-karwendel.panomax.com/wallgau"
   },
   {
-    "lat": 47.6633348,
-    "lon": 11.5268977,
+    "lat": 47.6628937,
+    "lon": 11.5276031,
     "direction": 100,
     "osmID": 10719509051,
-    "user": "Mapillox",
+    "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1691238872000,
+    "lastChanged": 1795611234000,
     "address": {
       "city": "Lenggries",
       "county": "Landkreis Bad Tölz-Wolfratshausen",
@@ -139439,15 +139438,14 @@
       "camera:direction": "100",
       "camera:mount": "building",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.bergfex.de/brauneck-lenggries/webcams/c8799/",
-      "image": "https://images.bergfex.at/webcams/?id=8226&format=12&2",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=3165",
       "man_made": "surveillance",
       "name": "Webcam Bergstation Brauneck",
       "surveillance": "outdoor",
       "surveillance:type": "camera",
       "website": "https://www.feratel.com/webcams/deutschland/lenggries.html"
     },
-    "url": "https://www.bergfex.de/brauneck-lenggries/webcams/c8799/",
+    "url": "https://webtv.feratel.com/webtv/?cam=3165",
     "lint": {
       "unavailable": true
     }
@@ -144208,9 +144206,9 @@
     "lat": 47.3304721,
     "lon": 11.798037,
     "osmID": 10983929709,
-    "user": "APneunzehn74",
+    "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1687286979000,
+    "lastChanged": 1795612927000,
     "address": {
       "city": "Fügenberg",
       "county": "Bezirk Schwaz",
@@ -144219,13 +144217,14 @@
     },
     "osmTags": {
       "camera:type": "panning",
-      "contact:webcam": "https://www.spieljochbahn.at/service/webcam/",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5545",
       "man_made": "surveillance",
       "surveillance": "outdoor",
       "surveillance:type": "camera",
-      "surveillance:zone": "park"
+      "surveillance:zone": "park",
+      "website": "https://www.spieljochbahn.at/service/webcam/"
     },
-    "url": "https://www.spieljochbahn.at/service/webcam/"
+    "url": "https://webtv.feratel.com/webtv/?cam=5545"
   },
   {
     "lat": 49.6905713,
@@ -152144,7 +152143,7 @@
     "osmID": 11403143522,
     "user": "wogfar",
     "osmType": "node",
-    "lastChanged": 1702040527000,
+    "lastChanged": 1795611796000,
     "address": {
       "city": "Brannenburg",
       "county": "Landkreis Miesbach",
@@ -152154,12 +152153,13 @@
     "osmTags": {
       "camera:direction": "190",
       "camera:type": "fixed",
-      "contact:webcam": "https://www.bergfex.de/wendelstein-bayrischzell/webcams/c10597/",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=3195",
       "man_made": "surveillance",
       "surveillance": "webcam",
-      "surveillance:type": "camera"
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/deutschland/bayern/bayrischzell-wendelstein-3195"
     },
-    "url": "https://www.bergfex.de/wendelstein-bayrischzell/webcams/c10597/"
+    "url": "https://webtv.feratel.com/webtv/?cam=3195"
   },
   {
     "lat": 47.7111171,
@@ -229199,7 +229199,6 @@
     "lastChanged": 1747942283000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -269130,7 +269129,6 @@
     "address": {
       "city": "Castelveccana",
       "county": "Varese",
-      "state": "Lombardy",
       "country": "Italy"
     },
     "osmTags": {
@@ -289199,5 +289197,642 @@
     },
     "operator": "City of Ottawa",
     "url": "https://traffic.ottawa.ca/camera?id=28"
+  },
+  {
+    "lat": 42.3629643,
+    "lon": -122.8855571,
+    "direction": 335,
+    "osmID": 14415575409,
+    "user": "Brian'sPants",
+    "osmType": "node",
+    "lastChanged": 1795597181000,
+    "address": {
+      "city": "Medford",
+      "county": "Jackson County",
+      "state": "Oregon",
+      "country": "United States of America"
+    },
+    "osmTags": {
+      "camera:direction": "335",
+      "camera:mount": "gantry",
+      "camera:type": "fixed",
+      "contact:webcam": "https://tripcheck.com/RoadCams/cams/I-5%20at%20Table%20Rock_pid3359.JPG",
+      "man_made": "surveillance",
+      "name": "I-5 at Table Rock",
+      "operator": "Oregon Department of Transportation",
+      "operator:short": "ODOT",
+      "operator:type": "government",
+      "operator:wikidata": "Q4413096",
+      "ref": "3359",
+      "surveillance": "traffic",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://www.tripcheck.com/"
+    },
+    "operator": "Oregon Department of Transportation",
+    "url": "https://tripcheck.com/RoadCams/cams/I-5%20at%20Table%20Rock_pid3359.JPG"
+  },
+  {
+    "lat": 47.0392848,
+    "lon": 10.5634597,
+    "direction": 120,
+    "osmID": 14416024943,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795606076000,
+    "address": {
+      "city": "Serfaus",
+      "county": "Bezirk Landeck",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "120",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5688",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5688"
+  },
+  {
+    "lat": 47.0751808,
+    "lon": 10.5886019,
+    "direction": 320,
+    "osmID": 14416131813,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795607750000,
+    "address": {
+      "city": "Fiss",
+      "county": "Bezirk Landeck",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "320",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5540",
+      "man_made": "surveillance",
+      "name": "Webcam Schönjoch 2436m",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5540"
+  },
+  {
+    "lat": 47.0491323,
+    "lon": 10.5657323,
+    "direction": 180,
+    "osmID": 14416132112,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795607266000,
+    "address": {
+      "city": "Serfaus",
+      "county": "Bezirk Landeck",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "180",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5680",
+      "fixme": "Standort geschätzt",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5680"
+  },
+  {
+    "lat": 47.0483822,
+    "lon": 10.5480762,
+    "direction": 210,
+    "osmID": 14416144078,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795608083000,
+    "address": {
+      "city": "Serfaus",
+      "county": "Bezirk Landeck",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "210",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5682",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5682"
+  },
+  {
+    "lat": 47.2902666,
+    "lon": 11.6760992,
+    "direction": 300,
+    "osmID": 14416240591,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795613273000,
+    "address": {
+      "city": "Weerberg",
+      "county": "Bezirk Schwaz",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "300",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5783",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/weerberg-huettegglift-5783"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5783"
+  },
+  {
+    "lat": 47.6443753,
+    "lon": 11.0549053,
+    "direction": 0,
+    "osmID": 14416243114,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795611486000,
+    "address": {
+      "city": "Bad Kohlgrub",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=3145",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/deutschland/bayern/bad-kohlgrub-bergstation-hoernle-schwebebahn-3145"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=3145"
+  },
+  {
+    "lat": 47.6458434,
+    "lon": 12.148383,
+    "direction": 45,
+    "osmID": 14416249982,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795612030000,
+    "address": {
+      "city": "Oberaudorf",
+      "county": "Landkreis Rosenheim",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "45",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=3065",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/deutschland/bayern/oberaudorf-hocheck-3065"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=3065"
+  },
+  {
+    "lat": 47.7517261,
+    "lon": 12.348461,
+    "direction": 60,
+    "osmID": 14416258523,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795612383000,
+    "address": {
+      "city": "Aschau im Chiemgau",
+      "county": "Landkreis Rosenheim",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "60",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=3010",
+      "fixme": "Standort geschätzt",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/deutschland/bayern/aschau-kampenwandbahn-3010"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=3010"
+  },
+  {
+    "lat": 47.6608458,
+    "lon": 12.2967639,
+    "direction": 240,
+    "osmID": 14416275301,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795612161000,
+    "address": {
+      "city": "Walchsee",
+      "county": "Bezirk Kufstein",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "240",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5614",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/walchsee-moorgebiet-schwemm-5614"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5614"
+  },
+  {
+    "lat": 47.473449,
+    "lon": 11.0280248,
+    "direction": 230,
+    "osmID": 14416303357,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795613883000,
+    "address": {
+      "city": "Grainau",
+      "county": "Landkreis Garmisch-Partenkirchen",
+      "state": "Bavaria",
+      "country": "Germany"
+    },
+    "osmTags": {
+      "camera:direction": "230",
+      "camera:mount": "roof",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=3008",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/deutschland/bayern/grainau-dorf-grainau-3008"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=3008"
+  },
+  {
+    "lat": 47.2822833,
+    "lon": 11.652371,
+    "direction": 0,
+    "osmID": 14416313772,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795613448000,
+    "address": {
+      "city": "Kolsassberg",
+      "county": "Bezirk Innsbruck-Land",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5789",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/kolsassberg-jaegerhof-5789"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5789"
+  },
+  {
+    "lat": 47.4020792,
+    "lon": 11.5675817,
+    "direction": 250,
+    "osmID": 14416323448,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795613656000,
+    "address": {
+      "city": "Vomp",
+      "county": "Bezirk Schwaz",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "250",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5788",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/hinterriss-eng-5788"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5788"
+  },
+  {
+    "lat": 47.3838272,
+    "lon": 10.9689725,
+    "direction": 290,
+    "osmID": 14416330887,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795614133000,
+    "address": {
+      "city": "Ehrwald",
+      "county": "Bezirk Reutte",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "290",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5741",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/ehrwalder-alm-5741"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5741"
+  },
+  {
+    "lat": 47.3799386,
+    "lon": 10.993278,
+    "direction": 0,
+    "osmID": 14416358616,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795614275000,
+    "address": {
+      "city": "Mieming",
+      "county": "Bezirk Imst",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "0",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5743",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/ehrwald-feldernalm-5743"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5743"
+  },
+  {
+    "lat": 47.4182806,
+    "lon": 10.7614837,
+    "direction": 270,
+    "osmID": 14416394952,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795615174000,
+    "address": {
+      "city": "Heiterwang",
+      "county": "Bezirk Reutte",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5515",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/berwang-sonnalmbahn-bergstation-5515"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5515"
+  },
+  {
+    "lat": 47.4227729,
+    "lon": 10.7363488,
+    "direction": 150,
+    "osmID": 14416394953,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795615174000,
+    "address": {
+      "city": "Berwang",
+      "county": "Bezirk Reutte",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "150",
+      "camera:mount": "wall",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5518",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/berwang-obere-karbahn-5518"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5518"
+  },
+  {
+    "lat": 47.4151031,
+    "lon": 10.7400754,
+    "direction": 270,
+    "osmID": 14416394954,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795615174000,
+    "address": {
+      "city": "Berwang",
+      "county": "Bezirk Reutte",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "270",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5517",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/berwang-thanellerbahn-5517"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5517"
+  },
+  {
+    "lat": 47.4116962,
+    "lon": 10.746258,
+    "direction": 90,
+    "osmID": 14416394955,
+    "user": "wogfar",
+    "osmType": "node",
+    "lastChanged": 1795615174000,
+    "address": {
+      "county": "Bezirk Reutte",
+      "state": "Tyrol",
+      "country": "Austria"
+    },
+    "osmTags": {
+      "camera:direction": "90",
+      "camera:type": "panning",
+      "contact:webcam": "https://webtv.feratel.com/webtv/?cam=5516",
+      "man_made": "surveillance",
+      "surveillance": "webcam",
+      "surveillance:type": "camera",
+      "website": "https://www.feratel.com/webcams/oesterreich/tirol/berwang-egghof-sunjet-5516"
+    },
+    "url": "https://webtv.feratel.com/webtv/?cam=5516"
+  },
+  {
+    "lat": 45.230101,
+    "lon": -75.6818137,
+    "osmID": 14418794304,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795653414000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=354",
+      "man_made": "surveillance",
+      "name": "Bridge & Long Island / Van Vliet",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=354"
+  },
+  {
+    "lat": 45.3448264,
+    "lon": -75.8146187,
+    "osmID": 14418794305,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795653414000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=309",
+      "man_made": "surveillance",
+      "name": "Holly Acres & Transitway",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=309"
+  },
+  {
+    "lat": 45.4480761,
+    "lon": -75.480515,
+    "osmID": 14418794306,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795653414000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=389",
+      "man_made": "surveillance",
+      "name": "Tenth Line & Décoeur / Southfield",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=389"
+  },
+  {
+    "lat": 45.3806018,
+    "lon": -75.7466738,
+    "osmID": 14418794307,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795653414000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=160",
+      "man_made": "surveillance",
+      "name": "Carling & Churchill",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=160"
+  },
+  {
+    "lat": 45.3418624,
+    "lon": -75.8266847,
+    "osmID": 14418794308,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795653414000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=2026",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 east of Moodie Drive",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "url": "https://traffic.ottawa.ca/camera?id=2026"
+  },
+  {
+    "lat": 45.3774388,
+    "lon": -75.7747372,
+    "osmID": 14418794309,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795653414000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=102",
+      "man_made": "surveillance",
+      "name": "Woodroffe & Byron",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=102"
   }
 ]
