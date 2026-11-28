@@ -1477,7 +1477,7 @@
     "address": {
       "city": "Orschwiller",
       "county": "Bas-Rhin",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -159631,7 +159631,7 @@
     "address": {
       "city": "Sainte-Marie-aux-Mines",
       "county": "Haut-Rhin",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -173810,6 +173810,7 @@
     "address": {
       "city": "Hőgyész",
       "county": "Tolna",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -199082,7 +199083,7 @@
     "address": {
       "city": "Saulxures",
       "county": "Bas-Rhin",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -199242,7 +199243,7 @@
     "address": {
       "city": "Saales",
       "county": "Bas-Rhin",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -199376,7 +199377,7 @@
     "address": {
       "city": "Bellefosse",
       "county": "Bas-Rhin",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -199411,7 +199412,7 @@
     "address": {
       "city": "Bellefosse",
       "county": "Bas-Rhin",
-      "state": "Grand Est",
+      "state": "Great East",
       "country": "France"
     },
     "osmTags": {
@@ -212153,6 +212154,7 @@
     "address": {
       "city": "Martonvásár",
       "county": "Fejér",
+      "state": "Transdanubia",
       "country": "Hungary"
     },
     "osmTags": {
@@ -229061,7 +229063,6 @@
     "lastChanged": 1747871924000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -229091,7 +229092,6 @@
     "lastChanged": 1747942283000,
     "address": {
       "city": "Budapest",
-      "county": "Budapest",
       "country": "Hungary"
     },
     "osmTags": {
@@ -234222,7 +234222,7 @@
     "osmType": "node",
     "lastChanged": 1753341917000,
     "address": {
-      "city": "Rio del Mar",
+      "city": "Aptos Hills-Larkin Valley",
       "county": "Santa Cruz County",
       "state": "California",
       "country": "United States of America"
@@ -246822,7 +246822,10 @@
       "surveillance:type": "camera"
     },
     "operator": "Florida Department of Transportation",
-    "url": "https://dis-se1.divas.cloud:8200/chan-6310_h/index.m3u8;https://fl511.com/map/Cctv/771"
+    "url": "https://dis-se1.divas.cloud:8200/chan-6310_h/index.m3u8;https://fl511.com/map/Cctv/771",
+    "lint": {
+      "unavailable": true
+    }
   },
   {
     "lat": 27.894826,
@@ -284668,9 +284671,9 @@
     "lat": 45.313662,
     "lon": -75.7994937,
     "osmID": 14357350327,
-    "user": "PinRPG",
+    "user": "zzptichka",
     "osmType": "node",
-    "lastChanged": 1794086372000,
+    "lastChanged": 1795821057000,
     "address": {
       "city": "Ottawa",
       "state": "Ontario",
@@ -284679,7 +284682,7 @@
     "osmTags": {
       "contact:webcam": "https://traffic.ottawa.ca/camera?id=88",
       "man_made": "surveillance",
-      "name": "Cedarview &  Hunt Club",
+      "name": "Cedarview & Hunt Club",
       "operator": "City of Ottawa",
       "operator:wikidata": "Q5123850",
       "surveillance": "public",
@@ -287469,7 +287472,7 @@
     "osmID": 14395538779,
     "user": "Rolbär",
     "osmType": "node",
-    "lastChanged": 1795092232000,
+    "lastChanged": 1795777527000,
     "address": {
       "city": "Irdning-Donnersbachtal",
       "county": "Bezirk Liezen",
@@ -287479,13 +287482,13 @@
     "osmTags": {
       "camera:direction": "45",
       "camera:type": "fixed",
-      "contact:webcam": "https://riesneralm.panomax.com/",
+      "contact:webcam": "https://riesneralm.panomax.com",
       "man_made": "surveillance",
       "name": "Panomax Riesneralm",
       "surveillance": "outdoor",
       "surveillance:type": "camera"
     },
-    "url": "https://riesneralm.panomax.com/"
+    "url": "https://riesneralm.panomax.com"
   },
   {
     "lat": 45.2696041,
@@ -287905,9 +287908,9 @@
     "lon": 12.2410483,
     "direction": 25,
     "osmID": 14406091677,
-    "user": "jemand007",
+    "user": "FroschForscher",
     "osmType": "node",
-    "lastChanged": 1795361792000,
+    "lastChanged": 1795799659000,
     "address": {
       "city": "Graal-Müritz",
       "county": "Landkreis Rostock",
@@ -287919,7 +287922,7 @@
       "camera:mount": "building",
       "camera:type": "fixed",
       "contact:webcam": "https://www.graal-mueritz.de/webcam-graal-mueritz/",
-      "hight": "12",
+      "height": "12",
       "man_made": "surveillance",
       "surveillance": "public",
       "surveillance:type": "camera",
@@ -290304,5 +290307,178 @@
     },
     "operator": "City of Ottawa",
     "url": "https://traffic.ottawa.ca/camera?id=197"
+  },
+  {
+    "lat": 45.4541355,
+    "lon": -75.5037755,
+    "osmID": 14422730477,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795762699000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=383",
+      "man_made": "surveillance",
+      "name": "Mer Bleue & Roger Pharand",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=383"
+  },
+  {
+    "lat": 45.3376647,
+    "lon": -75.8421595,
+    "osmID": 14422730478,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795762699000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=2027",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 near Moodie Drive",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "url": "https://traffic.ottawa.ca/camera?id=2027"
+  },
+  {
+    "lat": 45.4237144,
+    "lon": -75.6204587,
+    "osmID": 14425647034,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795837899000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=2016",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 near Aviation Parkway",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "url": "https://traffic.ottawa.ca/camera?id=2016"
+  },
+  {
+    "lat": 45.3430428,
+    "lon": -75.8425038,
+    "osmID": 14425647035,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795837899000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=20",
+      "man_made": "surveillance",
+      "name": "Corkstown & Moodie",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=20"
+  },
+  {
+    "lat": 45.3613357,
+    "lon": -75.7400219,
+    "osmID": 14425647036,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795837899000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=59",
+      "man_made": "surveillance",
+      "name": "Baseline & Clyde",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=59"
+  },
+  {
+    "lat": 45.4139549,
+    "lon": -75.6109387,
+    "osmID": 14425647037,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795837899000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=2015",
+      "man_made": "surveillance",
+      "name": "(MTO) Hwy 417 near Innes Rd",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "url": "https://traffic.ottawa.ca/camera?id=2015"
+  },
+  {
+    "lat": 45.4106224,
+    "lon": -75.6896223,
+    "osmID": 14425647038,
+    "user": "PinRPG",
+    "osmType": "node",
+    "lastChanged": 1795837899000,
+    "address": {
+      "city": "Ottawa",
+      "state": "Ontario",
+      "country": "Canada"
+    },
+    "osmTags": {
+      "contact:webcam": "https://traffic.ottawa.ca/camera?id=213",
+      "man_made": "surveillance",
+      "name": "Catherine & O'Connor",
+      "operator": "City of Ottawa",
+      "operator:wikidata": "Q5123850",
+      "surveillance": "public",
+      "surveillance:type": "camera",
+      "surveillance:zone": "traffic",
+      "website": "https://traffic.ottawa.ca/en/traffic-map-data-lists-and-resources/traffic-camera-locations"
+    },
+    "operator": "City of Ottawa",
+    "url": "https://traffic.ottawa.ca/camera?id=213"
   }
 ]
